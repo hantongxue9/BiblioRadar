@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(USE_MOCK=true python *)",
+      "Bash(python *)",
+      "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); print\\('Fields:', list\\(data[0].keys\\(\\)\\)\\)\")",
+      "Bash(python3 *)",
+      "WebSearch",
+      "Bash(tasklist)"
+    ]
+  }
+}

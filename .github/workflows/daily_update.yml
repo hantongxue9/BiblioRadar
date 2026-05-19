@@ -1,0 +1,80 @@
+# Scholar-Radar 每日自动更新工作流
+#
+# 功能：每天北京时间早上 6 点自动运行 Python 脚本抓取并评估论文，
+#       更新 data.json 后构建前端，部署到 GitHub Pages。
+#
+# 部署说明（Vercel）：
+#   Vercel 只需要绑定 GitHub 仓库即可自动部署。
+#   重点是确保构建产出目录为 dist/（Vite 默认值），
+#   Vercel 会自动检测 Vite 项目并使用正确的构建命令。
+
+name: Daily Update
+
+on:
+  schedule:
+    # 每天北京时间早上 6:00（UTC 22:00 前一天）
+    - cron: '0 22 * * *'
+  workflow_dispatch:  # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装 Python 依赖
+        run: pip install -r backend/requirements.txt
+
+      - name: 设置 Node.js 环境
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: 安装前端依赖
+        run: npm ci
+
+      - name: 运行数据更新脚本
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          MIN_SCORE_AVG: '6.0'
+          FILTER_AFFILIATION: 'false'
+          WEIGHT_FRONTIER: '0.40'
+          WEIGHT_PRACTICAL: '0.35'
+          WEIGHT_RIGOR: '0.25'
+          FEATURED_THRESHOLD: '7.5'
+          MAX_TOTAL_ITEMS: '500'
+        run: python backend/main.py
+
+      - name: 配置 Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: 提交更新的 data.json
+        run: |
+          git add public/data.json
+          # 如果有变更才提交，避免空提交
+          git diff --cached --quiet || git commit -m "chore: update paper data $(date +%Y-%m-%d)"
+          git push
+
+      - name: 构建前端
+        run: npm run build
+
+      - name: 部署到 GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
