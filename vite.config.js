@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [vue()],
-  base: '/scholar-radar/',
-})
+  base: mode === 'production' ? '/scholar-radar/' : '/',
+}))
