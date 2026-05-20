@@ -69,8 +69,8 @@ const selectedItem = ref(null)
 
 onMounted(async () => {
   const [papersRes, reportsRes] = await Promise.all([
-    fetch('/data.json').catch(() => null),
-    fetch('/daily_reports.json').catch(() => null),
+    fetch('data.json').catch(() => null),
+    fetch('daily_reports.json').catch(() => null),
   ])
 
   if (papersRes?.ok) papers.value = await papersRes.json()
