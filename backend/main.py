@@ -26,7 +26,7 @@ from scraper import (
     fetch_mock_papers,
     fetch_mock_news,
 )
-from llm_evaluator import evaluate_papers, evaluate_news
+from llm_evaluator import evaluate_papers, evaluate_news, generate_daily_report
 
 
 # ============================================================
@@ -34,6 +34,7 @@ from llm_evaluator import evaluate_papers, evaluate_news
 # ============================================================
 
 OUTPUT_PATH = Path(__file__).resolve().parent.parent / "public" / "data.json"
+DAILY_REPORTS_PATH = OUTPUT_PATH.parent / "daily_reports.json"
 
 USE_MOCK = os.environ.get("USE_MOCK", "false").lower() == "true"
 FILTER_AFFILIATION = os.environ.get("FILTER_AFFILIATION", "false").lower() == "true"
@@ -118,6 +119,24 @@ def compute_composite_score(item: dict) -> dict:
     return item
 
 
+def load_daily_reports() -> list:
+    """加载已有的 daily_reports.json"""
+    if DAILY_REPORTS_PATH.exists():
+        try:
+            with open(DAILY_REPORTS_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except (json.JSONDecodeError, IOError):
+            return []
+    return []
+
+
+def save_daily_reports(reports: list):
+    """写入 daily_reports.json"""
+    DAILY_REPORTS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(DAILY_REPORTS_PATH, "w", encoding="utf-8") as f:
+        json.dump(reports, f, ensure_ascii=False, indent=2)
+
+
 def main():
     """主流程：抓取论文 + 资讯 → 评估 → 综合分 → 写入"""
     print(f"[main] Scholar-Radar 数据更新开始 {datetime.now().isoformat()}")
@@ -189,6 +208,33 @@ def main():
         json.dump(merged, f, ensure_ascii=False, indent=2)
 
     print(f"[main] 已写入 {len(merged)} 条到 {OUTPUT_PATH}")
+
+    # 第八步：生成日报
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    print(f"[main] 生成 {today_str} 日报...")
+    report = generate_daily_report(evaluated, model=LLM_MODEL)
+    if report:
+        reports = load_daily_reports()
+        reports = [r for r in reports if r.get("date") != today_str]
+        papers_count = sum(1 for i in evaluated if i.get("content_type") == "paper")
+        news_count = sum(1 for i in evaluated if i.get("content_type") == "news")
+        featured_count = sum(1 for i in evaluated if i.get("featured"))
+        reports.append({
+            "date": today_str,
+            "summary": report["summary"],
+            "highlights": report["highlights"],
+            "stats": {
+                "papers": papers_count,
+                "news": news_count,
+                "featured": featured_count,
+            },
+        })
+        reports.sort(key=lambda r: r["date"], reverse=True)
+        save_daily_reports(reports)
+        print(f"[main] 日报已写入 {DAILY_REPORTS_PATH}")
+    else:
+        print(f"[main] 日报生成失败，跳过")
+
     print(f"[main] 数据更新完成")
 
 

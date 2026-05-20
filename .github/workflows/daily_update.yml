@@ -68,9 +68,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: 提交更新的 data.json
+      - name: 提交更新的数据文件
         run: |
-          git add public/data.json
+          git add public/data.json public/daily_reports.json
           # 如果有变更才提交，避免空提交
           git diff --cached --quiet || git commit -m "chore: update paper data $(date +%Y-%m-%d)"
           git push

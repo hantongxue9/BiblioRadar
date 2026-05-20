@@ -453,6 +453,97 @@ def evaluate_news(
     return passed
 
 
+# ============================================================
+# 日报生成
+# ============================================================
+
+DAILY_REPORT_SYSTEM_PROMPT = """你是图情领域的行业分析师。根据今日收录的精选文献和资讯，生成一份简洁的日报摘要。
+
+要求：
+- summary: 200-300字，概述今日图情领域的主要发现和趋势
+- highlights: 3-5个要点，每个不超过30字
+- 使用中文，禁止互联网黑话（赋能、闭环、底层逻辑、杠杆效应、降本增效等）
+- 使用学术界通用的专业表述
+
+你必须且只能输出以下 JSON 格式，不要输出任何其他内容：
+
+{
+  "summary": "今日图情领域...",
+  "highlights": ["要点1", "要点2", "要点3"]
+}"""
+
+
+def generate_daily_report(
+    items: List[Dict], model: str = "mimo-v2.5-pro"
+) -> Optional[Dict]:
+    """
+    根据当天条目生成日报摘要。
+
+    Args:
+        items: 当天评估通过的条目列表
+        model: 模型名称
+
+    Returns:
+        包含 summary 和 highlights 的字典，失败返回 None
+    """
+    if not items:
+        return None
+
+    client = create_client()
+
+    papers = [i for i in items if i.get("content_type") == "paper"]
+    news = [i for i in items if i.get("content_type") == "news"]
+    featured = [i for i in items if i.get("featured")]
+
+    # 优先用精选条目，最多取 15 条避免 prompt 过长
+    report_items = featured if featured else items
+    report_items = report_items[:15]
+
+    lines = [f"今日收录 {len(papers)} 篇论文、{len(news)} 条资讯，精选 {len(featured)} 篇。\n"]
+    for item in report_items:
+        lines.append(
+            f"- [{item.get('category', '')}] {item.get('title', '')}："
+            f"{item.get('one_sentence_summary', '')}"
+        )
+    user_prompt = "\n".join(lines)
+
+    try:
+        content = ""
+        for attempt in range(3):
+            response = client.chat.completions.create(
+                model=model,
+                messages=[
+                    {"role": "user", "content": DAILY_REPORT_SYSTEM_PROMPT + "\n\n" + user_prompt},
+                ],
+                temperature=0.5,
+                max_tokens=1000,
+            )
+            content = response.choices[0].message.content or ""
+            content = content.strip()
+            if content:
+                break
+            print(f"[llm] 日报生成第 {attempt + 1} 次尝试返回空内容，重试...")
+
+        result = _extract_json(content)
+        if result is None:
+            print(f"[llm] 日报 JSON 提取失败，原始回复: {content[:200]}")
+            return None
+
+        if "summary" not in result or "highlights" not in result:
+            print(f"[llm] 日报缺少必要字段: {result.keys()}")
+            return None
+
+        if not isinstance(result["summary"], str) or not isinstance(result["highlights"], list):
+            print(f"[llm] 日报字段类型错误")
+            return None
+
+        return result
+
+    except Exception as e:
+        print(f"[llm] 日报生成失败: {e}")
+        return None
+
+
 if __name__ == "__main__":
     # 测试：用 mock 数据评估
     from scraper import fetch_mock_papers
