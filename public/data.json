@@ -2200,6 +2200,28 @@
     "id": 498
   },
   {
+    "title": "Taming the Black Swan: A Momentum-Gated Hierarchical Optimisation Framework for Asymmetric Alpha Generation",
+    "abstract": "arXiv:2604.09060v2 Announce Type: replace-cross \nAbstract: Conventional momentum strategies, despite their proven efficacy in generating alpha, frequently suffer from the \"Winner's Curse\", a structural vulnerability in which high performing assets exhibit clustered volatility and severe drawdowns during market reversals. To counteract this propensity for momentum crashes, this study presents the Adaptive Equity Generation and Immunisation System (AEGIS), a novel framework that fundamentally reengineers the trade-off between growth and stability. By leveraging a volatility-adjusted momentum filter to identify trend strength and employing a minimax correlation algorithm to enforce structural diversification, the model utilises sequential least squares programming (SLSQP) to optimise capital allocation for the sortino ratio. This architecture allows the portfolio to dynamically adapt to distinct market regimes: explicitly lowering the intensity of crashes during bear markets by decoupling correlated risks, while retaining asymmetric upside participation during bull runs. Empirical validation via a comprehensive 20-year walk-forward backtest (2006-2025), which covers significant stress events like the 2008 Global Financial Crisis, confirms that the framework produces substantial excess alpha relative to the standard S&amp;P 500 benchmark. Notably, the strategy successfully matched the capital appreciation of the high-beta NASDAQ-100 index while achieving significantly reduced downside volatility and improved structural resilience. These results suggest that synthetic beta can be effectively engineered through mathematical regularisation, enabling investors to capture the high-growth characteristics of concentrated portfolios while preserving the defensive stability typically associated with broad-market diversification.",
+    "date": "2026-05-19",
+    "link": "https://arxiv.org/abs/2604.09060",
+    "affiliations": "",
+    "source": "arXiv - Information Retrieval",
+    "tier": "C",
+    "field": "information_retrieval",
+    "content_type": "paper",
+    "category": "AI应用",
+    "thinking": "论文在金融投资优化领域采用了前沿的数学优化和动态调整技术，如SLSQP算法和波动率调整，技术层面较为先进。然而，其核心应用场景是金融投资组合管理，与图书馆及信息科学（LIS）领域的直接业务关联较弱，降低了对图情实践的落地价值。研究方法方面，使用20年跨市场回测并覆盖金融危机事件，验证过程较为严谨。",
+    "scores": {
+      "frontier_tech": 7,
+      "practical_value": 5,
+      "methodological_rigor": 8
+    },
+    "one_sentence_summary": "论文提出一个动态投资组合优化框架，通过动量滤波和风险控制，在市场下跌时降低损失并保持上涨收益潜力。",
+    "composite_score": 6.6,
+    "featured": false,
+    "id": 499
+  },
+  {
     "title": "Filter, Not Funnel: What Zero-click Means for Brand and Engagement",
     "abstract": "<p>The threat of zero-click search makes organizational brand more important than ever and presents a huge opportunity.</p>\n<p>The post <a href=\"https://scholarlykitchen.sspnet.org/2026/05/18/filter-not-funnel-what-zero-click-means-for-brand-and-engagement/\">Filter, Not Funnel: What Zero-click Means for Brand and Engagement</a> appeared first on <a href=\"https://scholarlykitchen.sspnet.org\">The Scholarly Kitchen</a>.</p>",
     "date": "2026-05-18",
@@ -10954,5 +10976,27 @@
     "composite_score": 6.0,
     "featured": false,
     "id": 497
+  },
+  {
+    "title": "Search All Resources",
+    "abstract": "",
+    "date": null,
+    "link": "https://libereurope.eu/resources/",
+    "affiliations": "",
+    "source": "LIBER News",
+    "tier": "C",
+    "field": "library_policy",
+    "content_type": "news",
+    "category": "政策标准",
+    "thinking": "由于资讯内容缺失，仅凭标题和元数据无法准确评估时效性和信息价值。来源LIBER News和领域library_policy与图情领域直接相关，但具体细节未知影响信息价值。",
+    "scores": {
+      "timeliness": 4,
+      "relevance": 8,
+      "information_value": 3
+    },
+    "one_sentence_summary": "LIBER News发布了关于图书馆政策中搜索所有资源的相关资讯。",
+    "composite_score": 5.3,
+    "featured": false,
+    "id": 500
   }
 ]
