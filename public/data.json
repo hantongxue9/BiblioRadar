@@ -2178,6 +2178,28 @@
     "id": 467
   },
   {
+    "title": "The Matthew effect in AI summary",
+    "abstract": "<p>At the heart of AI applications to scholarly communication are processes of summarisation and the ranking &#160;of “too much” information. Considering how unequal dynamics of attention, such as the Matthew &#8230; <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences/2026/05/19/the-matthew-effect-in-ai-summary/\">Continued</a></p>\n<p>The post <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences/2026/05/19/the-matthew-effect-in-ai-summary/\">The Matthew effect in AI summary</a> first appeared on <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences\">LSE Impact</a>.</p>",
+    "date": "2026-05-19",
+    "link": "https://blogs.lse.ac.uk/impactofsocialsciences/2026/05/19/the-matthew-effect-in-ai-summary/",
+    "affiliations": "",
+    "source": "LSE Impact Blog",
+    "tier": "C",
+    "field": "academic_impact",
+    "content_type": "news",
+    "category": "观点评论",
+    "thinking": "该资讯发布日期为2026年，相对于当前时间并非近期新闻，时效性较低。内容聚焦AI在学术传播中的总结和排名过程，涉及注意力不平等现象，与图情领域的信息组织、传播研究高度相关。文章提供了对AI应用潜在影响的分析，对从业者理解行业趋势有一定价值。",
+    "scores": {
+      "timeliness": 3,
+      "relevance": 9,
+      "information_value": 8
+    },
+    "one_sentence_summary": "文章分析AI在学术信息总结中可能加剧的注意力不平等问题，即马太效应。",
+    "composite_score": 6.9,
+    "featured": false,
+    "id": 498
+  },
+  {
     "title": "Filter, Not Funnel: What Zero-click Means for Brand and Engagement",
     "abstract": "<p>The threat of zero-click search makes organizational brand more important than ever and presents a huge opportunity.</p>\n<p>The post <a href=\"https://scholarlykitchen.sspnet.org/2026/05/18/filter-not-funnel-what-zero-click-means-for-brand-and-engagement/\">Filter, Not Funnel: What Zero-click Means for Brand and Engagement</a> appeared first on <a href=\"https://scholarlykitchen.sspnet.org\">The Scholarly Kitchen</a>.</p>",
     "date": "2026-05-18",
@@ -3520,6 +3542,28 @@
     "id": 469
   },
   {
+    "title": "Information behavior patterns and subjective digital well‐being: An exploratory study on perceptions of adults living in Germany",
+    "abstract": "",
+    "date": "2026-05-01",
+    "link": "https://doi.org/10.1002/asi.70060",
+    "affiliations": "Leyla Dewitz",
+    "source": "JASIST",
+    "tier": "A",
+    "field": "information_science",
+    "content_type": "paper",
+    "category": "用户行为",
+    "thinking": "论文聚焦于信息行为与数字幸福感这一新兴交叉领域，研究视角具有前沿性，但作为探索性研究，其技术手段的创新性有限。研究具有明确的实践指导意义，有助于信息机构优化服务以促进用户福祉，但因未展示具体干预方案，落地性有所折扣。方法上采用探索性设计，可能通过访谈或问卷收集数据，严谨性符合规范，但作为探索性研究，其广度与验证深度或有一定限制。",
+    "scores": {
+      "frontier_tech": 5,
+      "practical_value": 6,
+      "methodological_rigor": 7
+    },
+    "one_sentence_summary": "该研究探讨了德国成年人的信息行为模式如何影响其主观数字幸福感。",
+    "composite_score": 5.8,
+    "featured": false,
+    "id": 492
+  },
+  {
     "title": "Guest Post — SSP Annual Meeting: The Highlights are Coming",
     "abstract": "<p>Today, members of SSP's 48th Annual Meeting Program Committee share reflections for all attendees -- including those joining the Highlights Webinar on June 17, 2026.</p>\n<p>The post <a href=\"https://scholarlykitchen.sspnet.org/2026/04/30/guest-post-ssp-annual-meeting-the-highlights-are-coming/\">Guest Post — SSP Annual Meeting: The Highlights are Coming</a> appeared first on <a href=\"https://scholarlykitchen.sspnet.org\">The Scholarly Kitchen</a>.</p>",
     "date": "2026-04-30",
@@ -3958,6 +4002,28 @@
     "composite_score": 6.4,
     "featured": false,
     "id": 490
+  },
+  {
+    "title": "Opposing consensus science through scholarly practices: The role of claims maintenance",
+    "abstract": "",
+    "date": "2026-04-03",
+    "link": "https://doi.org/10.1002/asi.70074",
+    "affiliations": "Irene V. Pasquetto; Morgan Wofford; Claire Jordan",
+    "source": "JASIST",
+    "tier": "A",
+    "field": "information_science",
+    "content_type": "paper",
+    "category": "学术传播",
+    "thinking": "论文主题聚焦于学术实践中的争议维护与科学共识抵抗，具有理论新颖性，但未涉及前沿技术，主要采用传统社会科学方法。研究成果对学术传播和科研管理有间接参考价值，但缺乏直接可操作的应用场景。方法上，基于JASIST期刊的高标准，应具备较好的严谨性。",
+    "scores": {
+      "frontier_tech": 4,
+      "practical_value": 6,
+      "methodological_rigor": 8
+    },
+    "one_sentence_summary": "论文探讨了学术实践中通过论点维护来反对科学共识的机制及其影响。",
+    "composite_score": 5.7,
+    "featured": false,
+    "id": 491
   },
   {
     "title": "From disorientation to preparedness: Information practices as scaffolding in acute crises",
@@ -10778,5 +10844,115 @@
     "composite_score": 6.5,
     "featured": false,
     "id": 488
+  },
+  {
+    "title": "Board of Directors",
+    "abstract": "",
+    "date": null,
+    "link": "https://www.arl.org/board-of-directors/",
+    "affiliations": "",
+    "source": "ARL News",
+    "tier": "C",
+    "field": "research_library",
+    "content_type": "news",
+    "category": "行业动态",
+    "thinking": "发布日期未知，但作为ARL News的新闻，假设具有近期时效性，给予中等分数。来源和领域直接相关，相关性高。摘要缺失导致具体内容不详，信息价值较低。",
+    "scores": {
+      "timeliness": 6,
+      "relevance": 9,
+      "information_value": 4
+    },
+    "one_sentence_summary": "ARL新闻发布了董事会相关消息，但摘要缺失，具体内容不详。",
+    "composite_score": 6.6,
+    "featured": false,
+    "id": 493
+  },
+  {
+    "title": "Scholarship & Sponsorship Opportunities",
+    "abstract": "",
+    "date": null,
+    "link": "https://www.arl.org/category/sponsorship-opportunities/",
+    "affiliations": "",
+    "source": "ARL News",
+    "tier": "C",
+    "field": "research_library",
+    "content_type": "news",
+    "category": "行业动态",
+    "thinking": "该资讯来自ARL News，专注于研究图书馆领域，因此相关性较高。但发布日期缺失，无法判断时效性，影响了新闻价值。信息内容为奖学金和赞助机会，对从业者有参考作用，但具体内容未提供，信息价值中等。",
+    "scores": {
+      "timeliness": 4,
+      "relevance": 9,
+      "information_value": 7
+    },
+    "one_sentence_summary": "ARL News发布奖学金和赞助机会通知，供图书馆从业者参考申请。",
+    "composite_score": 6.9,
+    "featured": false,
+    "id": 494
+  },
+  {
+    "title": "Press Statements",
+    "abstract": "",
+    "date": null,
+    "link": "https://www.arl.org/arl-terms/press-statements/",
+    "affiliations": "",
+    "source": "ARL News",
+    "tier": "C",
+    "field": "research_library",
+    "content_type": "news",
+    "category": "行业动态",
+    "thinking": "资讯来源为ARL News，与研究图书馆领域高度相关，但发布日期缺失且具体内容未提供，时效性和信息价值因此受限。",
+    "scores": {
+      "timeliness": 5,
+      "relevance": 9,
+      "information_value": 6
+    },
+    "one_sentence_summary": "ARL发布了关于研究图书馆的新闻声明。",
+    "composite_score": 6.9,
+    "featured": false,
+    "id": 495
+  },
+  {
+    "title": "Toolkits",
+    "abstract": "",
+    "date": null,
+    "link": "https://www.arl.org/category/toolkits/",
+    "affiliations": "",
+    "source": "ARL News",
+    "tier": "C",
+    "field": "research_library",
+    "content_type": "news",
+    "category": "行业动态",
+    "thinking": "由于发布日期缺失，无法准确评估时效性；来源为ARL News（研究图书馆协会新闻），与图情领域高度相关；但摘要内容未知，缺乏具体信息，因此信息价值较低。",
+    "scores": {
+      "timeliness": 4,
+      "relevance": 9,
+      "information_value": 2
+    },
+    "one_sentence_summary": "ARL News发布了与研究图书馆相关的工具包资讯，具体内容不详。",
+    "composite_score": 5.4,
+    "featured": false,
+    "id": 496
+  },
+  {
+    "title": "Daily Intelligence",
+    "abstract": "",
+    "date": null,
+    "link": "https://www.arl.org/category/daily-intelligence/",
+    "affiliations": "",
+    "source": "ARL News",
+    "tier": "C",
+    "field": "research_library",
+    "content_type": "news",
+    "category": "行业动态",
+    "thinking": "资讯来源为ARL News，属于研究图书馆协会的新闻，与图情领域高度相关，因此领域相关性得分高。但摘要内容缺失，无法判断具体信息价值，且发布日期未知，时效性难以确定，故信息价值和时效性得分较低。",
+    "scores": {
+      "timeliness": 5,
+      "relevance": 9,
+      "information_value": 3
+    },
+    "one_sentence_summary": "该资讯是ARL News发布的每日情报系列，但具体内容和发布日期均未提供。",
+    "composite_score": 6.0,
+    "featured": false,
+    "id": 497
   }
 ]
