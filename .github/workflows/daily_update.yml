@@ -56,6 +56,11 @@ jobs:
           WEIGHT_RIGOR: '0.25'
           FEATURED_THRESHOLD: '7.5'
           MAX_TOTAL_ITEMS: '500'
+          ELSEVIER_API_KEY: ${{ secrets.ELSEVIER_API_KEY }}
+          SPRINGER_API_KEY: ${{ secrets.SPRINGER_API_KEY }}
+          REQUEST_DELAY_MIN: '3'
+          REQUEST_DELAY_MAX: '8'
+          MAX_RETRIES: '3'
         run: python backend/main.py
 
       - name: 配置 Git

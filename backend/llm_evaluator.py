@@ -8,8 +8,14 @@
 import json
 import os
 import re
+import sys
 from typing import Dict, List, Optional
 from openai import OpenAI
+
+# Windows 控制台 UTF-8 输出
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 
 # ============================================================
@@ -27,6 +33,14 @@ SYSTEM_PROMPT = """你是一位图情领域（Library and Information Science）
 2. **业务落地值 (practical_value)**：论文的研究成果是否具有直接的实践应用价值？能否被图书馆、信息机构、科研管理部门直接采用？纯理论探讨此项分数较低。
 
 3. **方法严谨性 (methodological_rigor)**：论文的研究方法是否规范、严谨？样本量是否充足？是否有多角度验证？方法论存在明显缺陷的论文此项分数较低。
+
+## 来源敏感的评分指引
+
+根据论文来源和内容类型，在评分时注意以下场景：
+- 来自 NISO、COUNTER 等标准组织的规范变动或技术报告 → practical_value 打高分（8+），因为标准直接影响行业实践
+- 国内高校图书馆的系统开发、阅读大数据分析、服务创新的实战复盘 → practical_value 和 methodological_rigor 给予适当加分
+- 国内期刊论文（如《中国图书馆学报》《情报学报》等）→ 评估时考虑国内图情实践场景（如 CALIS 联合编目、机构知识库建设、学科服务创新），不要因研究场景本土化而低估其价值
+- 涉及 FAIR 数据原则、开放科学基础设施的论文 → data_management 分类优先，practical_value 适当加分
 
 ## 分类
 
@@ -60,7 +74,8 @@ SYSTEM_PROMPT = """你是一位图情领域（Library and Information Science）
 
 - thinking 和 one_sentence_summary 必须使用中文
 - 禁止出现"赋能"、"闭环"、"底层逻辑"、"杠杆效应"、"降本增效"等互联网黑话
-- 使用学术界通用的专业表述"""
+- 使用学术界通用的专业表述
+- 摘要为中文时，thinking 和 one_sentence_summary 必须使用中文"""
 
 
 NEWS_SYSTEM_PROMPT = """你是一位图情领域（Library and Information Science）的行业资讯分析师。你的任务是对输入的行业资讯进行专业评估。
@@ -75,12 +90,22 @@ NEWS_SYSTEM_PROMPT = """你是一位图情领域（Library and Information Scien
 
 3. **信息价值 (information_value)**：资讯是否提供了可操作的见解或有价值的信息？是否能帮助图情从业者了解行业趋势、做出决策？
 
+## 来源敏感的评分指引
+
+根据资讯来源和内容类型，在评分时注意以下场景：
+- NISO、COUNTER 等标准组织发布的规范变动 → relevance 和 information_value 打高分（8+），因为标准直接影响图书馆的统计报告和资源管理实践
+- 国内机构（CALIS、CADAL、国家图书馆等）的通知和动态 → 评估时关注对国内图书馆业务的实际影响
+- 开放获取政策变动（如 Plan S、NIH 数据共享政策）→ information_value 打高分
+- 各大图书馆的系统建设案例、服务创新复盘 → information_value 打高分
+- 学术出版行业动态（出版商合并、新平台上线）→ relevance 适当评估，不要因商业色彩而低估其对图情机构的影响
+
 ## 分类
 
 从以下选项中选择一个最匹配的分类：
 - 行业动态：图书馆、信息机构的新闻和事件
 - 技术趋势：影响图情领域的新技术和工具
-- 政策标准：与信息管理、开放获取相关的政策和标准
+- 政策标准：与信息管理、开放获取、统计规范相关的政策和标准
+- 国内动态：国内图书馆界、CALIS/CADAL 等机构的通知和新闻
 - 观点评论：行业专家的分析和评论
 - 其他：以上都不匹配时使用
 
@@ -103,7 +128,8 @@ NEWS_SYSTEM_PROMPT = """你是一位图情领域（Library and Information Scien
 
 - thinking 和 one_sentence_summary 必须使用中文
 - 禁止出现"赋能"、"闭环"、"底层逻辑"、"杠杆效应"、"降本增效"等互联网黑话
-- 使用平实的专业表述"""
+- 使用平实的专业表述
+- 摘要为中文时，thinking 和 one_sentence_summary 必须使用中文"""
 
 
 USER_PROMPT_TEMPLATE = """请评估以下论文：
@@ -112,6 +138,8 @@ USER_PROMPT_TEMPLATE = """请评估以下论文：
 摘要：{abstract}
 发表日期：{date}
 来源：{source}
+来源级别：{tier}
+学科领域：{field}
 机构：{affiliations}
 
 请按照系统提示中的要求输出评估结果 JSON。"""
@@ -122,6 +150,8 @@ NEWS_USER_PROMPT_TEMPLATE = """请评估以下行业资讯：
 摘要：{abstract}
 发布日期：{date}
 来源：{source}
+来源级别：{tier}
+领域：{field}
 
 请按照系统提示中的要求输出评估结果 JSON。"""
 
@@ -217,6 +247,8 @@ def evaluate_paper(client: OpenAI, paper: Dict, model: str = "mimo-v2.5-pro") ->
         abstract=paper.get("abstract", ""),
         date=paper.get("date", "未知"),
         source=paper.get("source", "未知"),
+        tier=paper.get("tier", "未知"),
+        field=paper.get("field", "未知"),
         affiliations=paper.get("affiliations", "未知"),
     )
 
@@ -258,6 +290,15 @@ def evaluate_paper(client: OpenAI, paper: Dict, model: str = "mimo-v2.5-pro") ->
             print(f"[llm] scores 字段不完整: {result['scores']}")
             return None
 
+        # 验证分数值为有效数字
+        scores = result["scores"]
+        for k in score_keys:
+            v = scores.get(k)
+            if not isinstance(v, (int, float)):
+                print(f"[llm] scores.{k} 值无效: {v}")
+                return None
+            scores[k] = int(v) if isinstance(v, float) and v == int(v) else v
+
         return result
 
     except json.JSONDecodeError as e:
@@ -287,7 +328,11 @@ def evaluate_papers(
             print(f"[llm] 跳过（评估失败）")
             continue
 
-        avg_score = sum(evaluation["scores"].values()) / 3
+        scores_vals = [v for v in evaluation["scores"].values() if isinstance(v, (int, float))]
+        if len(scores_vals) != 3:
+            print(f"[llm] 跳过（分数值异常）")
+            continue
+        avg_score = sum(scores_vals) / 3
         if avg_score < min_score_avg:
             print(f"[llm] 跳过（平均分 {avg_score:.1f} < {min_score_avg}）")
             continue
@@ -313,6 +358,8 @@ def evaluate_news_single(client: OpenAI, item: Dict, model: str = "mimo-v2.5-pro
         abstract=item.get("abstract", ""),
         date=item.get("date", "未知"),
         source=item.get("source", "未知"),
+        tier=item.get("tier", "未知"),
+        field=item.get("field", "未知"),
     )
 
     try:
@@ -351,6 +398,14 @@ def evaluate_news_single(client: OpenAI, item: Dict, model: str = "mimo-v2.5-pro
             print(f"[llm] scores 字段不完整: {result['scores']}")
             return None
 
+        scores = result["scores"]
+        for k in score_keys:
+            v = scores.get(k)
+            if not isinstance(v, (int, float)):
+                print(f"[llm] scores.{k} 值无效: {v}")
+                return None
+            scores[k] = int(v) if isinstance(v, float) and v == int(v) else v
+
         return result
 
     except Exception as e:
@@ -375,7 +430,11 @@ def evaluate_news(
             print(f"[llm] 跳过（评估失败）")
             continue
 
-        avg_score = sum(evaluation["scores"].values()) / 3
+        scores_vals = [v for v in evaluation["scores"].values() if isinstance(v, (int, float))]
+        if len(scores_vals) != 3:
+            print(f"[llm] 跳过（分数值异常）")
+            continue
+        avg_score = sum(scores_vals) / 3
         if avg_score < min_score_avg:
             print(f"[llm] 跳过（平均分 {avg_score:.1f} < {min_score_avg}）")
             continue

@@ -20,22 +20,30 @@
 
     <div class="mb-10">
       <h3 class="text-sm font-medium text-slate-700 mb-3">数据源</h3>
-      <h4 class="text-xs font-medium text-slate-500 mb-2 mt-3">学术论文</h4>
+      <h4 class="text-xs font-medium text-slate-500 mb-2 mt-3">A类 · 国际核心期刊</h4>
       <ul class="space-y-1.5 text-sm text-slate-600">
-        <li>arXiv - Digital Libraries (cs.DL)</li>
-        <li>arXiv - Information Retrieval (cs.IR)</li>
-        <li>arXiv - Computation & Language (cs.CL)</li>
-        <li>arXiv - Social Networks (cs.SI)</li>
+        <li>Scientometrics</li>
+        <li>JASIST</li>
+        <li>Journal of Informetrics</li>
+        <li>Library & Information Science Research</li>
         <li>Information Processing & Management</li>
-        <li>Code4Lib Journal</li>
-        <li>First Monday</li>
+        <li>The Electronic Library</li>
       </ul>
-      <h4 class="text-xs font-medium text-slate-500 mb-2 mt-4">行业资讯</h4>
+      <h4 class="text-xs font-medium text-slate-500 mb-2 mt-4">B类 · 国内权威期刊</h4>
       <ul class="space-y-1.5 text-sm text-slate-600">
-        <li>Scholarly Kitchen</li>
-        <li>Infodocket</li>
-        <li>LSE Impact Blog</li>
-        <li>SPARC News</li>
+        <li>中国图书馆学报</li>
+        <li>大学图书馆学报</li>
+        <li>图书情报工作</li>
+        <li>情报学报</li>
+      </ul>
+      <h4 class="text-xs font-medium text-slate-500 mb-2 mt-4">C类 · 预印本与行业资讯</h4>
+      <ul class="space-y-1.5 text-sm text-slate-600">
+        <li>arXiv (cs.DL, cs.IR, cs.CL, cs.SI)</li>
+        <li>NISO · LIBER · ARL</li>
+        <li>Scholarly Kitchen · Infodocket</li>
+        <li>LSE Impact Blog · SPARC News</li>
+        <li>Code4Lib Journal · First Monday</li>
+        <li>CALIS · CADAL</li>
       </ul>
     </div>
 

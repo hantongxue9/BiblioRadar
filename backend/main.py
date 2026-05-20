@@ -4,18 +4,28 @@ Scholar-Radar 后端主入口
 调度抓取和评估逻辑，将最终结果写入前端的 public/data.json。
 """
 
+import asyncio
 import json
 import os
 import sys
 from datetime import datetime
 from pathlib import Path
 
+# Windows 控制台 UTF-8 输出
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 from dotenv import load_dotenv
 
 # 加载项目根目录的 .env 文件
 load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 
-from scraper import fetch_all_papers, fetch_mock_papers, fetch_all_news, fetch_mock_news
+from scraper import (
+    fetch_all_async,
+    fetch_mock_papers,
+    fetch_mock_news,
+)
 from llm_evaluator import evaluate_papers, evaluate_news
 
 
@@ -40,6 +50,10 @@ FEATURED_THRESHOLD = float(os.environ.get("FEATURED_THRESHOLD", "7.5"))
 
 # data.json 最大条目数（超出裁剪最旧的）
 MAX_TOTAL_ITEMS = int(os.environ.get("MAX_TOTAL_ITEMS", "500"))
+
+# 出版商 API Key（可选，未配置时 fallback 到 RSS）
+os.environ.setdefault("ELSEVIER_API_KEY", os.environ.get("ELSEVIER_API_KEY", ""))
+os.environ.setdefault("SPRINGER_API_KEY", os.environ.get("SPRINGER_API_KEY", ""))
 
 
 # ============================================================
@@ -70,7 +84,6 @@ def merge_papers(existing: list, new_papers: list) -> list:
 
     for paper in new_papers:
         title_key = paper["title"].lower().strip()
-        # 为新论文分配递增 ID
         if title_key not in existing_by_title:
             max_id = max((p.get("id", 0) for p in existing_by_title.values()), default=0)
             paper["id"] = max_id + 1
@@ -87,7 +100,6 @@ def compute_composite_score(item: dict) -> dict:
     """为条目计算加权综合分和精选标记"""
     scores = item.get("scores", {})
     if item.get("content_type") == "news":
-        # 资讯用不同的权重
         composite = round(
             scores.get("timeliness", 0) * 0.3
             + scores.get("relevance", 0) * 0.4
@@ -115,15 +127,16 @@ def main():
     existing = load_existing_data()
     existing_titles = {p["title"].lower().strip() for p in existing}
 
-    # 第一步：抓取论文
+    # 第一步：抓取（一次异步调用获取所有源）
     if USE_MOCK:
         print("[main] 使用 mock 数据")
         raw_papers = fetch_mock_papers()
         raw_news = fetch_mock_news()
     else:
-        print("[main] 从 RSS 源抓取")
-        raw_papers = fetch_all_papers(apply_affiliation_filter=FILTER_AFFILIATION)
-        raw_news = fetch_all_news()
+        print("[main] 从信源池异步抓取")
+        raw_papers, raw_news = asyncio.run(
+            fetch_all_async(apply_affiliation_filter=FILTER_AFFILIATION)
+        )
 
     # 过滤已存在的条目
     new_papers = [p for p in raw_papers if p["title"].lower().strip() not in existing_titles]
