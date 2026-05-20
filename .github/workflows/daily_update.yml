@@ -62,6 +62,7 @@ jobs:
 
       - name: 提交更新的数据文件
         run: |
+          git pull --rebase origin main
           git add public/data.json public/daily_reports.json
           git diff --cached --quiet || git commit -m "chore: update data $(date +%Y-%m-%d)"
           git push
