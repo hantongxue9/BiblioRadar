@@ -1,28 +1,22 @@
-# Scholar-Radar 每日自动更新工作流
-#
-# 功能：每天北京时间早上 6 点自动运行 Python 脚本抓取并评估论文，
-#       更新 data.json 后构建前端，部署到 GitHub Pages。
-#
-# 部署说明（Vercel）：
-#   Vercel 只需要绑定 GitHub 仓库即可自动部署。
-#   重点是确保构建产出目录为 dist/（Vite 默认值），
-#   Vercel 会自动检测 Vite 项目并使用正确的构建命令。
-
 name: Daily Update
 
 on:
   schedule:
-    # 每天北京时间早上 6:00（UTC 22:00 前一天）
-    - cron: '0 22 * * *'
-  workflow_dispatch:  # 支持手动触发
+    - cron: '0 22 * * *'  # 每天北京时间 6:00
+  workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
-
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
@@ -56,8 +50,6 @@ jobs:
           WEIGHT_RIGOR: '0.25'
           FEATURED_THRESHOLD: '7.5'
           MAX_TOTAL_ITEMS: '500'
-          ELSEVIER_API_KEY: ${{ secrets.ELSEVIER_API_KEY }}
-          SPRINGER_API_KEY: ${{ secrets.SPRINGER_API_KEY }}
           REQUEST_DELAY_MIN: '3'
           REQUEST_DELAY_MAX: '8'
           MAX_RETRIES: '3'
@@ -71,15 +63,24 @@ jobs:
       - name: 提交更新的数据文件
         run: |
           git add public/data.json public/daily_reports.json
-          # 如果有变更才提交，避免空提交
-          git diff --cached --quiet || git commit -m "chore: update paper data $(date +%Y-%m-%d)"
+          git diff --cached --quiet || git commit -m "chore: update data $(date +%Y-%m-%d)"
           git push
 
       - name: 构建前端
         run: npm run build
 
-      - name: 部署到 GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: 上传 Pages 构件
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          path: ./dist
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
