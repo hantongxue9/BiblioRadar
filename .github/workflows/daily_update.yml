@@ -46,9 +46,9 @@ jobs:
 
       - name: 运行数据更新脚本
         env:
-          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
-          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          LLM_API_KEY: ${{ secrets.MIMO_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.MIMO_BASE_URL }}
+          LLM_MODEL: ${{ secrets.MIMO_MODEL }}
           MIN_SCORE_AVG: '6.0'
           FILTER_AFFILIATION: 'false'
           WEIGHT_FRONTIER: '0.40'
