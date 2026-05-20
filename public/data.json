@@ -1606,6 +1606,72 @@
     "id": 575
   },
   {
+    "title": "Why Scholarly Societies Must Compete Through Stewardship, Not Scale",
+    "abstract": "<p>Research disciplines require institutions that create cohesion, uphold standards, and provide continuity over time. Scholarly societies are uniquely positioned to serve that role credibly and durably.</p>\n<p>The post <a href=\"https://scholarlykitchen.sspnet.org/2026/05/20/why-scholarly-societies-must-compete-through-stewardship-not-scale/\">Why Scholarly Societies Must Compete Through Stewardship, Not Scale</a> appeared first on <a href=\"https://scholarlykitchen.sspnet.org\">The Scholarly Kitchen</a>.</p>",
+    "date": "2026-05-20",
+    "link": "https://scholarlykitchen.sspnet.org/2026/05/20/why-scholarly-societies-must-compete-through-stewardship-not-scale/",
+    "affiliations": "",
+    "source": "Scholarly Kitchen",
+    "tier": "C",
+    "field": "scholarly_publishing",
+    "content_type": "news",
+    "category": "观点评论",
+    "thinking": "这篇文章是Scholarly Kitchen上的观点评论，探讨学术社团在学术出版生态中的角色，与图情领域的学术交流和标准维护相关。内容提供了行业趋势分析，信息价值较高，但作为观点文章，时效性不如新闻事件强。",
+    "scores": {
+      "timeliness": 6,
+      "relevance": 8,
+      "information_value": 8
+    },
+    "one_sentence_summary": "文章主张学术社团应通过维护标准和提供连续性来竞争，而非追求规模扩张。",
+    "composite_score": 7.4,
+    "featured": false,
+    "id": 639
+  },
+  {
+    "title": "OpenAIRE and Alien Intelligence Announce Partnership to Bring AI Agents to the OpenAIRE Graph",
+    "abstract": "<p>From an OpenAire Post: &#8230;AI is changing how research is discovered and used. A newer generation of systems, often called agentic AI, can reason across sources, plan tasks, follow relationships between entities, and support decisions based on structured evidence. For open scholarly infrastructures, this raises a clear question: can the systems that increasingly interpret scientific [&#8230;]</p>\n<p>The post <a href=\"https://www.infodocket.com/2026/05/20/openaire-and-alien-intelligence-announce-partnership-to-bring-ai-agents-to-the-openaire-graph/\">OpenAIRE and Alien Intelligence Announce Partnership to Bring AI Agents to the OpenAIRE Graph</a> appeared first on <a href=\"https://www.infodocket.com\">Library Journal infoDOCKET</a>.</p>",
+    "date": "2026-05-20",
+    "link": "https://www.infodocket.com/2026/05/20/openaire-and-alien-intelligence-announce-partnership-to-bring-ai-agents-to-the-openaire-graph/",
+    "affiliations": "",
+    "source": "Infodocket",
+    "tier": "C",
+    "field": "library_news",
+    "content_type": "news",
+    "category": "行业动态",
+    "thinking": "资讯发布于2026年5月，属于近期动态，时效性较高；内容涉及开放学术基础设施与AI代理技术的结合，与图书馆学、信息科学领域直接相关；合作公告提供了AI在学术信息管理中应用的具体案例，对从业者了解行业趋势有参考价值。",
+    "scores": {
+      "timeliness": 8,
+      "relevance": 9,
+      "information_value": 8
+    },
+    "one_sentence_summary": "OpenAIRE与Alien Intelligence合作，将AI代理引入开放学术图谱，以提升研究发现和使用效率。",
+    "composite_score": 8.4,
+    "featured": true,
+    "id": 640
+  },
+  {
+    "title": "Without guidelines academic authorship defaults to power politics",
+    "abstract": "<p>In many areas of social science co-authorship is the default. Drawing on a meta-analysis of academics in fields related to management, Lorenz Graf-Vlachy outlines a pervasive culture of questionable authorship &#8230; <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences/2026/05/20/without-guidelines-academic-authorship-defaults-to-power-politics/\">Continued</a></p>\n<p>The post <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences/2026/05/20/without-guidelines-academic-authorship-defaults-to-power-politics/\">Without guidelines academic authorship defaults to power politics</a> first appeared on <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences\">LSE Impact</a>.</p>",
+    "date": "2026-05-20",
+    "link": "https://blogs.lse.ac.uk/impactofsocialsciences/2026/05/20/without-guidelines-academic-authorship-defaults-to-power-politics/",
+    "affiliations": "",
+    "source": "LSE Impact Blog",
+    "tier": "C",
+    "field": "academic_impact",
+    "content_type": "news",
+    "category": "观点评论",
+    "thinking": "这篇资讯基于元分析探讨了学术作者身份中的权力政治问题，发布于LSE Impact Blog。它涉及学术出版伦理和研究评估，对图情领域的学术管理和信息传播实践有参考意义。发布日期为2026年5月，假设为近期动态，但内容具有普遍性。",
+    "scores": {
+      "timeliness": 7,
+      "relevance": 8,
+      "information_value": 8
+    },
+    "one_sentence_summary": "学术作者身份缺乏指南时容易受权力政治影响，这可能损害研究伦理。",
+    "composite_score": 7.7,
+    "featured": true,
+    "id": 641
+  },
+  {
     "title": "SotA Lens: A Network-Augmented Methodology and Tool for Exploratory State-of-the-Art Reviews",
     "abstract": "arXiv:2605.16333v1 Announce Type: new \nAbstract: Researchers often begin new projects by conducting a broad State-of-the-Art review before they are ready to define the narrow protocol required by a systematic review. This is especially common in multidisciplinary areas where terminology is unstable, communities are weakly connected, and relevant work is dispersed across technical and application domains. This paper presents SotA Lens, a network-augmented methodology and lightweight software toolkit for exploratory State-of-the-Art reviews. The approach combines documented seed search, DOI-level metadata resolution, bounded citation expansion, directed graph construction, community detection, ranking of authors and subject terms, and human labelling of research communities. It is designed to complement, not replace, established review protocols such as PRISMA, PRISMA-ScR, systematic mapping studies, and bibliometric science mapping. The method is demonstrated through a proof-of-concept review of Dynamic Projection-Mapping and Spatial Augmented Reality. Starting from approximately 200 seed search results, the workflow produced a citation graph with 2,198 DOI-level vertices and 8,249 reference edges; a filtered largest component for 2010-2023 contained 986 vertices, 2,693 edges, and sixteen labelled communities. The contribution is both methodological and practical: SotA Lens helps researchers map broad fields, identify clusters and gaps, and produce auditable review artifacts before committing to a narrower systematic review protocol. This paper is not intended as a domain survey of Dynamic Projection-Mapping or Spatial Augmented Reality; rather, it introduces and demonstrates an original review-support methodology and software artifact using that domain as a proof-of-concept case study.",
     "date": "2026-05-19",
@@ -10932,71 +10998,5 @@
     "composite_score": 5.9,
     "featured": false,
     "id": 402
-  },
-  {
-    "title": "Middle Management Training",
-    "abstract": "",
-    "date": null,
-    "link": "https://libereurope.eu/event/liber-middle-management-training/",
-    "affiliations": "",
-    "source": "LIBER News",
-    "tier": "C",
-    "field": "library_policy",
-    "content_type": "news",
-    "category": "行业动态",
-    "thinking": "这条资讯来自LIBER News，涉及图书馆中层管理培训，与图情领域的管理实践直接相关，领域相关性高。由于发布日期和摘要缺失，无法确认时效性和具体内容，因此时效性和信息价值评估受限。",
-    "scores": {
-      "timeliness": 6,
-      "relevance": 9,
-      "information_value": 7
-    },
-    "one_sentence_summary": "LIBER News 发布了图书馆中层管理培训的相关资讯，有助于从业者提升管理技能。",
-    "composite_score": 7.5,
-    "featured": true,
-    "id": 403
-  },
-  {
-    "title": "Architecture Seminar",
-    "abstract": "",
-    "date": null,
-    "link": "https://libereurope.eu/event/lag-seminar-2026-technological-university-dublin-dublin-ireland/",
-    "affiliations": "",
-    "source": "LIBER News",
-    "tier": "C",
-    "field": "library_policy",
-    "content_type": "news",
-    "category": "行业动态",
-    "thinking": "这条资讯未提供发布日期和具体内容摘要，因此难以评估时效性和信息价值。但来源LIBER News是欧洲研究图书馆协会的新闻平台，领域标签为library_policy，表明它与图书馆政策相关，领域相关性较高。",
-    "scores": {
-      "timeliness": 3,
-      "relevance": 8,
-      "information_value": 4
-    },
-    "one_sentence_summary": "LIBER News报道了一场涉及图书馆政策的建筑研讨会，但未提供详细信息。",
-    "composite_score": 5.3,
-    "featured": false,
-    "id": 404
-  },
-  {
-    "title": "Webinar Recordings",
-    "abstract": "",
-    "date": null,
-    "link": "https://libereurope.eu/webinar-recordings/",
-    "affiliations": "",
-    "source": "LIBER News",
-    "tier": "C",
-    "field": "library_policy",
-    "content_type": "news",
-    "category": "行业动态",
-    "thinking": "该资讯来自欧洲研究图书馆协会LIBER，与图书馆政策领域直接相关，时效性因发布日期缺失而不明确。内容为研讨会录像，可能提供政策见解，但信息价值受限于具体内容未知。",
-    "scores": {
-      "timeliness": 4,
-      "relevance": 9,
-      "information_value": 6
-    },
-    "one_sentence_summary": "LIBER发布图书馆政策相关研讨会的录像。",
-    "composite_score": 6.6,
-    "featured": false,
-    "id": 405
   }
 ]
