@@ -1,5 +1,27 @@
 [
   {
+    "title": "Interpreting algorithmic information cues: User sensemaking of search autocomplete moderation",
+    "abstract": "",
+    "date": "2026-05-23",
+    "link": "https://doi.org/10.1002/asi.70092",
+    "affiliations": "Shagun Jhaver",
+    "source": "JASIST",
+    "tier": "A",
+    "field": "information_science",
+    "content_type": "paper",
+    "category": "用户行为",
+    "thinking": "论文研究搜索自动补全中的算法调节，聚焦用户认知过程，涉及前沿AI技术应用，具有明确的实践价值。但基于提供的有限信息，方法细节无法验证，假设其符合顶级期刊标准。",
+    "scores": {
+      "frontier_tech": 7,
+      "practical_value": 8,
+      "methodological_rigor": 7
+    },
+    "one_sentence_summary": "论文探讨了用户对搜索引擎自动补全功能中算法调节的理解和感知过程。",
+    "composite_score": 7.3,
+    "featured": false,
+    "id": 901
+  },
+  {
     "title": "Local citation relationship classification for recommendation: a SciBERT-based DualFocusNet approach",
     "abstract": "<p>Accurate classification of local citation relationship is critical for enhancing recommendation quality in scholarly information systems. To advance local citation relationship classification, this paper proposed a novel SciBERT + DualFocusNet architecture comprising three synergistic components: SciBERT for domain-specific semantic representation, DualFocusNet for hierarchical extraction and fusion of multi-scale global semantic and local contextual features, and large language models for generating semantically compressed reference summaries. Three sets of experiments were conducted on ACL ARC/AAN and ACT2 datasets to systematically validate the proposed approach. In the first set, experimental results investigated that the SciBERT + DualFocusNet model outperformed all competing baselines across accuracy, precision, recall, and F1-score metrics, achieving 84.98% on ACL ARC/AAN and 93.31% on ACT2. The second set identified optimal text combinations, revealing that pairing citation context with extended reference text (title + abstract + GPT-5-processed full text) yielded marginally better performance than alternative text combinations. The third set of ablation experiments confirmed that the local–global fusion strategy achieved optimal performance and further decomposed the contribution of each architectural component to overall system efficacy.</p>",
     "date": "2026-05-22",
@@ -10976,27 +10998,5 @@
     "composite_score": 7.6,
     "featured": true,
     "id": 297
-  },
-  {
-    "title": "Unveiling thematic evolution and R&D opportunities through knowledge inheritance networks: A case study in telecommunications",
-    "abstract": "<p>Publication date: June 2026</p><p><b>Source:</b> Journal of Informetrics, Volume 20, Issue 2</p><p>Author(s): Feifei Wang, Zhuoyuan Zhang, Xiao Lei, Rui Xue, Claude Baron</p>",
-    "date": null,
-    "link": "https://www.sciencedirect.com/science/article/pii/S1751157726000477?dgcid=rss_sd_all",
-    "affiliations": "",
-    "source": "Journal of Informetrics",
-    "tier": "A",
-    "field": "bibliometrics",
-    "content_type": "paper",
-    "category": "计量与评价",
-    "thinking": "论文采用知识继承网络这一计量学新方法，结合语义分析追踪技术主题演变，为研发决策提供了新颖的分析框架，具有较好的方法创新性与应用导向。不足之处在于，其核心方法（网络构建与主题演化分析）尚未涉及当前如大语言模型等更前沿的技术手段，仍属于计量分析范式的深化。",
-    "scores": {
-      "frontier_tech": 7,
-      "practical_value": 8,
-      "methodological_rigor": 7
-    },
-    "one_sentence_summary": "该研究提出了一种基于知识继承网络的主题演化分析方法，以电信领域为例，用于识别技术研发机会。",
-    "composite_score": 7.3,
-    "featured": false,
-    "id": 298
   }
 ]
