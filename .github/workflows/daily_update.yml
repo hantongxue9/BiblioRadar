@@ -1,6 +1,8 @@
 name: Daily Update
 
 on:
+  push:
+    branches: [main]
   schedule:
     - cron: '0 22 * * *'  # 每天北京时间 6:00
   workflow_dispatch:
@@ -39,6 +41,7 @@ jobs:
         run: npm ci
 
       - name: 运行数据更新脚本
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         env:
           LLM_API_KEY: ${{ secrets.MIMO_API_KEY }}
           LLM_BASE_URL: ${{ secrets.MIMO_BASE_URL }}
@@ -56,11 +59,13 @@ jobs:
         run: python backend/main.py
 
       - name: 配置 Git
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: 提交更新的数据文件
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           git pull --rebase --autostash origin main
           git add public/data.json public/daily_reports.json
