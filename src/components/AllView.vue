@@ -136,7 +136,7 @@ const filtered = computed(() => {
     result = result.filter(
       (p) =>
         p.title.toLowerCase().includes(q) ||
-        p.abstract.toLowerCase().includes(q) ||
+        (p.abstract || '').toLowerCase().includes(q) ||
         (p.one_sentence_summary || '').toLowerCase().includes(q)
     )
   }

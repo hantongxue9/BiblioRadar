@@ -193,11 +193,11 @@ def _extract_json(text: str) -> Optional[Dict]:
     except json.JSONDecodeError:
         pass
 
-    # 尝试用正则提取第一个 JSON 对象（非贪婪匹配）
-    match = re.search(r"\{.*?\}", text, re.DOTALL)
+    # 用贪婪匹配提取最外层 JSON 对象
+    match = re.search(r"\{[\s\S]*\}", text)
     if not match:
-        # 回退到贪婪匹配
-        match = re.search(r"\{[\s\S]*\}", text)
+        # 回退到非贪婪匹配
+        match = re.search(r"\{.*?\}", text, re.DOTALL)
 
     if match:
         candidate = match.group(0)
@@ -290,13 +290,14 @@ def evaluate_paper(client: OpenAI, paper: Dict, model: str = "mimo-v2.5-pro") ->
             print(f"[llm] scores 字段不完整: {result['scores']}")
             return None
 
-        # 验证分数值为有效数字
+        # 验证分数值为有效数字，限制在 1-10 范围
         scores = result["scores"]
         for k in score_keys:
             v = scores.get(k)
             if not isinstance(v, (int, float)):
                 print(f"[llm] scores.{k} 值无效: {v}")
                 return None
+            v = max(1, min(10, v))
             scores[k] = int(v) if isinstance(v, float) and v == int(v) else v
 
         return result
@@ -404,6 +405,7 @@ def evaluate_news_single(client: OpenAI, item: Dict, model: str = "mimo-v2.5-pro
             if not isinstance(v, (int, float)):
                 print(f"[llm] scores.{k} 值无效: {v}")
                 return None
+            v = max(1, min(10, v))
             scores[k] = int(v) if isinstance(v, float) and v == int(v) else v
 
         return result

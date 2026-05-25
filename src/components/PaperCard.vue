@@ -41,11 +41,11 @@
 
     <!-- 评分区域 -->
     <div v-if="paper.content_type === 'news'" class="flex flex-wrap gap-x-6 gap-y-2 mb-2">
-      <ScoreBar label="时效性" :score="paper.scores.timeliness" />
-      <ScoreBar label="领域相关性" :score="paper.scores.relevance" />
-      <ScoreBar label="信息价值" :score="paper.scores.information_value" />
+      <ScoreBar label="时效性" :score="paper.scores?.timeliness" />
+      <ScoreBar label="领域相关性" :score="paper.scores?.relevance" />
+      <ScoreBar label="信息价值" :score="paper.scores?.information_value" />
     </div>
-    <div v-else class="flex flex-wrap gap-x-6 gap-y-2 mb-2">
+    <div v-else-if="paper.scores" class="flex flex-wrap gap-x-6 gap-y-2 mb-2">
       <ScoreBar label="前沿技术度" :score="paper.scores.frontier_tech" />
       <ScoreBar label="业务落地值" :score="paper.scores.practical_value" />
       <ScoreBar label="方法严谨性" :score="paper.scores.methodological_rigor" />

@@ -81,10 +81,12 @@ def merge_papers(existing: list, new_papers: list) -> list:
     - 新数据中已存在的论文会被更新（覆盖）
     - 新数据中不存在的旧论文保留
     """
-    existing_by_title = {p["title"].lower().strip(): p for p in existing}
+    existing_by_title = {(p.get("title") or "").lower().strip(): p for p in existing if p.get("title")}
 
     for paper in new_papers:
-        title_key = paper["title"].lower().strip()
+        title_key = (paper.get("title") or "").lower().strip()
+        if not title_key:
+            continue
         if title_key not in existing_by_title:
             max_id = max((p.get("id", 0) for p in existing_by_title.values()), default=0)
             paper["id"] = max_id + 1
@@ -202,10 +204,12 @@ def main():
         merged = merged[:MAX_TOTAL_ITEMS]
         print(f"[main] 裁剪至 {MAX_TOTAL_ITEMS} 条")
 
-    # 第七步：写入
+    # 第七步：原子写入（先写临时文件再重命名，防止中断导致截断）
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+    tmp_path = OUTPUT_PATH.with_suffix(".json.tmp")
+    with open(tmp_path, "w", encoding="utf-8") as f:
         json.dump(merged, f, ensure_ascii=False, indent=2)
+    tmp_path.replace(OUTPUT_PATH)
 
     print(f"[main] 已写入 {len(merged)} 条到 {OUTPUT_PATH}")
 

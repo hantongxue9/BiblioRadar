@@ -15,6 +15,12 @@
           加载中...
         </div>
 
+        <!-- 错误状态 -->
+        <div v-else-if="error" class="text-center py-12">
+          <p class="text-sm text-slate-400 dark:text-slate-500 mb-4">{{ error }}</p>
+          <button @click="location.reload()" class="text-xs px-4 py-2 rounded-lg bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-400 dark:hover:bg-slate-700">重试</button>
+        </div>
+
         <!-- 视图切换 -->
         <FeaturedView
           v-else-if="currentView === 'featured'"
@@ -67,16 +73,23 @@ const loading = ref(true)
 const currentView = ref('featured')
 const selectedItem = ref(null)
 
+const error = ref(null)
+
 onMounted(async () => {
-  const [papersRes, reportsRes] = await Promise.all([
-    fetch('data.json').catch(() => null),
-    fetch('daily_reports.json').catch(() => null),
-  ])
+  try {
+    const [papersRes, reportsRes] = await Promise.all([
+      fetch('data.json').catch(() => null),
+      fetch('daily_reports.json').catch(() => null),
+    ])
 
-  if (papersRes?.ok) papers.value = await papersRes.json()
-  if (reportsRes?.ok) dailyReports.value = await reportsRes.json()
-
-  loading.value = false
+    if (papersRes?.ok) papers.value = await papersRes.json()
+    if (reportsRes?.ok) dailyReports.value = await reportsRes.json()
+  } catch (e) {
+    error.value = '数据加载失败，请刷新重试'
+    console.error('Failed to load data:', e)
+  } finally {
+    loading.value = false
+  }
 })
 
 const featuredItems = computed(() =>

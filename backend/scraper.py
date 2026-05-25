@@ -604,7 +604,7 @@ async def fetch_all_async(
     news = [
         n for n in news
         if len(n.get("title", "").strip()) >= 8
-        and n["title"].lower().strip() not in _NOISE_KEYWORDS
+        and not any(kw in n["title"].lower().strip() for kw in _NOISE_KEYWORDS)
     ]
 
     # 宽泛源关键词过滤
@@ -721,16 +721,11 @@ MOCK_NEWS = [
 
 
 def fetch_mock_papers() -> list[dict]:
-    for p in MOCK_PAPERS:
-        p["content_type"] = "paper"
-    return MOCK_PAPERS
+    return [{**p, "content_type": "paper"} for p in MOCK_PAPERS]
 
 
 def fetch_mock_news() -> list[dict]:
-    for n in MOCK_NEWS:
-        n["content_type"] = "news"
-        n["affiliations"] = ""
-    return MOCK_NEWS
+    return [{**n, "content_type": "news", "affiliations": ""} for n in MOCK_NEWS]
 
 
 if __name__ == "__main__":

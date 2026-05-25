@@ -18,6 +18,12 @@ venv/
 .vscode/
 .idea/
 
+# Claude Code
+.claude/
+
+# Logs
+*.log
+
 # OS
 .DS_Store
 Thumbs.db
