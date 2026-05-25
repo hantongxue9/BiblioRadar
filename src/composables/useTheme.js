@@ -8,15 +8,9 @@ function getSystemTheme() {
   return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
 }
 
-let rafId = null
-
-function scheduleApply(value) {
-  if (rafId) cancelAnimationFrame(rafId)
-  rafId = requestAnimationFrame(() => {
-    const resolved = value === 'system' ? getSystemTheme() : value
-    document.documentElement.classList.toggle('dark', resolved === 'dark')
-    rafId = null
-  })
+function applyTheme(value) {
+  const resolved = value === 'system' ? getSystemTheme() : value
+  document.documentElement.classList.toggle('dark', resolved === 'dark')
 }
 
 let mediaHandler = null
@@ -27,10 +21,10 @@ export function useTheme() {
     if (saved && ['light', 'dark', 'system'].includes(saved)) {
       theme.value = saved
     }
-    scheduleApply(theme.value)
+    applyTheme(theme.value)
 
     const mq = window.matchMedia('(prefers-color-scheme: dark)')
-    mediaHandler = () => { if (theme.value === 'system') scheduleApply('system') }
+    mediaHandler = () => { if (theme.value === 'system') applyTheme('system') }
     mq.addEventListener('change', mediaHandler)
   })
 
@@ -41,7 +35,7 @@ export function useTheme() {
 
   watch(theme, (val) => {
     localStorage.setItem(STORAGE_KEY, val)
-    scheduleApply(val)
+    applyTheme(val)
   })
 
   function setTheme(val) {
