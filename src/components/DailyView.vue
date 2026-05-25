@@ -17,7 +17,7 @@
       </div>
 
       <!-- 统计行 -->
-      <div class="flex gap-6 mb-10 text-xs text-slate-500 dark:text-slate-400">
+      <div class="flex flex-wrap gap-x-6 gap-y-1 mb-10 text-xs text-slate-500 dark:text-slate-400">
         <span>共收录 <strong class="text-slate-700 dark:text-slate-200 font-medium">{{ todayItems.length }}</strong> 条</span>
         <span>论文 <strong class="text-slate-700 dark:text-slate-200 font-medium">{{ todayPapers.length }}</strong> 篇</span>
         <span>资讯 <strong class="text-slate-700 dark:text-slate-200 font-medium">{{ todayNews.length }}</strong> 条</span>

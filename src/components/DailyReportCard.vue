@@ -1,7 +1,7 @@
 <template>
   <article class="bg-white border border-gray-100 rounded-xl p-6 mb-6 dark:bg-slate-900 dark:border-slate-800">
     <!-- 日期标题 + 统计 -->
-    <div class="flex items-center justify-between mb-4">
+    <div class="flex flex-col gap-1 mb-4 max-md:gap-2">
       <h3 class="text-base font-medium text-slate-800 dark:text-slate-100">{{ formattedDate }}</h3>
       <div class="flex gap-4 text-xs text-slate-400 dark:text-slate-500">
         <span>论文 <strong class="text-slate-600 dark:text-slate-300">{{ report.stats.papers }}</strong></span>

@@ -7,7 +7,7 @@
              will-change-transform"
     >
       <!-- 头部 -->
-      <div class="flex-shrink-0 px-6 pt-6 pb-4 border-b border-gray-100 dark:border-slate-800">
+      <div class="flex-shrink-0 px-6 max-md:px-4 pt-6 pb-4 border-b border-gray-100 dark:border-slate-800">
         <div class="flex items-start justify-between mb-3">
           <div class="flex items-center gap-2">
             <span v-if="item.featured" class="text-[10px] px-1.5 py-0.5 rounded bg-slate-800 text-white dark:bg-slate-200 dark:text-slate-900">精选</span>
@@ -43,7 +43,7 @@
       </div>
 
       <!-- 内容区 -->
-      <div class="flex-1 overflow-y-auto px-6 py-5 space-y-6">
+      <div class="flex-1 overflow-y-auto px-6 max-md:px-4 py-5 space-y-6">
         <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
           {{ item.one_sentence_summary }}
         </p>
@@ -77,7 +77,7 @@
       </div>
 
       <!-- 底部 -->
-      <div class="flex-shrink-0 px-6 py-4 border-t border-gray-100 dark:border-slate-800">
+      <div class="flex-shrink-0 px-6 max-md:px-4 py-4 border-t border-gray-100 dark:border-slate-800">
         <a
           v-if="item.link"
           :href="item.link"
