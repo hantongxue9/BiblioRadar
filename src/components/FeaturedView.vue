@@ -27,10 +27,10 @@
     </div>
 
     <!-- 按日期分组 -->
-    <template v-for="group in groupedByDate" :key="group.date">
-      <div class="flex items-center gap-4 mb-6 mt-2">
+    <template v-for="group in groupedByDate" :key="group.date ?? 'flat'">
+      <div v-if="group.date" class="flex items-center gap-4 mb-6 mt-2">
         <div class="h-px flex-1 bg-gray-200 dark:bg-slate-800"></div>
-        <span class="text-xs text-slate-400 dark:text-slate-500 whitespace-nowrap">{{ group.date || '无日期' }}</span>
+        <span class="text-xs text-slate-400 dark:text-slate-500 whitespace-nowrap">{{ group.date }}</span>
         <div class="h-px flex-1 bg-gray-200 dark:bg-slate-800"></div>
       </div>
       <PaperCard
@@ -61,7 +61,7 @@ const selectedCategory = ref('all')
 
 const categories = computed(() => {
   const cats = new Set(props.items.map((p) => p.category))
-  return ['all', ...cats]
+  return ['all', ...cats].filter(Boolean)
 })
 
 const filtered = computed(() => {

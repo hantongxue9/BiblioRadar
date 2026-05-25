@@ -94,7 +94,7 @@ defineEmits(['select'])
 
 const todayItems = computed(() => {
   if (props.items.length === 0) return []
-  const latestDate = props.items.find((i) => i.date)?.date
+  const latestDate = props.items.reduce((max, i) => i.date && i.date > max ? i.date : max, '')
   if (!latestDate) return []
   return props.items.filter((i) => i.date === latestDate)
 })
@@ -111,8 +111,10 @@ const todayNews = computed(() => todayItems.value.filter((i) => i.content_type =
 const todayFeatured = computed(() => todayPapers.value.filter((i) => i.featured).slice(0, 5))
 
 const papersByCategory = computed(() => {
+  const featuredIds = new Set(todayFeatured.value.map((p) => p.id))
   const map = {}
   for (const p of todayPapers.value) {
+    if (featuredIds.has(p.id)) continue
     const cat = p.category || '其他'
     if (!map[cat]) map[cat] = []
     map[cat].push(p)

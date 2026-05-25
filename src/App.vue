@@ -18,7 +18,7 @@
         <!-- 错误状态 -->
         <div v-else-if="error" class="text-center py-12">
           <p class="text-sm text-slate-400 dark:text-slate-500 mb-4">{{ error }}</p>
-          <button @click="location.reload()" class="text-xs px-4 py-2 rounded-lg bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-400 dark:hover:bg-slate-700">重试</button>
+          <button @click="() => location.reload()" class="text-xs px-4 py-2 rounded-lg bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-400 dark:hover:bg-slate-700">重试</button>
         </div>
 
         <!-- 视图切换 -->
@@ -82,7 +82,11 @@ onMounted(async () => {
       fetch('daily_reports.json').catch(() => null),
     ])
 
-    if (papersRes?.ok) papers.value = await papersRes.json()
+    if (papersRes?.ok) {
+      papers.value = await papersRes.json()
+    } else if (papersRes) {
+      error.value = '数据加载失败（HTTP ' + papersRes.status + '），请刷新重试'
+    }
     if (reportsRes?.ok) dailyReports.value = await reportsRes.json()
   } catch (e) {
     error.value = '数据加载失败，请刷新重试'
@@ -108,8 +112,10 @@ function onNavigate(view) {
 
 <style>
 .main-push {
-  will-change: transform;
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.main-push.is-pushed {
+  will-change: transform;
 }
 .main-push.is-pushed {
   transform: translateX(-210px);

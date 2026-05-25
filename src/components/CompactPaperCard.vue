@@ -10,7 +10,7 @@
         class="text-base font-medium tabular-nums"
         :class="paper.featured ? 'text-slate-800 dark:text-slate-200' : 'text-slate-400 dark:text-slate-500'"
       >
-        {{ paper.composite_score }}
+        {{ paper.composite_score ?? '—' }}
       </span>
     </div>
 
@@ -22,7 +22,7 @@
           精选
         </span>
       </div>
-      <p class="text-xs text-slate-400 dark:text-slate-500 mt-1 line-clamp-2">{{ paper.one_sentence_summary }}</p>
+      <p class="text-xs text-slate-400 dark:text-slate-500 mt-1" style="display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">{{ paper.one_sentence_summary }}</p>
     </div>
   </div>
 </template>
@@ -35,12 +35,3 @@ defineProps({
 
 defineEmits(['select'])
 </script>
-
-<style scoped>
-.line-clamp-2 {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-</style>

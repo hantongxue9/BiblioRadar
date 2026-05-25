@@ -16,6 +16,6 @@
 <script setup>
 defineProps({
   label: String,
-  score: Number,
+  score: { type: Number, default: 0 },
 })
 </script>

@@ -1,8 +1,7 @@
 <template>
-  <a
-    :href="item.link"
-    target="_blank"
-    rel="noopener"
+  <component
+    :is="item.link ? 'a' : 'div'"
+    v-bind="item.link ? { href: item.link, target: '_blank', rel: 'noopener' } : {}"
     class="flex items-start gap-4 py-3 px-4 mb-2 rounded-lg hover:bg-slate-50/50 dark:hover:bg-slate-800/50 transition-colors group"
   >
     <!-- 来源标签 -->
@@ -17,9 +16,9 @@
       <h3 class="text-sm text-slate-700 dark:text-slate-200 leading-relaxed group-hover:text-slate-900 dark:group-hover:text-slate-100 transition-colors">
         {{ item.title }}
       </h3>
-      <p class="text-xs text-slate-400 dark:text-slate-500 mt-1 line-clamp-2">{{ item.one_sentence_summary }}</p>
+      <p class="text-xs text-slate-400 dark:text-slate-500 mt-1" style="display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">{{ item.one_sentence_summary }}</p>
     </div>
-  </a>
+  </component>
 </template>
 
 <script setup>
@@ -27,12 +26,3 @@ defineProps({
   item: { type: Object, required: true },
 })
 </script>
-
-<style scoped>
-.line-clamp-2 {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-</style>

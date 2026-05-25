@@ -95,7 +95,7 @@
 </template>
 
 <script setup>
-import { ref, computed, watch } from 'vue'
+import { ref, computed, watch, onUnmounted } from 'vue'
 import PaperCard from './PaperCard.vue'
 
 const props = defineProps({
@@ -116,6 +116,7 @@ watch(searchInput, (val) => {
   clearTimeout(searchTimer)
   searchTimer = setTimeout(() => { searchQuery.value = val }, 200)
 })
+onUnmounted(() => clearTimeout(searchTimer))
 
 const typeOptions = [
   { label: '全部', value: 'all' },
@@ -124,7 +125,7 @@ const typeOptions = [
 ]
 
 const categories = computed(() => {
-  return [...new Set(props.items.map((p) => p.category))].sort()
+  return [...new Set(props.items.map((p) => p.category))].filter(Boolean).sort()
 })
 
 const filtered = computed(() => {
@@ -152,7 +153,7 @@ const filtered = computed(() => {
   if (sortBy.value === 'date') {
     result.sort((a, b) => (b.date || '').localeCompare(a.date || ''))
   } else {
-    result.sort((a, b) => (b.composite_score || 0) - (a.composite_score || 0))
+    result.sort((a, b) => (b.composite_score ?? 0) - (a.composite_score ?? 0))
   }
 
   return result
