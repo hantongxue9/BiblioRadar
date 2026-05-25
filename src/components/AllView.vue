@@ -159,6 +159,9 @@ const filtered = computed(() => {
 })
 
 const groupedByDate = computed(() => {
+  if (sortBy.value !== 'date') {
+    return [{ date: null, items: filtered.value }]
+  }
   const groups = []
   let currentDate = null
   for (const item of filtered.value) {
