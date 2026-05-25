@@ -1,6 +1,6 @@
 <template>
   <article
-    class="bg-white border rounded-xl p-6 mb-4 transition-shadow hover:shadow-sm cursor-pointer
+    class="bg-white border rounded-xl p-6 mb-4 hover:shadow-sm cursor-pointer
            dark:bg-slate-900 dark:border-slate-800 dark:hover:shadow-none"
     :class="[
       isSelected ? 'border-l-2 border-l-slate-800 bg-slate-50/30 dark:border-l-slate-400 dark:bg-slate-800/30' : 'border-gray-100 dark:border-slate-800',

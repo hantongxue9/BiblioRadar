@@ -77,26 +77,33 @@
       没有找到匹配的内容
     </div>
 
-    <template v-for="group in groupedByDate" :key="group.date">
-      <div class="flex items-center gap-4 mb-6 mt-2">
-        <div class="h-px flex-1 bg-gray-200 dark:bg-slate-800"></div>
-        <span class="text-xs text-slate-400 dark:text-slate-500 whitespace-nowrap">{{ group.date || '无日期' }}</span>
-        <div class="h-px flex-1 bg-gray-200 dark:bg-slate-800"></div>
+    <!-- 虚拟滚动容器 -->
+    <div v-else ref="scrollContainer" style="overflow-anchor: none;">
+      <div :style="{ height: totalHeight + 'px', position: 'relative' }">
+        <div :style="{ position: 'absolute', top: 0, left: 0, right: 0, transform: 'translateY(' + offsetY + 'px)' }">
+          <template v-for="entry in visibleItems" :key="entry.key">
+            <!-- 日期分隔符 -->
+            <div v-if="entry.type === 'separator'" class="flex items-center gap-4 mb-6 mt-2">
+              <div class="h-px flex-1 bg-gray-200 dark:bg-slate-800"></div>
+              <span class="text-xs text-slate-400 dark:text-slate-500 whitespace-nowrap">{{ entry.date || '无日期' }}</span>
+              <div class="h-px flex-1 bg-gray-200 dark:bg-slate-800"></div>
+            </div>
+            <!-- 论文卡片 -->
+            <PaperCard
+              v-else
+              :paper="entry.item"
+              :is-selected="selectedItem?.id === entry.item.id"
+              @select="$emit('select', $event)"
+            />
+          </template>
+        </div>
       </div>
-      <PaperCard
-        v-for="item in group.items"
-        :key="item.id"
-        v-memo="[item.id === selectedItem?.id]"
-        :paper="item"
-        :is-selected="selectedItem?.id === item.id"
-        @select="$emit('select', $event)"
-      />
-    </template>
+    </div>
   </div>
 </template>
 
 <script setup>
-import { ref, computed, watch } from 'vue'
+import { ref, computed, watch, onMounted, onUnmounted, nextTick } from 'vue'
 import PaperCard from './PaperCard.vue'
 
 const props = defineProps({
@@ -159,16 +166,103 @@ const filtered = computed(() => {
   return result
 })
 
-const groupedByDate = computed(() => {
-  const groups = []
+// 将分组数据扁平化为带类型的条目列表（日期分隔符 + 卡片交替）
+const flatItems = computed(() => {
+  const list = []
   let currentDate = null
   for (const item of filtered.value) {
     if (item.date !== currentDate) {
       currentDate = item.date
-      groups.push({ date: item.date, items: [] })
+      list.push({ type: 'separator', date: item.date, key: 'sep-' + (item.date || 'none') })
     }
-    groups[groups.length - 1].items.push(item)
+    list.push({ type: 'card', item, key: 'card-' + item.id })
   }
-  return groups
+  return list
+})
+
+// 虚拟滚动参数
+const ROW_HEIGHT = 200      // 卡片估算高度（px）
+const SEP_HEIGHT = 48       // 分隔符高度（px）
+const BUFFER = 8            // 上下缓冲条目数
+
+const scrollTop = ref(0)
+const viewportHeight = ref(800)
+const scrollContainer = ref(null)
+let rafId = null
+
+const totalHeight = computed(() => {
+  let h = 0
+  for (const entry of flatItems.value) {
+    h += entry.type === 'separator' ? SEP_HEIGHT : ROW_HEIGHT
+  }
+  return h
+})
+
+const visibleRange = computed(() => {
+  let start = 0
+  let acc = 0
+  for (let i = 0; i < flatItems.value.length; i++) {
+    const h = flatItems.value[i].type === 'separator' ? SEP_HEIGHT : ROW_HEIGHT
+    if (acc + h > scrollTop.value) { start = i; break }
+    acc += h
+    if (i === flatItems.value.length - 1) { start = i }
+  }
+
+  let end = start
+  let visible = 0
+  for (let i = start; i < flatItems.value.length; i++) {
+    const h = flatItems.value[i].type === 'separator' ? SEP_HEIGHT : ROW_HEIGHT
+    visible += h
+    end = i
+    if (visible > viewportHeight.value) break
+  }
+
+  return {
+    start: Math.max(0, start - BUFFER),
+    end: Math.min(flatItems.value.length - 1, end + BUFFER),
+  }
+})
+
+const visibleItems = computed(() =>
+  flatItems.value.slice(visibleRange.value.start, visibleRange.value.end + 1)
+)
+
+const offsetY = computed(() => {
+  let h = 0
+  for (let i = 0; i < visibleRange.value.start; i++) {
+    h += flatItems.value[i].type === 'separator' ? SEP_HEIGHT : ROW_HEIGHT
+  }
+  return h
+})
+
+function updateViewport() {
+  if (scrollContainer.value) {
+    viewportHeight.value = scrollContainer.value.clientHeight || window.innerHeight
+  }
+}
+
+function onScroll() {
+  if (rafId) return
+  rafId = requestAnimationFrame(() => {
+    scrollTop.value = window.scrollY || document.documentElement.scrollTop
+    rafId = null
+  })
+}
+
+onMounted(() => {
+  updateViewport()
+  window.addEventListener('scroll', onScroll, { passive: true })
+  window.addEventListener('resize', updateViewport, { passive: true })
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', onScroll)
+  window.removeEventListener('resize', updateViewport)
+  if (rafId) cancelAnimationFrame(rafId)
+})
+
+// 切换排序/筛选时回到顶部
+watch([sortBy, selectedCategory, contentType, searchQuery], () => {
+  nextTick(() => window.scrollTo({ top: 0, behavior: 'instant' }))
 })
 </script>
