@@ -151,7 +151,7 @@ const filtered = computed(() => {
 
   result = result.slice()
   if (sortBy.value === 'date') {
-    result.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0))
+    result.sort((a, b) => (b.date || '').localeCompare(a.date || ''))
   } else {
     result.sort((a, b) => (b.composite_score || 0) - (a.composite_score || 0))
   }

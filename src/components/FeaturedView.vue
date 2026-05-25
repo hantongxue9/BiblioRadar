@@ -69,7 +69,7 @@ const filtered = computed(() => {
   if (selectedCategory.value !== 'all') {
     result = result.filter((p) => p.category === selectedCategory.value)
   }
-  return result.slice().sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0))
+  return result.slice().sort((a, b) => (b.date || '').localeCompare(a.date || ''))
 })
 
 const groupedByDate = computed(() => {
