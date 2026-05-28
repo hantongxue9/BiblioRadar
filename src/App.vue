@@ -63,9 +63,25 @@ import Sidebar from './components/Sidebar.vue'
 import FeaturedView from './components/FeaturedView.vue'
 import DetailPanel from './components/DetailPanel.vue'
 
-const AllView = defineAsyncComponent(() => import('./components/AllView.vue'))
-const DailyView = defineAsyncComponent(() => import('./components/DailyView.vue'))
-const AboutView = defineAsyncComponent(() => import('./components/AboutView.vue'))
+const AsyncFallback = {
+  template: '<div class="text-center text-sm text-slate-400 dark:text-slate-500 py-12">加载中...</div>',
+}
+
+const AllView = defineAsyncComponent({
+  loader: () => import('./components/AllView.vue'),
+  loadingComponent: AsyncFallback,
+  delay: 100,
+})
+const DailyView = defineAsyncComponent({
+  loader: () => import('./components/DailyView.vue'),
+  loadingComponent: AsyncFallback,
+  delay: 100,
+})
+const AboutView = defineAsyncComponent({
+  loader: () => import('./components/AboutView.vue'),
+  loadingComponent: AsyncFallback,
+  delay: 100,
+})
 
 const papers = shallowRef([])
 const dailyReports = shallowRef([])

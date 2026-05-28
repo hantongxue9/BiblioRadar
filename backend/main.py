@@ -188,35 +188,31 @@ def main():
         evaluated.extend(eval_news)
         print(f"[main] 资讯通过 {len(eval_news)} 条")
 
-    if not evaluated:
-        print("[main] 无新条目需要写入")
-        return
+    # 第四步：计算综合分并合并写入
+    if evaluated:
+        for item in evaluated:
+            compute_composite_score(item)
 
-    # 第四步：计算综合分
-    for item in evaluated:
-        compute_composite_score(item)
+        merged = merge_papers(existing, evaluated)
 
-    # 第五步：合并
-    merged = merge_papers(existing, evaluated)
+        if len(merged) > MAX_TOTAL_ITEMS:
+            merged = merged[:MAX_TOTAL_ITEMS]
+            print(f"[main] 裁剪至 {MAX_TOTAL_ITEMS} 条")
 
-    # 第六步：裁剪（保留最新的 MAX_TOTAL_ITEMS 条）
-    if len(merged) > MAX_TOTAL_ITEMS:
-        merged = merged[:MAX_TOTAL_ITEMS]
-        print(f"[main] 裁剪至 {MAX_TOTAL_ITEMS} 条")
+        OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+        tmp_path = OUTPUT_PATH.with_suffix(".json.tmp")
+        with open(tmp_path, "w", encoding="utf-8") as f:
+            json.dump(merged, f, ensure_ascii=False, indent=2)
+        tmp_path.replace(OUTPUT_PATH)
+        print(f"[main] 已写入 {len(merged)} 条到 {OUTPUT_PATH}")
+    else:
+        print(f"[main] 无新条目需要写入")
 
-    # 第七步：原子写入（先写临时文件再重命名，防止中断导致截断）
-    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    tmp_path = OUTPUT_PATH.with_suffix(".json.tmp")
-    with open(tmp_path, "w", encoding="utf-8") as f:
-        json.dump(merged, f, ensure_ascii=False, indent=2)
-    tmp_path.replace(OUTPUT_PATH)
-
-    print(f"[main] 已写入 {len(merged)} 条到 {OUTPUT_PATH}")
-
-    # 第八步：生成日报
+    # 第五步：生成日报（基于当天抓取的全部内容，不仅是新增的）
     today_str = datetime.now().strftime("%Y-%m-%d")
-    print(f"[main] 生成 {today_str} 日报...")
-    report = generate_daily_report(evaluated, model=LLM_MODEL)
+    report_items = evaluated if evaluated else raw_papers + raw_news
+    print(f"[main] 生成 {today_str} 日报（基于 {len(report_items)} 条）...")
+    report = generate_daily_report(report_items, model=LLM_MODEL)
     if report:
         reports = load_daily_reports()
         reports = [r for r in reports if r.get("date") != today_str]
