@@ -10,7 +10,7 @@
       <div class="flex-shrink-0 px-6 max-md:px-4 pt-6 pb-4 border-b border-gray-100 dark:border-slate-800">
         <div class="flex items-start justify-between mb-3">
           <div class="flex items-center gap-2">
-            <span v-if="item.featured" class="text-[10px] px-2 py-0.5 rounded-full bg-gradient-to-r from-indigo-500 to-indigo-400 text-white dark:from-indigo-400 dark:to-indigo-500 dark:text-slate-900 font-medium">精选</span>
+            <span v-if="item.featured" class="text-[10px] px-2 py-0.5 rounded-full bg-blue-50 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400 font-medium">精选</span>
             <span v-if="item.composite_score != null" class="text-lg font-medium text-slate-700 dark:text-slate-300 tabular-nums">
               {{ item.composite_score }}
             </span>
@@ -49,14 +49,14 @@
         </p>
 
         <div v-if="item.content_type === 'news'" class="space-y-2">
-          <ScoreBar label="时效性" :score="item.scores?.timeliness" />
-          <ScoreBar label="领域相关性" :score="item.scores?.relevance" />
-          <ScoreBar label="信息价值" :score="item.scores?.information_value" />
+          <ScoreBar label="时效性" :score="item.scores?.timeliness" color="blue" />
+          <ScoreBar label="领域相关性" :score="item.scores?.relevance" color="teal" />
+          <ScoreBar label="信息价值" :score="item.scores?.information_value" color="amber" />
         </div>
         <div v-else class="space-y-2">
-          <ScoreBar label="前沿技术度" :score="item.scores?.frontier_tech" />
-          <ScoreBar label="业务落地值" :score="item.scores?.practical_value" />
-          <ScoreBar label="方法严谨性" :score="item.scores?.methodological_rigor" />
+          <ScoreBar label="前沿技术度" :score="item.scores?.frontier_tech" color="blue" />
+          <ScoreBar label="业务落地值" :score="item.scores?.practical_value" color="teal" />
+          <ScoreBar label="方法严谨性" :score="item.scores?.methodological_rigor" color="amber" />
         </div>
 
         <div v-if="item.abstract">
