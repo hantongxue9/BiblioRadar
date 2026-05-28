@@ -11,8 +11,8 @@
     >
       <div class="max-w-3xl mx-auto px-6 py-10 pb-20 max-md:px-4 max-md:py-6">
         <!-- 加载状态 -->
-        <div v-if="loading" class="text-center text-sm text-slate-400 py-12">
-          加载中...
+        <div v-if="loading">
+          <Spinner />
         </div>
 
         <!-- 错误状态 -->
@@ -22,7 +22,7 @@
         </div>
 
         <!-- 视图切换（KeepAlive 缓存已访问视图，消除切换闪烁） -->
-        <KeepAlive>
+        <KeepAlive v-else>
           <FeaturedView
             v-if="currentView === 'featured'"
             :items="featuredItems"
@@ -65,30 +65,29 @@ import Sidebar from './components/Sidebar.vue'
 import FeaturedView from './components/FeaturedView.vue'
 import DetailPanel from './components/DetailPanel.vue'
 
-const AsyncFallback = {
-  template: `<div class="space-y-4 animate-pulse py-2">
-    <div class="h-4 bg-slate-100 dark:bg-slate-800 rounded w-1/3"></div>
-    <div class="h-3 bg-slate-100 dark:bg-slate-800 rounded w-2/3"></div>
-    <div class="h-20 bg-slate-100 dark:bg-slate-800 rounded"></div>
-    <div class="h-20 bg-slate-100 dark:bg-slate-800 rounded"></div>
-    <div class="h-20 bg-slate-100 dark:bg-slate-800 rounded"></div>
+const spinner = {
+  template: `<div class="flex items-center justify-center py-20">
+    <svg class="w-5 h-5 text-slate-300 dark:text-slate-600 animate-spin" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" stroke-opacity="0.25"/>
+      <path d="M12 2a10 10 0 0 1 10 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </svg>
   </div>`,
 }
 
 const AllView = defineAsyncComponent({
   loader: () => import('./components/AllView.vue'),
-  loadingComponent: AsyncFallback,
-  delay: 100,
+  loadingComponent: spinner,
+  delay: 0,
 })
 const DailyView = defineAsyncComponent({
   loader: () => import('./components/DailyView.vue'),
-  loadingComponent: AsyncFallback,
-  delay: 100,
+  loadingComponent: spinner,
+  delay: 0,
 })
 const AboutView = defineAsyncComponent({
   loader: () => import('./components/AboutView.vue'),
-  loadingComponent: AsyncFallback,
-  delay: 100,
+  loadingComponent: spinner,
+  delay: 0,
 })
 
 const papers = shallowRef([])
