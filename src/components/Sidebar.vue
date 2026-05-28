@@ -6,8 +6,8 @@
   >
     <!-- 标题 -->
     <div class="px-5 pt-8 pb-6 max-md:px-4 max-md:pt-5 max-md:pb-3">
-      <h1 class="text-lg font-light tracking-tight text-slate-800 dark:text-slate-100">Scholar-Radar</h1>
-      <p class="text-xs text-slate-400 dark:text-slate-500 mt-1">图情科研雷达</p>
+      <h1 class="text-lg font-light tracking-tight text-slate-800 dark:text-slate-100">图情雷达</h1>
+      <p class="text-xs text-slate-400 dark:text-slate-500 mt-1">BiblioRadar</p>
     </div>
 
     <!-- 导航 -->

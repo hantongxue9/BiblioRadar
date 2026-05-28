@@ -1,5 +1,5 @@
 """
-Scholar-Radar 后端主入口
+图情雷达（BiblioRadar）后端主入口
 
 调度抓取和评估逻辑，将最终结果写入前端的 public/data.json。
 """
@@ -141,7 +141,7 @@ def save_daily_reports(reports: list):
 
 def main():
     """主流程：抓取论文 + 资讯 → 评估 → 综合分 → 写入"""
-    print(f"[main] Scholar-Radar 数据更新开始 {datetime.now().isoformat()}")
+    print(f"[main] BiblioRadar 数据更新开始 {datetime.now().isoformat()}")
     print(f"[main] 输出路径: {OUTPUT_PATH}")
 
     # 加载已有数据，用于去重

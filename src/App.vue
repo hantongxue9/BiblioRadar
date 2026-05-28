@@ -49,7 +49,7 @@
       <!-- 底部 -->
       <footer class="text-center pb-8">
         <p class="text-xs text-slate-300 dark:text-slate-700">
-          Scholar-Radar · 数据由大模型辅助评分，仅供参考
+          图情雷达 · 数据由大模型辅助评分，仅供参考
         </p>
       </footer>
     </main>

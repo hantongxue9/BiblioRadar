@@ -1,9 +1,9 @@
 <template>
   <div v-once class="max-w-2xl">
     <div class="mb-10">
-      <h2 class="text-lg font-light text-slate-800 dark:text-slate-100 mb-4">关于 Scholar-Radar</h2>
+      <h2 class="text-lg font-light text-slate-800 dark:text-slate-100 mb-4">关于图情雷达</h2>
       <p class="text-sm text-slate-600 dark:text-slate-500 leading-relaxed">
-        Scholar-Radar 是一个自动化的图情领域学术追踪系统。每日从多个学术信息源抓取最新文献和行业资讯，通过大模型进行多维度评估，为研究者提供经过筛选和排序的前沿学术动态。
+        图情雷达（BiblioRadar）是一个自动化的图情领域学术追踪系统。每日从多个学术信息源抓取最新文献和行业资讯，通过大模型进行多维度评估，为研究者提供经过筛选和排序的前沿学术动态。
       </p>
     </div>
 
