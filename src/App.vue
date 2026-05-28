@@ -66,7 +66,13 @@ import FeaturedView from './components/FeaturedView.vue'
 import DetailPanel from './components/DetailPanel.vue'
 
 const AsyncFallback = {
-  template: '<div class="text-center text-sm text-slate-400 dark:text-slate-500 py-12">加载中...</div>',
+  template: `<div class="space-y-4 animate-pulse py-2">
+    <div class="h-4 bg-slate-100 dark:bg-slate-800 rounded w-1/3"></div>
+    <div class="h-3 bg-slate-100 dark:bg-slate-800 rounded w-2/3"></div>
+    <div class="h-20 bg-slate-100 dark:bg-slate-800 rounded"></div>
+    <div class="h-20 bg-slate-100 dark:bg-slate-800 rounded"></div>
+    <div class="h-20 bg-slate-100 dark:bg-slate-800 rounded"></div>
+  </div>`,
 }
 
 const AllView = defineAsyncComponent({
