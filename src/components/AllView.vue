@@ -77,7 +77,7 @@
       没有找到匹配的内容
     </div>
 
-    <template v-for="group in groupedByDate" :key="group.date ?? 'flat'">
+    <template v-for="group in pageGroups" :key="group.date ?? 'flat'">
       <div v-if="group.date" class="flex items-center gap-4 mb-6 mt-2">
         <div class="h-px flex-1 bg-gray-200 dark:bg-slate-800"></div>
         <span class="text-xs text-slate-400 dark:text-slate-500 whitespace-nowrap">{{ group.date }}</span>
@@ -91,6 +91,39 @@
         @select="$emit('select', $event)"
       />
     </template>
+
+    <!-- 分页 -->
+    <div v-if="totalPages > 1" class="flex items-center justify-center gap-1 mt-10">
+      <button
+        :disabled="currentPage === 1"
+        @click="currentPage--"
+        class="px-2.5 py-1 text-xs rounded transition-colors disabled:opacity-30 disabled:cursor-default
+               text-slate-500 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800"
+      >
+        ‹
+      </button>
+      <button
+        v-for="p in visiblePages"
+        :key="p"
+        @click="currentPage = p"
+        class="min-w-[28px] px-2 py-1 text-xs rounded transition-colors"
+        :class="
+          p === currentPage
+            ? 'bg-slate-800 text-white dark:bg-slate-200 dark:text-slate-900'
+            : 'text-slate-500 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800'
+        "
+      >
+        {{ p }}
+      </button>
+      <button
+        :disabled="currentPage === totalPages"
+        @click="currentPage++"
+        class="px-2.5 py-1 text-xs rounded transition-colors disabled:opacity-30 disabled:cursor-default
+               text-slate-500 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800"
+      >
+        ›
+      </button>
+    </div>
   </div>
 </template>
 
@@ -110,6 +143,8 @@ const searchQuery = ref('')
 const selectedCategory = ref('all')
 const contentType = ref('all')
 const sortBy = ref('date')
+const currentPage = ref(1)
+const perPage = 50
 
 let searchTimer = null
 watch(searchInput, (val) => {
@@ -159,13 +194,35 @@ const filtered = computed(() => {
   return result
 })
 
-const groupedByDate = computed(() => {
+// 筛选/排序变化时回到第 1 页
+watch([searchQuery, selectedCategory, contentType, sortBy], () => { currentPage.value = 1 })
+
+const totalPages = computed(() => Math.ceil(filtered.value.length / perPage))
+
+const paginatedItems = computed(() => {
+  const start = (currentPage.value - 1) * perPage
+  return filtered.value.slice(start, start + perPage)
+})
+
+const visiblePages = computed(() => {
+  const total = totalPages.value
+  const cur = currentPage.value
+  const pages = []
+  // 最多显示 7 个页码，当前页居中
+  let start = Math.max(1, cur - 3)
+  let end = Math.min(total, start + 6)
+  if (end - start < 6) start = Math.max(1, end - 6)
+  for (let i = start; i <= end; i++) pages.push(i)
+  return pages
+})
+
+const pageGroups = computed(() => {
   if (sortBy.value !== 'date') {
-    return [{ date: null, items: filtered.value }]
+    return [{ date: null, items: paginatedItems.value }]
   }
   const groups = []
   let currentDate = null
-  for (const item of filtered.value) {
+  for (const item of paginatedItems.value) {
     if (item.date !== currentDate) {
       currentDate = item.date
       groups.push({ date: item.date, items: [] })
