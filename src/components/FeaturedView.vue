@@ -22,12 +22,14 @@
       </button>
     </div>
 
+    <p class="text-xs text-slate-400 dark:text-slate-500 mb-6">共 {{ filtered.length }} 条</p>
+
     <div v-if="filtered.length === 0" class="text-sm text-slate-400 dark:text-slate-500 py-12 text-center">
       暂无精选文献
     </div>
 
     <!-- 按日期分组 -->
-    <template v-for="group in groupedByDate" :key="group.date ?? 'flat'">
+    <template v-for="group in pageGroups" :key="group.date ?? 'flat'">
       <div v-if="group.date" class="flex items-center gap-4 mb-6 mt-2">
         <div class="h-px flex-1 bg-gray-200 dark:bg-slate-800"></div>
         <span class="text-xs text-slate-400 dark:text-slate-500 whitespace-nowrap">{{ group.date }}</span>
@@ -43,11 +45,44 @@
         @select="$emit('select', $event)"
       />
     </template>
+
+    <!-- 分页 -->
+    <div v-if="totalPages > 1" class="flex items-center justify-center gap-1 mt-10">
+      <button
+        :disabled="currentPage === 1"
+        @click="currentPage--"
+        class="px-2.5 py-1 text-xs rounded transition-colors disabled:opacity-30 disabled:cursor-default
+               text-slate-500 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800"
+      >
+        ‹
+      </button>
+      <button
+        v-for="p in visiblePages"
+        :key="p"
+        @click="currentPage = p"
+        class="min-w-[28px] px-2 py-1 text-xs rounded transition-colors"
+        :class="
+          p === currentPage
+            ? 'bg-slate-800 text-white dark:bg-slate-200 dark:text-slate-900'
+            : 'text-slate-500 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800'
+        "
+      >
+        {{ p }}
+      </button>
+      <button
+        :disabled="currentPage === totalPages"
+        @click="currentPage++"
+        class="px-2.5 py-1 text-xs rounded transition-colors disabled:opacity-30 disabled:cursor-default
+               text-slate-500 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800"
+      >
+        ›
+      </button>
+    </div>
   </div>
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
 import PaperCard from './PaperCard.vue'
 
 const props = defineProps({
@@ -58,6 +93,10 @@ const props = defineProps({
 defineEmits(['select'])
 
 const selectedCategory = ref('all')
+const currentPage = ref(1)
+const perPage = 50
+
+watch(selectedCategory, () => { currentPage.value = 1 })
 
 const categories = computed(() => {
   const cats = new Set(props.items.map((p) => p.category))
@@ -72,10 +111,28 @@ const filtered = computed(() => {
   return result.slice().sort((a, b) => (b.date || '').localeCompare(a.date || ''))
 })
 
-const groupedByDate = computed(() => {
+const totalPages = computed(() => Math.ceil(filtered.value.length / perPage))
+
+const paginatedItems = computed(() => {
+  const start = (currentPage.value - 1) * perPage
+  return filtered.value.slice(start, start + perPage)
+})
+
+const visiblePages = computed(() => {
+  const total = totalPages.value
+  const cur = currentPage.value
+  const pages = []
+  let start = Math.max(1, cur - 3)
+  let end = Math.min(total, start + 6)
+  if (end - start < 6) start = Math.max(1, end - 6)
+  for (let i = start; i <= end; i++) pages.push(i)
+  return pages
+})
+
+const pageGroups = computed(() => {
   const groups = []
   let currentDate = null
-  for (const item of filtered.value) {
+  for (const item of paginatedItems.value) {
     if (item.date !== currentDate) {
       currentDate = item.date
       groups.push({ date: item.date, items: [] })
