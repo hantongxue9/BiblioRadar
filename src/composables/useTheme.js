@@ -1,6 +1,6 @@
 import { ref, watch } from 'vue'
 
-const STORAGE_KEY = 'scholar-radar-theme'
+const STORAGE_KEY = 'biblioradar-theme'
 
 const theme = ref('system') // 'light' | 'dark' | 'system'
 
