@@ -21,7 +21,7 @@ const props = defineProps({
 })
 
 const colorMap = {
-  blue:   { high: 'bg-blue-400 dark:bg-blue-500',   mid: 'bg-blue-300/70 dark:bg-blue-500/60',   low: 'bg-blue-200/50 dark:bg-blue-600/40' },
+  blue:   { high: 'bg-ustc-400 dark:bg-ustc-500',   mid: 'bg-ustc-300/70 dark:bg-ustc-500/60',   low: 'bg-ustc-200/50 dark:bg-ustc-600/40' },
   teal:   { high: 'bg-teal-400 dark:bg-teal-500',   mid: 'bg-teal-300/70 dark:bg-teal-500/60',   low: 'bg-teal-200/50 dark:bg-teal-600/40' },
   amber:  { high: 'bg-amber-400 dark:bg-amber-500', mid: 'bg-amber-300/70 dark:bg-amber-500/60', low: 'bg-amber-200/50 dark:bg-amber-600/40' },
   slate:  { high: 'bg-slate-400 dark:bg-slate-500', mid: 'bg-slate-300/70 dark:bg-slate-500/60', low: 'bg-slate-200/50 dark:bg-slate-600/40' },

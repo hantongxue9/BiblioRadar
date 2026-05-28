@@ -2,7 +2,7 @@
   <div>
     <div class="mb-6">
       <h2 class="text-lg font-light text-slate-800 dark:text-slate-100 mb-1.5">精选</h2>
-      <div class="w-8 h-0.5 bg-blue-300 rounded mb-2"></div>
+      <div class="w-8 h-0.5 bg-ustc-300 rounded mb-2"></div>
       <p class="text-xs text-slate-400 dark:text-slate-500">综合评分 ≥ 7.5 的高分文献</p>
     </div>
 

@@ -6,7 +6,7 @@
   >
     <!-- 来源标签 -->
     <div class="flex-shrink-0 pt-0.5">
-      <span class="text-[10px] px-1.5 py-0.5 rounded bg-blue-50 text-blue-500 border border-blue-100 dark:bg-blue-900/30 dark:text-blue-400 dark:border-blue-800">
+      <span class="text-[10px] px-1.5 py-0.5 rounded bg-ustc-50 text-ustc-500 border border-ustc-100 dark:bg-ustc-900/30 dark:text-ustc-300 dark:border-ustc-800">
         {{ item.source }}
       </span>
     </div>

@@ -10,7 +10,7 @@
       <div class="flex-shrink-0 px-6 max-md:px-4 pt-6 pb-4 border-b border-gray-100 dark:border-slate-800">
         <div class="flex items-start justify-between mb-3">
           <div class="flex items-center gap-2">
-            <span v-if="item.featured" class="text-[10px] px-2 py-0.5 rounded-full bg-blue-50 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400 font-medium">精选</span>
+            <span v-if="item.featured" class="text-[10px] px-2 py-0.5 rounded-full bg-ustc-50 text-ustc-500 dark:bg-ustc-900/30 dark:text-ustc-300 font-medium">精选</span>
             <span v-if="item.composite_score != null" class="text-lg font-medium text-slate-700 dark:text-slate-300 tabular-nums">
               {{ item.composite_score }}
             </span>
@@ -32,7 +32,7 @@
         <div class="flex items-center gap-3 flex-wrap">
           <span
             class="text-xs px-2.5 py-0.5 rounded-full"
-            :class="item.content_type === 'news' ? 'bg-blue-50 text-blue-500 dark:bg-blue-900/30 dark:text-blue-400' : 'bg-slate-100 text-slate-500 dark:bg-slate-800 dark:text-slate-400'"
+            :class="item.content_type === 'news' ? 'bg-ustc-50 text-ustc-500 dark:bg-ustc-900/30 dark:text-ustc-300' : 'bg-slate-100 text-slate-500 dark:bg-slate-800 dark:text-slate-400'"
           >
             {{ item.category }}
           </span>

@@ -3,8 +3,8 @@
     class="bg-white border rounded-xl p-6 mb-4 hover:shadow-sm cursor-pointer transition-shadow
            dark:bg-slate-900 dark:border-slate-800 dark:hover:shadow-none"
     :class="[
-      isSelected ? 'border-l-2 border-l-blue-400 bg-blue-50/30 dark:border-l-blue-500 dark:bg-blue-500/5' : 'border-gray-100 dark:border-slate-800',
-      paper.content_type === 'news' && !isSelected ? 'border-l-2 border-l-blue-300 dark:border-l-blue-700' : '',
+      isSelected ? 'border-l-2 border-l-ustc-400 bg-ustc-50/30 dark:border-l-ustc-500 dark:bg-ustc-500/5' : 'border-gray-100 dark:border-slate-800',
+      paper.content_type === 'news' && !isSelected ? 'border-l-2 border-l-ustc-200 dark:border-l-ustc-700' : '',
     ]"
     @click="$emit('select', paper)"
   >
@@ -14,7 +14,7 @@
         {{ paper.title }}
       </h2>
       <div class="flex items-center gap-2 flex-shrink-0 max-md:flex-wrap max-md:justify-end">
-        <span v-if="paper.featured" class="text-[10px] px-2 py-0.5 rounded-full bg-blue-50 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400 font-medium">精选</span>
+        <span v-if="paper.featured" class="text-[10px] px-2 py-0.5 rounded-full bg-ustc-50 text-ustc-500 dark:bg-ustc-900/30 dark:text-ustc-300 font-medium">精选</span>
         <span v-if="showComposite && paper.composite_score != null" class="text-lg font-medium text-slate-700 dark:text-slate-300 tabular-nums">
           {{ paper.composite_score }}
         </span>
@@ -26,7 +26,7 @@
     <div class="flex items-center gap-3 mb-4 min-w-0">
       <span
         class="text-xs px-2.5 py-0.5 rounded-full flex-shrink-0"
-        :class="paper.content_type === 'news' ? 'bg-blue-50 text-blue-500 dark:bg-blue-900/30 dark:text-blue-400' : 'bg-slate-100 text-slate-500 dark:bg-slate-800 dark:text-slate-400'"
+        :class="paper.content_type === 'news' ? 'bg-ustc-50 text-ustc-500 dark:bg-ustc-900/30 dark:text-ustc-300' : 'bg-slate-100 text-slate-500 dark:bg-slate-800 dark:text-slate-400'"
       >
         {{ paper.category }}
       </span>

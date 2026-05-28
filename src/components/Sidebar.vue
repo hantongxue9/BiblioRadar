@@ -8,7 +8,7 @@
     <div class="px-5 pt-7 pb-5 max-md:px-4 max-md:pt-4 max-md:pb-2 border-b border-gray-100/60 dark:border-slate-800/60">
       <div class="flex items-center gap-2.5">
         <!-- Logo: 雷达扫描 + 文档 -->
-        <svg class="w-8 h-8 text-blue-500 dark:text-blue-400 flex-shrink-0" viewBox="0 0 32 32" fill="none">
+        <svg class="w-8 h-8 text-ustc-400 dark:text-ustc-300 flex-shrink-0" viewBox="0 0 32 32" fill="none">
           <!-- 外圈 -->
           <circle cx="16" cy="16" r="13" stroke="currentColor" stroke-width="1.2" stroke-opacity="0.3"/>
           <circle cx="16" cy="16" r="8" stroke="currentColor" stroke-width="1.2" stroke-opacity="0.2"/>
@@ -43,7 +43,7 @@
                flex items-center gap-2.5"
         :class="
           currentView === item.key
-            ? 'text-blue-700 font-medium bg-blue-50/60 border-l-2 border-blue-400 max-md:border-l-0 max-md:border-b-2 max-md:rounded-b-none dark:text-blue-300 dark:bg-blue-500/10 dark:border-blue-500'
+            ? 'text-ustc-600 font-medium bg-ustc-50/60 border-l-2 border-ustc-400 max-md:border-l-0 max-md:border-b-2 max-md:rounded-b-none dark:text-ustc-300 dark:bg-ustc-500/10 dark:border-ustc-500'
             : 'text-slate-400 hover:text-slate-600 hover:bg-slate-50/80 dark:text-slate-500 dark:hover:text-slate-300 dark:hover:bg-slate-800/50'
         "
       >
