@@ -1,7 +1,7 @@
 <template>
   <div
     class="flex items-start gap-4 py-3 px-4 mb-2 rounded-lg hover:bg-slate-50/50 dark:hover:bg-slate-800/50 cursor-pointer transition-colors"
-    :class="isSelected ? 'bg-slate-50 border-l-2 border-l-slate-800 dark:bg-slate-800 dark:border-l-slate-400' : ''"
+    :class="isSelected ? 'bg-indigo-50/40 border-l-2 border-l-indigo-400 dark:bg-indigo-500/10 dark:border-l-indigo-500' : ''"
     @click="$emit('select', paper)"
   >
     <!-- 综合分 -->
@@ -18,7 +18,7 @@
     <div class="flex-1 min-w-0">
       <div class="flex items-start gap-2">
         <h3 class="text-sm text-slate-700 dark:text-slate-200 leading-relaxed flex-1">{{ paper.title }}</h3>
-        <span v-if="paper.featured" class="flex-shrink-0 text-[10px] px-1.5 py-0.5 rounded bg-slate-800 text-white dark:bg-slate-200 dark:text-slate-900">
+        <span v-if="paper.featured" class="flex-shrink-0 text-[10px] px-1.5 py-0.5 rounded-full bg-gradient-to-r from-indigo-500 to-indigo-400 text-white dark:from-indigo-400 dark:to-indigo-500 dark:text-slate-900 font-medium">
           精选
         </span>
       </div>

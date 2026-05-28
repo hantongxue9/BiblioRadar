@@ -10,7 +10,7 @@
       <div class="flex-shrink-0 px-6 max-md:px-4 pt-6 pb-4 border-b border-gray-100 dark:border-slate-800">
         <div class="flex items-start justify-between mb-3">
           <div class="flex items-center gap-2">
-            <span v-if="item.featured" class="text-[10px] px-1.5 py-0.5 rounded bg-slate-800 text-white dark:bg-slate-200 dark:text-slate-900">精选</span>
+            <span v-if="item.featured" class="text-[10px] px-2 py-0.5 rounded-full bg-gradient-to-r from-indigo-500 to-indigo-400 text-white dark:from-indigo-400 dark:to-indigo-500 dark:text-slate-900 font-medium">精选</span>
             <span v-if="item.composite_score != null" class="text-lg font-medium text-slate-700 dark:text-slate-300 tabular-nums">
               {{ item.composite_score }}
             </span>

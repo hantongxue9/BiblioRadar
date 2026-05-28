@@ -1,9 +1,9 @@
 <template>
   <article
-    class="bg-white border rounded-xl p-6 mb-4 hover:shadow-sm cursor-pointer
+    class="bg-white border rounded-xl p-6 mb-4 shadow-sm hover:shadow-md cursor-pointer transition-shadow
            dark:bg-slate-900 dark:border-slate-800 dark:hover:shadow-none"
     :class="[
-      isSelected ? 'border-l-2 border-l-slate-800 bg-slate-50/30 dark:border-l-slate-400 dark:bg-slate-800/30' : 'border-gray-100 dark:border-slate-800',
+      isSelected ? 'border-l-2 border-l-indigo-400 bg-indigo-50/20 dark:border-l-indigo-500 dark:bg-indigo-500/5' : 'border-gray-100 dark:border-slate-800',
       paper.content_type === 'news' && !isSelected ? 'border-l-2 border-l-blue-300 dark:border-l-blue-700' : '',
     ]"
     @click="$emit('select', paper)"
@@ -14,7 +14,7 @@
         {{ paper.title }}
       </h2>
       <div class="flex items-center gap-2 flex-shrink-0 max-md:flex-wrap max-md:justify-end">
-        <span v-if="paper.featured" class="text-[10px] px-1.5 py-0.5 rounded bg-slate-800 text-white dark:bg-slate-200 dark:text-slate-900">精选</span>
+        <span v-if="paper.featured" class="text-[10px] px-2 py-0.5 rounded-full bg-gradient-to-r from-indigo-500 to-indigo-400 text-white dark:from-indigo-400 dark:to-indigo-500 dark:text-slate-900 font-medium">精选</span>
         <span v-if="showComposite && paper.composite_score != null" class="text-lg font-medium text-slate-700 dark:text-slate-300 tabular-nums">
           {{ paper.composite_score }}
         </span>
@@ -40,12 +40,12 @@
     </p>
 
     <!-- 评分区域 -->
-    <div v-if="paper.content_type === 'news'" class="flex flex-wrap gap-x-6 gap-y-2 mb-2">
+    <div v-if="paper.content_type === 'news'" class="flex flex-wrap gap-x-6 gap-y-2 mb-2 p-3 bg-slate-50/60 rounded-lg dark:bg-slate-800/30">
       <ScoreBar label="时效性" :score="paper.scores?.timeliness" />
       <ScoreBar label="领域相关性" :score="paper.scores?.relevance" />
       <ScoreBar label="信息价值" :score="paper.scores?.information_value" />
     </div>
-    <div v-else-if="paper.scores" class="flex flex-wrap gap-x-6 gap-y-2 mb-2">
+    <div v-else-if="paper.scores" class="flex flex-wrap gap-x-6 gap-y-2 mb-2 p-3 bg-slate-50/60 rounded-lg dark:bg-slate-800/30">
       <ScoreBar label="前沿技术度" :score="paper.scores.frontier_tech" />
       <ScoreBar label="业务落地值" :score="paper.scores.practical_value" />
       <ScoreBar label="方法严谨性" :score="paper.scores.methodological_rigor" />
