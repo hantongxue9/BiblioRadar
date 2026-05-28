@@ -21,27 +21,29 @@
           <button @click="() => location.reload()" class="text-xs px-4 py-2 rounded-lg bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-400 dark:hover:bg-slate-700">重试</button>
         </div>
 
-        <!-- 视图切换 -->
-        <FeaturedView
-          v-else-if="currentView === 'featured'"
-          :items="featuredItems"
-          :selected-item="selectedItem"
-          @select="onSelect"
-        />
-        <AllView
-          v-else-if="currentView === 'all'"
-          :items="papers"
-          :selected-item="selectedItem"
-          @select="onSelect"
-        />
-        <DailyView
-          v-else-if="currentView === 'daily'"
-          :items="papers"
-          :reports="dailyReports"
-          :selected-item="selectedItem"
-          @select="onSelect"
-        />
-        <AboutView v-else-if="currentView === 'about'" />
+        <!-- 视图切换（KeepAlive 缓存已访问视图，消除切换闪烁） -->
+        <KeepAlive>
+          <FeaturedView
+            v-if="currentView === 'featured'"
+            :items="featuredItems"
+            :selected-item="selectedItem"
+            @select="onSelect"
+          />
+          <AllView
+            v-else-if="currentView === 'all'"
+            :items="papers"
+            :selected-item="selectedItem"
+            @select="onSelect"
+          />
+          <DailyView
+            v-else-if="currentView === 'daily'"
+            :items="papers"
+            :reports="dailyReports"
+            :selected-item="selectedItem"
+            @select="onSelect"
+          />
+          <AboutView v-else-if="currentView === 'about'" />
+        </KeepAlive>
       </div>
 
       <!-- 底部 -->
@@ -58,7 +60,7 @@
 </template>
 
 <script setup>
-import { ref, shallowRef, computed, onMounted, defineAsyncComponent } from 'vue'
+import { ref, shallowRef, computed, onMounted, KeepAlive, defineAsyncComponent } from 'vue'
 import Sidebar from './components/Sidebar.vue'
 import FeaturedView from './components/FeaturedView.vue'
 import DetailPanel from './components/DetailPanel.vue'
