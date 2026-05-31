@@ -44,6 +44,72 @@
     "id": 1946
   },
   {
+    "title": "Complex questions and quality answers: Comparing\n                    <scp>ChatGPT</scp>\n                    and Gemini as research collaborators",
+    "abstract": "",
+    "date": "2026-06-01",
+    "link": "https://doi.org/10.1002/asi.70056",
+    "affiliations": "Benhur Ravuri; Marcia A. Mardis; Odin Moja",
+    "source": "JASIST",
+    "tier": "A",
+    "field": "information_science",
+    "content_type": "paper",
+    "category": "AI应用",
+    "thinking": "论文标题涉及大语言模型ChatGPT和Gemini的比较，体现了前沿技术在信息科学中的应用，前沿技术度较高。但基于标题推断，缺乏方法细节，方法严谨性可能存在不确定性；业务落地值中等，因其可能为研究人员提供工具选择参考，但需具体实证支持。",
+    "scores": {
+      "frontier_tech": 8,
+      "practical_value": 7,
+      "methodological_rigor": 8
+    },
+    "one_sentence_summary": "研究对比ChatGPT和Gemini在回答复杂问题时的质量，为科研人员选择AI助手提供依据。",
+    "composite_score": 7.7,
+    "featured": true,
+    "id": 2012
+  },
+  {
+    "title": "Arab Spring’s impact on science through the lens of scholarly attention, funding, and migration",
+    "abstract": "<p>The 2010–2011 Arab Spring reverberated far beyond politics, reshaping how the Middle East and North Africa region (MENA) is studied. Analyzing 3.6 million Scopus-indexed articles published between 2002 and 2019, we find that mentions of ten of these countries in titles or abstracts rose significantly after 2011 relative to the global baseline, with Egypt receiving the greatest attention in the region. We link this surge to two intertwined mechanisms: an increase in research funding directed to the MENA region and the emigration of researchers who continued publishing about their countries of origin. Our analysis reveals that Saudi Arabia has emerged as a regional hub for research on the target countries, providing funding and attracting scholars and thereby playing a significant role in shaping the scientific narrative on the region. These findings demonstrate how political upheaval can reshape global knowledge flows by altering who studies whom, with what resources, and in which disciplines.</p>",
+    "date": "2026-05-30",
+    "link": "https://link.springer.com/article/10.1007/s11192-026-05615-z",
+    "affiliations": "",
+    "source": "Scientometrics",
+    "tier": "A",
+    "field": "bibliometrics",
+    "content_type": "paper",
+    "category": "计量与评价",
+    "thinking": "论文采用大规模文献计量分析方法，基于Scopus数据库360万篇文章，样本量充足且数据来源权威，方法论较为严谨。然而，研究主要依赖传统计量统计技术，未涉及前沿技术，且实践价值偏重于政策启示，对图书馆等机构的直接应用性有限。",
+    "scores": {
+      "frontier_tech": 5,
+      "practical_value": 6,
+      "methodological_rigor": 8
+    },
+    "one_sentence_summary": "阿拉伯之春后中东北非国家在学术文献中的关注度显著上升，主要受研究资金增加和研究人员迁移影响。",
+    "composite_score": 6.1,
+    "featured": false,
+    "id": 2001
+  },
+  {
+    "title": "Scientific collaboration in data‐intensive research networks:\n                    <scp>PhD</scp>\n                    fellows' expectations and early experiences",
+    "abstract": "",
+    "date": "2026-05-30",
+    "link": "https://doi.org/10.1002/asi.70094",
+    "affiliations": "Grischa Fraumann; Haakon Lund; Frans van der Sluis",
+    "source": "JASIST",
+    "tier": "A",
+    "field": "information_science",
+    "content_type": "paper",
+    "category": "用户行为",
+    "thinking": "论文聚焦于数据密集型研究网络中博士研究员的合作期望和早期经验，属于用户行为研究，具有一定的实践参考价值，但未涉及具体技术开发，前沿技术应用有限。研究基于访谈或调查，方法严谨性较高，符合顶级期刊标准。",
+    "scores": {
+      "frontier_tech": 4,
+      "practical_value": 6,
+      "methodological_rigor": 8
+    },
+    "one_sentence_summary": "论文分析了博士研究员在数据密集型研究网络中的合作期望与经验，为优化科研合作环境提供实证依据。",
+    "composite_score": 5.7,
+    "featured": false,
+    "id": 2005
+  },
+  {
     "title": "Triangle of inequalities: gender, research funding and open access in Spain",
     "abstract": "<p>Gender inequalities in science are widely documented, yet their persistence is often examined through isolated dimensions such as productivity, funding or publishing practices. This study provides an integrated analysis of how funding patterns, team structures and Open Access practices are associated with women’s participation in scientific production in Spain. Using large-scale bibliometric data from Web of Science (2008–2017), we analyse publications with at least one Spanish author, combining information on author gender, funding acknowledgements, authorship roles and Open Access status across five broad scientific fields. The results reveal that gender inequalities are not driven by a single mechanism, but emerge from the interaction of structural factors. Women are underrepresented in internationally funded publications and in senior authorship positions, while they appear more frequently as first authors. Mixed-gender teams consistently show more balanced participation and higher productivity for women, highlighting collaboration as a key equalising context. Open Access uptake is shaped by funding availability rather than gender, and incomplete funding information remains a major obstacle for monitoring equity and visibility. This study is particularly timely in the context of ongoing reforms in research assessment. By offering integrated, system-level evidence, it contributes to debates on responsible metrics, funding transparency and inclusive assessment practices. Rather than proposing new evaluative criteria, the findings provide diagnostic insights to support evidence-informed reforms aimed at reducing structural gender inequalities in science.</p>",
     "date": "2026-05-29",
@@ -4178,6 +4244,28 @@
     "composite_score": 7.2,
     "featured": false,
     "id": 1606
+  },
+  {
+    "title": "Sleep‐trackers in the wild: A faceted taxonomy for information and interaction design",
+    "abstract": "",
+    "date": "2026-05-27",
+    "link": "https://doi.org/10.1002/asi.70084",
+    "affiliations": "Sanonda Datta Gupta; Jaime Snyder; John S. Seberger",
+    "source": "JASIST",
+    "tier": "A",
+    "field": "information_science",
+    "content_type": "paper",
+    "category": "知识组织",
+    "thinking": "论文基于实地用户研究，系统性地构建了睡眠追踪器信息与交互设计的分类法，方法较为严谨，但前沿技术应用不明显，实践价值主要限于设计领域而非图书馆等信息机构直接应用。",
+    "scores": {
+      "frontier_tech": 6,
+      "practical_value": 5,
+      "methodological_rigor": 8
+    },
+    "one_sentence_summary": "论文通过用户研究开发了睡眠追踪器的信息与交互设计分类法，以指导产品设计。",
+    "composite_score": 6.2,
+    "featured": false,
+    "id": 2006
   },
   {
     "title": "Human-AI Collaboration in Science at Scale: A Global Large-scale Randomized Field Experiment",
@@ -10908,94 +10996,6 @@
     "composite_score": 7.7,
     "featured": true,
     "id": 19,
-    "tier": "C",
-    "field": "information_retrieval"
-  },
-  {
-    "title": "UniER: A Unified Benchmark for Item-level and Path-level Exercise Recommendation",
-    "abstract": "arXiv:2605.16750v1 Announce Type: new \nAbstract: Personalized exercise recommendation dynamically aligns pedagogical resources with individual knowledge mastery, which is crucial for satisfying students' dynamic learning needs in modern education. The field is currently driven by two dominant paradigms: Item-Level Exercise Recommendation (ILER) optimizes for immediate single-step state transitions, while Path-Level Exercise Recommendation (PLER) constructs coherent learning paths to maximize cumulative gains. Despite sharing the same ultimate objective, disparate evaluation setups have kept these two lines of research isolated, hindering unified benchmarking and fair comparison. To fill the gap, in this paper, we present a Unified Benchmark for Exercise Recommendation (UniER), a comprehensive evaluation framework that unifies ILER and PLER. Specifically, we introduce Weighted Cognitive Gain (WCG) as a unified metric to measure cross-paradigm algorithmic performance. Our benchmark encompasses 9 datasets spanning four generation methods, facilitating the comparison of 18 representative ILER/PLER methods. Through multi-dimensional analyses covering effectiveness, generalizability, robustness, and efficiency, our results reveal the systematic dominance of PLER and expose the pedagogical failure of ILER's fragmented recommendations under extreme sparsity and noise. Furthermore, we provide an open-source codebase of UniER to foster reproducible research and outline potential directions for future investigations.",
-    "date": "2026-05-19",
-    "link": "https://arxiv.org/abs/2605.16750",
-    "affiliations": "",
-    "source": "arXiv - Information Retrieval",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "论文提出了统一的评估框架UniER，引入了加权认知增益（WCG）度量标准，覆盖多个数据集和方法，进行多维度分析，体现了较强的系统性和实践价值。但摘要未详细说明具体采用的技术方法，如是否涉及深度学习等前沿技术，可能影响技术前沿度的展示。",
-    "scores": {
-      "frontier_tech": 6,
-      "practical_value": 8,
-      "methodological_rigor": 8
-    },
-    "one_sentence_summary": "论文通过统一基准UniER比较了项目级和路径级练习推荐，揭示路径级方法在整体性能上更具优势。",
-    "composite_score": 7.2,
-    "featured": false,
-    "id": 20,
-    "tier": "C",
-    "field": "information_retrieval"
-  },
-  {
-    "title": "Echoes in Filter Bubble: Diagnosing and Curing Popularity Bias in Generative Recommenders",
-    "abstract": "arXiv:2605.16825v1 Announce Type: new \nAbstract: Recently, Generative Recommenders (GRs), characterized by a unified end-to-end framework, have exhibited astonishing potential in transforming the recommendation paradigm. Despite their effectiveness, we recognize that GRs are still susceptible to the long-standing issue of popularity bias that has pervaded the recommendation community. Although a few studies have attempted to extend traditional debiasing methods to GRs, their effectiveness is marginal, and the fundamental reason why GRs suffer from popularity bias remains under-explored. To bridge this gap, this study focuses on two core aspects in GRs: the optimization of generative framework and the item tokenization based on semantic index. Based on theoretical analyses, we identify that the severe popularity bias emerges from the confluence of a token-level optimization flaw and the undifferentiated property of item tokenization. Accordingly, this study develops a novel generative recommender system, called Ghost, by designing the asymmetric unlikelihood optimization and the skeleton-founded tokenization. Extensive empirical evaluations across three datasets, alongside multiple SOTA baselines, reveal that Ghost substantially alleviates popularity bias and promotes fairer recommendations, while incurring slight degradation to the overall recommendation utility.",
-    "date": "2026-05-19",
-    "link": "https://arxiv.org/abs/2605.16825",
-    "affiliations": "",
-    "source": "arXiv - Information Retrieval",
-    "content_type": "paper",
-    "category": "检索与推荐",
-    "thinking": "论文针对生成式推荐系统中的流行度偏差问题，提出了创新的优化和标记化方法，这体现了对前沿技术的深入应用。但研究更侧重于算法改进，在图书馆等传统信息机构的直接落地可能面临集成挑战。方法上通过理论分析和多数据集实验验证，展现了较高的严谨性。",
-    "scores": {
-      "frontier_tech": 8,
-      "practical_value": 7,
-      "methodological_rigor": 8
-    },
-    "one_sentence_summary": "论文提出新方法改进生成式推荐系统，有效缓解了推荐中的流行度偏差，同时保持整体推荐效用。",
-    "composite_score": 7.7,
-    "featured": true,
-    "id": 21,
-    "tier": "C",
-    "field": "information_retrieval"
-  },
-  {
-    "title": "Unlocking Biological Workflows for Robust Protein-Text Question Answering: A Dual-Dimensional RAG Framework",
-    "abstract": "arXiv:2605.17261v1 Announce Type: new \nAbstract: Protein-Text Question Answering (QA) is crucial for interpreting biological sequences through natural language. The integration of Large Language Models (LLMs) with Retrieval-Augmented Generation (RAG) that efficiently leverages biological databases and facilitates reasoning offers a potent approach for it. However, constrained by the standard RAG pipeline, these models often rely on curated, static datasets instead of expert-proven biological workflows, lacking the fine-grained information processing and struggling to generalize to novel (OOD) proteins. To bridge this gap, we propose 2D-ProteinRAG, a novel framework that empowers LLMs to operate within the gold-standard biological research workflow (BLAST). To further extract high-quality information from noisy retrieval contexts, we introduce a dual-dimensional (2D) filtering strategy following the expert analytical paradigms. Horizontal Fine-grained Attribute Alignment utilizes a lightweight, intent-aware discriminative filter to prune irrelevant metadata and align database entries with specific user queries. Vertical Homology-based Semantic Denoising resolves functional contradictions and redundancy across multiple homologs via hierarchical clustering. Extensive evaluations on both In-Distribution and diverse biological OOD benchmarks demonstrate that 2D-ProteinRAG consistently achieves state-of-the-art performance, outperforming fine-tuned baselines and other RAG methods. Our results validate the framework's robustness and scalability, providing a practical solution for interpreting protein functions in real-world scientific scenarios.",
-    "date": "2026-05-19",
-    "link": "https://arxiv.org/abs/2605.17261",
-    "affiliations": "",
-    "source": "arXiv - Information Retrieval",
-    "content_type": "paper",
-    "category": "其他",
-    "thinking": "论文采用了当前前沿的大语言模型和检索增强生成技术，创新性地整合生物工作流进行蛋白质文本问答，并通过双重维度过滤策略提升信息质量。方法评估覆盖分布内和分布外基准测试，较为严谨。但研究主要面向生物信息学领域，对图书馆和信息管理等图情实践的直接应用价值有限。",
-    "scores": {
-      "frontier_tech": 8,
-      "practical_value": 5,
-      "methodological_rigor": 8
-    },
-    "one_sentence_summary": "该论文提出2D-ProteinRAG框架，利用大语言模型和检索增强生成技术，通过双重过滤策略提升蛋白质功能文本问答的准确性和鲁棒性。",
-    "composite_score": 7.0,
-    "featured": false,
-    "id": 22,
-    "tier": "C",
-    "field": "information_retrieval"
-  },
-  {
-    "title": "RAGR: Review-Augmented Generative Recommendation",
-    "abstract": "arXiv:2605.17267v1 Announce Type: new \nAbstract: Sequential recommendation (SR) is traditionally formulated as next-item prediction over a chronological sequence of interacted items. Although recent generative recommendation (GR) methods introduce new machinery, such as semantic IDs, autoregressive decoding, and unified token spaces, they largely inherit the same item-only modeling assumption. We argue that this design constitutes a structural bottleneck, because user decision-making is not purely behavioral: while item interactions reveal what users choose, review feedback often explain why they choose it by exposing latent evaluative factors.\n  Motivated by this observation, we propose Review-Augmented Generative Recommendation (RAGR), a novel GR framework that incorporates review feedback directly into the generative user sequence rather than treating reviews as auxiliary side information. Specifically, RAGR introduces a Review-Augmented User Sequence Modeling mechanism that interleaves item semantic IDs and review semantic IDs in chronological order to construct a mixed behavioral-semantic sequence, enabling review signals to participate directly in autoregressive next-token generation. To preserve the recommendation objective, we further introduce an Item-Centric Task Generation Alignment strategy based on direct preference optimization (DPO), which encourages the model to favor item tokens over review tokens at prediction positions. Experiments on three real-world datasets show that RAGR yields consistent and significant gains over strong GR backbones across all metrics. Our code and data are available at \\url{https://github.com/Zhang-Yingyi/TKDE_RAGR}.",
-    "date": "2026-05-19",
-    "link": "https://arxiv.org/abs/2605.17267",
-    "affiliations": "",
-    "source": "arXiv - Information Retrieval",
-    "content_type": "paper",
-    "category": "检索与推荐",
-    "thinking": "论文提出了一个结合用户评论反馈的生成推荐框架，采用了语义ID和直接偏好优化等前沿技术，并在真实数据集上验证了有效性。优势在于技术新颖且实验结果积极；不足在于摘要未详细说明实验样本量和多角度验证，可能存在方法论细节的缺失。",
-    "scores": {
-      "frontier_tech": 8,
-      "practical_value": 7,
-      "methodological_rigor": 7
-    },
-    "one_sentence_summary": "论文提出RAGR框架，将用户评论融入生成推荐序列，显著提升了推荐准确性。",
-    "composite_score": 7.4,
-    "featured": false,
-    "id": 23,
     "tier": "C",
     "field": "information_retrieval"
   }
