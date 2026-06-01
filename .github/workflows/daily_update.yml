@@ -51,6 +51,7 @@ jobs:
           LLM_MODEL: ${{ secrets.MIMO_MODEL }}
           APP_TIMEZONE: 'Asia/Shanghai'
           MIN_SCORE_AVG: '6.0'
+          MIN_SCORE_AVG_NEWS: '5.0'
           FILTER_AFFILIATION: 'false'
           WEIGHT_FRONTIER: '0.40'
           WEIGHT_PRACTICAL: '0.35'

@@ -1,15 +1,15 @@
 """
-图情雷达（BiblioRadar）后端 CLI 入口。
+BiblioRadar CLI 入口。
 
-调度抓取和评估逻辑，将最终结果写入前端的 public/data.json。
+薄层，只负责：读取配置 → 调用 pipeline → 处理异常。
 """
 
 from __future__ import annotations
 
 import sys
-from pathlib import Path
 
 from dotenv import load_dotenv
+from pathlib import Path
 
 # 加载项目根目录的 .env
 load_dotenv(Path(__file__).resolve().parent.parent / ".env")
@@ -22,6 +22,7 @@ logger = setup_logging()
 
 
 def main():
+    """CLI 入口。"""
     cfg = Config()
     try:
         if not cfg.llm_api_key and not cfg.use_mock:

@@ -130,7 +130,7 @@
 
 <script setup>
 import { ref, computed, watch, onUnmounted } from 'vue'
-import PaperCard from './PaperCard.vue'
+import PaperCard from '../cards/PaperCard.vue'
 import {
   filterItems,
   groupItemsByDate,
@@ -138,7 +138,8 @@ import {
   sortItems,
   uniqueCategories,
   visiblePageNumbers,
-} from '../utils/itemList'
+} from '../../utils/itemList'
+import { PER_PAGE, SEARCH_DEBOUNCE_MS } from '../../utils/constants'
 
 const props = defineProps({
   items: { type: Array, default: () => [] },
@@ -153,12 +154,12 @@ const selectedCategory = ref('all')
 const contentType = ref('all')
 const sortBy = ref('date')
 const currentPage = ref(1)
-const perPage = 50
+const perPage = PER_PAGE
 
 let searchTimer = null
 watch(searchInput, (val) => {
   clearTimeout(searchTimer)
-  searchTimer = setTimeout(() => { searchQuery.value = val }, 200)
+  searchTimer = setTimeout(() => { searchQuery.value = val }, SEARCH_DEBOUNCE_MS)
 })
 onUnmounted(() => clearTimeout(searchTimer))
 

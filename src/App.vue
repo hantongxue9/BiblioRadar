@@ -59,68 +59,33 @@
 </template>
 
 <script setup>
-import { ref, shallowRef, computed, onMounted, KeepAlive, defineAsyncComponent } from 'vue'
-import Sidebar from './components/Sidebar.vue'
-import FeaturedView from './components/FeaturedView.vue'
-import DetailPanel from './components/DetailPanel.vue'
-
-const Spinner = {
-  template: `<div class="flex items-center justify-center py-20">
-    <svg class="w-5 h-5 text-slate-300 dark:text-slate-600 animate-spin" viewBox="0 0 24 24" fill="none">
-      <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" stroke-opacity="0.25"/>
-      <path d="M12 2a10 10 0 0 1 10 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-    </svg>
-  </div>`,
-}
+import { ref, KeepAlive, defineAsyncComponent } from 'vue'
+import Sidebar from './components/layout/Sidebar.vue'
+import FeaturedView from './components/views/FeaturedView.vue'
+import DetailPanel from './components/panels/DetailPanel.vue'
+import Spinner from './components/layout/Spinner.vue'
+import { useData } from './composables/useData.js'
 
 const AllView = defineAsyncComponent({
-  loader: () => import('./components/AllView.vue'),
+  loader: () => import('./components/views/AllView.vue'),
   loadingComponent: Spinner,
   delay: 0,
 })
 const DailyView = defineAsyncComponent({
-  loader: () => import('./components/DailyView.vue'),
+  loader: () => import('./components/views/DailyView.vue'),
   loadingComponent: Spinner,
   delay: 0,
 })
 const AboutView = defineAsyncComponent({
-  loader: () => import('./components/AboutView.vue'),
+  loader: () => import('./components/views/AboutView.vue'),
   loadingComponent: Spinner,
   delay: 0,
 })
 
-const papers = shallowRef([])
-const dailyReports = shallowRef([])
-const loading = ref(true)
+const { papers, dailyReports, loading, error, featuredItems } = useData()
+
 const currentView = ref('featured')
 const selectedItem = ref(null)
-
-const error = ref(null)
-
-onMounted(async () => {
-  try {
-    const [papersRes, reportsRes] = await Promise.all([
-      fetch('data.json').catch(() => null),
-      fetch('daily_reports.json').catch(() => null),
-    ])
-
-    if (papersRes?.ok) {
-      papers.value = await papersRes.json()
-    } else if (papersRes) {
-      error.value = '数据加载失败（HTTP ' + papersRes.status + '），请刷新重试'
-    }
-    if (reportsRes?.ok) dailyReports.value = await reportsRes.json()
-  } catch (e) {
-    error.value = '数据加载失败，请刷新重试'
-    console.error('Failed to load data:', e)
-  } finally {
-    loading.value = false
-  }
-})
-
-const featuredItems = computed(() =>
-  papers.value.filter((p) => p.featured)
-)
 
 function onSelect(item) {
   selectedItem.value = selectedItem.value?.id === item.id ? null : item

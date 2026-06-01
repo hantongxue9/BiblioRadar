@@ -82,7 +82,7 @@
 </template>
 
 <script setup>
-import { useTheme } from '../composables/useTheme'
+import { useTheme } from '../../composables/useTheme'
 
 defineProps({
   currentView: String,

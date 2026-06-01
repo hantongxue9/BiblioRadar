@@ -84,14 +84,15 @@
 
 <script setup>
 import { ref, computed, watch } from 'vue'
-import PaperCard from './PaperCard.vue'
+import PaperCard from '../cards/PaperCard.vue'
 import {
   groupItemsByDate,
   paginateItems,
   sortItems,
   uniqueCategories,
   visiblePageNumbers,
-} from '../utils/itemList'
+} from '../../utils/itemList'
+import { PER_PAGE } from '../../utils/constants'
 
 const props = defineProps({
   items: { type: Array, default: () => [] },
@@ -102,7 +103,7 @@ defineEmits(['select'])
 
 const selectedCategory = ref('all')
 const currentPage = ref(1)
-const perPage = 50
+const perPage = PER_PAGE
 
 watch(selectedCategory, () => { currentPage.value = 1 })
 

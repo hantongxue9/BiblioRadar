@@ -81,9 +81,9 @@
 
 <script setup>
 import { computed } from 'vue'
-import DailyReportCard from './DailyReportCard.vue'
-import CompactPaperCard from './CompactPaperCard.vue'
-import CompactNewsCard from './CompactNewsCard.vue'
+import DailyReportCard from '../cards/DailyReportCard.vue'
+import CompactPaperCard from '../cards/CompactPaperCard.vue'
+import CompactNewsCard from '../cards/CompactNewsCard.vue'
 
 const props = defineProps({
   items: { type: Array, default: () => [] },

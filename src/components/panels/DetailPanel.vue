@@ -103,7 +103,7 @@
 
 <script setup>
 import { onMounted, onUnmounted } from 'vue'
-import ScoreBar from './ScoreBar.vue'
+import ScoreBar from '../cards/ScoreBar.vue'
 
 const props = defineProps({
   item: { type: Object, default: null },
