@@ -19,6 +19,15 @@
     </div>
 
     <div class="mb-10">
+      <h3 class="text-sm font-medium text-slate-700 dark:text-slate-200 mb-3">数据质量控制</h3>
+      <div class="space-y-3 text-sm text-slate-600 dark:text-slate-500 leading-relaxed">
+        <p>系统会在写入数据前校验字段结构、评分范围和分类标签，减少格式异常对前端展示的影响。</p>
+        <p>抓取阶段会过滤明显的期刊元数据页和导航条目，例如封面图、期号说明等非研究内容。</p>
+        <p class="text-xs text-slate-400 dark:text-slate-500 mt-2">大模型评分仍作为辅助判断，最终结果建议结合原文阅读。</p>
+      </div>
+    </div>
+
+    <div class="mb-10">
       <h3 class="text-sm font-medium text-slate-700 dark:text-slate-200 mb-3">数据源</h3>
       <h4 class="text-xs font-medium text-slate-500 dark:text-slate-500 mb-2 mt-3">A类 · 国际核心期刊</h4>
       <ul class="space-y-1.5 text-sm text-slate-600 dark:text-slate-500">

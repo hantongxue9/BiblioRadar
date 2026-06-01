@@ -31,6 +31,9 @@ jobs:
       - name: 安装 Python 依赖
         run: pip install -r backend/requirements.txt
 
+      - name: 运行后端测试
+        run: python -m unittest discover backend/tests
+
       - name: 设置 Node.js 环境
         uses: actions/setup-node@v4
         with:
@@ -46,6 +49,7 @@ jobs:
           LLM_API_KEY: ${{ secrets.MIMO_API_KEY }}
           LLM_BASE_URL: ${{ secrets.MIMO_BASE_URL }}
           LLM_MODEL: ${{ secrets.MIMO_MODEL }}
+          APP_TIMEZONE: 'Asia/Shanghai'
           MIN_SCORE_AVG: '6.0'
           FILTER_AFFILIATION: 'false'
           WEIGHT_FRONTIER: '0.40'
@@ -56,6 +60,7 @@ jobs:
           REQUEST_DELAY_MIN: '3'
           REQUEST_DELAY_MAX: '8'
           MAX_RETRIES: '3'
+          DISABLE_SSL_VERIFY: 'false'
         run: python backend/main.py
 
       - name: 配置 Git

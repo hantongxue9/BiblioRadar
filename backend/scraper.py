@@ -31,6 +31,7 @@ from sources import (
     get_news_sources,
     get_all_sources,
 )
+from data_contract import is_noise_item
 
 # ============================================================
 # User-Agent 池与请求头
@@ -100,7 +101,8 @@ class RateLimiter:
 # ============================================================
 
 REQUEST_TIMEOUT = 30
-MAX_RETRIES = 3
+MAX_RETRIES = int(os.getenv("MAX_RETRIES", "3"))
+SSL_VERIFY = os.getenv("DISABLE_SSL_VERIFY", "false").lower() != "true"
 
 
 async def _fetch_url(
@@ -124,7 +126,7 @@ async def _fetch_url(
                 url,
                 headers=_random_headers(referer=f"https://{domain}/"),
                 timeout=timeout,
-                ssl=False,
+                ssl=SSL_VERIFY,
             ) as resp:
                 if resp.status == 429:
                     retry_after = int(resp.headers.get("Retry-After", 10))
@@ -316,7 +318,7 @@ async def fetch_web(
     items = []
 
     # 尝试按配置的选择器解析
-    container_sel = selectors.get("item_list", "")
+    container_sel = selectors.get("item_list", "") or selectors.get("article_list", "")
     if not container_sel:
         # 没有配置选择器，尝试通用解析
         return _generic_web_parse(soup, source)
@@ -593,6 +595,10 @@ async def fetch_all_async(
     # 去重
     papers = _deduplicate(papers)
     news = _deduplicate(news)
+
+    # 过滤明显的期刊元数据页或导航条目
+    papers = [p for p in papers if not is_noise_item(p)]
+    news = [n for n in news if not is_noise_item(n)]
 
     # 过滤明显无效的资讯（导航链接、过短标题等）
     _NOISE_KEYWORDS = {

@@ -5,7 +5,6 @@
 
     <!-- 主内容区 -->
     <main
-      ref="mainRef"
       class="flex-1 ml-52 max-md:ml-0 main-push"
       :class="{ 'is-pushed': selectedItem }"
     >
@@ -65,7 +64,7 @@ import Sidebar from './components/Sidebar.vue'
 import FeaturedView from './components/FeaturedView.vue'
 import DetailPanel from './components/DetailPanel.vue'
 
-const spinner = {
+const Spinner = {
   template: `<div class="flex items-center justify-center py-20">
     <svg class="w-5 h-5 text-slate-300 dark:text-slate-600 animate-spin" viewBox="0 0 24 24" fill="none">
       <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" stroke-opacity="0.25"/>
@@ -76,17 +75,17 @@ const spinner = {
 
 const AllView = defineAsyncComponent({
   loader: () => import('./components/AllView.vue'),
-  loadingComponent: spinner,
+  loadingComponent: Spinner,
   delay: 0,
 })
 const DailyView = defineAsyncComponent({
   loader: () => import('./components/DailyView.vue'),
-  loadingComponent: spinner,
+  loadingComponent: Spinner,
   delay: 0,
 })
 const AboutView = defineAsyncComponent({
   loader: () => import('./components/AboutView.vue'),
-  loadingComponent: spinner,
+  loadingComponent: Spinner,
   delay: 0,
 })
 

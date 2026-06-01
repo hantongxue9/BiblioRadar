@@ -94,7 +94,7 @@ B_SOURCES = [
         extra={
             "cnki_code": "ZTQG",
             "selectors": {
-                "article_list": ".article-list .row",
+                "item_list": ".article-list .row",
                 "title": ".title a",
                 "author": ".author",
                 "abstract": ".abstract",
@@ -111,7 +111,7 @@ B_SOURCES = [
         extra={
             "cnki_code": "DXTS",
             "selectors": {
-                "article_list": ".article-list .row",
+                "item_list": ".article-list .row",
                 "title": ".title a",
                 "author": ".author",
                 "abstract": ".abstract",
@@ -128,7 +128,7 @@ B_SOURCES = [
         extra={
             "cnki_code": "TSQB",
             "selectors": {
-                "article_list": ".article-list .row",
+                "item_list": ".article-list .row",
                 "title": ".title a",
                 "author": ".author",
                 "abstract": ".abstract",
@@ -145,7 +145,7 @@ B_SOURCES = [
         extra={
             "cnki_code": "QBXB",
             "selectors": {
-                "article_list": ".article-list .row",
+                "item_list": ".article-list .row",
                 "title": ".title a",
                 "author": ".author",
                 "abstract": ".abstract",

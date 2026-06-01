@@ -85,6 +85,13 @@
 <script setup>
 import { ref, computed, watch } from 'vue'
 import PaperCard from './PaperCard.vue'
+import {
+  groupItemsByDate,
+  paginateItems,
+  sortItems,
+  uniqueCategories,
+  visiblePageNumbers,
+} from '../utils/itemList'
 
 const props = defineProps({
   items: { type: Array, default: () => [] },
@@ -100,8 +107,7 @@ const perPage = 50
 watch(selectedCategory, () => { currentPage.value = 1 })
 
 const categories = computed(() => {
-  const cats = new Set(props.items.map((p) => p.category))
-  return ['all', ...cats].filter(Boolean)
+  return uniqueCategories(props.items, { includeAll: true })
 })
 
 const filtered = computed(() => {
@@ -109,37 +115,20 @@ const filtered = computed(() => {
   if (selectedCategory.value !== 'all') {
     result = result.filter((p) => p.category === selectedCategory.value)
   }
-  return result.slice().sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+  return sortItems(result, 'date')
 })
 
 const totalPages = computed(() => Math.ceil(filtered.value.length / perPage))
 
 const paginatedItems = computed(() => {
-  const start = (currentPage.value - 1) * perPage
-  return filtered.value.slice(start, start + perPage)
+  return paginateItems(filtered.value, currentPage.value, perPage)
 })
 
 const visiblePages = computed(() => {
-  const total = totalPages.value
-  const cur = currentPage.value
-  const pages = []
-  let start = Math.max(1, cur - 3)
-  let end = Math.min(total, start + 6)
-  if (end - start < 6) start = Math.max(1, end - 6)
-  for (let i = start; i <= end; i++) pages.push(i)
-  return pages
+  return visiblePageNumbers(totalPages.value, currentPage.value)
 })
 
 const pageGroups = computed(() => {
-  const groups = []
-  let currentDate = null
-  for (const item of paginatedItems.value) {
-    if (item.date !== currentDate) {
-      currentDate = item.date
-      groups.push({ date: item.date, items: [] })
-    }
-    groups[groups.length - 1].items.push(item)
-  }
-  return groups
+  return groupItemsByDate(paginatedItems.value)
 })
 </script>

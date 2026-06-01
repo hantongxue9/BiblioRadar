@@ -9,7 +9,14 @@
       "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); print\\('Fields:', list\\(data[0].keys\\(\\)\\)\\)\")",
       "Bash(python3 *)",
       "WebSearch",
-      "Bash(tasklist)"
+      "Bash(tasklist)",
+      "Bash(git pull *)",
+      "Bash(git stash *)",
+      "Bash(git push *)",
+      "Bash(git checkout *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git remote *)"
     ]
   }
 }

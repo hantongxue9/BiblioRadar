@@ -131,6 +131,14 @@
 <script setup>
 import { ref, computed, watch, onUnmounted } from 'vue'
 import PaperCard from './PaperCard.vue'
+import {
+  filterItems,
+  groupItemsByDate,
+  paginateItems,
+  sortItems,
+  uniqueCategories,
+  visiblePageNumbers,
+} from '../utils/itemList'
 
 const props = defineProps({
   items: { type: Array, default: () => [] },
@@ -161,38 +169,16 @@ const typeOptions = [
 ]
 
 const categories = computed(() => {
-  return [...new Set(props.items.map((p) => p.category))].filter(Boolean).sort()
+  return uniqueCategories(props.items)
 })
 
 const filtered = computed(() => {
-  let result = props.items
-
-  if (searchQuery.value.trim()) {
-    const q = searchQuery.value.trim().toLowerCase()
-    result = result.filter(
-      (p) =>
-        p.title.toLowerCase().includes(q) ||
-        (p.abstract || '').toLowerCase().includes(q) ||
-        (p.one_sentence_summary || '').toLowerCase().includes(q)
-    )
-  }
-
-  if (selectedCategory.value !== 'all') {
-    result = result.filter((p) => p.category === selectedCategory.value)
-  }
-
-  if (contentType.value !== 'all') {
-    result = result.filter((p) => p.content_type === contentType.value)
-  }
-
-  result = result.slice()
-  if (sortBy.value === 'date') {
-    result.sort((a, b) => (b.date || '').localeCompare(a.date || ''))
-  } else {
-    result.sort((a, b) => (b.composite_score ?? 0) - (a.composite_score ?? 0))
-  }
-
-  return result
+  const result = filterItems(props.items, {
+    query: searchQuery.value,
+    category: selectedCategory.value,
+    contentType: contentType.value,
+  })
+  return sortItems(result, sortBy.value)
 })
 
 // 筛选/排序变化时回到第 1 页
@@ -201,35 +187,14 @@ watch([searchQuery, selectedCategory, contentType, sortBy], () => { currentPage.
 const totalPages = computed(() => Math.ceil(filtered.value.length / perPage))
 
 const paginatedItems = computed(() => {
-  const start = (currentPage.value - 1) * perPage
-  return filtered.value.slice(start, start + perPage)
+  return paginateItems(filtered.value, currentPage.value, perPage)
 })
 
 const visiblePages = computed(() => {
-  const total = totalPages.value
-  const cur = currentPage.value
-  const pages = []
-  // 最多显示 7 个页码，当前页居中
-  let start = Math.max(1, cur - 3)
-  let end = Math.min(total, start + 6)
-  if (end - start < 6) start = Math.max(1, end - 6)
-  for (let i = start; i <= end; i++) pages.push(i)
-  return pages
+  return visiblePageNumbers(totalPages.value, currentPage.value)
 })
 
 const pageGroups = computed(() => {
-  if (sortBy.value !== 'date') {
-    return [{ date: null, items: paginatedItems.value }]
-  }
-  const groups = []
-  let currentDate = null
-  for (const item of paginatedItems.value) {
-    if (item.date !== currentDate) {
-      currentDate = item.date
-      groups.push({ date: item.date, items: [] })
-    }
-    groups[groups.length - 1].items.push(item)
-  }
-  return groups
+  return groupItemsByDate(paginatedItems.value, { enabled: sortBy.value === 'date' })
 })
 </script>

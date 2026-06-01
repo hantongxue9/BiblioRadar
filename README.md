@@ -7,6 +7,7 @@
 - **每日自动更新** — GitHub Actions 每天 6:00 自动抓取、评估、部署
 - **20 个信息源** — 覆盖国际核心期刊、国内权威期刊、预印本与行业资讯
 - **大模型评估** — 前沿技术度 (40%) + 业务落地值 (35%) + 方法严谨性 (25%)
+- **数据质量控制** — 写入前校验字段结构、评分范围和分类标签，并过滤明显的元数据噪声
 - **精选推荐** — 综合评分 ≥ 7.5 的文献自动进入精选
 - **LLM 日报** — 每日生成行业摘要与要点
 - **右侧详情面板** — 点击条目滑出详情，列表不被遮挡
@@ -15,7 +16,7 @@
 
 ## 技术栈
 
-- **后端** — Python + aiohttp + OpenAI-compatible API
+- **后端** — Python 3.11+ + aiohttp + OpenAI-compatible API
 - **前端** — Vue 3 + Tailwind CSS + Vite（shallowRef / v-memo / 异步组件优化）
 - **部署** — GitHub Pages（静态站点，push 自动部署）
 
@@ -32,6 +33,9 @@ cp .env.example .env
 
 # 运行数据抓取（可选，public/data.json 已有示例数据）
 cd backend && python main.py
+
+# 运行后端测试
+python -m unittest discover backend/tests
 
 # 启动前端
 npm run dev

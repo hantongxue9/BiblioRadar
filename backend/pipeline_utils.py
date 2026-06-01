@@ -1,0 +1,90 @@
+"""Pure helpers used by the data update pipeline."""
+
+from __future__ import annotations
+
+from typing import Any
+
+try:
+    from data_contract import normalize_category, normalize_item_for_output
+except ImportError:  # pragma: no cover - used when imported as backend.pipeline_utils
+    from .data_contract import normalize_category, normalize_item_for_output
+
+
+def merge_items(existing: list[dict[str, Any]], new_items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """
+    Merge old and new items by normalized title.
+
+    Existing ids are preserved; new items receive monotonically increasing ids.
+    """
+    existing_by_title = {
+        (item.get("title") or "").lower().strip(): normalize_item_for_output(item)
+        for item in existing
+        if item.get("title")
+    }
+    next_id = max(
+        (
+            item.get("id", 0)
+            for item in existing_by_title.values()
+            if isinstance(item.get("id"), int)
+        ),
+        default=0,
+    ) + 1
+
+    for raw_item in new_items:
+        item = normalize_item_for_output(raw_item)
+        title_key = (item.get("title") or "").lower().strip()
+        if not title_key:
+            continue
+        if title_key in existing_by_title:
+            item["id"] = existing_by_title[title_key].get("id", 0)
+        else:
+            if not isinstance(item.get("id"), int):
+                item["id"] = next_id
+                next_id += 1
+            else:
+                next_id = max(next_id, item["id"] + 1)
+        existing_by_title[title_key] = item
+
+    merged = list(existing_by_title.values())
+    merged.sort(key=lambda item: item.get("date") or "", reverse=True)
+    return merged
+
+
+def compute_composite_score(
+    item: dict[str, Any],
+    *,
+    featured_threshold: float,
+    weight_frontier: float,
+    weight_practical: float,
+    weight_rigor: float,
+) -> dict[str, Any]:
+    scores = item.get("scores", {})
+    content_type = item.get("content_type")
+    item["category"] = normalize_category(item.get("category"), content_type)
+
+    if content_type == "news":
+        composite = round(
+            scores.get("timeliness", 0) * 0.3
+            + scores.get("relevance", 0) * 0.4
+            + scores.get("information_value", 0) * 0.3,
+            1,
+        )
+    else:
+        composite = round(
+            scores.get("frontier_tech", 0) * weight_frontier
+            + scores.get("practical_value", 0) * weight_practical
+            + scores.get("methodological_rigor", 0) * weight_rigor,
+            1,
+        )
+
+    item["composite_score"] = composite
+    item["featured"] = composite >= featured_threshold
+    return item
+
+
+def build_report_stats(items: list[dict[str, Any]]) -> dict[str, int]:
+    return {
+        "papers": sum(1 for item in items if item.get("content_type") == "paper"),
+        "news": sum(1 for item in items if item.get("content_type") == "news"),
+        "featured": sum(1 for item in items if item.get("featured")),
+    }

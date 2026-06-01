@@ -12,6 +12,8 @@ import sys
 from typing import Dict, List, Optional
 from openai import OpenAI
 
+from data_contract import normalize_category
+
 # Windows 控制台 UTF-8 输出
 if sys.platform == "win32":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -341,7 +343,7 @@ def evaluate_papers(
         enriched = {
             **paper,
             "content_type": "paper",
-            "category": evaluation["category"],
+            "category": normalize_category(evaluation["category"], "paper"),
             "thinking": evaluation["thinking"],
             "scores": evaluation["scores"],
             "one_sentence_summary": evaluation["one_sentence_summary"],
@@ -444,7 +446,7 @@ def evaluate_news(
         enriched = {
             **item,
             "content_type": "news",
-            "category": evaluation["category"],
+            "category": normalize_category(evaluation["category"], "news"),
             "thinking": evaluation["thinking"],
             "scores": evaluation["scores"],
             "one_sentence_summary": evaluation["one_sentence_summary"],
