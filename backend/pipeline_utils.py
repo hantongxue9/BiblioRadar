@@ -88,3 +88,12 @@ def build_report_stats(items: list[dict[str, Any]]) -> dict[str, int]:
         "news": sum(1 for item in items if item.get("content_type") == "news"),
         "featured": sum(1 for item in items if item.get("featured")),
     }
+
+
+def prune_reports_to_data_dates(
+    reports: list[dict[str, Any]],
+    items: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """Keep daily reports only for dates still represented in data.json."""
+    dates = {item.get("date") for item in items if item.get("date")}
+    return [report for report in reports if report.get("date") in dates]

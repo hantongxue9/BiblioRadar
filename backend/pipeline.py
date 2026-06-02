@@ -11,12 +11,79 @@ import json
 import logging
 from typing import List
 
-from scraper import fetch_all_async, fetch_mock_papers, fetch_mock_news
-from llm_evaluator import evaluate_papers, evaluate_news, generate_daily_report
-from data_contract import validate_items
-from pipeline_utils import build_report_stats, compute_composite_score, merge_items
+try:
+    from zoneinfo import ZoneInfo
+    _HAVE_ZONEINFO = True
+except ImportError:
+    _HAVE_ZONEINFO = False
+    ZoneInfo = None  # type: ignore
+
+try:
+    from data_contract import validate_items
+    from pipeline_utils import (
+        build_report_stats,
+        compute_composite_score,
+        merge_items,
+        prune_reports_to_data_dates,
+    )
+except ImportError:  # pragma: no cover - used when imported as backend.pipeline
+    from .data_contract import validate_items
+    from .pipeline_utils import (
+        build_report_stats,
+        compute_composite_score,
+        merge_items,
+        prune_reports_to_data_dates,
+    )
 
 logger = logging.getLogger("biblioradar.pipeline")
+
+
+def fetch_all_async(*args, **kwargs):
+    try:
+        from scraper import fetch_all_async as fn
+    except ImportError:  # pragma: no cover
+        from .scraper import fetch_all_async as fn
+    return fn(*args, **kwargs)
+
+
+def fetch_mock_papers(*args, **kwargs):
+    try:
+        from scraper import fetch_mock_papers as fn
+    except ImportError:  # pragma: no cover
+        from .scraper import fetch_mock_papers as fn
+    return fn(*args, **kwargs)
+
+
+def fetch_mock_news(*args, **kwargs):
+    try:
+        from scraper import fetch_mock_news as fn
+    except ImportError:  # pragma: no cover
+        from .scraper import fetch_mock_news as fn
+    return fn(*args, **kwargs)
+
+
+def evaluate_papers(*args, **kwargs):
+    try:
+        from llm_evaluator import evaluate_papers as fn
+    except ImportError:  # pragma: no cover
+        from .llm_evaluator import evaluate_papers as fn
+    return fn(*args, **kwargs)
+
+
+def evaluate_news(*args, **kwargs):
+    try:
+        from llm_evaluator import evaluate_news as fn
+    except ImportError:  # pragma: no cover
+        from .llm_evaluator import evaluate_news as fn
+    return fn(*args, **kwargs)
+
+
+def generate_daily_report(*args, **kwargs):
+    try:
+        from llm_evaluator import generate_daily_report as fn
+    except ImportError:  # pragma: no cover
+        from .llm_evaluator import generate_daily_report as fn
+    return fn(*args, **kwargs)
 
 
 def _load_json(path) -> list:
@@ -59,6 +126,7 @@ def run_pipeline(cfg) -> bool:
     logger.info("新论文 %d 篇，新资讯 %d 条", len(new_papers), len(new_news))
 
     evaluated = []  # type: List[dict]
+    merged = existing
 
     # 第二步：评估论文
     if new_papers:
@@ -111,14 +179,23 @@ def run_pipeline(cfg) -> bool:
 
     # 第五步：生成日报
     from datetime import datetime
-    from zoneinfo import ZoneInfo
-    today_str = datetime.now(ZoneInfo(cfg.app_timezone)).strftime("%Y-%m-%d")
-    report_items = evaluated if evaluated else raw_papers + raw_news
-    logger.info("生成 %s 日报（基于 %d 条）", today_str, len(report_items))
+    if _HAVE_ZONEINFO:
+        today_str = datetime.now(ZoneInfo(cfg.app_timezone)).strftime("%Y-%m-%d")
+    else:
+        today_str = datetime.now().strftime("%Y-%m-%d")
+    reports = prune_reports_to_data_dates(_load_json(cfg.daily_reports_path), merged)
+
+    if not evaluated:
+        _save_json(cfg.daily_reports_path, reports)
+        logger.info("无新评估通过条目，跳过日报生成")
+        logger.info("数据更新完成")
+        return True
+
+    report_items = evaluated
+    logger.info("生成 %s 日报（基于 %d 条已入库条目）", today_str, len(report_items))
 
     report = generate_daily_report(report_items, model=cfg.llm_model)
     if report:
-        reports = _load_json(cfg.daily_reports_path)
         reports = [r for r in reports if r.get("date") != today_str]
         reports.append({
             "date": today_str,
