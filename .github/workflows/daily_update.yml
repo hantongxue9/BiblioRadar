@@ -62,7 +62,7 @@ jobs:
           REQUEST_DELAY_MAX: '8'
           MAX_RETRIES: '3'
           DISABLE_SSL_VERIFY: 'false'
-        run: python backend/main.py
+        run: python -m backend.main
 
       - name: 配置 Git
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'

@@ -63,19 +63,20 @@ def compute_composite_score(
     item["category"] = normalize_category(item.get("category"), content_type)
 
     if content_type == "news":
-        composite = round(
+        llm_score = (
             scores.get("timeliness", 0) * 0.3
             + scores.get("relevance", 0) * 0.4
-            + scores.get("information_value", 0) * 0.3,
-            1,
+            + scores.get("information_value", 0) * 0.3
         )
     else:
-        composite = round(
+        llm_score = (
             scores.get("frontier_tech", 0) * weight_frontier
             + scores.get("practical_value", 0) * weight_practical
-            + scores.get("methodological_rigor", 0) * weight_rigor,
-            1,
+            + scores.get("methodological_rigor", 0) * weight_rigor
         )
+
+    credit = item.get("credibility_score", 5.0)
+    composite = round(llm_score * 0.8 + credit * 0.2, 1)
 
     item["composite_score"] = composite
     item["featured"] = composite >= featured_threshold

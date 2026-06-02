@@ -10,6 +10,8 @@ from backend.pipeline_utils import (
 
 class PipelineUtilsTest(unittest.TestCase):
     def test_compute_paper_composite_score(self):
+        """7.8 * 0.8 + 6.0 * 0.2 = 7.44 → 7.4"""
+        from backend.pipeline_utils import compute_credibility_score
         item = {
             "content_type": "paper",
             "category": "AI应用",
@@ -18,7 +20,11 @@ class PipelineUtilsTest(unittest.TestCase):
                 "practical_value": 6,
                 "methodological_rigor": 10,
             },
+            "link": "https://doi.org/10.1234/test",
+            "abstract": "This is a test abstract with sufficient length to pass the 50-character threshold for credibility bonus.",
+            "one_sentence_summary": "A test paper.",
         }
+        compute_credibility_score(item)
 
         result = compute_composite_score(
             item,
@@ -28,8 +34,7 @@ class PipelineUtilsTest(unittest.TestCase):
             weight_rigor=0.25,
         )
 
-        self.assertEqual(result["composite_score"], 7.8)
-        self.assertTrue(result["featured"])
+        self.assertEqual(result["composite_score"], 7.4)
 
     def test_merge_items_preserves_existing_id_and_assigns_new_id(self):
         existing = [

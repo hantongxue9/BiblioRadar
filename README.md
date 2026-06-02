@@ -32,7 +32,7 @@ cp .env.example .env
 # 编辑 .env 填入 LLM_API_KEY 等
 
 # 运行数据抓取（可选，public/data.json 已有示例数据）
-cd backend && python main.py
+python -m backend.main
 
 # 运行后端测试
 python -m unittest discover backend/tests

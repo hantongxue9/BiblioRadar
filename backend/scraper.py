@@ -1,12 +1,14 @@
-"""
-异步文献抓取引擎
+"""异步文献抓取引擎.
 
 从配置的信源池并发抓取文献元数据。
 支持 RSS、Web 页面、出版商 API 三种抓取方式。
 内置域名级限流、指数退避重试、UA 伪装，适配校园网环境。
 """
 
+from __future__ import annotations
+
 import asyncio
+import logging
 import os
 import random
 import re
@@ -24,24 +26,16 @@ import aiohttp
 import feedparser
 from bs4 import BeautifulSoup
 
-try:
-    from sources import (
-        SourceConfig,
-        BROAD_SOURCE_NAMES,
-        get_paper_sources,
-        get_news_sources,
-        get_all_sources,
-    )
-    from data_contract import is_noise_item
-except ImportError:  # pragma: no cover - used when imported as backend.scraper
-    from .sources import (
-        SourceConfig,
-        BROAD_SOURCE_NAMES,
-        get_paper_sources,
-        get_news_sources,
-        get_all_sources,
-    )
-    from .data_contract import is_noise_item
+from .sources import (
+    SourceConfig,
+    BROAD_SOURCE_NAMES,
+    get_paper_sources,
+    get_news_sources,
+    get_all_sources,
+)
+from .data_contract import is_noise_item
+
+logger = logging.getLogger(__name__)
 
 # ============================================================
 # User-Agent 池与请求头
@@ -140,25 +134,25 @@ async def _fetch_url(
             ) as resp:
                 if resp.status == 429:
                     retry_after = int(resp.headers.get("Retry-After", 10))
-                    print(f"[scraper] 429 限流，等待 {retry_after}s: {url}")
+                    logger.warning("429 限流，等待 %ds: %s", retry_after, url)
                     await asyncio.sleep(retry_after)
                     continue
                 if resp.status in (503, 502, 500):
                     wait = 2 ** (attempt + 1)
-                    print(f"[scraper] HTTP {resp.status}，{wait}s 后重试: {url}")
+                    logger.warning("HTTP %d，%ds 后重试: %s", resp.status, wait, url)
                     await asyncio.sleep(wait)
                     continue
                 if resp.status != 200:
-                    print(f"[scraper] HTTP {resp.status}: {url}")
+                    logger.warning("HTTP %d: %s", resp.status, url)
                     return None
                 return await resp.text()
         except (aiohttp.ClientError, asyncio.TimeoutError) as e:
             last_err = e
             wait = 2 ** (attempt + 1)
-            print(f"[scraper] 请求异常 ({e})，{wait}s 后重试: {url}")
+            logger.warning("请求异常 (%s)，%ds 后重试: %s", e, wait, url)
             await asyncio.sleep(wait)
 
-    print(f"[scraper] 重试耗尽，放弃: {url} (最后错误: {last_err})")
+    logger.error("重试耗尽，放弃: %s (最后错误: %s)", url, last_err)
     return None
 
 
@@ -450,7 +444,7 @@ async def fetch_api(
         # TODO: 实现 Springer API
         pass
 
-    print(f"[scraper] API 类型 {api_type} 未实现或未配置 Key，跳过: {source.name}")
+    logger.debug("API 类型 %s 未实现或未配置 Key，跳过: %s", api_type, source.name)
     return []
 
 
@@ -473,7 +467,7 @@ async def _fetch_crossref(
         import json
         data = json.loads(text)
     except json.JSONDecodeError:
-        print(f"[scraper] CrossRef JSON 解析失败: {source.name}")
+        logger.warning("CrossRef JSON 解析失败: %s", source.name)
         return []
 
     items = []
@@ -547,10 +541,10 @@ async def fetch_one_source(
         elif source.fetch_method == "api":
             return await fetch_api(session, source, rate_limiter)
         else:
-            print(f"[scraper] 未知抓取方式: {source.fetch_method} ({source.name})")
+            logger.warning("未知抓取方式: %s (%s)", source.fetch_method, source.name)
             return []
     except Exception as e:
-        print(f"[scraper] 抓取异常 {source.name}: {e}")
+        logger.exception("抓取异常 %s: %s", source.name, e)
         return []
 
 
@@ -575,8 +569,8 @@ async def fetch_all_async(
     news_sources = get_news_sources()
     all_sources_list = paper_sources + news_sources
 
-    print(f"[scraper] 启动异步抓取，共 {len(all_sources_list)} 个源")
-    print(f"[scraper] 限流: 同域名间隔 {delay_min}-{delay_max}s，最大重试 {MAX_RETRIES} 次")
+    logger.info("启动异步抓取，共 %d 个源", len(all_sources_list))
+    logger.info("限流: 同域名间隔 %.1f-%.1fs，最大重试 %d 次", delay_min, delay_max, MAX_RETRIES)
 
     connector = aiohttp.TCPConnector(limit=10, force_close=True)
     async with aiohttp.ClientSession(connector=connector) as session:
@@ -591,7 +585,7 @@ async def fetch_all_async(
     news = []
     for src, result in zip(all_sources_list, results):
         if isinstance(result, Exception):
-            print(f"[scraper] 任务异常 {src.name}: {result}")
+            logger.error("任务异常 %s: %s", src.name, result)
             continue
         for item in result:
             item["content_type"] = src.content_type
@@ -629,11 +623,11 @@ async def fetch_all_async(
         if p["source"] not in BROAD_SOURCE_NAMES or is_lis_relevant(p)
     ]
 
-    print(f"[scraper] 共抓取 {len(papers)} 篇论文，{len(news)} 条资讯")
+    logger.info("共抓取 %d 篇论文，%d 条资讯", len(papers), len(news))
 
     if apply_affiliation_filter:
         filtered = filter_by_affiliation(papers)
-        print(f"[scraper] 机构过滤后剩余 {len(filtered)} 篇论文")
+        logger.info("机构过滤后剩余 %d 篇论文", len(filtered))
         papers = filtered
 
     return papers, news

@@ -5,6 +5,8 @@
 每个源按 A/B/C 三级分类，配置抓取方式（RSS/Web/API）和元数据字段。
 """
 
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 

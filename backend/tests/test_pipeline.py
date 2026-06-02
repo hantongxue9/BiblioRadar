@@ -1,9 +1,21 @@
+"""Tests for the data update pipeline — mocks aiohttp to avoid dependency at import."""
+
 import json
+import sys
 import tempfile
 import unittest
 from dataclasses import dataclass
 from pathlib import Path
-from unittest.mock import patch
+from unittest.mock import MagicMock, patch
+
+# Mock heavy / version-sensitive dependencies before importing backend modules
+sys.modules["aiohttp"] = MagicMock()
+sys.modules["feedparser"] = MagicMock()
+sys.modules["bs4"] = MagicMock()
+
+openai_mock = MagicMock()
+openai_mock.OpenAI = MagicMock
+sys.modules["openai"] = openai_mock
 
 from backend import pipeline
 

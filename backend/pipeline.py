@@ -18,74 +18,18 @@ except ImportError:
     _HAVE_ZONEINFO = False
     ZoneInfo = None  # type: ignore
 
-try:
-    from data_contract import validate_items
-    from pipeline_utils import (
-        build_report_stats,
-        compute_composite_score,
-        compute_credibility_score,
-        merge_items,
-        prune_reports_to_data_dates,
-    )
-except ImportError:
-    from .data_contract import validate_items
-    from .pipeline_utils import (
-        build_report_stats,
-        compute_composite_score,
-        compute_credibility_score,
-        merge_items,
-        prune_reports_to_data_dates,
-    )
+from .data_contract import validate_items
+from .pipeline_utils import (
+    build_report_stats,
+    compute_composite_score,
+    compute_credibility_score,
+    merge_items,
+    prune_reports_to_data_dates,
+)
+from .scraper import fetch_all_async, fetch_mock_papers, fetch_mock_news
+from .llm_evaluator import evaluate_papers, evaluate_news, generate_daily_report
 
 logger = logging.getLogger("biblioradar.pipeline")
-
-
-def fetch_all_async(*args, **kwargs):
-    try:
-        from scraper import fetch_all_async as fn
-    except ImportError:
-        from .scraper import fetch_all_async as fn
-    return fn(*args, **kwargs)
-
-
-def fetch_mock_papers(*args, **kwargs):
-    try:
-        from scraper import fetch_mock_papers as fn
-    except ImportError:
-        from .scraper import fetch_mock_papers as fn
-    return fn(*args, **kwargs)
-
-
-def fetch_mock_news(*args, **kwargs):
-    try:
-        from scraper import fetch_mock_news as fn
-    except ImportError:
-        from .scraper import fetch_mock_news as fn
-    return fn(*args, **kwargs)
-
-
-def evaluate_papers(*args, **kwargs):
-    try:
-        from llm_evaluator import evaluate_papers as fn
-    except ImportError:
-        from .llm_evaluator import evaluate_papers as fn
-    return fn(*args, **kwargs)
-
-
-def evaluate_news(*args, **kwargs):
-    try:
-        from llm_evaluator import evaluate_news as fn
-    except ImportError:
-        from .llm_evaluator import evaluate_news as fn
-    return fn(*args, **kwargs)
-
-
-def generate_daily_report(*args, **kwargs):
-    try:
-        from llm_evaluator import generate_daily_report as fn
-    except ImportError:
-        from .llm_evaluator import generate_daily_report as fn
-    return fn(*args, **kwargs)
 
 
 def _load_json(path) -> list:
@@ -155,6 +99,7 @@ def run_pipeline(cfg) -> bool:
     # 第四步：计算综合分 + 可信度分 + 合并写入
     if evaluated:
         for item in evaluated:
+            compute_credibility_score(item)
             compute_composite_score(
                 item,
                 featured_threshold=cfg.featured_threshold,
@@ -162,7 +107,6 @@ def run_pipeline(cfg) -> bool:
                 weight_practical=cfg.weight_practical,
                 weight_rigor=cfg.weight_rigor,
             )
-            compute_credibility_score(item)
 
         merged = merge_items(existing, evaluated)
         if len(merged) > cfg.max_total_items:

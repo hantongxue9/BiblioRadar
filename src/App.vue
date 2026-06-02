@@ -59,12 +59,13 @@
 </template>
 
 <script setup>
-import { ref, KeepAlive, defineAsyncComponent } from 'vue'
+import { KeepAlive, defineAsyncComponent } from 'vue'
 import Sidebar from './components/layout/Sidebar.vue'
 import FeaturedView from './components/views/FeaturedView.vue'
 import DetailPanel from './components/panels/DetailPanel.vue'
 import Spinner from './components/layout/Spinner.vue'
 import { useData } from './composables/useData.js'
+import { useNavigation } from './composables/useNavigation.js'
 
 const AllView = defineAsyncComponent({
   loader: () => import('./components/views/AllView.vue'),
@@ -83,18 +84,7 @@ const AboutView = defineAsyncComponent({
 })
 
 const { papers, dailyReports, loading, error, featuredItems } = useData()
-
-const currentView = ref('featured')
-const selectedItem = ref(null)
-
-function onSelect(item) {
-  selectedItem.value = selectedItem.value?.id === item.id ? null : item
-}
-
-function onNavigate(view) {
-  currentView.value = view
-  selectedItem.value = null
-}
+const { currentView, selectedItem, onSelect, onNavigate } = useNavigation()
 </script>
 
 <style>
