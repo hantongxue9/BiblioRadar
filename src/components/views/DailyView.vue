@@ -90,7 +90,7 @@ import CompactNewsCard from '../cards/CompactNewsCard.vue'
  * @typedef {import('../../utils/types').DailyReport} DailyReport
  */
 
-defineProps({
+const props = defineProps({
   /** @type {PaperItem[]} */
   items: { type: Array, default: () => [] },
   /** @type {DailyReport[]} */

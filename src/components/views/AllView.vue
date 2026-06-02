@@ -145,7 +145,7 @@ import { PER_PAGE, SEARCH_DEBOUNCE_MS } from '../../utils/constants'
  * @typedef {import('../../utils/types').PaperItem} PaperItem
  */
 
-defineProps({
+const props = defineProps({
   /** @type {PaperItem[]} */
   items: { type: Array, default: () => [] },
   /** @type {PaperItem|null} */
