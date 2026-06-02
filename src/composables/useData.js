@@ -31,5 +31,10 @@ export function useData() {
     papers.value.filter((p) => p.featured)
   )
 
-  return { papers, dailyReports, loading, error, featuredItems }
+  const latestDate = computed(() => {
+    if (!papers.value.length) return null
+    return papers.value.reduce((max, p) => (p.date > max ? p.date : max), papers.value[0].date)
+  })
+
+  return { papers, dailyReports, loading, error, featuredItems, latestDate }
 }

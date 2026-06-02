@@ -106,6 +106,7 @@ def run_pipeline(cfg) -> bool:
                 weight_frontier=cfg.weight_frontier,
                 weight_practical=cfg.weight_practical,
                 weight_rigor=cfg.weight_rigor,
+                arxiv_score_factor=cfg.arxiv_score_factor,
             )
 
         merged = merge_items(existing, evaluated)

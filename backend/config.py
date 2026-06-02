@@ -47,6 +47,9 @@ class Config:
     # ---- 精选阈值 ----
     featured_threshold: float = float(os.environ.get("FEATURED_THRESHOLD", "7.5"))
 
+    # ---- 来源控制 ----
+    arxiv_score_factor: float = float(os.environ.get("ARXIV_SCORE_FACTOR", "0.85"))
+
     # ---- 输出 ----
     max_total_items: int = int(os.environ.get("MAX_TOTAL_ITEMS", "500"))
 

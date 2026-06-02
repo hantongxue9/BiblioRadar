@@ -587,6 +587,9 @@ async def fetch_all_async(
         if isinstance(result, Exception):
             logger.error("任务异常 %s: %s", src.name, result)
             continue
+        if not isinstance(result, list):
+            logger.warning("%s 返回非列表结果: %s", src.name, type(result).__name__)
+            continue
         for item in result:
             item["content_type"] = src.content_type
             item["tier"] = src.tier

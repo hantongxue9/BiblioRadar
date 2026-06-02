@@ -48,7 +48,7 @@
       <!-- 底部 -->
       <footer class="text-center pb-8">
         <p class="text-xs text-slate-300 dark:text-slate-700">
-          图情雷达 · 数据由大模型辅助评分，仅供参考
+          数据由大模型辅助评分 · 仅供参考<span v-if="latestDate"> · 更新至 {{ latestDate }}</span>
         </p>
       </footer>
     </main>
@@ -83,7 +83,7 @@ const AboutView = defineAsyncComponent({
   delay: 0,
 })
 
-const { papers, dailyReports, loading, error, featuredItems } = useData()
+const { papers, dailyReports, loading, error, featuredItems, latestDate } = useData()
 const { currentView, selectedItem, onSelect, onNavigate } = useNavigation()
 </script>
 

@@ -57,6 +57,7 @@ def compute_composite_score(
     weight_frontier: float,
     weight_practical: float,
     weight_rigor: float,
+    arxiv_score_factor: float = 1.0,
 ) -> dict[str, Any]:
     scores = item.get("scores", {})
     content_type = item.get("content_type")
@@ -74,6 +75,11 @@ def compute_composite_score(
             + scores.get("practical_value", 0) * weight_practical
             + scores.get("methodological_rigor", 0) * weight_rigor
         )
+
+    # arXiv 等预印本来源折减（默认 0.85）
+    source = (item.get("source") or "").lower()
+    if "arxiv" in source:
+        llm_score = llm_score * arxiv_score_factor
 
     credit = item.get("credibility_score", 5.0)
     composite = round(llm_score * 0.8 + credit * 0.2, 1)
