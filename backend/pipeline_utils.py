@@ -82,6 +82,42 @@ def compute_composite_score(
     return item
 
 
+def compute_credibility_score(item: dict[str, Any]) -> float:
+    """Rule-based credibility boost — rewards peer-reviewed, complete, high-tier items."""
+    credit = 5.0  # baseline
+
+    tier = (item.get("tier") or "").upper()
+    if tier == "A":
+        credit += 1.0
+    elif tier == "B":
+        credit += 0.6
+    elif tier == "C":
+        credit += 0.2
+
+    link = (item.get("link") or "").strip()
+    if link and not link.startswith("http"):
+        link = ""
+    if link:
+        # Simple DOI / CrossRef heuristic
+        if "doi.org" in link.lower() or "crossref" in link.lower():
+            credit += 0.5
+        else:
+            credit += 0.3
+
+    abstract = (item.get("abstract") or "").strip()
+    if len(abstract) >= 50:
+        credit += 0.3
+    elif abstract:
+        credit += 0.1
+
+    summary = (item.get("one_sentence_summary") or "").strip()
+    if len(summary) >= 10:
+        credit += 0.2
+
+    item["credibility_score"] = round(min(credit, 10.0), 1)
+    return item["credibility_score"]
+
+
 def build_report_stats(items: list[dict[str, Any]]) -> dict[str, int]:
     return {
         "papers": sum(1 for item in items if item.get("content_type") == "paper"),

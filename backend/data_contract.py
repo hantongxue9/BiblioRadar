@@ -143,6 +143,10 @@ def validate_item(item: dict[str, Any]) -> list[str]:
     if not isinstance(item.get("featured"), bool):
         errors.append(f"featured must be bool: {item.get('featured')!r}")
 
+    credit = item.get("credibility_score")
+    if credit is not None and (not isinstance(credit, (int, float)) or not 0 <= credit <= 10):
+        errors.append(f"invalid credibility_score: {credit!r}")
+
     return errors
 
 

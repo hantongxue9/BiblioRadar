@@ -18,6 +18,7 @@
         <span v-if="showComposite && paper.composite_score != null" class="text-lg font-medium text-slate-700 dark:text-slate-300 tabular-nums">
           {{ paper.composite_score }}
         </span>
+        <span v-if="paper.credibility_score != null" class="text-xs text-slate-400 dark:text-slate-500 tabular-nums" :title="'可信度 '+paper.credibility_score">· {{ paper.credibility_score }}</span>
         <span class="text-xs text-slate-400 dark:text-slate-500">{{ paper.date }}</span>
       </div>
     </div>
@@ -30,6 +31,7 @@
       >
         {{ paper.category }}
       </span>
+      <span v-if="paper.tier" class="text-[10px] px-1.5 py-0.5 rounded font-medium text-slate-400 bg-slate-100/70 dark:text-slate-500 dark:bg-slate-800/70">{{ paper.tier }}类</span>
       <span v-if="paper.content_type === 'news'" class="text-xs text-slate-400 dark:text-slate-500 truncate">{{ paper.source }}</span>
       <span v-else-if="paper.affiliations" class="text-xs text-slate-400 dark:text-slate-500 truncate">{{ paper.affiliations }}</span>
     </div>
