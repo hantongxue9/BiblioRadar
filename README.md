@@ -43,11 +43,30 @@ npm run dev
 
 ## 数据源
 
-| 类型 | 来源 |
-|------|------|
-| A 类 · 国际核心 | Scientometrics, JASIST, Journal of Informetrics, LISR, IP&M, The Electronic Library |
-| B 类 · 国内权威 | 中国图书馆学报, 大学图书馆学报, 图书情报工作, 情报学报 |
-| C 类 · 预印本/资讯 | arXiv (cs.DL/IR/CL/SI), NISO, LIBER, ARL, Scholarly Kitchen, SPARC News 等 |
+| 等级 | 来源 | 抓取方式 |
+|------|------|----------|
+| **A** | Scientometrics | RSS |
+| **A** | JASIST | CrossRef API |
+| **A** | Journal of Informetrics | RSS |
+| **A** | Library & Information Science Research | RSS |
+| **A** | Information Processing & Management | RSS |
+| **A** | The Electronic Library | CrossRef API |
+| **B** | 中国图书馆学报 | Web 抓取 |
+| **B** | 大学图书馆学报 | Web 抓取 |
+| **B** | 图书情报工作 | Web 抓取 |
+| **B** | 情报学报 | Web 抓取 |
+| **C** | arXiv (cs.DL/cs.IR/cs.CL/cs.SI) | RSS |
+| **C** | NISO News | Web 抓取 |
+| **C** | LIBER News | Web 抓取 |
+| **C** | ARL News | Web 抓取 |
+| **C** | Scholarly Kitchen | RSS |
+| **C** | Infodocket | RSS |
+| **C** | LSE Impact Blog | RSS |
+| **C** | SPARC News | RSS |
+| **C** | Code4Lib Journal | RSS |
+| **C** | First Monday | RSS |
+| **C** | CALIS 通知 | Web 抓取 |
+| **C** | CADAL 通知 | Web 抓取 |
 
 ## 自动部署
 

@@ -28,7 +28,11 @@
 </template>
 
 <script setup>
+/**
+ * @typedef {import('../../utils/types').PaperItem} PaperItem
+ */
 defineProps({
+  /** @type {PaperItem} */
   paper: { type: Object, required: true },
   isSelected: { type: Boolean, default: false },
 })

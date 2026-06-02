@@ -22,7 +22,11 @@
 </template>
 
 <script setup>
+/**
+ * @typedef {import('../../utils/types').PaperItem} PaperItem
+ */
 defineProps({
+  /** @type {PaperItem} */
   item: { type: Object, required: true },
 })
 </script>

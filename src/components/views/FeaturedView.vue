@@ -94,8 +94,14 @@ import {
 } from '../../utils/itemList'
 import { PER_PAGE } from '../../utils/constants'
 
-const props = defineProps({
+/**
+ * @typedef {import('../../utils/types').PaperItem} PaperItem
+ */
+
+defineProps({
+  /** @type {PaperItem[]} */
   items: { type: Array, default: () => [] },
+  /** @type {PaperItem|null} */
   selectedItem: { type: Object, default: null },
 })
 

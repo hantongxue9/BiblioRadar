@@ -105,7 +105,12 @@
 import { onMounted, onUnmounted } from 'vue'
 import ScoreBar from '../cards/ScoreBar.vue'
 
+/**
+ * @typedef {import('../../utils/types').PaperItem} PaperItem
+ */
+
 const props = defineProps({
+  /** @type {PaperItem|null} */
   item: { type: Object, default: null },
 })
 

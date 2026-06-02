@@ -28,7 +28,12 @@
 <script setup>
 import { computed } from 'vue'
 
+/**
+ * @typedef {import('../../utils/types').DailyReport} DailyReport
+ */
+
 const props = defineProps({
+  /** @type {DailyReport} */
   report: { type: Object, required: true },
 })
 

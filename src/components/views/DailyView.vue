@@ -85,9 +85,17 @@ import DailyReportCard from '../cards/DailyReportCard.vue'
 import CompactPaperCard from '../cards/CompactPaperCard.vue'
 import CompactNewsCard from '../cards/CompactNewsCard.vue'
 
-const props = defineProps({
+/**
+ * @typedef {import('../../utils/types').PaperItem} PaperItem
+ * @typedef {import('../../utils/types').DailyReport} DailyReport
+ */
+
+defineProps({
+  /** @type {PaperItem[]} */
   items: { type: Array, default: () => [] },
+  /** @type {DailyReport[]} */
   reports: { type: Array, default: () => [] },
+  /** @type {PaperItem|null} */
   selectedItem: { type: Object, default: null },
 })
 

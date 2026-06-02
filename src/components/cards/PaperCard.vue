@@ -58,7 +58,12 @@
 <script setup>
 import ScoreBar from './ScoreBar.vue'
 
+/**
+ * @typedef {import('../../utils/types').PaperItem} PaperItem
+ */
+
 defineProps({
+  /** @type {PaperItem} */
   paper: {
     type: Object,
     required: true,
