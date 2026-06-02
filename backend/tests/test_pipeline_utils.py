@@ -4,6 +4,7 @@ from backend.pipeline_utils import (
     build_report_stats,
     compute_composite_score,
     merge_items,
+    prune_reports_to_data_dates,
 )
 
 
@@ -71,6 +72,18 @@ class PipelineUtilsTest(unittest.TestCase):
         )
 
         self.assertEqual(stats, {"papers": 2, "news": 1, "featured": 2})
+
+    def test_prune_reports_to_data_dates(self):
+        reports = [
+            {"date": "2026-05-31", "summary": "keep"},
+            {"date": "2026-05-30", "summary": "drop"},
+        ]
+        items = [{"date": "2026-05-31", "title": "A"}]
+
+        self.assertEqual(
+            prune_reports_to_data_dates(reports, items),
+            [{"date": "2026-05-31", "summary": "keep"}],
+        )
 
 
 if __name__ == "__main__":

@@ -13,7 +13,10 @@ from pathlib import Path
 from typing import Dict, List, Optional
 from openai import OpenAI
 
-from data_contract import normalize_category
+try:
+    from data_contract import normalize_category
+except ImportError:  # pragma: no cover - used when imported as backend.llm_evaluator
+    from .data_contract import normalize_category
 
 # Windows 控制台 UTF-8 输出
 if sys.platform == "win32":

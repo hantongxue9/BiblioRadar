@@ -24,14 +24,24 @@ import aiohttp
 import feedparser
 from bs4 import BeautifulSoup
 
-from sources import (
-    SourceConfig,
-    BROAD_SOURCE_NAMES,
-    get_paper_sources,
-    get_news_sources,
-    get_all_sources,
-)
-from data_contract import is_noise_item
+try:
+    from sources import (
+        SourceConfig,
+        BROAD_SOURCE_NAMES,
+        get_paper_sources,
+        get_news_sources,
+        get_all_sources,
+    )
+    from data_contract import is_noise_item
+except ImportError:  # pragma: no cover - used when imported as backend.scraper
+    from .sources import (
+        SourceConfig,
+        BROAD_SOURCE_NAMES,
+        get_paper_sources,
+        get_news_sources,
+        get_all_sources,
+    )
+    from .data_contract import is_noise_item
 
 # ============================================================
 # User-Agent 池与请求头
