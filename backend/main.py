@@ -14,9 +14,9 @@ from dotenv import load_dotenv
 # 加载项目根目录的 .env
 load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 
-from config import Config
-from logging_setup import setup_logging
-from pipeline import run_pipeline
+from .config import Config
+from .logging_setup import setup_logging
+from .pipeline import run_pipeline
 
 logger = setup_logging()
 
