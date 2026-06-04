@@ -70,13 +70,19 @@ npm run dev
 
 ## 自动部署
 
-| 触发方式 | 数据抓取 | 前端部署 |
-|----------|---------|---------|
-| `git push` 到 main | 否 | 是 |
-| 每天 6:00（北京时间） | 是 | 是 |
-| 手动 Run workflow | 是 | 是 |
+| 触发方式 | 前端部署 |
+|----------|---------|
+| `git push` 到 main | 是 |
 
-每天定时任务自动完成：抓取 → LLM 评估 → 生成日报 → 构建前端 → 部署到 GitHub Pages。
+每次 `git push` 自动完成：测试 → 构建 → 部署到 GitHub Pages。
+
+> 数据抓取需要在本地运行（因 USTC LLM API 为内网访问）：
+> ```bash
+> python -m backend.main
+> git add public/data.json public/daily_reports.json
+> git commit -m "chore: update data $(date +%Y-%m-%d)"
+> git push
+> ```
 
 ## License
 
