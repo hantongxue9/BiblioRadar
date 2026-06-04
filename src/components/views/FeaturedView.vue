@@ -39,11 +39,13 @@
       <PaperCard
         v-for="item in group.items"
         :key="item.id"
-        v-memo="[item.id === selectedItem?.id]"
+        v-memo="[item.id === selectedItem?.id, checkedIds.has(item.id)]"
         :paper="item"
         show-composite
         :is-selected="selectedItem?.id === item.id"
+        :checked="checkedIds.has(item.id)"
         @select="$emit('select', $event)"
+        @toggle-select="$emit('toggle-select', $event)"
       />
     </template>
 
@@ -103,9 +105,10 @@ const props = defineProps({
   items: { type: Array, default: () => [] },
   /** @type {PaperItem|null} */
   selectedItem: { type: Object, default: null },
+  checkedIds: { type: Set, default: () => new Set() },
 })
 
-defineEmits(['select'])
+defineEmits(['select', 'toggle-select'])
 
 const selectedCategory = ref('all')
 const currentPage = ref(1)

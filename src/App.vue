@@ -26,20 +26,26 @@
             v-if="currentView === 'featured'"
             :items="featuredItems"
             :selected-item="selectedItem"
+            :checked-ids="sel.selectedIds.value"
             @select="onSelect"
+            @toggle-select="sel.toggle"
           />
           <AllView
             v-else-if="currentView === 'all'"
             :items="papers"
             :selected-item="selectedItem"
+            :checked-ids="sel.selectedIds.value"
             @select="onSelect"
+            @toggle-select="sel.toggle"
           />
           <DailyView
             v-else-if="currentView === 'daily'"
             :items="papers"
             :reports="dailyReports"
             :selected-item="selectedItem"
+            :checked-ids="sel.selectedIds.value"
             @select="onSelect"
+            @toggle-select="sel.toggle"
           />
           <AboutView v-else-if="currentView === 'about'" />
         </KeepAlive>
@@ -55,17 +61,35 @@
 
     <!-- 右侧详情面板 -->
     <DetailPanel :item="selectedItem" @close="selectedItem = null" />
+
+    <!-- 选中浮动工具栏 -->
+    <Transition name="fade">
+      <div
+        v-if="sel.count.value > 0"
+        class="fixed bottom-6 left-1/2 -translate-x-1/2 bg-white dark:bg-slate-800 shadow-lg border border-gray-200 dark:border-slate-700 rounded-xl px-4 py-3 flex items-center gap-3 z-40"
+      >
+        <span class="text-xs text-slate-500 dark:text-slate-400">已选 {{ sel.count.value }} 条</span>
+        <div class="w-px h-4 bg-gray-200 dark:bg-slate-700"></div>
+        <button @click="exportFormat('ris')" class="text-xs px-3 py-1.5 rounded-lg bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600 transition-colors">RIS</button>
+        <button @click="exportFormat('bib')" class="text-xs px-3 py-1.5 rounded-lg bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600 transition-colors">BibTeX</button>
+        <button @click="exportFormat('csv')" class="text-xs px-3 py-1.5 rounded-lg bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-700 dark:text-slate-300 dark:hover:bg-slate-600 transition-colors">CSV</button>
+        <div class="w-px h-4 bg-gray-200 dark:bg-slate-700"></div>
+        <button @click="sel.clear()" class="text-xs px-2 py-1.5 text-slate-400 hover:text-slate-600 dark:text-slate-500 dark:hover:text-slate-300 transition-colors">清除</button>
+      </div>
+    </Transition>
   </div>
 </template>
 
 <script setup>
-import { KeepAlive, defineAsyncComponent } from 'vue'
+import { computed, KeepAlive, defineAsyncComponent, provide } from 'vue'
 import Sidebar from './components/layout/Sidebar.vue'
 import FeaturedView from './components/views/FeaturedView.vue'
 import DetailPanel from './components/panels/DetailPanel.vue'
 import Spinner from './components/layout/Spinner.vue'
 import { useData } from './composables/useData.js'
 import { useNavigation } from './composables/useNavigation.js'
+import { useSelection } from './composables/useSelection.js'
+import { download } from './utils/export.js'
 
 const AllView = defineAsyncComponent({
   loader: () => import('./components/views/AllView.vue'),
@@ -85,6 +109,12 @@ const AboutView = defineAsyncComponent({
 
 const { papers, dailyReports, loading, error, featuredItems, latestDate } = useData()
 const { currentView, selectedItem, onSelect, onNavigate } = useNavigation()
+const sel = useSelection()
+provide('selection', sel)
+
+function exportFormat(fmt) {
+  download(sel.getSelected(papers.value), fmt)
+}
 </script>
 
 <style>

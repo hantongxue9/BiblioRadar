@@ -39,10 +39,12 @@
         <CompactPaperCard
           v-for="paper in todayFeatured"
           :key="paper.id"
-          v-memo="[paper.id === selectedItem?.id]"
+          v-memo="[paper.id === selectedItem?.id, checkedIds.has(paper.id)]"
           :paper="paper"
           :is-selected="selectedItem?.id === paper.id"
+          :checked="checkedIds.has(paper.id)"
           @select="$emit('select', $event)"
+          @toggle-select="$emit('toggle-select', $event)"
         />
       </template>
 
@@ -58,10 +60,12 @@
           <CompactPaperCard
             v-for="paper in group.papers"
             :key="paper.id"
-            v-memo="[paper.id === selectedItem?.id]"
+            v-memo="[paper.id === selectedItem?.id, checkedIds.has(paper.id)]"
             :paper="paper"
             :is-selected="selectedItem?.id === paper.id"
+            :checked="checkedIds.has(paper.id)"
             @select="$emit('select', $event)"
+            @toggle-select="$emit('toggle-select', $event)"
           />
         </div>
       </template>
@@ -97,9 +101,10 @@ const props = defineProps({
   reports: { type: Array, default: () => [] },
   /** @type {PaperItem|null} */
   selectedItem: { type: Object, default: null },
+  checkedIds: { type: Set, default: () => new Set() },
 })
 
-defineEmits(['select'])
+defineEmits(['select', 'toggle-select'])
 
 const todayItems = computed(() => {
   if (props.items.length === 0) return []

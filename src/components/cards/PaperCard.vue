@@ -1,6 +1,6 @@
 <template>
   <article
-    class="bg-white border rounded-xl p-6 mb-4 hover:shadow-sm cursor-pointer transition-shadow
+    class="bg-white border rounded-xl p-6 mb-4 hover:shadow-sm cursor-pointer transition-shadow relative
            dark:bg-slate-900 dark:border-slate-800 dark:hover:shadow-none"
     :class="[
       isSelected ? 'border-l-2 border-l-ustc-400 bg-ustc-50/30 dark:border-l-ustc-500 dark:bg-ustc-500/5' : 'border-gray-100 dark:border-slate-800',
@@ -8,8 +8,20 @@
     ]"
     @click="$emit('select', paper)"
   >
+    <!-- 选择框 -->
+    <button
+      class="absolute top-4 right-4 w-5 h-5 rounded-full border-2 flex items-center justify-center transition-all
+             hover:border-ustc-400 hover:bg-ustc-50 dark:hover:border-ustc-500 dark:hover:bg-ustc-900/20"
+      :class="checked ? 'border-ustc-500 bg-ustc-500 dark:border-ustc-400 dark:bg-ustc-400' : 'border-gray-200 dark:border-slate-600'"
+      @click.stop="$emit('toggle-select', paper.id)"
+    >
+      <svg v-if="checked" class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+      </svg>
+    </button>
+
     <!-- 头部：标题 + 综合分 + 日期 -->
-    <div class="flex items-start justify-between gap-4 mb-3">
+    <div class="flex items-start justify-between gap-4 mb-3 pr-7">
       <h2 class="text-base font-medium text-slate-800 dark:text-slate-100 leading-relaxed flex-1 min-w-0">
         {{ paper.title }}
       </h2>
@@ -76,7 +88,11 @@ defineProps({
     type: Boolean,
     default: false,
   },
+  checked: {
+    type: Boolean,
+    default: false,
+  },
 })
 
-defineEmits(['select'])
+defineEmits(['select', 'toggle-select'])
 </script>
