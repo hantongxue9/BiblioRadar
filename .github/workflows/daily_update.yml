@@ -1,8 +1,10 @@
-name: Deploy
+name: Daily Update
 
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '0 22 * * *'  # 每天北京时间 6:00
   workflow_dispatch:
 
 permissions:
@@ -15,7 +17,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
@@ -41,6 +43,41 @@ jobs:
       - name: 安装前端依赖
         run: npm ci
 
+      - name: 运行数据更新脚本
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        env:
+          LLM_API_KEY: ${{ secrets.MIMO_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.MIMO_BASE_URL }}
+          LLM_MODEL: ${{ secrets.MIMO_MODEL }}
+          APP_TIMEZONE: 'Asia/Shanghai'
+          MIN_SCORE_AVG: '6.0'
+          MIN_SCORE_AVG_NEWS: '5.0'
+          FILTER_AFFILIATION: 'false'
+          WEIGHT_FRONTIER: '0.40'
+          WEIGHT_PRACTICAL: '0.35'
+          WEIGHT_RIGOR: '0.25'
+          FEATURED_THRESHOLD: '7.5'
+          MAX_TOTAL_ITEMS: '500'
+          REQUEST_DELAY_MIN: '3'
+          REQUEST_DELAY_MAX: '8'
+          MAX_RETRIES: '3'
+          DISABLE_SSL_VERIFY: 'false'
+        run: python -m backend.main
+
+      - name: 配置 Git
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: 提交更新的数据文件
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          git pull --rebase --autostash origin main
+          git add public/data.json public/daily_reports.json
+          git diff --cached --quiet || git commit -m "chore: update data $(date +%Y-%m-%d)"
+          git push
+
       - name: 构建前端
         run: npm run build
 
@@ -50,7 +87,7 @@ jobs:
           path: ./dist
 
   deploy:
-    needs: build
+    needs: update
     runs-on: ubuntu-latest
     environment:
       name: github-pages
