@@ -26,7 +26,7 @@
             v-if="currentView === 'featured'"
             :items="featuredItems"
             :selected-item="selectedItem"
-            :checked-ids="sel.selectedIds.value"
+            :checked-ids="selectedIds"
             @select="onSelect"
             @toggle-select="sel.toggle"
           />
@@ -34,7 +34,7 @@
             v-else-if="currentView === 'all'"
             :items="papers"
             :selected-item="selectedItem"
-            :checked-ids="sel.selectedIds.value"
+            :checked-ids="selectedIds"
             @select="onSelect"
             @toggle-select="sel.toggle"
           />
@@ -43,7 +43,7 @@
             :items="papers"
             :reports="dailyReports"
             :selected-item="selectedItem"
-            :checked-ids="sel.selectedIds.value"
+            :checked-ids="selectedIds"
             @select="onSelect"
             @toggle-select="sel.toggle"
           />
@@ -52,11 +52,11 @@
 
         <!-- 内联选择工具栏 -->
         <div
-          v-if="sel.count.value > 0"
+          v-if="count > 0"
           class="flex items-center justify-between bg-slate-100/80 dark:bg-slate-800/50 border border-gray-200/60 dark:border-slate-700/60 rounded-xl px-5 py-3 mt-6"
         >
           <span class="text-xs text-slate-500 dark:text-slate-400">
-            已选 <strong class="text-slate-700 dark:text-slate-200 font-medium">{{ sel.count.value }}</strong> 条
+            已选 <strong class="text-slate-700 dark:text-slate-200 font-medium">{{ count }}</strong> 条
           </span>
           <div class="flex items-center gap-3">
             <span class="text-[11px] text-slate-400 dark:text-slate-500">导出</span>
@@ -112,10 +112,11 @@ const AboutView = defineAsyncComponent({
 const { papers, dailyReports, loading, error, featuredItems, latestDate } = useData()
 const { currentView, selectedItem, onSelect, onNavigate } = useNavigation()
 const sel = useSelection()
+const { count, selectedIds, toggle, clear, getSelected } = sel
 provide('selection', sel)
 
 function exportFormat(fmt) {
-  download(sel.getSelected(papers.value), fmt)
+  download(getSelected(papers.value), fmt)
 }
 </script>
 
