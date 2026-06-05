@@ -89,9 +89,7 @@
         :key="item.id"
         :paper="item"
         :is-selected="selectedItem?.id === item.id"
-        :checked="checkedIds[item.id]"
         @select="$emit('select', $event)"
-        @toggle-select="$emit('toggle-select', $event)"
       />
     </template>
 
@@ -152,10 +150,9 @@ const props = defineProps({
   items: { type: Array, default: () => [] },
   /** @type {PaperItem|null} */
   selectedItem: { type: Object, default: null },
-  checkedIds: { type: Object, default: () => ({}) },
 })
 
-defineEmits(['select', 'toggle-select'])
+defineEmits(['select'])
 
 const searchInput = ref('')
 const searchQuery = ref('')
