@@ -85,8 +85,13 @@
           rel="noopener"
           class="text-xs text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200 transition-colors"
         >
-          查看原文 →
+          查看原文
         </a>
+        <span class="text-xs text-slate-300 dark:text-slate-600 mx-2">·</span>
+        <span class="text-[11px] text-slate-400 dark:text-slate-500">导出</span>
+        <button @click="exportSingle('ris')" class="text-xs text-slate-500 hover:text-ustc-500 dark:text-slate-400 dark:hover:text-ustc-300 transition-colors ml-2">RIS</button>
+        <button @click="exportSingle('bib')" class="text-xs text-slate-500 hover:text-ustc-500 dark:text-slate-400 dark:hover:text-ustc-300 transition-colors ml-1.5">BibTeX</button>
+        <button @click="exportSingle('csv')" class="text-xs text-slate-500 hover:text-ustc-500 dark:text-slate-400 dark:hover:text-ustc-300 transition-colors ml-1.5">CSV</button>
       </div>
     </aside>
   </Transition>
@@ -104,6 +109,7 @@
 <script setup>
 import { onMounted, onUnmounted } from 'vue'
 import ScoreBar from '../cards/ScoreBar.vue'
+import { download } from '../../utils/export.js'
 
 /**
  * @typedef {import('../../utils/types').PaperItem} PaperItem
@@ -115,6 +121,10 @@ const props = defineProps({
 })
 
 const emit = defineEmits(['close'])
+
+function exportSingle(fmt) {
+  if (props.item) download([props.item], fmt)
+}
 
 function onKeydown(e) {
   if (e.key === 'Escape') emit('close')
