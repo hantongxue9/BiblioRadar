@@ -48,25 +48,25 @@
             @toggle-select="sel.toggle"
           />
           <AboutView v-else-if="currentView === 'about'" />
-        <template v-if="sel.count.value > 0">
-            <div class="h-px bg-gray-200 dark:bg-slate-800 mb-6"></div>
-
-            <!-- 内联选择工具栏 -->
-            <div class="flex items-center justify-between bg-slate-100/80 dark:bg-slate-800/50 border border-gray-200/60 dark:border-slate-700/60 rounded-xl px-5 py-3 mb-6">
-              <span class="text-xs text-slate-500 dark:text-slate-400">
-                已选 <strong class="text-slate-700 dark:text-slate-200 font-medium">{{ sel.count.value }}</strong> 条
-              </span>
-              <div class="flex items-center gap-3">
-                <span class="text-[11px] text-slate-400 dark:text-slate-500">导出</span>
-                <button @click="exportFormat('ris')" class="text-xs px-2.5 py-1 rounded-md bg-white text-slate-600 hover:text-ustc-500 shadow-sm dark:bg-slate-700 dark:text-slate-300 dark:hover:text-ustc-300 transition-colors">RIS</button>
-                <button @click="exportFormat('bib')" class="text-xs px-2.5 py-1 rounded-md bg-white text-slate-600 hover:text-ustc-500 shadow-sm dark:bg-slate-700 dark:text-slate-300 dark:hover:text-ustc-300 transition-colors">BibTeX</button>
-                <button @click="exportFormat('csv')" class="text-xs px-2.5 py-1 rounded-md bg-white text-slate-600 hover:text-ustc-500 shadow-sm dark:bg-slate-700 dark:text-slate-300 dark:hover:text-ustc-300 transition-colors">CSV</button>
-                <span class="w-px h-4 bg-gray-200 dark:bg-slate-700"></span>
-                <button @click="sel.clear()" class="text-xs text-slate-400 hover:text-slate-600 dark:text-slate-500 dark:hover:text-slate-300 transition-colors">清除</button>
-              </div>
-            </div>
-          </template>
         </KeepAlive>
+
+        <!-- 内联选择工具栏 -->
+        <div
+          v-if="sel.count.value > 0"
+          class="flex items-center justify-between bg-slate-100/80 dark:bg-slate-800/50 border border-gray-200/60 dark:border-slate-700/60 rounded-xl px-5 py-3 mt-6"
+        >
+          <span class="text-xs text-slate-500 dark:text-slate-400">
+            已选 <strong class="text-slate-700 dark:text-slate-200 font-medium">{{ sel.count.value }}</strong> 条
+          </span>
+          <div class="flex items-center gap-3">
+            <span class="text-[11px] text-slate-400 dark:text-slate-500">导出</span>
+            <button @click="exportFormat('ris')" class="text-xs px-2.5 py-1 rounded-md bg-white text-slate-600 hover:text-ustc-500 shadow-sm dark:bg-slate-700 dark:text-slate-300 dark:hover:text-ustc-300 transition-colors">RIS</button>
+            <button @click="exportFormat('bib')" class="text-xs px-2.5 py-1 rounded-md bg-white text-slate-600 hover:text-ustc-500 shadow-sm dark:bg-slate-700 dark:text-slate-300 dark:hover:text-ustc-300 transition-colors">BibTeX</button>
+            <button @click="exportFormat('csv')" class="text-xs px-2.5 py-1 rounded-md bg-white text-slate-600 hover:text-ustc-500 shadow-sm dark:bg-slate-700 dark:text-slate-300 dark:hover:text-ustc-300 transition-colors">CSV</button>
+            <span class="w-px h-4 bg-gray-200 dark:bg-slate-700"></span>
+            <button @click="sel.clear()" class="text-xs text-slate-400 hover:text-slate-600 dark:text-slate-500 dark:hover:text-slate-300 transition-colors">清除</button>
+          </div>
+        </div>
       </div>
 
       <!-- 底部 -->
