@@ -1,37 +1,42 @@
 import { ref, computed } from 'vue'
 
 export function useSelection() {
-  /** @type {import('vue').Ref<Set<number>>} */
-  const selectedIds = ref(new Set())
+  /** 使用 plain object 替代 Set 确保 Vue 响应式 */
+  const selectedIds = ref({})
 
-  const count = computed(() => selectedIds.value.size)
+  const count = computed(() => Object.keys(selectedIds.value).length)
 
   function toggle(id) {
-    const next = new Set(selectedIds.value)
-    if (next.has(id)) {
-      next.delete(id)
-    } else {
-      next.add(id)
+    selectedIds.value = {
+      ...selectedIds.value,
+      [id]: !selectedIds.value[id],
     }
-    selectedIds.value = next
+    if (!selectedIds.value[id]) {
+      const { [id]: _, ...rest } = selectedIds.value
+      selectedIds.value = rest
+    }
   }
 
   /** @param {import('../utils/types').PaperItem[]} items */
   function selectPage(items) {
-    const next = new Set(selectedIds.value)
-    for (const item of items) next.add(item.id)
+    const next = { ...selectedIds.value }
+    for (const item of items) next[item.id] = true
     selectedIds.value = next
   }
 
   function clear() {
-    selectedIds.value = new Set()
+    selectedIds.value = {}
+  }
+
+  function has(id) {
+    return !!selectedIds.value[id]
   }
 
   /** @param {import('../utils/types').PaperItem[]} items */
   function getSelected(items) {
-    const set = selectedIds.value
-    return items.filter(item => set.has(item.id))
+    const ids = selectedIds.value
+    return items.filter(item => ids[item.id])
   }
 
-  return { selectedIds, count, toggle, selectPage, clear, getSelected }
+  return { selectedIds, count, has, toggle, selectPage, clear, getSelected }
 }

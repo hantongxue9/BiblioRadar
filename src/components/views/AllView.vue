@@ -89,7 +89,7 @@
         :key="item.id"
         :paper="item"
         :is-selected="selectedItem?.id === item.id"
-        :checked="checkedIds.has(item.id)"
+        :checked="checkedIds[item.id]"
         @select="$emit('select', $event)"
         @toggle-select="$emit('toggle-select', $event)"
       />
@@ -152,7 +152,7 @@ const props = defineProps({
   items: { type: Array, default: () => [] },
   /** @type {PaperItem|null} */
   selectedItem: { type: Object, default: null },
-  checkedIds: { type: Set, default: () => new Set() },
+  checkedIds: { type: Object, default: () => ({}) },
 })
 
 defineEmits(['select', 'toggle-select'])
