@@ -106,15 +106,14 @@ const { toggleSave, isSaved, saveAll } = useReadingList()
 
 <style>
 .main-push {
-  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: margin-right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main-push.is-pushed {
-  will-change: transform;
-  transform: translateX(-210px);
+  margin-right: 420px;
 }
 @media (max-width: 768px) {
   .main-push.is-pushed {
-    transform: none;
+    margin-right: 0;
   }
 }
 mark {
