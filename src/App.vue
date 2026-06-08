@@ -55,17 +55,16 @@
 
     <!-- 批量导出工具栏 -->
     <Transition name="toolbar">
-      <div
-        v-if="hasSelection"
-        class="fixed bottom-6 left-1/2 z-50 bg-slate-800 dark:bg-slate-700 text-white rounded-full px-5 py-2.5 shadow-lg flex items-center gap-3 text-sm -translate-x-1/2"
-      >
-        <span class="text-slate-300 tabular-nums">已选 {{ selectionCount }} 条</span>
-        <span class="w-px h-4 bg-slate-600"></span>
-        <button @click="clearSelection" class="text-slate-300 hover:text-white transition-colors">清除</button>
-        <span class="w-px h-4 bg-slate-600"></span>
-        <button @click="exportSelected('ris')" class="hover:text-ustc-300 transition-colors font-medium">RIS</button>
-        <button @click="exportSelected('bib')" class="hover:text-ustc-300 transition-colors font-medium">BibTeX</button>
-        <button @click="exportSelected('csv')" class="hover:text-ustc-300 transition-colors font-medium">CSV</button>
+      <div v-if="hasSelection" class="fixed bottom-6 left-0 right-0 z-50 flex justify-center pointer-events-none">
+        <div class="bg-slate-800 dark:bg-slate-700 text-white rounded-full px-5 py-2.5 shadow-lg flex items-center gap-3 text-sm pointer-events-auto">
+          <span class="text-slate-300 tabular-nums">已选 {{ selectionCount }} 条</span>
+          <span class="w-px h-4 bg-slate-600"></span>
+          <button @click="clearSelection" class="text-slate-300 hover:text-white transition-colors">清除</button>
+          <span class="w-px h-4 bg-slate-600"></span>
+          <button @click="exportSelected('ris')" class="hover:text-ustc-300 transition-colors font-medium">RIS</button>
+          <button @click="exportSelected('bib')" class="hover:text-ustc-300 transition-colors font-medium">BibTeX</button>
+          <button @click="exportSelected('csv')" class="hover:text-ustc-300 transition-colors font-medium">CSV</button>
+        </div>
       </div>
     </Transition>
   </div>
@@ -118,8 +117,6 @@ function exportSelected(format) {
 }
 .main-push.is-pushed {
   will-change: transform;
-}
-.main-push.is-pushed {
   transform: translateX(-210px);
 }
 @media (max-width: 768px) {
@@ -134,6 +131,6 @@ function exportSelected(format) {
 .toolbar-enter-from,
 .toolbar-leave-to {
   opacity: 0;
-  transform: translate(-50%, 16px);
+  transform: translateY(16px);
 }
 </style>

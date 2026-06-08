@@ -110,6 +110,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 import DailyReportCard from '../cards/DailyReportCard.vue'
+import { formatDateCN } from '../../utils/date'
 import CompactPaperCard from '../cards/CompactPaperCard.vue'
 import CompactNewsCard from '../cards/CompactNewsCard.vue'
 
@@ -148,9 +149,7 @@ const todayItems = computed(() => {
 
 const displayDate = computed(() => {
   const d = todayItems.value[0]?.date
-  if (!d) return '暂无数据'
-  const date = new Date(d + 'T00:00:00')
-  return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日`
+  return d ? formatDateCN(d) : '暂无数据'
 })
 
 const todayPapers = computed(() => todayItems.value.filter((i) => i.content_type === 'paper'))

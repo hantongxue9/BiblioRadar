@@ -27,6 +27,7 @@
 
 <script setup>
 import { computed } from 'vue'
+import { formatDateCN } from '../../utils/date'
 
 /**
  * @typedef {import('../../utils/types').DailyReport} DailyReport
@@ -37,10 +38,5 @@ const props = defineProps({
   report: { type: Object, required: true },
 })
 
-const formattedDate = computed(() => {
-  const d = props.report.date
-  if (!d) return ''
-  const date = new Date(d + 'T00:00:00')
-  return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日`
-})
+const formattedDate = computed(() => formatDateCN(props.report.date))
 </script>

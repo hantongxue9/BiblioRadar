@@ -61,7 +61,7 @@
 
         <div v-if="item.abstract">
           <h3 class="text-xs font-medium text-slate-400 dark:text-slate-500 uppercase tracking-wider mb-2">
-            {{ item.content_type === 'news' ? 'Content' : 'Abstract' }}
+            {{ item.content_type === 'news' ? '内容摘要' : '摘要' }}
           </h3>
           <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">{{ item.abstract }}</p>
         </div>
