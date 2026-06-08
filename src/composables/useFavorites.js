@@ -1,11 +1,21 @@
 import { ref } from 'vue'
 
-const STORAGE_KEY = 'biblioradar-reading-list'
+const STORAGE_KEY = 'biblioradar-favorites'
+const OLD_KEY = 'biblioradar-reading-list'
 
 function load() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY)
-    return raw ? JSON.parse(raw) : []
+    if (raw) return JSON.parse(raw)
+    // 迁移旧 key
+    const old = localStorage.getItem(OLD_KEY)
+    if (old) {
+      const data = JSON.parse(old)
+      localStorage.setItem(STORAGE_KEY, old)
+      localStorage.removeItem(OLD_KEY)
+      return data
+    }
+    return []
   } catch {
     return []
   }
