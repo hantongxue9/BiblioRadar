@@ -9,37 +9,36 @@
     <!-- 每日收录量 -->
     <section class="mb-12">
       <h3 class="text-sm font-medium text-slate-700 dark:text-slate-200 mb-4">每日收录量</h3>
-      <div class="flex items-end gap-1 h-40">
-        <div
-          v-for="d in dailyStats"
-          :key="d.date"
-          class="flex-1 flex flex-col items-center justify-end h-full group"
-        >
-          <div class="relative w-full flex flex-col items-center justify-end h-full">
-            <!-- 资讯（浅色，堆在上面） -->
-            <div
-              v-if="d.news > 0"
-              class="w-full max-w-[20px] rounded-t transition-all bg-ustc-200 dark:bg-ustc-700"
-              :style="{ height: (d.news / maxDailyCount) * 100 + '%' }"
-            ></div>
-            <!-- 论文（深色，在下面） -->
-            <div
-              v-if="d.papers > 0"
-              class="w-full max-w-[20px] transition-all bg-ustc-400 dark:bg-ustc-500"
-              :class="d.news > 0 ? '' : 'rounded-t'"
-              :style="{ height: (d.papers / maxDailyCount) * 100 + '%' }"
-            ></div>
-            <!-- tooltip -->
-            <div class="absolute -top-8 left-1/2 -translate-x-1/2 hidden group-hover:block
-                        text-[10px] text-slate-500 dark:text-slate-400 whitespace-nowrap
-                        bg-white dark:bg-slate-800 px-1.5 py-0.5 rounded shadow-sm border border-gray-100 dark:border-slate-700">
-              {{ d.total }}条
+      <div class="overflow-x-auto -mx-2 px-2 pb-4">
+        <div class="flex items-end gap-1 h-40" :style="{ minWidth: dailyStats.length * 28 + 'px' }">
+          <div
+            v-for="d in dailyStats"
+            :key="d.date"
+            class="flex-1 flex flex-col items-center justify-end h-full group min-w-[24px]"
+          >
+            <div class="relative w-full flex flex-col items-center justify-end h-full">
+              <div
+                v-if="d.news > 0"
+                class="w-full max-w-[20px] rounded-t transition-all bg-ustc-200 dark:bg-ustc-700"
+                :style="{ height: (d.news / maxDailyCount) * 100 + '%' }"
+              ></div>
+              <div
+                v-if="d.papers > 0"
+                class="w-full max-w-[20px] transition-all bg-ustc-400 dark:bg-ustc-500"
+                :class="d.news > 0 ? '' : 'rounded-t'"
+                :style="{ height: (d.papers / maxDailyCount) * 100 + '%' }"
+              ></div>
+              <div class="absolute -top-8 left-1/2 -translate-x-1/2 hidden group-hover:block
+                          text-[10px] text-slate-500 dark:text-slate-400 whitespace-nowrap
+                          bg-white dark:bg-slate-800 px-1.5 py-0.5 rounded shadow-sm border border-gray-100 dark:border-slate-700">
+                {{ d.total }}条
+              </div>
             </div>
+            <span class="text-[9px] text-slate-400 dark:text-slate-500 mt-1.5 -rotate-45 origin-top-left">{{ d.label }}</span>
           </div>
-          <span class="text-[9px] text-slate-400 dark:text-slate-500 mt-1.5 -rotate-45 origin-top-left">{{ d.label }}</span>
         </div>
       </div>
-      <div class="flex items-center gap-4 mt-4 text-[10px] text-slate-400 dark:text-slate-500">
+      <div class="flex items-center gap-4 mt-1 text-[10px] text-slate-400 dark:text-slate-500">
         <span class="flex items-center gap-1"><span class="inline-block w-2.5 h-2.5 rounded-sm bg-ustc-400 dark:bg-ustc-500"></span>论文</span>
         <span class="flex items-center gap-1"><span class="inline-block w-2.5 h-2.5 rounded-sm bg-ustc-200 dark:bg-ustc-700"></span>资讯</span>
       </div>
@@ -48,24 +47,26 @@
     <!-- 每日平均分 -->
     <section class="mb-12">
       <h3 class="text-sm font-medium text-slate-700 dark:text-slate-200 mb-4">每日平均分</h3>
-      <div class="flex items-end gap-1 h-32">
-        <div
-          v-for="d in dailyStats"
-          :key="d.date"
-          class="flex-1 flex flex-col items-center justify-end h-full group"
-        >
-          <div class="relative w-full flex flex-col items-center justify-end h-full">
-            <div
-              class="w-full max-w-[20px] rounded-t bg-amber-300 dark:bg-amber-600 transition-all"
-              :style="{ height: maxAvgScore > 0 ? (d.avgScore / maxAvgScore) * 100 + '%' : '0' }"
-            ></div>
-            <div class="absolute -top-8 left-1/2 -translate-x-1/2 hidden group-hover:block
-                        text-[10px] text-slate-500 dark:text-slate-400 whitespace-nowrap
-                        bg-white dark:bg-slate-800 px-1.5 py-0.5 rounded shadow-sm border border-gray-100 dark:border-slate-700">
-              {{ d.avgScore }}分 · {{ d.total }}条
+      <div class="overflow-x-auto -mx-2 px-2 pb-4">
+        <div class="flex items-end gap-1 h-32" :style="{ minWidth: dailyStats.length * 28 + 'px' }">
+          <div
+            v-for="d in dailyStats"
+            :key="d.date"
+            class="flex-1 flex flex-col items-center justify-end h-full group min-w-[24px]"
+          >
+            <div class="relative w-full flex flex-col items-center justify-end h-full">
+              <div
+                class="w-full max-w-[20px] rounded-t bg-amber-300 dark:bg-amber-600 transition-all"
+                :style="{ height: maxAvgScore > 0 ? (d.avgScore / maxAvgScore) * 100 + '%' : '0' }"
+              ></div>
+              <div class="absolute -top-8 left-1/2 -translate-x-1/2 hidden group-hover:block
+                          text-[10px] text-slate-500 dark:text-slate-400 whitespace-nowrap
+                          bg-white dark:bg-slate-800 px-1.5 py-0.5 rounded shadow-sm border border-gray-100 dark:border-slate-700">
+                {{ d.avgScore }}分 · {{ d.total }}条
+              </div>
             </div>
+            <span class="text-[9px] text-slate-400 dark:text-slate-500 mt-1.5 -rotate-45 origin-top-left">{{ d.label }}</span>
           </div>
-          <span class="text-[9px] text-slate-400 dark:text-slate-500 mt-1.5 -rotate-45 origin-top-left">{{ d.label }}</span>
         </div>
       </div>
     </section>
