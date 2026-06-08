@@ -60,11 +60,26 @@
       </footer>
     </main>
     <DetailPanel :item="selectedItem" @close="selectedItem = null" />
+    <Transition name="fade">
+      <button
+        v-if="showBackTop"
+        @click="scrollToTop()"
+        class="fixed bottom-6 right-6 z-40 w-9 h-9 rounded-full bg-white dark:bg-slate-800
+               border border-gray-200 dark:border-slate-700 shadow-sm
+               text-slate-400 hover:text-slate-600 dark:hover:text-slate-200
+               flex items-center justify-center transition-colors"
+        title="回到顶部"
+      >
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+          <path d="M18 15l-6-6-6 6"/>
+        </svg>
+      </button>
+    </Transition>
   </div>
 </template>
 
 <script setup>
-import { KeepAlive, defineAsyncComponent } from 'vue'
+import { ref, onMounted, onUnmounted, KeepAlive, defineAsyncComponent } from 'vue'
 import Sidebar from './components/layout/Sidebar.vue'
 import FeaturedView from './components/views/FeaturedView.vue'
 import DetailPanel from './components/panels/DetailPanel.vue'
@@ -102,6 +117,12 @@ const TrendsView = defineAsyncComponent({
 const { papers, dailyReports, loading, error, featuredItems, latestDate } = useData()
 const { currentView, selectedItem, onSelect, onNavigate } = useNavigation()
 const { toggleSave, isSaved, saveAll } = useReadingList()
+
+const showBackTop = ref(false)
+function onScroll() { showBackTop.value = window.scrollY > 400 }
+function scrollToTop() { window.scrollTo({ top: 0, behavior: 'smooth' }) }
+onMounted(() => window.addEventListener('scroll', onScroll, { passive: true }))
+onUnmounted(() => window.removeEventListener('scroll', onScroll))
 </script>
 
 <style>
@@ -125,5 +146,13 @@ mark {
 .dark mark {
   background: #854d0e;
   color: #fef3c7;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>

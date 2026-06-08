@@ -54,11 +54,17 @@
           :key="d.date"
           class="flex-1 flex flex-col items-center justify-end h-full group"
         >
-          <span class="text-[9px] text-slate-400 dark:text-slate-500 mb-1">{{ d.avgScore }}</span>
-          <div
-            class="w-full max-w-[20px] rounded-t bg-amber-300 dark:bg-amber-600 transition-all"
-            :style="{ height: maxAvgScore > 0 ? (d.avgScore / maxAvgScore) * 100 + '%' : '0' }"
-          ></div>
+          <div class="relative w-full flex flex-col items-center justify-end h-full">
+            <div
+              class="w-full max-w-[20px] rounded-t bg-amber-300 dark:bg-amber-600 transition-all"
+              :style="{ height: maxAvgScore > 0 ? (d.avgScore / maxAvgScore) * 100 + '%' : '0' }"
+            ></div>
+            <div class="absolute -top-8 left-1/2 -translate-x-1/2 hidden group-hover:block
+                        text-[10px] text-slate-500 dark:text-slate-400 whitespace-nowrap
+                        bg-white dark:bg-slate-800 px-1.5 py-0.5 rounded shadow-sm border border-gray-100 dark:border-slate-700">
+              {{ d.avgScore }}分 · {{ d.total }}条
+            </div>
+          </div>
           <span class="text-[9px] text-slate-400 dark:text-slate-500 mt-1.5 -rotate-45 origin-top-left">{{ d.label }}</span>
         </div>
       </div>
@@ -68,14 +74,19 @@
     <section>
       <h3 class="text-sm font-medium text-slate-700 dark:text-slate-200 mb-4">分类分布</h3>
       <div class="space-y-2">
-        <div v-for="cat in categoryStats" :key="cat.name" class="flex items-center gap-3">
+        <div v-for="cat in categoryStats" :key="cat.name" class="flex items-center gap-3 group">
           <span class="text-xs text-slate-500 dark:text-slate-400 w-20 text-right truncate flex-shrink-0">{{ cat.name }}</span>
-          <div class="flex-1 h-5 bg-slate-100 dark:bg-slate-800 rounded overflow-hidden">
+          <div class="flex-1 h-5 bg-slate-100 dark:bg-slate-800 rounded overflow-hidden relative">
             <div
               class="h-full rounded bg-ustc-300 dark:bg-ustc-600 transition-all flex items-center"
               :style="{ width: (cat.count / maxCategoryCount) * 100 + '%' }"
             >
               <span v-if="cat.count / maxCategoryCount > 0.15" class="text-[10px] text-white px-1.5">{{ cat.count }}</span>
+            </div>
+            <div class="absolute -top-7 left-1/2 -translate-x-1/2 hidden group-hover:block
+                        text-[10px] text-slate-500 dark:text-slate-400 whitespace-nowrap
+                        bg-white dark:bg-slate-800 px-1.5 py-0.5 rounded shadow-sm border border-gray-100 dark:border-slate-700 z-10">
+              {{ cat.name }}：{{ cat.count }}条 ({{ cat.pct }}%)
             </div>
           </div>
           <span v-if="cat.count / maxCategoryCount <= 0.15" class="text-[10px] text-slate-400 dark:text-slate-500 flex-shrink-0">{{ cat.count }}</span>
@@ -132,12 +143,13 @@ const maxAvgScore = computed(() => {
 
 const categoryStats = computed(() => {
   const map = {}
+  const total = props.items.length || 1
   for (const item of props.items) {
     const cat = item.category || '其他'
     map[cat] = (map[cat] || 0) + 1
   }
   return Object.entries(map)
-    .map(([name, count]) => ({ name, count }))
+    .map(([name, count]) => ({ name, count, pct: ((count / total) * 100).toFixed(1) }))
     .sort((a, b) => b.count - a.count)
 })
 
