@@ -608,16 +608,18 @@ async def fetch_all_async(
     news = [n for n in news if not is_noise_item(n)]
 
     # 过滤明显无效的资讯（导航链接、过短标题等）
-    _NOISE_KEYWORDS = {
-        "sponsors", "contact us", "who we are", "about us", "about",
-        "privacy", "cookie", "terms", "login", "sign in", "register",
-        "subscribe", "newsletter", "menu", "search", "home", "back",
-        "next", "previous", "archives", "categories", "tags",
+    _NOISE_PHRASES = {
+        "sponsors", "contact us", "who we are", "about us",
+        "privacy policy", "cookie policy", "terms of use",
+        "login", "sign in", "register",
+        "subscribe", "newsletter", "menu",
+        "archives", "categories", "tags",
     }
+    _NOISE_RE = re.compile(r"\b(?:" + "|".join(re.escape(k) for k in _NOISE_PHRASES) + r")\b", re.IGNORECASE)
     news = [
         n for n in news
         if len(n.get("title", "").strip()) >= 8
-        and not any(kw in n["title"].lower().strip() for kw in _NOISE_KEYWORDS)
+        and not _NOISE_RE.search(n["title"])
     ]
 
     # 宽泛源关键词过滤

@@ -91,7 +91,7 @@ def is_noise_title(title: Any) -> bool:
     normalized = " ".join(str(title or "").strip().lower().split())
     if not normalized:
         return True
-    return normalized in _NOISE_TITLE_EXACT
+    return any(phrase in normalized for phrase in _NOISE_TITLE_EXACT)
 
 
 def is_noise_item(item: dict[str, Any]) -> bool:
