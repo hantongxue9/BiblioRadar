@@ -47,6 +47,7 @@ def _existing_item():
 class PipelineTestConfig:
     output_path: Path
     daily_reports_path: Path
+    feed_path: Path
     use_mock: bool = True
     filter_affiliation: bool = False
     llm_model: str = "test-model"
@@ -58,6 +59,7 @@ class PipelineTestConfig:
     weight_rigor: float = 0.25
     max_total_items: int = 500
     app_timezone: str = "Asia/Shanghai"
+    site_url: str = ""
 
 
 class PipelineTest(unittest.TestCase):
@@ -80,7 +82,8 @@ class PipelineTest(unittest.TestCase):
                 ),
                 encoding="utf-8",
             )
-            cfg = PipelineTestConfig(data_path, reports_path)
+            feed_path = root / "feed.xml"
+            cfg = PipelineTestConfig(data_path, reports_path, feed_path)
 
             report_mock = patch.object(pipeline, "generate_daily_report").start()
             patch.object(

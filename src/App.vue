@@ -48,6 +48,7 @@
       <footer class="text-center pb-8">
         <p class="text-xs text-slate-300 dark:text-slate-700">
           数据由大模型辅助评分 · 仅供参考<span v-if="latestDate"> · 更新至 {{ latestDate }}</span>
+          · <a href="feed.xml" target="_blank" class="hover:text-slate-500 dark:hover:text-slate-400 transition-colors">RSS</a>
         </p>
       </footer>
     </main>

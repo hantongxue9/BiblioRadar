@@ -52,6 +52,7 @@ class Config:
 
     # ---- 输出 ----
     max_total_items: int = int(os.environ.get("MAX_TOTAL_ITEMS", "500"))
+    site_url: str = os.environ.get("SITE_URL", "https://hantongxue9.github.io/BiblioRadar")
 
     # ---- 路径 ----
     project_root: Path = field(
@@ -59,11 +60,13 @@ class Config:
     )
     output_path: Path = field(init=False)
     daily_reports_path: Path = field(init=False)
+    feed_path: Path = field(init=False)
     prompts_dir: Path = field(init=False)
 
     def __post_init__(self):
         self.output_path = self.project_root / "public" / "data.json"
         self.daily_reports_path = self.output_path.parent / "daily_reports.json"
+        self.feed_path = self.output_path.parent / "feed.xml"
         self.prompts_dir = Path(__file__).resolve().parent / "prompts"
 
         # 出版商 API Key 注入环境变量（保持对其他模块的兼容）

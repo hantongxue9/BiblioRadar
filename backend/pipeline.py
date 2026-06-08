@@ -28,6 +28,7 @@ from .pipeline_utils import (
 )
 from .scraper import fetch_all_async, fetch_mock_papers, fetch_mock_news
 from .llm_evaluator import evaluate_papers, evaluate_news, generate_daily_report
+from .rss import generate_feed
 
 logger = logging.getLogger("biblioradar.pipeline")
 
@@ -124,6 +125,9 @@ def run_pipeline(cfg) -> bool:
         logger.info("已写入 %d 条到 %s", len(merged), cfg.output_path)
     else:
         logger.info("无新条目需要写入")
+
+    # 生成 RSS feed（始终基于最新数据）
+    generate_feed(merged if merged else existing, cfg.feed_path, cfg.site_url)
 
     # 第五步：生成日报
     from datetime import datetime
