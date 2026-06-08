@@ -78,6 +78,10 @@ npm run dev
 
 每天定时任务自动完成：抓取 → LLM 评估 → 生成日报 → 构建前端 → 部署到 GitHub Pages。
 
+## 定制其他学科
+
+本项目的架构不绑定特定学科。复制仓库后，替换数据来源、关键词和评估提示词即可为任意学科生成专属雷达。详见 [CUSTOMIZE.md](CUSTOMIZE.md)。
+
 ## License
 
 [MIT](LICENSE)
