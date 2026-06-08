@@ -127,7 +127,7 @@ const navItems = [
   },
   {
     key: 'reading',
-    label: '阅读清单',
+    label: '收藏',
     icon: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2h10a1 1 0 0 1 1 1v11l-6-3-6 3V3a1 1 0 0 1 1-1z"/></svg>',
   },
   {
