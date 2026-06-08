@@ -1,9 +1,31 @@
 <template>
   <div>
     <div class="mb-6">
-      <h2 class="text-lg font-light text-slate-800 dark:text-slate-100 mb-1.5">精选</h2>
-      <div class="w-8 h-0.5 bg-ustc-300 rounded mb-2"></div>
-      <p class="text-xs text-slate-400 dark:text-slate-500">综合评分 ≥ 7.5 的高分文献</p>
+      <div class="flex items-start justify-between">
+        <div>
+          <h2 class="text-lg font-light text-slate-800 dark:text-slate-100 mb-1.5">精选</h2>
+          <div class="w-8 h-0.5 bg-ustc-300 rounded mb-2"></div>
+          <p class="text-xs text-slate-400 dark:text-slate-500">综合评分 ≥ 7.5 的高分文献</p>
+        </div>
+        <div class="flex items-center gap-2 mt-1">
+          <button
+            v-if="selectionMode && paginatedItems.length > 0"
+            @click="handleSelectAll"
+            class="text-xs px-3 py-1 rounded-full text-slate-500 hover:text-slate-700 bg-slate-100 hover:bg-slate-200 dark:text-slate-400 dark:hover:text-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 transition-colors"
+          >
+            全选当前页
+          </button>
+          <button
+            @click="selectionMode = !selectionMode"
+            class="text-xs px-3 py-1 rounded-full transition-colors"
+            :class="selectionMode
+              ? 'bg-ustc-500 text-white dark:bg-ustc-400 dark:text-slate-900'
+              : 'text-slate-500 hover:text-slate-700 bg-slate-100 hover:bg-slate-200 dark:text-slate-400 dark:hover:text-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700'"
+          >
+            {{ selectionMode ? '完成' : '选择' }}
+          </button>
+        </div>
+      </div>
     </div>
 
     <!-- 分类筛选 -->
@@ -39,11 +61,14 @@
       <PaperCard
         v-for="item in group.items"
         :key="item.id"
-        v-memo="[item.id === selectedItem?.id]"
+        v-memo="[item.id === selectedItem?.id, selectedIds.includes(item.id)]"
         :paper="item"
         show-composite
         :is-selected="selectedItem?.id === item.id"
+        :selectable="selectionMode"
+        :is-item-selected="selectedIds.includes(item.id)"
         @select="$emit('select', $event)"
+        @toggle-select="toggleSelect"
       />
     </template>
 
@@ -103,6 +128,10 @@ const props = defineProps({
   items: { type: Array, default: () => [] },
   /** @type {PaperItem|null} */
   selectedItem: { type: Object, default: null },
+  /** @type {Array} */
+  selectedIds: { type: Array, default: () => [] },
+  toggleSelect: { type: Function, default: () => {} },
+  selectAll: { type: Function, default: () => {} },
 })
 
 defineEmits(['select'])
@@ -110,6 +139,11 @@ defineEmits(['select'])
 const selectedCategory = ref('all')
 const currentPage = ref(1)
 const perPage = PER_PAGE
+const selectionMode = ref(false)
+
+function handleSelectAll() {
+  props.selectAll(paginatedItems.value.map((i) => i.id))
+}
 
 watch(selectedCategory, () => { currentPage.value = 1 })
 

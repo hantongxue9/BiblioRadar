@@ -1,9 +1,31 @@
 <template>
   <div>
     <div class="mb-8">
-      <h2 class="text-lg font-light text-slate-800 dark:text-slate-100 mb-1.5">图情日报</h2>
-      <div class="w-8 h-0.5 bg-ustc-300 rounded mb-2"></div>
-      <p class="text-xs text-slate-400 dark:text-slate-500">大模型生成的每日行业摘要</p>
+      <div class="flex items-start justify-between">
+        <div>
+          <h2 class="text-lg font-light text-slate-800 dark:text-slate-100 mb-1.5">图情日报</h2>
+          <div class="w-8 h-0.5 bg-ustc-300 rounded mb-2"></div>
+          <p class="text-xs text-slate-400 dark:text-slate-500">大模型生成的每日行业摘要</p>
+        </div>
+        <div v-if="reports.length === 0" class="flex items-center gap-2 mt-1">
+          <button
+            v-if="selectionMode && todayItems.length > 0"
+            @click="handleSelectAll"
+            class="text-xs px-3 py-1 rounded-full text-slate-500 hover:text-slate-700 bg-slate-100 hover:bg-slate-200 dark:text-slate-400 dark:hover:text-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 transition-colors"
+          >
+            全选
+          </button>
+          <button
+            @click="selectionMode = !selectionMode"
+            class="text-xs px-3 py-1 rounded-full transition-colors"
+            :class="selectionMode
+              ? 'bg-ustc-500 text-white dark:bg-ustc-400 dark:text-slate-900'
+              : 'text-slate-500 hover:text-slate-700 bg-slate-100 hover:bg-slate-200 dark:text-slate-400 dark:hover:text-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700'"
+          >
+            {{ selectionMode ? '完成' : '选择' }}
+          </button>
+        </div>
+      </div>
     </div>
 
     <!-- 日报卡片列表 -->
@@ -39,10 +61,13 @@
         <CompactPaperCard
           v-for="paper in todayFeatured"
           :key="paper.id"
-          v-memo="[paper.id === selectedItem?.id]"
+          v-memo="[paper.id === selectedItem?.id, selectedIds.includes(paper.id)]"
           :paper="paper"
           :is-selected="selectedItem?.id === paper.id"
+          :selectable="selectionMode"
+          :is-item-selected="selectedIds.includes(paper.id)"
           @select="$emit('select', $event)"
+          @toggle-select="toggleSelect"
         />
       </template>
 
@@ -58,10 +83,13 @@
           <CompactPaperCard
             v-for="paper in group.papers"
             :key="paper.id"
-            v-memo="[paper.id === selectedItem?.id]"
+            v-memo="[paper.id === selectedItem?.id, selectedIds.includes(paper.id)]"
             :paper="paper"
             :is-selected="selectedItem?.id === paper.id"
+            :selectable="selectionMode"
+            :is-item-selected="selectedIds.includes(paper.id)"
             @select="$emit('select', $event)"
+            @toggle-select="toggleSelect"
           />
         </div>
       </template>
@@ -80,7 +108,7 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { ref, computed } from 'vue'
 import DailyReportCard from '../cards/DailyReportCard.vue'
 import CompactPaperCard from '../cards/CompactPaperCard.vue'
 import CompactNewsCard from '../cards/CompactNewsCard.vue'
@@ -97,9 +125,19 @@ const props = defineProps({
   reports: { type: Array, default: () => [] },
   /** @type {PaperItem|null} */
   selectedItem: { type: Object, default: null },
+  /** @type {Array} */
+  selectedIds: { type: Array, default: () => [] },
+  toggleSelect: { type: Function, default: () => {} },
+  selectAll: { type: Function, default: () => {} },
 })
 
 defineEmits(['select'])
+
+const selectionMode = ref(false)
+
+function handleSelectAll() {
+  props.selectAll(todayItems.value.map((i) => i.id))
+}
 
 const todayItems = computed(() => {
   if (props.items.length === 0) return []
