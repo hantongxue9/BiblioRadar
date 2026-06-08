@@ -1,4 +1,4 @@
-import { ref, computed } from 'vue'
+import { ref } from 'vue'
 
 const STORAGE_KEY = 'biblioradar-reading-list'
 
@@ -17,9 +17,7 @@ function persist() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(savedIds.value))
 }
 
-export function useReadingList() {
-  const readingCount = computed(() => savedIds.value.length)
-
+export function useFavorites() {
   function toggleSave(id) {
     const idx = savedIds.value.indexOf(id)
     if (idx === -1) {
@@ -48,5 +46,5 @@ export function useReadingList() {
     persist()
   }
 
-  return { savedIds, readingCount, toggleSave, isSaved, saveAll, clearAll }
+  return { savedIds, toggleSave, isSaved, saveAll, clearAll }
 }

@@ -38,7 +38,7 @@
 <script setup>
 import { computed } from 'vue'
 import PaperCard from '../cards/PaperCard.vue'
-import { useReadingList } from '../../composables/useReadingList'
+import { useFavorites } from '../../composables/useFavorites'
 import { download } from '../../utils/export'
 
 /**
@@ -54,7 +54,7 @@ const props = defineProps({
 
 defineEmits(['select'])
 
-const { savedIds, toggleSave, clearAll } = useReadingList()
+const { savedIds, toggleSave, clearAll } = useFavorites()
 
 const savedItems = computed(() => {
   const idSet = new Set(savedIds.value)

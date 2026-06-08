@@ -42,7 +42,7 @@
             :save-all="saveAll"
             @select="onSelect"
           />
-          <ReadingListView
+          <FavoritesView
             v-else-if="currentView === 'reading'"
             :items="papers"
             :selected-item="selectedItem"
@@ -86,7 +86,7 @@ import DetailPanel from './components/panels/DetailPanel.vue'
 import Spinner from './components/layout/Spinner.vue'
 import { useData } from './composables/useData.js'
 import { useNavigation } from './composables/useNavigation.js'
-import { useReadingList } from './composables/useReadingList.js'
+import { useFavorites } from './composables/useFavorites.js'
 
 const AllView = defineAsyncComponent({
   loader: () => import('./components/views/AllView.vue'),
@@ -103,8 +103,8 @@ const AboutView = defineAsyncComponent({
   loadingComponent: Spinner,
   delay: 0,
 })
-const ReadingListView = defineAsyncComponent({
-  loader: () => import('./components/views/ReadingListView.vue'),
+const FavoritesView = defineAsyncComponent({
+  loader: () => import('./components/views/FavoritesView.vue'),
   loadingComponent: Spinner,
   delay: 0,
 })
@@ -116,7 +116,7 @@ const TrendsView = defineAsyncComponent({
 
 const { papers, dailyReports, loading, error, featuredItems, latestDate } = useData()
 const { currentView, selectedItem, onSelect, onNavigate } = useNavigation()
-const { toggleSave, isSaved, saveAll } = useReadingList()
+const { toggleSave, isSaved, saveAll } = useFavorites()
 
 const showBackTop = ref(false)
 function onScroll() { showBackTop.value = window.scrollY > 400 }
