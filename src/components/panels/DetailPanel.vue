@@ -43,7 +43,7 @@
       </div>
 
       <!-- 内容区 -->
-      <div class="flex-1 overflow-y-auto px-6 max-md:px-4 py-5 space-y-6">
+      <div ref="scrollArea" class="flex-1 overflow-y-auto px-6 max-md:px-4 py-5 space-y-6">
         <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
           {{ item.one_sentence_summary }}
         </p>
@@ -107,7 +107,7 @@
 </template>
 
 <script setup>
-import { onMounted, onUnmounted } from 'vue'
+import { ref, watch, onMounted, onUnmounted } from 'vue'
 import ScoreBar from '../cards/ScoreBar.vue'
 import { download } from '../../utils/export.js'
 
@@ -121,6 +121,11 @@ const props = defineProps({
 })
 
 const emit = defineEmits(['close'])
+
+const scrollArea = ref(null)
+watch(() => props.item, () => {
+  scrollArea.value?.scrollTo(0, 0)
+})
 
 function exportSingle(fmt) {
   if (props.item) download([props.item], fmt)
