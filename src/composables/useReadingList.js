@@ -34,10 +34,19 @@ export function useReadingList() {
     return savedIds.value.includes(id)
   }
 
+  function saveAll(ids) {
+    const existing = new Set(savedIds.value)
+    const newIds = ids.filter((id) => !existing.has(id))
+    if (newIds.length > 0) {
+      savedIds.value = [...savedIds.value, ...newIds]
+      persist()
+    }
+  }
+
   function clearAll() {
     savedIds.value = []
     persist()
   }
 
-  return { savedIds, readingCount, toggleSave, isSaved, clearAll }
+  return { savedIds, readingCount, toggleSave, isSaved, saveAll, clearAll }
 }

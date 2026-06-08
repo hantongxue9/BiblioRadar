@@ -18,22 +18,18 @@
             v-if="currentView === 'featured'"
             :items="featuredItems"
             :selected-item="selectedItem"
-            :selected-ids="selectedIds"
-            :toggle-select="toggleSelect"
-            :select-all="selectAll"
             :toggle-save="toggleSave"
             :is-saved="isSaved"
+            :save-all="saveAll"
             @select="onSelect"
           />
           <AllView
             v-else-if="currentView === 'all'"
             :items="papers"
             :selected-item="selectedItem"
-            :selected-ids="selectedIds"
-            :toggle-select="toggleSelect"
-            :select-all="selectAll"
             :toggle-save="toggleSave"
             :is-saved="isSaved"
+            :save-all="saveAll"
             @select="onSelect"
           />
           <DailyView
@@ -41,11 +37,9 @@
             :items="papers"
             :reports="dailyReports"
             :selected-item="selectedItem"
-            :selected-ids="selectedIds"
-            :toggle-select="toggleSelect"
-            :select-all="selectAll"
             :toggle-save="toggleSave"
             :is-saved="isSaved"
+            :save-all="saveAll"
             @select="onSelect"
           />
           <ReadingListView
@@ -65,35 +59,18 @@
       </footer>
     </main>
     <DetailPanel :item="selectedItem" @close="selectedItem = null" />
-
-    <!-- 批量导出工具栏 -->
-    <Transition name="toolbar">
-      <div v-if="hasSelection" class="fixed bottom-6 left-0 right-0 z-50 flex justify-center pointer-events-none">
-        <div class="bg-slate-800 dark:bg-slate-700 text-white rounded-full px-5 py-2.5 shadow-lg flex items-center gap-3 text-sm pointer-events-auto">
-          <span class="text-slate-300 tabular-nums">已选 {{ selectionCount }} 条</span>
-          <span class="w-px h-4 bg-slate-600"></span>
-          <button @click="clearSelection" class="text-slate-300 hover:text-white transition-colors">清除</button>
-          <span class="w-px h-4 bg-slate-600"></span>
-          <button @click="exportSelected('ris')" class="hover:text-ustc-300 transition-colors font-medium">RIS</button>
-          <button @click="exportSelected('bib')" class="hover:text-ustc-300 transition-colors font-medium">BibTeX</button>
-          <button @click="exportSelected('csv')" class="hover:text-ustc-300 transition-colors font-medium">CSV</button>
-        </div>
-      </div>
-    </Transition>
   </div>
 </template>
 
 <script setup>
-import { KeepAlive, defineAsyncComponent, watch } from 'vue'
+import { KeepAlive, defineAsyncComponent } from 'vue'
 import Sidebar from './components/layout/Sidebar.vue'
 import FeaturedView from './components/views/FeaturedView.vue'
 import DetailPanel from './components/panels/DetailPanel.vue'
 import Spinner from './components/layout/Spinner.vue'
 import { useData } from './composables/useData.js'
 import { useNavigation } from './composables/useNavigation.js'
-import { useSelection } from './composables/useSelection.js'
 import { useReadingList } from './composables/useReadingList.js'
-import { download } from './utils/export.js'
 
 const AllView = defineAsyncComponent({
   loader: () => import('./components/views/AllView.vue'),
@@ -118,17 +95,7 @@ const ReadingListView = defineAsyncComponent({
 
 const { papers, dailyReports, loading, error, featuredItems, latestDate } = useData()
 const { currentView, selectedItem, onSelect, onNavigate } = useNavigation()
-const { selectedIds, selectionCount, hasSelection, toggleSelect, selectAll, clearSelection } = useSelection()
-const { savedIds, toggleSave, isSaved } = useReadingList()
-
-// 切换视图时清除选中
-watch(currentView, () => clearSelection())
-
-function exportSelected(format) {
-  const items = papers.value.filter((p) => selectedIds.value.includes(p.id))
-  if (items.length === 0) return
-  download(items, format)
-}
+const { toggleSave, isSaved, saveAll } = useReadingList()
 </script>
 
 <style>
@@ -143,14 +110,5 @@ function exportSelected(format) {
   .main-push.is-pushed {
     transform: none;
   }
-}
-.toolbar-enter-active,
-.toolbar-leave-active {
-  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-}
-.toolbar-enter-from,
-.toolbar-leave-to {
-  opacity: 0;
-  transform: translateY(16px);
 }
 </style>

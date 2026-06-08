@@ -7,24 +7,13 @@
           <div class="w-8 h-0.5 bg-ustc-300 rounded mb-2"></div>
           <p class="text-xs text-slate-400 dark:text-slate-500">大模型生成的每日行业摘要</p>
         </div>
-        <div v-if="reports.length === 0" class="flex items-center gap-2 mt-1">
-          <button
-            v-if="selectionMode && todayItems.length > 0"
-            @click="handleSelectAll"
-            class="text-xs px-3 py-1 rounded-full text-slate-500 hover:text-slate-700 bg-slate-100 hover:bg-slate-200 dark:text-slate-400 dark:hover:text-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 transition-colors"
-          >
-            全选
-          </button>
-          <button
-            @click="selectionMode = !selectionMode"
-            class="text-xs px-3 py-1 rounded-full transition-colors"
-            :class="selectionMode
-              ? 'bg-ustc-500 text-white dark:bg-ustc-400 dark:text-slate-900'
-              : 'text-slate-500 hover:text-slate-700 bg-slate-100 hover:bg-slate-200 dark:text-slate-400 dark:hover:text-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700'"
-          >
-            {{ selectionMode ? '完成' : '选择' }}
-          </button>
-        </div>
+        <button
+          v-if="reports.length === 0 && todayItems.length > 0"
+          @click="saveAll(todayItems.map((i) => i.id))"
+          class="text-xs px-3 py-1 rounded-full mt-1 text-slate-500 hover:text-slate-700 bg-slate-100 hover:bg-slate-200 dark:text-slate-400 dark:hover:text-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 transition-colors"
+        >
+          收藏本页
+        </button>
       </div>
     </div>
 
@@ -61,14 +50,11 @@
         <CompactPaperCard
           v-for="paper in todayFeatured"
           :key="paper.id"
-          v-memo="[paper.id === selectedItem?.id, selectedIds.includes(paper.id), isSaved(paper.id)]"
+          v-memo="[paper.id === selectedItem?.id, isSaved(paper.id)]"
           :paper="paper"
           :is-selected="selectedItem?.id === paper.id"
-          :selectable="selectionMode"
-          :is-item-selected="selectedIds.includes(paper.id)"
           :is-saved="isSaved(paper.id)"
           @select="$emit('select', $event)"
-          @toggle-select="toggleSelect"
           @toggle-save="toggleSave"
         />
       </template>
@@ -85,14 +71,11 @@
           <CompactPaperCard
             v-for="paper in group.papers"
             :key="paper.id"
-            v-memo="[paper.id === selectedItem?.id, selectedIds.includes(paper.id)]"
+            v-memo="[paper.id === selectedItem?.id, isSaved(paper.id)]"
             :paper="paper"
             :is-selected="selectedItem?.id === paper.id"
-            :selectable="selectionMode"
-            :is-item-selected="selectedIds.includes(paper.id)"
             :is-saved="isSaved(paper.id)"
             @select="$emit('select', $event)"
-            @toggle-select="toggleSelect"
             @toggle-save="toggleSave"
           />
         </div>
@@ -112,7 +95,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { computed } from 'vue'
 import DailyReportCard from '../cards/DailyReportCard.vue'
 import { formatDateCN } from '../../utils/date'
 import CompactPaperCard from '../cards/CompactPaperCard.vue'
@@ -130,21 +113,12 @@ const props = defineProps({
   reports: { type: Array, default: () => [] },
   /** @type {PaperItem|null} */
   selectedItem: { type: Object, default: null },
-  /** @type {Array} */
-  selectedIds: { type: Array, default: () => [] },
-  toggleSelect: { type: Function, default: () => {} },
-  selectAll: { type: Function, default: () => {} },
   toggleSave: { type: Function, default: () => {} },
   isSaved: { type: Function, default: () => false },
+  saveAll: { type: Function, default: () => {} },
 })
 
 defineEmits(['select'])
-
-const selectionMode = ref(false)
-
-function handleSelectAll() {
-  props.selectAll(todayItems.value.map((i) => i.id))
-}
 
 const todayItems = computed(() => {
   if (props.items.length === 0) return []

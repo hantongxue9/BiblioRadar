@@ -5,26 +5,10 @@
     :class="[
       isSelected ? 'border-l-2 border-l-ustc-400 bg-ustc-50/30 dark:border-l-ustc-500 dark:bg-ustc-500/5' : 'border-gray-100 dark:border-slate-800',
       paper.content_type === 'news' && !isSelected ? 'border-l-2 border-l-ustc-200 dark:border-l-ustc-700' : '',
-      selectable && isItemSelected ? 'ring-1 ring-ustc-300/50 dark:ring-ustc-500/30' : '',
     ]"
     @click="$emit('select', paper)"
   >
     <div class="flex items-start gap-3">
-      <!-- 复选框 -->
-      <button
-        v-if="selectable"
-        @click.stop="$emit('toggle-select', paper.id)"
-        class="flex-shrink-0 w-[18px] h-[18px] rounded-full border-2 transition-all duration-150 flex items-center justify-center mt-1"
-        :class="isItemSelected
-          ? 'bg-ustc-500 border-ustc-500 dark:bg-ustc-400 dark:border-ustc-400'
-          : 'border-slate-300 dark:border-slate-600 hover:border-ustc-400 dark:hover:border-ustc-500'"
-        :aria-label="isItemSelected ? '取消选中' : '选中'"
-      >
-        <svg v-if="isItemSelected" class="w-2.5 h-2.5 text-white" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M2.5 6L5 8.5L9.5 3.5" />
-        </svg>
-      </button>
-
       <!-- 内容 -->
       <div class="flex-1 min-w-0">
         <!-- 头部：标题 + 综合分 + 日期 -->
@@ -109,19 +93,11 @@ defineProps({
     type: Boolean,
     default: false,
   },
-  selectable: {
-    type: Boolean,
-    default: false,
-  },
-  isItemSelected: {
-    type: Boolean,
-    default: false,
-  },
   isSaved: {
     type: Boolean,
     default: false,
   },
 })
 
-defineEmits(['select', 'toggle-select', 'toggle-save'])
+defineEmits(['select', 'toggle-save'])
 </script>

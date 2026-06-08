@@ -7,24 +7,13 @@
           <div class="w-8 h-0.5 bg-ustc-300 rounded mb-2"></div>
           <p class="text-xs text-slate-400 dark:text-slate-500">所有收录的文献与资讯</p>
         </div>
-        <div class="flex items-center gap-2 mt-1">
-          <button
-            v-if="selectionMode && paginatedItems.length > 0"
-            @click="handleSelectAll"
-            class="text-xs px-3 py-1 rounded-full text-slate-500 hover:text-slate-700 bg-slate-100 hover:bg-slate-200 dark:text-slate-400 dark:hover:text-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 transition-colors"
-          >
-            全选当前页
-          </button>
-          <button
-            @click="selectionMode = !selectionMode"
-            class="text-xs px-3 py-1 rounded-full transition-colors"
-            :class="selectionMode
-              ? 'bg-ustc-500 text-white dark:bg-ustc-400 dark:text-slate-900'
-              : 'text-slate-500 hover:text-slate-700 bg-slate-100 hover:bg-slate-200 dark:text-slate-400 dark:hover:text-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700'"
-          >
-            {{ selectionMode ? '完成' : '选择' }}
-          </button>
-        </div>
+        <button
+          v-if="paginatedItems.length > 0"
+          @click="saveAll(paginatedItems.map((i) => i.id))"
+          class="text-xs px-3 py-1 rounded-full mt-1 text-slate-500 hover:text-slate-700 bg-slate-100 hover:bg-slate-200 dark:text-slate-400 dark:hover:text-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 transition-colors"
+        >
+          收藏本页
+        </button>
       </div>
     </div>
 
@@ -111,11 +100,8 @@
         :key="item.id"
         :paper="item"
         :is-selected="selectedItem?.id === item.id"
-        :selectable="selectionMode"
-        :is-item-selected="selectedIds.includes(item.id)"
         :is-saved="isSaved(item.id)"
         @select="$emit('select', $event)"
-        @toggle-select="toggleSelect"
         @toggle-save="toggleSave"
       />
     </template>
@@ -177,12 +163,9 @@ const props = defineProps({
   items: { type: Array, default: () => [] },
   /** @type {PaperItem|null} */
   selectedItem: { type: Object, default: null },
-  /** @type {Array} */
-  selectedIds: { type: Array, default: () => [] },
-  toggleSelect: { type: Function, default: () => {} },
-  selectAll: { type: Function, default: () => {} },
   toggleSave: { type: Function, default: () => {} },
   isSaved: { type: Function, default: () => false },
+  saveAll: { type: Function, default: () => {} },
 })
 
 defineEmits(['select'])
@@ -194,11 +177,6 @@ const contentType = ref('all')
 const sortBy = ref('date')
 const currentPage = ref(1)
 const perPage = PER_PAGE
-const selectionMode = ref(false)
-
-function handleSelectAll() {
-  props.selectAll(paginatedItems.value.map((i) => i.id))
-}
 
 let searchTimer = null
 watch(searchInput, (val) => {

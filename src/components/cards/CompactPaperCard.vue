@@ -1,27 +1,9 @@
 <template>
   <div
     class="flex items-start gap-3 py-3 px-4 mb-2 rounded-lg hover:bg-slate-50/50 dark:hover:bg-slate-800/50 cursor-pointer transition-colors"
-    :class="[
-      isSelected ? 'bg-ustc-50/40 border-l-2 border-l-ustc-400 dark:bg-ustc-500/10 dark:border-l-ustc-500' : '',
-      selectable && isItemSelected ? 'ring-1 ring-ustc-300/50 dark:ring-ustc-500/30' : '',
-    ]"
+    :class="isSelected ? 'bg-ustc-50/40 border-l-2 border-l-ustc-400 dark:bg-ustc-500/10 dark:border-l-ustc-500' : ''"
     @click="$emit('select', paper)"
   >
-    <!-- 复选框 -->
-    <button
-      v-if="selectable"
-      @click.stop="$emit('toggle-select', paper.id)"
-      class="flex-shrink-0 w-4 h-4 rounded-full border-2 transition-all duration-150 flex items-center justify-center mt-0.5"
-      :class="isItemSelected
-        ? 'bg-ustc-500 border-ustc-500 dark:bg-ustc-400 dark:border-ustc-400'
-        : 'border-slate-300 dark:border-slate-600 hover:border-ustc-400 dark:hover:border-ustc-500'"
-      :aria-label="isItemSelected ? '取消选中' : '选中'"
-    >
-      <svg v-if="isItemSelected" class="w-2 h-2 text-white" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M2.5 6L5 8.5L9.5 3.5" />
-      </svg>
-    </button>
-
     <!-- 综合分 -->
     <div class="flex-shrink-0 w-10 text-center pt-0.5">
       <span
@@ -65,10 +47,8 @@ defineProps({
   /** @type {PaperItem} */
   paper: { type: Object, required: true },
   isSelected: { type: Boolean, default: false },
-  selectable: { type: Boolean, default: false },
-  isItemSelected: { type: Boolean, default: false },
   isSaved: { type: Boolean, default: false },
 })
 
-defineEmits(['select', 'toggle-select', 'toggle-save'])
+defineEmits(['select', 'toggle-save'])
 </script>
