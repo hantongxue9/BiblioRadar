@@ -74,9 +74,23 @@
 
     <!-- 底部提示 -->
     <div class="px-5 pb-6 max-md:hidden">
-      <p class="text-[10px] text-slate-300 dark:text-slate-600 leading-relaxed">
-        数据由大模型辅助评分<br />仅供参考
-      </p>
+      <div class="flex items-center gap-2">
+        <p class="text-[10px] text-slate-300 dark:text-slate-600 leading-relaxed">
+          数据由大模型辅助评分<br />仅供参考
+        </p>
+        <a
+          href="feed.xml"
+          target="_blank"
+          title="RSS 订阅"
+          class="text-slate-300 hover:text-ustc-400 dark:text-slate-600 dark:hover:text-ustc-400 transition-colors"
+        >
+          <svg class="w-3.5 h-3.5" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M2.5 11.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" fill="currentColor" stroke="none"/>
+            <path d="M3 8a5 5 0 0 1 5 5"/>
+            <path d="M3 4.5a9.5 9.5 0 0 1 9.5 9.5"/>
+          </svg>
+        </a>
+      </div>
     </div>
   </aside>
 </template>
