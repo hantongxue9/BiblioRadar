@@ -99,6 +99,7 @@
         v-for="item in group.items"
         :key="item.id"
         :paper="item"
+        :search-query="searchQuery"
         :is-selected="selectedItem?.id === item.id"
         :is-saved="isSaved(item.id)"
         @select="$emit('select', $event)"

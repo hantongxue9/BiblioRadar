@@ -111,4 +111,14 @@ const { toggleSave, isSaved, saveAll } = useReadingList()
     transform: none;
   }
 }
+mark {
+  background: #fef08a;
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 1px;
+}
+.dark mark {
+  background: #854d0e;
+  color: #fef3c7;
+}
 </style>

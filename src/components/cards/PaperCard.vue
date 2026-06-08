@@ -14,7 +14,8 @@
         <!-- 头部：标题 + 综合分 + 日期 -->
         <div class="flex items-start justify-between gap-4 mb-3">
           <h2 class="text-base font-medium text-slate-800 dark:text-slate-100 leading-relaxed flex-1 min-w-0">
-            {{ paper.title }}
+            <span v-if="searchQuery" v-html="titleHtml"></span>
+            <span v-else>{{ paper.title }}</span>
           </h2>
           <div class="flex items-center gap-2 flex-shrink-0 max-md:flex-wrap max-md:justify-end">
             <span v-if="paper.featured" class="text-[10px] px-2 py-0.5 rounded-full bg-ustc-50 text-ustc-500 dark:bg-ustc-900/30 dark:text-ustc-300 font-medium">精选</span>
@@ -53,7 +54,8 @@
 
         <!-- 一句话提炼 -->
         <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed mb-5">
-          {{ paper.one_sentence_summary }}
+          <span v-if="searchQuery" v-html="summaryHtml"></span>
+          <span v-else>{{ paper.one_sentence_summary }}</span>
         </p>
 
         <!-- 评分区域 -->
@@ -73,13 +75,15 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
 import ScoreBar from './ScoreBar.vue'
+import { highlightSegments } from '../../utils/text'
 
 /**
  * @typedef {import('../../utils/types').PaperItem} PaperItem
  */
 
-defineProps({
+const props = defineProps({
   /** @type {PaperItem} */
   paper: {
     type: Object,
@@ -88,6 +92,10 @@ defineProps({
   showComposite: {
     type: Boolean,
     default: false,
+  },
+  searchQuery: {
+    type: String,
+    default: '',
   },
   isSelected: {
     type: Boolean,
@@ -100,4 +108,17 @@ defineProps({
 })
 
 defineEmits(['select', 'toggle-save'])
+
+function escapeHtml(str) {
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
+}
+
+function toHighlightHtml(text, query) {
+  return highlightSegments(text, query)
+    .map((s) => s.highlight ? `<mark>${escapeHtml(s.text)}</mark>` : escapeHtml(s.text))
+    .join('')
+}
+
+const titleHtml = computed(() => toHighlightHtml(props.paper.title || '', props.searchQuery))
+const summaryHtml = computed(() => toHighlightHtml(props.paper.one_sentence_summary || '', props.searchQuery))
 </script>
