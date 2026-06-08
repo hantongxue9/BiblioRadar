@@ -39,6 +39,18 @@
         <span v-if="paper.featured" class="flex-shrink-0 text-[10px] px-1.5 py-0.5 rounded-full bg-ustc-50 text-ustc-500 dark:bg-ustc-900/30 dark:text-ustc-300 font-medium">
           精选
         </span>
+        <button
+          @click.stop="$emit('toggle-save', paper.id)"
+          class="flex-shrink-0 p-0.5 -mr-1 transition-colors"
+          :class="isSaved
+            ? 'text-ustc-400 hover:text-ustc-500 dark:text-ustc-400 dark:hover:text-ustc-300'
+            : 'text-slate-300 hover:text-slate-500 dark:text-slate-600 dark:hover:text-slate-400'"
+          :title="isSaved ? '移出阅读清单' : '加入阅读清单'"
+        >
+          <svg class="w-3.5 h-3.5" viewBox="0 0 16 16" :fill="isSaved ? 'currentColor' : 'none'" stroke="currentColor" stroke-width="1.2">
+            <path d="M3 2h10a1 1 0 0 1 1 1v11l-6-3-6 3V3a1 1 0 0 1 1-1z" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
       </div>
       <p class="text-xs text-slate-400 dark:text-slate-500 mt-1" style="display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">{{ paper.one_sentence_summary }}</p>
     </div>
@@ -55,7 +67,8 @@ defineProps({
   isSelected: { type: Boolean, default: false },
   selectable: { type: Boolean, default: false },
   isItemSelected: { type: Boolean, default: false },
+  isSaved: { type: Boolean, default: false },
 })
 
-defineEmits(['select', 'toggle-select'])
+defineEmits(['select', 'toggle-select', 'toggle-save'])
 </script>

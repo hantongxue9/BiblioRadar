@@ -126,6 +126,11 @@ const navItems = [
     icon: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2.5" width="12" height="11.5" rx="1.5"/><line x1="2" y1="6" x2="14" y2="6"/><line x1="5.5" y1="1" x2="5.5" y2="3.5"/><line x1="10.5" y1="1" x2="10.5" y2="3.5"/></svg>',
   },
   {
+    key: 'reading',
+    label: '阅读清单',
+    icon: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2h10a1 1 0 0 1 1 1v11l-6-3-6 3V3a1 1 0 0 1 1-1z"/></svg>',
+  },
+  {
     key: 'about',
     label: '关于',
     icon: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="8" cy="8" r="6"/><line x1="8" y1="7" x2="8" y2="11" stroke-linecap="round"/><circle cx="8" cy="5" r="0.5" fill="currentColor" stroke="none"/></svg>',

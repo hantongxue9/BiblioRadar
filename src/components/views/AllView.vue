@@ -113,8 +113,10 @@
         :is-selected="selectedItem?.id === item.id"
         :selectable="selectionMode"
         :is-item-selected="selectedIds.includes(item.id)"
+        :is-saved="isSaved(item.id)"
         @select="$emit('select', $event)"
         @toggle-select="toggleSelect"
+        @toggle-save="toggleSave"
       />
     </template>
 
@@ -179,6 +181,8 @@ const props = defineProps({
   selectedIds: { type: Array, default: () => [] },
   toggleSelect: { type: Function, default: () => {} },
   selectAll: { type: Function, default: () => {} },
+  toggleSave: { type: Function, default: () => {} },
+  isSaved: { type: Function, default: () => false },
 })
 
 defineEmits(['select'])

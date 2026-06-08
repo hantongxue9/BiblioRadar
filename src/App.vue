@@ -21,6 +21,8 @@
             :selected-ids="selectedIds"
             :toggle-select="toggleSelect"
             :select-all="selectAll"
+            :toggle-save="toggleSave"
+            :is-saved="isSaved"
             @select="onSelect"
           />
           <AllView
@@ -30,6 +32,8 @@
             :selected-ids="selectedIds"
             :toggle-select="toggleSelect"
             :select-all="selectAll"
+            :toggle-save="toggleSave"
+            :is-saved="isSaved"
             @select="onSelect"
           />
           <DailyView
@@ -40,6 +44,14 @@
             :selected-ids="selectedIds"
             :toggle-select="toggleSelect"
             :select-all="selectAll"
+            :toggle-save="toggleSave"
+            :is-saved="isSaved"
+            @select="onSelect"
+          />
+          <ReadingListView
+            v-else-if="currentView === 'reading'"
+            :items="papers"
+            :selected-item="selectedItem"
             @select="onSelect"
           />
           <AboutView v-else-if="currentView === 'about'" />
@@ -80,6 +92,7 @@ import Spinner from './components/layout/Spinner.vue'
 import { useData } from './composables/useData.js'
 import { useNavigation } from './composables/useNavigation.js'
 import { useSelection } from './composables/useSelection.js'
+import { useReadingList } from './composables/useReadingList.js'
 import { download } from './utils/export.js'
 
 const AllView = defineAsyncComponent({
@@ -97,10 +110,16 @@ const AboutView = defineAsyncComponent({
   loadingComponent: Spinner,
   delay: 0,
 })
+const ReadingListView = defineAsyncComponent({
+  loader: () => import('./components/views/ReadingListView.vue'),
+  loadingComponent: Spinner,
+  delay: 0,
+})
 
 const { papers, dailyReports, loading, error, featuredItems, latestDate } = useData()
 const { currentView, selectedItem, onSelect, onNavigate } = useNavigation()
 const { selectedIds, selectionCount, hasSelection, toggleSelect, selectAll, clearSelection } = useSelection()
+const { savedIds, toggleSave, isSaved } = useReadingList()
 
 // 切换视图时清除选中
 watch(currentView, () => clearSelection())

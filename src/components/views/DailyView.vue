@@ -66,8 +66,10 @@
           :is-selected="selectedItem?.id === paper.id"
           :selectable="selectionMode"
           :is-item-selected="selectedIds.includes(paper.id)"
+          :is-saved="isSaved(paper.id)"
           @select="$emit('select', $event)"
           @toggle-select="toggleSelect"
+          @toggle-save="toggleSave"
         />
       </template>
 
@@ -88,8 +90,10 @@
             :is-selected="selectedItem?.id === paper.id"
             :selectable="selectionMode"
             :is-item-selected="selectedIds.includes(paper.id)"
+            :is-saved="isSaved(paper.id)"
             @select="$emit('select', $event)"
             @toggle-select="toggleSelect"
+            @toggle-save="toggleSave"
           />
         </div>
       </template>
@@ -130,6 +134,8 @@ const props = defineProps({
   selectedIds: { type: Array, default: () => [] },
   toggleSelect: { type: Function, default: () => {} },
   selectAll: { type: Function, default: () => {} },
+  toggleSave: { type: Function, default: () => {} },
+  isSaved: { type: Function, default: () => false },
 })
 
 defineEmits(['select'])

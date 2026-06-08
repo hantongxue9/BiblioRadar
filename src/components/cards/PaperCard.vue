@@ -39,6 +39,18 @@
             </span>
             <span v-if="paper.credibility_score != null" class="text-xs text-slate-400 dark:text-slate-500 tabular-nums" :title="'可信度 '+paper.credibility_score">· {{ paper.credibility_score }}</span>
             <span class="text-xs text-slate-400 dark:text-slate-500">{{ paper.date }}</span>
+            <button
+              @click.stop="$emit('toggle-save', paper.id)"
+              class="p-0.5 -mr-1 transition-colors"
+              :class="isSaved
+                ? 'text-ustc-400 hover:text-ustc-500 dark:text-ustc-400 dark:hover:text-ustc-300'
+                : 'text-slate-300 hover:text-slate-500 dark:text-slate-600 dark:hover:text-slate-400'"
+              :title="isSaved ? '移出阅读清单' : '加入阅读清单'"
+            >
+              <svg class="w-4 h-4" viewBox="0 0 16 16" :fill="isSaved ? 'currentColor' : 'none'" stroke="currentColor" stroke-width="1.2">
+                <path d="M3 2h10a1 1 0 0 1 1 1v11l-6-3-6 3V3a1 1 0 0 1 1-1z" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
           </div>
         </div>
 
@@ -105,7 +117,11 @@ defineProps({
     type: Boolean,
     default: false,
   },
+  isSaved: {
+    type: Boolean,
+    default: false,
+  },
 })
 
-defineEmits(['select', 'toggle-select'])
+defineEmits(['select', 'toggle-select', 'toggle-save'])
 </script>
