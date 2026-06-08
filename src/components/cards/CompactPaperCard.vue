@@ -27,7 +27,7 @@
           :class="isSaved
             ? 'text-ustc-400 hover:text-ustc-500 dark:text-ustc-400 dark:hover:text-ustc-300'
             : 'text-slate-300 hover:text-slate-500 dark:text-slate-600 dark:hover:text-slate-400'"
-          :title="isSaved ? '移出阅读清单' : '加入阅读清单'"
+          :title="isSaved ? '移出收藏' : '加入收藏'"
         >
           <svg class="w-3.5 h-3.5" viewBox="0 0 16 16" :fill="isSaved ? 'currentColor' : 'none'" stroke="currentColor" stroke-width="1.2">
             <path d="M3 2h10a1 1 0 0 1 1 1v11l-6-3-6 3V3a1 1 0 0 1 1-1z" stroke-linecap="round" stroke-linejoin="round"/>

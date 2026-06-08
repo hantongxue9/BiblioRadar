@@ -7,7 +7,7 @@
     </div>
 
     <div v-if="savedItems.length === 0" class="text-sm text-slate-400 dark:text-slate-500 py-12 text-center">
-      阅读清单为空，点击卡片上的书签图标添加
+      暂无收藏，点击卡片上的书签图标添加
     </div>
 
     <template v-else>
