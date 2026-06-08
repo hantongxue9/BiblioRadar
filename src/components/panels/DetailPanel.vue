@@ -2,7 +2,7 @@
   <Transition name="slide-panel">
     <aside
       v-if="item"
-      class="fixed right-0 top-0 h-screen w-[420px] max-md:w-full bg-white dark:bg-slate-900
+      class="fixed right-0 top-0 h-screen w-[420px] max-xl:w-[340px] max-lg:w-[280px] max-md:w-full bg-white dark:bg-slate-900
              border-l border-gray-100 dark:border-slate-800 shadow-xl z-50 flex flex-col
              will-change-transform"
     >

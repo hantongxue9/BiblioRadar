@@ -132,6 +132,16 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
 .main-push.is-pushed {
   margin-right: 420px;
 }
+@media (max-width: 1279px) {
+  .main-push.is-pushed {
+    margin-right: 340px;
+  }
+}
+@media (max-width: 1023px) {
+  .main-push.is-pushed {
+    margin-right: 280px;
+  }
+}
 @media (max-width: 768px) {
   .main-push.is-pushed {
     margin-right: 0;
