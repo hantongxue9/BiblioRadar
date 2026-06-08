@@ -64,14 +64,26 @@
 
     <!-- 搜索 + 排序 -->
     <div class="flex gap-3 mb-8">
-      <input
-        v-model="searchInput"
-        type="text"
-        placeholder="搜索标题或摘要..."
-        class="flex-1 px-4 py-2.5 text-sm text-slate-700 bg-white border border-gray-200 rounded-lg
-               placeholder:text-slate-300 focus:outline-none focus:border-slate-400 transition-colors
-               dark:bg-slate-900 dark:border-slate-700 dark:text-slate-200 dark:placeholder:text-slate-600"
-      />
+      <div class="relative flex-1">
+        <input
+          v-model="searchInput"
+          type="text"
+          placeholder="搜索标题或摘要..."
+          class="w-full px-4 py-2.5 pr-8 text-sm text-slate-700 bg-white border border-gray-200 rounded-lg
+                 placeholder:text-slate-300 focus:outline-none focus:border-slate-400 transition-colors
+                 dark:bg-slate-900 dark:border-slate-700 dark:text-slate-200 dark:placeholder:text-slate-600"
+        />
+        <button
+          v-if="searchInput"
+          @click="searchInput = ''; searchQuery = ''"
+          class="absolute right-2.5 top-1/2 -translate-y-1/2 p-0.5 text-slate-300 hover:text-slate-500
+                 dark:text-slate-600 dark:hover:text-slate-400 transition-colors"
+        >
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
       <select
         v-model="sortBy"
         class="px-4 py-2.5 text-sm text-slate-700 bg-white border border-gray-200 rounded-lg
