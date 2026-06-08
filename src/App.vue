@@ -49,6 +49,7 @@
             @select="onSelect"
           />
           <AboutView v-else-if="currentView === 'about'" />
+          <TrendsView v-else-if="currentView === 'trends'" :items="papers" />
         </KeepAlive>
       </div>
       <footer class="text-center pb-8">
@@ -89,6 +90,11 @@ const AboutView = defineAsyncComponent({
 })
 const ReadingListView = defineAsyncComponent({
   loader: () => import('./components/views/ReadingListView.vue'),
+  loadingComponent: Spinner,
+  delay: 0,
+})
+const TrendsView = defineAsyncComponent({
+  loader: () => import('./components/views/TrendsView.vue'),
   loadingComponent: Spinner,
   delay: 0,
 })

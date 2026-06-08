@@ -131,6 +131,11 @@ const navItems = [
     icon: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2h10a1 1 0 0 1 1 1v11l-6-3-6 3V3a1 1 0 0 1 1-1z"/></svg>',
   },
   {
+    key: 'trends',
+    label: '趋势',
+    icon: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="2 12 5 7 9 9 14 3"/><polyline points="11 3 14 3 14 6"/></svg>',
+  },
+  {
     key: 'about',
     label: '关于',
     icon: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="8" cy="8" r="6"/><line x1="8" y1="7" x2="8" y2="11" stroke-linecap="round"/><circle cx="8" cy="5" r="0.5" fill="currentColor" stroke="none"/></svg>',
