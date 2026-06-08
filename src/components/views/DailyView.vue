@@ -61,7 +61,7 @@
         <CompactPaperCard
           v-for="paper in todayFeatured"
           :key="paper.id"
-          v-memo="[paper.id === selectedItem?.id, selectedIds.includes(paper.id)]"
+          v-memo="[paper.id === selectedItem?.id, selectedIds.includes(paper.id), isSaved(paper.id)]"
           :paper="paper"
           :is-selected="selectedItem?.id === paper.id"
           :selectable="selectionMode"

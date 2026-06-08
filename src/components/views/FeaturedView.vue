@@ -61,7 +61,7 @@
       <PaperCard
         v-for="item in group.items"
         :key="item.id"
-        v-memo="[item.id === selectedItem?.id, selectedIds.includes(item.id)]"
+        v-memo="[item.id === selectedItem?.id, selectedIds.includes(item.id), isSaved(item.id)]"
         :paper="item"
         show-composite
         :is-selected="selectedItem?.id === item.id"
