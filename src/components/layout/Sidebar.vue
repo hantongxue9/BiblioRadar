@@ -72,26 +72,28 @@
       </div>
     </div>
 
+    <!-- RSS 订阅 -->
+    <div class="px-5 pb-3 max-md:hidden">
+      <a
+        href="feed.xml"
+        target="_blank"
+        title="RSS 订阅"
+        class="inline-flex items-center gap-1.5 text-[11px] text-slate-400 hover:text-ustc-500 dark:text-slate-500 dark:hover:text-ustc-400 transition-colors"
+      >
+        <svg class="w-3 h-3" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M2.5 11.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" fill="currentColor" stroke="none"/>
+          <path d="M3 8a5 5 0 0 1 5 5"/>
+          <path d="M3 4.5a9.5 9.5 0 0 1 9.5 9.5"/>
+        </svg>
+        RSS 订阅
+      </a>
+    </div>
+
     <!-- 底部提示 -->
     <div class="px-5 pb-6 max-md:hidden">
-      <div class="flex items-center gap-2">
-        <p class="text-[10px] text-slate-300 dark:text-slate-600 leading-relaxed">
-          数据由大模型辅助评分<br />仅供参考
-        </p>
-        <a
-          href="feed.xml"
-          target="_blank"
-          title="RSS 订阅"
-          class="inline-flex items-center gap-1 text-[10px] text-slate-300 hover:text-ustc-400 dark:text-slate-600 dark:hover:text-ustc-400 transition-colors"
-        >
-          <svg class="w-3 h-3" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M2.5 11.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" fill="currentColor" stroke="none"/>
-            <path d="M3 8a5 5 0 0 1 5 5"/>
-            <path d="M3 4.5a9.5 9.5 0 0 1 9.5 9.5"/>
-          </svg>
-          RSS
-        </a>
-      </div>
+      <p class="text-[10px] text-slate-300 dark:text-slate-600 leading-relaxed">
+        数据由大模型辅助评分<br />仅供参考
+      </p>
     </div>
   </aside>
 </template>
