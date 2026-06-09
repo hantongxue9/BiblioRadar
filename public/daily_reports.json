@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "date": "2026-06-09",
+    "summary": "今日图情领域聚焦AI在学术评价中的风险与治理，多项研究揭示生成式AI评价人文社科论文存在语言偏见，同行评审对颠覆性研究的预测效力得到实证检验，大语言模型训练中的数据伦理问题被系统梳理。知识组织与检索技术持续深化，知识图谱补全、持续关系抽取、联邦跨域推荐等方法不断优化，大语言模型被用于引用错误检测、谣言识别和垂直领域知识管理。行业动态方面，研究图书馆积极参与开放科学政策讨论，LIBER发布公民科学发展报告和对欧盟ERA法案的回应，ARL发布公共政策简报。观点评论呼吁将数据重用纳入学术评价体系，预示评价标准向多元化发展。整体上，AI治理、学术评价公平性与开放科学实践成为今日图情领域的核心议题。",
+    "highlights": [
+      "论文｜Does language bias GenAI academic evaluation in humanities and social sciences? A mixed‐methods study based on Chinese‐language HSS papers｜揭示生成式AI评价中文人文社科论文时的语言偏见，对学术评审公平性提出警示。",
+      "论文｜Data ethics in training large language models: A systematic review of machine-learning strategies and AI governance frameworks｜系统梳理大模型训练中的数据伦理风险、应对策略与治理框架，为负责任AI开发提供全景参考。",
+      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜实证分析同行评审在识别颠覆性科学研究中的预测效力，为优化评审机制提供新证据。",
+      "动态｜Citizen Science Developing Citizen Science 2026 – Report from the Masterclass｜LIBER发布公民科学发展研讨会报告，探讨研究图书馆参与和推动公民科学的实践路径。",
+      "动态｜LIBER’s Response – Public Consultation on the ERA Act｜LIBER回应欧盟ERA法案公开咨询，阐述研究图书馆界对欧洲研究区政策的立场。",
+      "趋势判断｜数据重用纳入学术评价体系或成为趋势｜观点文章强调数据引用应作为衡量文章质量的重要补充指标，预示学术评价向多元化发展。"
+    ],
+    "stats": {
+      "papers": 61,
+      "news": 39,
+      "featured": 31
+    }
+  }
+]
