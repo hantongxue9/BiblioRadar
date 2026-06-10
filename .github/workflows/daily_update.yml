@@ -74,7 +74,7 @@ jobs:
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           git pull --rebase --autostash origin main
-          git add public/data.json public/daily_reports.json
+          git add public/data.json public/daily_reports.json public/feed.xml
           git diff --cached --quiet || git commit -m "chore: update data $(date +%Y-%m-%d)"
           git push
 
