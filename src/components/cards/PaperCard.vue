@@ -49,7 +49,7 @@
           </span>
           <span v-if="paper.tier" class="text-[10px] px-1.5 py-0.5 rounded font-medium text-slate-400 bg-slate-100/70 dark:text-slate-500 dark:bg-slate-800/70">{{ paper.tier }}类</span>
           <span v-if="paper.content_type === 'news'" class="text-xs text-slate-400 dark:text-slate-500 truncate">{{ paper.source }}</span>
-          <span v-else-if="paper.affiliations" class="text-xs text-slate-400 dark:text-slate-500 truncate">{{ paper.affiliations }}</span>
+          <span v-else class="text-xs text-slate-400 dark:text-slate-500 truncate">{{ paper.source }}{{ paper.affiliations ? ' · ' + paper.affiliations : '' }}</span>
         </div>
 
         <!-- 一句话提炼 -->

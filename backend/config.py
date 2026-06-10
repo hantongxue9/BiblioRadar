@@ -34,6 +34,7 @@ class Config:
     # ---- 出版商 API Key（可选） ----
     elsevier_api_key: str = os.environ.get("ELSEVIER_API_KEY", "")
     springer_api_key: str = os.environ.get("SPRINGER_API_KEY", "")
+    semantic_scholar_api_key: str = os.environ.get("SEMANTIC_SCHOLAR_API_KEY", "")
 
     # ---- 评估 ----
     min_score_avg_paper: float = float(os.environ.get("MIN_SCORE_AVG", "6.0"))
@@ -72,3 +73,4 @@ class Config:
         # 出版商 API Key 注入环境变量（保持对其他模块的兼容）
         os.environ.setdefault("ELSEVIER_API_KEY", self.elsevier_api_key)
         os.environ.setdefault("SPRINGER_API_KEY", self.springer_api_key)
+        os.environ.setdefault("SEMANTIC_SCHOLAR_API_KEY", self.semantic_scholar_api_key)

@@ -196,6 +196,28 @@ C_ARXIV_SOURCES = [
     ),
 ]
 
+# C类 - API 数据库（开放学术数据源）
+C_API_PAPER_SOURCES = [
+    SourceConfig(
+        name="OpenAlex - LIS",
+        url="https://api.openalex.org/works",
+        tier="C",
+        content_type="paper",
+        field="information_science",
+        fetch_method="api",
+        extra={"api_type": "openalex"},
+    ),
+    SourceConfig(
+        name="Semantic Scholar - LIS",
+        url="https://api.semanticscholar.org/graph/v1/paper/search",
+        tier="C",
+        content_type="paper",
+        field="information_science",
+        fetch_method="api",
+        extra={"api_type": "semantic_scholar"},
+    ),
+]
+
 # C类 - 国际政策与联盟
 C_POLICY_SOURCES = [
     SourceConfig(
@@ -341,7 +363,7 @@ C_DOMESTIC_SOURCES = [
 
 def get_all_sources() -> list[SourceConfig]:
     """返回所有启用的源配置"""
-    all_sources = A_SOURCES + B_SOURCES + C_ARXIV_SOURCES + C_POLICY_SOURCES + C_NEWS_SOURCES + C_DOMESTIC_SOURCES
+    all_sources = A_SOURCES + B_SOURCES + C_ARXIV_SOURCES + C_API_PAPER_SOURCES + C_POLICY_SOURCES + C_NEWS_SOURCES + C_DOMESTIC_SOURCES
     return [s for s in all_sources if s.enabled]
 
 
@@ -359,4 +381,6 @@ def get_news_sources() -> list[SourceConfig]:
 BROAD_SOURCE_NAMES = {
     "arXiv - Computation & Language",
     "arXiv - Social Networks",
+    "OpenAlex - LIS",
+    "Semantic Scholar - LIS",
 }

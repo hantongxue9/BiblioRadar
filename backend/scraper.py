@@ -433,6 +433,10 @@ async def fetch_api(
 
     if api_type == "crossref":
         return await _fetch_crossref(session, source, rate_limiter)
+    if api_type == "openalex":
+        return await _fetch_openalex(session, source, rate_limiter)
+    if api_type == "semantic_scholar":
+        return await _fetch_semantic_scholar(session, source, rate_limiter)
 
     # Elsevier / Springer API 预留
     elsevier_key = os.getenv("ELSEVIER_API_KEY", "")
@@ -520,6 +524,186 @@ async def _fetch_crossref(
             "field": source.field,
         })
 
+    return items
+
+
+# ============================================================
+# OpenAlex API 抓取
+# ============================================================
+
+async def _fetch_openalex(
+    session: aiohttp.ClientSession,
+    source: SourceConfig,
+    rate_limiter: RateLimiter,
+) -> list[dict]:
+    """
+    通过 OpenAlex API 获取 LIS 领域最新论文。
+
+    OpenAlex 完全免费无需 API key，使用 polite pool 建议添加 mailto 请求头。
+    过滤按概念 ID C161191863（Library and Information Science）筛选。
+    摘要以倒排索引格式返回，需要重建为纯文本。
+    """
+    params = {
+        "filter": "concepts.id:C161191863,publication_year:2026",
+        "sort": "publication_date:desc",
+        "per_page": "25",
+    }
+    url = source.url + "?" + "&".join(f"{k}={v}" for k, v in params.items())
+    headers = _random_headers(referer="https://openalex.org/")
+    headers["mailto"] = "hantongxue9@mail.ustc.edu.cn"
+
+    domain = urlparse(url).netloc
+    for attempt in range(MAX_RETRIES):
+        await rate_limiter.acquire(domain)
+        try:
+            timeout = aiohttp.ClientTimeout(total=REQUEST_TIMEOUT)
+            async with session.get(url, headers=headers, timeout=timeout, ssl=SSL_VERIFY) as resp:
+                if resp.status != 200:
+                    logger.warning("OpenAlex HTTP %d", resp.status)
+                    return []
+                import json
+                data = json.loads(await resp.text())
+                break
+        except (aiohttp.ClientError, asyncio.TimeoutError, json.JSONDecodeError) as e:
+            wait = 2 ** (attempt + 1)
+            logger.warning("OpenAlex 请求异常 (%s)，%ds 后重试", e, wait)
+            await asyncio.sleep(wait)
+    else:
+        logger.error("OpenAlex 重试耗尽")
+        return []
+
+    items = []
+    for work in data.get("results", []):
+        title = work.get("title", "").strip()
+        if not title:
+            continue
+
+        # 从倒排索引重建摘要
+        abstract = ""
+        inverted = work.get("abstract_inverted_index")
+        if inverted and isinstance(inverted, dict):
+            words = [None] * (max(max(pos) for pos in inverted.values() if pos) + 1)
+            for word, positions in inverted.items():
+                for p in positions:
+                    words[p] = word
+            abstract = " ".join(w for w in words if w is not None)
+
+        # 日期
+        date_str = work.get("publication_date", "")
+        date = _parse_date_str(date_str) if date_str else None
+
+        # DOI 链接
+        doi = work.get("doi", "")
+        link = f"https://doi.org/{doi}" if doi else ""
+
+        # 作者
+        authors = work.get("authorships", [])[:3]
+        author_strs = []
+        for a in authors:
+            display = a.get("author", {}).get("display_name", "")
+            if display:
+                author_strs.append(display)
+        affiliations_text = "; ".join(author_strs) if author_strs else ""
+
+        items.append({
+            "title": title,
+            "abstract": abstract,
+            "date": date,
+            "link": link,
+            "affiliations": affiliations_text,
+            "source": source.name,
+            "tier": source.tier,
+            "field": source.field,
+        })
+
+    logger.info("OpenAlex 抓取 %d 条", len(items))
+    return items
+
+
+# ============================================================
+# Semantic Scholar API 抓取
+# ============================================================
+
+async def _fetch_semantic_scholar(
+    session: aiohttp.ClientSession,
+    source: SourceConfig,
+    rate_limiter: RateLimiter,
+) -> list[dict]:
+    """
+    通过 Semantic Scholar API 获取 LIS 领域最新论文。
+
+    无 API key 限制 1 req/s，有 key 后速率放开。
+    搜索 "library information science" 并按年份限制。
+    """
+    params = {
+        "query": "library+information+science",
+        "year": "2025-2026",
+        "limit": "25",
+        "fields": "title,abstract,year,externalIds,url,authors,publicationDate",
+    }
+    url = source.url + "?" + "&".join(f"{k}={v}" for k, v in params.items())
+    headers = _random_headers(referer="https://www.semanticscholar.org/")
+
+    api_key = os.getenv("SEMANTIC_SCHOLAR_API_KEY", "")
+    if api_key:
+        headers["x-api-key"] = api_key
+
+    domain = urlparse(url).netloc
+    for attempt in range(MAX_RETRIES):
+        await rate_limiter.acquire(domain)
+        try:
+            timeout = aiohttp.ClientTimeout(total=REQUEST_TIMEOUT)
+            async with session.get(url, headers=headers, timeout=timeout, ssl=SSL_VERIFY) as resp:
+                if resp.status != 200:
+                    logger.warning("Semantic Scholar HTTP %d", resp.status)
+                    return []
+                import json
+                data = json.loads(await resp.text())
+                break
+        except (aiohttp.ClientError, asyncio.TimeoutError, json.JSONDecodeError) as e:
+            wait = 2 ** (attempt + 1)
+            logger.warning("Semantic Scholar 请求异常 (%s)，%ds 后重试", e, wait)
+            await asyncio.sleep(wait)
+    else:
+        logger.error("Semantic Scholar 重试耗尽")
+        return []
+
+    items = []
+    for paper in data.get("data", []):
+        title = paper.get("title", "").strip()
+        if not title:
+            continue
+
+        abstract = paper.get("abstract", "") or ""
+
+        # 日期
+        date_str = paper.get("publicationDate", "") or str(paper.get("year", ""))
+        date = _parse_date_str(date_str) if date_str else None
+
+        # 链接
+        link = paper.get("url", "")
+        if not link:
+            doi = (paper.get("externalIds") or {}).get("DOI", "")
+            if doi:
+                link = f"https://doi.org/{doi}"
+
+        # 作者
+        authors = paper.get("authors", [])[:3]
+        author_strs = [a.get("name", "") for a in authors if a.get("name")]
+        affiliations_text = "; ".join(author_strs) if author_strs else ""
+
+        items.append({
+            "title": title,
+            "abstract": abstract,
+            "date": date,
+            "link": link,
+            "affiliations": affiliations_text,
+            "source": source.name,
+            "tier": source.tier,
+            "field": source.field,
+        })
+
+    logger.info("Semantic Scholar 抓取 %d 条", len(items))
     return items
 
 
