@@ -45,6 +45,11 @@
         <li>图书情报工作</li>
         <li>情报学报</li>
       </ul>
+      <h4 class="text-xs font-medium text-slate-500 dark:text-slate-500 mb-2 mt-4">C类 · 开放数据库</h4>
+      <ul class="space-y-1.5 text-sm text-slate-600 dark:text-slate-500">
+        <li>OpenAlex (LIS 概念过滤)</li>
+        <li>Semantic Scholar (LIS 关键词)</li>
+      </ul>
       <h4 class="text-xs font-medium text-slate-500 dark:text-slate-500 mb-2 mt-4">C类 · 预印本与行业资讯</h4>
       <ul class="space-y-1.5 text-sm text-slate-600 dark:text-slate-500">
         <li>arXiv (cs.DL, cs.IR, cs.CL, cs.SI)</li>
