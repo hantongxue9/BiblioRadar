@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-06-11",
+    "summary": "今日图情领域的研究呈现出明显的跨学科与技术融合趋势，核心议题围绕人工智能在学术评价、知识发现与信息组织中的应用及其伦理规范。在学术评价与计量方面，研究焦点从传统指标转向方法论的可重复性与透明度，如可审计的数据处理流程和标准化科学图谱工作流的提出，旨在提升研究的严谨性。同时，数据库结构差异对影响力评估的影响研究，提示了评价体系的基础设施依赖性。在AI应用方面，生成式AI在学术评估中的语言偏见问题受到关注，凸显了技术应用需兼顾公平性。大语言模型与知识图谱、因果推断等技术的结合，正深入渗透至垂直领域知识管理、多模态推荐及古籍数字化等具体场景，推动信息组织与服务向智能化、精准化发展。数据伦理与合成数据生成方法的研究，则为应对AI应用中的数据挑战提供了策略性思考。",
+    "highlights": [
+      "论文｜Does language bias GenAI academic evaluation in humanities and social sciences? A mixed‐methods study based on Chinese‐language HSS papers｜揭示了生成式AI在评估非英语学术文本时存在的语言偏见，对构建公平的智能学术评价体系具有警示意义。",
+      "论文｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜设计了一个标准化的可审计数据处理流程，为提升文献计量分析的透明度、可复现性和可信度提供了方法论框架。",
+      "论文｜Relationship between peer review quality and scientific impact: Insights from LLMs-assessed reviews｜利用大语言模型量化同行评审质量，并发现其与论文后续科学影响力存在正相关，为评价学术交流过程提供了新视角。",
+      "动态｜Graph-driven knowledge stream method for knowledge management in vertical domain large language models｜提出结合知识图谱与大语言模型管理垂直领域知识流的方法，展示了专业知识系统与通用AI模型融合的实践路径。",
+      "动态｜Enhanced archival metadata through AI: a case study of digitized photograph descriptions｜通过人工智能技术提升档案元数据自动化生成质量，是AI赋能文化遗产数字化保存与利用的典型案例。",
+      "趋势判断｜AI技术在信息组织与服务中的应用正从通用场景向垂直领域深化，同时其方法论透明度、可重复性及伦理规范成为学术界共同关注的焦点。"
+    ],
+    "stats": {
+      "papers": 195,
+      "news": 118,
+      "featured": 63
+    }
+  },
+  {
     "date": "2026-06-10",
     "summary": "今日图情领域的研究呈现出两大核心趋势：一是对学术评价体系的深度反思与创新，研究者们正致力于开发更精细、多维的计量模型，以更公平地评估作者自引行为，并探讨在学科快速变革背景下同行评审的预测效力。二是人工智能应用持续深化与场景化，尤其在信息可信度评估、专业服务交互和资源受限环境部署方面取得进展。例如，结合大语言模型与图神经网络的技术提升了假新闻检测性能，而关于馆员在AI中介协作中的调节作用研究，则为专业服务融合提供了新见解。此外，对OpenAlex等新兴开放数据基础设施的评估，也体现了领域对数据源质量与适用性的持续关注。",
     "highlights": [
