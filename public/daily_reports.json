@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-06-12",
+    "summary": "今日图情领域的研究呈现出对学术评价体系、人工智能应用及用户行为分析的持续关注。在学术评价方面，研究聚焦于审稿流程的实证评估、科学知识图谱的可重复性框架构建以及OpenAlex等开放数据源的系统性评析，体现了对研究透明度与评价方法严谨性的追求。人工智能应用则继续向纵深发展，特别是在医疗、教育、专利、档案等专业领域，研究重点转向解决长尾数据、隐私保护、多模态融合及内容质量评估等实际问题，显示出AI技术与图情业务场景的深度融合。用户行为研究则通过动态网络分析等方法，更精细地刻画在线社区中的信息传播规律。",
+    "highlights": [
+      "论文｜Total handling time and author ratings of journals: Evidence from an online review platform｜为期刊审稿流程优化与作者选刊提供了基于实证数据的决策参考。",
+      "论文｜Biblioshiny and the SAAS Workflow: An integrated framework for transparent and reproducible science mapping｜提出了提升科学知识图谱研究可重复性与透明度的集成方法框架。",
+      "动态｜Enhanced archival metadata through AI: a case study of digitized photograph descriptions｜展示了AI技术在提升档案数字化描述元数据质量方面的具体应用与成效。",
+      "动态｜An LLM-assisted decision-support system for semantic analysis of Bloom’s Taxonomy-aligned learning outcomes｜探索了大型语言模型在教育学习成果语义分析及教学决策支持中的潜力。",
+      "趋势判断｜AI应用研究正从通用场景向医疗、教育、专利等专业领域深化，并着力解决长尾数据、隐私保护等现实挑战。"
+    ],
+    "stats": {
+      "papers": 183,
+      "news": 112,
+      "featured": 62
+    }
+  },
+  {
     "date": "2026-06-11",
     "summary": "今日图情领域的研究呈现出明显的跨学科与技术融合趋势，核心议题围绕人工智能在学术评价、知识发现与信息组织中的应用及其伦理规范。在学术评价与计量方面，研究焦点从传统指标转向方法论的可重复性与透明度，如可审计的数据处理流程和标准化科学图谱工作流的提出，旨在提升研究的严谨性。同时，数据库结构差异对影响力评估的影响研究，提示了评价体系的基础设施依赖性。在AI应用方面，生成式AI在学术评估中的语言偏见问题受到关注，凸显了技术应用需兼顾公平性。大语言模型与知识图谱、因果推断等技术的结合，正深入渗透至垂直领域知识管理、多模态推荐及古籍数字化等具体场景，推动信息组织与服务向智能化、精准化发展。数据伦理与合成数据生成方法的研究，则为应对AI应用中的数据挑战提供了策略性思考。",
     "highlights": [
