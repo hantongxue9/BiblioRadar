@@ -1,5 +1,51 @@
 [
   {
+    "title": "<scp>CTP</scp>\n                    Ontology: A Semantic Model for Structuring Cultural Thematic Paths",
+    "abstract": "",
+    "date": "2026-07-01",
+    "link": "https://doi.org/10.1002/asi.70081",
+    "affiliations": "Tiziana Pasciuto; Riccardo Albertoni; Roberta Maggi",
+    "source": "JASIST",
+    "tier": "A",
+    "field": "information_science",
+    "content_type": "paper",
+    "category": "知识组织",
+    "thinking": "该论文构建了用于结构化文化主题路径的本体模型，属于语义网技术在数字人文领域的应用，技术方法较为前沿。研究基于本体工程规范，方法严谨，但作为一项基础模型研究，其直接业务落地价值依赖于后续系统的具体实现。",
+    "scores": {
+      "frontier_tech": 8,
+      "practical_value": 6,
+      "methodological_rigor": 8
+    },
+    "one_sentence_summary": "该研究提出了一个专门用于组织和关联文化主题路径的语义本体模型。",
+    "credibility_score": 6.7,
+    "composite_score": 7.2,
+    "featured": false,
+    "id": 2698
+  },
+  {
+    "title": "Community intermediary strategies and tactics to close digital divides and enhance equitable technology use in everyday life",
+    "abstract": "",
+    "date": "2026-07-01",
+    "link": "https://doi.org/10.1002/asi.70076",
+    "affiliations": "Marcy G. Antonio; Alicia Stone; Tawanna Dillahunt",
+    "source": "JASIST",
+    "tier": "A",
+    "field": "information_science",
+    "content_type": "paper",
+    "category": "用户行为",
+    "thinking": "该论文聚焦于社区中介在弥合数字鸿沟中的策略与战术，研究问题具有重要的社会意义和实践价值，但方法论上可能偏重质性案例研究，样本量和普适性存在一定局限。技术前沿性方面，虽未直接采用最新技术，但其对技术采纳的社会机制探讨仍具有理论深度。",
+    "scores": {
+      "frontier_tech": 5,
+      "practical_value": 9,
+      "methodological_rigor": 7
+    },
+    "one_sentence_summary": "该研究探讨了社区中介如何通过具体策略帮助边缘群体在日常生活中更公平地使用技术，以缩小数字鸿沟。",
+    "credibility_score": 6.7,
+    "composite_score": 6.9,
+    "featured": false,
+    "id": 2699
+  },
+  {
     "title": "Global research on AI-empowering academic evaluation: advances, trends, and prospects",
     "abstract": "",
     "date": "2026-06-16",
@@ -21,6 +67,29 @@
     "composite_score": 6.5,
     "featured": false,
     "id": 2563
+  },
+  {
+    "title": "Large language models for scientometric mapping of scientific controversy: A validated hybrid AI–Human framework",
+    "abstract": "<p>This study advanced large language model (LLM)-enabled scientometric methods for analysing contested scholarly communication through a hybrid AI–human workflow for large-scale mapping of stance and themes in scientific corpora. We treated the literature as a large textual record and examined how competing knowledge claims were distributed across venues and over time. We used the Lyme disease controversy as a testbed, applied multiple LLMs to thousands of abstracts, and validated the outputs with domain experts to trace longitudinal shifts in authorial stance and thematic focus. We examined how alternative perspectives were distributed across venues and themes, how these distributions changed over time, and how venue stratification shaped the visibility of different epistemic positions. Results showed persistent asymmetries in publication placement and citation attention, with higher-impact venues disproportionately hosting one perspective relative to the other, while thematic mapping identified recurring fault lines around disputed claims. Validation showed substantial alignment between LLM outputs and expert ratings across classification tasks (Cohen’s kappa 0.58–0.71), broadly comparable to expert–expert agreement and sufficient for corpus-level scientometric analysis. The framework offers a reproducible model of human–LLM integration in literature-based scientometrics and enables venue- and time-resolved indicators for monitoring controversies and publication imbalances.</p>",
+    "date": "2026-06-13",
+    "link": "https://link.springer.com/article/10.1007/s11192-026-05681-3",
+    "affiliations": "",
+    "source": "Scientometrics",
+    "tier": "A",
+    "field": "bibliometrics",
+    "content_type": "paper",
+    "category": "AI应用",
+    "thinking": "该论文采用大语言模型（LLM）结合专家验证的混合框架，对科学争议进行文献计量分析，在方法上具有前沿性和创新性，验证环节（Cohen's kappa）增强了方法的严谨性。其提出的框架为大规模、动态监测学术争议提供了可复现的模型，具有直接的方法论应用价值，但具体场景（莱姆病争议）的普适性有待更多案例验证。",
+    "scores": {
+      "frontier_tech": 9,
+      "practical_value": 8,
+      "methodological_rigor": 8
+    },
+    "one_sentence_summary": "该研究提出了一个结合大语言模型与专家验证的混合框架，用于大规模分析科学文献中的争议立场与主题演变。",
+    "credibility_score": 6.8,
+    "composite_score": 8.1,
+    "featured": true,
+    "id": 2695
   },
   {
     "title": "Opinion paper: generative AI and the future of scientometrics",
@@ -7153,6 +7222,121 @@
     "id": 2174
   },
   {
+    "title": "Chatbox sociality: Extreme personae, speculative communities, and the affordances of alt-tech livestreaming",
+    "abstract": "<p>Livestreaming platforms have become a dominant medium for extreme media personae, from manosphere agitators to gambling creators and far-right influencers. This paper asks why. Through a walkthrough-based interface analysis of Kick, an alt-tech livestreaming platform owned by Easygo Entertainment, the parent group that also owns the cryptocurrency gambling site Stake, we argue that the prevalence of these figures is produced by a convergence of parasocial and speculative platform affordances, financialised incentive structures, and the subcultural formations that grow around them. Kick’s casino-like interface design, creator-first revenue model, and permissive content moderation philosophy create conditions under which extreme livestreaming personae thrive. Central to our analysis is “chatbox sociality”: a social condition in which audience participation, affective investment, and financial speculation become entangled within the livestream chatbox. We show how the chatbox operates as a speculative technology within a heightened mode of parasociality, producing “chat”: at once a figure of speech and a self-referencing collective identity. Drawing on Komporozos-Athanasiou’s (2022) theorisation of speculative communities, we argue that the chatbox is a commodified digital infrastructure that facilitates the circulation of speculative imaginaries, enabling collectivities whose mood, vernacular output, and financial commitments are inseparable from one another. Through the case study of looksmaxxing, we show how vernaculars originating in incel-adjacent forums are tested and ratified by livestream audiences, clipfarmed into short-form video, and carried into mainstream discourse, arriving, eventually, at the official communications of the U.S. Department of War’s Chief Technological Officer. We argue that this trajectory illustrates how “fratriarchal neoliberalism” (Thomas-Parr and Gilroy-Ware, 2024) operates as an increasingly infrastructural condition, animated through platform interfaces, speculative affordances, and a core ideological principle of ruthless optimisation.</p>",
+    "date": "2026-05-28",
+    "link": "https://firstmonday.org/ojs/index.php/fm/article/view/15437",
+    "affiliations": "",
+    "source": "First Monday",
+    "tier": "C",
+    "field": "internet_society",
+    "content_type": "news",
+    "category": "其他",
+    "thinking": "该资讯是一篇发表于2026年的学术论文摘要，探讨了特定直播平台的社会技术现象，内容聚焦于互联网社会学，与图情领域的核心业务（如信息组织、检索、保存、服务）的直接关联度较弱。其理论分析虽有一定深度，但对图书馆员和信息科学从业者的日常工作决策或行业趋势把握的直接参考价值有限。",
+    "scores": {
+      "timeliness": 10,
+      "relevance": 3,
+      "information_value": 4
+    },
+    "one_sentence_summary": "一篇学术论文分析了特定直播平台如何通过其界面设计、商业模式和社区互动，催生并传播极端网络人格和亚文化。",
+    "credibility_score": 6.0,
+    "composite_score": 5.5,
+    "featured": false,
+    "id": 2913
+  },
+  {
+    "title": "“Hi everyone, I am Yilong Ma”: Synthetic impersonators and despicable celebrities in global media circuits",
+    "abstract": "<p>In December 2021, a video posted on social media platform Douyin featured an Asian man with a striking resemblance to Elon Musk. Introducing himself as Yilong Ma, the Chinese Elon Musk, the man quickly became a sensation across social media platforms. In this paper, I follow the social media activity of Yilong Ma over five years to examine his rise to fame in detail as it intersects questions around concepts like celebrity, influence, despicability, impersonation, and Chineseness. As the following sections illustrate, Yilong Ma is not just a lookalike of a controversial tech CEO, but also an example of a synthetic impersonator: a new kind of virtual influencer whose activities take advantage of, and are shaped by, the affordances of social media platforms, the reconfigurations of celebrity culture, the social life of deep learning, and — in this specific case — the geopolitics of China’s global representation. After introducing the persona of Yilong Ma through his origin story, the three main sections of this paper examine specific aspects of synthetic impersonation: the uncertainty around the use of deepfake tools, the symbiotic relationship with the target’s own celebrity status, and the process of becoming an unwitting mirror of the impersonated.</p>",
+    "date": "2026-05-28",
+    "link": "https://firstmonday.org/ojs/index.php/fm/article/view/15440",
+    "affiliations": "",
+    "source": "First Monday",
+    "tier": "C",
+    "field": "internet_society",
+    "content_type": "news",
+    "category": "其他",
+    "thinking": "该资讯探讨的是社交媒体上的虚拟影响者现象，虽然涉及数字身份和网络文化，但与图书馆学、信息科学的核心业务（如资源管理、信息服务、信息组织等）的直接关联较弱。其内容更偏向于媒体研究和社会学分析，对图情从业者的实际工作指导价值有限。",
+    "scores": {
+      "timeliness": 8,
+      "relevance": 3,
+      "information_value": 4
+    },
+    "one_sentence_summary": "一篇学术论文分析了以“中国版马斯克”为代表的虚拟模仿者在社交媒体上的成名现象及其背后的文化意涵。",
+    "credibility_score": 6.0,
+    "composite_score": 5.0,
+    "featured": false,
+    "id": 2914
+  },
+  {
+    "title": "From TikTok challenges to moral panic: Don Alì and the “invasion of southern Italy”",
+    "abstract": "<p>This paper investigates the moral panic that emerged in Italy around the so-called <em>maranza</em> youth, focusing on the case of influencer Don Alì and his outlandish TikTok challenge to invade southern Italy. I examine how a digital provocation — initially designed for engagement and monetization — was reframed into a public order issue by traditional media and law enforcement. I highlight the interplay of algorithmic storytelling and processes of racialization in shaping both the subcultural practices of second-generation youth and their public representation. Interpreted through the metaphor of professional wrestling, this case reveals how ambiguity between fiction and reality sustains attention economies while exposing marginalized creators to intensified surveillance and exclusion. Ultimately, I argue that this episode exemplifies how moral panics still function as mechanisms of social control, redirecting structural inequalities into spectacles of deviance and reinforcing broader narratives of marginalization in contemporary digital societies.</p>",
+    "date": "2026-05-28",
+    "link": "https://firstmonday.org/ojs/index.php/fm/article/view/15442",
+    "affiliations": "",
+    "source": "First Monday",
+    "tier": "C",
+    "field": "internet_society",
+    "content_type": "news",
+    "category": "其他",
+    "thinking": "该资讯是一篇发表于2026年的学术论文摘要，探讨社交媒体与道德恐慌的社会学议题，与图情领域的核心业务（如资源建设、信息服务、知识组织）的直接关联度较弱。其内容更偏向社会学、传播学或互联网研究，对图书馆员和信息管理从业者的日常工作决策参考价值有限。",
+    "scores": {
+      "timeliness": 10,
+      "relevance": 2,
+      "information_value": 3
+    },
+    "one_sentence_summary": "一篇学术论文探讨了意大利社交媒体挑战如何被媒体放大为道德恐慌，并分析了其对边缘群体的社会控制效应。",
+    "credibility_score": 6.0,
+    "composite_score": 5.0,
+    "featured": false,
+    "id": 2915
+  },
+  {
+    "title": "Activating prejudice: Refugee disinformation as information warfare in Russia’s war on Ukraine",
+    "abstract": "<p>This paper analyzes online Russian disinformation campaigns about Ukrainian refugees in Europe to better understand their impact upon target groups. Although disinformation can mislead audiences because of its verisimilitude with authoritative media sources, we argue that its deeper potency rests in activating existing cultural biases. We trace these dynamics in false narratives of refugees as threats to both privileged “Eurowhite” populations and vulnerable Roma people. In both cases, disinformation serves as an extension of larger hybrid and information warfare efforts by Russia. We conclude by critically assessing the potential of interventions — such as those launched by Google’s Jigsaw unit — to “prebunk” disinformation campaigns.</p>",
+    "date": "2026-05-28",
+    "link": "https://firstmonday.org/ojs/index.php/fm/article/view/14649",
+    "affiliations": "",
+    "source": "First Monday",
+    "tier": "C",
+    "field": "internet_society",
+    "content_type": "news",
+    "category": "观点评论",
+    "thinking": "该论文发表于2026年，具有前瞻性，时效性高。其内容聚焦于信息战与虚假信息传播机制，与信息科学中的信息行为、信息素养、信息伦理等核心议题高度相关。研究提供了对特定信息操纵案例的深入分析，对图情领域理解信息环境、开展信息素养教育具有参考价值。",
+    "scores": {
+      "timeliness": 9,
+      "relevance": 8,
+      "information_value": 7
+    },
+    "one_sentence_summary": "一篇学术论文分析了俄罗斯针对乌克兰难民的信息战策略，探讨了虚假信息如何利用文化偏见产生影响。",
+    "credibility_score": 6.0,
+    "composite_score": 7.6,
+    "featured": true,
+    "id": 2916
+  },
+  {
+    "title": "A magic quadrant for the decentralised Web",
+    "abstract": "<p>This paper examines two binary oppositions that are commonly deployed by proponents of blockchains and other decentralised Web (DWeb) technologies: <em>centralisation versus decentralisation</em> and <em>trust versus trustlessness</em>. According to optimistic visions, DWeb technologies empower individuals to exchange resources on an unsupervised, peer-to-peer level. This reduces the need for “centralisation” and trusted intermediaries. DWeb proponents’ speculative claims are often disseminated via social media, business, and technology blogs. In response, we offer a magic quadrant. The quadrant covers unconventional, DWeb-based organisations that are expected to govern “alt-tech” social networks, shadow markets, and metaverse projects. The quadrant also illustrates attempts by various parties to make the DWeb a reality. Next to the quadrant, we offer possible theoretical lenses to approach the DWeb.</p>",
+    "date": "2026-05-28",
+    "link": "https://firstmonday.org/ojs/index.php/fm/article/view/14701",
+    "affiliations": "",
+    "source": "First Monday",
+    "tier": "C",
+    "field": "internet_society",
+    "content_type": "news",
+    "category": "技术趋势",
+    "thinking": "该论文探讨了去中心化网络（DWeb）技术中的核心概念对立，并提出了一个分析象限，属于对新兴技术趋势的理论性研究。虽然发布日期较远，但议题本身具有前瞻性，与图情领域在数字信息治理、技术伦理和未来网络生态方面的关注点相关。其价值在于提供了分析框架，有助于从业者理解去中心化技术对信息组织、获取和信任机制可能带来的影响。",
+    "scores": {
+      "timeliness": 2,
+      "relevance": 7,
+      "information_value": 7
+    },
+    "one_sentence_summary": "一篇学术论文提出了一个分析象限，用于评估去中心化网络技术及其对社交网络、市场等领域的治理影响。",
+    "credibility_score": 6.0,
+    "composite_score": 5.6,
+    "featured": false,
+    "id": 2917
+  },
+  {
     "title": "Figure-seg: a new benchmark for understanding scientific figures via integrity verification",
     "abstract": "<p>Understanding scientific figures is challenging due to their complexity and the need for domain expertise. Existing studies, limited by data and model capabilities, primarily focus on captioning and classifying simpler visualizations, such as bar and pie charts, while neglecting the fine-grained interpretation of knowledge-rich diagrams like frameworks and flowcharts. To address this gap, we introduce a novel task, <i>Figure Integrity Verification</i>, to assess models’ ability to align textual knowledge with detailed visual elements and identify visual elements that lack textual explanations. To support this task, we construct a large-scale text-figure alignment dataset, <i>Figure-seg</i>, containing 15,761 instances. Building upon this dataset, we propose an innovative framework, Every Part Matters (EPM), which employs Multimodal Large Language Models (MLLMs) and analogical reasoning to verify and enhance figure integrity. Experimental results demonstrate that the proposed framework improves the IoU metric for text-figure alignment by 33.83% and for figure integrity verification by 4.71% compared to state-of-the-art (SOTA) methods. This progress establishes a new benchmark for scientific figure understanding and advances practical applications in fields requiring the accurate interpretation of complex visual data in scientific research (All data is available open-source and instructions for downloading the data are available at <a href=\"https://github.com/shixiang1a/figure_understanding\">https://github.com/shixiang1a/figure_understanding</a>).</p>",
     "date": "2026-05-27",
@@ -11143,182 +11327,5 @@
     "composite_score": 7.0,
     "featured": false,
     "id": 989
-  },
-  {
-    "title": "FastKernels: Benchmarking GPU Kernel Generation in Production",
-    "abstract": "arXiv:2605.23215v1 Announce Type: cross \nAbstract: LLM-based agents for GPU kernel generation are advancing rapidly, yet their progress is fundamentally constrained by the benchmarks they optimize against. Existing benchmarks are poorly aligned with production inference frameworks: they evaluate kernels on a single GPU with synthetic inputs, ignore the surrounding compilation stack, and reward replicating known optimizations rather than discovering new ones. The resulting reward signals are misleading: agents learn to generate kernels that score well in sandboxes but introduce interface incompatibilities, compilation-stack conflicts, and silent correctness degradation when integrated into real systems. We introduce FastKernels, a kernel benchmark built around a minimal set of 46 representative architectures spanning 8 categories, whose kernels collectively subsume those of 96.2% (409/425) of HuggingFace Transformers architectures. FastKernels doubles as a minimalistic, production-grade inference framework that runs at parity with hardened systems such as vLLM and SGLang on mainstream LLM serving and substantially exceeds upstream references on under-served architectures; each task's interface mirrors the corresponding module in the state-of-the-art library for its architecture family, enabling direct deployment of optimized kernels into production codebases. Evaluating state-of-the-art kernel agents on FastKernels, we find that even the strongest agent achieves only 0.94$\\times$ aggregate speedup over production baselines, with weaker agents at $0.78\\times$ and $0.53\\times$ -- confirming that benchmark-production misalignment is a critical bottleneck for the field. We release FastKernels as a stepping stone toward kernel agents whose benchmark gains translate directly into production throughput improvements. Code is available at https://github.com/Snowflake-AI-Research/fastkernels",
-    "date": "2026-05-25",
-    "link": "https://arxiv.org/abs/2605.23215",
-    "affiliations": "",
-    "source": "arXiv - Computation & Language",
-    "tier": "C",
-    "field": "nlp",
-    "content_type": "paper",
-    "category": "其他",
-    "thinking": "论文涉及LLM代理生成GPU内核的前沿技术，方法严谨且有实际生产环境验证，但研究内容与图情领域关联较弱，缺乏对图书馆或信息机构的直接应用价值。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 2,
-      "methodological_rigor": 8
-    },
-    "one_sentence_summary": "该论文提出了FastKernels基准，以解决GPU内核生成中现有基准与生产环境脱节的问题。",
-    "composite_score": 6.3,
-    "featured": false,
-    "id": 990
-  },
-  {
-    "title": "Efficient and Transferable Agentic Knowledge Graph RAG via Reinforcement Learning",
-    "abstract": "arXiv:2509.26383v5 Announce Type: replace \nAbstract: Knowledge-graph retrieval-augmented generation (KG-RAG) couples large language models (LLMs) with structured, verifiable knowledge graphs (KGs) to reduce hallucination and provide reasoning traces. However, current KG-RAG systems often rely on fixed pipelines of multiple LLM modules (e.g., planning, reasoning, and responding), which inflate inference costs and tie performance to specific graph schemas. To address this, we introduce KG-R1, an agentic framework that optimizes KG-RAG through reinforcement learning (RL). Unlike modular workflows, KG-R1 uses a single agent that interacts with KGs as its environment, learning to retrieve information at each step and incorporating it into its reasoning and generation in a unified process. Across Knowledge-Graph Question Answering (KGQA) benchmarks, KG-R1 demonstrates both efficiency and transferability-using Qwen 2.5-3B, KG-R1 improves answer accuracy with fewer generation tokens than prior multi-module workflow methods that use much larger foundation or fine-tuned models. Furthermore, KG-R1 exhibits strong plug-and-play capability: after training, maintaining accuracy on unseen KGs without retraining. These properties make KG-R1 a promising KG-RAG framework for real-world deployment. Our code is publicly available at github.com/junhongmit/KG-R1/.",
-    "date": "2026-05-25",
-    "link": "https://arxiv.org/abs/2509.26383",
-    "affiliations": "",
-    "source": "arXiv - Computation & Language",
-    "tier": "C",
-    "field": "nlp",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "论文采用强化学习优化知识图谱检索增强生成，结合了大语言模型和知识图谱等前沿技术，具有较高的创新性。然而，作为arXiv预印本，方法严谨性可能受限于未完全公开的验证细节，且实践应用价值仍需进一步场景验证。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 7,
-      "methodological_rigor": 7
-    },
-    "one_sentence_summary": "该论文提出KG-R1框架，通过强化学习优化知识图谱检索增强生成，提升了问答准确性和效率，并具备可迁移性。",
-    "composite_score": 7.8,
-    "featured": true,
-    "id": 991
-  },
-  {
-    "title": "TurkicNLP: An NLP Toolkit for Turkic Languages",
-    "abstract": "arXiv:2602.19174v5 Announce Type: replace \nAbstract: Natural language processing for the Turkic language family, spoken by over 200 million people across Eurasia, remains fragmented, with most languages lacking unified tooling and resources. We present TurkicNLP, an open-source Python library providing a single, consistent NLP pipeline for Turkic languages across four script families: Latin, Cyrillic, Perso-Arabic, and Old Turkic Runic. The library covers tokenization, morphological analysis, part-of-speech tagging, dependency parsing, named entity recognition, bidirectional script transliteration, cross-lingual sentence embeddings, and machine translation through one language-agnostic API. A modular multi-backend architecture integrates rule-based finite-state transducers and neural models transparently, with automatic script detection and routing between script variants. Outputs follow the CoNLL-U standard for full interoperability and extension. Code and documentation are hosted at https://github.com/turkic-nlp/turkicnlp .",
-    "date": "2026-05-25",
-    "link": "https://arxiv.org/abs/2602.19174",
-    "affiliations": "",
-    "source": "arXiv - Computation & Language",
-    "tier": "C",
-    "field": "nlp",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "论文提出了一个针对突厥语系的统一NLP工具包，集成规则和神经模型，技术应用较新颖，但作为工具描述，缺乏具体的实验评估和方法验证，实践价值受限于特定语言社区。",
-    "scores": {
-      "frontier_tech": 7,
-      "practical_value": 6,
-      "methodological_rigor": 5
-    },
-    "one_sentence_summary": "TurkicNLP提供了一个统一、开源的NLP工具包，支持突厥语系的多种脚本和语言处理任务。",
-    "composite_score": 6.2,
-    "featured": false,
-    "id": 992
-  },
-  {
-    "title": "SemEval-2026 Task 6: CLARITY -- Unmasking Political Question Evasions",
-    "abstract": "arXiv:2603.14027v2 Announce Type: replace \nAbstract: Political speakers often avoid answering questions directly while maintaining the appearance of responsiveness. Despite its importance for public discourse, such strategic evasion remains underexplored in Natural Language Processing. We introduce SemEval-2026 Task 6, CLARITY, a shared task on political question evasion consisting of two subtasks: (i) clarity-level classification into Clear Reply, Ambivalent, and Clear Non-Reply, and (ii) evasion-level classification into nine fine-grained evasion strategies. The benchmark is constructed from U.S. presidential interviews and follows an expert-grounded taxonomy of response clarity and evasion. The task attracted 124 registered teams, who submitted 946 valid runs for clarity-level classification and 539 for evasion-level classification. Results show a substantial gap in difficulty between the two subtasks: the best system achieved 0.89 macro-F1 on clarity classification, surpassing the strongest baseline by a large margin, while the top evasion-level system reached 0.68 macro-F1, matching the best baseline. Overall, large language model prompting and hierarchical exploitation of the taxonomy emerged as the most effective strategies, with top systems consistently outperforming those that treated the two subtasks independently. CLARITY establishes political response evasion as a challenging benchmark for computational discourse analysis and highlights the difficulty of modeling strategic ambiguity in political language.",
-    "date": "2026-05-25",
-    "link": "https://arxiv.org/abs/2603.14027",
-    "affiliations": "",
-    "source": "arXiv - Computation & Language",
-    "tier": "C",
-    "field": "nlp",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "论文采用了大语言模型提示等前沿自然语言处理技术，方法论严谨，基于专家分类法构建基准数据集并通过大规模共享任务验证系统性能。不足之处在于研究成果主要面向NLP研究基准，与图书情报领域的直接实践应用关联较弱，业务落地价值有限。",
-    "scores": {
-      "frontier_tech": 8,
-      "practical_value": 5,
-      "methodological_rigor": 8
-    },
-    "one_sentence_summary": "论文提出了一个政治问题回避的NLP共享任务，利用大语言模型有效识别回避策略，为计算话语分析建立了新基准。",
-    "composite_score": 7.0,
-    "featured": false,
-    "id": 993
-  },
-  {
-    "title": "SciNet: Evaluating AI Agents in Relation-Aware Scientific Literature Retrieval",
-    "abstract": "arXiv:2601.03260v2 Announce Type: replace-cross \nAbstract: AI agents have seen widespread adoption in information retrieval for scientific research, giving rise to tools such as Deep Research. However, existing retrieval agents mainly rely on keyword- or embedding-based methods. While effective at capturing content-level similarities, they struggle to understand complex relational networks among scientific papers, such as identifying corroborating or conflicting studies and tracing technological lineages. This fundamental limitation often results in fragmented knowledge structures, misinterpreted research sentiment, and ineffective modeling of collective scientific progress. To address this limitation, we introduce SciNet, the first Scientific Network relation-aware dataset for information retrieval agents. Built on a meta-database of 269 million papers across 7 disciplines and containing 8,940 carefully designed tasks, SciNet systematically captures three levels of relational understanding: ego-centric retrieval of papers with novel knowledge structures, pairwise identification of scholarly relationships, and path-wise reconstruction of scientific evolution. Extensive evaluation of three categories of retrieval agents shows that their accuracy on relation-aware tasks often falls below 20%, highlighting a fundamental shortcoming of current retrieval paradigms. Importantly, in a downstream literature review application, agents empowered with SciNet achieve a 25.3% improvement in review quality, highlighting the critical value of relation-aware retrieval for deepening scientific insights. We publicly release SciNet at https://github.com/tsinghua-fib-lab/SciNet to support future research.",
-    "date": "2026-05-25",
-    "link": "https://arxiv.org/abs/2601.03260",
-    "affiliations": "",
-    "source": "arXiv - Computation & Language",
-    "tier": "C",
-    "field": "nlp",
-    "content_type": "paper",
-    "category": "检索与推荐",
-    "thinking": "论文提出了一个关系感知的科学文献检索数据集 SciNet，用于评估 AI 代理的性能，数据集规模大且设计系统化，涉及前沿的 AI 技术。优势在于前沿技术应用明显，方法严谨性高，具有实践价值；不足可能在于实际应用场景的验证需进一步扩展。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 8,
-      "methodological_rigor": 9
-    },
-    "one_sentence_summary": "SciNet 数据集揭示了当前 AI 代理在关系感知文献检索中准确率低，但应用后能显著提升文献综述质量。",
-    "composite_score": 8.7,
-    "featured": true,
-    "id": 994
-  },
-  {
-    "title": "Inferential Privacy Leakage in Anonymized Conversational AI Logs",
-    "abstract": "arXiv:2605.23820v1 Announce Type: cross \nAbstract: Hundreds of millions of users now hold detailed, multi-turn conversations with ChatGPT and similar LLM assistants. We measure two privacy-relevant features of these conversations on a corpus of complete ChatGPT histories donated by over 1,000 users in four Global South countries (Brazil, India, Nigeria, Pakistan). First, on explicit disclosure: 34.5% of user messages contain personal information across a twenty-category taxonomy, with the median user first revealing identifying content within the first 14% of their conversation history. Second, on inference beyond explicit disclosure: we restrict to a cohort whose conversations contain no messages flagged by an LLM-based filter for explicit demographic self-identification (a separate NER pass marks PII for the disclosure audit but does not drive cohort exclusion). On this filtered cohort, an off the shelf large language model still recovers each user's age, gender, and country at weighted F1 of 0.84, 0.90, and 0.88, respectively, with the median user identified from the first 5% of their conversation history. Reading the model's natural-language reasoning traces, we identify four recurring stereotype patterns that drive both successful inference and an asymmetric error distribution concentrating on women in technical fields, older users with contemporary skills, and Global South tech professionals. We also compare ChatGPT against the same users' Google Search and YouTube histories as inference surfaces, and find it competitive with these older substrates that have driven behavioral advertising for two decades. Message-level PII removal is insufficient on its own as a privacy intervention for conversational AI data.",
-    "date": "2026-05-25",
-    "link": "https://arxiv.org/abs/2605.23820",
-    "affiliations": "",
-    "source": "arXiv - Social Networks",
-    "tier": "C",
-    "field": "social_networks",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "论文采用了大语言模型和自然语言处理等前沿技术分析隐私泄露，方法严谨，样本量充足且有多角度验证。但研究基于特定数据集，泛化性需进一步探讨，且对图书馆等机构的直接应用价值有限。",
-    "scores": {
-      "frontier_tech": 8,
-      "practical_value": 7,
-      "methodological_rigor": 8
-    },
-    "one_sentence_summary": "研究发现匿名化对话AI日志仍能通过大语言模型推断用户个人信息，凸显隐私保护不足。",
-    "composite_score": 7.7,
-    "featured": true,
-    "id": 995
-  },
-  {
-    "title": "Off for the US Holiday — 10,000 Musical Memories Archived",
-    "abstract": "<p>We are out of office for the US holiday. In the meantime, maybe peruse a phenomenal new live music archive....</p>\n<p>The post <a href=\"https://scholarlykitchen.sspnet.org/2026/05/25/off-for-the-us-holiday-10000-musical-memories-archived/\">Off for the US Holiday &#8212; 10,000 Musical Memories Archived</a> appeared first on <a href=\"https://scholarlykitchen.sspnet.org\">The Scholarly Kitchen</a>.</p>",
-    "date": "2026-05-25",
-    "link": "https://scholarlykitchen.sspnet.org/2026/05/25/off-for-the-us-holiday-10000-musical-memories-archived/",
-    "affiliations": "",
-    "source": "Scholarly Kitchen",
-    "tier": "C",
-    "field": "scholarly_publishing",
-    "content_type": "news",
-    "category": "其他",
-    "thinking": "这条资讯是一个假期公告，主要推荐了一个音乐现场存档，内容较为轻松。它来自学术出版领域的知名博客，但缺乏对行业趋势或实践的深入分析。时效性上发布日期较近，但信息价值有限，对图情从业者的决策帮助不大。",
-    "scores": {
-      "timeliness": 6,
-      "relevance": 5,
-      "information_value": 4
-    },
-    "one_sentence_summary": "Scholarly Kitchen 在放假期间推荐了一个包含一万场音乐现场的新存档。",
-    "composite_score": 5.0,
-    "featured": false,
-    "id": 1220
-  },
-  {
-    "title": "Preprint: “Synthetic Sources?: Auditing Generative Search Engine Citations for Evidence of AI-Generated Sources”",
-    "abstract": "<p>The preprint linked below was recently shared on arXiv. Title Synthetic Sources?: Auditing Generative Search Engine Citations for Evidence of AI-Generated Sources Authors Mowafak Allaham Northwestern University Nicholas Diakopoulos Northwestern University Source via arXiv DOI: 10.48550/arXiv.2605.23684 Abstract The growing accessibility of Large Language Models via conversational interfaces capable of responding to users&#8217; questions by drawing [&#8230;]</p>\n<p>The post <a href=\"https://www.infodocket.com/2026/05/25/preprint-synthetic-sources-auditing-generative-search-engine-citations-for-evidence-of-ai-generated-sources/\">Preprint: &#8220;Synthetic Sources?: Auditing Generative Search Engine Citations for Evidence of AI-Generated Sources&#8221;</a> appeared first on <a href=\"https://www.infodocket.com\">Library Journal infoDOCKET</a>.</p>",
-    "date": "2026-05-25",
-    "link": "https://www.infodocket.com/2026/05/25/preprint-synthetic-sources-auditing-generative-search-engine-citations-for-evidence-of-ai-generated-sources/",
-    "affiliations": "University Nicholas Diakopoulos Northwestern University Source via arXiv DOI: 10.",
-    "source": "Infodocket",
-    "tier": "C",
-    "field": "library_news",
-    "content_type": "news",
-    "category": "技术趋势",
-    "thinking": "该资讯报道了一篇2026年5月发布的预印本，内容涉及审计生成式搜索引擎引用的AI生成来源，时效性很高。研究主题直接关系到信息检索、信息可信度评估和学术交流，与图情领域高度相关。该研究为图书馆员和信息专业人员理解并应对AI生成内容在信息生态中的挑战提供了重要的前沿见解。",
-    "scores": {
-      "timeliness": 10,
-      "relevance": 9,
-      "information_value": 9
-    },
-    "one_sentence_summary": "一篇新预印本研究如何审计生成式搜索引擎的引用，以识别其中可能存在的AI生成虚假来源。",
-    "credibility_score": 6.0,
-    "composite_score": 8.6,
-    "featured": true,
-    "id": 1895
   }
 ]
