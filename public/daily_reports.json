@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-06-13",
+    "summary": "今日图情领域的研究呈现出两个核心焦点。一是对科研评价体系与知识演化规律的持续深化探索，具体体现在对国际科研合作模式的比较分析、对权威科学家排名数据库数据异常的实证修正，以及利用知识继承网络揭示领域主题演化路径等方面。二是大语言模型等人工智能技术在学术与信息服务中的广泛应用与反思，相关研究不仅关注其在论文写作辅助、垂直领域知识管理等场景中的效能提升，也深入探讨了其在学术评价、内容生成中存在的语言偏见、隐性偏差等伦理问题，并致力于开发更公平、可解释、且能保护隐私的AI应用框架与评测基准。",
+    "highlights": [
+      "论文｜How scientific labor is divided in international collaboration: comparative evidence from China and the United States｜通过实证比较揭示了中美科研团队在国际合作中截然不同的任务分工模式，为理解跨文化科研协作提供了新视角。",
+      "论文｜Persistent anomalies in the Stanford/Ioannidis top 2% scientist’s database｜系统揭示了全球广泛使用的顶尖科学家排名数据库的五类关键数据异常，并提出了有效的修正方法，对科学计量评价实践具有重要参考价值。",
+      "动态｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于百万级工程学论文的大规模分析，首次提供了LLM辅助写作与论文影响力（引用次数）存在潜在关联的经验证据。",
+      "动态｜Does language bias GenAI academic evaluation in humanities and social sciences?｜通过混合方法研究，揭示了生成式AI在评价非英语（中文）人文社科论文时存在的语言偏见，对推动公平的学术AI评估具有警示意义。",
+      "趋势判断｜AI技术在图情领域的应用从追求效能转向关注公平、可解释与隐私保护｜今日多项研究聚焦于AI的偏见检测、可解释性模型构建及联邦学习框架，标志着该领域应用研究正迈向更负责任、更注重伦理的新阶段。"
+    ],
+    "stats": {
+      "papers": 184,
+      "news": 90,
+      "featured": 40
+    }
+  },
+  {
     "date": "2026-06-12",
     "summary": "今日图情领域的研究呈现出对学术评价体系、人工智能应用及用户行为分析的持续关注。在学术评价方面，研究聚焦于审稿流程的实证评估、科学知识图谱的可重复性框架构建以及OpenAlex等开放数据源的系统性评析，体现了对研究透明度与评价方法严谨性的追求。人工智能应用则继续向纵深发展，特别是在医疗、教育、专利、档案等专业领域，研究重点转向解决长尾数据、隐私保护、多模态融合及内容质量评估等实际问题，显示出AI技术与图情业务场景的深度融合。用户行为研究则通过动态网络分析等方法，更精细地刻画在线社区中的信息传播规律。",
     "highlights": [
