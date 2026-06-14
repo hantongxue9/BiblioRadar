@@ -1,17 +1,18 @@
 [
   {
-    "date": "2026-06-14",
-    "summary": "今日图情领域的研究与应用呈现两大核心趋势：一是人工智能，特别是大语言模型在文献计量、内容分析与信息组织中的深度应用与评估；二是开放科学与学术交流生态的持续演进。在AI应用方面，研究重点已从基础能力探索转向特定场景的优化与评估，例如利用混合框架进行科学争议分析、提升命名实体识别性能、自动化摘要结构分析以及增强档案元数据。同时，对AI模型本身（如角色稳定性）和基础设施（如OpenAlex数据库）的系统性评估也受到关注。在行业层面，欧洲研究图书馆协会（LIBER）的动态集中体现了图书馆界在推动开放科学（如零时滞获取、技能培训）和应对新兴技术（如人工智能、版权政策）方面的积极倡导与行动。",
+    "date": "2026-06-15",
+    "summary": "今日图情领域的研究呈现出以数据驱动为核心，深度融合人工智能技术，并持续关注科研评价与知识发现方法论的显著趋势。在计量与评价方面，研究焦点集中于利用大规模数据分析（如基于117万篇工程学论文）探索科研产出新规律，并致力于通过构建可审计的标准化流程、知识继承网络及新型算法模型（如GC-GTM）来提升研究评价的透明度和技术机会识别的科学性。人工智能应用持续深化，具体体现在开发中文文献大语言模型评测框架、改进多模态信息检测方法，以及在保护隐私的前提下推动跨机构数据协作（如联邦特征选择）。行业动态显示，欧洲研究图书馆协会（LIBER）正通过发布战略规划和启动人工智能系列研讨会，积极引导图书馆界面向数据科学与智能技术转型。",
     "highlights": [
-      "论文｜Large language models for scientometric mapping of scientific controversy: A validated hybrid AI–Human framework｜提出了一个结合LLM与专家验证的混合框架，为大规模、自动化分析科学文献中的争议演变提供了新方法。",
-      "论文｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜对新兴开放学术数据库OpenAlex进行了全面评估，为学术计量研究和资源选择提供了关键参考。",
-      "动态｜#ZeroEmbargo Campaign｜LIBER倡导零时滞开放获取运动，反映了当前推动学术成果即时开放的核心政策动向。",
-      "动态｜LIBER Launches a Webinar Series on Artificial Intelligence: AI Pulse｜LIBER启动AI系列网络研讨会，表明图书馆界正系统性地关注和应对人工智能带来的机遇与挑战。",
-      "趋势判断｜AI在信息组织与分析中的应用正从通用任务转向精细化、场景化的优化与评估阶段。"
+      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇论文的大规模实证研究，为理解大语言模型对学术影响力的作用提供了关键证据。",
+      "论文｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜提出了一个标准化、可审计的数据处理流程，旨在提升文献计量评价的透明度和可重复性。",
+      "论文｜A secure federated feature selection framework for horizontally distributed medical data｜提出了一种保护隐私的联邦学习方法，为跨机构医疗数据协同分析提供了可行的技术方案。",
+      "动态｜Our 2023-2027 Strategy｜欧洲研究图书馆协会发布未来五年战略规划，为全球图书馆界的发展提供了重要参考框架。",
+      "动态｜LIBER Launches a Webinar Series on Artificial Intelligence: AI Pulse｜LIBER启动人工智能系列网络研讨会，反映了图书馆行业对AI技术前沿应用的持续关注与投入。",
+      "趋势判断｜利用生成式AI与可审计数据分析方法，正成为深化科研评价与知识发现研究的关键路径。"
     ],
     "stats": {
-      "papers": 105,
-      "news": 118,
+      "papers": 101,
+      "news": 107,
       "featured": 54
     }
   },

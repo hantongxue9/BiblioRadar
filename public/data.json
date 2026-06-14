@@ -46,6 +46,29 @@
     "id": 2699
   },
   {
+    "title": "Insiders and outsiders in science: A framework distinguishing investigating and investigated countries in international research collaboration",
+    "abstract": "",
+    "date": "2026-07-01",
+    "link": "https://doi.org/10.1002/asi.70080",
+    "affiliations": "Zhe Cao; Lin Zhang; Zhihan Wan",
+    "source": "JASIST",
+    "tier": "A",
+    "field": "information_science",
+    "content_type": "paper",
+    "category": "计量与评价",
+    "thinking": "该论文提出了一个区分国际科研合作中调查国与被调查国的分析框架，属于计量与评价领域的理论创新，方法上结合了文献计量与网络分析，具有较好的严谨性。然而，其框架主要停留在理论构建与概念验证阶段，尚未形成可直接部署的工具或标准，因此业务落地价值有限。",
+    "scores": {
+      "frontier_tech": 6,
+      "practical_value": 5,
+      "methodological_rigor": 8
+    },
+    "one_sentence_summary": "该研究提出了一个用于分析国际科研合作中不同国家角色（主导调查方与被调查方）的新理论框架。",
+    "credibility_score": 6.7,
+    "composite_score": 6.3,
+    "featured": false,
+    "id": 2919
+  },
+  {
     "title": "Global research on AI-empowering academic evaluation: advances, trends, and prospects",
     "abstract": "",
     "date": "2026-06-16",
@@ -11305,27 +11328,5 @@
     "composite_score": 6.8,
     "featured": false,
     "id": 988
-  },
-  {
-    "title": "The Deterministic Horizon: Impossibility Results as Design Specifications for Trustworthy AI Systems",
-    "abstract": "arXiv:2605.23024v1 Announce Type: cross \nAbstract: Large language models now write software, draft legal documents, and produce clinical notes, yet fundamental limits, from Turing and Arrow to the No Free Lunch theorems, shape what computation can do. This thesis turns such impossibility results from curiosities into design rules. Its flagship result proves an accuracy ceiling set by architecture alone: past a critical reasoning depth, no amount of training moves it, at any adapter rank, sample size, or loss function. Computable before deployment from layer count and embedding width, this Deterministic Horizon is measured between nineteen and thirty-one across twelve transformer architectures, and fine-tuning on optimal-length traces recovers under four percentage points. The mechanism is a capacity invariant of the residual stream, and an information-theoretic conversion yields super-exponential accuracy decay past the horizon. An unconditional circuit-complexity lower bound for modular exponentiation against constant-depth prime-modulus circuits complements this result. The same argument recasts across subfields: preference learning under any misspecified model jumps discontinuously in sample complexity; multi-stage retrieval pipelines require at least as many independent metrics as stages; standard truthful auctions fail for agents with prompt-dependent valuations; and zero-knowledge verification of neural inference pays a measured overhead of one hundred ten to one hundred ninety times per non-linear activation. Together these form a catalogue of sixteen specifications, each pairing a computable boundary, a quantified violation cost, and a constructive design rule: two compositions are proved, one pairing is an honest obstruction, and four remain open. The impossibility-specification methodology is offered for the generative research programme that trustworthy AI may need. Every fundamental limit of AI is also a design rule.",
-    "date": "2026-05-25",
-    "link": "https://arxiv.org/abs/2605.23024",
-    "affiliations": "",
-    "source": "arXiv - Computation & Language",
-    "tier": "C",
-    "field": "nlp",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "论文将AI系统中的基础理论限制（如准确性上限、信息理论边界）转化为可量化的设计规格，技术前沿性强，涉及大语言模型、transformer架构和电路复杂性等当前热点。但研究成果偏重理论推导，虽然提供了构造性设计规则，其在图情领域的直接实践应用仍需进一步转化；方法上结合了理论证明和跨架构实证测量，较为严谨，但作为arXiv预印本未经完整同行评审。",
-    "scores": {
-      "frontier_tech": 8,
-      "practical_value": 6,
-      "methodological_rigor": 7
-    },
-    "one_sentence_summary": "论文将AI系统的不可能性结果转化为可计算的设计规格，为可信AI系统提供理论指导和量化边界。",
-    "composite_score": 7.0,
-    "featured": false,
-    "id": 989
   }
 ]
