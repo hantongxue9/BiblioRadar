@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-06-16",
+    "summary": "今日图情领域的研究呈现出对研究过程规范化、知识发现新方法以及人工智能应用深化三个主要方向的关注。在计量与评价方面，研究重点转向提升科学图谱的可复现性与透明度，并探索利用知识继承网络、作者贡献度量化（CRediT）以及科学-技术知识时滞等新视角来揭示领域演化与机会。人工智能的应用研究持续深入，从辅助同行评审评估、优化团队协作中的馆员角色，到构建更精准的推荐系统（如结合因果推断的多模态推荐）和隐私保护的医疗数据分析框架，均体现了AI技术在图情具体场景中的融合与创新。同时，开放学术资源生态（如OpenAlex数据库评估）和在线社区动态分析也是今日值得关注的议题。",
+    "highlights": [
+      "论文｜Biblioshiny and the SAAS Workflow: An integrated framework for transparent and reproducible science mapping｜提出了一个集成工作流框架，旨在系统提升科学图谱研究的可复现性与方法透明度。",
+      "论文｜Unveiling thematic evolution and R&D opportunities through knowledge inheritance networks｜通过构建知识继承网络分析主题演化，为识别领域研发机会提供了新颖的知识计量方法。",
+      "论文｜Relationship between peer review quality and scientific impact: Insights from LLMs-assessed reviews｜利用大语言模型分析同行评审文本，为评估评审质量与科学影响力的关系提供了新的实证路径。",
+      "动态｜LIBER Launches a Webinar Series on Artificial Intelligence｜欧洲研究图书馆协会将启动AI系列网络研讨会，反映了行业对AI议题的持续关注与知识共享需求。",
+      "动态｜Developing Citizen Science 2026 – Report from the Masterclass｜LIBER发布报告展望图书馆在公民科学中的角色，体现了图书馆参与开放科学与社会研究的前沿思考。",
+      "趋势判断｜AI应用研究正从通用任务转向与图情核心业务（如知识组织、用户服务、数据分析）的深度场景化融合与可解释性探索。"
+    ],
+    "stats": {
+      "papers": 142,
+      "news": 108,
+      "featured": 53
+    }
+  },
+  {
     "date": "2026-06-15",
     "summary": "今日图情领域的研究呈现出以数据驱动为核心，深度融合人工智能技术，并持续关注科研评价与知识发现方法论的显著趋势。在计量与评价方面，研究焦点集中于利用大规模数据分析（如基于117万篇工程学论文）探索科研产出新规律，并致力于通过构建可审计的标准化流程、知识继承网络及新型算法模型（如GC-GTM）来提升研究评价的透明度和技术机会识别的科学性。人工智能应用持续深化，具体体现在开发中文文献大语言模型评测框架、改进多模态信息检测方法，以及在保护隐私的前提下推动跨机构数据协作（如联邦特征选择）。行业动态显示，欧洲研究图书馆协会（LIBER）正通过发布战略规划和启动人工智能系列研讨会，积极引导图书馆界面向数据科学与智能技术转型。",
     "highlights": [
