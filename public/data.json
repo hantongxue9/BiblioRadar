@@ -92,6 +92,52 @@
     "id": 2923
   },
   {
+    "title": "Attribution, Provenance, Reference, Citation, and AI for Research Applications – Understanding the Differences",
+    "abstract": "<p>Building robust citation and attribution into generative AI systems are foundational to usage, credit and trust. We need to expect more from AI.</p>\n<p>The post <a href=\"https://scholarlykitchen.sspnet.org/2026/06/17/attribution-provenance-reference-citation-and-ai-for-research-applications-understanding-the-differences/\">Attribution, Provenance, Reference, Citation, and AI for Research Applications – Understanding the Differences</a> appeared first on <a href=\"https://scholarlykitchen.sspnet.org\">The Scholarly Kitchen</a>.</p>",
+    "date": "2026-06-17",
+    "link": "https://scholarlykitchen.sspnet.org/2026/06/17/attribution-provenance-reference-citation-and-ai-for-research-applications-understanding-the-differences/",
+    "affiliations": "",
+    "source": "Scholarly Kitchen",
+    "tier": "C",
+    "field": "scholarly_publishing",
+    "content_type": "news",
+    "category": "观点评论",
+    "thinking": "该资讯探讨了生成式AI在学术研究应用中的引用、归属等关键概念辨析，这是当前图情领域关注的热点问题，具有很高的时效性和相关性。文章旨在为理解和构建可信的AI系统提供概念基础，对图书馆员和信息专业人员评估AI工具的信息质量具有参考价值。",
+    "scores": {
+      "timeliness": 10,
+      "relevance": 9,
+      "information_value": 8
+    },
+    "one_sentence_summary": "文章辨析了生成式AI在学术应用中引用、归属等核心概念，强调其对建立可信AI系统的重要性。",
+    "credibility_score": 6.0,
+    "composite_score": 8.4,
+    "featured": true,
+    "id": 3444
+  },
+  {
+    "title": "Rejection in academia is structural not personal",
+    "abstract": "<p>From student assessments, peer review reports to funding and job applications, rejection is an increasingly common feature of academic life. Tara-Lyn Camilleri and Ed Ivimey-Cook argue that unlike other high-profile &#8230; <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences/2026/06/17/rejection-in-academia-is-structural-not-personal/\">Continued</a></p>\n<p>The post <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences/2026/06/17/rejection-in-academia-is-structural-not-personal/\">Rejection in academia is structural not personal</a> first appeared on <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences\">LSE Impact</a>.</p>",
+    "date": "2026-06-17",
+    "link": "https://blogs.lse.ac.uk/impactofsocialsciences/2026/06/17/rejection-in-academia-is-structural-not-personal/",
+    "affiliations": "",
+    "source": "LSE Impact Blog",
+    "tier": "C",
+    "field": "academic_impact",
+    "content_type": "news",
+    "category": "观点评论",
+    "thinking": "该资讯探讨学术界的结构性拒斥现象，虽与学术交流生态相关，但核心属于社会学或高等教育研究范畴，与图书馆学、信息科学的业务实践和技术标准关联度较弱。其观点评论性质明显，对图情从业者了解学术出版生态有一定参考价值，但直接指导业务决策的信息有限。",
+    "scores": {
+      "timeliness": 8,
+      "relevance": 4,
+      "information_value": 5
+    },
+    "one_sentence_summary": "一篇观点文章认为，学术界的频繁拒斥是结构性而非个人问题。",
+    "credibility_score": 6.0,
+    "composite_score": 5.6,
+    "featured": false,
+    "id": 3445
+  },
+  {
     "title": "Global research on AI-empowering academic evaluation: advances, trends, and prospects",
     "abstract": "",
     "date": "2026-06-16",
@@ -11407,49 +11453,5 @@
     "composite_score": 7.0,
     "featured": false,
     "id": 1372
-  },
-  {
-    "title": "EpiQAL: Benchmarking Large Language Models in Epidemiological Question Answering and Reasoning",
-    "abstract": "arXiv:2601.03471v3 Announce Type: replace \nAbstract: Reliable epidemiological reasoning requires synthesizing study evidence to infer disease burden, transmission dynamics, and intervention effects at the population level. Existing medical question answering benchmarks primarily emphasize clinical knowledge or patient-level reasoning, yet few systematically evaluate evidence-grounded epidemiological inference. We present EpiQAL, the first diagnostic benchmark for epidemiological question answering across diverse diseases, comprising three subsets built from open-access literature. The three subsets progressively test factual recall, multi-step inference, and conclusion reconstruction under incomplete information, and are constructed through a quality-controlled pipeline combining taxonomy guidance, multi-model verification, and difficulty screening. Experiments on fifteen models spanning open-source and proprietary systems reveal that current LLMs show limited performance on epidemiological reasoning, with multi-step inference posing the greatest challenge. Model rankings shift across subsets, and scale alone does not predict success. Chain-of-Thought prompting benefits multi-step inference but yields mixed results elsewhere. EpiQAL provides fine-grained diagnostic signals for evidence-grounding, inferential reasoning, and conclusion reconstruction.",
-    "date": "2026-05-27",
-    "link": "https://arxiv.org/abs/2601.03471",
-    "affiliations": "",
-    "source": "arXiv - Computation & Language",
-    "tier": "C",
-    "field": "nlp",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "论文聚焦于大语言模型在流行病学问答的评估，采用了当前前沿的AI技术，通过系统性的基准构建方法（如多模型验证和难度筛选）体现了方法严谨性。该基准对研究LLM在专业领域的应用有指导意义，但作为学术工具，其直接应用于图书馆或信息机构日常实践的价值相对有限。",
-    "scores": {
-      "frontier_tech": 8,
-      "practical_value": 7,
-      "methodological_rigor": 8
-    },
-    "one_sentence_summary": "本文提出EpiQAL基准，评估大语言模型在流行病学推理中的表现，发现当前模型在多步推理上能力不足。",
-    "composite_score": 7.7,
-    "featured": true,
-    "id": 1373
-  },
-  {
-    "title": "Multi-Agent Causal Discovery Using Large Language Models",
-    "abstract": "arXiv:2407.15073v4 Announce Type: replace-cross \nAbstract: Causal discovery aims to identify causal relationships between variables and is a fundamental problem across the sciences. Traditional statistical causal discovery (SCD) methods rely solely on observational data and ignore the contextual information available in metadata, whereas recent LLM-based methods exploit metadata but treat the large language model (LLM) as a single agent, leaving its judgments vulnerable to memorized or biased associations. To address this gap, we introduce MAC (Multi-Agent Causal Discovery Framework), which casts causal discovery as a multi-agent debate coupled with the autonomous selection of an SCD algorithm. MAC combines two complementary modules, bridged by a Meta Fusion mechanism: a Debate-Coding Module (DCM) that grounds an initial graph in data by autonomously selecting and executing the best-suited SCD algorithm, and a Meta-Debate Module (MDM) that refines the graph through an adversarial Affirmative-Negative-Judge debate over the metadata. Across five benchmark datasets and three metrics (F1, SHD, NHD), MAC achieves the best aggregate performance among five statistical and four LLM-based baselines, ranking first on 10 of 15 evaluation points with Gemini-2.0-Flash -- including a perfect reconstruction of the Earthquake graph -- and remains robust across three backbone LLMs.",
-    "date": "2026-05-27",
-    "link": "https://arxiv.org/abs/2407.15073",
-    "affiliations": "",
-    "source": "arXiv - Computation & Language",
-    "tier": "C",
-    "field": "nlp",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "论文采用大型语言模型和多智能体辩论进行因果发现，技术前沿且方法严谨，有全面的基准测试和多基线比较验证。但业务落地值较低，在图书馆与信息科学领域的直接实践应用有限，更多属于基础研究贡献。",
-    "scores": {
-      "frontier_tech": 8,
-      "practical_value": 5,
-      "methodological_rigor": 8
-    },
-    "one_sentence_summary": "论文提出多智能体因果发现框架MAC，结合LLM辩论与统计方法，提升因果关系识别的准确性。",
-    "composite_score": 7.0,
-    "featured": false,
-    "id": 1374
   }
 ]

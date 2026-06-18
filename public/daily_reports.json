@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-06-18",
+    "summary": "今日图情领域动态聚焦于人工智能应用、开放科学政策深化与图书馆业务模式转型三大核心议题。在技术层面，生成式AI对学术生态的影响持续受到关注，既有应对其带来的网络爬虫挑战的实践分享，也有对其在学术引用、资源发现等具体场景应用的深入探讨。政策方面，全球范围内开放科学运动持续推进，南非与澳大利亚的新政策、欧盟研究区法案的行业反馈，以及2026年开放获取周主题的发布，均显示出构建开放、公平学术交流体系的迫切需求。行业实践中，图书馆在应对资源采购模式变化、解放封闭教学数据、以及利用新技术赋能数字人文和公众科学项目等方面展现出积极的探索姿态，体现了行业适应数字环境、重塑核心价值的努力。",
+    "highlights": [
+      "论文｜Attribution, Provenance, Reference, Citation, and AI for Research Applications – Understanding the Differences｜清晰辨析生成式AI在学术应用中引用与归属等核心概念，对构建可信赖的AI辅助研究体系至关重要。",
+      "动态｜Mitigating Aggressive Crawler Traffic in the Age of Generative AI: A Collaborative Approach from the University of North Carolina at Chapel Hill Libraries｜提供了图书馆应对生成式AI时代大规模爬虫冲击的具体防御策略，强调行业协作的实践价值。",
+      "动态｜South Africa and Australia Embrace Promising Open Science Policies｜南非与澳大利亚推出新的开放科学政策，标志着开放获取运动在全球南北方均取得实质性进展。",
+      "动态｜Rapid Reaction Takeaways from Libraries Navigating Changes in On-Demand Purchasing｜分享了图书馆界应对按需采购模式变化的即时洞察，反映了资源获取模式的持续演变。",
+      "趋势判断｜技术应用从宏观讨论转向具体场景与风险应对｜今日动态显示，对生成式AI的关注已从概念普及转向资源获取（爬虫）、学术诚信（引用）和资源发现（推荐系统）等具体场景的实践与风险管理。"
+    ],
+    "stats": {
+      "papers": 0,
+      "news": 78,
+      "featured": 35
+    }
+  },
+  {
     "date": "2026-06-17",
     "summary": "今日图情领域研究与实践呈现多元化发展态势。在计量与评价方面，研究聚焦于学者合作网络的动态演化、研究团队层级结构与绩效的关联，以及通过知识继承网络揭示领域主题演化路径，为理解科研生产力机制提供了新视角。人工智能应用持续深化，研究涵盖利用大语言模型增强假新闻检测、自动化分析学术摘要结构、提升医学影像分割鲁棒性以及改善档案元数据质量等多个细分方向，体现了AI技术在图情业务场景中的渗透与融合。数据管理领域关注矢量地图服务的动态细粒度访问控制。行业层面，欧洲研究图书馆协会（LIBER）的战略动向值得关注，其发布了未来五年战略规划，并围绕人工智能应用、公民科学、文本数据挖掘政策以及开放科学推进等议题展开系列行动，反映了国际图书馆界应对技术变革、强化社会角色的战略思考。",
     "highlights": [
