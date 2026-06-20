@@ -920,6 +920,29 @@
     "id": 3897
   },
   {
+    "title": "How a cartoon fox became a research method",
+    "abstract": "<p>After spending three years with two Mixtec Indigenous communities in Oaxaca, Mexico, Mariana Hernández-Montilla created an animation of a fox as a way of thanking them. What began as an &#8230; <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences/2026/06/19/how-a-cartoon-fox-became-a-research-method/\">Continued</a></p>\n<p>The post <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences/2026/06/19/how-a-cartoon-fox-became-a-research-method/\">How a cartoon fox became a research method</a> first appeared on <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences\">LSE Impact</a>.</p>",
+    "date": "2026-06-19",
+    "link": "https://blogs.lse.ac.uk/impactofsocialsciences/2026/06/19/how-a-cartoon-fox-became-a-research-method/",
+    "affiliations": "",
+    "source": "LSE Impact Blog",
+    "tier": "C",
+    "field": "academic_impact",
+    "content_type": "news",
+    "category": "观点评论",
+    "thinking": "该资讯探讨了使用动画作为研究方法的创新案例，与信息科学中研究数据可视化、知识传播和非传统学术交流形式有一定关联。但内容更偏向于具体的人类学研究方法创新，而非图情领域的核心业务或通用实践，因此领域相关性和信息价值有限。",
+    "scores": {
+      "timeliness": 9,
+      "relevance": 5,
+      "information_value": 4
+    },
+    "one_sentence_summary": "一篇博客文章介绍研究者如何通过制作动画狐狸来感谢研究社区，并探讨其作为一种非传统研究方法的价值。",
+    "credibility_score": 6.0,
+    "composite_score": 5.9,
+    "featured": false,
+    "id": 4108
+  },
+  {
     "title": "Evaluating the digital curation of library political special collections with the Honeycomb Model and Feminist\n                    <scp>Human‐Computer Interaction</scp>\n                    : Taipei City Council Library as a case study",
     "abstract": "",
     "date": "2026-06-18",
@@ -11475,28 +11498,5 @@
     "composite_score": 7.6,
     "featured": true,
     "id": 1886
-  },
-  {
-    "title": "Measuring smart library maturity: evaluation methods and case studies of university libraries in China",
-    "abstract": "",
-    "date": "2026-06-02",
-    "link": "https://doi.org/10.1108/el-09-2025-0369",
-    "affiliations": "Meizhen Duan; Anning Zhang; Xinru Zhu",
-    "source": "The Electronic Library",
-    "tier": "A",
-    "field": "library_technology",
-    "content_type": "paper",
-    "category": "数字图书馆",
-    "thinking": "该论文聚焦于智慧图书馆成熟度评估，提出了具体的评价方法并进行了中国高校图书馆的案例研究。其优势在于将成熟度模型这一管理工具引入图书馆评估，具有明确的实践导向，且包含实证案例。不足在于摘要未透露具体的技术细节，若评估方法主要基于传统指标体系而非融合前沿技术，则前沿技术度可能受限。整体来看，这是一项方法较为规范、业务落地价值突出的研究。",
-    "scores": {
-      "frontier_tech": 5,
-      "practical_value": 9,
-      "methodological_rigor": 7
-    },
-    "one_sentence_summary": "该研究构建了一套智慧图书馆成熟度评价方法，并通过中国高校图书馆案例验证其可行性，为图书馆智慧化转型提供了可操作的评估工具。",
-    "credibility_score": 6.7,
-    "composite_score": 6.9,
-    "featured": false,
-    "id": 1516
   }
 ]

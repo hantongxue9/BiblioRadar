@@ -1,19 +1,19 @@
 [
   {
-    "date": "2026-06-20",
-    "summary": "今日图情领域的研究焦点集中在科学计量与评价方法的演进、人工智能技术与素养的融合，以及行业组织的前沿动态。在计量与评价方面，学者们关注同行评审在科学快速变革（如AI领域）中的预测效力变化，并探索利用大语言模型评估评审质量。同时，对新兴开放学术数据库（如OpenAlex）的系统评估，以及对科学-技术知识时滞作为技术转移预测指标的研究，拓展了情报分析的工具与视角。在用户行为与AI应用层面，研究揭示了用户特质与信息可视化解读的关系，以及AI素养与信息素养整合对技术采纳行为的解释力。行业方面，欧洲研究图书馆协会（LIBER）围绕人工智能、公民科学等主题的系列规划与活动，以及关于‘智能体资源发现’新标准与开放获取出版成本的讨论，共同勾勒出图情机构在技术变革与开放科学背景下的行动方向。",
+    "date": "2026-06-21",
+    "summary": "今日图情领域的研究呈现出对人工智能应用的深度探索与对传统计量评价方法的精细化改进并行的趋势。在AI应用方面，焦点从通用模型转向解决特定领域（如医学档案、学术文本分析）的实际问题，并高度关注应用的负责任性与用户行为影响，例如探讨公众对政府AI的信任及用户对生成式AI输出信息的验证行为。在计量与评价领域，研究不再局限于传统引文计数，而是深入挖掘合作网络动态、作者自引的公平评估、数据可获取性的量化影响以及科学与技术知识流的异步性分析，旨在构建更全面、公平且具有预测能力的评估体系。开放获取等政策议题继续受到行业关注。",
     "highlights": [
-      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜探讨科学范式快速变革时期同行评审预测效力的变化，对评价体系适应新兴交叉领域具有重要启示。",
-      "论文｜Asynchrony as information: Predicting technology transfer opportunities through science–technology knowledge lag｜提出以科学发现与技术应用的时间差作为预测技术转移机会的新指标，为科技情报分析提供了创新思路。",
-      "论文｜Adoption of AI chatbots among medical students: integration of AI literacy and information literacy within the theory of planned behavior｜将AI素养与信息素养整合进经典行为理论，为理解特定专业群体采纳新技术的行为机制提供了实证框架。",
-      "动态｜LIBER Launches a Webinar Series on Artificial Intelligence: AI Pulse｜欧洲研究图书馆协会启动AI系列网络研讨会，反映行业组织正积极引导成员应对人工智能带来的机遇与挑战。",
-      "动态｜Standards: Say Hello to the Agentic Resource Discovery (ARD) Specification｜ARD新标准的提出，旨在规范AI智能体的资源发现过程，是信息组织与检索标准面向智能体环境的重要演进。",
-      "趋势判断｜同行评审的评估与科学计量指标面临AI技术与开放科学双重影响下的方法创新与反思。"
+      "论文｜A multidimensional evaluation model for author self-citation: integrating contribution, depth, intensity, and location｜提出的多维度作者自引评估模型，通过整合语义贡献等因素，为公平评价学术贡献提供了更精细化的方法。",
+      "论文｜Relationship between peer review quality and scientific impact: Insights from LLMs-assessed reviews｜利用大语言模型量化同行评审质量，为探索评审过程与论文长期影响力关系提供了新的研究路径。",
+      "论文｜Determinants of information verification behaviour among generative AI users｜采用混合研究方法，系统识别了生成式AI用户进行信息验证行为的关键影响因素，具有重要的实践指导意义。",
+      "动态｜Advancing Open Science｜LIBER发布推进开放科学的最新动态，反映了图情机构在当前学术交流生态中的核心政策参与角色。",
+      "动态｜#ZeroEmbargo Campaign｜LIBER发起的消除开放获取时滞运动，体现了行业在推动即时、无障碍学术传播方面的持续努力。",
+      "趋势判断｜图情领域AI应用正从技术可行性验证，转向深度融合领域知识、关注伦理信任并探究用户行为影响的系统化研究阶段。"
     ],
     "stats": {
-      "papers": 163,
-      "news": 88,
-      "featured": 46
+      "papers": 135,
+      "news": 119,
+      "featured": 56
     }
   },
   {
