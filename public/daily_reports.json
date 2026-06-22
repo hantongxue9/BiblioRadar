@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-06-22",
+    "summary": "今日图情领域研究呈现两大焦点：一是学术评价方法的深化与数据基础设施的评估，二是人工智能技术在信息场景中的深度应用与影响评估。在计量与评价方面，研究趋势从传统指标转向多维、动态和因果分析，如作者自引的多维评估模型、科研数据缺失影响的量化建模，以及对OpenAlex等新兴开放数据库的系统性评估。在AI应用方面，研究重点集中于大语言模型在文本分析（如摘要修辞结构分析）、虚假新闻检测等具体任务的效能，并开始关注人机协作中馆员角色、用户信息核查行为等社会技术因素。数据管理与用户行为研究则分别关注细粒度访问控制框架的构建，以及用户特质与信息呈现方式对认知效果的影响机制。",
+    "highlights": [
+      "论文｜Modeling the impact of research data unavailability on science｜通过建模量化了科研数据无法获取对科学产出的负面影响，为数据共享政策提供了关键的实证依据。",
+      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜揭示了在AI辅助的协作学习中，馆员指导与学生对AI的权威感知如何共同影响团队创造力，对设计人机协同服务具有启示。",
+      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜系统评估了新兴开放学术数据库OpenAlex，为相关机构是否及如何采用这一重要替代数据源提供了决策参考。",
+      "动态｜From manual to automated: applying large language models to rhetorical move analysis in journal abstracts｜展示了利用大语言模型自动化分析学术摘要修辞结构的可行性，为学术文本挖掘提供了高效的新工具。",
+      "趋势判断｜学术评价研究正从指标计算转向对科研过程、数据生态及影响机制的更精细建模｜今日多篇论文体现了评价方法向多维、动态和因果推断发展的明确趋势，关注数据可得性、知识继承、科学-技术时滞等深层因素。"
+    ],
+    "stats": {
+      "papers": 133,
+      "news": 118,
+      "featured": 59
+    }
+  },
+  {
     "date": "2026-06-21",
     "summary": "今日图情领域的研究呈现出对人工智能应用的深度探索与对传统计量评价方法的精细化改进并行的趋势。在AI应用方面，焦点从通用模型转向解决特定领域（如医学档案、学术文本分析）的实际问题，并高度关注应用的负责任性与用户行为影响，例如探讨公众对政府AI的信任及用户对生成式AI输出信息的验证行为。在计量与评价领域，研究不再局限于传统引文计数，而是深入挖掘合作网络动态、作者自引的公平评估、数据可获取性的量化影响以及科学与技术知识流的异步性分析，旨在构建更全面、公平且具有预测能力的评估体系。开放获取等政策议题继续受到行业关注。",
     "highlights": [

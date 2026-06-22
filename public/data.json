@@ -92,6 +92,29 @@
     "id": 2923
   },
   {
+    "title": "A Look at the “Story of Crossref’s Metadata Development”",
+    "abstract": "<p>From a Crossref Post by Patricia Feeney: A significant update is nearly here. Schema 5.5 will expand contributor metadata to support multiple roles per contributor, and will introduce support for CRediT — the ANSI/NISO taxonomy for contributor roles. This means that an individual’s complete contribution to a research output can finally be described in our metadata, rather [&#8230;]</p>\n<p>The post <a href=\"https://www.infodocket.com/2026/06/21/new-blog-post-on-story-of-crossrefs-metadata-development/\">A Look at the &#8220;Story of Crossref’s Metadata Development&#8221;</a> appeared first on <a href=\"https://www.infodocket.com\">Library Journal infoDOCKET</a>.</p>",
+    "date": "2026-06-21",
+    "link": "https://www.infodocket.com/2026/06/21/new-blog-post-on-story-of-crossrefs-metadata-development/",
+    "affiliations": "",
+    "source": "Infodocket",
+    "tier": "C",
+    "field": "library_news",
+    "content_type": "news",
+    "category": "政策标准",
+    "thinking": "资讯介绍了Crossref元数据模式即将更新至5.5版，核心是采纳NISO的CRediT贡献者角色分类标准，这属于标准组织的规范变动，对学术交流元数据实践有直接影响。信息发布于2026年，具有前瞻性，对图书馆和机构知识库的元数据管理工作有明确指导价值。",
+    "scores": {
+      "timeliness": 9,
+      "relevance": 9,
+      "information_value": 9
+    },
+    "one_sentence_summary": "Crossref即将更新元数据标准，正式采纳NISO的贡献者角色分类体系，以更精确地描述研究者的贡献。",
+    "credibility_score": 6.2,
+    "composite_score": 8.4,
+    "featured": true,
+    "id": 4322
+  },
+  {
     "title": "Easy Reads: A Python program for making Scientific Papers on arXiv more Reader Friendly and Accessible",
     "abstract": "arXiv:2606.20550v1 Announce Type: new \nAbstract: Scientific papers are frequently dense and characterized by features such as small fonts and line spacing, double columns of text, and tightly arranged figures. While these features make papers more compact, they can hinder readability, make them less accessible, and can strain the reader. arXiv is a premier open-access repository for scientific papers across different fields and is used extensively by researchers, including those in the physics and astrophysics communities.\n  Easy Reads is an automated, end-to-end, open-source Python program that helps address the stated challenge by making papers from arXiv more reader-friendly and accessible. Easy Reads can automatically fetch a paper from arXiv via its URL and work with the source TeX file to allow custom formatting of the paper features, primarily the font size, and the number of columns used. The main goal of Easy Reads is to facilitate ease of reading of scientific papers.",
     "date": "2026-06-19",
@@ -11475,28 +11498,5 @@
     "composite_score": 6.2,
     "featured": false,
     "id": 2172
-  },
-  {
-    "title": "The Rise of China’s Scholarly Publishing System Part 1: China’s Journal Ecosystem Is Accelerating",
-    "abstract": "<p>China is no longer simply a major contributor to global research output; it is increasingly becoming a key force shaping the future of scholarly publishing. Understanding what is actually happening, and why, is the necessary first step before considering how publishers should respond.</p>\n<p>The post <a href=\"https://scholarlykitchen.sspnet.org/2026/06/03/the-rise-of-chinas-scholarly-publishing-system-part-1-chinas-journal-ecosystem-is-accelerating/\">The Rise of China&#8217;s Scholarly Publishing System Part 1: China&#8217;s Journal Ecosystem Is Accelerating</a> appeared first on <a href=\"https://scholarlykitchen.sspnet.org\">The Scholarly Kitchen</a>.</p>",
-    "date": "2026-06-03",
-    "link": "https://scholarlykitchen.sspnet.org/2026/06/03/the-rise-of-chinas-scholarly-publishing-system-part-1-chinas-journal-ecosystem-is-accelerating/",
-    "affiliations": "",
-    "source": "Scholarly Kitchen",
-    "tier": "C",
-    "field": "scholarly_publishing",
-    "content_type": "news",
-    "category": "观点评论",
-    "thinking": "该资讯发表于2026年，对当前（2024年）而言具有前瞻性，时效性高。内容聚焦中国学术期刊生态，与图情领域的学术交流、资源建设高度相关。作为系列文章的第一部分，它为图情从业者理解全球出版格局变化提供了有价值的背景信息。",
-    "scores": {
-      "timeliness": 9,
-      "relevance": 8,
-      "information_value": 7
-    },
-    "one_sentence_summary": "一篇分析中国学术期刊生态系统加速发展及其对全球学术出版未来影响的评论文章。",
-    "credibility_score": 6.0,
-    "composite_score": 7.6,
-    "featured": true,
-    "id": 1886
   }
 ]
