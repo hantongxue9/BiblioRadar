@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-06-24",
+    "summary": "今日图情领域研究呈现出以数据驱动为核心，深度结合人工智能技术与传统研究方法的趋势。在计量与评价方面，研究重点从传统的网络与指标分析，转向对评估过程本身的可审计性、数据库结构性差异的影响，以及同行评审在学科快速演进中的预测效力等元科学问题的探索。在AI应用层面，研究焦点深入至人机协同的具体机制，如馆员角色在AI中介环境中的作用、AI生成内容的逻辑一致性保障，以及用户对AI服务满意度的动态认知情感建模。同时，用户行为研究超越基础能力评估，开始构建整合个人特质与任务特征的预测模型，以更精细地理解信息交互过程。",
+    "highlights": [
+      "论文｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜提出标准化可追溯数据流水线，为提升文献计量分析透明度和可重复性提供了方法论框架。",
+      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜以AI领域为例，实证检验了科学范式快速变革时期同行评审的预测效力。",
+      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜揭示了在AI辅助的协作学习场景中，馆员指导强度与专业权威认知对团队创造力的复合影响。",
+      "动态｜DC-FM: A logic-fact dual consistency filtering method for aligned samples in graph-to-text generation｜提出逻辑与事实双重一致性过滤方法，旨在提升AI图到文本生成任务的输出可靠性。",
+      "趋势判断｜计量评价研究正从结果分析转向过程审视与工具反思，强调评估实践的透明度、稳健性与情境适应性。"
+    ],
+    "stats": {
+      "papers": 222,
+      "news": 125,
+      "featured": 73
+    }
+  },
+  {
     "date": "2026-06-23",
     "summary": "今日图情领域的研究热点集中于学术评价方法的精细化与人工智能应用的深化。在学术评价方面，多篇论文聚焦于数据质量与评价模型，揭示了作者机构归属错误对研究者流动性指标的显著影响，并提出了整合贡献、深度、强度与位置的多维自引评估模型，以及利用大语言模型量化科学与技术主题关联的新方法，反映了从依赖单一指标向构建更公平、精细、多维评价体系的发展趋势。在人工智能应用方面，研究不仅关注技术本身（如金融事件抽取、联邦学习），更深入探讨了人机协作中的文档管理、馆员角色、用户信任与信息核查行为，显示出AI应用正从工具层面向深度融合的认知与行为层面拓展。此外，对OpenAlex等新兴数据库的评估为数据源选择提供了重要参考。",
     "highlights": [
