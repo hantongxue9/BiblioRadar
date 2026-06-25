@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-06-25",
+    "summary": "今日图情领域的研究呈现出两大核心趋势：一是对科研评价与科学合作过程的深入解构与透明化追求，二是人工智能技术在信息处理与分析中的多元化、精细化应用。在科研计量与评价方面，多项研究致力于通过构建多维模型（如自引评估）、标准化分析流程或利用新兴数据（如CRediT贡献分类、科学-技术知识时滞）来提升评估的公平性、可复现性与预测能力，并深入剖析全球科学合作的结构性驱动因素。在技术应用层面，大语言模型（LLM）的应用从通用任务（如文本重写、结构分析）向特定领域（如医疗诊断编码、档案元数据增强）和特定约束（如隐私保护的联邦学习、本地化部署）深化，同时，强化学习、动态网络分析等方法也被创新性地用于解决数据资产估值、在线社区演化等复杂问题。",
+    "highlights": [
+      "论文｜A multidimensional evaluation model for author self-citation: integrating contribution, depth, intensity, and location｜提出结合语义与贡献度的多维自引评估模型，为这一争议性指标提供了更精细、公平的衡量框架。",
+      "论文｜A CRediT‐based quantitative study of co‐corresponding authorship: Collaboration patterns and contribution distribution｜利用标准化的贡献分类体系量化分析共同通讯作者，为理解复杂科研合作中的角色与贡献分配提供了新方法。",
+      "动态｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜设计标准化文献计量分析数据管道，旨在提升科研评估过程的透明度、可重复性与可信度。",
+      "动态｜A secure federated feature selection framework for horizontally distributed medical data｜提出保护隐私的联邦特征选择框架，应对跨机构医疗数据协同分析中的隐私安全挑战。",
+      "论文｜Make context easier: enhancing fine-tuned NER models via LLM-based text rewriting｜揭示通过大语言模型进行文本重写可有效提升下游命名实体识别性能，展示了LLM作为文本预处理工具的新价值。",
+      "动态｜Enhanced archival metadata through AI: a case study of digitized photograph descriptions｜通过人工智能技术有效提升档案数字化照片的描述性元数据质量，是AI赋能文化遗产数字资源建设的典型案例。",
+      "趋势判断｜科研评价体系正从依赖单一计量指标，向融合多维贡献、标准化流程与透明化分析的综合评估范式演进。"
+    ],
+    "stats": {
+      "papers": 180,
+      "news": 126,
+      "featured": 61
+    }
+  },
+  {
     "date": "2026-06-24",
     "summary": "今日图情领域研究呈现出以数据驱动为核心，深度结合人工智能技术与传统研究方法的趋势。在计量与评价方面，研究重点从传统的网络与指标分析，转向对评估过程本身的可审计性、数据库结构性差异的影响，以及同行评审在学科快速演进中的预测效力等元科学问题的探索。在AI应用层面，研究焦点深入至人机协同的具体机制，如馆员角色在AI中介环境中的作用、AI生成内容的逻辑一致性保障，以及用户对AI服务满意度的动态认知情感建模。同时，用户行为研究超越基础能力评估，开始构建整合个人特质与任务特征的预测模型，以更精细地理解信息交互过程。",
     "highlights": [
@@ -212,23 +230,6 @@
       "papers": 251,
       "news": 121,
       "featured": 74
-    }
-  },
-  {
-    "date": "2026-06-09",
-    "summary": "今日图情领域聚焦AI在学术评价中的风险与治理，多项研究揭示生成式AI评价人文社科论文存在语言偏见，同行评审对颠覆性研究的预测效力得到实证检验，大语言模型训练中的数据伦理问题被系统梳理。知识组织与检索技术持续深化，知识图谱补全、持续关系抽取、联邦跨域推荐等方法不断优化，大语言模型被用于引用错误检测、谣言识别和垂直领域知识管理。行业动态方面，研究图书馆积极参与开放科学政策讨论，LIBER发布公民科学发展报告和对欧盟ERA法案的回应，ARL发布公共政策简报。观点评论呼吁将数据重用纳入学术评价体系，预示评价标准向多元化发展。整体上，AI治理、学术评价公平性与开放科学实践成为今日图情领域的核心议题。",
-    "highlights": [
-      "论文｜Does language bias GenAI academic evaluation in humanities and social sciences? A mixed‐methods study based on Chinese‐language HSS papers｜揭示生成式AI评价中文人文社科论文时的语言偏见，对学术评审公平性提出警示。",
-      "论文｜Data ethics in training large language models: A systematic review of machine-learning strategies and AI governance frameworks｜系统梳理大模型训练中的数据伦理风险、应对策略与治理框架，为负责任AI开发提供全景参考。",
-      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜实证分析同行评审在识别颠覆性科学研究中的预测效力，为优化评审机制提供新证据。",
-      "动态｜Citizen Science Developing Citizen Science 2026 – Report from the Masterclass｜LIBER发布公民科学发展研讨会报告，探讨研究图书馆参与和推动公民科学的实践路径。",
-      "动态｜LIBER’s Response – Public Consultation on the ERA Act｜LIBER回应欧盟ERA法案公开咨询，阐述研究图书馆界对欧洲研究区政策的立场。",
-      "趋势判断｜数据重用纳入学术评价体系或成为趋势｜观点文章强调数据引用应作为衡量文章质量的重要补充指标，预示学术评价向多元化发展。"
-    ],
-    "stats": {
-      "papers": 61,
-      "news": 39,
-      "featured": 31
     }
   }
 ]
