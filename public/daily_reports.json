@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-06-26",
+    "summary": "今日图情领域的研究呈现出鲜明的数据驱动与人工智能融合特征。在科学计量与评价方面，研究焦点从传统的文献计量指标转向更精细、多维的评估模型，例如整合语义与贡献度的作者自引评估，以及利用大语言模型（LLM）辅助写作与影响力的关联性分析。同时，对新兴数据源（如OpenAlex）的系统评估和对复杂作者署名行为（如共同通信作者）的量化研究，反映了该领域对研究基础设施与科研实践本身持续深入的关注。在人工智能应用方面，研究正从基础能力测试（如LLM生成能力评估）向解决特定领域问题深化，包括利用LLM增强假新闻检测、改进多模态推荐系统，以及探索AI中介下馆员指导与用户认知的交互影响。此外，信息检索与用户行为研究也展现出结合因果推断、知识表示等前沿方法以提升性能与解释性的趋势。",
+    "highlights": [
+      "论文｜A multidimensional evaluation model for author self-citation: integrating contribution, depth, intensity, and location｜该模型超越了简单的频次统计，通过整合贡献度、深度、强度与位置四个维度，为更公平、精细地评估作者自引行为提供了新工具。",
+      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的大规模实证分析，首次揭示了使用大语言模型辅助写作与论文后续被引表现之间的正向关联。",
+      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜探讨了在AI作为信息中介的协作场景中，馆员指导强度与用户对AI的权威认知如何共同影响团队的创造性产出，具有重要的实践启示。",
+      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜对新兴开放学术数据库OpenAlex进行了全面评估，为研究人员选择和使用这一重要数据源提供了关键参考和实用指南。",
+      "动态｜Collective-level propagation analysis via LLM-enhanced hypergraph transformer for fake news detection｜提出利用大语言模型增强的超图Transformer模型分析信息的集体传播模式，为假新闻检测研究提供了新的技术路径。",
+      "趋势判断｜图情领域的研究方法正加速向多维融合与因果推断深化｜无论是作者贡献评估、推荐系统优化还是用户行为分析，都呈现出整合多维数据、应用因果模型以提升解释力与准确性的共同趋势。"
+    ],
+    "stats": {
+      "papers": 181,
+      "news": 124,
+      "featured": 74
+    }
+  },
+  {
     "date": "2026-06-25",
     "summary": "今日图情领域的研究呈现出两大核心趋势：一是对科研评价与科学合作过程的深入解构与透明化追求，二是人工智能技术在信息处理与分析中的多元化、精细化应用。在科研计量与评价方面，多项研究致力于通过构建多维模型（如自引评估）、标准化分析流程或利用新兴数据（如CRediT贡献分类、科学-技术知识时滞）来提升评估的公平性、可复现性与预测能力，并深入剖析全球科学合作的结构性驱动因素。在技术应用层面，大语言模型（LLM）的应用从通用任务（如文本重写、结构分析）向特定领域（如医疗诊断编码、档案元数据增强）和特定约束（如隐私保护的联邦学习、本地化部署）深化，同时，强化学习、动态网络分析等方法也被创新性地用于解决数据资产估值、在线社区演化等复杂问题。",
     "highlights": [
