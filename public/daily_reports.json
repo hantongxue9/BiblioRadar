@@ -1,19 +1,19 @@
 [
   {
-    "date": "2026-06-27",
-    "summary": "今日图情领域的研究呈现出以数据智能驱动为核心、方法与应用并重的鲜明特点。在科学计量与评价方面，研究重点从传统的网络描述转向对合作、评价、主题演化等深层机制的因果推断与可解释性分析，如同行评议在学科变革中的预测效力、合作网络的驱动因素、以及基于贡献分类（CRediT）的精细评价。人工智能的应用持续深化，大语言模型（LLM）和图神经网络（GNN）被用于科学文献主题映射、金融文档事件抽取、档案元数据增强等具体场景，显示出强大的信息组织与知识抽取潜力。同时，对新兴基础设施（如OpenAlex数据库）的系统评估和对算法框架（如网络欺凌检测）的基准构建，反映了领域对技术工具可靠性及研究可重复性的高度重视。",
+    "date": "2026-06-28",
+    "summary": "今日图情领域的研究与应用持续聚焦于人工智能技术的深度融合与评估。在AI应用方面，大语言模型（LLM）和深度学习框架被广泛用于提升文献主题映射、金融事件抽取、多模态信息提取及数据分类管理的效能与准确性，并关注其在协同问题解决中与馆员指导的交互影响。在计量评价领域，对OpenAlex等新兴开放学术数据库的系统评估，以及利用LLM量化科学与技术主题关联的新方法，为学术资源建设与知识发现提供了新视角。用户行为研究揭示了影响生成式AI用户信息核实行为的关键机制。行业动态显示，欧洲研究图书馆协会正积极筹备人工智能主题的系列研讨，反映了业界对前沿技术趋势的关注与跟进。",
     "highlights": [
-      "论文｜Mapping scientific literature with large language models and topic modeling｜将大语言模型与主题模型结合，为自动构建兼具显性与隐性关联的科学文献知识图谱提供了新思路。",
-      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜以AI领域为案例，实证检验了在快速变革的学科背景下同行评议对论文长期影响力的预测能力。",
-      "论文｜A CRediT‐based quantitative study of co‐corresponding authorship: Collaboration patterns and contribution distribution｜利用标准化的贡献分类体系，对共同通讯作者现象进行了精细化的量化分析，为科研评价提供了更细致的证据。",
-      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜对新兴开放学术数据库OpenAlex进行了全面评估，为图情领域研究者选择和使用数据源提供了重要参考。",
-      "动态｜Enhanced archival metadata through AI: a case study of digitized photograph descriptions｜展示了人工智能技术应用于档案数字化照片元数据增强的实际案例，体现了AI赋能文化遗产管理的具体路径。",
-      "趋势判断｜图情领域的研究范式正从相关性分析向因果推断与机制解释深化，并更加注重研究过程的透明化、可重复性及技术工具的可靠性评估。"
+      "论文｜Mapping scientific literature with large language models and topic modeling｜提出基于LLM的文献主题映射框架，能有效识别跨学科关联并部分复现期刊分类结构。",
+      "论文｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜系统评估了新兴开放学术数据库OpenAlex的应用潜力与当前局限。",
+      "论文｜AI-mediated information intermediation in collaborative problem-solving｜揭示了在AI辅助检索中，馆员指导与AI权威性认知共同影响团队创新产出的机制。",
+      "动态｜Open Science｜欧洲研究图书馆协会发布关于开放科学的动态，涉及当前图书馆核心政策与实践。",
+      "动态｜LIBER Launches a Webinar Series on Artificial Intelligence｜欧洲研究图书馆协会宣布将启动AI系列网络研讨会，反映业界对技术前沿的持续关注。",
+      "趋势判断｜利用大语言模型进行知识组织与计量分析成为显著趋势｜从文献主题映射到科学-技术关联度量，LLM正成为深化知识发现与评价研究的重要工具。"
     ],
     "stats": {
-      "papers": 185,
-      "news": 123,
-      "featured": 63
+      "papers": 139,
+      "news": 125,
+      "featured": 64
     }
   },
   {
