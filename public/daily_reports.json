@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-06-27",
+    "summary": "今日图情领域的研究呈现出以数据智能驱动为核心、方法与应用并重的鲜明特点。在科学计量与评价方面，研究重点从传统的网络描述转向对合作、评价、主题演化等深层机制的因果推断与可解释性分析，如同行评议在学科变革中的预测效力、合作网络的驱动因素、以及基于贡献分类（CRediT）的精细评价。人工智能的应用持续深化，大语言模型（LLM）和图神经网络（GNN）被用于科学文献主题映射、金融文档事件抽取、档案元数据增强等具体场景，显示出强大的信息组织与知识抽取潜力。同时，对新兴基础设施（如OpenAlex数据库）的系统评估和对算法框架（如网络欺凌检测）的基准构建，反映了领域对技术工具可靠性及研究可重复性的高度重视。",
+    "highlights": [
+      "论文｜Mapping scientific literature with large language models and topic modeling｜将大语言模型与主题模型结合，为自动构建兼具显性与隐性关联的科学文献知识图谱提供了新思路。",
+      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜以AI领域为案例，实证检验了在快速变革的学科背景下同行评议对论文长期影响力的预测能力。",
+      "论文｜A CRediT‐based quantitative study of co‐corresponding authorship: Collaboration patterns and contribution distribution｜利用标准化的贡献分类体系，对共同通讯作者现象进行了精细化的量化分析，为科研评价提供了更细致的证据。",
+      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜对新兴开放学术数据库OpenAlex进行了全面评估，为图情领域研究者选择和使用数据源提供了重要参考。",
+      "动态｜Enhanced archival metadata through AI: a case study of digitized photograph descriptions｜展示了人工智能技术应用于档案数字化照片元数据增强的实际案例，体现了AI赋能文化遗产管理的具体路径。",
+      "趋势判断｜图情领域的研究范式正从相关性分析向因果推断与机制解释深化，并更加注重研究过程的透明化、可重复性及技术工具的可靠性评估。"
+    ],
+    "stats": {
+      "papers": 185,
+      "news": 123,
+      "featured": 63
+    }
+  },
+  {
     "date": "2026-06-26",
     "summary": "今日图情领域的研究呈现出鲜明的数据驱动与人工智能融合特征。在科学计量与评价方面，研究焦点从传统的文献计量指标转向更精细、多维的评估模型，例如整合语义与贡献度的作者自引评估，以及利用大语言模型（LLM）辅助写作与影响力的关联性分析。同时，对新兴数据源（如OpenAlex）的系统评估和对复杂作者署名行为（如共同通信作者）的量化研究，反映了该领域对研究基础设施与科研实践本身持续深入的关注。在人工智能应用方面，研究正从基础能力测试（如LLM生成能力评估）向解决特定领域问题深化，包括利用LLM增强假新闻检测、改进多模态推荐系统，以及探索AI中介下馆员指导与用户认知的交互影响。此外，信息检索与用户行为研究也展现出结合因果推断、知识表示等前沿方法以提升性能与解释性的趋势。",
     "highlights": [
@@ -231,22 +248,6 @@
       "papers": 195,
       "news": 118,
       "featured": 63
-    }
-  },
-  {
-    "date": "2026-06-10",
-    "summary": "今日图情领域的研究呈现出两大核心趋势：一是对学术评价体系的深度反思与创新，研究者们正致力于开发更精细、多维的计量模型，以更公平地评估作者自引行为，并探讨在学科快速变革背景下同行评审的预测效力。二是人工智能应用持续深化与场景化，尤其在信息可信度评估、专业服务交互和资源受限环境部署方面取得进展。例如，结合大语言模型与图神经网络的技术提升了假新闻检测性能，而关于馆员在AI中介协作中的调节作用研究，则为专业服务融合提供了新见解。此外，对OpenAlex等新兴开放数据基础设施的评估，也体现了领域对数据源质量与适用性的持续关注。",
-    "highlights": [
-      "论文｜A multidimensional evaluation model for author self-citation｜提出结合语义与贡献度的多维度模型，为公平评估学术自引行为提供了新方法。",
-      "论文｜AI-mediated information intermediation in collaborative problem-solving｜揭示了馆员指导在调节学生对AI权威感知、提升团队创意成果中的关键作用。",
-      "动态｜The OpenAlex database in review｜全面评述OpenAlex数据库，为图情研究人员选用开放学术数据源提供了重要参考。",
-      "动态｜Collective-level propagation analysis via LLM-enhanced hypergraph transformer｜利用大语言模型增强超图分析，代表了假新闻检测技术的前沿方向。",
-      "趋势判断｜学术评价正从单一指标转向融合网络动态、内容语义的多维模型，以应对复杂科研生态。"
-    ],
-    "stats": {
-      "papers": 251,
-      "news": 121,
-      "featured": 74
     }
   }
 ]
