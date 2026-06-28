@@ -1380,6 +1380,29 @@
     "id": 5647
   },
   {
+    "title": "Methodological challenges in content‐based citation analysis: Expertise, reliability, and the primacy of citance identification",
+    "abstract": "",
+    "date": "2026-06-26",
+    "link": "https://doi.org/10.1002/asi.70102",
+    "affiliations": "Zehra Taşkın",
+    "source": "JASIST",
+    "tier": "A",
+    "field": "information_science",
+    "content_type": "paper",
+    "category": "计量与评价",
+    "thinking": "该论文聚焦于基于内容的引文分析的方法论挑战，特别是引文提及识别这一核心问题，体现了对引文分析领域深层次方法学问题的前沿探讨。论文强调专家知识、可靠性评估等，方法严谨性较高，但其讨论偏重理论框架与挑战识别，直接指导具体业务落地的实践方案稍显不足。",
+    "scores": {
+      "frontier_tech": 7,
+      "practical_value": 5,
+      "methodological_rigor": 9
+    },
+    "one_sentence_summary": "该研究系统阐述了基于内容的引文分析面临的核心方法论挑战，并强调了准确识别引文提及是确保分析可靠性的关键前提。",
+    "credibility_score": 6.7,
+    "composite_score": 6.8,
+    "featured": false,
+    "id": 5653
+  },
+  {
     "title": "Introducing bibliographies",
     "abstract": "<p>We suggest a new alliance betweem two previously unrelated disciplines, namely Bibliometrics and Library science, with the goal of building a complete representation of the scientific production of humanities, including books and book chapters, as well as journal articles in a multilingualist perspective. We introduce a new source of data that leverages on the authoritative bibliographical work of large scientific communities in humanities, producing highly representative collections of data called “bibliographies”. We advocate a new alliance between bibliometrics and the development of bibliographies towards complete metadata and citation data. Recent advancements on technology for interoperability of library resources will permit an automatic validation of author identity via Authority Control. We review &gt; 100 bibliographies, show the potential of these sources as validated perimeters for citation extraction and document promising initiatives by specialized publishers in the field of humanities. We discuss how this perspective will contribute to a fair and responsible research assessment for SSH; with particular attention to humanities.</p>",
     "date": "2026-06-25",
@@ -11475,28 +11498,5 @@
     "composite_score": 6.2,
     "featured": false,
     "id": 2312
-  },
-  {
-    "title": "A PubMed-Scale Dataset of Structured Biomedical Abstracts",
-    "abstract": "arXiv:2606.11361v1 Announce Type: new \nAbstract: Structured abstracts are important for biomedical literature processing, by facilitating information retrieval, text mining, and knowledge synthesis. However, a vast portion of abstracts indexed in PubMed remain unstructured, presenting a significant bottleneck for downstream text-processing workflows and applications. To resolve this limitation, we introduce Structured PubMed, a comprehensive corpus of section-labeled biomedical abstracts compiled from the complete PubMed database, encompassing over 23.2 million research-article records. The corpus is divided into two distinct subsets: a collection of 5.9 million author-structured abstracts parsed from official XML files, and an automatically labeled collection of 17.2 million originally unstructured abstracts structured via a verbatim-extraction Large Language Model pipeline. Every record is harmonized under a unified five-section schema and mapped to its original PubMed identifier, publication type, and publication date. This dataset can be utilized to train sentence-classification models, benchmark text-segmentation architectures, and perform large-scale, section-specific information extraction at an unprecedented PubMed-wide scale.",
-    "date": "2026-06-11",
-    "link": "https://arxiv.org/abs/2606.11361",
-    "affiliations": "",
-    "source": "arXiv - Information Retrieval",
-    "tier": "C",
-    "field": "information_retrieval",
-    "content_type": "paper",
-    "category": "数据管理",
-    "thinking": "该论文构建了一个覆盖PubMed全库的带结构标签的生物医学摘要数据集，采用了基于大语言模型的自动标注流程，技术方法具有前沿性。数据集规模庞大且标注统一，可直接用于训练文本分类模型和进行大规模信息抽取，实践价值显著。然而，论文未详细描述LLM标注流程的验证方法与质量控制细节，在方法严谨性上存在可提升空间。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 9,
-      "methodological_rigor": 7
-    },
-    "one_sentence_summary": "该研究构建并发布了首个覆盖PubMed全库、包含超过2300万条统一结构化标签的生物医学摘要数据集。",
-    "credibility_score": 6.0,
-    "composite_score": 7.0,
-    "featured": false,
-    "id": 2313
   }
 ]
