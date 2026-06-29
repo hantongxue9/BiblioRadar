@@ -113,6 +113,7 @@ async def _fetch_url(
     session: aiohttp.ClientSession,
     url: str,
     rate_limiter: RateLimiter,
+    extra_headers: dict | None = None,
 ) -> Optional[str]:
     """
     发起带限流和重试的 GET 请求。
@@ -125,10 +126,13 @@ async def _fetch_url(
     for attempt in range(MAX_RETRIES):
         await rate_limiter.acquire(domain)
         try:
+            headers = _random_headers(referer=f"https://{domain}/")
+            if extra_headers:
+                headers.update(extra_headers)
             timeout = aiohttp.ClientTimeout(total=REQUEST_TIMEOUT)
             async with session.get(
                 url,
-                headers=_random_headers(referer=f"https://{domain}/"),
+                headers=headers,
                 timeout=timeout,
                 ssl=SSL_VERIFY,
             ) as resp:
@@ -549,27 +553,19 @@ async def _fetch_openalex(
         "per_page": "25",
     }
     url = source.url + "?" + "&".join(f"{k}={v}" for k, v in params.items())
-    headers = _random_headers(referer="https://openalex.org/")
-    headers["mailto"] = "hantongxue9@mail.ustc.edu.cn"
 
-    domain = urlparse(url).netloc
-    for attempt in range(MAX_RETRIES):
-        await rate_limiter.acquire(domain)
-        try:
-            timeout = aiohttp.ClientTimeout(total=REQUEST_TIMEOUT)
-            async with session.get(url, headers=headers, timeout=timeout, ssl=SSL_VERIFY) as resp:
-                if resp.status != 200:
-                    logger.warning("OpenAlex HTTP %d", resp.status)
-                    return []
-                import json
-                data = json.loads(await resp.text())
-                break
-        except (aiohttp.ClientError, asyncio.TimeoutError, json.JSONDecodeError) as e:
-            wait = 2 ** (attempt + 1)
-            logger.warning("OpenAlex 请求异常 (%s)，%ds 后重试", e, wait)
-            await asyncio.sleep(wait)
-    else:
-        logger.error("OpenAlex 重试耗尽")
+    mailto = os.getenv("OPENALEX_MAILTO", "")
+    extra = {"mailto": mailto} if mailto else None
+
+    text = await _fetch_url(session, url, rate_limiter, extra_headers=extra)
+    if not text:
+        return []
+
+    import json
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError:
+        logger.warning("OpenAlex JSON 解析失败: %s", source.name)
         return []
 
     items = []
@@ -642,30 +638,19 @@ async def _fetch_semantic_scholar(
         "fields": "title,abstract,year,externalIds,url,authors,publicationDate",
     }
     url = source.url + "?" + "&".join(f"{k}={v}" for k, v in params.items())
-    headers = _random_headers(referer="https://www.semanticscholar.org/")
 
     api_key = os.getenv("SEMANTIC_SCHOLAR_API_KEY", "")
-    if api_key:
-        headers["x-api-key"] = api_key
+    extra = {"x-api-key": api_key} if api_key else None
 
-    domain = urlparse(url).netloc
-    for attempt in range(MAX_RETRIES):
-        await rate_limiter.acquire(domain)
-        try:
-            timeout = aiohttp.ClientTimeout(total=REQUEST_TIMEOUT)
-            async with session.get(url, headers=headers, timeout=timeout, ssl=SSL_VERIFY) as resp:
-                if resp.status != 200:
-                    logger.warning("Semantic Scholar HTTP %d", resp.status)
-                    return []
-                import json
-                data = json.loads(await resp.text())
-                break
-        except (aiohttp.ClientError, asyncio.TimeoutError, json.JSONDecodeError) as e:
-            wait = 2 ** (attempt + 1)
-            logger.warning("Semantic Scholar 请求异常 (%s)，%ds 后重试", e, wait)
-            await asyncio.sleep(wait)
-    else:
-        logger.error("Semantic Scholar 重试耗尽")
+    text = await _fetch_url(session, url, rate_limiter, extra_headers=extra)
+    if not text:
+        return []
+
+    import json
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError:
+        logger.warning("Semantic Scholar JSON 解析失败: %s", source.name)
         return []
 
     items = []

@@ -64,6 +64,7 @@ class PipelineTestConfig:
 
 class PipelineTest(unittest.TestCase):
     def test_skips_daily_report_when_no_items_pass_evaluation(self):
+        self.addCleanup(patch.stopall)
         with tempfile.TemporaryDirectory() as tmp_dir:
             root = Path(tmp_dir)
             data_path = root / "data.json"

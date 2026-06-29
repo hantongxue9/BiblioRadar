@@ -35,6 +35,7 @@ class Config:
     elsevier_api_key: str = os.environ.get("ELSEVIER_API_KEY", "")
     springer_api_key: str = os.environ.get("SPRINGER_API_KEY", "")
     semantic_scholar_api_key: str = os.environ.get("SEMANTIC_SCHOLAR_API_KEY", "")
+    openalex_mailto: str = os.environ.get("OPENALEX_MAILTO", "")
 
     # ---- 评估 ----
     min_score_avg_paper: float = float(os.environ.get("MIN_SCORE_AVG", "6.0"))

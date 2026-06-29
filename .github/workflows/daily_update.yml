@@ -62,6 +62,8 @@ jobs:
           REQUEST_DELAY_MAX: '8'
           MAX_RETRIES: '3'
           DISABLE_SSL_VERIFY: 'false'
+          SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
+          OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO }}
         run: python -m backend.main
 
       - name: 配置 Git

@@ -127,7 +127,7 @@ def _extract_json(text: str) -> Optional[Dict]:
                     return json.loads(fix)
                 except json.JSONDecodeError:
                     continue
-            for suffix in ['"}', '"}', "}"] * 3:
+            for suffix in ['"}', '"]', '}', '"]}', '}]']:
                 try:
                     return json.loads(candidate + suffix)
                 except json.JSONDecodeError:
