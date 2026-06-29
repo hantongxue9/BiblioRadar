@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-06-30",
+    "summary": "今日图情领域研究聚焦于计量评价方法的深化与人工智能应用的拓展。在计量评价方面，研究呈现出精细化与规范化趋势，包括改进跨学科引文归一化方法、利用CRediT框架量化作者贡献、开发可重复的科学知识图谱工作流，以及对OpenAlex等新型开放数据库的评估。大语言模型的影响受到持续关注，实证研究揭示了其在工程学论文写作中与引用提升的关联。在人工智能应用方面，研究覆盖了假新闻检测、教育成果分析、档案元数据增强及用户信任机制等多个场景，显示出AI技术正深度融入信息处理与服务各环节。行业动态方面，欧洲图书馆界积极推动开放科学并探索AI治理路径。",
+    "highlights": [
+      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇论文的实证研究，揭示了AI辅助写作与学术影响力提升的潜在关联。",
+      "论文｜A CRediT‐based quantitative study of co‐corresponding authorship: Collaboration patterns and contribution distribution｜利用标准化贡献角色分类，为解析科研合作中的作者贡献分配提供了创新量化视角。",
+      "论文｜Enhanced archival metadata through AI: a case study of digitized photograph descriptions｜展示了AI技术提升文化遗产数字化描述质量的实践案例，具有示范意义。",
+      "动态｜#ZeroEmbargo Campaign｜LIBER推动消除学术期刊获取时滞的运动，反映了开放获取进程中的关键行动。",
+      "动态｜LIBER Launches a Webinar Series on Artificial Intelligence: AI Pulse｜行业组织启动系列研讨会，标志着图书馆界系统化关注与应对AI挑战的开始。",
+      "趋势判断｜计量指标与AI应用研究并进，行业聚焦开放生态构建与AI治理｜研究与实践正从工具效率提升，转向对科研诚信、开放生态及技术伦理的系统性关注。"
+    ],
+    "stats": {
+      "papers": 166,
+      "news": 123,
+      "featured": 59
+    }
+  },
+  {
     "date": "2026-06-29",
     "summary": "今日图情领域的研究呈现出两大核心趋势：一是人工智能技术，特别是大语言模型，在学术信息处理各环节的应用不断深化与拓展；二是科学计量与评价研究正从宏观网络分析转向更精细化的微观机制探索。在AI应用方面，研究重点覆盖了从文献主题建模、元数据增强、用户满意度预测到学术文本质量评估等多个场景，显示出技术落地的广泛性。在计量与评价领域，研究不仅关注合作网络演化等宏观结构，更深入探讨了同行评审预测能力的变化、作者贡献的量化分析以及新兴数据源（如OpenAlex）的评估，反映了该子领域方法论与数据基础的持续演进。此外，对AI辅助写作与引文关联的实证研究，以及用户对AIGC的信任机制分析，凸显了技术应用带来的新现象及其社会影响已成为重要研究议题。",
     "highlights": [
@@ -230,23 +247,6 @@
       "papers": 183,
       "news": 112,
       "featured": 62
-    }
-  },
-  {
-    "date": "2026-06-11",
-    "summary": "今日图情领域的研究呈现出明显的跨学科与技术融合趋势，核心议题围绕人工智能在学术评价、知识发现与信息组织中的应用及其伦理规范。在学术评价与计量方面，研究焦点从传统指标转向方法论的可重复性与透明度，如可审计的数据处理流程和标准化科学图谱工作流的提出，旨在提升研究的严谨性。同时，数据库结构差异对影响力评估的影响研究，提示了评价体系的基础设施依赖性。在AI应用方面，生成式AI在学术评估中的语言偏见问题受到关注，凸显了技术应用需兼顾公平性。大语言模型与知识图谱、因果推断等技术的结合，正深入渗透至垂直领域知识管理、多模态推荐及古籍数字化等具体场景，推动信息组织与服务向智能化、精准化发展。数据伦理与合成数据生成方法的研究，则为应对AI应用中的数据挑战提供了策略性思考。",
-    "highlights": [
-      "论文｜Does language bias GenAI academic evaluation in humanities and social sciences? A mixed‐methods study based on Chinese‐language HSS papers｜揭示了生成式AI在评估非英语学术文本时存在的语言偏见，对构建公平的智能学术评价体系具有警示意义。",
-      "论文｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜设计了一个标准化的可审计数据处理流程，为提升文献计量分析的透明度、可复现性和可信度提供了方法论框架。",
-      "论文｜Relationship between peer review quality and scientific impact: Insights from LLMs-assessed reviews｜利用大语言模型量化同行评审质量，并发现其与论文后续科学影响力存在正相关，为评价学术交流过程提供了新视角。",
-      "动态｜Graph-driven knowledge stream method for knowledge management in vertical domain large language models｜提出结合知识图谱与大语言模型管理垂直领域知识流的方法，展示了专业知识系统与通用AI模型融合的实践路径。",
-      "动态｜Enhanced archival metadata through AI: a case study of digitized photograph descriptions｜通过人工智能技术提升档案元数据自动化生成质量，是AI赋能文化遗产数字化保存与利用的典型案例。",
-      "趋势判断｜AI技术在信息组织与服务中的应用正从通用场景向垂直领域深化，同时其方法论透明度、可重复性及伦理规范成为学术界共同关注的焦点。"
-    ],
-    "stats": {
-      "papers": 195,
-      "news": 118,
-      "featured": 63
     }
   }
 ]
