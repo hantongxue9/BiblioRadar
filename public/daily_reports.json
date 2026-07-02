@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-02",
+    "summary": "今日图情领域的研究焦点持续向AI深度应用与科学计量学的前沿方法倾斜。在AI应用方面，研究重点从基础模型能力评估转向构建人机协同的实用框架，例如用于大规模科学争议监测的混合框架，以及AI辅助下图书馆员指导对团队创意产出的影响机制。科学计量与评价领域则更加强调方法的透明度、可重复性以及对动态过程的捕捉，如合作网络演化对学者绩效的驱动作用、利用知识继承网络揭示主题演变路径。同时，通过量化科学与技术知识之间的时间差来预测技术转移机会，展示了计量学对创新管理的直接支持价值。用户研究与信息检索方面，关注点扩展到可视化解读的认知影响因素以及融合因果推理的推荐算法。",
+    "highlights": [
+      "论文｜Large language models for scientometric mapping of scientific controversy: A validated hybrid AI–Human framework｜提出了一个经专家验证的人机混合框架，为大规模、动态监测学术争议提供了可操作的方法论。",
+      "论文｜Biblioshiny and the SAAS Workflow: An integrated framework for transparent and reproducible science mapping｜构建了一个集成化框架，旨在系统性提升科学知识图谱研究的透明度与可重复性。",
+      "论文｜The dynamic scholar: How evolving co-authorship fuels scholarly performance｜实证揭示了学者合作网络的动态变化是其学术表现持续提升的关键驱动因素。",
+      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions｜实证研究了在AI辅助的协作环境中，图书馆员指导强度与用户对AI的认知如何共同影响团队创意成果。",
+      "动态｜Asynchrony as information: Predicting technology transfer opportunities through science–technology knowledge lag｜创新性地提出将科学与技术知识之间的时间滞后量化为预测技术转移机会的信息指标。",
+      "趋势判断｜从通用评估到领域深植与流程再造｜AI在图情领域的应用正从评估模型基础能力，转向构建特定领域（如争议监测、教育目标分析）的人机协同工作流，并深度融入科研评价与知识发现的核心流程。"
+    ],
+    "stats": {
+      "papers": 160,
+      "news": 134,
+      "featured": 68
+    }
+  },
+  {
     "date": "2026-07-01",
     "summary": "今日图情领域的研究呈现出明显的计量分析与人工智能应用深度融合的趋势。在计量与评价方面，研究重点从传统指标转向更精细的贡献分配、数据可用性影响评估以及新兴数据源（如OpenAlex）的评价，同时开始关注大语言模型辅助写作对科学影响力的潜在关联。人工智能应用研究则更加聚焦于垂直领域的实际问题，如金融文档事件抽取、医疗编码分配及联邦学习安全防御，并开始探讨AI在公共部门应用中的公众信任问题。用户行为研究则结合心理测量模型与动态网络分析，深化了对在线社区信息传播与可视化解读机制的理解。",
     "highlights": [
