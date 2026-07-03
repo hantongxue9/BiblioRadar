@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-03",
+    "summary": "今日图情领域的研究呈现出深度智能化与精细化分析并重的趋势。核心主题围绕大语言模型等人工智能技术在图情具体任务中的应用与评估展开，包括科学计量、信息抽取、元数据增强及用户行为分析等多个维度。在科学计量与评价方面，研究不仅关注AI工具（如LLM辅助写作）对科研产出的影响，也致力于开发新的技术机会发现方法（如GC-GTM）和利用知识时滞预测技术转移。同时，针对生成式AI的普及，学界加强了对用户信息验证行为、风险感知与信任机制的研究。行业层面，欧洲研究图书馆界发布了着眼于未来五年的战略声明，明确了研究图书馆的核心价值与发展方向。",
+    "highlights": [
+      "论文｜Large language models for scientometric mapping of scientific controversy: A validated hybrid AI–Human framework｜提出并验证了结合LLM与专家判断的混合框架，为大规模、自动化分析科学争议提供了可操作的方法论。",
+      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于百万级论文的实证分析，揭示了AI辅助写作与引用影响力之间可能存在的关联，为科研评价提供了新视角。",
+      "动态｜Our 2023-2027 Strategy｜欧洲研究图书馆协会发布未来五年战略规划，为全球研究图书馆在数字时代的转型与发展提供了重要的方向性参考。",
+      "动态｜Strategy 2023-2027LIBER Publishes a Statement on Rights & Values for Research Libraries｜LIBER发布关于权利与价值观的声明，强调了研究图书馆在信息生态中的核心社会责任与伦理立场。",
+      "趋势判断｜AI驱动的精细化与可解释性分析成为图情研究主流｜从科学争议映射、技术机会发现到金融事件抽取，当前研究普遍追求在应用AI的同时，增强模型的可解释性与结果的可验证性。"
+    ],
+    "stats": {
+      "papers": 165,
+      "news": 125,
+      "featured": 66
+    }
+  },
+  {
     "date": "2026-07-02",
     "summary": "今日图情领域的研究焦点持续向AI深度应用与科学计量学的前沿方法倾斜。在AI应用方面，研究重点从基础模型能力评估转向构建人机协同的实用框架，例如用于大规模科学争议监测的混合框架，以及AI辅助下图书馆员指导对团队创意产出的影响机制。科学计量与评价领域则更加强调方法的透明度、可重复性以及对动态过程的捕捉，如合作网络演化对学者绩效的驱动作用、利用知识继承网络揭示主题演变路径。同时，通过量化科学与技术知识之间的时间差来预测技术转移机会，展示了计量学对创新管理的直接支持价值。用户研究与信息检索方面，关注点扩展到可视化解读的认知影响因素以及融合因果推理的推荐算法。",
     "highlights": [
@@ -197,40 +213,6 @@
       "papers": 0,
       "news": 78,
       "featured": 35
-    }
-  },
-  {
-    "date": "2026-06-17",
-    "summary": "今日图情领域研究与实践呈现多元化发展态势。在计量与评价方面，研究聚焦于学者合作网络的动态演化、研究团队层级结构与绩效的关联，以及通过知识继承网络揭示领域主题演化路径，为理解科研生产力机制提供了新视角。人工智能应用持续深化，研究涵盖利用大语言模型增强假新闻检测、自动化分析学术摘要结构、提升医学影像分割鲁棒性以及改善档案元数据质量等多个细分方向，体现了AI技术在图情业务场景中的渗透与融合。数据管理领域关注矢量地图服务的动态细粒度访问控制。行业层面，欧洲研究图书馆协会（LIBER）的战略动向值得关注，其发布了未来五年战略规划，并围绕人工智能应用、公民科学、文本数据挖掘政策以及开放科学推进等议题展开系列行动，反映了国际图书馆界应对技术变革、强化社会角色的战略思考。",
-    "highlights": [
-      "论文｜The dynamic scholar: How evolving co-authorship fuels scholarly performance｜通过实证分析揭示学者合作网络的动态变化是其学术表现提升的关键驱动因素。",
-      "论文｜Collective-level propagation analysis via LLM-enhanced hypergraph transformer for fake news detection｜创新性地结合大语言模型与超图Transformer，从集体传播层面提升假新闻检测的模型性能。",
-      "论文｜Enhanced archival metadata through AI: a case study of digitized photograph descriptions｜以具体案例实证展示了人工智能技术对提升档案数字化资源描述性元数据质量的有效性。",
-      "动态｜Our 2023-2027 Strategy｜欧洲研究图书馆协会发布未来五年战略规划，为国际图书馆界发展提供重要参考框架。",
-      "动态｜LIBER Launches a Webinar Series on Artificial Intelligence: AI Pulse｜LIBER启动AI系列网络研讨会，系统探讨人工智能在图情领域的应用前景与挑战。",
-      "趋势判断｜图情领域人工智能应用正从通用场景向档案处理、学术文本分析、信息可信度评估等专业化、深层次业务场景渗透。"
-    ],
-    "stats": {
-      "papers": 191,
-      "news": 115,
-      "featured": 53
-    }
-  },
-  {
-    "date": "2026-06-16",
-    "summary": "今日图情领域的研究呈现出对研究过程规范化、知识发现新方法以及人工智能应用深化三个主要方向的关注。在计量与评价方面，研究重点转向提升科学图谱的可复现性与透明度，并探索利用知识继承网络、作者贡献度量化（CRediT）以及科学-技术知识时滞等新视角来揭示领域演化与机会。人工智能的应用研究持续深入，从辅助同行评审评估、优化团队协作中的馆员角色，到构建更精准的推荐系统（如结合因果推断的多模态推荐）和隐私保护的医疗数据分析框架，均体现了AI技术在图情具体场景中的融合与创新。同时，开放学术资源生态（如OpenAlex数据库评估）和在线社区动态分析也是今日值得关注的议题。",
-    "highlights": [
-      "论文｜Biblioshiny and the SAAS Workflow: An integrated framework for transparent and reproducible science mapping｜提出了一个集成工作流框架，旨在系统提升科学图谱研究的可复现性与方法透明度。",
-      "论文｜Unveiling thematic evolution and R&D opportunities through knowledge inheritance networks｜通过构建知识继承网络分析主题演化，为识别领域研发机会提供了新颖的知识计量方法。",
-      "论文｜Relationship between peer review quality and scientific impact: Insights from LLMs-assessed reviews｜利用大语言模型分析同行评审文本，为评估评审质量与科学影响力的关系提供了新的实证路径。",
-      "动态｜LIBER Launches a Webinar Series on Artificial Intelligence｜欧洲研究图书馆协会将启动AI系列网络研讨会，反映了行业对AI议题的持续关注与知识共享需求。",
-      "动态｜Developing Citizen Science 2026 – Report from the Masterclass｜LIBER发布报告展望图书馆在公民科学中的角色，体现了图书馆参与开放科学与社会研究的前沿思考。",
-      "趋势判断｜AI应用研究正从通用任务转向与图情核心业务（如知识组织、用户服务、数据分析）的深度场景化融合与可解释性探索。"
-    ],
-    "stats": {
-      "papers": 142,
-      "news": 108,
-      "featured": 53
     }
   }
 ]
