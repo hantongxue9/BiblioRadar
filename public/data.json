@@ -1,5 +1,97 @@
 [
   {
+    "title": "Six flagship scientometric journals from a bibliometric perspective",
+    "abstract": "<p>The present study offers a comprehensive bibliometric assessment of six flagship scientometric journals, namely, Scientometrics, Journal of Informetrics, Quantitative Science Studies, Journal of Information Science, Research Evaluation, and Publications, covering the 2014–2023 period. The examined journals were selected for their leading role in the distribution of scientometrics research as well as their thematic centrality, citation performance, and publisher diversity within the field. Our study aims to compare productivity and citation impact patterns, evaluate citation-based prestige metrics such as the Scimago Journal Rank (SJR) and Field-Weighted Citation Impact (FWCI), and quantify country-level concentration of publication output and citation impact across the geography of contribution. Data were extracted using Scopus and SciVal, yielding metadata on 6,471 publications. We employed bibliometric methods to analyze the journals’ performance including statistical analyses of publication metrics, citation analysis as well as the examination of internationalization practices of these journals. Analyses revealed notable disparities in output volume and citation distribution, with evidence of the Matthew effect and citation inequality across journals. Scientometrics is the most productive journal in the set, the Journal of Informetrics and Quantitative Science Studies lead the elite citation indicators, and lower-ranked outlets, such as MDPI’s Publications, draw their visibility largely from a small number of high-impact publications. Country-level analysis shows that contribution to these journals is strongly concentrated. Across 110 contributing countries, the top ten account for roughly three-fifths of publications and two-thirds of citations (publication Gini = 0.766; citation Gini = 0.792). Per-journal analysis reveals that the gap between citation and publication concentration varies by more than an order of magnitude across journals, from + 0.005 (JIS) to + 0.148 (QSS), indicating that journals differ markedly in how they convert publication access into citation reward.</p>",
+    "date": "2026-07-04",
+    "link": "https://link.springer.com/article/10.1007/s11192-026-05698-8",
+    "affiliations": "",
+    "source": "Scientometrics",
+    "tier": "A",
+    "field": "bibliometrics",
+    "content_type": "paper",
+    "category": "计量与评价",
+    "thinking": "该论文采用文献计量学方法对六种核心科学计量学期刊进行了系统性评估，数据来源可靠（Scopus、SciVal），分析方法规范，揭示了期刊间生产力、引用影响力和地域集中度的显著差异。其不足在于研究方法本身属于传统文献计量学范畴，技术前沿性有限，且研究结论主要为领域内的描述性分析，对图书馆或信息机构的直接实践指导价值相对间接。",
+    "scores": {
+      "frontier_tech": 4,
+      "practical_value": 6,
+      "methodological_rigor": 8
+    },
+    "one_sentence_summary": "本研究通过文献计量分析，揭示了六种核心科学计量学期刊在产出、引用和地域贡献上存在显著不平等与集中现象。",
+    "credibility_score": 6.8,
+    "composite_score": 5.9,
+    "featured": false,
+    "id": 6956
+  },
+  {
+    "title": "Patent time-to-event and research capability analysis of biohydrogen production technology and applications",
+    "abstract": "<p>Biohydrogen is increasingly positioned as a zero-emission energy vector capable of decarbonizing hard to abate sectors, yet little is known about how biohydrogen inventions progress through global patent systems. Existing bibliometric studies rely heavily on patent counts and citation networks, overlooking the survival dynamics that shape the transition from application to grant and the time varying nature of factors influencing patent outcomes. This study proposes an integrated patent landscape model combining survival analysis and research capability assessment. First, Cox proportional hazards regression is used to estimate time to grant for biohydrogen patent applications filed in seven major patent offices, with proportionality tested through Schoenfeld residuals and addressed using stratified and time varying specifications. Second, a calibrated relative research capability (RCA) framework is developed, with robustness evaluated through CRITIC and maximum entropy weighting and validated using 1000 resample bootstrap confidence intervals. Results show a median grant time of 18 months and a cumulative survival probability of 0.639 at 50 months. Legal status emerges as the strongest predictor of grant likelihood, though diagnostics indicate violations of proportional hazards, requiring model stratification. RCA rankings remain highly stable across weighting schemes, consistently identifying the U.S. Department of Energy, the University of California, Syngenta, and CSIRO as leading contributors. These findings offer new insights for patent offices, technology transfer organizations, and policymakers seeking to accelerate innovation and commercialization in green hydrogen technologies.</p>",
+    "date": "2026-07-04",
+    "link": "https://link.springer.com/article/10.1007/s11192-026-05691-1",
+    "affiliations": "University of California, Syngenta, and CSIRO as leading contributors.",
+    "source": "Scientometrics",
+    "tier": "A",
+    "field": "bibliometrics",
+    "content_type": "paper",
+    "category": "计量与评价",
+    "thinking": "该论文将生存分析方法引入专利计量研究，方法上具有创新性，并采用多种统计检验确保稳健性，方法严谨性较高。研究聚焦于生物氢能这一前沿技术领域，但其分析方法本身并非当前AI/LLM等最前沿技术，因此前沿技术度得分适中。研究成果对专利审查机构和技术转移部门具有直接参考价值，业务落地性较强。",
+    "scores": {
+      "frontier_tech": 7,
+      "practical_value": 8,
+      "methodological_rigor": 9
+    },
+    "one_sentence_summary": "该研究运用生存分析方法揭示了生物氢能专利的授权时间规律及关键影响因素，并识别了该领域的核心研发机构。",
+    "credibility_score": 6.8,
+    "composite_score": 7.6,
+    "featured": true,
+    "id": 6957
+  },
+  {
+    "title": "One capability, many outcomes: unpacking AI dynamic capabilities in scientific teams",
+    "abstract": "<p>Artificial intelligence (AI) is reshaping scientific knowledge production, yet how team-level AI capability translates into individual productivity remains insufficiently understood. Focusing on synthetic biology, we develop an AI dynamic capability (AIDC) framework—sensing, seizing, and reconfiguring—to unpack team-level AI effects on individual researchers. Using a mixed-methods design that combines, survey data with team interviews, we find domain-specific rather than universal productivity gains. Team AIDC is strongly associated with AI-related outputs, but only weakly linked to overall research output. These benefits are amplified in large teams and accrue disproportionately to frontline researchers, consistent with specialization and execution-layer engagement with models and data. Interviews attribute this domain specificity to downstream constraints, especially experimental validation, and identify reconfiguring as the pivotal mechanism through which teams redesign workflows and human–AI task boundaries to convert AI outputs into validated results. We conclude by discussing future research directions and policy implications.</p>",
+    "date": "2026-07-04",
+    "link": "https://link.springer.com/article/10.1007/s11192-026-05679-x",
+    "affiliations": "",
+    "source": "Scientometrics",
+    "tier": "A",
+    "field": "bibliometrics",
+    "content_type": "paper",
+    "category": "AI应用",
+    "thinking": "该论文构建了AI动态能力框架，采用混合研究方法，方法设计较为严谨。但研究聚焦于合成生物学领域，结论的普适性有限，且对图书馆业务的实际指导价值不够直接。",
+    "scores": {
+      "frontier_tech": 8,
+      "practical_value": 5,
+      "methodological_rigor": 8
+    },
+    "one_sentence_summary": "研究发现，科研团队的AI能力主要提升其AI相关产出，而非整体研究产出，且这种效益在大团队和一线研究人员中更为显著。",
+    "credibility_score": 6.8,
+    "composite_score": 6.9,
+    "featured": false,
+    "id": 6958
+  },
+  {
+    "title": "Predicting multi-technology convergence based on higher-order interactions in temporal hypergraphs",
+    "abstract": "<p>Technology convergence (TC), particularly multi-technology convergence (multi-TC), has emerged as a key driver of innovation in today’s rapidly evolving technological landscape. While multi-TC entails higher-order interactions among three or more technologies, most existing studies focus on pairwise combinations, overlooking the emergent synergies resulting from the simultaneous interaction of multiple technologies. To bridge this gap, we propose a novel framework that models multi-TC events as hyperedges in a temporal hypergraph, preserving their intrinsic higher-order interactions instead of simplifying them into dyadic approximations. To examine the temporal dynamics of multi-TC, we employ a cross-order correlation index to capture dependencies across different interaction orders. We further develop an enhanced CAT-Walk model that integrates semantic, structural, and temporal information for multi-TC prediction. Using patent data from the new energy vehicle sector covering 2001–2023, we find that multi-TC exhibits short-term temporal dependence, progressive transitions across interaction orders, and directional asymmetry in its evolutionary patterns. The prediction results show that the enhanced model achieves strong inductive forecasting performance. In addition, semantic representations derived from IPC explanatory texts outperform those derived from patent abstracts, indicating that taxonomy-aligned semantic information is more suitable for multi-TC prediction. This study advances TC research by shifting the focus toward a multi-TC perspective, offering a more realistic and predictive framework for understanding complex innovation dynamics.</p>",
+    "date": "2026-07-04",
+    "link": "https://link.springer.com/article/10.1007/s11192-026-05666-2",
+    "affiliations": "",
+    "source": "Scientometrics",
+    "tier": "A",
+    "field": "bibliometrics",
+    "content_type": "paper",
+    "category": "计量与评价",
+    "thinking": "该论文采用时序超图建模高阶交互，并整合语义、结构和时序信息进行预测，在方法上具有前沿性。研究基于新能源汽车专利数据验证了模型的有效性，对技术融合预测具有直接应用价值。但预测模型在跨领域泛化能力方面未充分讨论，方法严谨性略有不足。",
+    "scores": {
+      "frontier_tech": 9,
+      "practical_value": 8,
+      "methodological_rigor": 7
+    },
+    "one_sentence_summary": "该研究提出一种基于时序超图的预测框架，能更准确地捕捉多项技术融合的动态规律，为创新管理提供新工具。",
+    "credibility_score": 6.8,
+    "composite_score": 7.9,
+    "featured": true,
+    "id": 6959
+  },
+  {
     "title": "SLD: a unified framework of linked databases for scholarly Big Data enhancement and scientific innovation",
     "abstract": "",
     "date": "2026-07-03",
@@ -11406,97 +11498,5 @@
     "composite_score": 6.4,
     "featured": false,
     "id": 3814
-  },
-  {
-    "title": "VCG: A Multimodal Retrieval Framework for E-Commerce Video Feeds under Extreme Cold-Start Conditions",
-    "abstract": "arXiv:2606.19627v1 Announce Type: new \nAbstract: The digital commerce landscape is shifting from static, search-driven catalogs to dynamic, immersive video feeds. This transition introduces an ``extreme cold-start'' problem: unlike traditional items, new short-form videos lack the dense interaction history required for collaborative filtering. Furthermore, immersive feeds introduce strong position and duration biases that distort standard engagement signals. In this paper, we demonstrate the Video Candidate Generation (VCG) system, a scalable multimodal retrieval engine designed to solve these challenges in a large-scale e-commerce environment. By leveraging a domain-adapted vision-language model (based on CLIP), we map users and videos into a shared semantic space, enabling zero-shot retrieval based on visual content rather than behavioral history. We detail the system's architecture and present a rigorous evaluation comparing generative (LLM) vs. discriminative (CLIP) embeddings. Our results show that while generative models excel at attribute prediction, they suffer from embedding space collapse in retrieval tasks. Online A/B testing demonstrates that VCG effectively mitigates engagement biases, yielding a 50\\% uplift in deep video completion. To showcase the system's capabilities, we present an interactive demonstration featuring three bi-directional retrieval scenarios: Product-to-Video, Video-to-Product, and Zero-Shot Semantic Search.",
-    "date": "2026-06-19",
-    "link": "https://arxiv.org/abs/2606.19627",
-    "affiliations": "",
-    "source": "arXiv - Information Retrieval",
-    "tier": "C",
-    "field": "information_retrieval",
-    "content_type": "paper",
-    "category": "检索与推荐",
-    "thinking": "论文提出了一种针对电商视频流极端冷启动问题的多模态检索框架，采用了基于CLIP的视觉语言模型实现零样本检索，技术方案具有前沿性。研究通过在线A/B测试验证了系统效果，业务落地价值明确，但未详细说明模型训练数据规模与评估指标的具体阈值，方法严谨性略有不足。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 8,
-      "methodological_rigor": 7
-    },
-    "one_sentence_summary": "该研究利用视觉语言模型解决电商视频推荐中的冷启动问题，通过在线测试显著提升了视频深度完播率。",
-    "credibility_score": 6.0,
-    "composite_score": 6.7,
-    "featured": false,
-    "id": 3815
-  },
-  {
-    "title": "Token Factory: Efficiently Integrating Diverse Signals into Large Recommendation Models",
-    "abstract": "arXiv:2606.19635v1 Announce Type: new \nAbstract: Large Recommendation Models (LRMs) have demonstrated promising capabilities in industry-scale recommendation tasks. However, holistically integrating traditional signals into these transformer-based architectures effectively and efficiently remains a major challenge. Conventional approaches that \"textualize\" these signals directly or create discrete item representations often lead to excessively long prompts, substantial memory footprints, and high computational overhead. To overcome these limitations, we propose \"Token Factory\", a framework designed to transform traditional signals into \"soft tokens\" that can be directly processed by LRMs. This approach enables efficient integration and compression of heterogeneous input features, preventing prompt length explosion while enhancing model performance. We detail the architecture of Token Factory and present experimental results validating its effectiveness in a production-scale recommendation environment.",
-    "date": "2026-06-19",
-    "link": "https://arxiv.org/abs/2606.19635",
-    "affiliations": "",
-    "source": "arXiv - Information Retrieval",
-    "tier": "C",
-    "field": "information_retrieval",
-    "content_type": "paper",
-    "category": "检索与推荐",
-    "thinking": "论文提出的Token Factory框架将传统推荐信号转化为软令牌，有效解决了大推荐模型中信号整合的效率和性能问题，方法具有创新性并在生产环境中验证。但作为预印本，其方法严谨性在同行评审前尚存提升空间，且技术方案主要面向工业界，对图书馆等机构的直接落地价值需进一步适配。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 6,
-      "methodological_rigor": 7
-    },
-    "one_sentence_summary": "该研究提出一种将传统推荐信号转化为软令牌的新框架，以提升大推荐模型的整合效率和性能。",
-    "credibility_score": 6.0,
-    "composite_score": 6.3,
-    "featured": false,
-    "id": 3816
-  },
-  {
-    "title": "SAFE-Cascade: Cost-Adaptive Vision-Language Routing for Chart Question Answering",
-    "abstract": "arXiv:2606.19646v1 Announce Type: new \nAbstract: Vision-language models (VLMs) are powerful for chart question answering, but invoking a VLM for every query can be unnecessarily expensive when many questions are answerable from OCR text and lightweight language reasoning. We demonstrate SAFE-Cascade, an interactive system for cost-adaptive chart question answering. Given a chart image and a natural-language question, SAFE-Cascade first extracts chart text with OCR, obtains a provisional answer from a text-only language model, and then uses a learned router to decide whether to accept the text answer or escalate to a VLM. The demo exposes this decision process to users: OCR evidence, text-only answer, routing probability, escalation decision, final answer, estimated cost, and estimated latency are shown side by side. SAFE-Cascade is designed as a transparent interface for understanding when visual grounding is actually needed. Users can upload or select charts, ask questions, inspect the evidence used by each pathway, compare text-only and VLM answers, and adjust the escalation threshold to explore the accuracy-cost frontier. The system is implemented with Azure Document Intelligence for OCR, gpt-5-mini as the text-only model, gemini-2.5-flash-image as the VLM, and a Random Forest router trained on inference-time features. On a held-out ChartQA test split of 375 examples from a 2,500-example experiment, SAFE-Cascade achieves 69.1% unified accuracy with 73.1% VLM invocation, compared with 67.7% accuracy and 100% VLM invocation for the full-VLM baseline. The observed +1.4 percentage-point difference is statistically uncertain, so we interpret SAFE-Cascade as matching full-VLM performance while reducing VLM calls by 26.9% and estimated cost by 9.3%. The demonstration shows how selective modality routing can make multimodal knowledge systems more transparent, tunable, and cost-aware.",
-    "date": "2026-06-19",
-    "link": "https://arxiv.org/abs/2606.19646",
-    "affiliations": "",
-    "source": "arXiv - Information Retrieval",
-    "tier": "C",
-    "field": "information_retrieval",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "论文提出的SAFE-Cascade系统通过引入成本自适应路由机制，在图表问答任务中有效平衡了精度与成本，体现了前沿的多模态AI系统优化思路。其方法结合了OCR、轻量级语言模型和视觉语言模型，并设计了可解释的交互界面，业务落地潜力显著。然而，论文在方法严谨性上存在不足，主要体现在实验样本量有限（375个测试样本），且性能提升（+1.4%）在统计上不显著，削弱了结论的可靠性。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 8,
-      "methodological_rigor": 6
-    },
-    "one_sentence_summary": "该研究提出一个成本自适应的级联系统，通过智能路由决定何时调用昂贵的视觉模型，能在保持图表问答精度的同时显著降低计算成本。",
-    "credibility_score": 6.0,
-    "composite_score": 6.6,
-    "featured": false,
-    "id": 3817
-  },
-  {
-    "title": "Closing the Calibration Gap in Semantic Caching",
-    "abstract": "arXiv:2606.19719v1 Announce Type: new \nAbstract: Semantic caching cuts LLM inference costs by serving a cached response to semantically similar queries. Standard practice evaluates these systems using PR-AUC, a metric that only measures how well scores rank and ignores whether they are usable at a fixed threshold. We show this mismatch leads to systematically poor deployment choices, as models with the highest PR-AUC are often the worst in operation. We introduce Precision-Cache Hit Ratio (P-CHR) AUC, a cache-aware metric that measures precision across cache utilization levels, and Calibration Retention Rate (CRR), which captures how much offline ranking quality survives at deployment. We decompose the operational gap between offline and deployed quality into a recoverable calibration component and an irreducible structural component fixed by the dataset's positive rate. Our experiments show that the calibration gap is governed by the training objective rather than data scale, and post-hoc calibration only partially closes it. Ultimately, model selection for semantic caching is a calibration problem, not a ranking one, and measuring it is the first step to closing the gap.",
-    "date": "2026-06-19",
-    "link": "https://arxiv.org/abs/2606.19719",
-    "affiliations": "",
-    "source": "arXiv - Information Retrieval",
-    "tier": "C",
-    "field": "information_retrieval",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "该论文针对语义缓存评估中的度量标准不匹配问题，提出了新的评估指标P-CHR AUC和CRR，并揭示了模型选择本质上是校准问题而非排序问题，方法论证严谨。其研究聚焦于优化大语言模型推理成本这一前沿应用场景，但提出的新度量标准和方法论目前主要停留在实验验证阶段，尚未形成行业标准或广泛部署的实践案例。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 6,
-      "methodological_rigor": 9
-    },
-    "one_sentence_summary": "该研究发现，为降低大语言模型成本而设计的语义缓存系统，其离线评估与线上部署效果存在差距，核心是模型校准问题而非排序问题。",
-    "credibility_score": 6.0,
-    "composite_score": 6.6,
-    "featured": false,
-    "id": 3818
   }
 ]
