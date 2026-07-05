@@ -1,5 +1,28 @@
 [
   {
+    "title": "Technology fusion forecasting research via temporal hypergraph link prediction",
+    "abstract": "<p>Technology fusion is a primary driver of modern innovation. Forecasting its emergence is strategically vital for identifying nascent technological opportunities and anticipating industrial transformations. However, capturing the higher-order dependencies and complex temporal evolution inherent in this process—which fundamentally differ from dyadic combinations—presents a unique challenge. To address this challenge, we construct a framework based on temporal hypergraph link prediction (THLP). Fine-grained technology domains are modeled as nodes, and their fusion events—the co-occurrence of multiple technologies in a single patent—are modeled as time-evolving hyperedges. We systematically design a multi-dimensional feature framework and propose a temporal hypergraph deep neural network to predict potential fusion events. Then, we validate our framework against multiple baselines using patent data from emerging technology fields. The superior predictive performance confirms the necessity of modeling higher-order dependencies within technology combinations. Beyond prediction, our framework reveals stable key drivers extracted from a hypergraph for technology fusion. Furthermore, it uncovers a U-shaped effect of sub-module maturity and an inverted U-shaped effect of external dependencies, providing deeper insights into the fusion process. This research offers a powerful analytical tool for managers, policymakers, and investors to identify emerging technological opportunities and formulate effective innovation strategies.</p>",
+    "date": "2026-07-05",
+    "link": "https://link.springer.com/article/10.1007/s11192-026-05673-3",
+    "affiliations": "",
+    "source": "Scientometrics",
+    "tier": "A",
+    "field": "bibliometrics",
+    "content_type": "paper",
+    "category": "计量与评价",
+    "thinking": "该论文构建了基于时序超图链接预测的技术融合预测框架，方法新颖且验证充分，在技术前沿性和方法严谨性上表现突出。然而，其预测模型对高质量专利数据依赖性强，在实际业务场景中直接部署的门槛较高，限制了其当前阶段的实践应用价值。",
+    "scores": {
+      "frontier_tech": 9,
+      "practical_value": 6,
+      "methodological_rigor": 9
+    },
+    "one_sentence_summary": "该研究利用时序超图模型预测未来可能融合的多个技术领域，为识别新兴技术机会提供了新工具。",
+    "credibility_score": 6.8,
+    "composite_score": 7.7,
+    "featured": true,
+    "id": 6960
+  },
+  {
     "title": "Six flagship scientometric journals from a bibliometric perspective",
     "abstract": "<p>The present study offers a comprehensive bibliometric assessment of six flagship scientometric journals, namely, Scientometrics, Journal of Informetrics, Quantitative Science Studies, Journal of Information Science, Research Evaluation, and Publications, covering the 2014–2023 period. The examined journals were selected for their leading role in the distribution of scientometrics research as well as their thematic centrality, citation performance, and publisher diversity within the field. Our study aims to compare productivity and citation impact patterns, evaluate citation-based prestige metrics such as the Scimago Journal Rank (SJR) and Field-Weighted Citation Impact (FWCI), and quantify country-level concentration of publication output and citation impact across the geography of contribution. Data were extracted using Scopus and SciVal, yielding metadata on 6,471 publications. We employed bibliometric methods to analyze the journals’ performance including statistical analyses of publication metrics, citation analysis as well as the examination of internationalization practices of these journals. Analyses revealed notable disparities in output volume and citation distribution, with evidence of the Matthew effect and citation inequality across journals. Scientometrics is the most productive journal in the set, the Journal of Informetrics and Quantitative Science Studies lead the elite citation indicators, and lower-ranked outlets, such as MDPI’s Publications, draw their visibility largely from a small number of high-impact publications. Country-level analysis shows that contribution to these journals is strongly concentrated. Across 110 contributing countries, the top ten account for roughly three-fifths of publications and two-thirds of citations (publication Gini = 0.766; citation Gini = 0.792). Per-journal analysis reveals that the gap between citation and publication concentration varies by more than an order of magnitude across journals, from + 0.005 (JIS) to + 0.148 (QSS), indicating that journals differ markedly in how they convert publication access into citation reward.</p>",
     "date": "2026-07-04",
@@ -11475,28 +11498,5 @@
     "composite_score": 5.4,
     "featured": false,
     "id": 3813
-  },
-  {
-    "title": "MonaVec: A Training-Free Embedded Vector Search Kernel for Edge and Offline AI Systems",
-    "abstract": "arXiv:2606.19458v1 Announce Type: new \nAbstract: We present MonaVec, a deterministic, embedded vector-search kernel for edge and offline AI -- settings where server infrastructure, network connectivity, and training data are all unavailable. Existing vector-search systems assume a persistent server, gigabytes of RAM, or a training pass over the corpus; MonaVec instead targets the deployment profile of SQLite: one file, one function call, runs anywhere. Its quantization core is training-free by default and data-oblivious: a Randomized Hadamard Transform (RHDH) conditions any input distribution toward N(0,1), so precomputed Lloyd-Max tables quantize to 4 bits (8x smaller) with no learned codebook and no data pass. The index persists as a single .mvec file whose embedded ChaCha20 rotation seed makes results reproducible across architectures and byte-identical within a build -- a determinism guarantee that parallel-build graph libraries cannot offer.\n  On semantic embeddings (AG News, 45K x 1024-dim BGE-M3, cosine), MonaVec 4-bit BruteForce reaches 0.960 Recall@10 in 27 MB -- leading float32 FAISS-IVF and 8-bit usearch on recall -- while trading peak throughput for byte-identical determinism. A single-pass global standardization (fit()) extends the same data-oblivious pipeline to magnitude-sensitive L2 data, and optional IvfFlat and HNSW backends carry it to million-vector corpora.\n  MonaVec is implemented in pure Rust with Python bindings and runtime SIMD dispatch (AVX-512/AVX2/NEON/scalar). It targets on-device RAG, offline agents, and embedded retrieval -- the niche SQLite occupies for relational data: one file, one call, runs anywhere.",
-    "date": "2026-06-19",
-    "link": "https://arxiv.org/abs/2606.19458",
-    "affiliations": "",
-    "source": "arXiv - Information Retrieval",
-    "tier": "C",
-    "field": "information_retrieval",
-    "content_type": "paper",
-    "category": "检索与推荐",
-    "thinking": "该论文提出了一种无需训练、嵌入式的向量搜索内核MonaVec，针对边缘和离线AI场景，技术方案新颖且具有明确的工程实现。其采用随机哈达玛变换和预计算量化表实现数据无关的4位量化，方法设计严谨，但作为技术报告，其业务落地价值主要体现在特定嵌入式检索场景，对通用图书馆信息系统的直接应用有限。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 6,
-      "methodological_rigor": 8
-    },
-    "one_sentence_summary": "该研究开发了一种无需训练、单文件部署的嵌入式向量搜索内核，专为无网络、低资源的边缘AI设备提供高效的离线检索能力。",
-    "credibility_score": 6.0,
-    "composite_score": 6.4,
-    "featured": false,
-    "id": 3814
   }
 ]
