@@ -1,5 +1,51 @@
 [
   {
+    "title": "The Emotional Rollercoaster of Scholarly Publishing",
+    "abstract": "<p>Today, we take an emotional journey through scholarly publishing and aim to understand how emotions impact authors', reviewers', and editors' experiences in the scholarly communications lifecycle.</p>\n<p>The post <a href=\"https://scholarlykitchen.sspnet.org/2026/07/06/the-emotional-rollercoaster-of-scholarly-publishing/\">The Emotional Rollercoaster of Scholarly Publishing</a> appeared first on <a href=\"https://scholarlykitchen.sspnet.org\">The Scholarly Kitchen</a>.</p>",
+    "date": "2026-07-06",
+    "link": "https://scholarlykitchen.sspnet.org/2026/07/06/the-emotional-rollercoaster-of-scholarly-publishing/",
+    "affiliations": "",
+    "source": "Scholarly Kitchen",
+    "tier": "C",
+    "field": "scholarly_publishing",
+    "content_type": "news",
+    "category": "观点评论",
+    "thinking": "该资讯探讨学术出版流程中的情感因素，虽与图情领域有间接关联，但更偏向心理学和学术交流的软性层面，对图书馆业务的实际指导价值有限。资讯发布于2026年，具有未来时效性，但内容本身不涉及具体政策或技术变动。",
+    "scores": {
+      "timeliness": 10,
+      "relevance": 5,
+      "information_value": 4
+    },
+    "one_sentence_summary": "一篇探讨学术出版过程中作者、审稿人和编辑情感体验的评论文章。",
+    "credibility_score": 6.0,
+    "composite_score": 6.2,
+    "featured": false,
+    "id": 7159
+  },
+  {
+    "title": "The planned closure of Research Professional News is a loss for the sector",
+    "abstract": "<p>Research Professional News recently announced its impending closure, Adam Golberg considers what is lost when there is no-one to report the \"research\" news.</p>\n<p>The post <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences/2026/07/06/the-planned-closure-of-research-professional-news-is-a-loss-for-the-sector/\">The planned closure of Research Professional News is a loss for the sector</a> first appeared on <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences\">LSE Impact</a>.</p>",
+    "date": "2026-07-06",
+    "link": "https://blogs.lse.ac.uk/impactofsocialsciences/2026/07/06/the-planned-closure-of-research-professional-news-is-a-loss-for-the-sector/",
+    "affiliations": "",
+    "source": "LSE Impact Blog",
+    "tier": "C",
+    "field": "academic_impact",
+    "content_type": "news",
+    "category": "观点评论",
+    "thinking": "该资讯讨论了学术新闻媒体Research Professional News即将关闭的事件及其对行业的影响，发表于2026年，具有较高的时效性。内容聚焦于学术传播生态，与图情领域高度相关，但其信息价值主要体现在观点评论层面，而非提供可直接操作的具体方案。",
+    "scores": {
+      "timeliness": 9,
+      "relevance": 8,
+      "information_value": 6
+    },
+    "one_sentence_summary": "一篇评论文章认为，学术新闻媒体Research Professional News的关闭是学术传播领域的一个损失。",
+    "credibility_score": 6.0,
+    "composite_score": 7.4,
+    "featured": false,
+    "id": 7171
+  },
+  {
     "title": "Technology fusion forecasting research via temporal hypergraph link prediction",
     "abstract": "<p>Technology fusion is a primary driver of modern innovation. Forecasting its emergence is strategically vital for identifying nascent technological opportunities and anticipating industrial transformations. However, capturing the higher-order dependencies and complex temporal evolution inherent in this process—which fundamentally differ from dyadic combinations—presents a unique challenge. To address this challenge, we construct a framework based on temporal hypergraph link prediction (THLP). Fine-grained technology domains are modeled as nodes, and their fusion events—the co-occurrence of multiple technologies in a single patent—are modeled as time-evolving hyperedges. We systematically design a multi-dimensional feature framework and propose a temporal hypergraph deep neural network to predict potential fusion events. Then, we validate our framework against multiple baselines using patent data from emerging technology fields. The superior predictive performance confirms the necessity of modeling higher-order dependencies within technology combinations. Beyond prediction, our framework reveals stable key drivers extracted from a hypergraph for technology fusion. Furthermore, it uncovers a U-shaped effect of sub-module maturity and an inverted U-shaped effect of external dependencies, providing deeper insights into the fusion process. This research offers a powerful analytical tool for managers, policymakers, and investors to identify emerging technological opportunities and formulate effective innovation strategies.</p>",
     "date": "2026-07-05",
@@ -11452,51 +11498,5 @@
     "composite_score": 5.5,
     "featured": false,
     "id": 3811
-  },
-  {
-    "title": "AI4SE and SE4AI Exploration: A Decade Looking Back and Forward",
-    "abstract": "arXiv:2606.19630v1 Announce Type: cross \nAbstract: The March 2020 INCOSE INSIGHT special issue on AI and Systems Engineering (SE) became the most downloaded issue in the publication's history and launched a research community that now draws over 250 registrants to its annual workshop. In this article, we trace the progress in AI and SE across three phases (labeled here foundational, applied, and LLM inflection) based on the authors' reading of the field's core papers, and describe our opinions of where the community has converged and where critical gaps remain. Separately, a human-AI agreement literature review leveraging both human expertise and six AI models was performed to assess the relevance of 1,712 INCOSE INSIGHT articles and 889 SERC publications. The results identify five critical research gaps and offer guidance for practitioners navigating AI adoption, assurance, and workforce transformation in SE. We share the agreement data and the AI4SE/SE4AI Explorer web application so readers can compare their own relevance judgments with the human and AI raters.",
-    "date": "2026-06-19",
-    "link": "https://arxiv.org/abs/2606.19630",
-    "affiliations": "",
-    "source": "arXiv - Digital Libraries",
-    "tier": "C",
-    "field": "digital_libraries",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "该论文通过文献回顾和AI辅助分析，系统梳理了AI与系统工程交叉领域的发展脉络，并识别出关键研究空白，具有较好的方法严谨性和实践指导价值。但论文主要基于现有文献和AI模型评估，在技术前沿性上更多是总结而非突破，且部分结论依赖于作者的主观判断。",
-    "scores": {
-      "frontier_tech": 6,
-      "practical_value": 8,
-      "methodological_rigor": 8
-    },
-    "one_sentence_summary": "本文回顾了人工智能与系统工程交叉领域十年的发展，通过人机协同分析识别出五个关键研究空白，并为实践者提供了应用指南。",
-    "credibility_score": 6.0,
-    "composite_score": 6.1,
-    "featured": false,
-    "id": 3812
-  },
-  {
-    "title": "More Parameters Than Populations: A Systematic Literature Review of Large Language Models within Survey Research",
-    "abstract": "arXiv:2509.03391v2 Announce Type: replace \nAbstract: [Working Paper] Survey research has a long-standing history of being a human-powered field, but one that embraces various technologies for the collection, processing, and analysis of various behavioral, political, and social outcomes of interest, among others. At the same time, Large Language Models (LLMs) bring new technological challenges and prerequisites in order to fully harness their potential. In this paper, we report work-in-progress on a systematic literature review based on keyword searches from multiple large-scale databases as well as citation networks that assesses how LLMs are currently being applied within the survey research process. We synthesize and organize our findings according to the survey research process to include examples of LLM usage across three broad phases: pre-data collection, data collection, and post-data collection. We discuss selected examples of potential use cases for LLMs as well as its pitfalls based on examples from existing literature. Considering survey research has rich experience and history regarding data quality, we discuss some opportunities and describe future outlooks for survey research to contribute to the continued development and refinement of LLMs.",
-    "date": "2026-06-19",
-    "link": "https://arxiv.org/abs/2509.03391",
-    "affiliations": "",
-    "source": "arXiv - Digital Libraries",
-    "tier": "C",
-    "field": "digital_libraries",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "该论文采用系统文献综述方法，对LLM在调查研究中的应用进行了全面梳理，方法严谨且覆盖了从数据收集前到收集后的完整流程，具有较好的方法论价值。然而，作为一篇综述性工作，其本身不涉及前沿技术的直接创新或开发，且对具体业务落地的探讨仍停留在机会与挑战层面，缺乏可直接操作的实施方案。",
-    "scores": {
-      "frontier_tech": 6,
-      "practical_value": 5,
-      "methodological_rigor": 8
-    },
-    "one_sentence_summary": "这篇论文通过系统综述，梳理了大型语言模型在调查研究全流程中的应用现状、潜在用例与面临的问题。",
-    "credibility_score": 6.0,
-    "composite_score": 5.4,
-    "featured": false,
-    "id": 3813
   }
 ]

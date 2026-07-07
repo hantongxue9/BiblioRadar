@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-07",
+    "summary": "今日图情领域的研究呈现出鲜明的跨学科与技术驱动特征。在计量与评价方面，研究重点从传统的文献计量转向对新兴数据源（如OpenAlex）的评估和利用复杂网络（如知识继承网络、作者贡献网络）揭示知识演化与创新机会。人工智能应用研究持续深化，焦点从基础任务（如命名实体识别）扩展到更具挑战性和现实意义的场景，包括金融文档事件抽取、多模态假新闻检测、AI对话服务满意度预测以及大语言模型内部一致性的量化评估。这些研究普遍强调模型的鲁棒性、可解释性及在特定领域（如遥感、网络内容治理）的落地能力。用户行为研究则进一步细化，结合认知心理学与计量模型，探索用户对可视化信息及AI生成内容的信任与核查机制。整体趋势表明，图情研究正紧密融合数据科学、人工智能与认知科学，致力于解决信息生产、组织、检索与利用全链条中的复杂问题。",
+    "highlights": [
+      "论文｜Unveiling thematic evolution and R&D opportunities through knowledge inheritance networks: A case study in telecommunications｜通过构建知识继承网络，为领域主题演化分析与研发机会识别提供了新颖的网络分析方法论。",
+      "论文｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜系统评估了新兴开放学术数据库OpenAlex，为文献计量研究和数据源选择提供了关键且及时的参考依据。",
+      "论文｜Latent relation-aware graph framework for document-level Chinese financial event extraction｜提出的图神经网络框架有效应对了中文金融文档的复杂性，提升了事件信息抽取的准确性，具有重要应用价值。",
+      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜实证研究表明图书馆员指导在AI信息中介场景中具有调节作用，为信息素养教育融入AI环境提供了新证据。",
+      "动态｜From bibliometrics to AI safety: Measuring internal persona disruption in LLMs with the DI-Persona metric｜将文献计量思维引入AI安全评估，提出量化大语言模型角色一致性的新指标，体现了学科交叉的前沿探索。",
+      "趋势判断｜图情研究正深度整合复杂网络分析、多模态AI与认知行为模型，致力于构建更具解释性和鲁棒性的信息处理与知识服务框架。"
+    ],
+    "stats": {
+      "papers": 122,
+      "news": 129,
+      "featured": 63
+    }
+  },
+  {
     "date": "2026-07-06",
     "summary": "今日图情领域的研究呈现出明显的技术驱动与深度量化特征。在计量与评价方面，研究焦点从传统的引文分析转向更复杂的网络动态（如合作网络演化）和跨领域技术融合预测，并开始利用大语言模型等新工具评估同行评审质量。人工智能应用持续深化，特别是在处理专业领域（如医疗编码、金融文本）的长尾、复杂任务以及优化分布式学习框架（如联邦学习）方面取得了进展。用户行为研究则更注重结合认知理论与计算模型，以预测信息解读与验证行为。同时，行业动态显示，欧洲研究图书馆界正通过发布中长期战略，系统性地规划其在数字学术生态中的角色与核心价值。",
     "highlights": [
