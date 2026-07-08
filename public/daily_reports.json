@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-08",
+    "summary": "今日图情领域的研究热点集中在文献计量方法的创新与人工智能技术的深度应用。在计量与评价方面，研究重点从传统指标计算转向更复杂的网络分析与动态过程建模，如通过合作网络动态、知识继承网络和生成式拓扑映射来揭示学术影响力形成机制与科技演化路径。同时，对新兴数据源（如OpenAlex）的评估及对透明、可审计计量流程的追求，反映了该领域对方法严谨性的持续关注。在人工智能应用方面，大语言模型正被系统性地应用于信息抽取、文本分析（如修辞结构、学习成果）、数据分类与质量控制等多个核心任务，显示出从探索性尝试向具体、专业化解决方案发展的趋势。此外，用户对AIGC技术的风险感知与信任机制研究，以及图书馆界发布的战略声明，体现了对技术伦理、社会责任和机构未来角色的思考。",
+    "highlights": [
+      "论文｜The dynamic scholar: How evolving co-authorship fuels scholarly performance｜通过实证研究揭示了学者合作网络的动态调整对其长期学术表现的促进作用。",
+      "论文｜Unveiling thematic evolution and R&D opportunities through knowledge inheritance networks｜提出知识继承网络方法，有效识别电信领域的研究主题演化轨迹与潜在研发方向。",
+      "论文｜From manual to automated: applying large language models to rhetorical move analysis in journal abstracts｜将大语言模型应用于学术摘要修辞结构分析，为文献计量与学术写作研究提供了高效的新工具。",
+      "动态｜Our 2023-2027 Strategy｜欧洲研究图书馆协会发布未来五年战略规划，为全球研究图书馆在开放科学、数字转型等关键议题上的发展提供了重要参考框架。",
+      "动态｜Is responsible AI a public demand? Trust, risk, and persuasion in local government AI｜研究探讨了公众对地方政府应用人工智能的信任与风险认知，为制定负责任的公共AI政策提供了实证依据。",
+      "趋势判断｜大语言模型正从通用探索转向图情领域特定任务的深度集成与流程再造｜LLM的应用正从初步尝试转向构建专业化框架，以解决信息抽取、文本分析、数据治理等核心业务问题，推动工作流程的自动化与智能化。"
+    ],
+    "stats": {
+      "papers": 212,
+      "news": 133,
+      "featured": 67
+    }
+  },
+  {
     "date": "2026-07-07",
     "summary": "今日图情领域的研究呈现出鲜明的跨学科与技术驱动特征。在计量与评价方面，研究重点从传统的文献计量转向对新兴数据源（如OpenAlex）的评估和利用复杂网络（如知识继承网络、作者贡献网络）揭示知识演化与创新机会。人工智能应用研究持续深化，焦点从基础任务（如命名实体识别）扩展到更具挑战性和现实意义的场景，包括金融文档事件抽取、多模态假新闻检测、AI对话服务满意度预测以及大语言模型内部一致性的量化评估。这些研究普遍强调模型的鲁棒性、可解释性及在特定领域（如遥感、网络内容治理）的落地能力。用户行为研究则进一步细化，结合认知心理学与计量模型，探索用户对可视化信息及AI生成内容的信任与核查机制。整体趋势表明，图情研究正紧密融合数据科学、人工智能与认知科学，致力于解决信息生产、组织、检索与利用全链条中的复杂问题。",
     "highlights": [
@@ -214,56 +231,6 @@
       "papers": 135,
       "news": 125,
       "featured": 60
-    }
-  },
-  {
-    "date": "2026-06-22",
-    "summary": "今日图情领域研究呈现两大焦点：一是学术评价方法的深化与数据基础设施的评估，二是人工智能技术在信息场景中的深度应用与影响评估。在计量与评价方面，研究趋势从传统指标转向多维、动态和因果分析，如作者自引的多维评估模型、科研数据缺失影响的量化建模，以及对OpenAlex等新兴开放数据库的系统性评估。在AI应用方面，研究重点集中于大语言模型在文本分析（如摘要修辞结构分析）、虚假新闻检测等具体任务的效能，并开始关注人机协作中馆员角色、用户信息核查行为等社会技术因素。数据管理与用户行为研究则分别关注细粒度访问控制框架的构建，以及用户特质与信息呈现方式对认知效果的影响机制。",
-    "highlights": [
-      "论文｜Modeling the impact of research data unavailability on science｜通过建模量化了科研数据无法获取对科学产出的负面影响，为数据共享政策提供了关键的实证依据。",
-      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜揭示了在AI辅助的协作学习中，馆员指导与学生对AI的权威感知如何共同影响团队创造力，对设计人机协同服务具有启示。",
-      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜系统评估了新兴开放学术数据库OpenAlex，为相关机构是否及如何采用这一重要替代数据源提供了决策参考。",
-      "动态｜From manual to automated: applying large language models to rhetorical move analysis in journal abstracts｜展示了利用大语言模型自动化分析学术摘要修辞结构的可行性，为学术文本挖掘提供了高效的新工具。",
-      "趋势判断｜学术评价研究正从指标计算转向对科研过程、数据生态及影响机制的更精细建模｜今日多篇论文体现了评价方法向多维、动态和因果推断发展的明确趋势，关注数据可得性、知识继承、科学-技术时滞等深层因素。"
-    ],
-    "stats": {
-      "papers": 133,
-      "news": 118,
-      "featured": 59
-    }
-  },
-  {
-    "date": "2026-06-21",
-    "summary": "今日图情领域的研究呈现出对人工智能应用的深度探索与对传统计量评价方法的精细化改进并行的趋势。在AI应用方面，焦点从通用模型转向解决特定领域（如医学档案、学术文本分析）的实际问题，并高度关注应用的负责任性与用户行为影响，例如探讨公众对政府AI的信任及用户对生成式AI输出信息的验证行为。在计量与评价领域，研究不再局限于传统引文计数，而是深入挖掘合作网络动态、作者自引的公平评估、数据可获取性的量化影响以及科学与技术知识流的异步性分析，旨在构建更全面、公平且具有预测能力的评估体系。开放获取等政策议题继续受到行业关注。",
-    "highlights": [
-      "论文｜A multidimensional evaluation model for author self-citation: integrating contribution, depth, intensity, and location｜提出的多维度作者自引评估模型，通过整合语义贡献等因素，为公平评价学术贡献提供了更精细化的方法。",
-      "论文｜Relationship between peer review quality and scientific impact: Insights from LLMs-assessed reviews｜利用大语言模型量化同行评审质量，为探索评审过程与论文长期影响力关系提供了新的研究路径。",
-      "论文｜Determinants of information verification behaviour among generative AI users｜采用混合研究方法，系统识别了生成式AI用户进行信息验证行为的关键影响因素，具有重要的实践指导意义。",
-      "动态｜Advancing Open Science｜LIBER发布推进开放科学的最新动态，反映了图情机构在当前学术交流生态中的核心政策参与角色。",
-      "动态｜#ZeroEmbargo Campaign｜LIBER发起的消除开放获取时滞运动，体现了行业在推动即时、无障碍学术传播方面的持续努力。",
-      "趋势判断｜图情领域AI应用正从技术可行性验证，转向深度融合领域知识、关注伦理信任并探究用户行为影响的系统化研究阶段。"
-    ],
-    "stats": {
-      "papers": 135,
-      "news": 119,
-      "featured": 56
-    }
-  },
-  {
-    "date": "2026-06-19",
-    "summary": "今日图情领域的研究呈现出以人工智能技术深度融入和科学计量方法创新为主的双重趋势。在科学计量与评价方面，研究重点在于提升分析过程的透明度、可复现性及指标计算的科学性，例如通过整合工具构建标准化工作流，或开发基于多种贡献分配方案的自动化评估系统。同时，对新兴开放学术数据库的评估为资源选择提供了重要参考。在人工智能应用层面，大语言模型正被广泛探索用于知识组织、文本分析、元数据增强及智能推荐等多个场景，显示出从通用能力向图情专业任务迁移的强劲势头。此外，用户对生成式人工智能的风险感知与信任机制研究，为理解技术采纳障碍提供了实证视角。",
-    "highlights": [
-      "论文｜Biblioshiny and the SAAS Workflow: An integrated framework for transparent and reproducible science mapping｜为科学图谱分析提供了一个旨在提升过程透明度和结果可复现性的标准化集成框架。",
-      "论文｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜全面审视了新兴开放学术数据库OpenAlex，为学界选择和使用该工具提供了关键参考。",
-      "论文｜From manual to automated: applying large language models to rhetorical move analysis in journal abstracts｜利用大语言模型实现了学术摘要修辞结构的自动化分析，为文献处理与知识组织提供了高效新工具。",
-      "动态｜State-of-the-art services｜欧洲研究图书馆协会发布关于图书馆前沿服务发展的最新动态，反映了行业服务创新的方向。",
-      "动态｜Text & Data Mining｜欧洲研究图书馆协会发布关于文本与数据挖掘的政策讨论，涉及图书馆在支持数字研究中的关键角色与挑战。",
-      "趋势｜大语言模型正系统地应用于图情核心业务场景｜从知识图谱构建、元数据增强到文本分析与推荐，大语言模型正从通用能力向专业化、细粒度图情任务深度迁移。"
-    ],
-    "stats": {
-      "papers": 149,
-      "news": 125,
-      "featured": 55
     }
   }
 ]
