@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-09",
+    "summary": "今日图情领域研究呈现出以人工智能深度应用与科学计量方法学革新并重的特点。在AI应用方面，研究焦点从通用工具转向面向特定专业场景的垂直优化，如面向科学计量证据检索的图增强框架、专用于PostGIS地理查询生成的微调大模型，以及针对医学虚假信息验证、科学多模态摘要等具体任务的创新框架，显示出AI技术正加速与图书馆学、情报学的具体业务场景深度融合。在计量与评价领域，研究强调方法的透明度、可复现性与精细化分析，如可审计的文献计量流水线构建、国家层面科研人员AI转型差异的揭示，以及对OpenAlex等新兴开放数据源的系统性评估，反映了学界对研究评估过程严谨性与数据基础可靠性的持续关注。用户行为研究则进一步结合动态网络分析与心理测量模型，深化对在线社区信息传播与个体信息解读差异的理解。",
+    "highlights": [
+      "论文｜Evidence access design for llm-based scientometrics: graph-based evidence augmentation over semantic retrieval｜提出基于图结构的证据增强框架，为LLM在科学计量分析中提供更连贯、可解释的证据检索路径。",
+      "论文｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜设计了一个标准化、可审计的数据流水线，旨在系统性提升文献计量分析与研究评估的透明度与可复现性。",
+      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的大规模实证分析，揭示了LLM辅助写作与论文引用表现之间可能存在的关联。",
+      "动态｜PostGISer: The first end-to-end fine-tuned large language model for PostGIS GeoSQL query generation｜开发了首个专用于地理空间查询生成的微调大模型，标志着AI向特定专业数据库查询场景的深度渗透。",
+      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜对新兴开放学术数据库OpenAlex进行了全面审视与评估，为学界选择和使用该数据源提供了重要参考。",
+      "趋势判断｜AI应用研究正从通用能力探索转向面向图情具体场景的垂直化、专业化模型与框架开发，同时科学计量方法学更加强调过程的严谨性与数据基础的可靠性。"
+    ],
+    "stats": {
+      "papers": 194,
+      "news": 134,
+      "featured": 84
+    }
+  },
+  {
     "date": "2026-07-08",
     "summary": "今日图情领域的研究热点集中在文献计量方法的创新与人工智能技术的深度应用。在计量与评价方面，研究重点从传统指标计算转向更复杂的网络分析与动态过程建模，如通过合作网络动态、知识继承网络和生成式拓扑映射来揭示学术影响力形成机制与科技演化路径。同时，对新兴数据源（如OpenAlex）的评估及对透明、可审计计量流程的追求，反映了该领域对方法严谨性的持续关注。在人工智能应用方面，大语言模型正被系统性地应用于信息抽取、文本分析（如修辞结构、学习成果）、数据分类与质量控制等多个核心任务，显示出从探索性尝试向具体、专业化解决方案发展的趋势。此外，用户对AIGC技术的风险感知与信任机制研究，以及图书馆界发布的战略声明，体现了对技术伦理、社会责任和机构未来角色的思考。",
     "highlights": [
@@ -214,23 +231,6 @@
       "papers": 222,
       "news": 125,
       "featured": 73
-    }
-  },
-  {
-    "date": "2026-06-23",
-    "summary": "今日图情领域的研究热点集中于学术评价方法的精细化与人工智能应用的深化。在学术评价方面，多篇论文聚焦于数据质量与评价模型，揭示了作者机构归属错误对研究者流动性指标的显著影响，并提出了整合贡献、深度、强度与位置的多维自引评估模型，以及利用大语言模型量化科学与技术主题关联的新方法，反映了从依赖单一指标向构建更公平、精细、多维评价体系的发展趋势。在人工智能应用方面，研究不仅关注技术本身（如金融事件抽取、联邦学习），更深入探讨了人机协作中的文档管理、馆员角色、用户信任与信息核查行为，显示出AI应用正从工具层面向深度融合的认知与行为层面拓展。此外，对OpenAlex等新兴数据库的评估为数据源选择提供了重要参考。",
-    "highlights": [
-      "论文｜Affiliation errors and distorted researcher mobility: evidence from OpenAlex and Scopus｜通过实证分析揭示了学术数据库中机构归属错误的普遍性及其对研究者流动性指标的重大扭曲，强调了数据质量对文献计量研究的基础性影响。",
-      "论文｜A multidimensional evaluation model for author self-citation: integrating contribution, depth, intensity, and location｜提出了一个超越简单计数的、整合多维度信息的自引评估框架，为学术诚信与贡献评价提供了更精细的分析工具。",
-      "论文｜When AI outputs become documents: Documentation activity in human–AI dialogue｜探讨了将AI输出作为新型文档进行管理的前沿问题，对图书馆学与信息科学在AI时代的核心职责提出了新思考。",
-      "动态｜Our 2023-2027 Strategy｜欧洲研究图书馆协会发布未来五年战略规划，为理解全球研究图书馆在数字化转型、开放科学等关键领域的发展方向提供了权威参考。",
-      "动态｜Text & Data Mining｜欧洲研究图书馆协会发布关于文本与数据挖掘的资讯，反映了国际图书馆界在应对数字内容利用相关法律与政策挑战方面的最新动态。",
-      "趋势判断｜学术评价体系正经历从依赖单一指标向构建多维度、情境化、数据驱动模型的深刻转变，同时AI应用研究正从技术实现转向关注其在信息生态中的人机协同、信任构建与伦理影响。"
-    ],
-    "stats": {
-      "papers": 135,
-      "news": 125,
-      "featured": 60
     }
   }
 ]
