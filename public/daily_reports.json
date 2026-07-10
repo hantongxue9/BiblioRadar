@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-10",
+    "summary": "今日图情领域的研究呈现出对科研评价体系与方法论的持续关注，尤其聚焦于新兴技术与复杂协作模式对学术影响力形成机制的塑造。计量与评价方向的研究深入探讨了LLM辅助写作与引用绩效的关联、合作网络动态对学者表现的影响，以及颠覆性科学领域中同行评议预测效力的演变，凸显了数据驱动评价范式的深化。同时，AI应用研究展现出向专业化、隐私保护方向发展的趋势，如针对地理空间查询和隐私保护RAG的专用模型开发。知识图谱与可视化分析则继续在揭示领域知识演进和提升信息解读准确性方面提供新工具与新见解。",
+    "highlights": [
+      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的大规模实证，揭示了LLM辅助写作与论文引用绩效提升的可能关联。",
+      "论文｜The dynamic scholar: How evolving co-authorship fuels scholarly performance｜实证研究了学者合作网络的动态演化特征，并将其确立为驱动科研绩效的关键因素。",
+      "动态｜PostGISer: The first end-to-end fine-tuned large language model for PostGIS GeoSQL query generation｜报道了首个针对地理空间数据库查询生成的专用微调大语言模型，标志着AI在图情细分领域的深入应用。",
+      "动态｜Privacy-preserving RAG via multi-agent semantic rewriting｜提出了一种通过多智能体语义重写实现隐私保护的RAG框架，平衡了信息检索的准确性与用户隐私安全。",
+      "趋势判断｜同行评议的预测效力在颠覆性科学领域面临挑战｜研究表明，在AI等快速演进领域，传统同行评议对未来论文影响力的预测能力发生显著变化，提示评价体系需动态适应。"
+    ],
+    "stats": {
+      "papers": 181,
+      "news": 129,
+      "featured": 75
+    }
+  },
+  {
     "date": "2026-07-09",
     "summary": "今日图情领域研究呈现出以人工智能深度应用与科学计量方法学革新并重的特点。在AI应用方面，研究焦点从通用工具转向面向特定专业场景的垂直优化，如面向科学计量证据检索的图增强框架、专用于PostGIS地理查询生成的微调大模型，以及针对医学虚假信息验证、科学多模态摘要等具体任务的创新框架，显示出AI技术正加速与图书馆学、情报学的具体业务场景深度融合。在计量与评价领域，研究强调方法的透明度、可复现性与精细化分析，如可审计的文献计量流水线构建、国家层面科研人员AI转型差异的揭示，以及对OpenAlex等新兴开放数据源的系统性评估，反映了学界对研究评估过程严谨性与数据基础可靠性的持续关注。用户行为研究则进一步结合动态网络分析与心理测量模型，深化对在线社区信息传播与个体信息解读差异的理解。",
     "highlights": [
@@ -215,22 +231,6 @@
       "papers": 180,
       "news": 126,
       "featured": 61
-    }
-  },
-  {
-    "date": "2026-06-24",
-    "summary": "今日图情领域研究呈现出以数据驱动为核心，深度结合人工智能技术与传统研究方法的趋势。在计量与评价方面，研究重点从传统的网络与指标分析，转向对评估过程本身的可审计性、数据库结构性差异的影响，以及同行评审在学科快速演进中的预测效力等元科学问题的探索。在AI应用层面，研究焦点深入至人机协同的具体机制，如馆员角色在AI中介环境中的作用、AI生成内容的逻辑一致性保障，以及用户对AI服务满意度的动态认知情感建模。同时，用户行为研究超越基础能力评估，开始构建整合个人特质与任务特征的预测模型，以更精细地理解信息交互过程。",
-    "highlights": [
-      "论文｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜提出标准化可追溯数据流水线，为提升文献计量分析透明度和可重复性提供了方法论框架。",
-      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜以AI领域为例，实证检验了科学范式快速变革时期同行评审的预测效力。",
-      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜揭示了在AI辅助的协作学习场景中，馆员指导强度与专业权威认知对团队创造力的复合影响。",
-      "动态｜DC-FM: A logic-fact dual consistency filtering method for aligned samples in graph-to-text generation｜提出逻辑与事实双重一致性过滤方法，旨在提升AI图到文本生成任务的输出可靠性。",
-      "趋势判断｜计量评价研究正从结果分析转向过程审视与工具反思，强调评估实践的透明度、稳健性与情境适应性。"
-    ],
-    "stats": {
-      "papers": 222,
-      "news": 125,
-      "featured": 73
     }
   }
 ]
