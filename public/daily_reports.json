@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-12",
+    "summary": "今日图情领域的研究呈现出两大核心趋势：一是文献计量与科研评价方法持续深化，关注分析流程的透明度、贡献分配的精细化以及全球知识流动的动态评估；二是人工智能技术在图情场景的应用与反思并存，一方面在信息检索、知识组织、内容生成等具体任务上出现新的技术方案（如针对地理空间查询、金融事件抽取的专用模型），另一方面也加强了对AI应用（如辅助同行评审）潜在风险的实证研究。技术融合的可视化分析、科研人员转型的模式识别等研究，体现了从宏观结构到微观行为的多层次洞察。",
+    "highlights": [
+      "论文｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜提出一个标准化、可审计的数据处理流程，有助于提升文献计量分析在研究评价中的透明度与可重复性。",
+      "论文｜Exploiting large language models in peer review: indirect prompt injection attacks and integrity probes｜通过实验揭示了隐藏指令可操控AI生成评审意见，对AI辅助学术评审的安全性提出了重要警示。",
+      "论文｜New indicators for capturing the balances and roles of nations in the global knowledge exchange system｜构建了一套新指标，用于量化分析各国在全球知识交流网络中的角色定位与平衡状态。",
+      "动态｜PostGISer: The first end-to-end fine-tuned large language model for PostGIS GeoSQL query generation｜发布了首个针对地理空间数据库查询生成任务进行端到端微调的大语言模型，是AI在专业领域应用的具体进展。",
+      "动态｜Task-aware modality configuration in personalized health information systems｜研究发现根据用户任务情境动态配置信息呈现方式能提升效率，为个性化信息系统设计提供了实证依据。",
+      "趋势判断｜AI应用从通用能力探索转向特定领域与风险治理并重｜今日研究显示，AI在图情的应用正朝专用模型发展，同时对其在严肃场景（如评审）中的可靠性研究也在加强。"
+    ],
+    "stats": {
+      "papers": 159,
+      "news": 135,
+      "featured": 78
+    }
+  },
+  {
     "date": "2026-07-11",
     "summary": "今日图情领域的研究呈现出对学术生态、用户行为与人工智能应用的多维度关注。在学术计量与评价方面，研究深入探讨了合作模式、团队结构、研究方法演变及新兴数据源（如OpenAlex）对学者表现与学术生涯的影响，揭示了学术产出的复杂驱动因素。用户行为研究聚焦于在线社区意见领袖的动态识别、可视化信息解读的影响因素，以及生成式AI用户的信息核查行为，强调了情境与个体差异的重要性。人工智能应用研究则持续向纵深发展，涵盖提升模型性能的技术方法（如层次化学习、联邦学习优化）、在档案编目等领域的实践案例，以及AI素养与信息素养整合的教育框架构建，体现了技术赋能与人文关怀并重的趋势。",
     "highlights": [

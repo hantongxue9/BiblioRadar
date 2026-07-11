@@ -23,6 +23,98 @@
     "id": 8005
   },
   {
+    "title": "Global overlay map based on DOCDB IPC data for visualizing technological convergence: application in the field of artificial intelligence",
+    "abstract": "<p>Technological convergence reflects emerging innovation trends, and monitoring its dynamics is crucial for innovation-related decision-making. However, quantitatively identifying and visualizing significant strengthening or weakening in technology convergence remains challenging. This study proposes a method based on EPO DOCDB IPC data to detect such patterns. A global technology base map is constructed, on which global convergence overlay maps are developed to enable multi-level comparative analyses and visualization of prominent convergences. A Large Language Model (LLM)-based validation confirms the proposed method’s effectiveness in capturing substantial convergence trends, achieving an average significance percentage of 90% for strengthening convergence and 87% for weakening convergence. Using artificial intelligence (AI) as a case study, our results show that the method effectively reveals prominent global convergence patterns in the AI field, as well as the similarities and differences in convergence trends across countries and organizations. Globally, AI core technology computing shows the strongest convergence strengthening with life sciences and measurement technologies, while its convergence with communication technologies weakens. Nationally, both China and the U.S. promote AI–based life sciences convergence, more pronounced in the U.S., whereas China shows a more diversified convergence profile. Organizationally, Google, Microsoft, Huawei, and Baidu center their convergence strategies around computing, but their convergence targets differ, reflecting distinct strategic priorities and innovation trajectories. This method offers a novel analytical framework and visualization tool for monitoring technological convergence, aiding innovation policy and R&amp;D strategy formulation.</p>",
+    "date": "2026-07-11",
+    "link": "https://link.springer.com/article/10.1007/s11192-026-05697-9",
+    "affiliations": "",
+    "source": "Scientometrics",
+    "tier": "A",
+    "field": "bibliometrics",
+    "content_type": "paper",
+    "category": "计量与评价",
+    "thinking": "该论文基于DOCDB IPC数据构建全球技术融合可视化方法，并采用大语言模型进行验证，技术前沿性较强。方法设计严谨，案例聚焦人工智能领域，对国家和组织层面的创新策略分析具有实际参考价值。但验证环节依赖LLM，可能存在一定主观性，且样本范围限定在AI领域，普适性有待进一步检验。",
+    "scores": {
+      "frontier_tech": 9,
+      "practical_value": 8,
+      "methodological_rigor": 8
+    },
+    "one_sentence_summary": "该研究提出了一种基于专利数据可视化技术融合趋势的新方法，并以人工智能领域为例揭示了不同国家和企业的融合策略差异。",
+    "credibility_score": 6.8,
+    "composite_score": 8.1,
+    "featured": true,
+    "id": 8284
+  },
+  {
+    "title": "Domain agnostic features for robust novelty assessment of scientific publication",
+    "abstract": "<p>Assessing scientific novelty remains a challenging problem in research evaluation, particularly given the rapid growth of scientific publication output and the increasing automation of scientific writing. While large language models enable increasingly detailed semantic analysis of text, computational approaches to estimating novelty that do not depend on citation metadata, curated vocabularies, or other domain-specific resources remain under development. In this study, we investigate whether novelty-related signals can be identified directly from statistical patterns produced by transformer language models during text processing. Treating novelty as a property of the conceptual content expressed in scientific text, we estimate it through the analysis of article abstracts, which serve as compact representations of scientific contributions. To address this question, we construct a feature-based framework derived from token-level loss distributions and evaluate it across three STEM domains—engineering, neuroscience, and chemistry—using classifiers from different model families. The results indicate that the extracted distributional patterns remain stable across domains and robust under semantic reformulation of the input text. Overall, the findings suggest that transformer-derived statistical patterns provide a domain-agnostic basis for computational novelty estimation. The proposed framework remains applicable in relatively low-data settings and can be implemented using comparatively lightweight models, making it suitable for scalable novelty estimation in scientific evaluation workflows.</p>",
+    "date": "2026-07-11",
+    "link": "https://link.springer.com/article/10.1007/s11192-026-05687-x",
+    "affiliations": "",
+    "source": "Scientometrics",
+    "tier": "A",
+    "field": "bibliometrics",
+    "content_type": "paper",
+    "category": "计量与评价",
+    "thinking": "该论文提出了一种基于Transformer语言模型统计特征的科学文献新颖性评估方法，其优势在于不依赖引文或领域特定资源，具有跨领域稳健性和低数据需求，适合规模化应用。但方法仍处于探索阶段，未在真实评价场景中验证其预测效度，且对新颖性的定义和测量仍基于文本统计模式，未深入结合科学认知理论。",
+    "scores": {
+      "frontier_tech": 9,
+      "practical_value": 6,
+      "methodological_rigor": 7
+    },
+    "one_sentence_summary": "该研究发现，从Transformer模型处理文本时产生的统计模式中提取的特征，可以作为一种跨学科、稳健的计算方法来评估科学文献的新颖性。",
+    "credibility_score": 6.8,
+    "composite_score": 7.3,
+    "featured": false,
+    "id": 8285
+  },
+  {
+    "title": "Market for lemons in academia: adverse selection with dynamic human capital formation and policy lock-in",
+    "abstract": "<p>This paper develops a dynamic theory of academic publishing in which evaluation metrics interact with researchers’ skill formation. Building on classic models of adverse selection and signaling, the analysis introduces endogenous human capital dynamics: researchers’ skills evolve as a function of their publication choices. Engagement with high-scrutiny journals enhances skills through learning-by-doing and referee feedback, while repeated publication in low-scrutiny outlets leads to skill depreciation. The model shows that when governing bodies fail to differentiate between high- and low-scrutiny publication outlets researchers optimally exert minimal effort, triggering a decline in aggregate research skills. Crucially, this process generates hysteresis: even if evaluation policies are later corrected, accumulated skill depreciation may prevent the re-emergence of a separating equilibrium. The stylised facts motivated by a comparison of two research funding regimes in Kazakhstan—one imposing strict publication targets tied to indexed journals, and another without publication requirements—show markedly different publication patterns despite operating within the same academic environment. The framework highlights a previously unexplored channel through which metric-based evaluation systems can cause persistent damage to research capacity. It delivers several policy implications: delayed reforms are costly, stronger differentiation across publication outlets may be required to restore quality, and increasing the cost of low-scrutiny publication can be as important as raising rewards for high-quality output.</p>",
+    "date": "2026-07-11",
+    "link": "https://link.springer.com/article/10.1007/s11192-026-05726-7",
+    "affiliations": "",
+    "source": "Scientometrics",
+    "tier": "A",
+    "field": "bibliometrics",
+    "content_type": "paper",
+    "category": "计量与评价",
+    "thinking": "该论文构建了一个动态理论模型，将学术评价指标与研究者技能形成过程相结合，揭示了基于指标的评估体系可能通过“逆向选择”和技能贬值机制对研究能力造成持久损害，理论创新性强。模型分析严谨，并辅以哈萨克斯坦的案例进行初步印证，但实证部分相对简化，主要依赖理论推导和风格化事实。",
+    "scores": {
+      "frontier_tech": 7,
+      "practical_value": 8,
+      "methodological_rigor": 8
+    },
+    "one_sentence_summary": "论文提出一个动态模型，指出僵化的论文指标评价体系可能导致研究者技能整体衰退，且这种损害具有持续性，难以通过后期政策修正完全挽回。",
+    "credibility_score": 6.8,
+    "composite_score": 7.4,
+    "featured": false,
+    "id": 8286
+  },
+  {
+    "title": "Exploiting large language models in peer review: indirect prompt injection attacks and integrity probes",
+    "abstract": "<p>Large language models are beginning to enter peer review as tools for summarizing manuscripts, drafting evaluations, and reducing reviewer workload. Yet this use creates a security problem specific to evaluative settings: the manuscript being judged can also contain hidden instructions that shape the model’s judgment. We investigate this risk through indirect prompt injection, where hidden text embedded in a manuscript is processed like a benign prompt by a public chatbot during review generation. We introduce an Author-Reviewer-Organizer framework that distinguishes author-side manipulation from organizer-side integrity checks, and use it to evaluate both offensive payloads, which steer reviews toward positive or negative judgments, and integrity-probing payloads, which trigger refusal, watermarking, or external-site redirection. The redirection payload is introduced here as a novel integrity-check mechanism. In experiments on 100 OpenReview papers, two public chatbot systems, five payload families, two custom prompt approaches, three injection positions, and five repeated runs per condition, we generate 42000 model outputs. Hidden instructions are highly effective: positive steering, refusal, and external-site redirection exceed 98% success on both systems; watermarking remains high but less reliable, reaching 94.27% on ChatGPT and 88.17% on Gemini; and negative steering is near-ceiling on ChatGPT but lower on Gemini. Vulnerability varies with payload design, model, and document position. These findings show that current models exhibit “contextual blindness”: they do not reliably separate manuscript content from embedded control text. This weakness threatens the validity of AI-assisted review, while also creating a dual-use channel that organizers may repurpose for detection. Peer-review systems that rely on public LLMs therefore require stronger safeguards between document content and instructions before they can be trusted in evaluative workflows.</p>",
+    "date": "2026-07-11",
+    "link": "https://link.springer.com/article/10.1007/s11192-026-05695-x",
+    "affiliations": "",
+    "source": "Scientometrics",
+    "tier": "A",
+    "field": "bibliometrics",
+    "content_type": "paper",
+    "category": "AI应用",
+    "thinking": "该论文通过系统实验揭示了LLM在同行评审中面临间接提示注入攻击的风险，方法设计严谨，实验规模充分，具有重要的安全警示意义。但研究主要聚焦于攻击验证，对实际防护措施的探讨相对有限，业务落地价值更多体现在风险预警而非直接解决方案。",
+    "scores": {
+      "frontier_tech": 9,
+      "practical_value": 6,
+      "methodological_rigor": 9
+    },
+    "one_sentence_summary": "研究发现，嵌入在稿件中的隐藏指令能有效操控大语言模型生成的同行评审意见，揭示了AI辅助评审面临的安全漏洞。",
+    "credibility_score": 6.8,
+    "composite_score": 7.7,
+    "featured": true,
+    "id": 8287
+  },
+  {
     "title": "Conversational Retrieval and On-the-Fly Knowledge Modeling of Historical Penitentiary Repression Records",
     "abstract": "arXiv:2607.08459v1 Announce Type: cross \nAbstract: Recent developments in digital libraries increasingly favor conversational and natural language access to information through Retrieval-Augmented Generation (RAG). Although these approaches are effective for extractive tasks grounded in individual records, they remain limited in their ability to interpret document collections holistically and to incorporate expert knowledge dynamically. In this article, we present a document analysis system designed for the management of historical digital libraries that supports on-the-fly knowledge modeling. The system is equipped with the capability to store facts produced either by expert archivists or derived from document retrieval processes within a graph-based structure. Through continuous professional interaction, the system can retrieve information not only from primary sources such as documents, but also from previously modeled knowledge, with the graph-based index acting as a memory for the language model to access. This enables increasingly complex queries involving long-term dependencies across documents, link discovery, and the integration of expert knowledge that may not be explicitly present in the original sources. As a result, the proposed approach facilitates the generation of richer and more comprehensive information.",
     "date": "2026-07-10",
@@ -11406,97 +11498,5 @@
     "composite_score": 6.4,
     "featured": false,
     "id": 5561
-  },
-  {
-    "title": "Account-History Features for Social Bot Detection in the Era of Large Language Models",
-    "abstract": "arXiv:2606.26127v1 Announce Type: new \nAbstract: Bot detection on social platforms has historically relied on a mix of account-metadata features and features extracted from the text of posts and profile fields. The arrival of capable language models complicates the latter. A bot operator can run every post through GPT-4 or Claude and produce text whose surface statistics are difficult to distinguish from those of human writing, which weakens the predictive value of content-derived features. This paper asks how much of the detection problem can be solved by features that an attacker cannot easily manipulate at low cost: the age of the account, follower and friend counts and their ratios, profile completeness, and the structural properties of the handle. On a publicly redistributed corpus of 2,432 Twitter accounts with manually verified labels (43.0% bots), a random forest using only these account-history features achieves ROC-AUC of 0.977 in five-fold cross-validation, against 0.830 for a content-only baseline and 0.981 for the fusion model. The behavioral-versus-content gap is large and statistically significant by DeLong's test (z = 9.36, p < 0.001). We then evaluate two adversarial settings. In the first, we rewrite the text of bot tweets to match human surface statistics for URLs, hashtags, mentions, and casing; the content classifier's ROC-AUC degrades from 0.842 to 0.785 while the behavioral classifier is essentially unchanged. In the second, more aggressive setting we directly perturb the content feature values toward the human distribution; the content classifier falls below chance (AUC 0.466) while behavioral performance is invariant. We replicate the score distribution qualitatively on a 100-account sample of TwiBot-20. We conclude that operational bot detection should not treat content features as the primary signal; account-history features carry most of the load already and are not eroded by adversarial text rewriting.",
-    "date": "2026-06-26",
-    "link": "https://arxiv.org/abs/2606.26127",
-    "affiliations": "",
-    "source": "arXiv - Social Networks",
-    "tier": "C",
-    "field": "social_networks",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "该论文针对大语言模型时代社交机器人检测面临的挑战，提出并验证了基于账户历史特征的检测方法，方法严谨，实验设计充分。其核心优势在于识别了对抗性文本生成下内容特征的脆弱性，并证明了账户元数据特征的稳健性和高判别力，对实际平台检测系统设计具有直接指导意义。不足在于实验数据规模相对有限，且主要基于Twitter平台，结论的普适性有待进一步验证。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 8,
-      "methodological_rigor": 8
-    },
-    "one_sentence_summary": "研究发现，在大语言模型时代，基于账户年龄、粉丝数等历史特征的检测方法比依赖文本内容的传统方法更稳健有效。",
-    "credibility_score": 6.0,
-    "composite_score": 6.9,
-    "featured": false,
-    "id": 5562
-  },
-  {
-    "title": "Behind the Mask: A Taxonomic Analysis of Activities in Online Social Networks",
-    "abstract": "arXiv:2606.27111v1 Announce Type: cross \nAbstract: The broadcast of disinformation in online social networks (OSN) is a growing concern examined across several disciplines, including human-computer interaction (HCI). The pervasive issue has been prompting novel approaches to identify the malicious actors behind the dissemination of deceptive and fabricated content. Analyzing the characteristics and activities of these actors, we designed a taxonomy informed by collaboration with subject matter experts (SMEs) and a review of the academic literature. Our study explores how to distinguish the characteristics, activities, and strategies of malicious actors on OSN and examines how they contribute to the spread of disinformation. We describe the design process and the application of the taxonomy in a case study analyzing anti-migration discourse in social media channels, and reflect on its potential to aid researchers and practitioners in the responsible design of network systems.",
-    "date": "2026-06-26",
-    "link": "https://arxiv.org/abs/2606.27111",
-    "affiliations": "",
-    "source": "arXiv - Social Networks",
-    "tier": "C",
-    "field": "social_networks",
-    "content_type": "paper",
-    "category": "用户行为",
-    "thinking": "该论文通过专家合作和文献综述构建了在线社交网络中恶意行为者的分类法，方法较为规范，但技术前沿性一般，未涉及最新的AI检测方法；分类法在案例研究中得到应用，对网络系统设计具有实践指导意义。",
-    "scores": {
-      "frontier_tech": 5,
-      "practical_value": 7,
-      "methodological_rigor": 7
-    },
-    "one_sentence_summary": "该研究构建了一个用于识别和分析在线社交网络中传播虚假信息的恶意行为者特征与活动的分类体系。",
-    "credibility_score": 6.0,
-    "composite_score": 5.4,
-    "featured": false,
-    "id": 5563
-  },
-  {
-    "title": "Guest Post — Milestones that Matter: Celebrating a Wartime SSP Presidential Term",
-    "abstract": "<p>Today, we reprise the talk by outgoing SSP President Rebecca McLeod at last month's SSP Annual Meeting.</p>\n<p>The post <a href=\"https://scholarlykitchen.sspnet.org/2026/06/26/guest-post-milestones-that-matter-celebrating-a-wartime-ssp-presidential-term/\">Guest Post — Milestones that Matter: Celebrating a Wartime SSP Presidential Term</a> appeared first on <a href=\"https://scholarlykitchen.sspnet.org\">The Scholarly Kitchen</a>.</p>",
-    "date": "2026-06-26",
-    "link": "https://scholarlykitchen.sspnet.org/2026/06/26/guest-post-milestones-that-matter-celebrating-a-wartime-ssp-presidential-term/",
-    "affiliations": "",
-    "source": "Scholarly Kitchen",
-    "tier": "C",
-    "field": "scholarly_publishing",
-    "content_type": "news",
-    "category": "行业动态",
-    "thinking": "资讯内容是SSP主席卸任演讲的回顾，发表于2026年6月，具有时效性。内容聚焦学术出版协会的内部事务，与图情领域的核心业务关联较弱。演讲内容可能包含对学术出版趋势的反思，但信息价值有限，主要具有纪念和回顾性质。",
-    "scores": {
-      "timeliness": 8,
-      "relevance": 4,
-      "information_value": 3
-    },
-    "one_sentence_summary": "SSP主席在卸任演讲中回顾其任期内的关键事件与成就。",
-    "credibility_score": 6.0,
-    "composite_score": 5.1,
-    "featured": false,
-    "id": 5637
-  },
-  {
-    "title": "New Research Supports OER as a High-Impact Practice by AAC&U",
-    "abstract": "<p>The post <a href=\"https://sparcopen.org/news/2026/new-research-supports-oer-as-a-high-impact-practice-by-aacu/\">New Research Supports OER as a High-Impact Practice by AAC&#038;U</a> appeared first on <a href=\"https://sparcopen.org\">SPARC</a>.</p>",
-    "date": "2026-06-26",
-    "link": "https://sparcopen.org/news/2026/new-research-supports-oer-as-a-high-impact-practice-by-aacu/",
-    "affiliations": "",
-    "source": "SPARC News",
-    "tier": "C",
-    "field": "open_access",
-    "content_type": "news",
-    "category": "政策标准",
-    "thinking": "该资讯发布于2026年，是未来信息，不具备当前时效性。内容涉及开放教育资源（OER）的研究支持，与图情领域的开放获取和教学资源建设高度相关。资讯提供了关于OER作为高影响力实践的最新研究结论，对图书馆推动开放教育资源建设具有参考价值。",
-    "scores": {
-      "timeliness": 1,
-      "relevance": 9,
-      "information_value": 8
-    },
-    "one_sentence_summary": "美国大学协会的新研究支持开放教育资源（OER）成为一种高影响力的教育实践。",
-    "credibility_score": 6.0,
-    "composite_score": 6.2,
-    "featured": false,
-    "id": 5647
   }
 ]
