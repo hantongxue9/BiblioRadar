@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-11",
+    "summary": "今日图情领域的研究呈现出对学术生态、用户行为与人工智能应用的多维度关注。在学术计量与评价方面，研究深入探讨了合作模式、团队结构、研究方法演变及新兴数据源（如OpenAlex）对学者表现与学术生涯的影响，揭示了学术产出的复杂驱动因素。用户行为研究聚焦于在线社区意见领袖的动态识别、可视化信息解读的影响因素，以及生成式AI用户的信息核查行为，强调了情境与个体差异的重要性。人工智能应用研究则持续向纵深发展，涵盖提升模型性能的技术方法（如层次化学习、联邦学习优化）、在档案编目等领域的实践案例，以及AI素养与信息素养整合的教育框架构建，体现了技术赋能与人文关怀并重的趋势。",
+    "highlights": [
+      "论文｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜系统评估新兴开放学术数据库OpenAlex，为文献计量数据源的选择与应用提供关键参考。",
+      "论文｜Trajectory of Research Method Usage in the Academic Careers of Scholars in the Library and Information Science｜揭示图书情报学学者学术生涯中研究方法使用的动态演变规律。",
+      "动态｜Enhanced archival metadata through AI: a case study of digitized photograph descriptions｜展示AI技术自动增强档案元数据的实践案例，提升编目效率与数据质量。",
+      "动态｜Integrating AI literacy into library and information science education and practice: a human-centered approach｜提出以人为中心的AI素养培养框架，旨在应对图情专业人员的能力挑战。",
+      "趋势判断｜学术评价与AI应用研究均强调动态过程与复杂因素｜今日研究普遍关注演变过程（如合作模式、方法使用）与多重因素（如用户特质、资源异构）的交互影响。"
+    ],
+    "stats": {
+      "papers": 188,
+      "news": 136,
+      "featured": 69
+    }
+  },
+  {
     "date": "2026-07-10",
     "summary": "今日图情领域的研究呈现出对科研评价体系与方法论的持续关注，尤其聚焦于新兴技术与复杂协作模式对学术影响力形成机制的塑造。计量与评价方向的研究深入探讨了LLM辅助写作与引用绩效的关联、合作网络动态对学者表现的影响，以及颠覆性科学领域中同行评议预测效力的演变，凸显了数据驱动评价范式的深化。同时，AI应用研究展现出向专业化、隐私保护方向发展的趋势，如针对地理空间查询和隐私保护RAG的专用模型开发。知识图谱与可视化分析则继续在揭示领域知识演进和提升信息解读准确性方面提供新工具与新见解。",
     "highlights": [
@@ -213,24 +229,6 @@
       "papers": 181,
       "news": 124,
       "featured": 74
-    }
-  },
-  {
-    "date": "2026-06-25",
-    "summary": "今日图情领域的研究呈现出两大核心趋势：一是对科研评价与科学合作过程的深入解构与透明化追求，二是人工智能技术在信息处理与分析中的多元化、精细化应用。在科研计量与评价方面，多项研究致力于通过构建多维模型（如自引评估）、标准化分析流程或利用新兴数据（如CRediT贡献分类、科学-技术知识时滞）来提升评估的公平性、可复现性与预测能力，并深入剖析全球科学合作的结构性驱动因素。在技术应用层面，大语言模型（LLM）的应用从通用任务（如文本重写、结构分析）向特定领域（如医疗诊断编码、档案元数据增强）和特定约束（如隐私保护的联邦学习、本地化部署）深化，同时，强化学习、动态网络分析等方法也被创新性地用于解决数据资产估值、在线社区演化等复杂问题。",
-    "highlights": [
-      "论文｜A multidimensional evaluation model for author self-citation: integrating contribution, depth, intensity, and location｜提出结合语义与贡献度的多维自引评估模型，为这一争议性指标提供了更精细、公平的衡量框架。",
-      "论文｜A CRediT‐based quantitative study of co‐corresponding authorship: Collaboration patterns and contribution distribution｜利用标准化的贡献分类体系量化分析共同通讯作者，为理解复杂科研合作中的角色与贡献分配提供了新方法。",
-      "动态｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜设计标准化文献计量分析数据管道，旨在提升科研评估过程的透明度、可重复性与可信度。",
-      "动态｜A secure federated feature selection framework for horizontally distributed medical data｜提出保护隐私的联邦特征选择框架，应对跨机构医疗数据协同分析中的隐私安全挑战。",
-      "论文｜Make context easier: enhancing fine-tuned NER models via LLM-based text rewriting｜揭示通过大语言模型进行文本重写可有效提升下游命名实体识别性能，展示了LLM作为文本预处理工具的新价值。",
-      "动态｜Enhanced archival metadata through AI: a case study of digitized photograph descriptions｜通过人工智能技术有效提升档案数字化照片的描述性元数据质量，是AI赋能文化遗产数字资源建设的典型案例。",
-      "趋势判断｜科研评价体系正从依赖单一计量指标，向融合多维贡献、标准化流程与透明化分析的综合评估范式演进。"
-    ],
-    "stats": {
-      "papers": 180,
-      "news": 126,
-      "featured": 61
     }
   }
 ]
