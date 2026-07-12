@@ -1,18 +1,18 @@
 [
   {
-    "date": "2026-07-12",
-    "summary": "今日图情领域的研究呈现出两大核心趋势：一是文献计量与科研评价方法持续深化，关注分析流程的透明度、贡献分配的精细化以及全球知识流动的动态评估；二是人工智能技术在图情场景的应用与反思并存，一方面在信息检索、知识组织、内容生成等具体任务上出现新的技术方案（如针对地理空间查询、金融事件抽取的专用模型），另一方面也加强了对AI应用（如辅助同行评审）潜在风险的实证研究。技术融合的可视化分析、科研人员转型的模式识别等研究，体现了从宏观结构到微观行为的多层次洞察。",
+    "date": "2026-07-13",
+    "summary": "今日图情领域的研究焦点集中于学术交流与影响力的深度计量分析、以及人工智能在学术研究全流程中的应用与评估。在计量与评价方面，研究趋势从简单的指标计数转向对学术对话网络、知识演化路径及科研合作贡献的深层挖掘，并强调评估过程的透明化与可审计性。同时，多篇研究探讨了大语言模型对学术写作、同行评审乃至科学发现过程的影响，揭示了技术介入带来的新现象与潜在挑战。在AI应用方面，研究致力于提升大语言模型在事实性、认知理解及复杂领域（如法律）推理方面的可靠性。",
     "highlights": [
-      "论文｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜提出一个标准化、可审计的数据处理流程，有助于提升文献计量分析在研究评价中的透明度与可重复性。",
-      "论文｜Exploiting large language models in peer review: indirect prompt injection attacks and integrity probes｜通过实验揭示了隐藏指令可操控AI生成评审意见，对AI辅助学术评审的安全性提出了重要警示。",
-      "论文｜New indicators for capturing the balances and roles of nations in the global knowledge exchange system｜构建了一套新指标，用于量化分析各国在全球知识交流网络中的角色定位与平衡状态。",
-      "动态｜PostGISer: The first end-to-end fine-tuned large language model for PostGIS GeoSQL query generation｜发布了首个针对地理空间数据库查询生成任务进行端到端微调的大语言模型，是AI在专业领域应用的具体进展。",
-      "动态｜Task-aware modality configuration in personalized health information systems｜研究发现根据用户任务情境动态配置信息呈现方式能提升效率，为个性化信息系统设计提供了实证依据。",
-      "趋势判断｜AI应用从通用能力探索转向特定领域与风险治理并重｜今日研究显示，AI在图情的应用正朝专用模型发展，同时对其在严肃场景（如评审）中的可靠性研究也在加强。"
+      "论文｜Beyond counting tweets: An exploration of scholarly conversations on Twitter｜通过分析对话网络与内容，揭示了超越简单计量的学术影响力形成机制。",
+      "论文｜A novel knowledge-entity-grounded scholarly retrieval framework in full-text academic documents｜提出利用全文中的知识实体提升学术检索效果的新框架。",
+      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇论文，实证分析了大语言模型辅助写作与论文影响力的关联。",
+      "动态｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜提出标准化数据流水线，旨在提升文献计量分析的透明度与可重复性。",
+      "动态｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜探讨在AI等快速变革领域，同行评审预测论文影响力的能力变化。",
+      "趋势判断｜大语言模型正深度介入并重塑学术写作、评估与知识发现过程，相关影响与伦理问题成为研究热点。"
     ],
     "stats": {
-      "papers": 159,
-      "news": 135,
+      "papers": 157,
+      "news": 137,
       "featured": 78
     }
   },

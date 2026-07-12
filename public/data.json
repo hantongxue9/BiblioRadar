@@ -1288,6 +1288,29 @@
     "id": 8002
   },
   {
+    "title": "Who teaches the teachers? How economic history can enhance teaching of the British Empire",
+    "abstract": "<p>The way in which empire is taught in schools across the UK is a subject of national debate. Discussing a project designed to link academic research in economic history to &#8230; <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences/2026/07/09/who-teaches-the-teachers-how-economic-history-can-enhance-teaching-of-the-british-empire/\">Continued</a></p>\n<p>The post <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences/2026/07/09/who-teaches-the-teachers-how-economic-history-can-enhance-teaching-of-the-british-empire/\">Who teaches the teachers? How economic history can enhance teaching of the British Empire</a> first appeared on <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences\">LSE Impact</a>.</p>",
+    "date": "2026-07-09",
+    "link": "https://blogs.lse.ac.uk/impactofsocialsciences/2026/07/09/who-teaches-the-teachers-how-economic-history-can-enhance-teaching-of-the-british-empire/",
+    "affiliations": "",
+    "source": "LSE Impact Blog",
+    "tier": "C",
+    "field": "academic_impact",
+    "content_type": "news",
+    "category": "其他",
+    "thinking": "该资讯讨论的是如何将经济史学术研究成果与中学教学实践连接，其核心是学术影响力与知识传播，属于广义的信息科学范畴，但与图书馆学、信息科学的核心业务（如资源建设、信息服务、技术应用）的直接关联较弱。资讯内容偏向教育学和历史学的交叉领域，对图情从业者的直接参考价值有限。",
+    "scores": {
+      "timeliness": 8,
+      "relevance": 3,
+      "information_value": 4
+    },
+    "one_sentence_summary": "一篇博客文章探讨了如何将经济史研究应用于改善英国中学关于大英帝国的教学。",
+    "credibility_score": 6.0,
+    "composite_score": 5.0,
+    "featured": false,
+    "id": 8534
+  },
+  {
     "title": "Examining the cognitive gap between authors and peer reviewers on academic paper novelty",
     "abstract": "<p>Novelty is a crucial metric for assessing the quality of academic papers. Scholars strive to highlight the novel aspects of their work, particularly in the title, abstract, and introduction. Peer review, serving as the gatekeeper of scientific rigor, rigorously evaluates the novelty of papers, yet a cognitive gap may exist between author self-promotion and reviewer evaluation. To investigate this, we analyzed 15,328 academic papers published in Nature Communications from 2016 to 2021, along with their peer-review comments. We found that both reviewers and authors emphasize result-oriented innovation, with reviewers adopting a more comprehensive evaluation perspective. Furthermore, by examining promotional intensity against inherent paper novelty, we discovered its effect depends on the paper’s actual innovation level. Highly innovative papers benefit from stronger promotional language, receiving more positive evaluations. We also found that promotional language significantly correlates with reviewer disagreement on novelty specifically for papers of moderate innovativeness, whereas it has negligible impact for papers with either very high or very low novelty. This reveals how promotional language operates most prominently in the gray area of academic evaluation.</p>",
     "date": "2026-07-08",
@@ -11475,28 +11498,5 @@
     "composite_score": 6.0,
     "featured": false,
     "id": 5560
-  },
-  {
-    "title": "Library Drift: Diagnosing and Fixing a Silent Failure Mode in Self-Evolving LLM Skill Libraries",
-    "abstract": "arXiv:2605.19576v2 Announce Type: replace-cross \nAbstract: Self-evolving skill libraries face a silent failure mode we term \\emph{library drift}: unbounded skill accumulation without outcome-driven lifecycle management causes retrieval degradation, false-positive injections, and performance stagnation. Recent evaluation confirms the symptom (LLM-authored skills deliver +0.0pp gain while human-curated ones deliver +16.2pp (SkillsBench)), yet the underlying mechanism has not been isolated. We provide (1) a \\textbf{reproducible trigger}: ablations that isolate drift: one disables skill injection (flat floor, +0.002), one imposes premature retirement (active harm, $-$0.019); (2) \\textbf{trace-level diagnostics}: an append-only evidence log with per-skill contribution scores, attribution verdicts, and router engagement metrics that make the failure visible before it reaches end-task scores; and (3) a \\textbf{verified fix}: a minimal governance recipe (outcome-driven retirement + bounded active-cap + meta-skill authoring prior) that lifts held-out pass@1 from a 0.258 baseline to a late-window mean of 0.584 (rolling gain $+$0.328) on MBPP+ hard-100 over 100 rounds. Eight ablations decompose which governance mechanisms are load-bearing and which are subsumed, providing a concrete playbook for diagnosing library drift in any self-evolving agent.",
-    "date": "2026-06-26",
-    "link": "https://arxiv.org/abs/2605.19576",
-    "affiliations": "",
-    "source": "arXiv - Computation & Language",
-    "tier": "C",
-    "field": "nlp",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "论文聚焦于自演化LLM技能库中的'库漂移'问题，提出了可复现的触发条件、细粒度的诊断方法和经过验证的治理方案，在AI应用领域具有明确的方法创新和诊断深度。其研究基于具体实验和量化指标，方法严谨，但作为预印本，其在实际图书馆业务中的落地路径尚需进一步探索。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 6,
-      "methodological_rigor": 8
-    },
-    "one_sentence_summary": "该研究诊断并解决了自进化大语言模型技能库因无限积累技能而导致的性能退化问题，并提出了一套有效的治理方案。",
-    "credibility_score": 6.0,
-    "composite_score": 6.4,
-    "featured": false,
-    "id": 5561
   }
 ]
