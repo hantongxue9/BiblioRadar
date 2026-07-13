@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-14",
+    "summary": "今日图情领域研究呈现出高度聚焦于人工智能技术深度应用与评估的趋势。核心议题围绕AI如何变革信息组织、检索与分析流程，具体体现在三个方面：一是AI模型（特别是大语言模型和图神经网络）在学术信息处理（如引文分析、图表提取、合作关系预测）和内容验证（如谣言检测、事实性纠错）中的方法创新与性能评估；二是探讨人机协作模式，研究图书馆员等专业人员在AI中介的信息环境中如何发挥指导作用以提升团队创意产出；三是关注用户层面，通过引入心理学模型（如计划行为理论、Rasch模型）深入分析影响用户采纳AI工具、解读可视化信息及信任生成式AI的关键因素。整体来看，研究正从技术实现向人机协同、可信评估及用户行为影响的纵深方向发展。",
+    "highlights": [
+      "论文｜Revealing country-level disparities in researchers’ transition to artificial intelligence: A two-stage analytical framework｜提供了一个量化分析框架，揭示了全球科研人员向AI领域转型的国家级差异，对科研政策与人才流动研究有参考价值。",
+      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜实证研究了AI作为信息中介时，专业馆员的指导如何影响团队创造力，为人机协同的信息服务模式提供了新证据。",
+      "论文｜LANCET: Neural intervention via Structural Entropy for mitigating faithfulness hallucinations in LLMs｜提出通过干预大语言模型内部知识结构来减少事实性错误，是提升AI信息生成可信度的前沿技术探索。",
+      "动态｜Adoption of AI chatbots among medical students: integration of AI literacy and information literacy within the theory of planned behavior｜将AI素养与信息素养整合进经典行为理论，为理解专业用户采纳AI工具的心理机制提供了新的理论视角。",
+      "动态｜Benchmarking multi-step legal reasoning and analyzing Chain-of-Thought effects in Large Language Models｜通过构建基准测试系统评估大语言模型在复杂法律推理任务中的能力，对AI在专业信息分析中的应用评估具有方法论意义。",
+      "趋势判断｜图情领域AI研究正从单点技术突破转向系统性评估与人机协同生态构建｜当前研究不仅关注算法性能，更注重在真实信息场景中评估AI的可靠性、探索其与专业人员的协作模式，并深入理解用户认知与行为。"
+    ],
+    "stats": {
+      "papers": 172,
+      "news": 125,
+      "featured": 67
+    }
+  },
+  {
     "date": "2026-07-13",
     "summary": "今日图情领域的研究焦点集中于学术交流与影响力的深度计量分析、以及人工智能在学术研究全流程中的应用与评估。在计量与评价方面，研究趋势从简单的指标计数转向对学术对话网络、知识演化路径及科研合作贡献的深层挖掘，并强调评估过程的透明化与可审计性。同时，多篇研究探讨了大语言模型对学术写作、同行评审乃至科学发现过程的影响，揭示了技术介入带来的新现象与潜在挑战。在AI应用方面，研究致力于提升大语言模型在事实性、认知理解及复杂领域（如法律）推理方面的可靠性。",
     "highlights": [
