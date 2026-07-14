@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-15",
+    "summary": "今日图情领域的研究与实践呈现两大核心趋势：一是人工智能应用持续深化，尤其在提升信息处理质量与可靠性方面取得进展。多智能体协作、注意力结构熵干预、两阶段鲁棒解码等新方法，旨在系统性缓解大语言模型的事实性错误（幻觉）问题，提高生成内容的可信度。同时，AI技术正被应用于具体的图情业务场景，如自动化修辞结构分析、增强档案元数据、轻量化命名实体识别以及联邦学习下的医疗数据特征选择，展现了从基础研究向业务融合的转变。二是跨学科知识生产与用户行为研究受到关注。研究发现地理距离与认知距离在跨学科合作中具有互补性，而非简单替代。在用户侧，研究揭示了生成式AI用户信息验证行为的多重动因，以及AI素养与信息素养共同影响特定群体技术采纳的复杂机制。此外，从文献数据中自动化发现技术机会的计量模型也为知识发现提供了新工具。",
+    "highlights": [
+      "论文｜Distant but bridgeable: how geographic and cognitive distance jointly shape interdisciplinary knowledge production｜揭示了地理距离与认知距离在跨学科知识生产中互补而非替代的复杂关系，对理解合作网络有重要价值。",
+      "论文｜LANCET: Neural intervention via Structural Entropy for mitigating faithfulness hallucinations in LLMs｜提出通过干预注意力结构熵来减少大模型事实错误的新方法，是提升AI信息可靠性前沿研究。",
+      "论文｜Determinants of information verification behaviour among generative AI users｜综合运用结构方程与定性比较分析，深入揭示了影响用户对AI生成内容进行验证的多重因素与路径。",
+      "动态｜Text & Data Mining｜资讯聚焦图书馆政策相关的文本与数据挖掘议题，对机构制定相关服务与实践策略具有直接参考意义。",
+      "动态｜Enhanced archival metadata through AI: a case study of digitized photograph descriptions｜展示了AI技术提升档案元数据质量的实证案例，为智慧档案馆建设提供了具体路径。",
+      "趋势｜AI应用研究从追求功能实现转向关注输出质量、可靠性与业务场景深度融合｜今日多项研究聚焦于缓解大模型幻觉、提升生成稳定性及在具体图情业务（如档案、文献分析）中的落地，标志该领域进入深化应用与风险管控的新阶段。"
+    ],
+    "stats": {
+      "papers": 238,
+      "news": 101,
+      "featured": 62
+    }
+  },
+  {
     "date": "2026-07-14",
     "summary": "今日图情领域研究呈现出高度聚焦于人工智能技术深度应用与评估的趋势。核心议题围绕AI如何变革信息组织、检索与分析流程，具体体现在三个方面：一是AI模型（特别是大语言模型和图神经网络）在学术信息处理（如引文分析、图表提取、合作关系预测）和内容验证（如谣言检测、事实性纠错）中的方法创新与性能评估；二是探讨人机协作模式，研究图书馆员等专业人员在AI中介的信息环境中如何发挥指导作用以提升团队创意产出；三是关注用户层面，通过引入心理学模型（如计划行为理论、Rasch模型）深入分析影响用户采纳AI工具、解读可视化信息及信任生成式AI的关键因素。整体来看，研究正从技术实现向人机协同、可信评估及用户行为影响的纵深方向发展。",
     "highlights": [
@@ -230,39 +247,6 @@
       "papers": 166,
       "news": 123,
       "featured": 59
-    }
-  },
-  {
-    "date": "2026-06-29",
-    "summary": "今日图情领域的研究呈现出两大核心趋势：一是人工智能技术，特别是大语言模型，在学术信息处理各环节的应用不断深化与拓展；二是科学计量与评价研究正从宏观网络分析转向更精细化的微观机制探索。在AI应用方面，研究重点覆盖了从文献主题建模、元数据增强、用户满意度预测到学术文本质量评估等多个场景，显示出技术落地的广泛性。在计量与评价领域，研究不仅关注合作网络演化等宏观结构，更深入探讨了同行评审预测能力的变化、作者贡献的量化分析以及新兴数据源（如OpenAlex）的评估，反映了该子领域方法论与数据基础的持续演进。此外，对AI辅助写作与引文关联的实证研究，以及用户对AIGC的信任机制分析，凸显了技术应用带来的新现象及其社会影响已成为重要研究议题。",
-    "highlights": [
-      "论文｜Mapping scientific literature with large language models and topic modeling｜提出融合LLM的新型主题建模框架，能自动识别跨主题关联，代表了文献计量与AI结合的前沿方向。",
-      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜实证检验了在颠覆性科学领域同行评审预测效力的变化，对科研评价实践具有重要启示。",
-      "动态｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于海量论文的实证发现，为理解AI工具对科研产出的实际影响提供了初步证据。",
-      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜系统评估新兴开放学术数据库OpenAlex，为图情机构的数据基础设施选择提供了关键参考。",
-      "趋势判断｜AI技术正从辅助工具演变为重塑图情核心业务流程（如文献组织、评价、用户服务）的关键驱动因素。"
-    ],
-    "stats": {
-      "papers": 140,
-      "news": 113,
-      "featured": 67
-    }
-  },
-  {
-    "date": "2026-06-26",
-    "summary": "今日图情领域的研究呈现出鲜明的数据驱动与人工智能融合特征。在科学计量与评价方面，研究焦点从传统的文献计量指标转向更精细、多维的评估模型，例如整合语义与贡献度的作者自引评估，以及利用大语言模型（LLM）辅助写作与影响力的关联性分析。同时，对新兴数据源（如OpenAlex）的系统评估和对复杂作者署名行为（如共同通信作者）的量化研究，反映了该领域对研究基础设施与科研实践本身持续深入的关注。在人工智能应用方面，研究正从基础能力测试（如LLM生成能力评估）向解决特定领域问题深化，包括利用LLM增强假新闻检测、改进多模态推荐系统，以及探索AI中介下馆员指导与用户认知的交互影响。此外，信息检索与用户行为研究也展现出结合因果推断、知识表示等前沿方法以提升性能与解释性的趋势。",
-    "highlights": [
-      "论文｜A multidimensional evaluation model for author self-citation: integrating contribution, depth, intensity, and location｜该模型超越了简单的频次统计，通过整合贡献度、深度、强度与位置四个维度，为更公平、精细地评估作者自引行为提供了新工具。",
-      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的大规模实证分析，首次揭示了使用大语言模型辅助写作与论文后续被引表现之间的正向关联。",
-      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜探讨了在AI作为信息中介的协作场景中，馆员指导强度与用户对AI的权威认知如何共同影响团队的创造性产出，具有重要的实践启示。",
-      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜对新兴开放学术数据库OpenAlex进行了全面评估，为研究人员选择和使用这一重要数据源提供了关键参考和实用指南。",
-      "动态｜Collective-level propagation analysis via LLM-enhanced hypergraph transformer for fake news detection｜提出利用大语言模型增强的超图Transformer模型分析信息的集体传播模式，为假新闻检测研究提供了新的技术路径。",
-      "趋势判断｜图情领域的研究方法正加速向多维融合与因果推断深化｜无论是作者贡献评估、推荐系统优化还是用户行为分析，都呈现出整合多维数据、应用因果模型以提升解释力与准确性的共同趋势。"
-    ],
-    "stats": {
-      "papers": 181,
-      "news": 124,
-      "featured": 74
     }
   }
 ]
