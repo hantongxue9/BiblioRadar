@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-18",
+    "summary": "今日图情领域研究呈现出对人工智能应用深化与科研评价方法反思并行的趋势。在AI应用方面，研究重点从通用能力转向面向特定领域（如地理信息、金融文档、档案描述）的端到端模型构建与优化，并关注AI在协作、信息核查等复杂情境下的实际影响。同时，多篇计量与评价研究聚焦于科学活动本身，深入探讨了国际流动、同行评审、超高被引论文等对学术影响力形成与评价体系的具体作用，反映了该领域对科研生态复杂性认识的加深和方法论上的持续探索。",
+    "highlights": [
+      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜揭示了在AI等快速发展领域，同行评审对未来影响力的预测效力及其变化，对理解评价机制的动态性有重要价值。",
+      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜实证研究了AI辅助协作中馆员指导与用户认知的交互作用，为图书馆服务创新提供了直接证据。",
+      "动态｜PostGISer: The first end-to-end fine-tuned large language model for PostGIS GeoSQL query generation｜开发了首个专用于地理空间查询的微调大语言模型，是AI技术深度赋能专业信息检索的典型案例。",
+      "动态｜Enhanced archival metadata through AI: a case study of digitized photograph descriptions｜展示了AI技术提升档案描述性元数据质量的实践成果，对文化遗产数字化管理具有参考意义。",
+      "趋势判断｜计量研究关注科学活动内在机制与评价体系反思｜今日多篇论文聚焦国际流动、知识继承、超高被引等对科研评价的影响，显示该领域正从宏观统计向机制挖掘深化。"
+    ],
+    "stats": {
+      "papers": 150,
+      "news": 126,
+      "featured": 61
+    }
+  },
+  {
     "date": "2026-07-17",
     "summary": "今日图情领域的研究焦点高度集中于人工智能技术与学术信息生态的深度融合。在学术评价与计量方面，开放同行评审数据的应用价值得到实证支持，OpenAlex数据库的功能与局限获得系统性评估，研究人员向AI领域的转型差异也通过新框架得以揭示。AI应用研究尤为密集，覆盖信息中介、事实核查、文档分析与多模态处理等多个场景，具体包括馆员指导与AI协作对学生创造力的影响、减少大语言模型事实性错误的新方法、以及提升图表识别与科学文献摘要质量的技术路径。同时，群体推荐中的偏差缓解、用户解读可视化图表的能力预测等研究，也体现了对技术应用中人文与社会因素的持续关注。",
     "highlights": [
@@ -264,23 +280,6 @@
       "papers": 255,
       "news": 107,
       "featured": 69
-    }
-  },
-  {
-    "date": "2026-06-30",
-    "summary": "今日图情领域研究聚焦于计量评价方法的深化与人工智能应用的拓展。在计量评价方面，研究呈现出精细化与规范化趋势，包括改进跨学科引文归一化方法、利用CRediT框架量化作者贡献、开发可重复的科学知识图谱工作流，以及对OpenAlex等新型开放数据库的评估。大语言模型的影响受到持续关注，实证研究揭示了其在工程学论文写作中与引用提升的关联。在人工智能应用方面，研究覆盖了假新闻检测、教育成果分析、档案元数据增强及用户信任机制等多个场景，显示出AI技术正深度融入信息处理与服务各环节。行业动态方面，欧洲图书馆界积极推动开放科学并探索AI治理路径。",
-    "highlights": [
-      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇论文的实证研究，揭示了AI辅助写作与学术影响力提升的潜在关联。",
-      "论文｜A CRediT‐based quantitative study of co‐corresponding authorship: Collaboration patterns and contribution distribution｜利用标准化贡献角色分类，为解析科研合作中的作者贡献分配提供了创新量化视角。",
-      "论文｜Enhanced archival metadata through AI: a case study of digitized photograph descriptions｜展示了AI技术提升文化遗产数字化描述质量的实践案例，具有示范意义。",
-      "动态｜#ZeroEmbargo Campaign｜LIBER推动消除学术期刊获取时滞的运动，反映了开放获取进程中的关键行动。",
-      "动态｜LIBER Launches a Webinar Series on Artificial Intelligence: AI Pulse｜行业组织启动系列研讨会，标志着图书馆界系统化关注与应对AI挑战的开始。",
-      "趋势判断｜计量指标与AI应用研究并进，行业聚焦开放生态构建与AI治理｜研究与实践正从工具效率提升，转向对科研诚信、开放生态及技术伦理的系统性关注。"
-    ],
-    "stats": {
-      "papers": 166,
-      "news": 123,
-      "featured": 59
     }
   }
 ]
