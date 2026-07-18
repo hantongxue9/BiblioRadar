@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-19",
+    "summary": "今日图情领域研究呈现出明显的技术融合与深化应用趋势。计量与评价研究在方法论上有所创新，如通过知识继承网络识别主题演化路径，以及利用CRediT角色分类量化分析科研贡献，为科研管理与评价提供了新工具。人工智能应用是当前最活跃的方向，研究重点从通用能力转向解决特定领域问题，例如开发专门用于地理空间查询生成的大语言模型、结合图神经网络进行学术文献布局分析，以及利用大语言模型构建数据合规管理框架。同时，对AI生成内容的检测、AI在学术传播（如同行评审分析）和档案编目中的应用也成为关注点。这些进展表明，图情领域正致力于将前沿技术更精准地应用于解决信息组织、知识发现与管理的核心问题。",
+    "highlights": [
+      "论文｜Unveiling thematic evolution and R&D opportunities through knowledge inheritance networks: A case study in telecommunications｜通过构建知识继承网络，为识别领域研究主题演化路径与潜在研发方向提供了新方法。",
+      "论文｜AI-generated text detection via multilevel Zipf’s law｜提出基于多层次齐普夫定律分析的新方法，为检测人工智能生成的学术文本提供了有效工具。",
+      "论文｜A CRediT‐based quantitative study of co‐corresponding authorship: Collaboration patterns and contribution distribution｜利用CRediT角色分类量化分析共同通讯作者的合作与贡献，为科研署名规范与评价提供了实证依据。",
+      "动态｜PostGISer: The first end-to-end fine-tuned large language model for PostGIS GeoSQL query generation｜开发了首个专门用于生成地理空间数据库查询的微调大语言模型，体现了AI向垂直领域深度应用的转向。",
+      "动态｜Enhanced archival metadata through AI: a case study of digitized photograph descriptions｜展示了人工智能技术自动生成和增强档案元数据的应用案例，提升了数字化资源的编目效率。",
+      "趋势｜AI应用研究从通用能力评估转向解决图情领域具体任务｜今日多项研究聚焦于利用AI解决学术文献分析、数据合规、档案编目等专业问题，标志着技术应用进入深化与专业化阶段。"
+    ],
+    "stats": {
+      "papers": 113,
+      "news": 123,
+      "featured": 64
+    }
+  },
+  {
     "date": "2026-07-18",
     "summary": "今日图情领域研究呈现出对人工智能应用深化与科研评价方法反思并行的趋势。在AI应用方面，研究重点从通用能力转向面向特定领域（如地理信息、金融文档、档案描述）的端到端模型构建与优化，并关注AI在协作、信息核查等复杂情境下的实际影响。同时，多篇计量与评价研究聚焦于科学活动本身，深入探讨了国际流动、同行评审、超高被引论文等对学术影响力形成与评价体系的具体作用，反映了该领域对科研生态复杂性认识的加深和方法论上的持续探索。",
     "highlights": [

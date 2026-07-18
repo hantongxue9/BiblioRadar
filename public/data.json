@@ -230,6 +230,29 @@
     "id": 9481
   },
   {
+    "title": "Open science, open innovation? The role of open access in patenting activity",
+    "abstract": "<p>Scientific knowledge is a key driver of technological innovation, shaping industrial development and policy decisions worldwide. Understanding how patents incorporate scientific research is essential for assessing the role of academic discoveries in technological progress. Non-Patent References (NPRs) provide a useful indicator of this relationship by revealing the extent to which patents draw upon scientific literature. Using USPTO patent data on 497,098 patents and 3.2 million inventor-cited scientific references, matched to nearly one million distinct publications in the Marx–Fuegi (2020) database, we employ the Reliance on Science Index (RSI) and the Normalized Open Access Index (NOAI) to quantify both the dependence of patents on scientific research and the accessibility of the cited literature. We show that reliance on scientific research in patents varies significantly across regions and is strongly concentrated in science-based domains (especially biotechnology and pharmaceuticals). Oceania and Europe display stronger engagement with scientific knowledge, while the Americas exhibit lower reliance. Additionally, Open Access is overrepresented in NPRs, specifically inventor-cited scientific references, and more likely to be cited than average (38%), a trend which intensifies when Sci-Hub availability is considered. These results highlight the transformative impact of Open Science on global innovation dynamics. By facilitating broader access to research, Open Science strengthens the link between academia and industry, underscoring the need for policies that promote equitable and science-based innovation, particularly in developing regions.</p>",
+    "date": "2026-07-18",
+    "link": "https://link.springer.com/article/10.1007/s11192-026-05725-8",
+    "affiliations": "",
+    "source": "Scientometrics",
+    "tier": "A",
+    "field": "bibliometrics",
+    "content_type": "paper",
+    "category": "计量与评价",
+    "thinking": "该论文采用大规模专利与科学文献引用匹配数据，结合RSI和NOAI指数，方法严谨且样本充足，有效量化了开放获取对专利活动的影响。研究揭示了开放获取文献在专利引用中的超额代表性，为开放科学政策提供了实证依据，但技术方法上未涉及前沿AI模型，属于传统计量分析范畴。",
+    "scores": {
+      "frontier_tech": 5,
+      "practical_value": 9,
+      "methodological_rigor": 9
+    },
+    "one_sentence_summary": "研究发现开放获取的科学文献被专利引用的概率比平均水平高38%，凸显了开放科学对促进产业创新的重要作用。",
+    "credibility_score": 6.8,
+    "composite_score": 7.3,
+    "featured": false,
+    "id": 9822
+  },
+  {
     "title": "The association between international mobility and academic impact: an empirical analysis using trajectory modeling",
     "abstract": "<p>International mobility is a recognized driver of scientific innovation, yet its dynamic relationship with academic impact remains underexplored. Here, we investigate the measurement of academic mobility and its co-evolution with <i>h</i>-index trajectories. By disambiguating and integrating heterogeneous bibliometric records (ResearcherID and ORCID), we construct high-resolution longitudinal career trajectories for computer scientists to continuously track mobility behaviors and time-series impact metrics. Applying group-based dual-trajectory modeling, we then uncover joint developmental patterns. Our analysis reveals three distinct mobility profiles (stagnant, mid-increasing, and continuously active) and three <i>h</i>-index growth pathways (slow, steady, and rapid). We find that high-frequency mobility is significantly associated with a higher likelihood of being in a high-impact trajectory, though this effect exhibits clear temporal lags. Furthermore, artificial intelligence and interdisciplinary researchers are disproportionately represented in both the most mobile and fastest-growing cohorts. Methodologically, this study provides a dynamic evaluation framework that accounts for the delayed returns of academic mobility. Practically, it offers targeted empirical evidence for policymakers to design career-stage-specific interventions and optimize talent attraction strategies, particularly for high-demand and rapidly evolving fields like artificial intelligence.</p>",
     "date": "2026-07-17",
@@ -11475,28 +11498,5 @@
     "composite_score": 6.5,
     "featured": false,
     "id": 6360
-  },
-  {
-    "title": "Exploring the relationship between team institutional composition and novelty in academic papers based on fine-grained knowledge entities",
-    "abstract": "arXiv:2606.31058v1 Announce Type: cross \nAbstract: The composition of author teams is an important factor influencing the novelty of academic papers. However, existing studies have paid limited attention to the role of institutional composition, and most novelty measures remain at a general level, making it difficult to explain the specific sources and types of novelty in papers. Taking the field of natural language processing as an example, this study investigates the relationship between team institutional composition and the fine-grained novelty of academic papers. Author teams are classified into three types: academic institutions, industrial institutions, and mixed academic and industrial institutions. Four types of fine-grained knowledge entities are extracted from full-text papers, including methods, datasets, tools, and metrics. The novelty of papers is then measured based on entity combinations, and pairwise combinations of different entity types are further analyzed to examine their contributions to novel papers. The results show that, in the field of natural language processing, collaboration between industrial and academic institutions is more likely to produce novel papers than purely industrial collaboration. From the perspective of fine-grained knowledge entities, mixed academic and industrial teams pay more attention to the novelty of method-metric combinations, whereas industrial teams pay more attention to the novelty of method-tool combinations. This study reveals the relationship between institutional team composition and paper novelty through fine-grained novelty measurement, providing useful evidence for improving paper quality and promoting industry-academia-research collaboration.",
-    "date": "2026-07-01",
-    "link": "https://arxiv.org/abs/2606.31058",
-    "affiliations": "",
-    "source": "arXiv - Digital Libraries",
-    "tier": "C",
-    "field": "digital_libraries",
-    "content_type": "paper",
-    "category": "计量与评价",
-    "thinking": "该论文采用细粒度知识实体（方法、数据集、工具、指标）的组合来量化论文新颖性，方法设计具有创新性，超越了传统的文献计量指标。研究聚焦于自然语言处理领域，样本具体，分析深入，但结论的普适性有待在其他学科中进一步验证。",
-    "scores": {
-      "frontier_tech": 8,
-      "practical_value": 7,
-      "methodological_rigor": 8
-    },
-    "one_sentence_summary": "研究发现，在自然语言处理领域，产学研混合团队比纯工业团队更易产出新颖论文，且两类团队关注的新颖性知识实体组合类型不同。",
-    "credibility_score": 6.0,
-    "composite_score": 6.4,
-    "featured": false,
-    "id": 6361
   }
 ]
