@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-21",
+    "summary": "今日图情领域研究呈现出计量评价方法深化与人工智能应用拓展两大主线。在计量评价方面，研究重点聚焦于利用大语言模型等新技术改进学术文献的相似性与新颖性度量，并深入探讨了开放获取政策、作者贡献模式及新型数据库对科研评价的影响，揭示了评价体系中的潜在偏差与结构性问题。在人工智能应用领域，研究致力于提升大语言模型的可靠性与专业性，开发了用于减少事实性错误、改进文档分析与早期谣言检测的新方法，同时关注用户对AI工具的采纳行为及其可视化解读能力的影响因素。行业层面，欧洲图书馆界持续推动开放科学实践与专业能力建设。",
+    "highlights": [
+      "论文｜Which abstract stylistic features fool ChatGPT research evaluations?｜揭示了ChatGPT在评估研究质量时可能因语言复杂性而产生偏差，对智能评价工具的应用提出警示。",
+      "论文｜A scalable framework for scholarly similarity and novelty measurement with LLM-derived semantic embeddings｜提出基于大语言模型的可扩展框架，为大规模学术文献的语义相似性与新颖性分析提供了新方法。",
+      "论文｜Exploring the academic impact of the transformative journal programme｜通过实证研究发现参与‘变革期刊’计划的混合开放获取期刊的篇均引用率获得显著提升。",
+      "动态｜Advancing Open Science｜欧洲研究图书馆协会发布推进开放科学的最新动态，反映了国际图书馆界在该领域的持续努力。",
+      "动态｜Open Science Skills Visualisation｜LIBER发布开放科学技能可视化工具，旨在辅助图书馆员系统规划和提升相关专业服务能力。",
+      "趋势判断｜AI应用研究从通用能力向减少错误、增强专业领域可靠性方向深化｜今日多项研究聚焦于通过干预模型内部结构、结合领域知识等方法，提升大语言模型在事实准确性和专业任务上的表现。"
+    ],
+    "stats": {
+      "papers": 129,
+      "news": 126,
+      "featured": 68
+    }
+  },
+  {
     "date": "2026-07-20",
     "summary": "今日图情领域的研究与实践呈现出对数据质量、模型可靠性及开放科学政策的持续关注。在文献计量与科研评价方面，研究重点转向提升分析过程的透明度与可重复性，并通过构建知识继承网络等方法探索研究主题的动态演化。人工智能应用研究深入文本与多模态任务，特别是针对大语言模型的事实性错误和跨模态检索中的噪声问题提出了新的技术解决方案。行业层面，欧洲研究图书馆协会（LIBER）发布新战略并推动“零时滞”开放获取运动，显示出图书馆界在塑造开放科学政策与实践中的积极角色。",
     "highlights": [
@@ -280,22 +297,6 @@
       "papers": 160,
       "news": 134,
       "featured": 68
-    }
-  },
-  {
-    "date": "2026-07-01",
-    "summary": "今日图情领域的研究呈现出明显的计量分析与人工智能应用深度融合的趋势。在计量与评价方面，研究重点从传统指标转向更精细的贡献分配、数据可用性影响评估以及新兴数据源（如OpenAlex）的评价，同时开始关注大语言模型辅助写作对科学影响力的潜在关联。人工智能应用研究则更加聚焦于垂直领域的实际问题，如金融文档事件抽取、医疗编码分配及联邦学习安全防御，并开始探讨AI在公共部门应用中的公众信任问题。用户行为研究则结合心理测量模型与动态网络分析，深化了对在线社区信息传播与可视化解读机制的理解。",
-    "highlights": [
-      "论文｜Modeling the impact of research data unavailability on science｜通过建模量化了数据无法获取对科学产出的负面影响，为数据开放政策提供了关键实证支撑。",
-      "论文｜Latent relation-aware graph framework for document-level Chinese financial event extraction｜提出新的图神经网络框架，提升了中文金融文档中复杂事件关系抽取的效能。",
-      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜对新兴开放学术数据库OpenAlex进行全面评估，为学界选择和使用提供了重要参考。",
-      "动态｜Is responsible AI a public demand? Trust, risk, and persuasion in local government AI｜探讨公众对政府AI应用的信任机制，为公共部门推行负责任AI提供了社会学视角。",
-      "趋势判断｜计量研究正从宏观指标转向基于细粒度贡献（如CRediT）和因果推断的微观机制分析，以更精准地评估科研合作与影响力。"
-    ],
-    "stats": {
-      "papers": 255,
-      "news": 107,
-      "featured": 69
     }
   }
 ]
