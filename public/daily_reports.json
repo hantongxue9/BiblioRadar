@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-22",
+    "summary": "今日图情领域的研究呈现出以数据驱动和人工智能应用为核心的鲜明特征。在计量与评价方面，研究重点探讨了科研产出的复杂影响机制，包括大语言模型辅助写作与论文影响力的关联、合作网络动态变化对学者绩效的作用，以及超高被引论文对评价指标与排名的潜在扭曲效应。同时，对OpenAlex等新兴学术基础设施的评估，为开放科学实践提供了重要参考。在AI应用层面，研究深度渗透至知识组织与信息处理的具体环节，涌现出用于引文推荐、文档布局分析、技术合作预测及对话情感识别的一系列创新模型，显示出图情技术与前沿人工智能方法的紧密结合。用户行为研究则开始关注特定群体（如医学生）对新信息技术的采纳心理，强调了综合素养培养的重要性。",
+    "highlights": [
+      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于百万级论文的大规模实证研究，首次揭示了工程学领域大语言模型辅助写作与论文被引频次提升之间的潜在关联。",
+      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜以快速变革的AI领域为案例，深入检验了传统同行评审在预测论文未来影响力方面的有效性，对科研评价体系具有启示意义。",
+      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜对新兴开放学术图谱数据库OpenAlex进行了系统性评估，为学界选择和使用该重要数据源提供了关键参考。",
+      "AI应用｜CRM-RMS: context-aware citation recommender model using recurrent reasoning memory network over SPECTER｜提出了一种融合预训练语义表示与循环推理机制的引文推荐模型，提升了推荐任务中对上下文的理解能力。",
+      "AI应用｜A YOLO–GNN cascaded logical reasoning model for joint extraction of figures and captions in layout analysis｜将目标检测与图神经网络相结合，为文档图像中图表与标题的联合提取任务提供了一种新颖的解决方案。",
+      "趋势判断｜图情领域的研究方法正从传统的计量统计，转向深度融合预训练语言模型、图神经网络等AI技术，以解决更复杂的知识发现与信息组织问题。"
+    ],
+    "stats": {
+      "papers": 167,
+      "news": 110,
+      "featured": 63
+    }
+  },
+  {
     "date": "2026-07-21",
     "summary": "今日图情领域研究呈现出计量评价方法深化与人工智能应用拓展两大主线。在计量评价方面，研究重点聚焦于利用大语言模型等新技术改进学术文献的相似性与新颖性度量，并深入探讨了开放获取政策、作者贡献模式及新型数据库对科研评价的影响，揭示了评价体系中的潜在偏差与结构性问题。在人工智能应用领域，研究致力于提升大语言模型的可靠性与专业性，开发了用于减少事实性错误、改进文档分析与早期谣言检测的新方法，同时关注用户对AI工具的采纳行为及其可视化解读能力的影响因素。行业层面，欧洲图书馆界持续推动开放科学实践与专业能力建设。",
     "highlights": [
@@ -280,23 +297,6 @@
       "papers": 165,
       "news": 125,
       "featured": 66
-    }
-  },
-  {
-    "date": "2026-07-02",
-    "summary": "今日图情领域的研究焦点持续向AI深度应用与科学计量学的前沿方法倾斜。在AI应用方面，研究重点从基础模型能力评估转向构建人机协同的实用框架，例如用于大规模科学争议监测的混合框架，以及AI辅助下图书馆员指导对团队创意产出的影响机制。科学计量与评价领域则更加强调方法的透明度、可重复性以及对动态过程的捕捉，如合作网络演化对学者绩效的驱动作用、利用知识继承网络揭示主题演变路径。同时，通过量化科学与技术知识之间的时间差来预测技术转移机会，展示了计量学对创新管理的直接支持价值。用户研究与信息检索方面，关注点扩展到可视化解读的认知影响因素以及融合因果推理的推荐算法。",
-    "highlights": [
-      "论文｜Large language models for scientometric mapping of scientific controversy: A validated hybrid AI–Human framework｜提出了一个经专家验证的人机混合框架，为大规模、动态监测学术争议提供了可操作的方法论。",
-      "论文｜Biblioshiny and the SAAS Workflow: An integrated framework for transparent and reproducible science mapping｜构建了一个集成化框架，旨在系统性提升科学知识图谱研究的透明度与可重复性。",
-      "论文｜The dynamic scholar: How evolving co-authorship fuels scholarly performance｜实证揭示了学者合作网络的动态变化是其学术表现持续提升的关键驱动因素。",
-      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions｜实证研究了在AI辅助的协作环境中，图书馆员指导强度与用户对AI的认知如何共同影响团队创意成果。",
-      "动态｜Asynchrony as information: Predicting technology transfer opportunities through science–technology knowledge lag｜创新性地提出将科学与技术知识之间的时间滞后量化为预测技术转移机会的信息指标。",
-      "趋势判断｜从通用评估到领域深植与流程再造｜AI在图情领域的应用正从评估模型基础能力，转向构建特定领域（如争议监测、教育目标分析）的人机协同工作流，并深度融入科研评价与知识发现的核心流程。"
-    ],
-    "stats": {
-      "papers": 160,
-      "news": 134,
-      "featured": 68
     }
   }
 ]
