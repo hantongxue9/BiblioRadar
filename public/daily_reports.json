@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-24",
+    "summary": "今日图情领域的研究焦点主要集中在两个方向：一是科学计量与学术评价方法的深化与反思，二是人工智能技术在信息处理与知识服务中的多元化应用。在计量与评价方面，研究深入探讨了超高被引论文对评价体系的影响、同行评议在科学范式剧变期的预测能力变化，以及利用CRediT标准量化作者贡献等议题，显示出评价体系正朝着更精细化、透明化和情境化的方向发展。在AI应用方面，研究不仅关注大语言模型在学术写作、信息检索与生成中的效能，还探索了AI在协作学习、错误信息识别、地理空间查询、文档布局分析等具体场景中的应用效果与影响机制，呈现出技术应用与具体场景深度融合的趋势。",
+    "highlights": [
+      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇论文的实证分析，为评估大语言模型对学术产出的实际影响提供了大规模证据。",
+      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜以AI领域为例，探讨了科学范式快速变革时期同行评议有效性的动态变化，具有重要的理论价值。",
+      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜探讨了在AI辅助的协作学习中，馆员指导与用户对AI的信任如何共同影响团队创造力，为图书馆服务创新提供了新视角。",
+      "动态｜PostGISer: The first end-to-end fine-tuned large language model for PostGIS GeoSQL query generation｜开发了首个专门用于生成地理空间数据库查询的微调大语言模型，展示了AI在专业领域信息检索中的前沿应用。",
+      "趋势判断｜科学计量研究正从宏观描述转向微观机制探索，并更加关注评价方法的透明性、可重复性及其在不同科学情境下的适用性。"
+    ],
+    "stats": {
+      "papers": 157,
+      "news": 117,
+      "featured": 73
+    }
+  },
+  {
     "date": "2026-07-23",
     "summary": "今日图情领域的研究呈现出对评价体系透明化、AI应用影响评估以及用户行为深度剖析的集中关注。在计量与评价方面，研究焦点从单纯的数据可用性转向数据质量与过程的可审计性，例如对元数据一致性、超高被引论文偏差以及可复现分析流程的探讨，反映出学界对构建更稳健、可信评价方法的需求。AI应用研究则超越了功能实现，深入探究其认知影响（如对新手技能的长期效应）与领域适配性（如法律推理、地理查询）。用户行为研究进一步精细化，结合心理测量学与混合方法，探索团队结构、个人特质与信息验证行为背后的复杂机制。",
     "highlights": [
