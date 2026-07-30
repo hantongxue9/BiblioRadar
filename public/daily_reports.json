@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-30",
+    "summary": "今日图情领域研究呈现两个核心关注点：一是科研评价体系的深化与反思，二是人工智能技术在信息分析中的深度应用。在科研评价方面，多篇研究聚焦于揭示现有计量指标的潜在偏差，如超高被引论文对大学排名的放大效应、同行评审在学科变革期的预测效力，以及利用新方法（如知识继承网络）识别研究机会。同时，对OpenAlex等新兴数据源的评估为文献计量研究提供了新的工具选择。在AI应用方面，研究前沿已从基础能力转向复杂场景的优化与评估，例如利用多模态对比学习进行智能匹配、改进大语言模型用于位置预测，以及探索AI中介在协作中与馆员指导的交互影响。整体趋势表明，图情研究正致力于构建更精细、透明且适应技术变革的分析框架。",
+    "highlights": [
+      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜探讨在AI等快速变革领域，传统同行评审能否有效预测论文未来影响力，对学术评价机制有重要启示。",
+      "论文｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜系统评估新兴学术数据库OpenAlex，为文献计量研究的数据源选择提供了关键参考。",
+      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜研究揭示了在AI作为信息中介的协作场景中，馆员指导强度如何影响团队创造力，为智慧图书馆服务设计提供实证依据。",
+      "动态｜Who invests matters: A multimodal contrastive learning approach to successful startup-investor matching｜展示了利用多模态对比学习技术构建智能匹配模型的前沿应用，体现了情报分析技术的创新。",
+      "趋势判断｜科研评价从依赖单一计量指标转向构建多维度、可解释的分析框架｜今日多篇研究共同指向对评价体系偏差的反思与对透明、可复现分析流程的追求，标志着该领域的范式演进。"
+    ],
+    "stats": {
+      "papers": 207,
+      "news": 94,
+      "featured": 40
+    }
+  },
+  {
     "date": "2026-07-29",
     "summary": "今日图情领域的研究呈现出深度结合人工智能技术解决核心问题的鲜明趋势。在AI应用方面，研究重点集中于提升信息处理的质量与可靠性，例如通过结构熵干预减少大语言模型的事实性错误、利用特征解耦缓解虚假信息检测中的捷径学习，以及开发专门用于地理空间查询生成的领域模型。在信息检索与推荐领域，研究关注如何通过改进模型设计来克服从众偏差、激活内部知识以协同提升检索与生成效果。在计量与评价方面，学者们正积极利用大语言模型等新工具探索科学-技术关联度量、同行评审在颠覆性领域的预测价值等前沿议题。用户行为研究则更注重结合认知理论与实证方法，深入分析影响信息解读与验证行为的复杂因素。",
     "highlights": [
@@ -164,55 +180,6 @@
       "papers": 172,
       "news": 125,
       "featured": 67
-    }
-  },
-  {
-    "date": "2026-07-13",
-    "summary": "今日图情领域的研究焦点集中于学术交流与影响力的深度计量分析、以及人工智能在学术研究全流程中的应用与评估。在计量与评价方面，研究趋势从简单的指标计数转向对学术对话网络、知识演化路径及科研合作贡献的深层挖掘，并强调评估过程的透明化与可审计性。同时，多篇研究探讨了大语言模型对学术写作、同行评审乃至科学发现过程的影响，揭示了技术介入带来的新现象与潜在挑战。在AI应用方面，研究致力于提升大语言模型在事实性、认知理解及复杂领域（如法律）推理方面的可靠性。",
-    "highlights": [
-      "论文｜Beyond counting tweets: An exploration of scholarly conversations on Twitter｜通过分析对话网络与内容，揭示了超越简单计量的学术影响力形成机制。",
-      "论文｜A novel knowledge-entity-grounded scholarly retrieval framework in full-text academic documents｜提出利用全文中的知识实体提升学术检索效果的新框架。",
-      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇论文，实证分析了大语言模型辅助写作与论文影响力的关联。",
-      "动态｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜提出标准化数据流水线，旨在提升文献计量分析的透明度与可重复性。",
-      "动态｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜探讨在AI等快速变革领域，同行评审预测论文影响力的能力变化。",
-      "趋势判断｜大语言模型正深度介入并重塑学术写作、评估与知识发现过程，相关影响与伦理问题成为研究热点。"
-    ],
-    "stats": {
-      "papers": 157,
-      "news": 137,
-      "featured": 78
-    }
-  },
-  {
-    "date": "2026-07-11",
-    "summary": "今日图情领域的研究呈现出对学术生态、用户行为与人工智能应用的多维度关注。在学术计量与评价方面，研究深入探讨了合作模式、团队结构、研究方法演变及新兴数据源（如OpenAlex）对学者表现与学术生涯的影响，揭示了学术产出的复杂驱动因素。用户行为研究聚焦于在线社区意见领袖的动态识别、可视化信息解读的影响因素，以及生成式AI用户的信息核查行为，强调了情境与个体差异的重要性。人工智能应用研究则持续向纵深发展，涵盖提升模型性能的技术方法（如层次化学习、联邦学习优化）、在档案编目等领域的实践案例，以及AI素养与信息素养整合的教育框架构建，体现了技术赋能与人文关怀并重的趋势。",
-    "highlights": [
-      "论文｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜系统评估新兴开放学术数据库OpenAlex，为文献计量数据源的选择与应用提供关键参考。",
-      "论文｜Trajectory of Research Method Usage in the Academic Careers of Scholars in the Library and Information Science｜揭示图书情报学学者学术生涯中研究方法使用的动态演变规律。",
-      "动态｜Enhanced archival metadata through AI: a case study of digitized photograph descriptions｜展示AI技术自动增强档案元数据的实践案例，提升编目效率与数据质量。",
-      "动态｜Integrating AI literacy into library and information science education and practice: a human-centered approach｜提出以人为中心的AI素养培养框架，旨在应对图情专业人员的能力挑战。",
-      "趋势判断｜学术评价与AI应用研究均强调动态过程与复杂因素｜今日研究普遍关注演变过程（如合作模式、方法使用）与多重因素（如用户特质、资源异构）的交互影响。"
-    ],
-    "stats": {
-      "papers": 188,
-      "news": 136,
-      "featured": 69
-    }
-  },
-  {
-    "date": "2026-07-10",
-    "summary": "今日图情领域的研究呈现出对科研评价体系与方法论的持续关注，尤其聚焦于新兴技术与复杂协作模式对学术影响力形成机制的塑造。计量与评价方向的研究深入探讨了LLM辅助写作与引用绩效的关联、合作网络动态对学者表现的影响，以及颠覆性科学领域中同行评议预测效力的演变，凸显了数据驱动评价范式的深化。同时，AI应用研究展现出向专业化、隐私保护方向发展的趋势，如针对地理空间查询和隐私保护RAG的专用模型开发。知识图谱与可视化分析则继续在揭示领域知识演进和提升信息解读准确性方面提供新工具与新见解。",
-    "highlights": [
-      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的大规模实证，揭示了LLM辅助写作与论文引用绩效提升的可能关联。",
-      "论文｜The dynamic scholar: How evolving co-authorship fuels scholarly performance｜实证研究了学者合作网络的动态演化特征，并将其确立为驱动科研绩效的关键因素。",
-      "动态｜PostGISer: The first end-to-end fine-tuned large language model for PostGIS GeoSQL query generation｜报道了首个针对地理空间数据库查询生成的专用微调大语言模型，标志着AI在图情细分领域的深入应用。",
-      "动态｜Privacy-preserving RAG via multi-agent semantic rewriting｜提出了一种通过多智能体语义重写实现隐私保护的RAG框架，平衡了信息检索的准确性与用户隐私安全。",
-      "趋势判断｜同行评议的预测效力在颠覆性科学领域面临挑战｜研究表明，在AI等快速演进领域，传统同行评议对未来论文影响力的预测能力发生显著变化，提示评价体系需动态适应。"
-    ],
-    "stats": {
-      "papers": 181,
-      "news": 129,
-      "featured": 75
     }
   }
 ]
