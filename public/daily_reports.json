@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-31",
+    "summary": "今日图情领域的研究呈现出对计量分析流程标准化与透明化的高度关注，以及对人工智能技术应用场景的深度探索。在计量与评价方面，多个研究致力于通过构建可审计的数据流水线、集成化分析框架及改进的算法模型（如GC-GTM），以提升科学知识图谱绘制、主题演化分析和技术机会发现的可复现性与解释力。同时，同行评议在AI等快速变革领域的预测有效性受到检验。在AI应用与信息检索方面，研究焦点包括利用多模态学习优化初创企业匹配、通过神经干预减少大语言模型的事实性错误、设计保护隐私的检索增强生成方案，以及开发新方法以缓解群体推荐中的从众偏差。这些进展共同指向图情学科在支持科研诚信、技术预见和智能信息服务的核心作用。",
+    "highlights": [
+      "论文｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜提出标准化可审计数据流水线，为提升文献计量分析的透明度与可信度提供了方法学框架。",
+      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜以AI领域为案例，实证检验了科学快速变革时期同行评议对论文影响力的预测能力。",
+      "论文｜LANCET: Neural intervention via Structural Entropy for mitigating faithfulness hallucinations in LLMs｜提出利用结构熵干预大语言模型的新方法，旨在减少其生成内容中的事实性错误。",
+      "动态｜Open Science｜欧洲研究图书馆协会发布开放科学相关信息，为图书馆制定相关支持政策与实践提供了重要参考。",
+      "趋势判断｜计量分析流程的标准化与透明化成为研究焦点｜多个研究关注构建可复现、可审计的分析框架与数据流水线，反映了领域对研究方法严谨性的追求。"
+    ],
+    "stats": {
+      "papers": 178,
+      "news": 100,
+      "featured": 36
+    }
+  },
+  {
     "date": "2026-07-30",
     "summary": "今日图情领域研究呈现两个核心关注点：一是科研评价体系的深化与反思，二是人工智能技术在信息分析中的深度应用。在科研评价方面，多篇研究聚焦于揭示现有计量指标的潜在偏差，如超高被引论文对大学排名的放大效应、同行评审在学科变革期的预测效力，以及利用新方法（如知识继承网络）识别研究机会。同时，对OpenAlex等新兴数据源的评估为文献计量研究提供了新的工具选择。在AI应用方面，研究前沿已从基础能力转向复杂场景的优化与评估，例如利用多模态对比学习进行智能匹配、改进大语言模型用于位置预测，以及探索AI中介在协作中与馆员指导的交互影响。整体趋势表明，图情研究正致力于构建更精细、透明且适应技术变革的分析框架。",
     "highlights": [
@@ -163,23 +179,6 @@
       "papers": 238,
       "news": 101,
       "featured": 62
-    }
-  },
-  {
-    "date": "2026-07-14",
-    "summary": "今日图情领域研究呈现出高度聚焦于人工智能技术深度应用与评估的趋势。核心议题围绕AI如何变革信息组织、检索与分析流程，具体体现在三个方面：一是AI模型（特别是大语言模型和图神经网络）在学术信息处理（如引文分析、图表提取、合作关系预测）和内容验证（如谣言检测、事实性纠错）中的方法创新与性能评估；二是探讨人机协作模式，研究图书馆员等专业人员在AI中介的信息环境中如何发挥指导作用以提升团队创意产出；三是关注用户层面，通过引入心理学模型（如计划行为理论、Rasch模型）深入分析影响用户采纳AI工具、解读可视化信息及信任生成式AI的关键因素。整体来看，研究正从技术实现向人机协同、可信评估及用户行为影响的纵深方向发展。",
-    "highlights": [
-      "论文｜Revealing country-level disparities in researchers’ transition to artificial intelligence: A two-stage analytical framework｜提供了一个量化分析框架，揭示了全球科研人员向AI领域转型的国家级差异，对科研政策与人才流动研究有参考价值。",
-      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜实证研究了AI作为信息中介时，专业馆员的指导如何影响团队创造力，为人机协同的信息服务模式提供了新证据。",
-      "论文｜LANCET: Neural intervention via Structural Entropy for mitigating faithfulness hallucinations in LLMs｜提出通过干预大语言模型内部知识结构来减少事实性错误，是提升AI信息生成可信度的前沿技术探索。",
-      "动态｜Adoption of AI chatbots among medical students: integration of AI literacy and information literacy within the theory of planned behavior｜将AI素养与信息素养整合进经典行为理论，为理解专业用户采纳AI工具的心理机制提供了新的理论视角。",
-      "动态｜Benchmarking multi-step legal reasoning and analyzing Chain-of-Thought effects in Large Language Models｜通过构建基准测试系统评估大语言模型在复杂法律推理任务中的能力，对AI在专业信息分析中的应用评估具有方法论意义。",
-      "趋势判断｜图情领域AI研究正从单点技术突破转向系统性评估与人机协同生态构建｜当前研究不仅关注算法性能，更注重在真实信息场景中评估AI的可靠性、探索其与专业人员的协作模式，并深入理解用户认知与行为。"
-    ],
-    "stats": {
-      "papers": 172,
-      "news": 125,
-      "featured": 67
     }
   }
 ]
