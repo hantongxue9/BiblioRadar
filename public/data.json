@@ -23,6 +23,29 @@
     "id": 8005
   },
   {
+    "title": "Massachusetts Lawmakers Send Governor Healey Bill “That Establishes Guidelines For How Schools and Public Libraries Make Decisions About the Availability and Appropriateness of Books”",
+    "abstract": "<p>From Statehouse News Service via NBC Boston: The Massachusetts Legislature on Friday sent to Gov. Maura Healey&#8217;s desk legislation that establishes guidelines for how schools and public libraries make decisions about the availability and appropriateness of books. &#8220;Together we are setting forth a bill to protect free expression and intellectual curiosity and every person&#8217;s right [&#8230;]</p>\n<p>The post <a href=\"https://www.infodocket.com/2026/08/01/massachusetts-lawmakers-send-governor-healey-bill-that-establishes-guidelines-for-how-schools-and-public-libraries-make-decisions-about-the-availability-and-appropriateness-of-books/\">Massachusetts Lawmakers Send Governor Healey Bill &#8220;That Establishes Guidelines For How Schools and Public Libraries Make Decisions About the Availability and Appropriateness of Books&#8221;</a> appeared first on <a href=\"https://www.infodocket.com\">Library Journal infoDOCKET</a>.</p>",
+    "date": "2026-08-01",
+    "link": "https://www.infodocket.com/2026/08/01/massachusetts-lawmakers-send-governor-healey-bill-that-establishes-guidelines-for-how-schools-and-public-libraries-make-decisions-about-the-availability-and-appropriateness-of-books/",
+    "affiliations": "",
+    "source": "Infodocket",
+    "tier": "C",
+    "field": "library_news",
+    "content_type": "news",
+    "category": "政策标准",
+    "thinking": "该资讯报道了美国马萨诸塞州一项关于学校和公共图书馆图书审查决策指南的立法进展，属于图书馆核心业务（馆藏建设与审查政策）相关的近期动态，具有明确的新闻时效性。它直接关系到图书馆的馆藏发展政策与实践，为图情从业者提供了了解特定地区政策环境变化的窗口，信息价值较高。",
+    "scores": {
+      "timeliness": 9,
+      "relevance": 8,
+      "information_value": 7
+    },
+    "one_sentence_summary": "美国马萨诸塞州立法机构通过一项法案，为学校和公共图书馆如何决定图书的可用性与适宜性制定指导方针。",
+    "credibility_score": 6.0,
+    "composite_score": 7.6,
+    "featured": true,
+    "id": 12071
+  },
+  {
     "title": "Exploring the impact of AIGC on digital reading behavior: insights from nudge theory and cognitive neuroscience",
     "abstract": "",
     "date": "2026-07-31",
@@ -11475,28 +11498,5 @@
     "composite_score": 5.6,
     "featured": false,
     "id": 9493
-  },
-  {
-    "title": "With Argus Eyes: Assessing Retrieval Gaps via Uncertainty Scoring to Detect and Remedy Retrieval Blind Spots",
-    "abstract": "arXiv:2602.09616v2 Announce Type: replace \nAbstract: Reliable retrieval-augmented generation (RAG) systems depend fundamentally on the retriever's ability to find relevant information. We show that neural retrievers used in RAG systems have blind spots, which we define as the failure to retrieve entities that are relevant to the query, but have low similarity to the query embedding. We investigate the training-induced biases that cause such blind spot entities to be mapped to inaccessible parts of the embedding space, resulting in low retrievability. Using a large-scale dataset constructed from Wikidata relations and first paragraphs of Wikipedia, and our proposed Retrieval Probability Score (RPS), we show that blind spot risk in standard retrievers (e.g., CONTRIEVER, REASONIR) can be predicted pre-index from entity embedding geometry, avoiding expensive retrieval evaluations. To address these blind spots, we introduce ARGUS, a pipeline that enables the retrievability of high-risk (low-RPS) entities through targeted document augmentation from a knowledge base (KB), first paragraphs of Wikipedia, in our case. Extensive experiments on BRIGHT, IMPLIRET, and RAR-B show that ARGUS achieves consistent improvements across all evaluated retrievers (averaging +3.4 nDCG@5 and +4.5 nDCG@10 absolute points), with substantially larger gains in challenging subsets. These results establish that preemptively remedying blind spots is critical for building robust and trustworthy RAG systems.",
-    "date": "2026-07-16",
-    "link": "https://arxiv.org/abs/2602.09616",
-    "affiliations": "",
-    "source": "arXiv - Information Retrieval",
-    "tier": "C",
-    "field": "information_retrieval",
-    "content_type": "paper",
-    "category": "检索与推荐",
-    "thinking": "该论文针对检索增强生成系统中的检索盲点问题，提出了基于嵌入几何不确定性评分（RPS）的预测方法和ARGUS增强管道，方法新颖且实验设计较为严谨，在多个基准数据集上验证了有效性。其研究直接面向提升RAG系统的可靠性，具有明确的应用导向，但作为预印本论文，其方法在真实、复杂业务场景中的落地效果仍需进一步验证。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 7,
-      "methodological_rigor": 8
-    },
-    "one_sentence_summary": "该研究提出了一种通过预测和增强文档来修复检索系统盲点的方法，能有效提升检索增强生成系统的可靠性。",
-    "credibility_score": 6.0,
-    "composite_score": 6.7,
-    "featured": false,
-    "id": 9494
   }
 ]

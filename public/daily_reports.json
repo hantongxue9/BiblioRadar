@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-02",
+    "summary": "今日图情领域的研究呈现出计量分析与人工智能应用深度融合的趋势。在计量与评价方面，研究重点在于改进传统方法的局限，例如针对引文分布零膨胀和重尾特征的新贝叶斯模型，以及提升科学知识图谱研究可重复性的集成框架。跨学科知识生产的机制探索（如地理与认知距离的联合影响）和基于文献挖掘的技术机会发现（如知识继承网络、生成式拓扑映射）是当前热点。在AI应用方面，大语言模型（LLM）的优化与领域适配成为焦点，涌现出针对事实性错误干预、多模态任务（如地理查询生成、科学文献摘要）以及社交媒体信息治理（如谣言与错误信息检测）的专门化模型与框架。数据管理领域则关注于结合区块链技术实现更精细的动态访问控制。",
+    "highlights": [
+      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出一种能更准确建模引文极端分布特性的贝叶斯模型，对学术影响力评估方法有重要改进。",
+      "论文｜Distant but bridgeable: how geographic and cognitive distance jointly shape interdisciplinary knowledge production｜揭示了认知距离比地理距离更能阻碍跨学科知识创新，为科研合作政策提供了新视角。",
+      "动态｜LANCET: Neural intervention via Structural Entropy for mitigating faithfulness hallucinations in LLMs｜提出通过知识图谱结构干预来减少大语言模型事实性错误的新方法，提升了AI信息服务的可靠性。",
+      "动态｜PostGISer: The first end-to-end fine-tuned large language model for PostGIS GeoSQL query generation｜开发了首个专门用于地理空间数据库查询生成的微调大模型，是AI在专业信息检索领域的重要应用。",
+      "动态｜Dynamic fine-grained access control framework for vector map service based on virtual link｜设计了结合区块链的框架，为地理信息服务的动态、细粒度访问控制提供了新思路。",
+      "趋势判断｜AI模型正从通用能力向面向图情具体任务的专门化、可解释与可信赖方向深度演进｜今日研究显示，大模型正被针对性优化以处理地理查询、科学摘要、信息验证等专业任务，并强调减少幻觉和提升透明度。"
+    ],
+    "stats": {
+      "papers": 134,
+      "news": 126,
+      "featured": 68
+    }
+  },
+  {
     "date": "2026-08-01",
     "summary": "今日图情领域研究呈现出方法创新与技术融合的鲜明特征。在文献计量与科学评价方面，研究焦点从静态指标转向动态过程分析，例如通过两阶段动态效率模型评估绿色技术创新，以及利用知识继承网络揭示领域演化路径。同时，可复现性研究框架的提出，反映了对科学知识图谱研究方法规范性的重视。在信息检索与推荐系统领域，研究致力于解决实际应用中的关键问题，如通过新颖的神经架构设计来缓解群体推荐中的从众偏差，以及优化大规模推荐系统的索引与计算效率。人工智能应用继续向纵深发展，具体体现在利用多模态AI解析政府传播策略，以及构建分层框架进行早期谣言检测。用户行为研究则更注重量化分析，例如通过心理测量模型探究影响可视化解读能力的因素。",
     "highlights": [
