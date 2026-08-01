@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-01",
+    "summary": "今日图情领域研究呈现出方法创新与技术融合的鲜明特征。在文献计量与科学评价方面，研究焦点从静态指标转向动态过程分析，例如通过两阶段动态效率模型评估绿色技术创新，以及利用知识继承网络揭示领域演化路径。同时，可复现性研究框架的提出，反映了对科学知识图谱研究方法规范性的重视。在信息检索与推荐系统领域，研究致力于解决实际应用中的关键问题，如通过新颖的神经架构设计来缓解群体推荐中的从众偏差，以及优化大规模推荐系统的索引与计算效率。人工智能应用继续向纵深发展，具体体现在利用多模态AI解析政府传播策略，以及构建分层框架进行早期谣言检测。用户行为研究则更注重量化分析，例如通过心理测量模型探究影响可视化解读能力的因素。",
+    "highlights": [
+      "论文｜Two-stage dynamic StoNED model for efficiency evaluation of green technology innovation: evidence from a cross-country study｜通过创新的两阶段动态模型，揭示了全球绿色技术创新中研发与生产阶段效率不协调的核心瓶颈。",
+      "论文｜Biblioshiny and the SAAS Workflow: An integrated framework for transparent and reproducible science mapping. A demonstration through the replication of a study｜提出了一个结合工具与工作流的集成框架，旨在提升科学知识图谱研究的透明度与可复现性。",
+      "动态｜Digital Scholarship & Digital Cultural Heritage Collections｜欧洲研究图书馆协会关注数字学术与文化遗产馆藏的最新发展，为相关实践提供重要参考。",
+      "论文｜All Is Heard: Mitigating conformity bias via dual-branch collaboration in group recommendation｜提出结合对比学习与图神经网络的新方法，有效缓解群体推荐系统中的从众偏差问题。",
+      "论文｜Unveiling thematic evolution and R&D opportunities through knowledge inheritance networks: A case study in telecommunications｜通过构建知识继承网络，有效揭示了电信领域的研究主题演化路径并识别潜在机会。",
+      "趋势判断｜图情研究正从静态指标分析转向对知识流动、合作网络、技术演化等动态过程的建模与评估。"
+    ],
+    "stats": {
+      "papers": 177,
+      "news": 119,
+      "featured": 55
+    }
+  },
+  {
     "date": "2026-07-31",
     "summary": "今日图情领域的研究呈现出对计量分析流程标准化与透明化的高度关注，以及对人工智能技术应用场景的深度探索。在计量与评价方面，多个研究致力于通过构建可审计的数据流水线、集成化分析框架及改进的算法模型（如GC-GTM），以提升科学知识图谱绘制、主题演化分析和技术机会发现的可复现性与解释力。同时，同行评议在AI等快速变革领域的预测有效性受到检验。在AI应用与信息检索方面，研究焦点包括利用多模态学习优化初创企业匹配、通过神经干预减少大语言模型的事实性错误、设计保护隐私的检索增强生成方案，以及开发新方法以缓解群体推荐中的从众偏差。这些进展共同指向图情学科在支持科研诚信、技术预见和智能信息服务的核心作用。",
     "highlights": [
@@ -162,23 +179,6 @@
       "papers": 197,
       "news": 127,
       "featured": 69
-    }
-  },
-  {
-    "date": "2026-07-15",
-    "summary": "今日图情领域的研究与实践呈现两大核心趋势：一是人工智能应用持续深化，尤其在提升信息处理质量与可靠性方面取得进展。多智能体协作、注意力结构熵干预、两阶段鲁棒解码等新方法，旨在系统性缓解大语言模型的事实性错误（幻觉）问题，提高生成内容的可信度。同时，AI技术正被应用于具体的图情业务场景，如自动化修辞结构分析、增强档案元数据、轻量化命名实体识别以及联邦学习下的医疗数据特征选择，展现了从基础研究向业务融合的转变。二是跨学科知识生产与用户行为研究受到关注。研究发现地理距离与认知距离在跨学科合作中具有互补性，而非简单替代。在用户侧，研究揭示了生成式AI用户信息验证行为的多重动因，以及AI素养与信息素养共同影响特定群体技术采纳的复杂机制。此外，从文献数据中自动化发现技术机会的计量模型也为知识发现提供了新工具。",
-    "highlights": [
-      "论文｜Distant but bridgeable: how geographic and cognitive distance jointly shape interdisciplinary knowledge production｜揭示了地理距离与认知距离在跨学科知识生产中互补而非替代的复杂关系，对理解合作网络有重要价值。",
-      "论文｜LANCET: Neural intervention via Structural Entropy for mitigating faithfulness hallucinations in LLMs｜提出通过干预注意力结构熵来减少大模型事实错误的新方法，是提升AI信息可靠性前沿研究。",
-      "论文｜Determinants of information verification behaviour among generative AI users｜综合运用结构方程与定性比较分析，深入揭示了影响用户对AI生成内容进行验证的多重因素与路径。",
-      "动态｜Text & Data Mining｜资讯聚焦图书馆政策相关的文本与数据挖掘议题，对机构制定相关服务与实践策略具有直接参考意义。",
-      "动态｜Enhanced archival metadata through AI: a case study of digitized photograph descriptions｜展示了AI技术提升档案元数据质量的实证案例，为智慧档案馆建设提供了具体路径。",
-      "趋势｜AI应用研究从追求功能实现转向关注输出质量、可靠性与业务场景深度融合｜今日多项研究聚焦于缓解大模型幻觉、提升生成稳定性及在具体图情业务（如档案、文献分析）中的落地，标志该领域进入深化应用与风险管控的新阶段。"
-    ],
-    "stats": {
-      "papers": 238,
-      "news": 101,
-      "featured": 62
     }
   }
 ]
