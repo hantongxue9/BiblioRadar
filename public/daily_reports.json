@@ -1,19 +1,18 @@
 [
   {
-    "date": "2026-08-02",
-    "summary": "今日图情领域的研究呈现出计量分析与人工智能应用深度融合的趋势。在计量与评价方面，研究重点在于改进传统方法的局限，例如针对引文分布零膨胀和重尾特征的新贝叶斯模型，以及提升科学知识图谱研究可重复性的集成框架。跨学科知识生产的机制探索（如地理与认知距离的联合影响）和基于文献挖掘的技术机会发现（如知识继承网络、生成式拓扑映射）是当前热点。在AI应用方面，大语言模型（LLM）的优化与领域适配成为焦点，涌现出针对事实性错误干预、多模态任务（如地理查询生成、科学文献摘要）以及社交媒体信息治理（如谣言与错误信息检测）的专门化模型与框架。数据管理领域则关注于结合区块链技术实现更精细的动态访问控制。",
+    "date": "2026-08-03",
+    "summary": "今日图情领域的研究与实践呈现出两大核心焦点：一是对研究过程与方法论本身严谨性与透明性的深度关注，二是人工智能技术在多模态信息分析与专业应用场景中的持续深化。在计量与评价领域，研究重点转向了分析流程的标准化与可复现性，旨在通过构建可审计的数据管道和集成化分析框架，提升科研评价的信度与效度。人工智能应用方面，研究已超越基础事实处理，深入探索模型对复杂认知过程（如叙事思维、决策模式）的理解能力，并针对特定专业领域（如地理空间查询、事实核查）开发专用模型与评估工具。同时，行业政策层面持续关注文本与数据挖掘的法律环境，为学术研究争取更有利的制度支持。",
     "highlights": [
-      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出一种能更准确建模引文极端分布特性的贝叶斯模型，对学术影响力评估方法有重要改进。",
-      "论文｜Distant but bridgeable: how geographic and cognitive distance jointly shape interdisciplinary knowledge production｜揭示了认知距离比地理距离更能阻碍跨学科知识创新，为科研合作政策提供了新视角。",
-      "动态｜LANCET: Neural intervention via Structural Entropy for mitigating faithfulness hallucinations in LLMs｜提出通过知识图谱结构干预来减少大语言模型事实性错误的新方法，提升了AI信息服务的可靠性。",
-      "动态｜PostGISer: The first end-to-end fine-tuned large language model for PostGIS GeoSQL query generation｜开发了首个专门用于地理空间数据库查询生成的微调大模型，是AI在专业信息检索领域的重要应用。",
-      "动态｜Dynamic fine-grained access control framework for vector map service based on virtual link｜设计了结合区块链的框架，为地理信息服务的动态、细粒度访问控制提供了新思路。",
-      "趋势判断｜AI模型正从通用能力向面向图情具体任务的专门化、可解释与可信赖方向深度演进｜今日研究显示，大模型正被针对性优化以处理地理查询、科学摘要、信息验证等专业任务，并强调减少幻觉和提升透明度。"
+      "论文｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜提出标准化、可审计的文献计量数据处理流程，显著提升分析结果的可信度与可复现性。",
+      "论文｜Beyond factual events: Evaluating LLMs’ capability of cognitive processes understanding in narratives｜构建评估框架，测试大语言模型理解叙事中角色思维过程的能力，是对模型深层认知评估的重要探索。",
+      "动态｜Text & Data Mining｜欧洲研究图书馆协会发布立场声明，积极推动为图书馆的文本与数据挖掘活动争取必要的法律豁免与支持。",
+      "动态｜Strategy 2023-2027LIBER Publishes a Statement on Rights & Values for Research Libraries｜欧洲研究图书馆联盟发布战略声明，系统阐述了研究图书馆在数字时代的核心权利与价值定位。",
+      "趋势判断｜图情领域对AI应用的评价正从事实准确性转向对复杂认知任务的理解与完成能力，并同步强化研究过程本身的规范性与透明度。"
     ],
     "stats": {
-      "papers": 134,
-      "news": 126,
-      "featured": 68
+      "papers": 151,
+      "news": 122,
+      "featured": 60
     }
   },
   {
