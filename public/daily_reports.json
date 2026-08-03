@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-08-04",
+    "summary": "今日图情领域的研究呈现出对人工智能方法深度应用与文献计量方法学精细化发展的双重关注。在人工智能应用方面，研究重点从基础模型转向特定场景的优化与评估，例如通过对比研究探索不同主题模型的适用性，以及开发新方法以提升大语言模型的事实准确性、多模态内容分析能力和领域适应效率。在文献计量与评价领域，研究趋向于方法论的稳健性与应用深度，包括开发更精确处理引用数据极端分布的统计模型、构建标准化可审计的分析流程，以及利用知识网络等新视角挖掘领域演化规律。此外，数据管理与学术传播的相关研究关注数据共享的价值、匿名化数据的风险以及同行评审质量的影响，体现了对科研生态基础设施与规范建设的持续思考。",
+    "highlights": [
+      "论文｜Bag-of-words or embedding-based topic models? Comparing LDA, BERTopic, and six other methods｜通过系统性实证比较八种主题模型，为不同研究场景下的模型选择提供了基于证据的参考。",
+      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出一种创新的贝叶斯统计模型，能更准确地刻画和预测学术论文中常见的零引用和极端高引现象。",
+      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜全面评估新兴开放学术数据库OpenAlex，为研究社区采用这一重要免费数据源提供了关键的技术与应用分析。",
+      "动态｜Community's lifeline: Dynamically identifying the short-term emergence and long-term survival of opinion leaders in diabetes online communities｜提出动态识别在线健康社区意见领袖的方法，对社区管理与信息传播干预具有实践意义。",
+      "趋势判断｜AI应用研究正从通用能力探索转向针对事实性、多模态理解、领域适应等具体挑战的解决方案开发，并与图情传统任务（如主题分析、信息评估）深度融合。"
+    ],
+    "stats": {
+      "papers": 172,
+      "news": 122,
+      "featured": 66
+    }
+  },
+  {
     "date": "2026-08-03",
     "summary": "今日图情领域的研究与实践呈现出两大核心焦点：一是对研究过程与方法论本身严谨性与透明性的深度关注，二是人工智能技术在多模态信息分析与专业应用场景中的持续深化。在计量与评价领域，研究重点转向了分析流程的标准化与可复现性，旨在通过构建可审计的数据管道和集成化分析框架，提升科研评价的信度与效度。人工智能应用方面，研究已超越基础事实处理，深入探索模型对复杂认知过程（如叙事思维、决策模式）的理解能力，并针对特定专业领域（如地理空间查询、事实核查）开发专用模型与评估工具。同时，行业政策层面持续关注文本与数据挖掘的法律环境，为学术研究争取更有利的制度支持。",
     "highlights": [
@@ -178,23 +194,6 @@
       "papers": 143,
       "news": 121,
       "featured": 63
-    }
-  },
-  {
-    "date": "2026-07-16",
-    "summary": "今日图情领域的研究呈现出对人工智能，尤其是大语言模型（LLMs）应用与影响的深度探索。在学术传播与评价方面，研究揭示了LLMs评估的高质量同行评审与论文科学影响力的正相关性，并构建了分析生成式AI在生物医学研究中收益与风险的双层框架。在信息检索与用户行为领域，研究关注如何利用新技术解决实际问题，如通过双分支模型缓解群体推荐中的从众偏差，以及通过混合方法探究生成式AI用户的信息验证行为与持续使用意愿。同时，对LLMs能力的评估从事实性任务扩展到对叙事中认知过程的理解。行业层面，欧洲研究图书馆协会（LIBER）发布了新的战略规划及配套资源，显示出图书馆界在数字学术与数据科学服务支持方面的持续投入与规范化努力。",
-    "highlights": [
-      "论文｜Benefits and risks of generative AI in scientific research: a two-layer analysis framework of biomedical publications｜构建了分析生成式AI在生物医学研究中价值链与风险收益的双层计量框架。",
-      "论文｜Relationship between peer review quality and scientific impact: Insights from LLMs-assessed reviews｜通过大语言模型评估发现，同行评审质量与论文后续科学影响力存在显著正相关。",
-      "论文｜All Is Heard: Mitigating conformity bias via dual-branch collaboration in group recommendation｜提出结合对比学习与图神经网络的双分支模型，以缓解群体推荐中的从众偏差。",
-      "动态｜Our 2023-2027 Strategy｜欧洲研究图书馆协会发布未来五年战略规划，明确行业发展方向与重点。",
-      "动态｜Digital Scholarship & Data Science Topic Guides｜欧洲研究图书馆协会发布主题指南，为图书馆支持数字学术与数据科学提供专业参考。",
-      "趋势判断｜大语言模型的应用评估正从事实性任务向理解复杂认知过程与辅助学术评价等深层能力拓展。"
-    ],
-    "stats": {
-      "papers": 197,
-      "news": 127,
-      "featured": 69
     }
   }
 ]
