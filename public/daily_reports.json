@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-06",
+    "summary": "今日图情领域的研究呈现出鲜明的数据驱动与人工智能应用融合的趋势。在科学计量与评价方面，焦点集中于利用大规模数据和先进模型来量化科学活动的影响与模式，例如通过超百万论文分析LLM辅助写作的引用效应、评估科研数据缺失的负面影响，以及利用CRediT标准量化合作贡献。同时，对OpenAlex等新兴基础设施的评估为数据源选择提供了关键参考。在AI应用层面，研究重点已从基础能力测试转向解决特定领域复杂问题，如确保引用完整性、进行早期谣言检测、理解叙事认知过程以及执行多步骤法律推理，显示出AI技术在图情核心任务中日益深入和专业化的发展态势。",
+    "highlights": [
+      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的大规模实证分析，首次揭示了LLM辅助写作与论文引用表现提升之间的关联。",
+      "论文｜Modeling the impact of research data unavailability on science｜通过建模量化了科研数据不可获取对科学知识生产的负面影响，为数据共享政策提供了坚实的证据支持。",
+      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜对新兴开放学术数据库OpenAlex进行了全面评估，为图书馆和研究人员选择与利用该数据源提供了系统性指南。",
+      "动态｜Benchmarking multi-step legal reasoning and analyzing Chain-of-Thought effects in Large Language Models｜系统评估了LLM在复杂法律推理任务上的表现，并深入分析了思维链提示的作用机制。",
+      "动态｜LANCET: Neural intervention via Structural Entropy for mitigating faithfulness hallucinations in LLMs｜提出一种通过干预模型内部结构来减少事实性错误的新方法，是提升LLM输出可靠性的前沿探索。",
+      "趋势判断｜AI应用研究正从通用能力评估转向面向图情核心任务的深度专业化解决方案构建｜今日收录的AI应用研究广泛覆盖引用验证、事件抽取、谣言检测等专业场景，标志着该领域技术应用进入深耕阶段。"
+    ],
+    "stats": {
+      "papers": 216,
+      "news": 128,
+      "featured": 67
+    }
+  },
+  {
     "date": "2026-08-05",
     "summary": "今日图情领域的研究呈现出鲜明的技术驱动与问题导向特征，尤其聚焦于人工智能的深度应用与知识生态的量化分析。在AI应用方面，研究前沿从通用能力评估延伸至特定专业领域（如法律推理、地理空间查询、多模态信息提取）的模型定制与优化，并持续关注模型的可信性（如减少事实性错误、检测生成内容）和鲁棒性问题。同时，基于网络分析的知识计量研究持续深化，不仅关注宏观层面的全球知识流动与国家角色，也深入到具体学科（如电信领域）的主题演化与机会发现。用户行为研究则与健康信息等具体场景紧密结合，探索动态、个性化的信息服务模式。整体而言，图情研究正紧密围绕如何利用先进技术更智能地组织、分析知识，并更精准地服务于特定领域和用户需求展开。",
     "highlights": [
@@ -145,23 +162,6 @@
       "papers": 167,
       "news": 110,
       "featured": 63
-    }
-  },
-  {
-    "date": "2026-07-21",
-    "summary": "今日图情领域研究呈现出计量评价方法深化与人工智能应用拓展两大主线。在计量评价方面，研究重点聚焦于利用大语言模型等新技术改进学术文献的相似性与新颖性度量，并深入探讨了开放获取政策、作者贡献模式及新型数据库对科研评价的影响，揭示了评价体系中的潜在偏差与结构性问题。在人工智能应用领域，研究致力于提升大语言模型的可靠性与专业性，开发了用于减少事实性错误、改进文档分析与早期谣言检测的新方法，同时关注用户对AI工具的采纳行为及其可视化解读能力的影响因素。行业层面，欧洲图书馆界持续推动开放科学实践与专业能力建设。",
-    "highlights": [
-      "论文｜Which abstract stylistic features fool ChatGPT research evaluations?｜揭示了ChatGPT在评估研究质量时可能因语言复杂性而产生偏差，对智能评价工具的应用提出警示。",
-      "论文｜A scalable framework for scholarly similarity and novelty measurement with LLM-derived semantic embeddings｜提出基于大语言模型的可扩展框架，为大规模学术文献的语义相似性与新颖性分析提供了新方法。",
-      "论文｜Exploring the academic impact of the transformative journal programme｜通过实证研究发现参与‘变革期刊’计划的混合开放获取期刊的篇均引用率获得显著提升。",
-      "动态｜Advancing Open Science｜欧洲研究图书馆协会发布推进开放科学的最新动态，反映了国际图书馆界在该领域的持续努力。",
-      "动态｜Open Science Skills Visualisation｜LIBER发布开放科学技能可视化工具，旨在辅助图书馆员系统规划和提升相关专业服务能力。",
-      "趋势判断｜AI应用研究从通用能力向减少错误、增强专业领域可靠性方向深化｜今日多项研究聚焦于通过干预模型内部结构、结合领域知识等方法，提升大语言模型在事实准确性和专业任务上的表现。"
-    ],
-    "stats": {
-      "papers": 129,
-      "news": 126,
-      "featured": 68
     }
   }
 ]
