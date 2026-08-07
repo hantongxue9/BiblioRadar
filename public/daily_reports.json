@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-08",
+    "summary": "今日图情领域的研究呈现出以数据驱动和人工智能深度应用为核心的趋势。在计量与评价方面，研究重点从传统的指标计算转向更具动态性、公平性和透明度的评估方法，如关注学者合作网络的演化、开发基于多种贡献分配方案的自动化工具以及构建可审计的数据分析流水线。同时，对新兴数据库（如OpenAlex）的评估为数据源选择提供了重要依据。在人工智能应用方面，研究深入信息服务的具体场景，探索AI在信息中介、事件抽取、岗位匹配、多模态分析等任务中的效能，并关注如何减少大模型的事实性错误。用户行为研究则聚焦于在线社区中意见领袖的动态识别以及任务情境驱动的个性化信息呈现。整体来看，研究正朝着更精细的机制解析、更可靠的技术工具和更以用户及任务为中心的方向发展。",
+    "highlights": [
+      "论文｜The dynamic scholar: How evolving co-authorship fuels scholarly performance｜该研究揭示了学者合作网络的动态变化是驱动学术表现的关键机制，对理解科研合作本质具有启发意义。",
+      "论文｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜该研究提出的标准化、可审计数据流水线，为提升文献计量评估的透明度和可重复性提供了方法论框架。",
+      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜该研究探讨了AI信息中介情境下图书馆员角色的关键作用，为智慧图书馆服务设计提供了实证依据。",
+      "动态｜LANCET: Neural intervention via Structural Entropy for mitigating faithfulness hallucinations in LLMs｜该研究提出通过干预知识结构来减少大模型事实性错误，是提升AI信息服务质量的前沿技术探索。",
+      "动态｜Who invests matters: A multimodal contrastive learning approach to successful startup-investor matching｜该研究展示了多模态AI技术在精准信息匹配（如投融资）中的应用潜力，体现了图情技术向垂直领域深化。",
+      "趋势判断｜图情研究正从宏观计量评估转向微观机制探索与场景化AI应用融合｜研究焦点日益关注评估的公平透明、AI技术的可靠可用，以及信息服务在具体任务情境中的效能优化。"
+    ],
+    "stats": {
+      "papers": 204,
+      "news": 126,
+      "featured": 70
+    }
+  },
+  {
     "date": "2026-08-07",
     "summary": "今日图情领域的研究呈现出以人工智能技术深度应用与反思评估并重的特点。在技术应用层面，焦点集中于提升信息系统的智能处理能力与可靠性，具体表现为：利用混合提示生成、图神经网络及扩散模型等前沿方法，优化从长文档中抽取复杂事件、增强推荐系统多样性等任务；同时，针对大语言模型的事实性错误与安全风险，涌现出基于结构熵的干预方法和针对多模态模型的后门攻击研究，体现了对AI模型可信与安全的持续关注。在评估与用户行为层面，研究强调过程的严谨性与机制的深入剖析，包括构建可审计的文献计量分析流程以提升评估透明度，以及采用混合方法探究生成式AI用户的信息验证行为与持续使用意愿的影响因素。此外，对OpenAlex等新兴数据源的系统性评估，为科研评价实践提供了重要参考。",
     "highlights": [
@@ -145,23 +162,6 @@
       "papers": 223,
       "news": 101,
       "featured": 36
-    }
-  },
-  {
-    "date": "2026-07-23",
-    "summary": "今日图情领域的研究呈现出对评价体系透明化、AI应用影响评估以及用户行为深度剖析的集中关注。在计量与评价方面，研究焦点从单纯的数据可用性转向数据质量与过程的可审计性，例如对元数据一致性、超高被引论文偏差以及可复现分析流程的探讨，反映出学界对构建更稳健、可信评价方法的需求。AI应用研究则超越了功能实现，深入探究其认知影响（如对新手技能的长期效应）与领域适配性（如法律推理、地理查询）。用户行为研究进一步精细化，结合心理测量学与混合方法，探索团队结构、个人特质与信息验证行为背后的复杂机制。",
-    "highlights": [
-      "论文｜Beyond existence checks: a cross-database benchmark of bibliographic metadata consistency across academic domains and LLM-generated citations｜揭示了跨数据库引文元数据不一致的普遍性问题，对引文验证工具和数据质量评估提出了新要求。",
-      "论文｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜提出了一个提升文献计量分析过程透明度与可重复性的通用框架，对规范研究评价实践有重要意义。",
-      "论文｜More vs. less cognitive offloading from ai assistants: impacts on novices’ collaborative performance and skill development｜实证研究了AI助手过度辅助对新手的潜在负面影响，为设计促进学习的AI工具提供了关键见解。",
-      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜系统评估了新兴开放学术数据库OpenAlex，为图情领域研究者选择和使用数据源提供了重要参考。",
-      "动态｜Determinants of information verification behaviour among generative AI users: an empirical analysis based on SEM and fsQCA｜综合运用结构方程模型与定性比较分析，深入揭示了生成式AI用户信息核查行为的多重驱动路径。",
-      "趋势判断｜计量评价研究正从关注指标结果转向构建透明、可审计的分析流程，同时AI应用研究更注重其对人类认知与技能发展的长期影响。"
-    ],
-    "stats": {
-      "papers": 161,
-      "news": 123,
-      "featured": 67
     }
   }
 ]
