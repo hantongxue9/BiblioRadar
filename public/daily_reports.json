@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-07",
+    "summary": "今日图情领域的研究呈现出以人工智能技术深度应用与反思评估并重的特点。在技术应用层面，焦点集中于提升信息系统的智能处理能力与可靠性，具体表现为：利用混合提示生成、图神经网络及扩散模型等前沿方法，优化从长文档中抽取复杂事件、增强推荐系统多样性等任务；同时，针对大语言模型的事实性错误与安全风险，涌现出基于结构熵的干预方法和针对多模态模型的后门攻击研究，体现了对AI模型可信与安全的持续关注。在评估与用户行为层面，研究强调过程的严谨性与机制的深入剖析，包括构建可审计的文献计量分析流程以提升评估透明度，以及采用混合方法探究生成式AI用户的信息验证行为与持续使用意愿的影响因素。此外，对OpenAlex等新兴数据源的系统性评估，为科研评价实践提供了重要参考。",
+    "highlights": [
+      "论文｜Revealing country-level disparities in researchers’ transition to artificial intelligence: A two-stage analytical framework｜通过构建两阶段分析框架，揭示了全球科研人员向AI领域转型的国家级差异，对研究人才流动与学科演化具有重要参考价值。",
+      "论文｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜提出了一种标准化、可审计的文献计量数据分析流程，为提升科研评估的透明度、可重复性与可信度提供了方法论支持。",
+      "论文｜LANCET: Neural intervention via Structural Entropy for mitigating faithfulness hallucinations in LLMs｜提出一种基于结构熵的神经干预新方法，为减少大语言模型的事实性错误（幻觉）提供了创新性技术思路。",
+      "动态｜HyGEN: A novel hybrid prompt generation model for document-level event argument extraction｜开发了一种混合提示生成模型，显著提升了从长文档中自动抽取结构化事件论元的性能，对智能信息抽取应用有直接推动作用。",
+      "动态｜Determinants of information verification behaviour among generative AI users: an empirical analysis based on SEM and fsQCA｜采用结构方程模型与模糊集定性比较分析相结合的混合方法，系统揭示了影响生成式AI用户进行信息验证行为的复杂因果机制。",
+      "趋势判断｜AI技术在情报分析中的应用正从功能实现迈向可信可控与深度理解的新阶段｜研究焦点从单纯提升AI任务性能，扩展到关注模型的事实可靠性、安全风险、评估透明度及用户行为机制，标志着该领域进入更成熟、更注重负责任创新的发展阶段。"
+    ],
+    "stats": {
+      "papers": 181,
+      "news": 120,
+      "featured": 64
+    }
+  },
+  {
     "date": "2026-08-06",
     "summary": "今日图情领域的研究呈现出鲜明的数据驱动与人工智能应用融合的趋势。在科学计量与评价方面，焦点集中于利用大规模数据和先进模型来量化科学活动的影响与模式，例如通过超百万论文分析LLM辅助写作的引用效应、评估科研数据缺失的负面影响，以及利用CRediT标准量化合作贡献。同时，对OpenAlex等新兴基础设施的评估为数据源选择提供了关键参考。在AI应用层面，研究重点已从基础能力测试转向解决特定领域复杂问题，如确保引用完整性、进行早期谣言检测、理解叙事认知过程以及执行多步骤法律推理，显示出AI技术在图情核心任务中日益深入和专业化的发展态势。",
     "highlights": [
@@ -145,23 +162,6 @@
       "papers": 161,
       "news": 123,
       "featured": 67
-    }
-  },
-  {
-    "date": "2026-07-22",
-    "summary": "今日图情领域的研究呈现出以数据驱动和人工智能应用为核心的鲜明特征。在计量与评价方面，研究重点探讨了科研产出的复杂影响机制，包括大语言模型辅助写作与论文影响力的关联、合作网络动态变化对学者绩效的作用，以及超高被引论文对评价指标与排名的潜在扭曲效应。同时，对OpenAlex等新兴学术基础设施的评估，为开放科学实践提供了重要参考。在AI应用层面，研究深度渗透至知识组织与信息处理的具体环节，涌现出用于引文推荐、文档布局分析、技术合作预测及对话情感识别的一系列创新模型，显示出图情技术与前沿人工智能方法的紧密结合。用户行为研究则开始关注特定群体（如医学生）对新信息技术的采纳心理，强调了综合素养培养的重要性。",
-    "highlights": [
-      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于百万级论文的大规模实证研究，首次揭示了工程学领域大语言模型辅助写作与论文被引频次提升之间的潜在关联。",
-      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜以快速变革的AI领域为案例，深入检验了传统同行评审在预测论文未来影响力方面的有效性，对科研评价体系具有启示意义。",
-      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜对新兴开放学术图谱数据库OpenAlex进行了系统性评估，为学界选择和使用该重要数据源提供了关键参考。",
-      "AI应用｜CRM-RMS: context-aware citation recommender model using recurrent reasoning memory network over SPECTER｜提出了一种融合预训练语义表示与循环推理机制的引文推荐模型，提升了推荐任务中对上下文的理解能力。",
-      "AI应用｜A YOLO–GNN cascaded logical reasoning model for joint extraction of figures and captions in layout analysis｜将目标检测与图神经网络相结合，为文档图像中图表与标题的联合提取任务提供了一种新颖的解决方案。",
-      "趋势判断｜图情领域的研究方法正从传统的计量统计，转向深度融合预训练语言模型、图神经网络等AI技术，以解决更复杂的知识发现与信息组织问题。"
-    ],
-    "stats": {
-      "papers": 167,
-      "news": 110,
-      "featured": 63
     }
   }
 ]
