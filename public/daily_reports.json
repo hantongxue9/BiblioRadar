@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-09",
+    "summary": "今日图情领域的研究呈现出以人工智能深度应用为核心、多维度探索的特点。在学术信息生态方面，对OpenAlex等新兴开放数据库的评估为资源选择提供了实证依据，而确保参考文献完整性与准确性的智能体框架，则指向了学术传播质量控制的新路径。用户行为研究进一步深化，从动态识别在线社区意见领袖，到量化分析用户解读可视化图表的能力，体现了对信息交互复杂性的关注。值得注意的是，AI技术正被系统性地应用于解决专业领域问题，例如通过微调大语言模型生成地理空间查询、构建框架分析金融文档事件，以及评估大模型在法律推理等复杂任务中的表现。这些进展共同反映了图情学科正致力于将前沿技术转化为可操作、可解释的专业工具，并持续关注其应用中的伦理与偏见问题。",
+    "highlights": [
+      "论文｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜为选择和使用这一重要的开放学术数据库提供了全面的评估框架和关键见解。",
+      "论文｜Community's lifeline: Dynamically identifying the short-term emergence and long-term survival of opinion leaders in diabetes online communities｜提出动态识别方法，为在线健康社区的精准管理与长期维系提供了新思路。",
+      "论文｜An agentic framework for reference integrity assurance via multi-source verification and topology-constrained citation consistency｜提出智能体框架，为保障学术文献的引用质量提供了自动化解决方案。",
+      "动态｜PostGISer: The first end-to-end fine-tuned large language model for PostGIS GeoSQL query generation｜标志着大语言模型在专业地理信息系统查询生成领域取得专门化突破。",
+      "动态｜Benchmarking multi-step legal reasoning and analyzing Chain-of-Thought effects in Large Language Models｜通过构建基准任务，系统评估了大语言模型在复杂领域推理中的潜力与局限。",
+      "趋势判断｜AI应用正从通用任务转向深度融合专业领域知识与工作流程，如图情、法律、地理信息等，催生了一系列专用模型与分析框架。"
+    ],
+    "stats": {
+      "papers": 158,
+      "news": 126,
+      "featured": 65
+    }
+  },
+  {
     "date": "2026-08-08",
     "summary": "今日图情领域的研究呈现出以数据驱动和人工智能深度应用为核心的趋势。在计量与评价方面，研究重点从传统的指标计算转向更具动态性、公平性和透明度的评估方法，如关注学者合作网络的演化、开发基于多种贡献分配方案的自动化工具以及构建可审计的数据分析流水线。同时，对新兴数据库（如OpenAlex）的评估为数据源选择提供了重要依据。在人工智能应用方面，研究深入信息服务的具体场景，探索AI在信息中介、事件抽取、岗位匹配、多模态分析等任务中的效能，并关注如何减少大模型的事实性错误。用户行为研究则聚焦于在线社区中意见领袖的动态识别以及任务情境驱动的个性化信息呈现。整体来看，研究正朝着更精细的机制解析、更可靠的技术工具和更以用户及任务为中心的方向发展。",
     "highlights": [

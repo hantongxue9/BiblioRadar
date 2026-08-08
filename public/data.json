@@ -1,5 +1,28 @@
 [
   {
+    "title": "Roundup: MN: “Hennepin County Libraries to Limit Hours and Staffing” TX: “Dallas Libraries See Layoffs Ahead Of Budget Season With ‘No Sacred Cows'”",
+    "abstract": "<p>Massachusetts  As Gov. Healey Weighs Library Bill, Readers Say: Let Librarians Decide Source: Boston.com Gov. Maura Healey has until next week to decide whether to sign a bill giving librarians more authority over what stays on their shelves, a measure that Boston.com readers overwhelmingly support. The bill, S.2696, would put much of that authority in the [&#8230;]</p>\n<p>The post <a href=\"https://www.infodocket.com/2026/08/08/roundup-mn-hennepin-county-libraries-to-limit-hours-and-staffing-tx-dallas-libraries-see-layoffs-ahead-of-budget-season-with-no-sacred-cow/\">Roundup: MN: &#8220;Hennepin County Libraries to Limit Hours and Staffing&#8221; TX: &#8220;Dallas Libraries See Layoffs Ahead Of Budget Season With &#8216;No Sacred Cows&#039;&#8221;</a> appeared first on <a href=\"https://www.infodocket.com\">Library Journal infoDOCKET</a>.</p>",
+    "date": "2026-08-08",
+    "link": "https://www.infodocket.com/2026/08/08/roundup-mn-hennepin-county-libraries-to-limit-hours-and-staffing-tx-dallas-libraries-see-layoffs-ahead-of-budget-season-with-no-sacred-cow/",
+    "affiliations": "",
+    "source": "Infodocket",
+    "tier": "C",
+    "field": "library_news",
+    "content_type": "news",
+    "category": "行业动态",
+    "thinking": "资讯报道了美国明尼苏达州和德克萨斯州公共图书馆因预算问题而削减服务和裁员，以及马萨诸塞州一项赋予馆员更多图书审查权的法案，这些都是近期发生的、反映图书馆运营挑战的新闻。内容直接涉及图书馆的预算管理、人员配置和服务调整，与图情领域高度相关，为从业者提供了了解同行机构当前困境和潜在政策变化的窗口。",
+    "scores": {
+      "timeliness": 9,
+      "relevance": 8,
+      "information_value": 7
+    },
+    "one_sentence_summary": "美国多地图书馆面临预算压力，出现服务缩减、裁员现象，同时马萨诸塞州一项赋予馆员更多图书审查权的法案待签署。",
+    "credibility_score": 6.0,
+    "composite_score": 7.6,
+    "featured": true,
+    "id": 13714
+  },
+  {
     "title": "The em-dash em-beds in Congress: A population-level rise in em-dash frequency in U.S. congressional press releases at the dawn of the large-language-model era, 2021-2025",
     "abstract": "arXiv:2608.05889v1 Announce Type: new \nAbstract: Large language models (LLMs) can leave small stylistic traces in text written with their help. The most discussed is the em-dash (U+2014), especially the unspaced form word---word, which is normal in typeset English prose but unusual in U.S. press writing, where AP style calls for spaced dashes. This study asks whether that trace is measurable in congressional press releases. In a preregistered design (OSF: 10.17605/OSF.IO/U5NEY), 146,239 scraper-sourced releases from 480 House and Senate offices (2021-2025, the open congress-press dataset) were analyzed: density of unspaced prose-form em-dashes per 1,000 characters of cleaned text, Poisson/negative-binomial models with a length offset, clustering by office. Density stayed within 0.10-0.12 per 1,000 characters through 2021-2024, then rose to 0.217 in 2025, more than twice the four-year baseline; the share of releases with such an em-dash rose from ~13% to 24.8%. The primary frequency ratio (2023-2025 vs 2021-2022) was 1.55 (95% CI 1.28-1.93; exact registered cut-off: 1.528), just above the prespecified 1.5x threshold. The rise was net-new (hyphen density stable), held within authors (75.6% of 262 continuous offices increased; p ~ 1e-16) and in a closed panel of 224 offices, and survived falsification tests: three placebo cut-offs were null, the pipeline showed no step at the 2024/2025 boundary, and continuing offices carried the rise. A segmented regression finds no step at the ChatGPT cut-off but a clear post-period acceleration; the 2025 rise is symmetric across parties and chambers. Because the registered validation gate was formally breached, the full preregistered decision rule was not met; the interpretation (broad diffusion of LLM-assisted writing as the models matured) is offered as exploratory. The em-dash remains a population-level marker, not a per-release authorship detector, and the design supports no causal claim.",
     "date": "2026-08-07",
@@ -780,6 +803,29 @@
     "composite_score": 9.0,
     "featured": true,
     "id": 13478
+  },
+  {
+    "title": "As impact is increasingly found in non-academic careers what skills do PhD students need now?",
+    "abstract": "<p>Tight academic job markets and the growth of research-intensive jobs outside of academia have made hyphenated careers that combine research and impact skills increasingly common.&#160;Sarah Dorr,&#160;Birthe&#160;Einen&#160;and&#160;Louise Olsson&#160;argue&#160;that students and institutions &#8230; <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences/2026/08/07/as-impact-is-increasingly-found-in-non-academic-careers-what-skills-do-phd-students-need-now/\">Continued</a></p>\n<p>The post <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences/2026/08/07/as-impact-is-increasingly-found-in-non-academic-careers-what-skills-do-phd-students-need-now/\">As impact is increasingly found in non-academic careers what skills do PhD students need now? </a> first appeared on <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences\">LSE Impact</a>.</p>",
+    "date": "2026-08-07",
+    "link": "https://blogs.lse.ac.uk/impactofsocialsciences/2026/08/07/as-impact-is-increasingly-found-in-non-academic-careers-what-skills-do-phd-students-need-now/",
+    "affiliations": "",
+    "source": "LSE Impact Blog",
+    "tier": "C",
+    "field": "academic_impact",
+    "content_type": "news",
+    "category": "观点评论",
+    "thinking": "该资讯发布于2026年，具有前瞻性，时效性高。内容探讨博士生的技能培养，与图情领域（尤其是学术图书馆、研究支持服务、信息素养教育）高度相关，为图书馆支持研究人员职业发展提供了有价值的视角。",
+    "scores": {
+      "timeliness": 9,
+      "relevance": 8,
+      "information_value": 8
+    },
+    "one_sentence_summary": "文章探讨了在学术就业市场紧缩的背景下，博士生需要培养哪些技能以适应学术界内外注重研究影响力的职业。",
+    "credibility_score": 6.0,
+    "composite_score": 7.8,
+    "featured": true,
+    "id": 13715
   },
   {
     "title": "Supporting the understanding of ontologies for scientific knowledge graphs with the new version of LODE",
@@ -11452,51 +11498,5 @@
     "composite_score": 7.1,
     "featured": false,
     "id": 10948
-  },
-  {
-    "title": "MS-GPT: Rethinking MS/MS De Novo Structure Elucidation as Spectrum-Induced Posterior Querying of a Molecule-Language Model",
-    "abstract": "arXiv:2607.23607v1 Announce Type: cross \nAbstract: Molecular structure elucidation from tandem mass spectra (MS/MS) is a central inverse problem in analytical chemistry. Most existing approaches to MS/MS identification remain tied to reference libraries or predefined candidate sets, whereas de novo methods aim to generate structures directly from spectra. A common de novo route predicts a molecular fingerprint from the spectrum and then decodes structures from it, enabling decoder pretraining on large molecule-only corpora. However, this paradigm creates a training-inference mismatch: the decoder is trained on oracle fingerprints computed from molecules, but at inference it is queried with a noisy spectrum-induced fingerprint posterior that is typically collapsed to a single thresholded fingerprint. We introduce MS-GPT, which recasts fingerprint-mediated de novo elucidation as spectrum-induced posterior querying of a conditional molecule-language model. MS-GPT conditions a molecule-language model on fingerprints and formulas, then converts the spectrum-induced posterior into a band of fingerprint queries near the oracle-fingerprint manifold through active-bit density calibration. Candidates sampled across this band are pooled and ranked by generation-frequency consensus. A lightweight LoRA adapter further mitigates domain-specific posterior bias while preserving the pretrained molecular prior. On NPLIB1 and MassSpecGym, MS-GPT sets a new state of the art, reaching Top-1/Top-10 exact-match accuracy of 29.8\\%/41.1\\% and 23.9\\%/28.7\\%, respectively. Candidate-pool scaling shows that efficient autoregressive molecular generation continues to improve recall with a little additional inference cost. The source code and model checkpoints are available at https://github.com/VIKI623/MS-GPT.",
-    "date": "2026-07-28",
-    "link": "https://arxiv.org/abs/2607.23607",
-    "affiliations": "",
-    "source": "arXiv - Computation & Language",
-    "tier": "C",
-    "field": "nlp",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "论文提出了一种基于条件分子语言模型的新方法，用于从质谱数据中直接推断分子结构，属于AI在特定科学领域的创新应用。该方法在技术上具有前沿性，通过校准和适配器设计提升了推断准确性，但其研究场景高度专业化，主要面向分析化学领域，在图情领域的直接业务落地价值有限。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 4,
-      "methodological_rigor": 8
-    },
-    "one_sentence_summary": "该研究提出了一种新的AI模型，通过校准质谱数据后验查询分子语言模型，显著提升了从质谱直接推断未知分子结构的准确性。",
-    "credibility_score": 6.0,
-    "composite_score": 6.0,
-    "featured": false,
-    "id": 10949
-  },
-  {
-    "title": "Let Me Look at You: Advanced Facial Expression Modeling for Conversational Speech Synthesis",
-    "abstract": "arXiv:2607.24430v1 Announce Type: cross \nAbstract: Conversational Speech Synthesis is a fundamental component of human-computer interaction, aiming to generate contextually appropriate, expressive, and empathetic speech. However, facial expressions encode subtle and rich affective cues that are crucial for empathetic speech interaction, whereas existing approaches often overlook this important modality. In addition, the lack of large-scale natural conversational datasets with both speech and visual modalities also limits the development of visual affect understanding in conversational settings.To address these limitations, we propose FacialTalker, a facial-expression-aware CSS framework built upon a large language model backbone. To efficiently encode facial expressions, we propose AUTokenizer, a single-codebook visual tokenizer that discretizes each frame-level facial expression into a compact token, trained with supervision from combinations of facial Action Units. We further introduce a dual direct preference optimization (DualDPO) strategy, which extends the DPO by jointly imposing preference constraints on both visual and speech token sequences, to enhance the model's understanding of facial expressions and speech semantics in multimodal conversational contexts. Moreover, we construct VSDD-1K, a large-scale multimodal dialogue dataset collected through a fully automated pipeline from real-world Internet conversations, comprising over 1,033 hours of synchronized speaker videos and speech, with more than 85\\% of frames containing valid faces. Extensive objective and subjective experiments demonstrate that FacialTalker consistently outperforms strong baselines in facial-expression perception and speech synthesis quality, generating speech that is more natural, expressive, and better aligned with the conversational context. The results also validate the effectiveness of our training strategy and dataset construction pipeline.",
-    "date": "2026-07-28",
-    "link": "https://arxiv.org/abs/2607.24430",
-    "affiliations": "",
-    "source": "arXiv - Computation & Language",
-    "tier": "C",
-    "field": "nlp",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "论文在技术方法上具有显著的前沿性，通过构建大规模多模态对话数据集VSDD-1K，并创新性地提出了基于大语言模型、结合视觉分词器与双直接偏好优化的FacialTalker框架，有效提升了对话语音合成的表现力与情感对齐。其不足在于作为预印本论文，方法细节与实验复现性有待同行评议进一步验证，且其技术框架在图书馆等传统信息机构的直接落地场景尚不明确。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 4,
-      "methodological_rigor": 7
-    },
-    "one_sentence_summary": "该研究提出了一种结合面部表情理解与语音生成的新框架，能合成出更自然、更具表现力且与对话语境更匹配的语音。",
-    "credibility_score": 6.0,
-    "composite_score": 5.8,
-    "featured": false,
-    "id": 10950
   }
 ]
