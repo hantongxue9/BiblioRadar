@@ -1,19 +1,18 @@
 [
   {
-    "date": "2026-08-09",
-    "summary": "今日图情领域的研究呈现出以人工智能深度应用为核心、多维度探索的特点。在学术信息生态方面，对OpenAlex等新兴开放数据库的评估为资源选择提供了实证依据，而确保参考文献完整性与准确性的智能体框架，则指向了学术传播质量控制的新路径。用户行为研究进一步深化，从动态识别在线社区意见领袖，到量化分析用户解读可视化图表的能力，体现了对信息交互复杂性的关注。值得注意的是，AI技术正被系统性地应用于解决专业领域问题，例如通过微调大语言模型生成地理空间查询、构建框架分析金融文档事件，以及评估大模型在法律推理等复杂任务中的表现。这些进展共同反映了图情学科正致力于将前沿技术转化为可操作、可解释的专业工具，并持续关注其应用中的伦理与偏见问题。",
+    "date": "2026-08-10",
+    "summary": "今日图情领域的研究呈现出明显的AI驱动与数据科学深化融合的趋势。在计量与评价方面，研究重点转向处理复杂数据特征（如零膨胀和重尾分布）以及开发新的知识发现模型，以更精准地衡量学术影响和探测技术机会。AI应用继续向纵深发展，不仅体现在大语言模型（LLM）对学术写作、评审评估等环节的广泛影响得到实证研究，也体现在针对特定任务（如事件论元抽取、多模态摘要生成、AI生成内容检测）的专用模型创新上。同时，数据基础设施的评估（如OpenAlex）和新型数据管理框架（如基于区块链的访问控制）也受到关注，反映了领域对数据质量与安全性的持续关切。",
     "highlights": [
-      "论文｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜为选择和使用这一重要的开放学术数据库提供了全面的评估框架和关键见解。",
-      "论文｜Community's lifeline: Dynamically identifying the short-term emergence and long-term survival of opinion leaders in diabetes online communities｜提出动态识别方法，为在线健康社区的精准管理与长期维系提供了新思路。",
-      "论文｜An agentic framework for reference integrity assurance via multi-source verification and topology-constrained citation consistency｜提出智能体框架，为保障学术文献的引用质量提供了自动化解决方案。",
-      "动态｜PostGISer: The first end-to-end fine-tuned large language model for PostGIS GeoSQL query generation｜标志着大语言模型在专业地理信息系统查询生成领域取得专门化突破。",
-      "动态｜Benchmarking multi-step legal reasoning and analyzing Chain-of-Thought effects in Large Language Models｜通过构建基准任务，系统评估了大语言模型在复杂领域推理中的潜力与局限。",
-      "趋势判断｜AI应用正从通用任务转向深度融合专业领域知识与工作流程，如图情、法律、地理信息等，催生了一系列专用模型与分析框架。"
+      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出贝叶斯跨栏分位数回归模型，为处理引文数据中的零值过多和极端值问题提供了更精确的统计工具。",
+      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于大规模数据分析，首次实证揭示了工程领域论文使用LLM辅助写作与更高被引次数的相关性。",
+      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜系统评估新兴开放学术数据库OpenAlex，为学界选择和使用替代性文献数据源提供了关键参考。",
+      "动态｜Relationship between peer review quality and scientific impact: Insights from LLMs-assessed reviews｜利用大语言模型量化同行评审质量，并探索其与论文未来科学影响力的关联，为评审研究提供了新方法。",
+      "趋势判断｜AI应用从通用任务转向特定场景的深度优化｜今日研究显示，AI在图情领域的应用正从通用文本处理，转向针对科学文献理解、内容真实性验证、文创设计评估等具体场景的模型与方法创新。"
     ],
     "stats": {
-      "papers": 158,
+      "papers": 154,
       "news": 126,
-      "featured": 65
+      "featured": 62
     }
   },
   {
