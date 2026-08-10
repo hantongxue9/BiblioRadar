@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-11",
+    "summary": "今日图情领域的研究呈现出对科研评价方法学革新与人工智能深度应用的双重关注。在计量与评价方面，研究焦点集中于提升分析过程的透明度、可复现性与对复杂数据结构的适应性。例如，针对引文数据零值和极端值问题的新贝叶斯模型，以及旨在建立可审计数据流水线和复制研究框架的工作，均指向该领域对方法论严谨性的追求。同时，基于CRediT角色对共同通讯作者贡献的量化分析，为科研署名实践提供了新的实证视角。在人工智能应用方面，研究已超越基础工具开发，深入探讨人机协同的复杂效应。具体表现为：关注AI辅助下（如写作、信息检索）对科研产出（如引用）和用户技能发展的长期影响；开发针对特定领域（如地理空间查询）的专用大语言模型；以及利用先进机器学习技术（如对比学习、特征解耦）解决信息匹配、虚假信息检测等核心问题。这些进展共同体现了图情学科正从工具使用者向方法创新者和效果评估者进行深刻转型。",
+    "highlights": [
+      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出新贝叶斯模型，为处理引文数据中普遍存在的零值和厚尾分布提供了更稳健的统计方法。",
+      "论文｜A CRediT‐based quantitative study of co‐corresponding authorship: Collaboration patterns and contribution distribution｜利用标准化贡献分类框架，首次对共同通讯作者的合作模式与贡献分配进行了系统性量化分析。",
+      "动态｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于大规模数据的实证研究发现，在工程学领域，大语言模型辅助写作与论文影响力的潜在关联。",
+      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜实证研究揭示了在AI信息中介场景中，图书馆员指导强度与用户对AI的认知权威感知如何共同影响协作创意产出。",
+      "动态｜PostGISer: The first end-to-end fine-tuned large language model for PostGIS GeoSQL query generation｜发布了首个专门针对地理空间数据库查询而微调的大语言模型，标志着领域专用AI工具的深入发展。",
+      "趋势判断｜科研评价与AI应用的方法论转向｜今日研究凸显两大趋势：一是计量评价更强调流程的透明、可复现与对复杂数据结构的建模能力；二是AI应用研究从验证工具有效性，转向探讨人机协同的长期影响与开发高度领域专用的智能系统。"
+    ],
+    "stats": {
+      "papers": 188,
+      "news": 123,
+      "featured": 69
+    }
+  },
+  {
     "date": "2026-08-10",
     "summary": "今日图情领域的研究呈现出明显的AI驱动与数据科学深化融合的趋势。在计量与评价方面，研究重点转向处理复杂数据特征（如零膨胀和重尾分布）以及开发新的知识发现模型，以更精准地衡量学术影响和探测技术机会。AI应用继续向纵深发展，不仅体现在大语言模型（LLM）对学术写作、评审评估等环节的广泛影响得到实证研究，也体现在针对特定任务（如事件论元抽取、多模态摘要生成、AI生成内容检测）的专用模型创新上。同时，数据基础设施的评估（如OpenAlex）和新型数据管理框架（如基于区块链的访问控制）也受到关注，反映了领域对数据质量与安全性的持续关切。",
     "highlights": [
