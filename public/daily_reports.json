@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-08-14",
+    "summary": "今日图情领域的研究呈现出对人工智能应用与科学评价机制的双重聚焦。在AI应用方面，研究深入探讨了AI作为信息中介在协作学习、决策支持和信息质量治理中的复杂作用，特别关注其对用户认知过程（如技能发展、创造力）的调节影响，并提出了融合知识图谱、多模态学习等技术的具体框架。在计量与评价方面，研究重点在于改进同行评审、引文分析等传统科学评价方法，以应对颠覆性科学领域（如AI）和数据分布复杂（如零膨胀、重尾）带来的新挑战，并探索地理与认知距离对知识生产的交互影响。此外，数据隐私风险评估与智能匹配等主题也持续受到关注。",
+    "highlights": [
+      "论文｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜该研究运用博弈论构建公平感知的审稿优先级机制，为优化同行评审流程提供了新颖的理论模型与评估方法。",
+      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜该研究提出的贝叶斯统计模型，能更精准地处理引文数据中常见的零值过多与极端高值问题，提升了计量分析的稳健性。",
+      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜研究揭示了AI信息中介与馆员指导在协作学习中的协同效应，强调了用户对信息源权威性认知的关键调节作用。",
+      "动态｜Combating mental health misinformation on social media: A knowledge-guided multimodal framework｜该研究提出融合知识图谱与多模态深度学习的框架，为自动化识别社交媒体健康错误信息提供了技术方案。",
+      "趋势判断｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜研究表明，在人工智能等颠覆性科学领域，同行评审的预测效度会发生显著变化，提示传统评价体系需适应快速变革的研究范式。"
+    ],
+    "stats": {
+      "papers": 194,
+      "news": 119,
+      "featured": 66
+    }
+  },
+  {
     "date": "2026-08-13",
     "summary": "今日图情领域的研究呈现出对科研评价方法论的深度反思与对新兴技术应用的积极探索两大主线。在科研评价方面，多篇论文致力于提升计量分析的透明度、可复现性与公平性，例如通过构建可审计的数据管道、开发基于多种贡献分配方案的评价系统，以及探究超高被引论文、合作网络动态、地理与认知距离等因素对评价结果的复杂影响。这些工作共同指向了构建更稳健、更精细的科研评估体系的需求。同时，人工智能与大语言模型的应用研究持续深入，特别是在知识组织（如知识图谱对齐）、信息中介（如馆员与AI的协同）以及面向特定领域（如网络安全招聘、初创企业匹配）的分析任务中，展现出解决实际问题的潜力。",
     "highlights": [
@@ -212,22 +228,6 @@
       "papers": 207,
       "news": 94,
       "featured": 40
-    }
-  },
-  {
-    "date": "2026-07-29",
-    "summary": "今日图情领域的研究呈现出深度结合人工智能技术解决核心问题的鲜明趋势。在AI应用方面，研究重点集中于提升信息处理的质量与可靠性，例如通过结构熵干预减少大语言模型的事实性错误、利用特征解耦缓解虚假信息检测中的捷径学习，以及开发专门用于地理空间查询生成的领域模型。在信息检索与推荐领域，研究关注如何通过改进模型设计来克服从众偏差、激活内部知识以协同提升检索与生成效果。在计量与评价方面，学者们正积极利用大语言模型等新工具探索科学-技术关联度量、同行评审在颠覆性领域的预测价值等前沿议题。用户行为研究则更注重结合认知理论与实证方法，深入分析影响信息解读与验证行为的复杂因素。",
-    "highlights": [
-      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜在AI等快速发展的颠覆性科学领域，同行评审机制仍被证明能有效预测论文未来影响力。",
-      "论文｜LANCET: Neural intervention via Structural Entropy for mitigating faithfulness hallucinations in LLMs｜提出基于结构熵的神经干预方法，为减少大语言模型的事实性幻觉提供了新思路。",
-      "论文｜All Is Heard: Mitigating conformity bias via dual-branch collaboration in group recommendation｜提出双分支协作模型，旨在缓解群体推荐中因成员相互影响而产生的从众偏差。",
-      "动态｜Advancing Open Science｜欧洲研究图书馆协会发布推进开放科学的新动态，为相关机构政策制定提供重要参考。",
-      "趋势判断｜图情领域正从应用通用AI工具转向构建面向特定领域与任务的专用化、可解释性强的AI解决方案。"
-    ],
-    "stats": {
-      "papers": 223,
-      "news": 101,
-      "featured": 36
     }
   }
 ]
