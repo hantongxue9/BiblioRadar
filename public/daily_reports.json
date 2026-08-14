@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-08-15",
+    "summary": "今日图情领域的研究与实践呈现出深度融合人工智能与关注学术传播生态的双重焦点。在AI应用方面，研究前沿集中于利用大语言模型及深度学习框架解决特定领域复杂问题，如提升生物医学事件抽取、生成地理空间查询、辅助法律推理及评估生成式AI在文创设计中的效用，并深入探索AI在信息中介与协作学习中的作用机制。同时，学术传播与评价体系研究持续受到关注，具体体现在通过博弈论优化同行评审公平性、分析评审质量与科学影响力的关联，以及探讨超高频被引论文对计量评价的潜在扭曲效应，呼吁构建更稳健的评价框架。行业动态则反映了图书馆界在战略规划与开放获取倡导方面的持续努力。",
+    "highlights": [
+      "论文｜Exploring the impact of super-cited papers on counting methods, counting inflation and university rankings: Evidence from engineering｜揭示了超高频被引论文对引文计量和排名指标的显著影响，对完善科研评价体系具有重要警示意义。",
+      "论文｜Relationship between peer review quality and scientific impact: Insights from LLMs-assessed reviews｜创新性地利用大语言模型量化分析同行评审文本，为理解评审质量与论文长期影响力的关系提供了新证据。",
+      "动态｜#ZeroEmbargo Campaign｜欧洲研究图书馆联盟发起的零时滞开放获取运动，是推动学术出版模式变革的重要行业倡议。",
+      "动态｜Our 2023-2027 Strategy｜欧洲研究图书馆协会发布的新五年战略，为研究型图书馆的数字化转型与发展方向提供了宏观指引。",
+      "趋势判断｜AI在特定垂直领域的深度定制化应用成为关键趋势｜从地理查询生成到法律推理评估，大语言模型正被精细调优以解决图情及相关领域高度专业化的任务。"
+    ],
+    "stats": {
+      "papers": 196,
+      "news": 119,
+      "featured": 55
+    }
+  },
+  {
     "date": "2026-08-14",
     "summary": "今日图情领域的研究呈现出对人工智能应用与科学评价机制的双重聚焦。在AI应用方面，研究深入探讨了AI作为信息中介在协作学习、决策支持和信息质量治理中的复杂作用，特别关注其对用户认知过程（如技能发展、创造力）的调节影响，并提出了融合知识图谱、多模态学习等技术的具体框架。在计量与评价方面，研究重点在于改进同行评审、引文分析等传统科学评价方法，以应对颠覆性科学领域（如AI）和数据分布复杂（如零膨胀、重尾）带来的新挑战，并探索地理与认知距离对知识生产的交互影响。此外，数据隐私风险评估与智能匹配等主题也持续受到关注。",
     "highlights": [
@@ -212,22 +228,6 @@
       "papers": 178,
       "news": 100,
       "featured": 36
-    }
-  },
-  {
-    "date": "2026-07-30",
-    "summary": "今日图情领域研究呈现两个核心关注点：一是科研评价体系的深化与反思，二是人工智能技术在信息分析中的深度应用。在科研评价方面，多篇研究聚焦于揭示现有计量指标的潜在偏差，如超高被引论文对大学排名的放大效应、同行评审在学科变革期的预测效力，以及利用新方法（如知识继承网络）识别研究机会。同时，对OpenAlex等新兴数据源的评估为文献计量研究提供了新的工具选择。在AI应用方面，研究前沿已从基础能力转向复杂场景的优化与评估，例如利用多模态对比学习进行智能匹配、改进大语言模型用于位置预测，以及探索AI中介在协作中与馆员指导的交互影响。整体趋势表明，图情研究正致力于构建更精细、透明且适应技术变革的分析框架。",
-    "highlights": [
-      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜探讨在AI等快速变革领域，传统同行评审能否有效预测论文未来影响力，对学术评价机制有重要启示。",
-      "论文｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜系统评估新兴学术数据库OpenAlex，为文献计量研究的数据源选择提供了关键参考。",
-      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜研究揭示了在AI作为信息中介的协作场景中，馆员指导强度如何影响团队创造力，为智慧图书馆服务设计提供实证依据。",
-      "动态｜Who invests matters: A multimodal contrastive learning approach to successful startup-investor matching｜展示了利用多模态对比学习技术构建智能匹配模型的前沿应用，体现了情报分析技术的创新。",
-      "趋势判断｜科研评价从依赖单一计量指标转向构建多维度、可解释的分析框架｜今日多篇研究共同指向对评价体系偏差的反思与对透明、可复现分析流程的追求，标志着该领域的范式演进。"
-    ],
-    "stats": {
-      "papers": 207,
-      "news": 94,
-      "featured": 40
     }
   }
 ]
