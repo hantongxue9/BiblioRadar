@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-08-16",
+    "summary": "今日图情领域的研究呈现出对科研评价体系与方法论的高度关注，同时人工智能与数据科学的应用持续深化。在科研计量与评价方面，研究重点在于提升分析过程的透明度、可复现性与公平性，例如通过构建可审计的数据管道、开发可复现的科学知识图谱框架，以及优化同行评审机制。此外，利用复杂网络模型（如知识继承网络）和生成式模型进行技术机会发现与主题演化分析，成为新兴趋势。在应用层面，人工智能技术正被用于处理更复杂的文本信息抽取任务、增强推荐系统的多样性，以及分析多模态内容中的说服策略与信息风险。",
+    "highlights": [
+      "论文｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜提出标准化可审计数据处理流程，为提升文献计量分析的可信度提供了方法论工具。",
+      "论文｜Biblioshiny and the SAAS Workflow: An integrated framework for transparent and reproducible science mapping｜构建了一个整合流行工具的可复现科学知识图谱分析框架，强调了研究过程的透明度。",
+      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜系统评述OpenAlex数据库，为图情领域研究人员选择和使用新兴学术数据源提供了关键参考。",
+      "动态｜Prompt nest to simple: Step-wise prompting and semantic projection integration framework for biomedical overlapping and nested event extraction｜提出新框架解决生物医学文本中复杂事件抽取的难题，展示了AI在专业领域深度应用的潜力。",
+      "趋势判断｜计量研究正从静态指标描述转向动态、网络化与生成式分析，以揭示知识演化内在机制并预测未来方向。"
+    ],
+    "stats": {
+      "papers": 153,
+      "news": 122,
+      "featured": 74
+    }
+  },
+  {
     "date": "2026-08-15",
     "summary": "今日图情领域的研究与实践呈现出深度融合人工智能与关注学术传播生态的双重焦点。在AI应用方面，研究前沿集中于利用大语言模型及深度学习框架解决特定领域复杂问题，如提升生物医学事件抽取、生成地理空间查询、辅助法律推理及评估生成式AI在文创设计中的效用，并深入探索AI在信息中介与协作学习中的作用机制。同时，学术传播与评价体系研究持续受到关注，具体体现在通过博弈论优化同行评审公平性、分析评审质量与科学影响力的关联，以及探讨超高频被引论文对计量评价的潜在扭曲效应，呼吁构建更稳健的评价框架。行业动态则反映了图书馆界在战略规划与开放获取倡导方面的持续努力。",
     "highlights": [

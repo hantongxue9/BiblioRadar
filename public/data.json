@@ -46,6 +46,52 @@
     "id": 14881
   },
   {
+    "title": "Beyond a number game: Flat team structures improve inclusion and performance in diverse scientific teams",
+    "abstract": "",
+    "date": "2026-09-01",
+    "link": "https://doi.org/10.1002/asi.70083",
+    "affiliations": "Huimin Xu; Shujing Sun; Meijun Liu",
+    "source": "JASIST",
+    "tier": "A",
+    "field": "information_science",
+    "content_type": "paper",
+    "category": "用户行为",
+    "thinking": "该论文采用社会网络分析和多元回归方法，探讨了扁平化团队结构对多样化科学团队包容性与绩效的影响，方法严谨且样本量充足。研究结论对科研团队管理和图书馆学科服务团队建设具有直接参考价值，但未涉及当前图情领域最前沿的技术方法。",
+    "scores": {
+      "frontier_tech": 4,
+      "practical_value": 8,
+      "methodological_rigor": 9
+    },
+    "one_sentence_summary": "研究发现，扁平化的团队结构能有效提升多样化科学团队的包容性和整体绩效。",
+    "credibility_score": 6.7,
+    "composite_score": 6.7,
+    "featured": false,
+    "id": 15156
+  },
+  {
+    "title": "AI Chatbots as Companions: Overview, Uses, and Considerations for Congress (New Report From the Congressional Research Service)",
+    "abstract": "<p>From the Introduction to the Report (R49189): A chatbot is an application or a program that simulates human conversation by generating responses to user prompts. While chatbots1 have existed for approximately 60 years, technical advances in artificial intelligence (AI) have expanded their uses over the last 10 years from customer service to emotional support. This has [&#8230;]</p>\n<p>The post <a href=\"https://www.infodocket.com/2026/08/15/ai-chatbots-as-companions-overview-uses-and-considerations-for-congress-new-report-from-the-congressional-research-service/\">AI Chatbots as Companions: Overview, Uses, and Considerations for Congress (New Report From the Congressional Research Service)</a> appeared first on <a href=\"https://www.infodocket.com\">Library Journal infoDOCKET</a>.</p>",
+    "date": "2026-08-15",
+    "link": "https://www.infodocket.com/2026/08/15/ai-chatbots-as-companions-overview-uses-and-considerations-for-congress-new-report-from-the-congressional-research-service/",
+    "affiliations": "",
+    "source": "Infodocket",
+    "tier": "C",
+    "field": "library_news",
+    "content_type": "news",
+    "category": "行业动态",
+    "thinking": "该资讯报道了美国国会研究服务处发布的一份关于AI聊天伴侣的报告，发布于2026年，具有很高的时效性。报告本身是政策研究，通过图书馆新闻网站发布，与图情领域的信息服务和政策分析职能相关，但直接关联度有限。报告内容提供了关于AI聊天机器人应用与伦理的宏观概述，对图情从业者了解技术社会影响有一定参考价值，但缺乏具体的、可操作的行业指导。",
+    "scores": {
+      "timeliness": 10,
+      "relevance": 6,
+      "information_value": 6
+    },
+    "one_sentence_summary": "美国国会研究服务处发布新报告，概述了AI聊天机器人作为情感伴侣的应用现状、潜在用途及给国会带来的政策考量。",
+    "credibility_score": 6.0,
+    "composite_score": 7.0,
+    "featured": false,
+    "id": 15385
+  },
+  {
     "title": "Domus: An Open-Data Web Platform for House History Research",
     "abstract": "arXiv:2608.12566v1 Announce Type: new \nAbstract: House history -- the record of who lived in a building, who owned it, and how its address changed over time -- is a central concern of genealogical and local history research. Wikidata and OpenHistoricalMap together provide an open-data infrastructure, CC0-licensed and capable of representing this data: Wikidata through its linked-data property model with temporal qualifiers, OpenHistoricalMap through historical building footprints with start and end dates. What has been missing is a domain-specific tool that makes contributing and discovering building history accessible to genealogists and local historians. Domus fills this role: a map-based web platform that guides users through structured, crowdsourced editing of building records in Wikidata and displays corresponding OpenHistoricalMap footprints. The application requires no custom backend -- authentication, data reading, and data writing all operate through public APIs in the browser, and all data are stored under CC0 in public collaborative databases. This paper describes the genealogical data model, the architecture, and key technical design decisions.",
     "date": "2026-08-14",
@@ -1470,6 +1516,29 @@
     "composite_score": 5.1,
     "featured": false,
     "id": 15151
+  },
+  {
+    "title": "Outputs From MIT’s Working Group on Scholarly Content and Generative AI Now Available",
+    "abstract": "<p>From a MIT Blog Post by Anantha P. Chandrakasan, Provost &#38; Ian A. Waitz, Vice President for Research: We write today to share the outputs of the Working Group on Scholarly Content and Generative AI, which was co-chaired by Chris Bourg, MIT Libraries Director, and Claire Schneider, Counsel in the Office of the General Counsel [&#8230;]</p>\n<p>The post <a href=\"https://www.infodocket.com/2026/08/12/outputs-from-mits-working-group-on-scholarly-content-and-generative-ai-now-available/\">Outputs From MIT&#8217;s Working Group on Scholarly Content and Generative AI Now Available</a> appeared first on <a href=\"https://www.infodocket.com\">Library Journal infoDOCKET</a>.</p>",
+    "date": "2026-08-13",
+    "link": "https://www.infodocket.com/2026/08/12/outputs-from-mits-working-group-on-scholarly-content-and-generative-ai-now-available/",
+    "affiliations": "",
+    "source": "Infodocket",
+    "tier": "C",
+    "field": "library_news",
+    "content_type": "news",
+    "category": "行业动态",
+    "thinking": "该资讯发布于2026年8月，是近期动态，具有新闻价值。内容涉及学术内容与生成式AI，与图书馆学、信息科学在学术交流、知识管理和技术伦理方面高度相关。MIT工作组的产出为图情领域应对AI挑战提供了具体的框架和见解，信息价值高。",
+    "scores": {
+      "timeliness": 9,
+      "relevance": 9,
+      "information_value": 9
+    },
+    "one_sentence_summary": "麻省理工学院发布了其学术内容与生成式人工智能工作组的成果报告，为图书馆界应对AI挑战提供指导。",
+    "credibility_score": 6.0,
+    "composite_score": 8.4,
+    "featured": true,
+    "id": 15386
   },
   {
     "title": "Evidence-Based Scientific Question Discovery: A Framework with Historical Backtesting",
@@ -11429,74 +11498,5 @@
     "composite_score": 5.5,
     "featured": false,
     "id": 11765
-  },
-  {
-    "title": "AHA-Memes: A Fine-Grained Multimodal Benchmark for Understanding Hate in Arabic Memes",
-    "abstract": "arXiv:2607.27393v1 Announce Type: new \nAbstract: Hateful memes are a growing form of multimodal online harm, where hostile intent is often conveyed through the joint interpretation of images, text, cultural references, and implicit targets. While hateful meme detection has advanced in high-resource languages, Arabic remains underexplored, with existing meme resources focusing mainly on propaganda or coarse harmful-content labels. We introduce AHA-Memes (Arabic HAteful Memes), which is, to our knowledge, the first large-scale Arabic hateful meme benchmark with fine-grained, multi-label annotations. The dataset includes 5K manually annotated memes using a taxonomy that captures hate types, i.e., attack strategies. We further provide ~66K silver-labeled memes to support future studies. We benchmark text-only, image-only, and late-fusion multimodal models, as well as few-shot in-context learning (ICL) and open- and closed-weight Vision-Language Models (VLMs) under zero-shot and fine-tuning settings. Our results establish strong baselines and highlight key challenges in culturally grounded Arabic hateful meme detection. We release the dataset, annotation guidelines, and evaluation scripts to support future research. WARNING: This paper contains examples that may be disturbing to readers.",
-    "date": "2026-07-31",
-    "link": "https://arxiv.org/abs/2607.27393",
-    "affiliations": "",
-    "source": "arXiv - Computation & Language",
-    "tier": "C",
-    "field": "nlp",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "该论文构建了首个大规模细粒度阿拉伯语仇恨表情包数据集，并系统评估了多种多模态模型，在技术前沿性和方法严谨性上表现突出，但主要贡献在于学术基准而非直接业务落地。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 6,
-      "methodological_rigor": 9
-    },
-    "one_sentence_summary": "该研究发布了首个细粒度标注的阿拉伯语仇恨表情包数据集，并系统评估了多模态模型在该任务上的性能与挑战。",
-    "credibility_score": 6.0,
-    "composite_score": 6.6,
-    "featured": false,
-    "id": 11766
-  },
-  {
-    "title": "SkillSmith: Learning to Compose Parametric Skills and Textual Knowledge",
-    "abstract": "arXiv:2607.27497v1 Announce Type: new \nAbstract: Agentic systems driven by large language models (LLMs) regularly feature two key mechanisms to autonomously solve complex problems: synthesizing text-based knowledge and procedures from past experiences and building parametric (weight-space) skill libraries for recurring sub-goals. To date, research has largely treated these as orthogonal pursuits: either organizing textual knowledge through composition and reflection, or consolidating parametric skills via weight-space merging. Consequently, the seamless integration of text and model weights for targeted performance improvements remains largely unexplored. This work bridges this modality gap by treating model weights as an additional modality that an LLM can natively reason over. We instantiate parametric learning via prefix-tuning and augment an LLM to ingest both prefix weights and rich textual data which capture relationships to a target capability. Our augmented LLM, which we call SkillSmith, synthesizes these inputs to perform instruction-steered parametric synthesis, directly outputting new prefix weights that manifest the target skill. We demonstrate that our approach significantly outperforms both text-only and weight-space-only baselines, unlocking performance gains that are out of reach for uni-modal (text-only or weight-only) adaptations.",
-    "date": "2026-07-31",
-    "link": "https://arxiv.org/abs/2607.27497",
-    "affiliations": "",
-    "source": "arXiv - Computation & Language",
-    "tier": "C",
-    "field": "nlp",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "该论文提出了一种融合文本知识与参数化技能的新方法，通过将模型权重视为可推理的模态，实现了大语言模型对参数空间的直接操作与合成。其方法具有显著的技术创新性，但作为一篇预印本论文，其方法严谨性（如实验设计细节、可复现性）和业务落地价值（目前主要面向研究社区，离图书馆等机构的直接应用尚有距离）仍有待更多实际验证。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 5,
-      "methodological_rigor": 6
-    },
-    "one_sentence_summary": "该研究提出了一种让大语言模型同时理解和组合文本知识与参数化技能的新方法，以提升智能体解决复杂任务的能力。",
-    "credibility_score": 6.0,
-    "composite_score": 5.9,
-    "featured": false,
-    "id": 11767
-  },
-  {
-    "title": "Training Skills Like Parameters via Self-Supervised Semantic Diffusion",
-    "abstract": "arXiv:2607.27557v1 Announce Type: new \nAbstract: While Large Language Models (LLMs) demonstrate remarkable general instruction-following capabilities, they often fall short of human experts in highly specialized, open-ended domains such as creative screenwriting. Prior approaches typically adopt post-training, yet both supervised fine-tuning and reinforcement learning require weight access that closed-source frontier models do not offer, and demand heavy compute. Moreover, what is learned is tied to a single checkpoint and cannot be inspected by humans. Recent advancements in agentic continual learning instead attempt to bridge this gap by accumulating external textual skills. However, these methods heavily rely on costly human expert annotations or unreliable LLM-as-a-judge feedback for reflection. To overcome this bottleneck, we propose a novel, unsupervised self-evolving agent framework inspired by the corruption-and-reconstruction paradigm of diffusion models. Instead of relying on explicit external scoring, we leverage existing high-quality human artifacts to construct self-supervised signals. Training then follows the familiar loop of neural network training, forward, loss, and backward, with the loss coming from contrasting the agent's reconstruction against the human original. What is updated is not model weights but an external library of textual skills. We evaluate our framework on the challenging task of short drama screenwriting. Experimental results demonstrate that our method enables the agent to autonomously extract and internalize highly generalizable skills, significantly enhancing its domain-specific generation capabilities. Furthermore, this self-contrastive reflection paradigm offers a scalable pathway for agents to teach themselves the production of complex, high-quality human artifacts, without requiring external supervision.",
-    "date": "2026-07-31",
-    "link": "https://arxiv.org/abs/2607.27557",
-    "affiliations": "",
-    "source": "arXiv - Computation & Language",
-    "tier": "C",
-    "field": "nlp",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "该论文提出了一种无监督的自进化智能体框架，通过自监督语义扩散方法，使智能体能够从高质量人类文本中自主提取和积累可泛化的技能，而非更新模型权重。其方法新颖，避免了对外部标注或反馈的依赖，在方法严谨性上通过实验验证了有效性，但作为预印本，其实际在图情业务中的落地场景尚不明确，应用价值有待具体化。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 5,
-      "methodological_rigor": 7
-    },
-    "one_sentence_summary": "该研究提出一种无监督方法，让AI智能体像学习参数一样从人类文本中自主积累技能，以提升其在特定领域（如剧本创作）的生成能力。",
-    "credibility_score": 6.0,
-    "composite_score": 6.0,
-    "featured": false,
-    "id": 11768
   }
 ]
