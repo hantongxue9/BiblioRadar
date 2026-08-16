@@ -1,18 +1,18 @@
 [
   {
-    "date": "2026-08-16",
-    "summary": "今日图情领域的研究呈现出对科研评价体系与方法论的高度关注，同时人工智能与数据科学的应用持续深化。在科研计量与评价方面，研究重点在于提升分析过程的透明度、可复现性与公平性，例如通过构建可审计的数据管道、开发可复现的科学知识图谱框架，以及优化同行评审机制。此外，利用复杂网络模型（如知识继承网络）和生成式模型进行技术机会发现与主题演化分析，成为新兴趋势。在应用层面，人工智能技术正被用于处理更复杂的文本信息抽取任务、增强推荐系统的多样性，以及分析多模态内容中的说服策略与信息风险。",
+    "date": "2026-08-17",
+    "summary": "今日图情领域的研究呈现出两个主要方向：一是对学术计量与科研过程本身的深入反思与建模，二是人工智能技术在信息处理与分析中的多元化应用。在计量与评价方面，研究焦点已从传统指标转向对复杂数据分布（如零膨胀与厚尾分布）的精确建模、对同行评审在快速变革学科中效力的重新评估，以及对科研数据开放性和基础设施（如OpenAlex）影响的量化分析，这反映了该领域追求更高分析精度与科学严谨性的趋势。在AI应用方面，研究不仅关注模型性能的提升（如事件抽取、位置预测、虚假信息检测），更开始探索人机协同的优化模式（如图书馆员在AI中介环境下的作用）以及AI在特定专业领域（如网络安全招聘分析、恶意流量检测）的落地应用，显示出技术应用场景的不断拓展与深化。",
     "highlights": [
-      "论文｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜提出标准化可审计数据处理流程，为提升文献计量分析的可信度提供了方法论工具。",
-      "论文｜Biblioshiny and the SAAS Workflow: An integrated framework for transparent and reproducible science mapping｜构建了一个整合流行工具的可复现科学知识图谱分析框架，强调了研究过程的透明度。",
-      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜系统评述OpenAlex数据库，为图情领域研究人员选择和使用新兴学术数据源提供了关键参考。",
-      "动态｜Prompt nest to simple: Step-wise prompting and semantic projection integration framework for biomedical overlapping and nested event extraction｜提出新框架解决生物医学文本中复杂事件抽取的难题，展示了AI在专业领域深度应用的潜力。",
-      "趋势判断｜计量研究正从静态指标描述转向动态、网络化与生成式分析，以揭示知识演化内在机制并预测未来方向。"
+      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出新贝叶斯模型，为处理学术引用数据中普遍存在的零值和极端高值提供了更稳健的分析框架。",
+      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜以人工智能领域为例，实证揭示了在快速发展的学科中，传统同行评审对未来论文影响力的预测效力会减弱。",
+      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜研究揭示了在AI辅助的协作学习中，图书馆员指导强度与学生创造力之间存在非线性关系，为人机协同服务设计提供了实证依据。",
+      "动态｜Bridging the skills gap in recruitment: A RAG-based LLM framework for cybersecurity job advertisement analysis｜展示了检索增强生成与大语言模型结合，在解析特定领域（网络安全）招聘需求、弥合技能差距方面的具体应用潜力。",
+      "趋势判断｜计量研究正从描述性统计转向对复杂数据生成机制与因果影响的建模，同时AI应用从通用任务向深度融合领域知识、优化人机协作的专业场景深化。"
     ],
     "stats": {
-      "papers": 153,
-      "news": 122,
-      "featured": 74
+      "papers": 158,
+      "news": 125,
+      "featured": 59
     }
   },
   {

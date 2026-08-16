@@ -69,6 +69,29 @@
     "id": 15156
   },
   {
+    "title": "Data management plans as anticipatory discursive infrastructure",
+    "abstract": "",
+    "date": "2026-09-01",
+    "link": "https://doi.org/10.1002/asi.70086",
+    "affiliations": "Megan Finn; Thomas Struett; Yubing Tian",
+    "source": "JASIST",
+    "tier": "A",
+    "field": "information_science",
+    "content_type": "paper",
+    "category": "数据管理",
+    "thinking": "该论文从话语分析视角探讨数据管理计划作为基础设施的前瞻性作用，理论视角新颖且具有启发性，属于数据管理领域的前沿理论探讨。然而，论文侧重于概念框架构建，未涉及具体技术实现或实证研究，因此在技术前沿性和方法严谨性上得分受限，但其对开放科学实践的指导意义赋予了较高的业务落地潜力。",
+    "scores": {
+      "frontier_tech": 5,
+      "practical_value": 8,
+      "methodological_rigor": 6
+    },
+    "one_sentence_summary": "论文提出数据管理计划是一种前瞻性的话语基础设施，旨在规范和塑造未来的科研数据实践。",
+    "credibility_score": 6.7,
+    "composite_score": 6.4,
+    "featured": false,
+    "id": 15389
+  },
+  {
     "title": "AI Chatbots as Companions: Overview, Uses, and Considerations for Congress (New Report From the Congressional Research Service)",
     "abstract": "<p>From the Introduction to the Report (R49189): A chatbot is an application or a program that simulates human conversation by generating responses to user prompts. While chatbots1 have existed for approximately 60 years, technical advances in artificial intelligence (AI) have expanded their uses over the last 10 years from customer service to emotional support. This has [&#8230;]</p>\n<p>The post <a href=\"https://www.infodocket.com/2026/08/15/ai-chatbots-as-companions-overview-uses-and-considerations-for-congress-new-report-from-the-congressional-research-service/\">AI Chatbots as Companions: Overview, Uses, and Considerations for Congress (New Report From the Congressional Research Service)</a> appeared first on <a href=\"https://www.infodocket.com\">Library Journal infoDOCKET</a>.</p>",
     "date": "2026-08-15",
@@ -11475,28 +11498,5 @@
     "composite_score": 6.7,
     "featured": false,
     "id": 11764
-  },
-  {
-    "title": "Creative Reading: Scaffolding Reading for Transformation",
-    "abstract": "arXiv:2606.04308v2 Announce Type: replace-cross \nAbstract: Reading augmentation systems increasingly help readers process text at scale. While these tools address real constraints of time and cognitive load, they often implicitly frame reading as information transmission, or \"reading to discard,\" delegating interpretation and effort to the machine. Yet this delegation changes the outcome of reading. For example, in scholarly reading, deciding what a research text implies and why it matters is central to the work of scholarly production. We propose creative reading as an alternative goal: reading augmentation that supports readers in creating both readings and themselves as readers. By putting literary and narrative theories into conversation with scholarly sensemaking and creativity support, we present a provocation-oriented design space for valuing the process of reading as a way of preserving a plurality of readings and transforming readers over time.",
-    "date": "2026-07-31",
-    "link": "https://arxiv.org/abs/2606.04308",
-    "affiliations": "",
-    "source": "arXiv - Information Retrieval",
-    "tier": "C",
-    "field": "information_retrieval",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "该论文从理论层面提出了“创造性阅读”的概念，将文学、叙事理论与学术意义建构相结合，为阅读增强系统的设计提供了新颖的、以激发思考为导向的设计空间，具有较高的理论前沿性。然而，论文目前主要停留在概念框架和设计空间的探讨阶段，缺乏具体的系统实现、实证研究或严谨的方法验证，因此在业务落地性和方法严谨性上得分有限。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 4,
-      "methodological_rigor": 5
-    },
-    "one_sentence_summary": "该研究提出“创造性阅读”新范式，倡导阅读增强系统应支持读者生成多元解读并实现自我转变，而非仅传递信息。",
-    "credibility_score": 6.0,
-    "composite_score": 5.5,
-    "featured": false,
-    "id": 11765
   }
 ]
