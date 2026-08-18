@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-08-19",
+    "summary": "今日图情领域的研究焦点集中在提升学术评价的透明度与可复现性，以及深化人工智能在信息处理中的应用。在计量与评价方面，多个研究致力于通过构建标准化数据管道、结合SAAS模式的工作流框架以及利用OpenAlex等新兴数据源，来增强文献计量分析的严谨性和可信度。同时，对同行评审机制在科学快速变革时期的有效性、以及基于CRediT的角色贡献量化分析，为科研评价提供了新的视角。在AI应用方面，研究呈现多元化趋势，涵盖从AI信息中介在协作学习中的作用、自动检测引文错误和保障参考文献完整性，到提升AI生成内容检测的通用性，显示出AI技术正深度融入信息质量保障、内容分析与用户服务等多个核心环节。",
+    "highlights": [
+      "论文｜Biblioshiny and the SAAS Workflow: An integrated framework for transparent and reproducible science mapping｜提出了一个结合软件工具与标准化模式的工作流框架，旨在系统性提升科学知识图谱研究的透明度和可复现性。",
+      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜以人工智能领域为例，实证检验了在科学快速变革时期，传统同行评审对论文未来影响力的预测效力。",
+      "动态｜Our 2023-2027 Strategy｜欧洲研究图书馆协会发布未来五年战略规划，明确了开放科学、数字技能等核心发展方向，反映了行业宏观政策导向。",
+      "动态｜LIBER 2027Save the Date – LIBER Annual Conference 2027｜欧洲研究图书馆协会发布了其2027年度会议预告，是了解国际图情领域前沿动态的重要窗口。",
+      "趋势判断｜AI应用研究呈现多元化与深化趋势｜从信息中介、内容检测到引文核查，AI技术正系统性地应用于提升信息服务质量、保障学术诚信与分析复杂内容。"
+    ],
+    "stats": {
+      "papers": 223,
+      "news": 113,
+      "featured": 56
+    }
+  },
+  {
     "date": "2026-08-18",
     "summary": "今日图情领域的研究呈现出对数据科学方法与人工智能技术应用的持续深化。在科学计量与评价方面，研究重点转向处理引文数据中的零值与极端值、分析知识演化路径，并检验同行评审在快速变革领域（如AI）中的预测效力。AI应用研究广泛渗透，涉及学术传播（如引文完整性保障、评审质量分析）、信息服务（如AI中介下的图书馆员角色、群体推荐去偏）以及知识组织（如时序多模态知识图谱推理）。同时，对新兴基础设施（如OpenAlex）的评估与数据隐私风险（如匿名化数据重识别）的关注，反映了领域对研究工具与伦理的审慎思考。总体趋势是方法论更趋精细，并积极探索人机协同的新模式。",
     "highlights": [
@@ -212,55 +228,6 @@
       "papers": 172,
       "news": 122,
       "featured": 66
-    }
-  },
-  {
-    "date": "2026-08-03",
-    "summary": "今日图情领域的研究与实践呈现出两大核心焦点：一是对研究过程与方法论本身严谨性与透明性的深度关注，二是人工智能技术在多模态信息分析与专业应用场景中的持续深化。在计量与评价领域，研究重点转向了分析流程的标准化与可复现性，旨在通过构建可审计的数据管道和集成化分析框架，提升科研评价的信度与效度。人工智能应用方面，研究已超越基础事实处理，深入探索模型对复杂认知过程（如叙事思维、决策模式）的理解能力，并针对特定专业领域（如地理空间查询、事实核查）开发专用模型与评估工具。同时，行业政策层面持续关注文本与数据挖掘的法律环境，为学术研究争取更有利的制度支持。",
-    "highlights": [
-      "论文｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜提出标准化、可审计的文献计量数据处理流程，显著提升分析结果的可信度与可复现性。",
-      "论文｜Beyond factual events: Evaluating LLMs’ capability of cognitive processes understanding in narratives｜构建评估框架，测试大语言模型理解叙事中角色思维过程的能力，是对模型深层认知评估的重要探索。",
-      "动态｜Text & Data Mining｜欧洲研究图书馆协会发布立场声明，积极推动为图书馆的文本与数据挖掘活动争取必要的法律豁免与支持。",
-      "动态｜Strategy 2023-2027LIBER Publishes a Statement on Rights & Values for Research Libraries｜欧洲研究图书馆联盟发布战略声明，系统阐述了研究图书馆在数字时代的核心权利与价值定位。",
-      "趋势判断｜图情领域对AI应用的评价正从事实准确性转向对复杂认知任务的理解与完成能力，并同步强化研究过程本身的规范性与透明度。"
-    ],
-    "stats": {
-      "papers": 151,
-      "news": 122,
-      "featured": 60
-    }
-  },
-  {
-    "date": "2026-08-01",
-    "summary": "今日图情领域研究呈现出方法创新与技术融合的鲜明特征。在文献计量与科学评价方面，研究焦点从静态指标转向动态过程分析，例如通过两阶段动态效率模型评估绿色技术创新，以及利用知识继承网络揭示领域演化路径。同时，可复现性研究框架的提出，反映了对科学知识图谱研究方法规范性的重视。在信息检索与推荐系统领域，研究致力于解决实际应用中的关键问题，如通过新颖的神经架构设计来缓解群体推荐中的从众偏差，以及优化大规模推荐系统的索引与计算效率。人工智能应用继续向纵深发展，具体体现在利用多模态AI解析政府传播策略，以及构建分层框架进行早期谣言检测。用户行为研究则更注重量化分析，例如通过心理测量模型探究影响可视化解读能力的因素。",
-    "highlights": [
-      "论文｜Two-stage dynamic StoNED model for efficiency evaluation of green technology innovation: evidence from a cross-country study｜通过创新的两阶段动态模型，揭示了全球绿色技术创新中研发与生产阶段效率不协调的核心瓶颈。",
-      "论文｜Biblioshiny and the SAAS Workflow: An integrated framework for transparent and reproducible science mapping. A demonstration through the replication of a study｜提出了一个结合工具与工作流的集成框架，旨在提升科学知识图谱研究的透明度与可复现性。",
-      "动态｜Digital Scholarship & Digital Cultural Heritage Collections｜欧洲研究图书馆协会关注数字学术与文化遗产馆藏的最新发展，为相关实践提供重要参考。",
-      "论文｜All Is Heard: Mitigating conformity bias via dual-branch collaboration in group recommendation｜提出结合对比学习与图神经网络的新方法，有效缓解群体推荐系统中的从众偏差问题。",
-      "论文｜Unveiling thematic evolution and R&D opportunities through knowledge inheritance networks: A case study in telecommunications｜通过构建知识继承网络，有效揭示了电信领域的研究主题演化路径并识别潜在机会。",
-      "趋势判断｜图情研究正从静态指标分析转向对知识流动、合作网络、技术演化等动态过程的建模与评估。"
-    ],
-    "stats": {
-      "papers": 177,
-      "news": 119,
-      "featured": 55
-    }
-  },
-  {
-    "date": "2026-07-31",
-    "summary": "今日图情领域的研究呈现出对计量分析流程标准化与透明化的高度关注，以及对人工智能技术应用场景的深度探索。在计量与评价方面，多个研究致力于通过构建可审计的数据流水线、集成化分析框架及改进的算法模型（如GC-GTM），以提升科学知识图谱绘制、主题演化分析和技术机会发现的可复现性与解释力。同时，同行评议在AI等快速变革领域的预测有效性受到检验。在AI应用与信息检索方面，研究焦点包括利用多模态学习优化初创企业匹配、通过神经干预减少大语言模型的事实性错误、设计保护隐私的检索增强生成方案，以及开发新方法以缓解群体推荐中的从众偏差。这些进展共同指向图情学科在支持科研诚信、技术预见和智能信息服务的核心作用。",
-    "highlights": [
-      "论文｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜提出标准化可审计数据流水线，为提升文献计量分析的透明度与可信度提供了方法学框架。",
-      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜以AI领域为案例，实证检验了科学快速变革时期同行评议对论文影响力的预测能力。",
-      "论文｜LANCET: Neural intervention via Structural Entropy for mitigating faithfulness hallucinations in LLMs｜提出利用结构熵干预大语言模型的新方法，旨在减少其生成内容中的事实性错误。",
-      "动态｜Open Science｜欧洲研究图书馆协会发布开放科学相关信息，为图书馆制定相关支持政策与实践提供了重要参考。",
-      "趋势判断｜计量分析流程的标准化与透明化成为研究焦点｜多个研究关注构建可复现、可审计的分析框架与数据流水线，反映了领域对研究方法严谨性的追求。"
-    ],
-    "stats": {
-      "papers": 178,
-      "news": 100,
-      "featured": 36
     }
   }
 ]
