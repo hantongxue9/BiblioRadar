@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-20",
+    "summary": "今日图情领域的研究呈现出两大核心趋势。一方面，在科研计量与评价领域，研究正朝着更精细化和过程透明化的方向发展。例如，有研究利用CRediT角色分类深入剖析共同通讯作者的贡献模式，为超越简单作者排序的评价提供了新视角；同时，提升科学图谱分析可重复性的标准化工作流框架也受到关注。另一方面，人工智能应用继续深化，尤其在处理复杂信息任务方面展现出强大的潜力。相关研究聚焦于提升大语言模型的事实准确性、增强对多模态科学文献的理解与摘要能力，以及构建专门框架来分析招聘广告、政府宣传视频等特定领域的文本与多模态信息。此外，关于AI助手如何影响用户协作与技能发展的实证研究，以及减少群体推荐系统从众偏差的新方法，也体现了对技术应用社会影响的深入思考。",
+    "highlights": [
+      "论文｜Distant but bridgeable: how geographic and cognitive distance jointly shape interdisciplinary knowledge production｜揭示了地理距离与认知距离在跨学科知识生产中并非简单的阻碍关系，而是存在互补性，为理解合作网络提供了新视角。",
+      "论文｜A CRediT‐based quantitative study of co‐corresponding authorship: Collaboration patterns and contribution distribution｜利用标准化的CRediT分类体系量化分析共同通讯作者的贡献，推动了科研贡献评价向更精细、更公平的方向发展。",
+      "动态｜Planning over actions: Agentic reasoning for semi-structured table question answering｜提出基于智能体推理的新方法，显著提升了复杂表格问答的准确性与可解释性，是AI在信息检索与分析领域的重要进展。",
+      "动态｜Localize-then-summarize: Enhancing scientific multimodal summarization with facet-aware cross-modal memory｜提出“先定位，后摘要”的新范式，有效提升了包含图表在内的科学文献多模态摘要的质量。",
+      "动态｜More vs. less cognitive offloading from ai assistants: impacts on novices’ collaborative performance and skill development｜实证研究了AI助手提供不同支持程度对新手技能发展的影响，对设计促进学习的智能工具有重要启示。",
+      "趋势判断｜AI应用研究正从通用能力探索转向针对特定领域复杂任务（如科学文献理解、招聘分析、虚假信息对抗）的深度框架构建与效果验证。"
+    ],
+    "stats": {
+      "papers": 209,
+      "news": 98,
+      "featured": 68
+    }
+  },
+  {
     "date": "2026-08-19",
     "summary": "今日图情领域的研究焦点集中在提升学术评价的透明度与可复现性，以及深化人工智能在信息处理中的应用。在计量与评价方面，多个研究致力于通过构建标准化数据管道、结合SAAS模式的工作流框架以及利用OpenAlex等新兴数据源，来增强文献计量分析的严谨性和可信度。同时，对同行评审机制在科学快速变革时期的有效性、以及基于CRediT的角色贡献量化分析，为科研评价提供了新的视角。在AI应用方面，研究呈现多元化趋势，涵盖从AI信息中介在协作学习中的作用、自动检测引文错误和保障参考文献完整性，到提升AI生成内容检测的通用性，显示出AI技术正深度融入信息质量保障、内容分析与用户服务等多个核心环节。",
     "highlights": [
