@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-21",
+    "summary": "今日图情领域的研究呈现出对学术评价体系反思与人工智能技术深化应用的双重趋势。在学术计量与评价方面，研究重点聚焦于评价过程的透明化、可审计性，以及对新兴颠覆性科学领域（如人工智能）中传统同行评议效力的重新审视。同时，国家间科研人员向AI领域转型的差异性、署名政策对作者行为的影响等社会维度问题也受到关注。在技术应用层面，人工智能与信息组织的结合更为紧密，研究致力于提升大语言模型的推理准确性与事实性（如通过知识图谱对齐、神经干预方法），并探索其在复杂领域（如法律、医疗）和多模态场景（如文档布局分析、科学文献摘要）下的应用潜力。此外，推荐系统与持续学习框架的优化也是重要方向。",
+    "highlights": [
+      "论文｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜提出可审计的通用数据处理流程，旨在提升文献计量分析的透明度与可重复性，对规范科研评价实践有重要意义。",
+      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜实证检验了在人工智能等颠覆性科学领域，传统同行评审对论文未来影响力的预测能力发生变化。",
+      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜系统性评估新兴开放学术数据库OpenAlex，为图情领域选择和使用替代性数据源提供了关键参考。",
+      "论文｜KG-ACE: Knowledge Graph Alignment and Consistency Enhancement for medical reasoning with large language models｜通过增强知识图谱对齐与一致性来提升大语言模型的医疗推理能力，是解决模型事实性问题的技术探索。",
+      "论文｜Localize-then-summarize: Enhancing scientific multimodal summarization with facet-aware cross-modal memory｜提出基于方面感知和跨模态记忆的科学图文摘要新方法，推动了多模态信息处理在学术场景的应用。",
+      "趋势判断｜学术评价体系正经历从依赖单一指标向注重过程透明与情境化分析的范式转变，同时AI技术深度融入信息组织与知识服务全链条。"
+    ],
+    "stats": {
+      "papers": 198,
+      "news": 96,
+      "featured": 64
+    }
+  },
+  {
     "date": "2026-08-20",
     "summary": "今日图情领域的研究呈现出两大核心趋势。一方面，在科研计量与评价领域，研究正朝着更精细化和过程透明化的方向发展。例如，有研究利用CRediT角色分类深入剖析共同通讯作者的贡献模式，为超越简单作者排序的评价提供了新视角；同时，提升科学图谱分析可重复性的标准化工作流框架也受到关注。另一方面，人工智能应用继续深化，尤其在处理复杂信息任务方面展现出强大的潜力。相关研究聚焦于提升大语言模型的事实准确性、增强对多模态科学文献的理解与摘要能力，以及构建专门框架来分析招聘广告、政府宣传视频等特定领域的文本与多模态信息。此外，关于AI助手如何影响用户协作与技能发展的实证研究，以及减少群体推荐系统从众偏差的新方法，也体现了对技术应用社会影响的深入思考。",
     "highlights": [
@@ -229,22 +246,6 @@
       "papers": 222,
       "news": 124,
       "featured": 63
-    }
-  },
-  {
-    "date": "2026-08-04",
-    "summary": "今日图情领域的研究呈现出对人工智能方法深度应用与文献计量方法学精细化发展的双重关注。在人工智能应用方面，研究重点从基础模型转向特定场景的优化与评估，例如通过对比研究探索不同主题模型的适用性，以及开发新方法以提升大语言模型的事实准确性、多模态内容分析能力和领域适应效率。在文献计量与评价领域，研究趋向于方法论的稳健性与应用深度，包括开发更精确处理引用数据极端分布的统计模型、构建标准化可审计的分析流程，以及利用知识网络等新视角挖掘领域演化规律。此外，数据管理与学术传播的相关研究关注数据共享的价值、匿名化数据的风险以及同行评审质量的影响，体现了对科研生态基础设施与规范建设的持续思考。",
-    "highlights": [
-      "论文｜Bag-of-words or embedding-based topic models? Comparing LDA, BERTopic, and six other methods｜通过系统性实证比较八种主题模型，为不同研究场景下的模型选择提供了基于证据的参考。",
-      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出一种创新的贝叶斯统计模型，能更准确地刻画和预测学术论文中常见的零引用和极端高引现象。",
-      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜全面评估新兴开放学术数据库OpenAlex，为研究社区采用这一重要免费数据源提供了关键的技术与应用分析。",
-      "动态｜Community's lifeline: Dynamically identifying the short-term emergence and long-term survival of opinion leaders in diabetes online communities｜提出动态识别在线健康社区意见领袖的方法，对社区管理与信息传播干预具有实践意义。",
-      "趋势判断｜AI应用研究正从通用能力探索转向针对事实性、多模态理解、领域适应等具体挑战的解决方案开发，并与图情传统任务（如主题分析、信息评估）深度融合。"
-    ],
-    "stats": {
-      "papers": 172,
-      "news": 122,
-      "featured": 66
     }
   }
 ]
