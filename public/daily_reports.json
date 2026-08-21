@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-22",
+    "summary": "今日图情领域的研究焦点集中于人工智能，特别是大语言模型和多模态模型，在信息组织、检索与评价中的深度应用与影响评估。一方面，多篇论文探讨了LLM在辅助学术写作、知识图谱补全、数据合规分类及信息验证等场景下的具体框架与方法，显示出AI正深度融入知识生产与管理的全链条。另一方面，实证研究开始关注AI应用的实际效果（如对论文引用的影响）和潜在风险（如用户信息验证行为），体现了从技术探索向效果与伦理评估的延伸。行业层面，欧洲图书馆界持续推动开放获取与专业能力建设，并积极思考AI时代图书馆角色的转型。",
+    "highlights": [
+      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于海量数据的实证研究，揭示了AI辅助写作与学术影响力之间的潜在关联。",
+      "论文｜Spatial and temporal evolving logic with LLM-augmented framework for completion of spatiotemporal knowledge graph｜提出结合大语言模型增强时空知识图谱补全的新框架，为动态知识组织提供新思路。",
+      "论文｜Determinants of information verification behaviour among generative AI users: an empirical analysis based on SEM and fsQCA｜采用混合方法深入剖析影响用户对AI生成信息进行验证的关键因素。",
+      "动态｜#ZeroEmbargo Campaign｜欧洲研究图书馆联盟发起运动，旨在推动学术成果出版后立即开放获取，是OA运动的最新进展。",
+      "动态｜From Access to AI-Readiness: The Evolving Role of Research ..｜探讨了AI如何促使研究图书馆从传统资源提供向支持AI能力建设的角色转变。",
+      "趋势判断｜AI应用从技术框架向效果评估与风险治理深化｜今日研究不仅展示AI应用新方法，更关注其实际影响、用户行为及合规问题，标志着该领域研究日趋成熟。"
+    ],
+    "stats": {
+      "papers": 186,
+      "news": 94,
+      "featured": 52
+    }
+  },
+  {
     "date": "2026-08-21",
     "summary": "今日图情领域的研究呈现出对学术评价体系反思与人工智能技术深化应用的双重趋势。在学术计量与评价方面，研究重点聚焦于评价过程的透明化、可审计性，以及对新兴颠覆性科学领域（如人工智能）中传统同行评议效力的重新审视。同时，国家间科研人员向AI领域转型的差异性、署名政策对作者行为的影响等社会维度问题也受到关注。在技术应用层面，人工智能与信息组织的结合更为紧密，研究致力于提升大语言模型的推理准确性与事实性（如通过知识图谱对齐、神经干预方法），并探索其在复杂领域（如法律、医疗）和多模态场景（如文档布局分析、科学文献摘要）下的应用潜力。此外，推荐系统与持续学习框架的优化也是重要方向。",
     "highlights": [
@@ -229,23 +246,6 @@
       "papers": 216,
       "news": 128,
       "featured": 67
-    }
-  },
-  {
-    "date": "2026-08-05",
-    "summary": "今日图情领域的研究呈现出鲜明的技术驱动与问题导向特征，尤其聚焦于人工智能的深度应用与知识生态的量化分析。在AI应用方面，研究前沿从通用能力评估延伸至特定专业领域（如法律推理、地理空间查询、多模态信息提取）的模型定制与优化，并持续关注模型的可信性（如减少事实性错误、检测生成内容）和鲁棒性问题。同时，基于网络分析的知识计量研究持续深化，不仅关注宏观层面的全球知识流动与国家角色，也深入到具体学科（如电信领域）的主题演化与机会发现。用户行为研究则与健康信息等具体场景紧密结合，探索动态、个性化的信息服务模式。整体而言，图情研究正紧密围绕如何利用先进技术更智能地组织、分析知识，并更精准地服务于特定领域和用户需求展开。",
-    "highlights": [
-      "论文｜Unveiling thematic evolution and R&D opportunities through knowledge inheritance networks: A case study in telecommunications｜通过创新的知识继承网络方法，为特定学科领域的研究主题演化与前沿探测提供了可操作的路径。",
-      "论文｜LANCET: Neural intervention via Structural Entropy for mitigating faithfulness hallucinations in LLMs｜提出基于结构熵的神经干预新思路，为大语言模型事实性错误的缓解提供了具有理论深度的技术方案。",
-      "动态｜Advancing Open Science｜欧洲研究图书馆协会的政策动态，反映了图情机构在开放科学这一核心议题上的最新立场与实践方向。",
-      "论文｜Benchmarking multi-step legal reasoning and analyzing Chain-of-Thought effects in Large Language Models｜通过构建基准和剖析思维链效应，系统评估了LLMs在复杂专业领域（法律）的推理能力与局限。",
-      "论文｜PostGISer: The first end-to-end fine-tuned large language model for PostGIS GeoSQL query generation｜展示了LLM在专业数据库查询（空间数据库）领域微调应用的突破性进展，具有明确的实用价值。",
-      "趋势判断｜AI应用研究从通用能力测试向垂直领域深度定制与可信性保障演进｜今日论文显示，AI在图情及相关领域的研究正从评估通用能力，快速转向针对法律、地理信息、健康等垂直场景的专用模型开发，并同步强化对输出事实性、鲁棒性等可信维度的保障。"
-    ],
-    "stats": {
-      "papers": 222,
-      "news": 124,
-      "featured": 63
     }
   }
 ]
