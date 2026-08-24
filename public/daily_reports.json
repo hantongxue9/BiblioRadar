@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-25",
+    "summary": "今日图情领域研究呈现两大核心趋势：一是人工智能，尤其是大语言模型，在信息组织、检索与分析中的深度应用与影响评估；二是对学术交流质量与过程透明度的持续关注。在AI应用方面，研究焦点从基础能力拓展至解决具体问题，如通过神经干预减少大语言模型的事实性错误、开发领域专用模型（如地理空间查询生成），以及探索人机协作中指导策略与认知权威的匹配关系。在计量与评价领域，研究不仅关注学术产出的影响力（如AI辅助写作与引用关联），更深入探讨学术文献中存在的问题论文的识别与分析，并致力于通过开发集成化、可复现的工作流程来提升科学知识图谱研究的严谨性。",
+    "highlights": [
+      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于大规模数据揭示了工程学领域AI辅助写作与论文后续影响力的潜在关联。",
+      "论文｜LANCET: Neural intervention via Structural Entropy for mitigating faithfulness hallucinations in LLMs｜提出一种基于结构熵的神经干预新方法，为缓解大语言模型的事实性幻觉问题提供了技术思路。",
+      "论文｜The landscape of problematic papers in the field of non-coding RNA｜运用计量学方法系统揭示特定学科领域内问题论文的特征与分布，对学术质量监控具有参考价值。",
+      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜实证研究了在AI辅助协作学习中，馆员指导策略如何与用户对AI的认知交互影响团队创造力。",
+      "动态｜PostGISer: The first end-to-end fine-tuned large language model for PostGIS GeoSQL query generation｜发布了首个专门针对地理空间查询生成的微调大语言模型，推动了领域专用AI工具的发展。",
+      "趋势判断｜AI应用研究正从通用能力探索转向解决信息处理中的具体、复杂问题，如事实性、领域适配性及人机协作策略。"
+    ],
+    "stats": {
+      "papers": 191,
+      "news": 130,
+      "featured": 64
+    }
+  },
+  {
     "date": "2026-08-24",
     "summary": "今日图情领域的研究呈现出明显的交叉融合与技术驱动特征。核心议题围绕学术评价与传播体系的优化、人工智能在信息处理中的深度应用展开。在学术评价方面，研究不仅关注合作网络动态、跨学科知识生产的复杂机制等传统计量主题，更致力于通过博弈论模型和集成化软件框架提升同行评审的公平性与科学知识图谱绘制的可重复性。人工智能应用是绝对热点，尤其在学术文本处理领域，大语言模型对写作与引用的影响、针对复杂信息抽取（如生物医学事件、图表题注）的模型创新、以及保障引用完整性和应对模型幻觉的新方法成为关注焦点。此外，面向特定场景（如在线社区、初创企业匹配、政府视频）的用户行为分析与多模态智能分析也展现出应用潜力。",
     "highlights": [
@@ -245,23 +262,6 @@
       "papers": 181,
       "news": 120,
       "featured": 64
-    }
-  },
-  {
-    "date": "2026-08-06",
-    "summary": "今日图情领域的研究呈现出鲜明的数据驱动与人工智能应用融合的趋势。在科学计量与评价方面，焦点集中于利用大规模数据和先进模型来量化科学活动的影响与模式，例如通过超百万论文分析LLM辅助写作的引用效应、评估科研数据缺失的负面影响，以及利用CRediT标准量化合作贡献。同时，对OpenAlex等新兴基础设施的评估为数据源选择提供了关键参考。在AI应用层面，研究重点已从基础能力测试转向解决特定领域复杂问题，如确保引用完整性、进行早期谣言检测、理解叙事认知过程以及执行多步骤法律推理，显示出AI技术在图情核心任务中日益深入和专业化的发展态势。",
-    "highlights": [
-      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的大规模实证分析，首次揭示了LLM辅助写作与论文引用表现提升之间的关联。",
-      "论文｜Modeling the impact of research data unavailability on science｜通过建模量化了科研数据不可获取对科学知识生产的负面影响，为数据共享政策提供了坚实的证据支持。",
-      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜对新兴开放学术数据库OpenAlex进行了全面评估，为图书馆和研究人员选择与利用该数据源提供了系统性指南。",
-      "动态｜Benchmarking multi-step legal reasoning and analyzing Chain-of-Thought effects in Large Language Models｜系统评估了LLM在复杂法律推理任务上的表现，并深入分析了思维链提示的作用机制。",
-      "动态｜LANCET: Neural intervention via Structural Entropy for mitigating faithfulness hallucinations in LLMs｜提出一种通过干预模型内部结构来减少事实性错误的新方法，是提升LLM输出可靠性的前沿探索。",
-      "趋势判断｜AI应用研究正从通用能力评估转向面向图情核心任务的深度专业化解决方案构建｜今日收录的AI应用研究广泛覆盖引用验证、事件抽取、谣言检测等专业场景，标志着该领域技术应用进入深耕阶段。"
-    ],
-    "stats": {
-      "papers": 216,
-      "news": 128,
-      "featured": 67
     }
   }
 ]
