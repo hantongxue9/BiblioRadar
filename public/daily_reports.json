@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-08-26",
+    "summary": "今日图情领域的研究焦点高度集中于人工智能技术的应用、影响与治理。一方面，AI在信息处理与知识服务中的渗透不断加深，具体体现在信息抽取、跨模态检索、智能问答系统的技术优化，以及AI辅助写作对科研产出的影响评估上。另一方面，研究开始深入探讨AI应用的复杂社会效应，包括用户对AI的归因模式、AI辅助对技能发展的潜在影响，以及算法偏见的来源与应对策略，凸显了从技术效能向人机协同与社会责任延伸的趋势。此外，科研评价的计量方法反思与图书馆行业的战略规划，共同指向了图情领域在技术浪潮中需坚守的专业价值与伦理考量。",
+    "highlights": [
+      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于百万级论文的实证分析，揭示了AI辅助写作与引文影响力之间的关联，为理解AI对科研产出的影响提供了定量证据。",
+      "论文｜More vs. less cognitive offloading from ai assistants: impacts on novices’ collaborative performance and skill development｜探讨了AI助手认知卸载程度对用户协作效能与长期技能发展的差异化影响，对设计促进能力成长的智能系统具有启示。",
+      "动态｜Artificial intelligence algorithm bias in information retrieval systems and its implication for library and information science professionals: A scoping review｜综述了信息检索系统中的算法偏见问题，并系统阐述了图书馆情报专业人员的关键应对角色与路径。",
+      "动态｜Developing a multimodal library intelligent Q&A chatbot using retrieval-augmented generation (RAG) technology｜展示了RAG技术在图书馆智能问答场景中的应用实践，是AI赋能传统知识服务的典型探索。",
+      "趋势判断｜Integrating AI literacy into library and information science education and practice: a human-centered approach｜提出了一个分阶段、以人为本的AI素养框架，指明了图情专业教育与实践中培养复合型人才的核心方向。"
+    ],
+    "stats": {
+      "papers": 252,
+      "news": 123,
+      "featured": 67
+    }
+  },
+  {
     "date": "2026-08-25",
     "summary": "今日图情领域研究呈现两大核心趋势：一是人工智能，尤其是大语言模型，在信息组织、检索与分析中的深度应用与影响评估；二是对学术交流质量与过程透明度的持续关注。在AI应用方面，研究焦点从基础能力拓展至解决具体问题，如通过神经干预减少大语言模型的事实性错误、开发领域专用模型（如地理空间查询生成），以及探索人机协作中指导策略与认知权威的匹配关系。在计量与评价领域，研究不仅关注学术产出的影响力（如AI辅助写作与引用关联），更深入探讨学术文献中存在的问题论文的识别与分析，并致力于通过开发集成化、可复现的工作流程来提升科学知识图谱研究的严谨性。",
     "highlights": [
@@ -212,56 +228,6 @@
       "papers": 188,
       "news": 123,
       "featured": 69
-    }
-  },
-  {
-    "date": "2026-08-10",
-    "summary": "今日图情领域的研究呈现出明显的AI驱动与数据科学深化融合的趋势。在计量与评价方面，研究重点转向处理复杂数据特征（如零膨胀和重尾分布）以及开发新的知识发现模型，以更精准地衡量学术影响和探测技术机会。AI应用继续向纵深发展，不仅体现在大语言模型（LLM）对学术写作、评审评估等环节的广泛影响得到实证研究，也体现在针对特定任务（如事件论元抽取、多模态摘要生成、AI生成内容检测）的专用模型创新上。同时，数据基础设施的评估（如OpenAlex）和新型数据管理框架（如基于区块链的访问控制）也受到关注，反映了领域对数据质量与安全性的持续关切。",
-    "highlights": [
-      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出贝叶斯跨栏分位数回归模型，为处理引文数据中的零值过多和极端值问题提供了更精确的统计工具。",
-      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于大规模数据分析，首次实证揭示了工程领域论文使用LLM辅助写作与更高被引次数的相关性。",
-      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜系统评估新兴开放学术数据库OpenAlex，为学界选择和使用替代性文献数据源提供了关键参考。",
-      "动态｜Relationship between peer review quality and scientific impact: Insights from LLMs-assessed reviews｜利用大语言模型量化同行评审质量，并探索其与论文未来科学影响力的关联，为评审研究提供了新方法。",
-      "趋势判断｜AI应用从通用任务转向特定场景的深度优化｜今日研究显示，AI在图情领域的应用正从通用文本处理，转向针对科学文献理解、内容真实性验证、文创设计评估等具体场景的模型与方法创新。"
-    ],
-    "stats": {
-      "papers": 154,
-      "news": 126,
-      "featured": 62
-    }
-  },
-  {
-    "date": "2026-08-08",
-    "summary": "今日图情领域的研究呈现出以数据驱动和人工智能深度应用为核心的趋势。在计量与评价方面，研究重点从传统的指标计算转向更具动态性、公平性和透明度的评估方法，如关注学者合作网络的演化、开发基于多种贡献分配方案的自动化工具以及构建可审计的数据分析流水线。同时，对新兴数据库（如OpenAlex）的评估为数据源选择提供了重要依据。在人工智能应用方面，研究深入信息服务的具体场景，探索AI在信息中介、事件抽取、岗位匹配、多模态分析等任务中的效能，并关注如何减少大模型的事实性错误。用户行为研究则聚焦于在线社区中意见领袖的动态识别以及任务情境驱动的个性化信息呈现。整体来看，研究正朝着更精细的机制解析、更可靠的技术工具和更以用户及任务为中心的方向发展。",
-    "highlights": [
-      "论文｜The dynamic scholar: How evolving co-authorship fuels scholarly performance｜该研究揭示了学者合作网络的动态变化是驱动学术表现的关键机制，对理解科研合作本质具有启发意义。",
-      "论文｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜该研究提出的标准化、可审计数据流水线，为提升文献计量评估的透明度和可重复性提供了方法论框架。",
-      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜该研究探讨了AI信息中介情境下图书馆员角色的关键作用，为智慧图书馆服务设计提供了实证依据。",
-      "动态｜LANCET: Neural intervention via Structural Entropy for mitigating faithfulness hallucinations in LLMs｜该研究提出通过干预知识结构来减少大模型事实性错误，是提升AI信息服务质量的前沿技术探索。",
-      "动态｜Who invests matters: A multimodal contrastive learning approach to successful startup-investor matching｜该研究展示了多模态AI技术在精准信息匹配（如投融资）中的应用潜力，体现了图情技术向垂直领域深化。",
-      "趋势判断｜图情研究正从宏观计量评估转向微观机制探索与场景化AI应用融合｜研究焦点日益关注评估的公平透明、AI技术的可靠可用，以及信息服务在具体任务情境中的效能优化。"
-    ],
-    "stats": {
-      "papers": 204,
-      "news": 126,
-      "featured": 70
-    }
-  },
-  {
-    "date": "2026-08-07",
-    "summary": "今日图情领域的研究呈现出以人工智能技术深度应用与反思评估并重的特点。在技术应用层面，焦点集中于提升信息系统的智能处理能力与可靠性，具体表现为：利用混合提示生成、图神经网络及扩散模型等前沿方法，优化从长文档中抽取复杂事件、增强推荐系统多样性等任务；同时，针对大语言模型的事实性错误与安全风险，涌现出基于结构熵的干预方法和针对多模态模型的后门攻击研究，体现了对AI模型可信与安全的持续关注。在评估与用户行为层面，研究强调过程的严谨性与机制的深入剖析，包括构建可审计的文献计量分析流程以提升评估透明度，以及采用混合方法探究生成式AI用户的信息验证行为与持续使用意愿的影响因素。此外，对OpenAlex等新兴数据源的系统性评估，为科研评价实践提供了重要参考。",
-    "highlights": [
-      "论文｜Revealing country-level disparities in researchers’ transition to artificial intelligence: A two-stage analytical framework｜通过构建两阶段分析框架，揭示了全球科研人员向AI领域转型的国家级差异，对研究人才流动与学科演化具有重要参考价值。",
-      "论文｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜提出了一种标准化、可审计的文献计量数据分析流程，为提升科研评估的透明度、可重复性与可信度提供了方法论支持。",
-      "论文｜LANCET: Neural intervention via Structural Entropy for mitigating faithfulness hallucinations in LLMs｜提出一种基于结构熵的神经干预新方法，为减少大语言模型的事实性错误（幻觉）提供了创新性技术思路。",
-      "动态｜HyGEN: A novel hybrid prompt generation model for document-level event argument extraction｜开发了一种混合提示生成模型，显著提升了从长文档中自动抽取结构化事件论元的性能，对智能信息抽取应用有直接推动作用。",
-      "动态｜Determinants of information verification behaviour among generative AI users: an empirical analysis based on SEM and fsQCA｜采用结构方程模型与模糊集定性比较分析相结合的混合方法，系统揭示了影响生成式AI用户进行信息验证行为的复杂因果机制。",
-      "趋势判断｜AI技术在情报分析中的应用正从功能实现迈向可信可控与深度理解的新阶段｜研究焦点从单纯提升AI任务性能，扩展到关注模型的事实可靠性、安全风险、评估透明度及用户行为机制，标志着该领域进入更成熟、更注重负责任创新的发展阶段。"
-    ],
-    "stats": {
-      "papers": 181,
-      "news": 120,
-      "featured": 64
     }
   }
 ]
