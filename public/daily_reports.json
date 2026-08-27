@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-08-27",
+    "summary": "今日图情领域的研究焦点高度集中于人工智能的深度应用与量化评估方法的创新。在AI应用方面，研究从具体场景切入，探讨了AI在信息中介、内容分析（如讽刺检测、事件抽取）、知识追踪及资源分配决策支持中的模型优化与交互影响，尤其关注人机协同（如馆员指导、AI权威感知）对协作效果的作用机制。在计量与评价领域，针对引文数据零值过多、极端值分布等经典难题，以及国家层面科研转型差异的分析，出现了更为精细化的贝叶斯统计模型和两阶段分析框架。同时，数据隐私风险评估、学术评审公平性机制等议题也持续受到关注，体现了领域对技术伦理与流程优化的双重关切。",
+    "highlights": [
+      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出一种能更准确处理引文数据中常见零值与极端值分布问题的贝叶斯统计模型。",
+      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜揭示了在AI辅助的协作中，馆员指导强度与AI权威性感知如何共同影响团队创意产出。",
+      "动态｜Revealing country-level disparities in researchers’ transition to artificial intelligence: A two-stage analytical framework｜构建分析框架，揭示了全球科研人员向AI领域转型的速度与模式存在显著的国家级差异。",
+      "动态｜A classification-based approach to the evaluation of personal identification risk for supposedly anonymous data｜提出一种基于分类的方法，用于评估匿名化数据在实际应用中的个人身份再识别风险。",
+      "趋势判断｜AI应用研究正从模型性能优化转向关注具体场景下的人机协同机制与伦理平衡。"
+    ],
+    "stats": {
+      "papers": 191,
+      "news": 120,
+      "featured": 69
+    }
+  },
+  {
     "date": "2026-08-26",
     "summary": "今日图情领域的研究焦点高度集中于人工智能技术的应用、影响与治理。一方面，AI在信息处理与知识服务中的渗透不断加深，具体体现在信息抽取、跨模态检索、智能问答系统的技术优化，以及AI辅助写作对科研产出的影响评估上。另一方面，研究开始深入探讨AI应用的复杂社会效应，包括用户对AI的归因模式、AI辅助对技能发展的潜在影响，以及算法偏见的来源与应对策略，凸显了从技术效能向人机协同与社会责任延伸的趋势。此外，科研评价的计量方法反思与图书馆行业的战略规划，共同指向了图情领域在技术浪潮中需坚守的专业价值与伦理考量。",
     "highlights": [
@@ -211,23 +227,6 @@
       "papers": 237,
       "news": 124,
       "featured": 68
-    }
-  },
-  {
-    "date": "2026-08-11",
-    "summary": "今日图情领域的研究呈现出对科研评价方法学革新与人工智能深度应用的双重关注。在计量与评价方面，研究焦点集中于提升分析过程的透明度、可复现性与对复杂数据结构的适应性。例如，针对引文数据零值和极端值问题的新贝叶斯模型，以及旨在建立可审计数据流水线和复制研究框架的工作，均指向该领域对方法论严谨性的追求。同时，基于CRediT角色对共同通讯作者贡献的量化分析，为科研署名实践提供了新的实证视角。在人工智能应用方面，研究已超越基础工具开发，深入探讨人机协同的复杂效应。具体表现为：关注AI辅助下（如写作、信息检索）对科研产出（如引用）和用户技能发展的长期影响；开发针对特定领域（如地理空间查询）的专用大语言模型；以及利用先进机器学习技术（如对比学习、特征解耦）解决信息匹配、虚假信息检测等核心问题。这些进展共同体现了图情学科正从工具使用者向方法创新者和效果评估者进行深刻转型。",
-    "highlights": [
-      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出新贝叶斯模型，为处理引文数据中普遍存在的零值和厚尾分布提供了更稳健的统计方法。",
-      "论文｜A CRediT‐based quantitative study of co‐corresponding authorship: Collaboration patterns and contribution distribution｜利用标准化贡献分类框架，首次对共同通讯作者的合作模式与贡献分配进行了系统性量化分析。",
-      "动态｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于大规模数据的实证研究发现，在工程学领域，大语言模型辅助写作与论文影响力的潜在关联。",
-      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜实证研究揭示了在AI信息中介场景中，图书馆员指导强度与用户对AI的认知权威感知如何共同影响协作创意产出。",
-      "动态｜PostGISer: The first end-to-end fine-tuned large language model for PostGIS GeoSQL query generation｜发布了首个专门针对地理空间数据库查询而微调的大语言模型，标志着领域专用AI工具的深入发展。",
-      "趋势判断｜科研评价与AI应用的方法论转向｜今日研究凸显两大趋势：一是计量评价更强调流程的透明、可复现与对复杂数据结构的建模能力；二是AI应用研究从验证工具有效性，转向探讨人机协同的长期影响与开发高度领域专用的智能系统。"
-    ],
-    "stats": {
-      "papers": 188,
-      "news": 123,
-      "featured": 69
     }
   }
 ]
