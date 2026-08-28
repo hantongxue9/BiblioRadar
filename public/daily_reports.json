@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-08-28",
+    "summary": "今日图情领域的研究焦点高度集中于人工智能技术的深度应用与优化，尤其是在处理信息检索、内容分析与知识服务中的复杂问题。研究趋势表明，大语言模型（LLM）的提示工程、检索增强生成（RAG）以及多模态分析框架已成为主流工具，被广泛应用于学术文献挖掘、虚假信息检测、隐私保护及专业技能匹配等场景。同时，针对AI应用中的具体挑战，如引文数据分布的建模、群体推荐中的从众偏差、以及模型生成内容的真实性（幻觉）问题，涌现出一系列创新的算法与模型解决方案。这些进展共同指向一个更智能、更精准且更负责任的信息处理与服务范式。",
+    "highlights": [
+      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜为引文计量分析提供了处理零膨胀与极端值问题的先进统计模型，提升了评估的稳健性。",
+      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜揭示了在AI环境中，图书馆员专业干预对团队创造力的影响机制，对设计人机协同服务具有重要启示。",
+      "动态｜Assessing and comparing document OCR systems in the era of Large Language Models｜探讨了LLM技术背景下OCR系统评估的新范式，对数字化工作流程优化有直接参考价值。",
+      "动态｜Bridging the skills gap in recruitment: A RAG-based LLM framework for cybersecurity job advertisement analysis｜展示了RAG与LLM结合在职业信息分析与技能需求洞察中的实际应用潜力。",
+      "趋势判断｜大语言模型引导的多模态分析与隐私保护策略成为AI在图情领域应用的核心技术路径｜多项研究均围绕LLM增强的多模态框架和隐私感知的RAG系统展开，标志着技术融合与伦理考量并重的发展方向。"
+    ],
+    "stats": {
+      "papers": 198,
+      "news": 130,
+      "featured": 67
+    }
+  },
+  {
     "date": "2026-08-27",
     "summary": "今日图情领域的研究焦点高度集中于人工智能的深度应用与量化评估方法的创新。在AI应用方面，研究从具体场景切入，探讨了AI在信息中介、内容分析（如讽刺检测、事件抽取）、知识追踪及资源分配决策支持中的模型优化与交互影响，尤其关注人机协同（如馆员指导、AI权威感知）对协作效果的作用机制。在计量与评价领域，针对引文数据零值过多、极端值分布等经典难题，以及国家层面科研转型差异的分析，出现了更为精细化的贝叶斯统计模型和两阶段分析框架。同时，数据隐私风险评估、学术评审公平性机制等议题也持续受到关注，体现了领域对技术伦理与流程优化的双重关切。",
     "highlights": [
@@ -211,22 +227,6 @@
       "papers": 212,
       "news": 127,
       "featured": 73
-    }
-  },
-  {
-    "date": "2026-08-12",
-    "summary": "今日图情领域的研究呈现出两大核心脉络：一是对学术评价体系与科研合作模式的深度反思与量化分析，二是人工智能技术在图情应用中的前沿探索。在计量与评价方面，研究重点关注了评价指标的内在机制问题，例如极高被引论文对排名系统的潜在扭曲效应、跨学科知识生产的空间与认知双重约束、以及在大科学团队中识别“超多作者”现象的新方法，这反映出学界对构建更稳健、更精细的评价工具的需求。在AI应用方面，研究集中于利用大语言模型、多模态学习和图神经网络等先进技术解决复杂信息处理任务，如对抗虚假信息、解析多模态内容中的说服策略、预测科研合作以及生成地理空间查询，显示出AI正从通用工具向解决图情领域特定问题的专业化方向发展。",
-    "highlights": [
-      "论文｜Exploring the impact of super-cited papers on counting methods, counting inflation and university rankings: Evidence from engineering｜揭示了极高被引论文如何系统性影响文献计量指标和大学排名，对评价体系的稳健性提出重要警示。",
-      "论文｜Distant but bridgeable: how geographic and cognitive distance jointly shape interdisciplinary knowledge production｜阐明了地理距离与认知距离在跨学科知识生产中复杂的交互作用，深化了对科研合作形成机制的理解。",
-      "动态｜PostGISer: The first end-to-end fine-tuned large language model for PostGIS GeoSQL query generation｜展示了领域专用大语言模型在提升地理信息检索自动化水平方面的突破性应用。",
-      "动态｜Mitigating shortcut learning in multimodal misinformation detection via LLM-guided orthogonal disentanglement｜提出利用大语言模型指导解决多模态虚假信息检测中的模型捷径学习问题，提升了检测的可靠性。",
-      "趋势判断｜计量研究正从宏观指标转向对科研合作、作者贡献等微观结构与内在机制的精细刻画，而AI应用则更聚焦于解决领域内具体、复杂的任务，两者共同推动图情学科的方法论革新。"
-    ],
-    "stats": {
-      "papers": 237,
-      "news": 124,
-      "featured": 68
     }
   }
 ]
