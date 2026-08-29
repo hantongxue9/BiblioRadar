@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-08-29",
+    "summary": "今日图情领域的研究呈现出鲜明的AI融合与深化应用趋势。在学术传播与计量评价方面，研究焦点从传统的效率指标转向更复杂的公平性与转型动态分析，如同行评审的公平性机制设计、国家间AI研究转型的差异性，以及AI工具使用与学术影响力的关联性探讨。在用户行为与信息服务领域，研究深入在线社区的动态信息生态，关注意见领袖的识别、AI中介的信息服务效果，以及拟人化AI对用户决策的影响。AI应用研究则展现出极强的跨学科性和技术前沿性，从交通预测、金融分析到生物医学信息抽取，普遍强调方法的可解释性、适应性和对复杂任务（如表格问答、特征选择）的处理能力，反映出图情领域正积极应对由自主AI网络、数据隐私等带来的新挑战。",
+    "highlights": [
+      "论文｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜提出基于博弈论的审稿人分配新机制，为平衡同行评审的效率与公平性提供了理论模型与评估方法。",
+      "论文｜Revealing country-level disparities in researchers’ transition to artificial intelligence: A two-stage analytical framework｜构建两阶段分析框架，系统揭示了全球研究人员向AI领域转型的不均衡格局，对科研政策与人才流动研究具有参考价值。",
+      "动态｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于百万级论文的大规模实证研究发现，在工程领域使用大语言模型辅助写作与论文被引频次存在正相关，引发对AI工具学术影响的深入思考。",
+      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜探讨在AI作为信息中介的协作场景中，馆员指导强度与用户对AI的认知权威感知如何共同影响团队创造力，为智慧图书馆服务设计提供依据。",
+      "趋势判断｜The reciprocity gap: How autonomous AI agent networks challenge platform ecosystem design｜指出自主AI代理网络因其独特的交互模式，正在挑战传统平台生态系统基于互惠原则的设计逻辑，预示着一个新的信息生态治理议题。"
+    ],
+    "stats": {
+      "papers": 155,
+      "news": 121,
+      "featured": 72
+    }
+  },
+  {
     "date": "2026-08-28",
     "summary": "今日图情领域的研究焦点高度集中于人工智能技术的深度应用与优化，尤其是在处理信息检索、内容分析与知识服务中的复杂问题。研究趋势表明，大语言模型（LLM）的提示工程、检索增强生成（RAG）以及多模态分析框架已成为主流工具，被广泛应用于学术文献挖掘、虚假信息检测、隐私保护及专业技能匹配等场景。同时，针对AI应用中的具体挑战，如引文数据分布的建模、群体推荐中的从众偏差、以及模型生成内容的真实性（幻觉）问题，涌现出一系列创新的算法与模型解决方案。这些进展共同指向一个更智能、更精准且更负责任的信息处理与服务范式。",
     "highlights": [
@@ -210,23 +226,6 @@
       "papers": 194,
       "news": 119,
       "featured": 66
-    }
-  },
-  {
-    "date": "2026-08-13",
-    "summary": "今日图情领域的研究呈现出对科研评价方法论的深度反思与对新兴技术应用的积极探索两大主线。在科研评价方面，多篇论文致力于提升计量分析的透明度、可复现性与公平性，例如通过构建可审计的数据管道、开发基于多种贡献分配方案的评价系统，以及探究超高被引论文、合作网络动态、地理与认知距离等因素对评价结果的复杂影响。这些工作共同指向了构建更稳健、更精细的科研评估体系的需求。同时，人工智能与大语言模型的应用研究持续深入，特别是在知识组织（如知识图谱对齐）、信息中介（如馆员与AI的协同）以及面向特定领域（如网络安全招聘、初创企业匹配）的分析任务中，展现出解决实际问题的潜力。",
-    "highlights": [
-      "论文｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜提出标准化、可审计的数据处理流程，是提升文献计量分析可信度与可复现性的重要方法论贡献。",
-      "论文｜AuthormetriX: automated calculation of authors’ scholarly output based on multiple non-inflationary author credit-allocation schemas｜开发了基于多种公平贡献分配方案的自动化评价系统，为更精细的科研贡献评估提供了工具支持。",
-      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions｜实证研究了在AI辅助协作中馆员指导与用户认知的交互作用，对理解人机协同模式具有启发意义。",
-      "动态｜Bridging the skills gap in recruitment: A RAG-based LLM framework for cybersecurity job advertisement analysis｜展示了结合检索增强生成与大语言模型的框架在分析行业技能需求、连接教育与就业方面的应用前景。",
-      "动态｜KG-ACE: Knowledge Graph Alignment and Consistency Enhancement for medical reasoning with large language models｜提出结合知识图谱与大语言模型以增强医疗推理的方法，是提升AI在专业领域应用可靠性的有益探索。",
-      "趋势判断｜科研评价体系正从依赖单一指标转向构建透明、可审计、兼顾贡献公平性与网络动态性的多维分析框架。"
-    ],
-    "stats": {
-      "papers": 212,
-      "news": 127,
-      "featured": 73
     }
   }
 ]

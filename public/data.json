@@ -1357,6 +1357,29 @@
     "id": 17998
   },
   {
+    "title": "Report: Arkansas Librarian Fired After Opposing Book Ban Efforts to Receive $275K in Settlement",
+    "abstract": "<p>From the Arkansas Advocate: A central Arkansas county agreed this week to pay $275,000 to the former library director who was fired after speaking against local conservatives’ push to limit children’s access to books. Saline County announced Thursday it had reached a settlement with Patty Hector, who had been the county library’s executive director when she [&#8230;]</p>\n<p>The post <a href=\"https://www.infodocket.com/2026/08/28/report-arkansas-librarian-fired-after-opposing-book-ban-efforts-to-receive-275k-in-settlement/\">Report: Arkansas Librarian Fired After Opposing Book Ban Efforts to Receive $275K in Settlement</a> appeared first on <a href=\"https://www.infodocket.com\">Library Journal infoDOCKET</a>.</p>",
+    "date": "2026-08-28",
+    "link": "https://www.infodocket.com/2026/08/28/report-arkansas-librarian-fired-after-opposing-book-ban-efforts-to-receive-275k-in-settlement/",
+    "affiliations": "",
+    "source": "Infodocket",
+    "tier": "C",
+    "field": "library_news",
+    "content_type": "news",
+    "category": "行业动态",
+    "thinking": "该资讯报道了美国阿肯色州一名图书馆馆长因反对图书审查而被解雇并获得赔偿的事件，事件本身具有新闻时效性，且涉及图书馆核心价值中的知识自由与馆员权益，与图情领域高度相关。该案例为全球图书馆界处理类似政治压力与职业伦理冲突提供了具体参考，信息价值较高。",
+    "scores": {
+      "timeliness": 8,
+      "relevance": 9,
+      "information_value": 8
+    },
+    "one_sentence_summary": "美国阿肯色州一名图书馆馆长因反对图书禁令被解雇，最终与县当局达成27.5万美元的和解赔偿。",
+    "credibility_score": 6.0,
+    "composite_score": 7.9,
+    "featured": true,
+    "id": 18316
+  },
+  {
     "title": "Explaining ChatGPT Plus users’ continuance intention: comparing TAM, ECM, and extended ECM",
     "abstract": "",
     "date": "2026-08-27",
@@ -1447,6 +1470,29 @@
     "composite_score": 7.6,
     "featured": true,
     "id": 18081
+  },
+  {
+    "title": "E-Books: Google Announces Launch of “Expert Intelligence” Feature For Gemini Notebook",
+    "abstract": "<p>From a Google Blog Post: Today, we&#8217;re taking another step in that mission by introducing Expert Intelligence, a cross Google initiative that helps you engage with your trusted sources through Google AI products. You can now incorporate insights from leading authors, publications, and domain experts, including from titles you’ve purchased, directly into Gemini Notebook, with [&#8230;]</p>\n<p>The post <a href=\"https://www.infodocket.com/2026/08/27/google-announces-launch-of-expert-intelligence-feature-for-gemini-notebook/\">E-Books: Google Announces Launch of &#8220;Expert Intelligence&#8221; Feature For Gemini Notebook</a> appeared first on <a href=\"https://www.infodocket.com\">Library Journal infoDOCKET</a>.</p>",
+    "date": "2026-08-27",
+    "link": "https://www.infodocket.com/2026/08/27/google-announces-launch-of-expert-intelligence-feature-for-gemini-notebook/",
+    "affiliations": "",
+    "source": "Infodocket",
+    "tier": "C",
+    "field": "library_news",
+    "content_type": "news",
+    "category": "技术趋势",
+    "thinking": "资讯发布于2026年8月，是未来时间点，但作为行业新闻具有前瞻性，时效性评分需保守。内容涉及Google AI产品与电子书、专家资源的整合，与图书馆的电子资源服务、信息发现和知识组织有一定关联。该功能展示了技术平台如何整合权威信息源，为图书馆思考数字资源利用和AI工具集成提供了参考案例。",
+    "scores": {
+      "timeliness": 6,
+      "relevance": 6,
+      "information_value": 7
+    },
+    "one_sentence_summary": "谷歌宣布为其Gemini Notebook推出“专家智能”功能，允许用户整合已购电子书等权威来源的见解。",
+    "credibility_score": 6.0,
+    "composite_score": 6.2,
+    "featured": false,
+    "id": 18317
   },
   {
     "title": "Towards a Definition of the Computational Architecture of Open Scholarly Infrastructures",
@@ -11452,51 +11498,5 @@
     "composite_score": 6.0,
     "featured": false,
     "id": 15062
-  },
-  {
-    "title": "Guest Post — The Guild and the Gap: What One Rejection Revealed About the Cost of Credentialism",
-    "abstract": "<p>Today's guest post asks: Do trust markers and other systematic fraud-prevention practices exclude unaffiliated authors from contributing to the scholarly record?</p>\n<p>The post <a href=\"https://scholarlykitchen.sspnet.org/2026/08/14/guest-post-the-guild-and-the-gap-what-one-rejection-revealed-about-the-cost-of-credentialism/\">Guest Post — The Guild and the Gap: What One Rejection Revealed About the Cost of Credentialism</a> appeared first on <a href=\"https://scholarlykitchen.sspnet.org\">The Scholarly Kitchen</a>.</p>",
-    "date": "2026-08-14",
-    "link": "https://scholarlykitchen.sspnet.org/2026/08/14/guest-post-the-guild-and-the-gap-what-one-rejection-revealed-about-the-cost-of-credentialism/",
-    "affiliations": "",
-    "source": "Scholarly Kitchen",
-    "tier": "C",
-    "field": "scholarly_publishing",
-    "content_type": "news",
-    "category": "观点评论",
-    "thinking": "该资讯发布于2026年，具有前瞻性，时效性高。内容探讨学术出版中的信任标记与作者身份问题，与图情领域关注的学术交流、出版公平性高度相关。其核心是观点评论，提供了对行业潜在问题的批判性分析，对从业者有启发价值。",
-    "scores": {
-      "timeliness": 10,
-      "relevance": 9,
-      "information_value": 8
-    },
-    "one_sentence_summary": "一篇客座文章探讨了学术出版中基于资质的信任机制，可能如何将无机构背景的作者排除在外。",
-    "credibility_score": 6.0,
-    "composite_score": 8.4,
-    "featured": true,
-    "id": 15147
-  },
-  {
-    "title": "Characterizing Peace Through Scientific Keywords",
-    "abstract": "arXiv:2608.11478v1 Announce Type: new \nAbstract: This study aims to show that peace, as reflected in scientific research, is not a neutral or uniform concept but is constructed differently across disciplines and geopolitical contexts. To do this, this study analyzes differences in the use of keywords among scholarly publications aligned with SDG 16 across various disciplinary, societal, and national contexts, and identifies which keywords are most strongly associated with countries exhibiting higher versus lower levels of societal peace. Results show that while peace-related research is strongly centered on violence, it is interpreted through distinct lenses: technological and forensic approaches in biomedical and NSE fields, and institutional, legal, and societal perspectives in the social sciences. At the country level, violence remains a central anchor, but its framing varies with levels of peace, with higher-peace countries embedding it within welfare, health, and social systems, and lower-peace countries emphasizing conflict, security, and geopolitics. These results could contribute to shaping both research priorities and science policy initiatives.",
-    "date": "2026-08-13",
-    "link": "https://arxiv.org/abs/2608.11478",
-    "affiliations": "",
-    "source": "arXiv - Digital Libraries",
-    "tier": "C",
-    "field": "digital_libraries",
-    "content_type": "paper",
-    "category": "计量与评价",
-    "thinking": "该论文采用文献计量方法分析SDG 16相关研究中“和平”关键词的学科与国别差异，方法设计清晰，样本基于arXiv数据库，具有一定规模。其核心价值在于揭示了“和平”研究的概念建构差异，对跨学科对话和科学政策制定有启发意义。然而，其技术方法本身（关键词分析）并非前沿，且研究结论较为宏观，对图书馆等机构的直接落地指导性有限。",
-    "scores": {
-      "frontier_tech": 5,
-      "practical_value": 6,
-      "methodological_rigor": 7
-    },
-    "one_sentence_summary": "研究发现，不同学科和国家在科学研究中对“和平”概念的理解和关键词使用存在系统性差异。",
-    "credibility_score": 6.0,
-    "composite_score": 5.2,
-    "featured": false,
-    "id": 14767
   }
 ]
