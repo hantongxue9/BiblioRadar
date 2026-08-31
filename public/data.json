@@ -2737,6 +2737,29 @@
     "id": 18080
   },
   {
+    "title": "Roundup: Honoring the Life and Work of Dolly Parton (Statements, Media Reports, and More From Libraries, Literacy Organizations, & Others)",
+    "abstract": "<p>We plan to update this collection as we discover more statements, posts, and booklists from libraries, literacy organizations and others honoring the life and work of Dolly Parton. Updated: August 30, 2026 10:00 AM &#160; Statement From the Dolly Parton Imagination Library &#160; Libraries California: Richmond Public LibraryRichmond Public Library Thanks Late Dolly Parton for [&#8230;]</p>\n<p>The post <a href=\"https://www.infodocket.com/2026/08/26/roundup-honoring-the-life-and-work-of-dolly-parton-statements-from-libraries-literacy-organizations-and-others/\">Roundup: Honoring the Life and Work of Dolly Parton (Statements, Media Reports, and More From Libraries, Literacy Organizations, &amp; Others)</a> appeared first on <a href=\"https://www.infodocket.com\">Library Journal infoDOCKET</a>.</p>",
+    "date": "2026-08-26",
+    "link": "https://www.infodocket.com/2026/08/26/roundup-honoring-the-life-and-work-of-dolly-parton-statements-from-libraries-literacy-organizations-and-others/",
+    "affiliations": "",
+    "source": "Infodocket",
+    "tier": "C",
+    "field": "library_news",
+    "content_type": "news",
+    "category": "行业动态",
+    "thinking": "该资讯报道了图书馆界对多莉·帕顿的纪念活动，与图书馆的阅读推广和社区服务职能直接相关，具有明确的领域关联性。然而，其内容主要是信息汇总和情感表达，对图情从业者的实际工作决策或行业趋势洞察提供的可操作信息有限。",
+    "scores": {
+      "timeliness": 8,
+      "relevance": 7,
+      "information_value": 5
+    },
+    "one_sentence_summary": "资讯汇总了图书馆及阅读组织对音乐家兼阅读推广人多莉·帕顿的纪念声明与活动。",
+    "credibility_score": 6.0,
+    "composite_score": 6.6,
+    "featured": false,
+    "id": 18547
+  },
+  {
     "title": "Taxonomy-aware distances between scholarly topic profiles via an exact simplex embedding",
     "abstract": "arXiv:2608.22546v1 Announce Type: new \nAbstract: Topic profiles represent publications, authors, and other scholarly entities as probability distributions over a fixed set of topics, but flat total variation treats every pair of distinct pure-topic profiles as maximally separated and therefore ignores taxonomic proximity. From a rooted weighted taxonomy, we derive a cardinality-normalized linear operator that maps the leaf topics to points in the original probability simplex and exactly realizes a normalized lowest-common-ancestor ultrametric under total variation. The operator is doubly stochastic and positive definite; within the class of nonnegative edge-cluster Gram operators, its normalization is uniquely determined on the reduced branching tree. Applying the same invertible operator to arbitrary topic mixtures yields a nondegenerate hierarchy-aware metric that contracts flat total variation, differs from the tree-Wasserstein distance on mixtures, and can be evaluated in O(|V|+L) time and memory without forming the dense matrix. In a frozen OpenAlex taxonomy with 4,516 terminal Topics, raw dissimilarities between Topic texts showed consistent ordinal alignment with taxonomic proximity, while only 3 of 253 calibrated internal nodes required monotonic correction. Encoder choice nevertheless affected individual height estimates. The framework exactly realizes a supplied weighted hierarchy; text is used only to initialize its node heights, and distances between scholarly topic profiles are then computed in the induced geometry.",
     "date": "2026-08-25",
@@ -11475,28 +11498,5 @@
     "composite_score": 6.1,
     "featured": false,
     "id": 15061
-  },
-  {
-    "title": "One prompt is not enough: Instruction Sensitivity Undermines Embedding Model Evaluation",
-    "abstract": "arXiv:2605.22544v2 Announce Type: replace-cross \nAbstract: Instruction embedding models have become common among state-of-the-art models, however are evaluated using a single prompt per task. The single-point evaluation ignores a main problem of the instruction-based approach namely: sensitivity to the phrasing of the instruction. We present an empirical study of prompt sensitivity across 6 embedding models and 11 datasets. We show that reported scores misrepresent the distribution of scores over plausible prompts. The default prompt can both systematically understate or overstate performance. Furthermore, we show that the leaderboard ranking is not robust to prompt selection: a developer improve their rank by favorably selecting prompts, and under adversarial prompt selection any model can be promoted to first place. Our findings suggest that single-prompt evaluation is insufficient for instruction-tuned embedding models and that benchmarks should incorporate prompt robustness, either by evaluating over multiple prompts or by reporting sensitivity alongside point estimates.",
-    "date": "2026-08-14",
-    "link": "https://arxiv.org/abs/2605.22544",
-    "affiliations": "",
-    "source": "arXiv - Information Retrieval",
-    "tier": "C",
-    "field": "information_retrieval",
-    "content_type": "paper",
-    "category": "检索与推荐",
-    "thinking": "该论文通过实证研究揭示了指令嵌入模型评估中单一提示的局限性，方法严谨且样本充足，但技术前沿性因聚焦评估方法而非模型本身而受限，实践价值主要体现在为基准测试提供改进建议。",
-    "scores": {
-      "frontier_tech": 6,
-      "practical_value": 7,
-      "methodological_rigor": 9
-    },
-    "one_sentence_summary": "研究发现，仅用单一提示评估指令嵌入模型会因指令措辞敏感性导致结果失真，甚至影响模型排名。",
-    "credibility_score": 6.0,
-    "composite_score": 6.0,
-    "featured": false,
-    "id": 15062
   }
 ]

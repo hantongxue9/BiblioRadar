@@ -1,18 +1,19 @@
 [
   {
-    "date": "2026-08-30",
-    "summary": "今日图情领域的研究焦点高度集中于人工智能技术的深度应用与评估。核心趋势体现在两个方面：一是AI工具在学术与专业实践中的采纳效果与潜在影响受到实证检验，例如大语言模型对学术写作引用模式的影响、AI助手对用户技能发展的长期效应，以及生成式AI的隐私策略选择。二是面向特定领域的智能信息处理技术持续深化，出现了针对医学、地理空间、法律等垂直领域的专用模型与方法，旨在解决复杂场景下的信息检索、推理与决策问题。这些进展共同指向图情领域正从技术引入转向效果评估与精准化应用的新阶段。",
+    "date": "2026-08-31",
+    "summary": "今日图情领域的研究呈现出两个鲜明趋势。一方面，学术计量与评价方法持续深化，研究重点从传统的文献计量转向对科研范式动态演变、作者贡献公平分配以及新兴技术（如大语言模型）对科研影响力影响的精细化测量。另一方面，人工智能应用研究全面渗透至信息服务的各个核心环节，包括知识追踪、内容分析（如谣言检测、视频说服性解码）、信息检索与推荐（如缓解群体推荐中的从众偏差），以及面向图书馆等具体场景的智能问答系统开发。这些研究普遍强调多模态信息处理、知识引导以及提升模型的可解释性与可靠性。",
     "highlights": [
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜一项实证研究，揭示了使用大语言模型写作如何影响学术论文的引用表现，为理解AI对学术传播的影响提供了证据。",
-      "论文｜More vs. less cognitive offloading from ai assistants: impacts on novices’ collaborative performance and skill development｜研究探讨了AI助手提供不同程度认知辅助时，对新手的协作表现与长期技能发展的复杂影响，具有重要的实践启示。",
-      "动态｜RevMed: A Two-Stage Reverse Dictionary Model for Medical Domain｜构建了一个能根据描述生成准确医学术语的模型，提升了医学信息检索的智能化与准确性。",
-      "动态｜PostGISer: The first end-to-end fine-tuned large language model for PostGIS GeoSQL query generation｜开发了首个专门用于生成地理空间数据库查询的微调大模型，是领域专用AI的重要进展。",
-      "趋势判断｜AI应用正从通用技术引入转向垂直领域深化与效果评估｜今日研究显示，AI在图情领域的应用正聚焦于医学、法律、地理信息等垂直场景，并开始系统评估其对用户行为与学术产出的长期影响。"
+      "论文｜A semantic geometry for uncovering paradigm dynamics via scientific publications｜提出通过分析文献语义变化追踪学科范式演变的新方法，为理解科学知识演化提供了新视角。",
+      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于大规模数据分析，揭示了在特定学科中，大语言模型辅助写作与论文影响力（被引）的正相关性。",
+      "动态｜Developing a multimodal library intelligent Q&A chatbot using retrieval-augmented generation (RAG) technology｜展示了RAG技术在图书馆智能问答场景下的具体应用，关注服务实践中的准确性与可解释性。",
+      "动态｜Official or Influencer? An AI-Enhanced Analytical Framework for Decoding Multimodal Persuasion in Government Marketing Videos｜构建多模态AI分析框架，用于解析政府宣传视频的说服机制，体现了信息分析技术在社会治理中的应用潜力。",
+      "动态｜Combating mental health misinformation on social media: A knowledge-guided multimodal framework｜提出结合知识图谱的多模态框架对抗社交媒体错误信息，是信息治理领域的重要技术探索。",
+      "趋势判断｜AI应用研究正从通用能力测试转向面向信息组织、分析与服务具体场景的深度优化与集成。"
     ],
     "stats": {
-      "papers": 141,
-      "news": 121,
-      "featured": 66
+      "papers": 150,
+      "news": 124,
+      "featured": 57
     }
   },
   {
