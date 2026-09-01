@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-09-01",
+    "summary": "今日图情领域的研究呈现出以人工智能技术深度融入为核心的趋势，尤其在学术评价、知识组织与用户服务方面涌现出创新性探索。在学术评价领域，多篇论文聚焦于大语言模型对学术写作与引文影响的研究，揭示了AI工具使用与学术影响力之间可能存在的复杂关联，并提出了新的统计模型以处理引用数据中的极端分布问题，同时强调科学知识图谱研究的可重复性。在应用层面，基于知识图谱、多模态学习和检索增强生成（RAG）的技术被广泛应用于推荐系统、医学信息检索、图书馆智能问答及政府信息传播分析，显示出AI正从通用工具向专业化、场景化解决方案演进。此外，对在线社区动态和匿名数据风险评估的研究，体现了对用户行为和数据伦理的持续关注。",
+    "highlights": [
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜通过实证研究揭示了在学术写作中采用大语言模型与论文引文表现之间的关联，对理解AI如何影响学术传播与评价体系具有重要价值。",
+      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出一种创新的贝叶斯统计模型，能更精准地分析和预测具有大量零引用和极端高引用的学术论文影响力，是文献计量学方法学的重要进展。",
+      "动态｜Developing a multimodal library intelligent Q&A chatbot using retrieval-augmented generation (RAG) technology｜展示了RAG技术在图书馆智能参考咨询服务中的具体应用，为提升服务效率与知识获取质量提供了实践案例。",
+      "动态｜Semantification of scientific articles using knowledge graphs｜探讨了利用知识图谱为科学文献添加语义标签的方法，代表了知识组织领域向增强机器可读性与智能检索方向发展的前沿实践。",
+      "趋势判断｜AI应用正从通用辅助工具向深度融合于特定图情场景（如学术评价、知识组织、精准服务）的专业化解决方案演进｜今日多篇论文和动态均显示，AI技术正被系统地应用于解决图情领域的具体、复杂问题，标志着应用阶段进入深水区。"
+    ],
+    "stats": {
+      "papers": 151,
+      "news": 126,
+      "featured": 71
+    }
+  },
+  {
     "date": "2026-08-31",
     "summary": "今日图情领域的研究呈现出两个鲜明趋势。一方面，学术计量与评价方法持续深化，研究重点从传统的文献计量转向对科研范式动态演变、作者贡献公平分配以及新兴技术（如大语言模型）对科研影响力影响的精细化测量。另一方面，人工智能应用研究全面渗透至信息服务的各个核心环节，包括知识追踪、内容分析（如谣言检测、视频说服性解码）、信息检索与推荐（如缓解群体推荐中的从众偏差），以及面向图书馆等具体场景的智能问答系统开发。这些研究普遍强调多模态信息处理、知识引导以及提升模型的可解释性与可靠性。",
     "highlights": [
@@ -195,38 +211,6 @@
       "papers": 158,
       "news": 125,
       "featured": 59
-    }
-  },
-  {
-    "date": "2026-08-15",
-    "summary": "今日图情领域的研究与实践呈现出深度融合人工智能与关注学术传播生态的双重焦点。在AI应用方面，研究前沿集中于利用大语言模型及深度学习框架解决特定领域复杂问题，如提升生物医学事件抽取、生成地理空间查询、辅助法律推理及评估生成式AI在文创设计中的效用，并深入探索AI在信息中介与协作学习中的作用机制。同时，学术传播与评价体系研究持续受到关注，具体体现在通过博弈论优化同行评审公平性、分析评审质量与科学影响力的关联，以及探讨超高频被引论文对计量评价的潜在扭曲效应，呼吁构建更稳健的评价框架。行业动态则反映了图书馆界在战略规划与开放获取倡导方面的持续努力。",
-    "highlights": [
-      "论文｜Exploring the impact of super-cited papers on counting methods, counting inflation and university rankings: Evidence from engineering｜揭示了超高频被引论文对引文计量和排名指标的显著影响，对完善科研评价体系具有重要警示意义。",
-      "论文｜Relationship between peer review quality and scientific impact: Insights from LLMs-assessed reviews｜创新性地利用大语言模型量化分析同行评审文本，为理解评审质量与论文长期影响力的关系提供了新证据。",
-      "动态｜#ZeroEmbargo Campaign｜欧洲研究图书馆联盟发起的零时滞开放获取运动，是推动学术出版模式变革的重要行业倡议。",
-      "动态｜Our 2023-2027 Strategy｜欧洲研究图书馆协会发布的新五年战略，为研究型图书馆的数字化转型与发展方向提供了宏观指引。",
-      "趋势判断｜AI在特定垂直领域的深度定制化应用成为关键趋势｜从地理查询生成到法律推理评估，大语言模型正被精细调优以解决图情及相关领域高度专业化的任务。"
-    ],
-    "stats": {
-      "papers": 196,
-      "news": 119,
-      "featured": 55
-    }
-  },
-  {
-    "date": "2026-08-14",
-    "summary": "今日图情领域的研究呈现出对人工智能应用与科学评价机制的双重聚焦。在AI应用方面，研究深入探讨了AI作为信息中介在协作学习、决策支持和信息质量治理中的复杂作用，特别关注其对用户认知过程（如技能发展、创造力）的调节影响，并提出了融合知识图谱、多模态学习等技术的具体框架。在计量与评价方面，研究重点在于改进同行评审、引文分析等传统科学评价方法，以应对颠覆性科学领域（如AI）和数据分布复杂（如零膨胀、重尾）带来的新挑战，并探索地理与认知距离对知识生产的交互影响。此外，数据隐私风险评估与智能匹配等主题也持续受到关注。",
-    "highlights": [
-      "论文｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜该研究运用博弈论构建公平感知的审稿优先级机制，为优化同行评审流程提供了新颖的理论模型与评估方法。",
-      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜该研究提出的贝叶斯统计模型，能更精准地处理引文数据中常见的零值过多与极端高值问题，提升了计量分析的稳健性。",
-      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜研究揭示了AI信息中介与馆员指导在协作学习中的协同效应，强调了用户对信息源权威性认知的关键调节作用。",
-      "动态｜Combating mental health misinformation on social media: A knowledge-guided multimodal framework｜该研究提出融合知识图谱与多模态深度学习的框架，为自动化识别社交媒体健康错误信息提供了技术方案。",
-      "趋势判断｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜研究表明，在人工智能等颠覆性科学领域，同行评审的预测效度会发生显著变化，提示传统评价体系需适应快速变革的研究范式。"
-    ],
-    "stats": {
-      "papers": 194,
-      "news": 119,
-      "featured": 66
     }
   }
 ]
