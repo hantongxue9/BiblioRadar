@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-09-02",
+    "summary": "今日图情领域的研究热点集中于知识增强型人工智能的应用与优化。在信息组织与检索方面，知识图谱与大语言模型的深度融合成为提升推荐、问答和医学等垂直领域任务性能的关键路径，例如通过模式挖掘增强关系表示（PLRA-KG）或利用知识图谱对齐提升医学推理（KG-ACE）。在用户交互与信息可信度层面，研究关注AI拟人化对用户归因与决策行为的影响，并积极探索利用多模态分析、知识引导及大语言模型解耦等技术来更有效地检测和对抗社交媒体上的虚假信息，特别是心理健康领域的错误信息。此外，面对自主AI代理网络等新兴技术生态，平台设计也面临新的挑战。行业实践方面，基于检索增强生成（RAG）的图书馆智能问答系统展现了将前沿技术落地的具体案例。",
+    "highlights": [
+      "论文｜PLRA-KG: Pattern-derived latent relation augmentation for knowledge graph-based recommendations｜通过挖掘知识图谱中的潜在模式来增强关系表示，为知识感知推荐系统提供了新的技术思路。",
+      "论文｜Blame the bot or the human: How do misinformation-generating anthropomorphic AI streamers influence purchase intention?｜揭示了拟人化AI生成错误信息时独特的归因机制，对理解人机交互中的信任与责任分配有重要价值。",
+      "动态｜Developing a multimodal library intelligent Q&A chatbot using retrieval-augmented generation (RAG) technology｜展示了RAG技术在图书馆场景下的具体应用，是提升知识服务智能化水平的务实探索。",
+      "动态｜Our 2023-2027 Strategy｜欧洲研究图书馆协会发布未来五年战略，为全球图书馆界的转型与发展提供了重要的政策参考。",
+      "趋势判断｜自主AI代理网络兴起对平台生态系统设计构成新挑战｜指出AI代理间交互将重塑平台生态，是未来信息服务体系设计需关注的前沿问题。"
+    ],
+    "stats": {
+      "papers": 251,
+      "news": 120,
+      "featured": 69
+    }
+  },
+  {
     "date": "2026-09-01",
     "summary": "今日图情领域的研究呈现出以人工智能技术深度融入为核心的趋势，尤其在学术评价、知识组织与用户服务方面涌现出创新性探索。在学术评价领域，多篇论文聚焦于大语言模型对学术写作与引文影响的研究，揭示了AI工具使用与学术影响力之间可能存在的复杂关联，并提出了新的统计模型以处理引用数据中的极端分布问题，同时强调科学知识图谱研究的可重复性。在应用层面，基于知识图谱、多模态学习和检索增强生成（RAG）的技术被广泛应用于推荐系统、医学信息检索、图书馆智能问答及政府信息传播分析，显示出AI正从通用工具向专业化、场景化解决方案演进。此外，对在线社区动态和匿名数据风险评估的研究，体现了对用户行为和数据伦理的持续关注。",
     "highlights": [
@@ -162,55 +178,6 @@
       "papers": 209,
       "news": 98,
       "featured": 68
-    }
-  },
-  {
-    "date": "2026-08-19",
-    "summary": "今日图情领域的研究焦点集中在提升学术评价的透明度与可复现性，以及深化人工智能在信息处理中的应用。在计量与评价方面，多个研究致力于通过构建标准化数据管道、结合SAAS模式的工作流框架以及利用OpenAlex等新兴数据源，来增强文献计量分析的严谨性和可信度。同时，对同行评审机制在科学快速变革时期的有效性、以及基于CRediT的角色贡献量化分析，为科研评价提供了新的视角。在AI应用方面，研究呈现多元化趋势，涵盖从AI信息中介在协作学习中的作用、自动检测引文错误和保障参考文献完整性，到提升AI生成内容检测的通用性，显示出AI技术正深度融入信息质量保障、内容分析与用户服务等多个核心环节。",
-    "highlights": [
-      "论文｜Biblioshiny and the SAAS Workflow: An integrated framework for transparent and reproducible science mapping｜提出了一个结合软件工具与标准化模式的工作流框架，旨在系统性提升科学知识图谱研究的透明度和可复现性。",
-      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜以人工智能领域为例，实证检验了在科学快速变革时期，传统同行评审对论文未来影响力的预测效力。",
-      "动态｜Our 2023-2027 Strategy｜欧洲研究图书馆协会发布未来五年战略规划，明确了开放科学、数字技能等核心发展方向，反映了行业宏观政策导向。",
-      "动态｜LIBER 2027Save the Date – LIBER Annual Conference 2027｜欧洲研究图书馆协会发布了其2027年度会议预告，是了解国际图情领域前沿动态的重要窗口。",
-      "趋势判断｜AI应用研究呈现多元化与深化趋势｜从信息中介、内容检测到引文核查，AI技术正系统性地应用于提升信息服务质量、保障学术诚信与分析复杂内容。"
-    ],
-    "stats": {
-      "papers": 223,
-      "news": 113,
-      "featured": 56
-    }
-  },
-  {
-    "date": "2026-08-18",
-    "summary": "今日图情领域的研究呈现出对数据科学方法与人工智能技术应用的持续深化。在科学计量与评价方面，研究重点转向处理引文数据中的零值与极端值、分析知识演化路径，并检验同行评审在快速变革领域（如AI）中的预测效力。AI应用研究广泛渗透，涉及学术传播（如引文完整性保障、评审质量分析）、信息服务（如AI中介下的图书馆员角色、群体推荐去偏）以及知识组织（如时序多模态知识图谱推理）。同时，对新兴基础设施（如OpenAlex）的评估与数据隐私风险（如匿名化数据重识别）的关注，反映了领域对研究工具与伦理的审慎思考。总体趋势是方法论更趋精细，并积极探索人机协同的新模式。",
-    "highlights": [
-      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出了处理引文数据中大量零值和极端高值问题的先进贝叶斯模型，提升了计量分析的准确性。",
-      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜以AI领域为例，实证检验了科学快速变革时期同行评审对论文未来影响力的预测能力。",
-      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜揭示了在AI辅助的协作学习中，图书馆员指导与用户对AI的信任感知如何共同影响团队创造力。",
-      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜系统评估了开放学术图谱数据库OpenAlex的现状，为领域研究者选择和使用该数据源提供了关键参考。",
-      "动态｜A classification-based approach to the evaluation of personal identification risk for supposedly anonymous data｜提出了一种量化评估匿名化数据重识别风险的新方法，对数据管理与开放共享中的隐私保护有重要意义。",
-      "趋势判断｜探索人机协同与智能体增强的信息保障机制成为前沿｜从引文完整性核查到团队协作中的AI中介，研究正从工具应用转向设计复杂的人机协同系统与智能体工作流。"
-    ],
-    "stats": {
-      "papers": 203,
-      "news": 120,
-      "featured": 67
-    }
-  },
-  {
-    "date": "2026-08-17",
-    "summary": "今日图情领域的研究呈现出两个主要方向：一是对学术计量与科研过程本身的深入反思与建模，二是人工智能技术在信息处理与分析中的多元化应用。在计量与评价方面，研究焦点已从传统指标转向对复杂数据分布（如零膨胀与厚尾分布）的精确建模、对同行评审在快速变革学科中效力的重新评估，以及对科研数据开放性和基础设施（如OpenAlex）影响的量化分析，这反映了该领域追求更高分析精度与科学严谨性的趋势。在AI应用方面，研究不仅关注模型性能的提升（如事件抽取、位置预测、虚假信息检测），更开始探索人机协同的优化模式（如图书馆员在AI中介环境下的作用）以及AI在特定专业领域（如网络安全招聘分析、恶意流量检测）的落地应用，显示出技术应用场景的不断拓展与深化。",
-    "highlights": [
-      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出新贝叶斯模型，为处理学术引用数据中普遍存在的零值和极端高值提供了更稳健的分析框架。",
-      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜以人工智能领域为例，实证揭示了在快速发展的学科中，传统同行评审对未来论文影响力的预测效力会减弱。",
-      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜研究揭示了在AI辅助的协作学习中，图书馆员指导强度与学生创造力之间存在非线性关系，为人机协同服务设计提供了实证依据。",
-      "动态｜Bridging the skills gap in recruitment: A RAG-based LLM framework for cybersecurity job advertisement analysis｜展示了检索增强生成与大语言模型结合，在解析特定领域（网络安全）招聘需求、弥合技能差距方面的具体应用潜力。",
-      "趋势判断｜计量研究正从描述性统计转向对复杂数据生成机制与因果影响的建模，同时AI应用从通用任务向深度融合领域知识、优化人机协作的专业场景深化。"
-    ],
-    "stats": {
-      "papers": 158,
-      "news": 125,
-      "featured": 59
     }
   }
 ]
