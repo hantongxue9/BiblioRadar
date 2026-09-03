@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-09-03",
+    "summary": "今日图情领域研究呈现出明显的AI驱动特征，尤其在学术信息处理与图书馆服务创新方面。学术传播与评价研究关注同行评审优化与引用行为分析，其中基于博弈论的审稿人分配机制和LLM辅助写作对引用的影响研究值得关注。AI应用研究广泛，核心在于提升模型的可靠性与实用性，包括通过大语言模型改进虚假信息检测的鲁棒性、利用检索增强生成技术构建图书馆智能问答系统，以及探索AI助手对用户技能发展的潜在影响。同时，行业组织如欧洲研究图书馆协会（LIBER）正积极制定中长期战略，明确研究图书馆在开放科学和人工智能时代的角色与价值观，并推动相关实践与交流。",
+    "highlights": [
+      "论文｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜通过博弈论模型为同行评审设计兼顾公平与效率的审稿人分配新机制。",
+      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于百万级论文数据分析，揭示了工程学领域大语言模型辅助写作与论文引用表现的正相关关系。",
+      "动态｜Our 2023-2027 Strategy｜欧洲研究图书馆协会发布未来五年战略规划，为全球研究图书馆在开放科学、数字化转型等方向提供指引。",
+      "动态｜LIBER AI Pulse Webinar Series Continues｜行业权威机构持续举办AI系列研讨会，反映图书馆界对人工智能技术趋势的密切关注与知识更新需求。",
+      "趋势判断｜AI应用从功能实现转向可靠性与影响评估｜研究重点从开发AI工具转向关注模型鲁棒性、可解释性及对用户认知与技能的长期影响。"
+    ],
+    "stats": {
+      "papers": 174,
+      "news": 133,
+      "featured": 64
+    }
+  },
+  {
     "date": "2026-09-02",
     "summary": "今日图情领域的研究热点集中于知识增强型人工智能的应用与优化。在信息组织与检索方面，知识图谱与大语言模型的深度融合成为提升推荐、问答和医学等垂直领域任务性能的关键路径，例如通过模式挖掘增强关系表示（PLRA-KG）或利用知识图谱对齐提升医学推理（KG-ACE）。在用户交互与信息可信度层面，研究关注AI拟人化对用户归因与决策行为的影响，并积极探索利用多模态分析、知识引导及大语言模型解耦等技术来更有效地检测和对抗社交媒体上的虚假信息，特别是心理健康领域的错误信息。此外，面对自主AI代理网络等新兴技术生态，平台设计也面临新的挑战。行业实践方面，基于检索增强生成（RAG）的图书馆智能问答系统展现了将前沿技术落地的具体案例。",
     "highlights": [
@@ -127,57 +143,6 @@
       "papers": 146,
       "news": 102,
       "featured": 72
-    }
-  },
-  {
-    "date": "2026-08-23",
-    "summary": "今日图情领域研究呈现出显著的跨学科与AI深度融合趋势，核心围绕AI在学术与信息环境中的应用、评估与治理。在学术计量方面，研究揭示了研究人员向AI领域转型的国家级差异，并量化了LLM辅助写作与论文影响力的关联。在AI应用层面，研究焦点集中于提升AI系统的可靠性与专业性，例如通过知识图谱增强医学推理、利用多模态框架对抗健康信息错误信息，以及开发基于RAG的图书馆智能问答系统。同时，用户行为研究深入探讨了在线社区意见领袖的动态形成与AI用户的信息核查机制。行业动态则显示出图书馆界对战略规划与文本数据挖掘政策的前瞻性关注。",
-    "highlights": [
-      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于百万级工程学论文的大规模实证分析，为评估AI辅助学术写作的实际影响力提供了关键证据。",
-      "论文｜KG-ACE: Knowledge Graph Alignment and Consistency Enhancement for medical reasoning with large language models｜提出通过增强知识图谱对齐来优化大语言模型的医学推理性能，是提升AI专业领域应用可靠性的重要路径。",
-      "论文｜Determinants of information verification behaviour among generative AI users: an empirical analysis based on SEM and fsQCA｜采用混合方法系统揭示了影响生成式AI用户信息核查行为的复杂因素与组态路径。",
-      "动态｜Our 2023-2027 Strategy｜欧洲研究图书馆协会发布未来五年战略规划，为全球研究图书馆在数字时代的转型与发展提供了重要参照。",
-      "动态｜Text & Data Mining｜欧洲研究图书馆协会针对文本与数据挖掘发布资讯，回应了图书馆在支持数字人文与研究时面临的关键版权与政策挑战。",
-      "趋势｜AI应用研究从功能实现转向质量、可信度与伦理治理的深度探索，知识增强与多模态融合成为提升AI在专业信息场景中效能的关键技术方向。"
-    ],
-    "stats": {
-      "papers": 141,
-      "news": 100,
-      "featured": 60
-    }
-  },
-  {
-    "date": "2026-08-21",
-    "summary": "今日图情领域的研究呈现出对学术评价体系反思与人工智能技术深化应用的双重趋势。在学术计量与评价方面，研究重点聚焦于评价过程的透明化、可审计性，以及对新兴颠覆性科学领域（如人工智能）中传统同行评议效力的重新审视。同时，国家间科研人员向AI领域转型的差异性、署名政策对作者行为的影响等社会维度问题也受到关注。在技术应用层面，人工智能与信息组织的结合更为紧密，研究致力于提升大语言模型的推理准确性与事实性（如通过知识图谱对齐、神经干预方法），并探索其在复杂领域（如法律、医疗）和多模态场景（如文档布局分析、科学文献摘要）下的应用潜力。此外，推荐系统与持续学习框架的优化也是重要方向。",
-    "highlights": [
-      "论文｜Auditable bibliometric analysis: a generic data pipeline for research evaluation｜提出可审计的通用数据处理流程，旨在提升文献计量分析的透明度与可重复性，对规范科研评价实践有重要意义。",
-      "论文｜Unpacking the predictive power of peer review under scientific disruption: Evidence from AI research｜实证检验了在人工智能等颠覆性科学领域，传统同行评审对论文未来影响力的预测能力发生变化。",
-      "动态｜The OpenAlex database in review: Evaluating its applications, capabilities, and limitations｜系统性评估新兴开放学术数据库OpenAlex，为图情领域选择和使用替代性数据源提供了关键参考。",
-      "论文｜KG-ACE: Knowledge Graph Alignment and Consistency Enhancement for medical reasoning with large language models｜通过增强知识图谱对齐与一致性来提升大语言模型的医疗推理能力，是解决模型事实性问题的技术探索。",
-      "论文｜Localize-then-summarize: Enhancing scientific multimodal summarization with facet-aware cross-modal memory｜提出基于方面感知和跨模态记忆的科学图文摘要新方法，推动了多模态信息处理在学术场景的应用。",
-      "趋势判断｜学术评价体系正经历从依赖单一指标向注重过程透明与情境化分析的范式转变，同时AI技术深度融入信息组织与知识服务全链条。"
-    ],
-    "stats": {
-      "papers": 198,
-      "news": 96,
-      "featured": 64
-    }
-  },
-  {
-    "date": "2026-08-20",
-    "summary": "今日图情领域的研究呈现出两大核心趋势。一方面，在科研计量与评价领域，研究正朝着更精细化和过程透明化的方向发展。例如，有研究利用CRediT角色分类深入剖析共同通讯作者的贡献模式，为超越简单作者排序的评价提供了新视角；同时，提升科学图谱分析可重复性的标准化工作流框架也受到关注。另一方面，人工智能应用继续深化，尤其在处理复杂信息任务方面展现出强大的潜力。相关研究聚焦于提升大语言模型的事实准确性、增强对多模态科学文献的理解与摘要能力，以及构建专门框架来分析招聘广告、政府宣传视频等特定领域的文本与多模态信息。此外，关于AI助手如何影响用户协作与技能发展的实证研究，以及减少群体推荐系统从众偏差的新方法，也体现了对技术应用社会影响的深入思考。",
-    "highlights": [
-      "论文｜Distant but bridgeable: how geographic and cognitive distance jointly shape interdisciplinary knowledge production｜揭示了地理距离与认知距离在跨学科知识生产中并非简单的阻碍关系，而是存在互补性，为理解合作网络提供了新视角。",
-      "论文｜A CRediT‐based quantitative study of co‐corresponding authorship: Collaboration patterns and contribution distribution｜利用标准化的CRediT分类体系量化分析共同通讯作者的贡献，推动了科研贡献评价向更精细、更公平的方向发展。",
-      "动态｜Planning over actions: Agentic reasoning for semi-structured table question answering｜提出基于智能体推理的新方法，显著提升了复杂表格问答的准确性与可解释性，是AI在信息检索与分析领域的重要进展。",
-      "动态｜Localize-then-summarize: Enhancing scientific multimodal summarization with facet-aware cross-modal memory｜提出“先定位，后摘要”的新范式，有效提升了包含图表在内的科学文献多模态摘要的质量。",
-      "动态｜More vs. less cognitive offloading from ai assistants: impacts on novices’ collaborative performance and skill development｜实证研究了AI助手提供不同支持程度对新手技能发展的影响，对设计促进学习的智能工具有重要启示。",
-      "趋势判断｜AI应用研究正从通用能力探索转向针对特定领域复杂任务（如科学文献理解、招聘分析、虚假信息对抗）的深度框架构建与效果验证。"
-    ],
-    "stats": {
-      "papers": 209,
-      "news": 98,
-      "featured": 68
     }
   }
 ]
