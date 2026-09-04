@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-09-04",
+    "summary": "今日图情领域的研究与实践持续围绕人工智能技术的深度应用与学术评价体系的优化展开。在AI应用方面，焦点从基础工具开发转向效果评估与流程融合，具体表现为：大语言模型在学术写作、引文错误检测、图书馆智能问答及多模态信息分析等场景中的效能得到实证研究；同时，AI与专业馆员指导的结合被证实能提升信息服务的创意产出。在学术评价与知识组织领域，研究重点在于通过更先进的统计模型（如贝叶斯分位数回归）处理引文数据的复杂性，并致力于构建透明、可复现的科学知识图谱分析框架。此外，利用博弈论优化同行评审公平性与效率的机制设计，以及欧洲图书馆界对版权与文本数据挖掘政策的持续关注，共同反映了本领域对学术生态治理与法律合规性的重视。",
+    "highlights": [
+      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的实证分析，揭示了AI辅助写作与引用影响力提升之间的潜在关联。",
+      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出了一种能更精确拟合引文分布复杂特征的贝叶斯模型，为文献计量分析提供了新方法。",
+      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜探讨了在AI信息中介过程中，馆员指导强度与用户认知如何协同影响团队创造力。",
+      "动态｜Copyright Reform｜欧洲研究图书馆协会发布版权改革动态，关乎图书馆数字资源服务与保存的法律基础。",
+      "动态｜Text & Data Mining｜欧洲研究图书馆联盟关注文本与数据挖掘政策，涉及图书馆支持 computational research 的关键能力。",
+      "趋势判断｜学术评价与知识服务正从单一指标或工具应用，转向构建融合AI技术、专业干预与可解释模型的综合治理框架。"
+    ],
+    "stats": {
+      "papers": 184,
+      "news": 131,
+      "featured": 62
+    }
+  },
+  {
     "date": "2026-09-03",
     "summary": "今日图情领域研究呈现出明显的AI驱动特征，尤其在学术信息处理与图书馆服务创新方面。学术传播与评价研究关注同行评审优化与引用行为分析，其中基于博弈论的审稿人分配机制和LLM辅助写作对引用的影响研究值得关注。AI应用研究广泛，核心在于提升模型的可靠性与实用性，包括通过大语言模型改进虚假信息检测的鲁棒性、利用检索增强生成技术构建图书馆智能问答系统，以及探索AI助手对用户技能发展的潜在影响。同时，行业组织如欧洲研究图书馆协会（LIBER）正积极制定中长期战略，明确研究图书馆在开放科学和人工智能时代的角色与价值观，并推动相关实践与交流。",
     "highlights": [
@@ -127,22 +144,6 @@
       "papers": 191,
       "news": 130,
       "featured": 64
-    }
-  },
-  {
-    "date": "2026-08-24",
-    "summary": "今日图情领域的研究呈现出明显的交叉融合与技术驱动特征。核心议题围绕学术评价与传播体系的优化、人工智能在信息处理中的深度应用展开。在学术评价方面，研究不仅关注合作网络动态、跨学科知识生产的复杂机制等传统计量主题，更致力于通过博弈论模型和集成化软件框架提升同行评审的公平性与科学知识图谱绘制的可重复性。人工智能应用是绝对热点，尤其在学术文本处理领域，大语言模型对写作与引用的影响、针对复杂信息抽取（如生物医学事件、图表题注）的模型创新、以及保障引用完整性和应对模型幻觉的新方法成为关注焦点。此外，面向特定场景（如在线社区、初创企业匹配、政府视频）的用户行为分析与多模态智能分析也展现出应用潜力。",
-    "highlights": [
-      "论文｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜通过博弈论构建的公平优先审稿人分配机制，为优化同行评审流程提供了严谨的计算模型。",
-      "论文｜Distant but bridgeable: how geographic and cognitive distance jointly shape interdisciplinary knowledge production｜揭示了地理与认知距离在跨学科合作中的复杂交互作用，深化了对科研合作机制的理解。",
-      "动态｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超大规模数据的实证研究发现，大语言模型辅助写作可能与工程学论文的引用表现存在关联。",
-      "动态｜Privacy-preserving RAG via multi-agent semantic rewriting: Achieving confidentiality without compromising contextual fidelity｜提出一种多智能体语义重写方案，为在检索增强生成中平衡隐私保护与信息保真度提供了新思路。",
-      "趋势判断｜AI应用正从通用任务向保障学术诚信、处理复杂文献结构等专业化、深层次场景加速渗透。"
-    ],
-    "stats": {
-      "papers": 146,
-      "news": 102,
-      "featured": 72
     }
   }
 ]
