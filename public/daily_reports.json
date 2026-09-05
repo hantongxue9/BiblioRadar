@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-09-05",
+    "summary": "今日图情领域的研究呈现出以人工智能应用为核心、并持续关注评价体系与用户行为的多元化趋势。在AI应用方面，研究重点从通用任务转向更具挑战性的垂直领域（如医疗推理、虚假信息检测）和复杂任务（如表格问答、会话推荐），并强调通过知识增强（如知识图谱）、新方法（如扩散模型、智能体规划）来提升模型的准确性、公平性和可解释性。同时，对生成式AI影响的研究深入至用户技能发展机制与信息验证行为，体现了从技术效能到社会影响的视角拓展。在计量与评价领域，研究关注超高被引论文对排名的影响及科学知识图谱方法的可复现性，反映了对评价方法科学性和透明度的持续追求。知识组织与语义化技术继续为提升学术资源发现与利用效率提供支持。",
+    "highlights": [
+      "论文｜KG-ACE: Knowledge Graph Alignment and Consistency Enhancement for medical reasoning with large language models｜提出通过增强知识图谱对齐来提升大语言模型在专业领域的推理可靠性，是AI与领域知识深度融合的代表性工作。",
+      "论文｜Determinants of information verification behaviour among generative AI users｜采用混合研究方法系统揭示了生成式AI用户信息验证行为的影响因素，对信息素养教育具有直接指导意义。",
+      "动态｜PAIRE: A testbed for measuring dataset diversity and model fairness under limited sensitive information｜推出了一个评估AI模型公平性的新测试平台，回应了图情领域对算法伦理与负责任AI的关切。",
+      "动态｜Biblioshiny and the SAAS Workflow: An integrated framework for transparent and reproducible science mapping｜为科学知识图谱研究提供了提升透明度和可复现性的方法论框架，有助于规范该领域的研究实践。",
+      "趋势判断｜AI应用研究正从通用任务向垂直领域与复杂场景深化，并更加强调与领域知识结合、提升可解释性及关注社会影响。"
+    ],
+    "stats": {
+      "papers": 166,
+      "news": 135,
+      "featured": 74
+    }
+  },
+  {
     "date": "2026-09-04",
     "summary": "今日图情领域的研究与实践持续围绕人工智能技术的深度应用与学术评价体系的优化展开。在AI应用方面，焦点从基础工具开发转向效果评估与流程融合，具体表现为：大语言模型在学术写作、引文错误检测、图书馆智能问答及多模态信息分析等场景中的效能得到实证研究；同时，AI与专业馆员指导的结合被证实能提升信息服务的创意产出。在学术评价与知识组织领域，研究重点在于通过更先进的统计模型（如贝叶斯分位数回归）处理引文数据的复杂性，并致力于构建透明、可复现的科学知识图谱分析框架。此外，利用博弈论优化同行评审公平性与效率的机制设计，以及欧洲图书馆界对版权与文本数据挖掘政策的持续关注，共同反映了本领域对学术生态治理与法律合规性的重视。",
     "highlights": [
