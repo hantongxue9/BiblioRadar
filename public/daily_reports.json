@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-09-10",
+    "summary": "今日图情领域的研究焦点高度集中于人工智能，特别是大语言模型在学术生产与信息服务中的应用及其影响。核心发现包括：AI工具（如LLM辅助写作）与学术论文的引用表现存在关联性；在AI辅助的协作场景中，图书馆员的适度引导对创意产出至关重要；针对特定领域（如低资源金融）的多语言模型评估成为新的应用探索方向。同时，用户行为研究深入在线社区动态与AI交互的信任机制，数据管理领域则关注匿名化数据的重识别风险评估。整体趋势表明，AI与图情业务的融合正从工具应用深化至对学术生态、信息服务模式及用户认知的复杂影响评估。",
+    "highlights": [
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜揭示了AI工具在学术写作中的采用模式与论文引用表现之间的关联，对理解AI如何塑造学术可见性具有重要价值。",
+      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜明确了在AI中介的信息服务中，图书馆员指导强度与用户对AI权威认知共同影响团队创意，为设计人机协同服务提供了实证依据。",
+      "动态｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于百万级工程学论文的大规模分析，为AI辅助写作的学术影响力提供了有力的经验证据。",
+      "动态｜Developing a multimodal library intelligent Q&A chatbot using retrieval-augmented generation (RAG) technology｜展示了利用检索增强生成技术构建图书馆多模态智能问答系统的具体实践，代表了当前智慧图书馆服务的前沿探索。",
+      "趋势判断｜AI与图情业务的融合正从工具应用深化至对学术生态、信息服务模式及用户认知的复杂影响评估。"
+    ],
+    "stats": {
+      "papers": 241,
+      "news": 122,
+      "featured": 62
+    }
+  },
+  {
     "date": "2026-09-09",
     "summary": "今日图情领域的研究呈现出以人工智能应用为主导、深度融合信息计量与知识组织方法的鲜明特点。在AI应用方面，研究重点从通用能力评估转向特定场景的效能优化与公平性考量，例如探讨大语言模型在学术写作中的采纳模式及其对引用的影响、图书馆员在AI辅助信息检索中的干预作用，以及针对低资源金融、医疗物联网等领域的模型适应性改进。知识组织与计量研究则更注重动态演化过程的揭示与量化，通过语义几何、主题轨迹等方法分析科学范式与知识结构的变迁，并开始系统评估高影响力成果（如超被引论文、科学奖项）对现有评价体系的潜在影响。用户行为研究则借助动态网络分析等工具，深入在线社区探究意见领袖的形成机制。整体而言，领域研究正朝着场景深化、过程动态化与评估精细化方向发展。",
     "highlights": [
@@ -146,54 +162,6 @@
       "papers": 150,
       "news": 124,
       "featured": 57
-    }
-  },
-  {
-    "date": "2026-08-28",
-    "summary": "今日图情领域的研究焦点高度集中于人工智能技术的深度应用与优化，尤其是在处理信息检索、内容分析与知识服务中的复杂问题。研究趋势表明，大语言模型（LLM）的提示工程、检索增强生成（RAG）以及多模态分析框架已成为主流工具，被广泛应用于学术文献挖掘、虚假信息检测、隐私保护及专业技能匹配等场景。同时，针对AI应用中的具体挑战，如引文数据分布的建模、群体推荐中的从众偏差、以及模型生成内容的真实性（幻觉）问题，涌现出一系列创新的算法与模型解决方案。这些进展共同指向一个更智能、更精准且更负责任的信息处理与服务范式。",
-    "highlights": [
-      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜为引文计量分析提供了处理零膨胀与极端值问题的先进统计模型，提升了评估的稳健性。",
-      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜揭示了在AI环境中，图书馆员专业干预对团队创造力的影响机制，对设计人机协同服务具有重要启示。",
-      "动态｜Assessing and comparing document OCR systems in the era of Large Language Models｜探讨了LLM技术背景下OCR系统评估的新范式，对数字化工作流程优化有直接参考价值。",
-      "动态｜Bridging the skills gap in recruitment: A RAG-based LLM framework for cybersecurity job advertisement analysis｜展示了RAG与LLM结合在职业信息分析与技能需求洞察中的实际应用潜力。",
-      "趋势判断｜大语言模型引导的多模态分析与隐私保护策略成为AI在图情领域应用的核心技术路径｜多项研究均围绕LLM增强的多模态框架和隐私感知的RAG系统展开，标志着技术融合与伦理考量并重的发展方向。"
-    ],
-    "stats": {
-      "papers": 198,
-      "news": 130,
-      "featured": 67
-    }
-  },
-  {
-    "date": "2026-08-27",
-    "summary": "今日图情领域的研究焦点高度集中于人工智能的深度应用与量化评估方法的创新。在AI应用方面，研究从具体场景切入，探讨了AI在信息中介、内容分析（如讽刺检测、事件抽取）、知识追踪及资源分配决策支持中的模型优化与交互影响，尤其关注人机协同（如馆员指导、AI权威感知）对协作效果的作用机制。在计量与评价领域，针对引文数据零值过多、极端值分布等经典难题，以及国家层面科研转型差异的分析，出现了更为精细化的贝叶斯统计模型和两阶段分析框架。同时，数据隐私风险评估、学术评审公平性机制等议题也持续受到关注，体现了领域对技术伦理与流程优化的双重关切。",
-    "highlights": [
-      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出一种能更准确处理引文数据中常见零值与极端值分布问题的贝叶斯统计模型。",
-      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜揭示了在AI辅助的协作中，馆员指导强度与AI权威性感知如何共同影响团队创意产出。",
-      "动态｜Revealing country-level disparities in researchers’ transition to artificial intelligence: A two-stage analytical framework｜构建分析框架，揭示了全球科研人员向AI领域转型的速度与模式存在显著的国家级差异。",
-      "动态｜A classification-based approach to the evaluation of personal identification risk for supposedly anonymous data｜提出一种基于分类的方法，用于评估匿名化数据在实际应用中的个人身份再识别风险。",
-      "趋势判断｜AI应用研究正从模型性能优化转向关注具体场景下的人机协同机制与伦理平衡。"
-    ],
-    "stats": {
-      "papers": 191,
-      "news": 120,
-      "featured": 69
-    }
-  },
-  {
-    "date": "2026-08-26",
-    "summary": "今日图情领域的研究焦点高度集中于人工智能技术的应用、影响与治理。一方面，AI在信息处理与知识服务中的渗透不断加深，具体体现在信息抽取、跨模态检索、智能问答系统的技术优化，以及AI辅助写作对科研产出的影响评估上。另一方面，研究开始深入探讨AI应用的复杂社会效应，包括用户对AI的归因模式、AI辅助对技能发展的潜在影响，以及算法偏见的来源与应对策略，凸显了从技术效能向人机协同与社会责任延伸的趋势。此外，科研评价的计量方法反思与图书馆行业的战略规划，共同指向了图情领域在技术浪潮中需坚守的专业价值与伦理考量。",
-    "highlights": [
-      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于百万级论文的实证分析，揭示了AI辅助写作与引文影响力之间的关联，为理解AI对科研产出的影响提供了定量证据。",
-      "论文｜More vs. less cognitive offloading from ai assistants: impacts on novices’ collaborative performance and skill development｜探讨了AI助手认知卸载程度对用户协作效能与长期技能发展的差异化影响，对设计促进能力成长的智能系统具有启示。",
-      "动态｜Artificial intelligence algorithm bias in information retrieval systems and its implication for library and information science professionals: A scoping review｜综述了信息检索系统中的算法偏见问题，并系统阐述了图书馆情报专业人员的关键应对角色与路径。",
-      "动态｜Developing a multimodal library intelligent Q&A chatbot using retrieval-augmented generation (RAG) technology｜展示了RAG技术在图书馆智能问答场景中的应用实践，是AI赋能传统知识服务的典型探索。",
-      "趋势判断｜Integrating AI literacy into library and information science education and practice: a human-centered approach｜提出了一个分阶段、以人为本的AI素养框架，指明了图情专业教育与实践中培养复合型人才的核心方向。"
-    ],
-    "stats": {
-      "papers": 252,
-      "news": 123,
-      "featured": 67
     }
   }
 ]
