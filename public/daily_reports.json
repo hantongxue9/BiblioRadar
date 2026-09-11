@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-09-11",
+    "summary": "今日图情领域的研究焦点高度集中于人工智能，特别是大语言模型在学术生产与评价中的影响与应用。核心议题包括：AI辅助写作对学术成果可见度与引用表现的系统性影响，以及如何构建更透明、可复现的知识计量与图谱分析流程。在应用层面，研究进一步探索了AI在提升同行评审公平性、增强图书馆智能服务、以及支持跨文化理解与教育创新等方面的潜力。整体呈现出计量研究深度融入AI分析、应用场景向专业化领域纵深发展的趋势。",
+    "highlights": [
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证研究揭示了在学术写作中采用大语言模型与论文引用表现之间的关联，为理解AI如何重塑学术影响力提供了关键证据。",
+      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出了一种先进的贝叶斯统计模型，能够更精确地处理引文数据中普遍存在的零值过多与长尾分布问题。",
+      "动态｜Developing a multimodal library intelligent Q&A chatbot using retrieval-augmented generation (RAG) technology｜展示了利用检索增强生成技术构建图书馆智能问答系统的具体路径，是AI赋能信息服务的实践案例。",
+      "动态｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜将博弈论模型引入同行评审流程优化，为解决审稿效率与公平性这一经典难题提供了新思路。",
+      "趋势判断｜AI应用从通用任务向专业领域（如生物医学事件抽取、博物馆文创设计）深度渗透，并与领域知识及工作流（如科学知识图谱分析）紧密结合。"
+    ],
+    "stats": {
+      "papers": 155,
+      "news": 115,
+      "featured": 69
+    }
+  },
+  {
     "date": "2026-09-10",
     "summary": "今日图情领域的研究焦点高度集中于人工智能，特别是大语言模型在学术生产与信息服务中的应用及其影响。核心发现包括：AI工具（如LLM辅助写作）与学术论文的引用表现存在关联性；在AI辅助的协作场景中，图书馆员的适度引导对创意产出至关重要；针对特定领域（如低资源金融）的多语言模型评估成为新的应用探索方向。同时，用户行为研究深入在线社区动态与AI交互的信任机制，数据管理领域则关注匿名化数据的重识别风险评估。整体趋势表明，AI与图情业务的融合正从工具应用深化至对学术生态、信息服务模式及用户认知的复杂影响评估。",
     "highlights": [
@@ -145,23 +161,6 @@
       "papers": 151,
       "news": 126,
       "featured": 71
-    }
-  },
-  {
-    "date": "2026-08-31",
-    "summary": "今日图情领域的研究呈现出两个鲜明趋势。一方面，学术计量与评价方法持续深化，研究重点从传统的文献计量转向对科研范式动态演变、作者贡献公平分配以及新兴技术（如大语言模型）对科研影响力影响的精细化测量。另一方面，人工智能应用研究全面渗透至信息服务的各个核心环节，包括知识追踪、内容分析（如谣言检测、视频说服性解码）、信息检索与推荐（如缓解群体推荐中的从众偏差），以及面向图书馆等具体场景的智能问答系统开发。这些研究普遍强调多模态信息处理、知识引导以及提升模型的可解释性与可靠性。",
-    "highlights": [
-      "论文｜A semantic geometry for uncovering paradigm dynamics via scientific publications｜提出通过分析文献语义变化追踪学科范式演变的新方法，为理解科学知识演化提供了新视角。",
-      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于大规模数据分析，揭示了在特定学科中，大语言模型辅助写作与论文影响力（被引）的正相关性。",
-      "动态｜Developing a multimodal library intelligent Q&A chatbot using retrieval-augmented generation (RAG) technology｜展示了RAG技术在图书馆智能问答场景下的具体应用，关注服务实践中的准确性与可解释性。",
-      "动态｜Official or Influencer? An AI-Enhanced Analytical Framework for Decoding Multimodal Persuasion in Government Marketing Videos｜构建多模态AI分析框架，用于解析政府宣传视频的说服机制，体现了信息分析技术在社会治理中的应用潜力。",
-      "动态｜Combating mental health misinformation on social media: A knowledge-guided multimodal framework｜提出结合知识图谱的多模态框架对抗社交媒体错误信息，是信息治理领域的重要技术探索。",
-      "趋势判断｜AI应用研究正从通用能力测试转向面向信息组织、分析与服务具体场景的深度优化与集成。"
-    ],
-    "stats": {
-      "papers": 150,
-      "news": 124,
-      "featured": 57
     }
   }
 ]
