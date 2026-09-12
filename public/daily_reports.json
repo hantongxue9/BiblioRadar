@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-09-12",
+    "summary": "今日图情领域研究呈现出两大核心趋势：一是数据管理向精细化与伦理化发展，重点聚焦于网络档案等复杂数据集的高质量文档化框架构建，以及对匿名数据再识别风险的量化评估方法；二是人工智能应用持续深化，尤其在学术传播、医疗推理及信息治理等关键场景。多篇研究揭示了AI工具（如大语言模型）在学术写作中的采纳模式及其对引文公平性的潜在影响，同时，通过结合知识图谱、联邦学习等技术，旨在提升AI在专业领域（如医疗）的可靠性、一致性及对错误信息的识别能力。整体上，研究正从技术应用转向对技术应用后果、数据治理伦理及跨领域融合效能的深度审视。",
+    "highlights": [
+      "论文｜Critical questions for documenting collections as data: Provocations from developing datasheets for web archives datasets｜为网络档案数据集构建了一套系统化的数据表文档框架，是提升复杂研究数据可发现性与可重用性的重要实践。",
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证分析了学者使用大语言模型对其论文被引情况的影响，揭示了AI工具可能加剧学术传播不平等的关键议题。",
+      "动态｜KG-ACE: Knowledge Graph Alignment and Consistency Enhancement for medical reasoning with large language models｜提出结合知识图谱与大语言模型的方法，是提升AI在医疗等高可靠性领域推理准确性的重要技术路径。",
+      "动态｜A classification-based approach to the evaluation of personal identification risk for supposedly anonymous data｜提供了一种量化评估匿名数据再识别风险的方法，对数据发布与隐私保护实践具有指导意义。",
+      "趋势判断｜AI应用从效率提升转向可靠性、公平性与伦理治理的深度整合｜今日研究显示，图情领域的AI应用正更多地关注模型偏差、数据隐私、信息真实性及跨领域知识融合等深层挑战。"
+    ],
+    "stats": {
+      "papers": 171,
+      "news": 118,
+      "featured": 63
+    }
+  },
+  {
     "date": "2026-09-11",
     "summary": "今日图情领域的研究焦点高度集中于人工智能，特别是大语言模型在学术生产与评价中的影响与应用。核心议题包括：AI辅助写作对学术成果可见度与引用表现的系统性影响，以及如何构建更透明、可复现的知识计量与图谱分析流程。在应用层面，研究进一步探索了AI在提升同行评审公平性、增强图书馆智能服务、以及支持跨文化理解与教育创新等方面的潜力。整体呈现出计量研究深度融入AI分析、应用场景向专业化领域纵深发展的趋势。",
     "highlights": [
