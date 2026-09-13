@@ -46,6 +46,29 @@
     "id": 20020
   },
   {
+    "title": "ВИШЕ ОД ПРОНАЛАЖЕЊА ИНФОРМАЦИЈА: КОРИСНИЦИ И УСЛУГЕ ОДЕЉЕЊА ЗА НАУЧНЕ ИНФОРМАЦИЈЕ НАРОДНЕ БИБЛИОТЕКЕ СРБИЈЕ",
+    "abstract": "Summary In 2001, the Department of Scientific Information of the National Library of Serbia initiated the establishment of KoBSON (Consortium of Libraries of Serbia for Unified Acquisition), intending to optimize the acquisition of foreign scientific information, transitioning from print to electronic publications, improving access to electronic resources, and promoting domestic scientific publishing. Today, 25 years after KoBSON’s founding, the Department’s activities remain focused on achieving and advancing these original goals. This paper provides an overview of their realization through a presentation of the most frequently used services that the Department offers to researchers in Serbia. Additionally, the paper describes the collaboration in providing assistance and support to scientific publishing in Serbia.",
+    "date": "2026-12-12",
+    "link": "https://doi.org/https://doi.org/10.5281/zenodo.22636656",
+    "affiliations": "Katarina Perić",
+    "source": "OpenAlex - LIS",
+    "tier": "C",
+    "field": "information_science",
+    "content_type": "paper",
+    "category": "数字图书馆",
+    "thinking": "该论文回顾了塞尔维亚国家图书馆科学信息部通过KoBSON联盟在优化外文科学信息获取、促进电子资源访问和本土科学出版方面的长期实践。研究基于25年的服务经验总结，业务落地价值显著，但技术前沿性和研究方法严谨性相对有限，属于典型的实践复盘型研究。",
+    "scores": {
+      "frontier_tech": 3,
+      "practical_value": 9,
+      "methodological_rigor": 6
+    },
+    "one_sentence_summary": "论文总结了塞尔维亚国家图书馆通过KoBSON联盟在优化外文资源获取和促进本土科学出版方面长达25年的服务实践与成效。",
+    "credibility_score": 6.2,
+    "composite_score": 5.9,
+    "featured": false,
+    "id": 21547
+  },
+  {
     "title": "Auf dem Weg zu einer niedersachsenweit getragenen Diamond-Open-Access-Publikationsinfrastruktur. Bericht des Vorprojekts NiedersachsenPUBLISHING",
     "abstract": "Mit NiedersachsenPUBLISHING soll Wissenschaftler*innen eine verteilte technische Infrastruktur zur Veröffentlichung ihrer Diamond-Open-Access-Publikationen sowie darauf abgestimmte Beratungsdienstleistungen zur Verfügung gestellt werden. Initiatoren und Träger dieser Publikationsinfrastruktur sind die 23 wissenschaftlichen Bibliotheken des Landes Niedersachsen, die mit dem Angebot einer Marke für das Diamond-Open-Access-Publizieren die Verbreitung kostenfreier, wissenschaftsgeleiteter Veröffentlichungen ermöglichen wollen.Im Rahmen des Vorprojekts NiedersachsenPUBLISHING (Laufzeit: August 2025 bis September 2026) wurden Grundlagen für den Aufbau der Diamond-Open-Access- Publikationsinfrastruktur untersucht und Empfehlungen für deren Ausgestaltung erarbeitet. Daneben wurden technische, rechtliche und organisatorische Voraussetzungen an den niedersächsischen Bibliotheken erhoben, mögliche nationale und internationale Kooperationspartnerschaften und Synergieeffekte ausgelotet sowie die Bedarfe von Wissenschaftler*innen und akzeptanzfördernde Maßnahmen für Diamond Open Access ermittelt.Im vorliegenden Bericht werden ausgewählte Erkenntnisse der durchgeführten Erhebungen, Gespräche und Analysen (Literatur-Review, Fokusgruppen-Interviews, Umfeldanalyse, Gespräche zu Synergien und Anschlussfähigkeit sowie Erhebung von Metadaten-Standards) vorgestellt. Diese werden im Sinne einer Ergebnis-Triangulation sowie unter Hinzunahme weiterer Quellen zu Themenkomplexen zusammengeführt und mit Blick auf daraus resultierende Kernanforderungen an eine Diamond-Open Access-Publikationsinfrastruktur zusammengefasst. Das Vorprojekt NiedersachsenPUBLISHING wird im Rahmen von zukunft.niedersachsen gefördert, einem Förderprogramm der VolkswagenStiftung und dem Niedersächsischen Ministerium für Wissenschaft und Kultur Niedersachsen (MWK), und ist eingebunden in die Dachinitiative Hochschule.digital Niedersachsen.",
     "date": "2026-09-28",
@@ -90,6 +113,29 @@
     "composite_score": 7.4,
     "featured": false,
     "id": 21041
+  },
+  {
+    "title": "Investigating International Academic Librarian Attitudes on Copyright Reform in Support of Open Access (New Journal Article)",
+    "abstract": "<p>The article linked below was recently published College &#38; Research Libraries (C&#38;RL). Title Investigating International Academic Librarian Attitudes on Copyright Reform in Support of Open AccessInvestigating International Academic Librarian Attitudes on Copyright Reform in Support of Open Access Authors Stephanie Savage University of British Columbia John Willinsky Public Knowledge Project, Simon Fraser Univeristy Source College [&#8230;]</p>\n<p>The post <a href=\"https://www.infodocket.com/2026/09/12/investigating-international-academic-librarian-attitudes-on-copyright-reform-in-support-of-open-access-new-journal-article/\">Investigating International Academic Librarian Attitudes on Copyright Reform in Support of Open Access (New Journal Article)</a> appeared first on <a href=\"https://www.infodocket.com\">Library Journal infoDOCKET</a>.</p>",
+    "date": "2026-09-12",
+    "link": "https://www.infodocket.com/2026/09/12/investigating-international-academic-librarian-attitudes-on-copyright-reform-in-support-of-open-access-new-journal-article/",
+    "affiliations": "College &#38; Research Libraries (C&#38;RL).",
+    "source": "Infodocket",
+    "tier": "C",
+    "field": "library_news",
+    "content_type": "news",
+    "category": "行业动态",
+    "thinking": "该资讯报道了一篇新发表的学术文章，探讨了国际学术图书馆员对支持开放获取的版权改革的态度，内容直接关联图书馆学核心议题。文章发表于知名图情期刊，具有明确的学术价值和时效性，能为从业者理解行业观点提供参考。",
+    "scores": {
+      "timeliness": 9,
+      "relevance": 9,
+      "information_value": 8
+    },
+    "one_sentence_summary": "一篇新发表的文章调查了国际学术图书馆员对支持开放获取的版权改革的看法。",
+    "credibility_score": 6.0,
+    "composite_score": 8.2,
+    "featured": true,
+    "id": 21654
   },
   {
     "title": "Understanding health information disclosure intention on AI-generated content platforms: a cognition-affect-conation framework",
@@ -11452,51 +11498,5 @@
     "composite_score": 6.4,
     "featured": false,
     "id": 18970
-  },
-  {
-    "title": "Exploring Autonomous Agentic Data Engineering for Model Specialization",
-    "abstract": "arXiv:2605.30407v3 Announce Type: replace-cross \nAbstract: Large Language Models (LLMs) have demonstrated strong performance on general tasks, while often struggling to adapt to specialized domains without high-quality domain-specific data. Existing LLM-based data curation methods primarily rely on human-designed workflows, leaving it unexamined whether LLMs can autonomously execute an end-to-end data engineering pipeline for model specialization. We formalize Autonomous Agentic Data Engineering, a novel task designed to evaluate LLMs as autonomous data engineers that drive model specialization through end-to-end data curation. We frame data as an optimizable component and study agents that plan, generate, and iteratively optimize training data across multiple domains, guided by post-training performance improvement. Experiments show that autonomous LLM data engineers yield substantial gains, as GPT-5.2 constructs a training curriculum that improves a student model by 57.29%, entirely through iterative, agent-driven data adaptation. By illuminating both potential and bottlenecks, our study establishes autonomous data engineering as a measurable capability and charts a path toward agent-driven model specialization (Code will be released at https://github.com/zjunlp/DataAgent).",
-    "date": "2026-09-01",
-    "link": "https://arxiv.org/abs/2605.30407",
-    "affiliations": "",
-    "source": "arXiv - Information Retrieval",
-    "tier": "C",
-    "field": "information_retrieval",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "该论文聚焦于利用大语言模型作为自主智能体进行端到端数据工程以优化模型专业化，技术前沿性突出，采用了当前AI领域最前沿的自主智能体范式。研究通过实验验证了方法的有效性，但作为一项探索性研究，其在不同领域和更复杂任务中的普适性与稳健性仍需进一步验证，且其业务落地路径尚不明确。",
-    "scores": {
-      "frontier_tech": 10,
-      "practical_value": 6,
-      "methodological_rigor": 8
-    },
-    "one_sentence_summary": "研究表明，让大语言模型作为自主智能体来规划和优化训练数据，能显著提升专业领域模型的性能。",
-    "credibility_score": 6.0,
-    "composite_score": 6.7,
-    "featured": false,
-    "id": 18971
-  },
-  {
-    "title": "Looking Again: Measuring Sycophancy in the Reasoning Chains of Multimodal Models Under Pressure",
-    "abstract": "arXiv:2608.28623v1 Announce Type: new \nAbstract: Large multimodal reasoning models (LMRMs) are getting increasingly capable, primarily through generating explicit chain-of-thought reasoning before answering. In language models it has been observed that this performance often comes with sycophancy, the tendency of a model to agree with the user over the evidence. However, for LMRMs no reliable method to measure sycophancy yet exists. We bridge this gap by introducing a benchmark and dataset for evaluating LMRM sycophancy when confronted with a wrong answer from a user. Our benchmark pairs four visually grounded datasets spanning mathematical, clinical, temporal, and demographic reasoning with five pressure conditions in single-turn and multi-turn settings. We evaluate sycophancy in the final answer as well as its emergence within the reasoning chain. We find that sycophancy is prevalent under pressure, with Statement pressure eliciting the highest rates and Conviction the lowest for all models except Mistral-Small-4, and under multi-turn pressure reasoning-level sycophancy intensifies sharply in clinical visual judgement, reaching 95.7% for the most affected model. We further introduce a failure taxonomy separating reasoning-chain from answer-level sycophancy, and a complementary sentence-level taxonomy locating where in the chain drift first emerges. Our results show that sycophancy can corrupt the reasoning chain independently of the final answer, so answer-level evaluation alone is insufficient.",
-    "date": "2026-09-01",
-    "link": "https://arxiv.org/abs/2608.28623",
-    "affiliations": "",
-    "source": "arXiv - Computation & Language",
-    "tier": "C",
-    "field": "nlp",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "该论文聚焦多模态大模型在压力下的推理链奉承行为，提出了专门的评测基准和数据集，并设计了精细的失效分类法，研究方法系统且创新。其发现揭示了模型内部推理过程可能被用户错误引导而独立于最终答案，对理解和改进模型可靠性具有重要理论价值，但作为一项基础性诊断研究，其直接应用于图书馆等业务场景的路径尚不明确。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 5,
-      "methodological_rigor": 9
-    },
-    "one_sentence_summary": "研究发现，多模态大模型在用户压力下，其内部推理过程会表现出显著的奉承倾向，且这种倾向可能独立于最终答案。",
-    "credibility_score": 6.0,
-    "composite_score": 6.4,
-    "featured": false,
-    "id": 18972
   }
 ]

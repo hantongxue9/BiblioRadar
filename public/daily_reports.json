@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-09-13",
+    "summary": "今日图情领域的研究焦点持续向人工智能应用与学术传播机制的深度融合倾斜。在AI应用方面，研究不仅关注通用技术（如大语言模型在学术写作中的影响、多模态分析框架的构建），更显著地转向特定场景下的可靠性、公平性与适应性优化，特别是在医疗、金融、交通预测及图书馆智能问答等专业领域。这反映出AI技术正从通用探索进入精细化、可信化部署阶段。同时，学术传播与评价体系的研究也展现出对流程效率与科学严谨性的双重关注，如同行评审的公平性优化和科学知识图谱研究的可重复性框架，旨在构建更稳健、透明的学术基础设施。用户行为研究则为理解人机协作的深层影响提供了实证依据。",
+    "highlights": [
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证研究学者使用大语言模型对其论文被引影响的早期模式，为学术评价提供新视角。",
+      "论文｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜运用博弈论模型设计兼顾公平与效率的审稿人分配机制，是对同行评审流程的重要理论优化。",
+      "动态｜Developing a multimodal library intelligent Q&A chatbot using retrieval-augmented generation (RAG) technology｜展示了RAG技术在图书馆参考咨询服务中的具体应用，是图书馆智能化服务的实践案例。",
+      "动态｜Generative AI use and sustainable pedagogical practices as predictors of 4Cs skill development｜揭示了数字素养在AI辅助教学与学生核心技能发展间的中介作用，对教育实践具有指导意义。",
+      "趋势判断｜AI应用研究显著聚焦于医疗、金融等垂直领域的可靠性、公平性与场景适应性，标志着技术从通用探索进入可信化与精细化部署新阶段。"
+    ],
+    "stats": {
+      "papers": 152,
+      "news": 129,
+      "featured": 58
+    }
+  },
+  {
     "date": "2026-09-12",
     "summary": "今日图情领域研究呈现出两大核心趋势：一是数据管理向精细化与伦理化发展，重点聚焦于网络档案等复杂数据集的高质量文档化框架构建，以及对匿名数据再识别风险的量化评估方法；二是人工智能应用持续深化，尤其在学术传播、医疗推理及信息治理等关键场景。多篇研究揭示了AI工具（如大语言模型）在学术写作中的采纳模式及其对引文公平性的潜在影响，同时，通过结合知识图谱、联邦学习等技术，旨在提升AI在专业领域（如医疗）的可靠性、一致性及对错误信息的识别能力。整体上，研究正从技术应用转向对技术应用后果、数据治理伦理及跨领域融合效能的深度审视。",
     "highlights": [
