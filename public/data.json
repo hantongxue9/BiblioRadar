@@ -115,6 +115,29 @@
     "id": 21041
   },
   {
+    "title": "Report: “As Digital Checkouts Soar, Los Angeles Libraries Pivot to AI Education”",
+    "abstract": "<p>From the Yale Daily News Beyond fighting misinformation, public libraries are stepping up to bridge paywalls. While students often run into paid barriers when accessing articles via Google or Google Scholar, public libraries subscribe to expensive digital databases, academic journals, and major news outlets — including the New York Times and the Wall Street Journal [&#8230;]</p>\n<p>The post <a href=\"https://www.infodocket.com/2026/09/13/report-as-digital-checkouts-soar-los-angeles-libraries-pivot-to-ai-education/\">Report: &#8220;As Digital Checkouts Soar, Los Angeles Libraries Pivot to AI Education&#8221;</a> appeared first on <a href=\"https://www.infodocket.com\">Library Journal infoDOCKET</a>.</p>",
+    "date": "2026-09-13",
+    "link": "https://www.infodocket.com/2026/09/13/report-as-digital-checkouts-soar-los-angeles-libraries-pivot-to-ai-education/",
+    "affiliations": "",
+    "source": "Infodocket",
+    "tier": "C",
+    "field": "library_news",
+    "content_type": "news",
+    "category": "行业动态",
+    "thinking": "资讯发布于2026年，具有未来前瞻性，时效性高。内容聚焦公共图书馆在数字资源服务激增背景下，转向提供AI教育以应对信息获取障碍，与图情领域的服务创新高度相关。该资讯提供了图书馆应对技术变革和数字鸿沟的具体案例，对从业者规划未来服务具有参考价值。",
+    "scores": {
+      "timeliness": 10,
+      "relevance": 9,
+      "information_value": 8
+    },
+    "one_sentence_summary": "洛杉矶公共图书馆因数字借阅量激增，正转向提供人工智能教育，以帮助公众应对信息壁垒。",
+    "credibility_score": 6.0,
+    "composite_score": 8.4,
+    "featured": true,
+    "id": 21885
+  },
+  {
     "title": "Investigating International Academic Librarian Attitudes on Copyright Reform in Support of Open Access (New Journal Article)",
     "abstract": "<p>The article linked below was recently published College &#38; Research Libraries (C&#38;RL). Title Investigating International Academic Librarian Attitudes on Copyright Reform in Support of Open AccessInvestigating International Academic Librarian Attitudes on Copyright Reform in Support of Open Access Authors Stephanie Savage University of British Columbia John Willinsky Public Knowledge Project, Simon Fraser Univeristy Source College [&#8230;]</p>\n<p>The post <a href=\"https://www.infodocket.com/2026/09/12/investigating-international-academic-librarian-attitudes-on-copyright-reform-in-support-of-open-access-new-journal-article/\">Investigating International Academic Librarian Attitudes on Copyright Reform in Support of Open Access (New Journal Article)</a> appeared first on <a href=\"https://www.infodocket.com\">Library Journal infoDOCKET</a>.</p>",
     "date": "2026-09-12",
@@ -11475,28 +11498,5 @@
     "composite_score": 6.7,
     "featured": false,
     "id": 18969
-  },
-  {
-    "title": "Evidence Absence Is Not Evidence Insufficiency: Diagnosing NEI Construction Artifacts in Fact Verification",
-    "abstract": "arXiv:2605.26663v2 Announce Type: replace-cross \nAbstract: Evidence absence is not evidence insufficiency, but fact verification benchmarks can make them observationally similar. The Not Enough Information (NEI) label is often operationalized through constructed evidence conditions, and that choice silently determines what a verifier learns. We introduce NEI-CAP, a construction-aware diagnostic protocol for insufficient-evidence evaluation. Each NEI example carries the construction family that produced it; NEI-CAP audits shortcut cues, validates hard cases through human adjudication, and tests whether competence transfers across constructions. We instantiate the protocol on SciFact, with FEVER and HoVer as bounded external controls. Across these settings, NEI competence does not transfer reliably: encoder verifiers and an instruction-tuned decoder trained on shortcut-prone constructions fail to recognize semantically related insufficient evidence, and mixed-construction training narrows but does not close the gap. Fixed-claim diagnostics further show that the evidence condition shifts confidence in the reference Support/Refute label, not only NEI recall, so an aggregate NEI score can hide which problem a model has actually solved. We therefore recommend reporting the construction family alongside the score, and distill the results into a checklist for benchmarks that carry an insufficient-evidence label.",
-    "date": "2026-09-01",
-    "link": "https://arxiv.org/abs/2605.26663",
-    "affiliations": "",
-    "source": "arXiv - Information Retrieval",
-    "tier": "C",
-    "field": "information_retrieval",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "该论文聚焦事实核查任务中“证据不足”标签的构造方法对模型评估的潜在影响，提出了NEI-CAP诊断协议，方法设计严谨，通过多数据集和人工验证确保了结论的可靠性。其核心贡献在于揭示了评估基准的构造细节会严重影响模型能力的真实判断，具有重要的方法论警示意义，但研究场景相对特定，直接应用于图书馆等业务场景的路径尚不明确。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 5,
-      "methodological_rigor": 9
-    },
-    "one_sentence_summary": "该研究指出，事实核查模型中“证据不足”的判断能力高度依赖于训练数据的具体构造方式，单一的评估分数可能掩盖模型的真实缺陷。",
-    "credibility_score": 6.0,
-    "composite_score": 6.4,
-    "featured": false,
-    "id": 18970
   }
 ]

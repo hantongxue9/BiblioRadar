@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-09-14",
+    "summary": "今日图情领域的研究呈现出两个显著趋势：一是人工智能技术，特别是大语言模型（LLMs）和知识图谱的应用，正深度嵌入学术评价、信息检索、内容分析与服务等多个环节，并开始关注其应用的准确性、安全性和文化适应性等深层问题；二是科学计量与学术评价研究更加精细化，开始关注AI工具使用、早期研究轨迹等微观因素对学术成果可见性与学者生涯发展的影响。具体而言，在AI应用方面，研究重点从基础能力探索转向特定场景下的性能优化（如医疗问答、交通预测）和风险防范（如对抗攻击、错误信息识别），并强调多模态、知识增强与框架一致性。在计量评价方面，研究不仅关注宏观产出，更深入探讨作者贡献公平分配、AI采纳模式及性别差异等社会技术性因素。",
+    "highlights": [
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜首次实证探讨学者使用大语言模型对其论文被引情况的影响，揭示了AI工具可能重塑学术可见性格局。",
+      "论文｜AuthormetriX: automated calculation of authors’ scholarly output based on multiple non-inflationary author credit-allocation schemas｜开发了支持多种公平作者贡献分配方案的自动化计量系统，为精细化学术评价提供了新工具。",
+      "论文｜Fa-DPO: Faithfulness-Aware Direct Preference Optimization for medical question answering｜提出一种新优化方法，旨在提升大语言模型在医学问答等高风险领域生成答案的准确性与可靠性。",
+      "动态｜CulturalProbe: Probing Multilingual LLM Capabilities for Cultural Understanding｜构建了评估框架，系统检验多语言大模型在低资源语言文化理解上的能力边界，对全球化信息服务具有参考价值。",
+      "动态｜Combating mental health misinformation on social media: A knowledge-guided multimodal framework｜提出结合知识图谱与多模态信息的框架，为图书馆等信息机构参与治理特定领域网络错误信息提供了技术思路。",
+      "趋势判断｜AI应用从通用能力验证转向场景化、可信化与知识化融合｜今日研究显示，图情领域的AI应用正从基础探索，转向与领域知识（如医疗）、特定任务（如引文校验）及风险控制（如安全性）的深度融合。"
+    ],
+    "stats": {
+      "papers": 140,
+      "news": 127,
+      "featured": 73
+    }
+  },
+  {
     "date": "2026-09-13",
     "summary": "今日图情领域的研究焦点持续向人工智能应用与学术传播机制的深度融合倾斜。在AI应用方面，研究不仅关注通用技术（如大语言模型在学术写作中的影响、多模态分析框架的构建），更显著地转向特定场景下的可靠性、公平性与适应性优化，特别是在医疗、金融、交通预测及图书馆智能问答等专业领域。这反映出AI技术正从通用探索进入精细化、可信化部署阶段。同时，学术传播与评价体系的研究也展现出对流程效率与科学严谨性的双重关注，如同行评审的公平性优化和科学知识图谱研究的可重复性框架，旨在构建更稳健、透明的学术基础设施。用户行为研究则为理解人机协作的深层影响提供了实证依据。",
     "highlights": [
