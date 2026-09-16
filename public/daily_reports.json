@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-09-16",
+    "summary": "今日图情领域的研究呈现出大语言模型应用深化与评估并行的显著趋势。一方面，多篇研究聚焦于LLM在学术写作、内容生成与知识服务中的具体应用及其影响，包括对学术论文引用表现、图书馆智能问答系统开发以及科学文献语义化等方面的探索。另一方面，对AI模型自身能力与局限的评估，特别是在多模态信息处理、文化理解及模型公平性等复杂场景下的表现，成为重要的研究议题。此外，如何通过技术方法（如特征解耦、不确定性感知）提升AI模型在虚假信息检测、医学图像分割等任务中的鲁棒性与可解释性，也是当前关注的重点。",
+    "highlights": [
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证分析了学者使用LLM写作与其论文被引表现之间的关系，为理解AI对学术交流的影响提供了量化证据。",
+      "论文｜Detecting implicit inconsistency in multimodal fake news via fine-grained cross-modal adaptive reasoning｜提出一种新颖的多模态假新闻检测方法，通过细粒度跨模态推理识别文本与图像间的隐含矛盾。",
+      "动态｜Developing a multimodal library intelligent Q&A chatbot using retrieval-augmented generation (RAG) technology｜展示了RAG技术在图书馆智能问答场景中的具体应用，是图情机构利用前沿AI提升知识服务能力的实践案例。",
+      "动态｜PAIRE: A testbed for measuring dataset diversity and model fairness under limited sensitive information｜介绍了一个用于评估数据多样性与模型公平性的新测试平台，回应了AI伦理与治理中的关键挑战。",
+      "趋势判断｜AI应用研究从单一功能探索转向对能力边界、应用影响及模型可信度的系统性评估｜当前研究不仅关注AI能做什么，更深入探讨其在不同场景下的有效性、局限性和社会影响，标志着该领域进入更成熟的反思与实践阶段。"
+    ],
+    "stats": {
+      "papers": 214,
+      "news": 128,
+      "featured": 65
+    }
+  },
+  {
     "date": "2026-09-15",
     "summary": "今日图情领域的研究呈现出对人工智能应用影响进行深度评估与机制设计的强烈趋势。在学术传播与评价方面，研究重点从传统的计量指标转向对流程公平性、模型鲁棒性及结果可重复性的关注，如同行评审的博弈论优化、应对零引用与极端引用的贝叶斯模型，以及科学图谱分析的透明工作流构建。在AI应用层面，焦点集中于分析其引入后产生的复杂社会效应，包括学术写作中的不平等、法律与医疗领域的可信度提升、团队协作中的人机角色平衡，以及营销与信息传播中的风险。用户行为研究则深入在线社区动态与广告策略的宏观模式分析。整体而言，领域研究正从工具采纳转向对技术中介下信息生产、传播与评价生态的系统性审视与干预。",
     "highlights": [
@@ -211,22 +227,6 @@
       "papers": 251,
       "news": 120,
       "featured": 69
-    }
-  },
-  {
-    "date": "2026-09-01",
-    "summary": "今日图情领域的研究呈现出以人工智能技术深度融入为核心的趋势，尤其在学术评价、知识组织与用户服务方面涌现出创新性探索。在学术评价领域，多篇论文聚焦于大语言模型对学术写作与引文影响的研究，揭示了AI工具使用与学术影响力之间可能存在的复杂关联，并提出了新的统计模型以处理引用数据中的极端分布问题，同时强调科学知识图谱研究的可重复性。在应用层面，基于知识图谱、多模态学习和检索增强生成（RAG）的技术被广泛应用于推荐系统、医学信息检索、图书馆智能问答及政府信息传播分析，显示出AI正从通用工具向专业化、场景化解决方案演进。此外，对在线社区动态和匿名数据风险评估的研究，体现了对用户行为和数据伦理的持续关注。",
-    "highlights": [
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜通过实证研究揭示了在学术写作中采用大语言模型与论文引文表现之间的关联，对理解AI如何影响学术传播与评价体系具有重要价值。",
-      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出一种创新的贝叶斯统计模型，能更精准地分析和预测具有大量零引用和极端高引用的学术论文影响力，是文献计量学方法学的重要进展。",
-      "动态｜Developing a multimodal library intelligent Q&A chatbot using retrieval-augmented generation (RAG) technology｜展示了RAG技术在图书馆智能参考咨询服务中的具体应用，为提升服务效率与知识获取质量提供了实践案例。",
-      "动态｜Semantification of scientific articles using knowledge graphs｜探讨了利用知识图谱为科学文献添加语义标签的方法，代表了知识组织领域向增强机器可读性与智能检索方向发展的前沿实践。",
-      "趋势判断｜AI应用正从通用辅助工具向深度融合于特定图情场景（如学术评价、知识组织、精准服务）的专业化解决方案演进｜今日多篇论文和动态均显示，AI技术正被系统地应用于解决图情领域的具体、复杂问题，标志着应用阶段进入深水区。"
-    ],
-    "stats": {
-      "papers": 151,
-      "news": 126,
-      "featured": 71
     }
   }
 ]
