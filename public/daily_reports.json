@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-09-17",
+    "summary": "今日图情领域的研究焦点持续集中于人工智能技术的影响与计量方法的创新。在计量与评价方面，多项研究深入探讨了大语言模型（LLM）在学术写作中的应用及其与学术影响力（如引用量）的关联，同时提出了处理引文数据中零值和极端值的新模型，以及提升科学知识图谱研究可复现性的框架。在AI应用层面，研究不仅关注AI在信息检索、法律文本处理、企业分类等具体场景中的效能，还深入探讨了人机协作（如馆员指导与AI权威性感知）对创意产出的影响，以及如何通过技术手段（如联邦学习）保障AI模型在敏感领域（如医疗）应用中的性能与公平性。用户行为研究则揭示了在线社区中意见领袖的动态演化机制及高阶互动对信息传播的复杂影响。",
+    "highlights": [
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜基于大规模数据分析，揭示了学术写作中使用大语言模型与论文获得更高引用量之间的关联，为理解AI对学术传播的影响提供了实证依据。",
+      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出一种创新的贝叶斯统计模型，为解决引文分析中长期存在的零值过多和分布极端偏斜问题提供了更严谨的方法论工具。",
+      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜实证研究表明，在AI辅助的信息检索环境中，馆员的适度介入与用户对AI的权威性感知共同优化了团队创意产出，强调了人机协同的价值。",
+      "动态｜Community's lifeline: Dynamically identifying the short-term emergence and long-term survival of opinion leaders in diabetes online communities｜提出动态识别方法，深化了对在线健康社区中意见领袖生命周期（短期涌现与长期存续）的理解，对社区管理与信息传播研究有启示。",
+      "趋势判断｜生成式AI的学术应用效应与评估范式正成为核心议题，相关研究从单纯的技术效能评估，转向关注其对学术实践、影响力形成及人机协作模式的深层影响。"
+    ],
+    "stats": {
+      "papers": 196,
+      "news": 128,
+      "featured": 69
+    }
+  },
+  {
     "date": "2026-09-16",
     "summary": "今日图情领域的研究呈现出大语言模型应用深化与评估并行的显著趋势。一方面，多篇研究聚焦于LLM在学术写作、内容生成与知识服务中的具体应用及其影响，包括对学术论文引用表现、图书馆智能问答系统开发以及科学文献语义化等方面的探索。另一方面，对AI模型自身能力与局限的评估，特别是在多模态信息处理、文化理解及模型公平性等复杂场景下的表现，成为重要的研究议题。此外，如何通过技术方法（如特征解耦、不确定性感知）提升AI模型在虚假信息检测、医学图像分割等任务中的鲁棒性与可解释性，也是当前关注的重点。",
     "highlights": [
@@ -211,22 +227,6 @@
       "papers": 174,
       "news": 133,
       "featured": 64
-    }
-  },
-  {
-    "date": "2026-09-02",
-    "summary": "今日图情领域的研究热点集中于知识增强型人工智能的应用与优化。在信息组织与检索方面，知识图谱与大语言模型的深度融合成为提升推荐、问答和医学等垂直领域任务性能的关键路径，例如通过模式挖掘增强关系表示（PLRA-KG）或利用知识图谱对齐提升医学推理（KG-ACE）。在用户交互与信息可信度层面，研究关注AI拟人化对用户归因与决策行为的影响，并积极探索利用多模态分析、知识引导及大语言模型解耦等技术来更有效地检测和对抗社交媒体上的虚假信息，特别是心理健康领域的错误信息。此外，面对自主AI代理网络等新兴技术生态，平台设计也面临新的挑战。行业实践方面，基于检索增强生成（RAG）的图书馆智能问答系统展现了将前沿技术落地的具体案例。",
-    "highlights": [
-      "论文｜PLRA-KG: Pattern-derived latent relation augmentation for knowledge graph-based recommendations｜通过挖掘知识图谱中的潜在模式来增强关系表示，为知识感知推荐系统提供了新的技术思路。",
-      "论文｜Blame the bot or the human: How do misinformation-generating anthropomorphic AI streamers influence purchase intention?｜揭示了拟人化AI生成错误信息时独特的归因机制，对理解人机交互中的信任与责任分配有重要价值。",
-      "动态｜Developing a multimodal library intelligent Q&A chatbot using retrieval-augmented generation (RAG) technology｜展示了RAG技术在图书馆场景下的具体应用，是提升知识服务智能化水平的务实探索。",
-      "动态｜Our 2023-2027 Strategy｜欧洲研究图书馆协会发布未来五年战略，为全球图书馆界的转型与发展提供了重要的政策参考。",
-      "趋势判断｜自主AI代理网络兴起对平台生态系统设计构成新挑战｜指出AI代理间交互将重塑平台生态，是未来信息服务体系设计需关注的前沿问题。"
-    ],
-    "stats": {
-      "papers": 251,
-      "news": 120,
-      "featured": 69
     }
   }
 ]
