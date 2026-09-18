@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-09-18",
+    "summary": "今日图情领域的研究呈现出鲜明的跨学科与技术驱动特征，核心议题围绕人工智能与数据科学的应用深化及其伦理与社会影响展开。在学术传播与评价方面，开放同行评审机制的有效性得到实证支持，而新的分析框架与工具（如Biblioshiny与SAAS工作流）致力于提升科学计量研究的透明度与可复现性，反映了领域对方法学严谨性的持续追求。人工智能应用是多点突破的焦点，研究涵盖从图书馆服务（如智能问答机器人、AI辅助信息中介）到更广泛的科技治理问题（如联邦学习中的模型性能下降、AI企业隐私披露策略）。特别值得注意的是，研究不仅关注技术效能，更深入探讨人机协同（如馆员指导与AI信任的交互影响）以及技术应用的社会维度（如技能培养的中介机制、数据集公平性评估），显示出图情学科在技术浪潮中坚守的人文与社会科学关切。",
+    "highlights": [
+      "论文｜Score increases, author–reviewer communication, and subsequent citations in open peer review: Evidence from ICLR｜为开放同行评审能通过促进有效沟通提升论文质量与影响力提供了有力的实证证据。",
+      "论文｜Revealing country-level disparities in researchers’ transition to artificial intelligence: A two-stage analytical framework｜提出了一个创新的分析框架，系统揭示了全球科研人员在向AI转型过程中存在的国家间不平衡现象。",
+      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜深入探讨了在AI中介的信息服务场景下，专业馆员干预与用户技术信任如何共同塑造协作创新成果。",
+      "动态｜Developing a multimodal library intelligent Q&A chatbot using retrieval-augmented generation (RAG) technology｜展示了将当前前沿的检索增强生成技术具体应用于构建下一代图书馆智能问答系统的实践探索。",
+      "动态｜Transparency or obscurity: Privacy information disclosure strategies for generative artificial intelligence enterprise｜直接回应了生成式AI产业发展中的核心治理难题，即企业如何在透明度与商业利益间寻求平衡。",
+      "趋势判断｜图情研究正从对AI技术的单向应用，转向更复杂的人机协同机制、技术社会影响评估及跨领域治理策略的系统性探究。"
+    ],
+    "stats": {
+      "papers": 213,
+      "news": 117,
+      "featured": 63
+    }
+  },
+  {
     "date": "2026-09-17",
     "summary": "今日图情领域的研究焦点持续集中于人工智能技术的影响与计量方法的创新。在计量与评价方面，多项研究深入探讨了大语言模型（LLM）在学术写作中的应用及其与学术影响力（如引用量）的关联，同时提出了处理引文数据中零值和极端值的新模型，以及提升科学知识图谱研究可复现性的框架。在AI应用层面，研究不仅关注AI在信息检索、法律文本处理、企业分类等具体场景中的效能，还深入探讨了人机协作（如馆员指导与AI权威性感知）对创意产出的影响，以及如何通过技术手段（如联邦学习）保障AI模型在敏感领域（如医疗）应用中的性能与公平性。用户行为研究则揭示了在线社区中意见领袖的动态演化机制及高阶互动对信息传播的复杂影响。",
     "highlights": [
