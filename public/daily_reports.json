@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-09-19",
+    "summary": "今日图情领域的研究呈现出明显的AI驱动与量化分析深度融合的趋势。核心议题围绕大语言模型（LLM）在学术生产与评价中的影响展开，多篇论文通过大规模数据分析证实，AI辅助写作与学术可见度（如引用）存在关联，但需关注其可能带来的公平性新挑战。同时，AI应用研究持续向纵深发展，在特定领域（如法律实体抽取、交通预测、社区发现）提出了结合领域知识的新算法与框架，并开始关注模型部署中的隐私、公平性等治理问题。在方法论层面，提升科学计量与知识图谱研究的透明度、可重复性，以及优化同行评审等学术流程，仍是重要的研究方向。",
+    "highlights": [
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜通过实证研究揭示了学者采用LLM写作与其论文被引表现之间的潜在关联，引发对学术公平性的新思考。",
+      "论文｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜运用博弈论构建了兼顾效率与公平的同行评审优先级模型，为优化审稿流程提供了严谨的理论方案。",
+      "动态｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的大规模分析，为AI工具影响学术影响力的讨论提供了有力的经验证据。",
+      "动态｜NER in the courtroom: A data-driven framework for legal entity extraction｜展示了命名实体识别技术在法律文书处理中的具体应用，是信息抽取技术与专业领域结合的典型案例。",
+      "动态｜Transparency or obscurity: Privacy information disclosure strategies for generative artificial intelligence enterprise｜探讨了生成式AI企业的隐私信息披露策略，触及了AI治理中的关键实践难题。",
+      "趋势判断｜AI应用研究正从通用任务转向深度融合领域知识与复杂情境（如城市规划、持续学习），并同步关注算法公平、透明度等治理维度。"
+    ],
+    "stats": {
+      "papers": 196,
+      "news": 124,
+      "featured": 67
+    }
+  },
+  {
     "date": "2026-09-18",
     "summary": "今日图情领域的研究呈现出鲜明的跨学科与技术驱动特征，核心议题围绕人工智能与数据科学的应用深化及其伦理与社会影响展开。在学术传播与评价方面，开放同行评审机制的有效性得到实证支持，而新的分析框架与工具（如Biblioshiny与SAAS工作流）致力于提升科学计量研究的透明度与可复现性，反映了领域对方法学严谨性的持续追求。人工智能应用是多点突破的焦点，研究涵盖从图书馆服务（如智能问答机器人、AI辅助信息中介）到更广泛的科技治理问题（如联邦学习中的模型性能下降、AI企业隐私披露策略）。特别值得注意的是，研究不仅关注技术效能，更深入探讨人机协同（如馆员指导与AI信任的交互影响）以及技术应用的社会维度（如技能培养的中介机制、数据集公平性评估），显示出图情学科在技术浪潮中坚守的人文与社会科学关切。",
     "highlights": [
@@ -228,22 +245,6 @@
       "papers": 184,
       "news": 131,
       "featured": 62
-    }
-  },
-  {
-    "date": "2026-09-03",
-    "summary": "今日图情领域研究呈现出明显的AI驱动特征，尤其在学术信息处理与图书馆服务创新方面。学术传播与评价研究关注同行评审优化与引用行为分析，其中基于博弈论的审稿人分配机制和LLM辅助写作对引用的影响研究值得关注。AI应用研究广泛，核心在于提升模型的可靠性与实用性，包括通过大语言模型改进虚假信息检测的鲁棒性、利用检索增强生成技术构建图书馆智能问答系统，以及探索AI助手对用户技能发展的潜在影响。同时，行业组织如欧洲研究图书馆协会（LIBER）正积极制定中长期战略，明确研究图书馆在开放科学和人工智能时代的角色与价值观，并推动相关实践与交流。",
-    "highlights": [
-      "论文｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜通过博弈论模型为同行评审设计兼顾公平与效率的审稿人分配新机制。",
-      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于百万级论文数据分析，揭示了工程学领域大语言模型辅助写作与论文引用表现的正相关关系。",
-      "动态｜Our 2023-2027 Strategy｜欧洲研究图书馆协会发布未来五年战略规划，为全球研究图书馆在开放科学、数字化转型等方向提供指引。",
-      "动态｜LIBER AI Pulse Webinar Series Continues｜行业权威机构持续举办AI系列研讨会，反映图书馆界对人工智能技术趋势的密切关注与知识更新需求。",
-      "趋势判断｜AI应用从功能实现转向可靠性与影响评估｜研究重点从开发AI工具转向关注模型鲁棒性、可解释性及对用户认知与技能的长期影响。"
-    ],
-    "stats": {
-      "papers": 174,
-      "news": 133,
-      "featured": 64
     }
   }
 ]
