@@ -1,19 +1,19 @@
 [
   {
-    "date": "2026-09-19",
-    "summary": "今日图情领域的研究呈现出明显的AI驱动与量化分析深度融合的趋势。核心议题围绕大语言模型（LLM）在学术生产与评价中的影响展开，多篇论文通过大规模数据分析证实，AI辅助写作与学术可见度（如引用）存在关联，但需关注其可能带来的公平性新挑战。同时，AI应用研究持续向纵深发展，在特定领域（如法律实体抽取、交通预测、社区发现）提出了结合领域知识的新算法与框架，并开始关注模型部署中的隐私、公平性等治理问题。在方法论层面，提升科学计量与知识图谱研究的透明度、可重复性，以及优化同行评审等学术流程，仍是重要的研究方向。",
+    "date": "2026-09-20",
+    "summary": "今日图情领域的研究呈现出两大核心趋势。首先，学术评价与传播机制研究更加精细化，关注开放同行评审中的互动效应、期刊自引的深层模式，以及新兴技术（如大语言模型）对学术产出与影响力的量化影响。其次，人工智能应用研究持续深化，尤其在多模态信息处理、领域适应性与可解释性方面。多篇论文聚焦于大语言模型在特定领域（如临床、金融、文化理解）的效能评估与适配方法，同时，假新闻检测、网络欺凌识别等社会信息治理议题也受到关注，强调模型对跨模态不一致性和复杂上下文的推理能力。",
     "highlights": [
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜通过实证研究揭示了学者采用LLM写作与其论文被引表现之间的潜在关联，引发对学术公平性的新思考。",
-      "论文｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜运用博弈论构建了兼顾效率与公平的同行评审优先级模型，为优化审稿流程提供了严谨的理论方案。",
-      "动态｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的大规模分析，为AI工具影响学术影响力的讨论提供了有力的经验证据。",
-      "动态｜NER in the courtroom: A data-driven framework for legal entity extraction｜展示了命名实体识别技术在法律文书处理中的具体应用，是信息抽取技术与专业领域结合的典型案例。",
-      "动态｜Transparency or obscurity: Privacy information disclosure strategies for generative artificial intelligence enterprise｜探讨了生成式AI企业的隐私信息披露策略，触及了AI治理中的关键实践难题。",
-      "趋势判断｜AI应用研究正从通用任务转向深度融合领域知识与复杂情境（如城市规划、持续学习），并同步关注算法公平、透明度等治理维度。"
+      "论文｜Score increases, author–reviewer communication, and subsequent citations in open peer review: Evidence from ICLR｜实证研究表明，开放评审中的作者与审稿人互动能提升论文质量与影响力。",
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜系统分析了大语言模型在学术写作中的采纳模式及其对论文可见度的影响。",
+      "论文｜PEFT: Evaluating parameter-efficient fine-tuning for clinical-note summarization across transformers and large language models｜为领域大模型高效适配提供了临床文本摘要任务的实证评估方案。",
+      "动态｜Detecting implicit inconsistency in multimodal fake news via fine-grained cross-modal adaptive reasoning｜提出通过细粒度跨模态推理检测假新闻的新方法，提升了信息验证的准确性。",
+      "动态｜CulturalProbe: Probing Multilingual LLM Capabilities and Limitations for Cultural Understanding in Low-Resource Languages｜评估了多语言大模型在低资源语言文化理解上的能力边界。",
+      "趋势判断｜AI应用研究正从通用能力评估转向面向特定领域、任务与伦理需求的精细化模型适配与效能验证。"
     ],
     "stats": {
-      "papers": 196,
+      "papers": 153,
       "news": 124,
-      "featured": 67
+      "featured": 64
     }
   },
   {
