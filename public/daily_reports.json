@@ -1,19 +1,19 @@
 [
   {
-    "date": "2026-09-20",
-    "summary": "今日图情领域的研究呈现出两大核心趋势。首先，学术评价与传播机制研究更加精细化，关注开放同行评审中的互动效应、期刊自引的深层模式，以及新兴技术（如大语言模型）对学术产出与影响力的量化影响。其次，人工智能应用研究持续深化，尤其在多模态信息处理、领域适应性与可解释性方面。多篇论文聚焦于大语言模型在特定领域（如临床、金融、文化理解）的效能评估与适配方法，同时，假新闻检测、网络欺凌识别等社会信息治理议题也受到关注，强调模型对跨模态不一致性和复杂上下文的推理能力。",
+    "date": "2026-09-21",
+    "summary": "今日图情领域的研究焦点高度集中于人工智能（AI）应用的深化与评估，同时，对学术传播与科研评价中公平性与复杂性的关注持续升温。在AI应用方面，研究呈现出从通用能力探索向垂直领域（如医疗、金融、交通）和特定问题（如公平性、忠实性、持续学习）的精细化发展。多篇论文探讨了如何提升大语言模型在专业场景（如临床摘要、医学问答）中的可靠性、公平性与适应性，并关注其潜在风险（如意识形态偏移）及企业信息披露策略。在计量评价领域，研究揭示了AI工具（如AlphaFold）可能对非顶尖机构产生的差异化影响，以及国家间AI转型的差距，并提出了处理复杂引文数据的新模型。学术传播方面则出现了旨在优化审稿公平性的博弈论新机制。总体而言，AI正深刻重塑信息获取、知识组织与科研评价的各个环节，相关研究正从技术可行性验证转向对效果、影响及伦理的深度审视。",
     "highlights": [
-      "论文｜Score increases, author–reviewer communication, and subsequent citations in open peer review: Evidence from ICLR｜实证研究表明，开放评审中的作者与审稿人互动能提升论文质量与影响力。",
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜系统分析了大语言模型在学术写作中的采纳模式及其对论文可见度的影响。",
-      "论文｜PEFT: Evaluating parameter-efficient fine-tuning for clinical-note summarization across transformers and large language models｜为领域大模型高效适配提供了临床文本摘要任务的实证评估方案。",
-      "动态｜Detecting implicit inconsistency in multimodal fake news via fine-grained cross-modal adaptive reasoning｜提出通过细粒度跨模态推理检测假新闻的新方法，提升了信息验证的准确性。",
-      "动态｜CulturalProbe: Probing Multilingual LLM Capabilities and Limitations for Cultural Understanding in Low-Resource Languages｜评估了多语言大模型在低资源语言文化理解上的能力边界。",
-      "趋势判断｜AI应用研究正从通用能力评估转向面向特定领域、任务与伦理需求的精细化模型适配与效能验证。"
+      "论文｜AI boosts publication output more at non-elite institutions: Evidence from AlphaFold｜为理解前沿AI工具如何影响科研生态与机构差距提供了关键实证证据。",
+      "论文｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜运用博弈论为优化同行评审的公平性分配机制提供了创新理论模型。",
+      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜实证研究了在AI信息中介场景下，馆员角色与用户认知如何共同影响协作创新。",
+      "动态｜Political Ideology Shifts in Large Language Models｜警示了大语言模型可能存在的系统性偏见，对构建公平的信息服务系统至关重要。",
+      "动态｜PEFT: Evaluating parameter-efficient fine-tuning for clinical-note summarization across transformers and large language models｜为资源受限场景下高效部署大模型于专业文本处理任务提供了实用的评估基准。",
+      "趋势｜AI应用研究正从通用能力验证转向垂直领域深化与风险治理并重｜表明图情领域对AI的关注点已进入追求实效、可控和负责任应用的新阶段。"
     ],
     "stats": {
-      "papers": 153,
-      "news": 124,
-      "featured": 64
+      "papers": 148,
+      "news": 122,
+      "featured": 63
     }
   },
   {
