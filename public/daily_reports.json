@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-09-22",
+    "summary": "今日图情领域的研究呈现出两大核心趋势：一是对人工智能，特别是大型语言模型（LLM）在学术生产与评价中作用的深度量化分析；二是AI技术在信息处理、评估及决策支持等具体场景中的方法创新与应用探索。在计量与评价方面，多篇论文聚焦于LLM辅助写作与学术影响力（如引用）的关联性研究，揭示了技术采纳可能带来的潜在影响。在AI应用层面，研究重点从单纯的模型性能转向可靠性、可解释性及特定领域（如医学、金融、假新闻检测）的适应性，涌现出旨在提升模型评估质量、理解复杂社会价值以及处理动态扩展数据环境的新方法与测试基准。此外，数据管理与利用的价值实现路径、以及智能体在模拟与推荐系统中的角色演变，也是今日值得关注的研究方向。",
+    "highlights": [
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证研究揭示了学者使用大语言模型写作与其论文被引表现之间的关联，为理解AI对学术评价体系的潜在影响提供了关键证据。",
+      "论文｜Towards reliable LLM evaluators: Discovering and internalizing explicit scoring logic｜提出了一种通过内化明确评分规则来提升大语言模型作为评估工具可靠性与可解释性的新方法。",
+      "动态｜NormasTCU — A Brazilian葡萄牙语IR数据集及LLM评估研究｜创建了特定语言领域的法律检索数据集，并系统评估了使用大语言模型进行相关性判定的可行性与局限。",
+      "动态｜Fa-DPO: 面向医学问答的忠实性感知偏好优化｜针对医学领域对答案准确性的高要求，提出了一种新的模型优化方法以提升生成内容的可靠性。",
+      "趋势判断｜从静态评分到动态工作流：智能体推荐系统研究综述｜系统梳理了推荐系统从传统模型向基于智能体的、具备动态交互与工作流能力的新范式演进趋势。"
+    ],
+    "stats": {
+      "papers": 172,
+      "news": 121,
+      "featured": 72
+    }
+  },
+  {
     "date": "2026-09-21",
     "summary": "今日图情领域的研究焦点高度集中于人工智能（AI）应用的深化与评估，同时，对学术传播与科研评价中公平性与复杂性的关注持续升温。在AI应用方面，研究呈现出从通用能力探索向垂直领域（如医疗、金融、交通）和特定问题（如公平性、忠实性、持续学习）的精细化发展。多篇论文探讨了如何提升大语言模型在专业场景（如临床摘要、医学问答）中的可靠性、公平性与适应性，并关注其潜在风险（如意识形态偏移）及企业信息披露策略。在计量评价领域，研究揭示了AI工具（如AlphaFold）可能对非顶尖机构产生的差异化影响，以及国家间AI转型的差距，并提出了处理复杂引文数据的新模型。学术传播方面则出现了旨在优化审稿公平性的博弈论新机制。总体而言，AI正深刻重塑信息获取、知识组织与科研评价的各个环节，相关研究正从技术可行性验证转向对效果、影响及伦理的深度审视。",
     "highlights": [
@@ -211,40 +227,6 @@
       "papers": 129,
       "news": 125,
       "featured": 66
-    }
-  },
-  {
-    "date": "2026-09-06",
-    "summary": "今日图情领域的研究呈现出两个核心焦点。其一，人工智能应用的深化与反思成为主流，研究不仅关注生成式AI在信息检索、知识组织及创意设计等场景的实际效能与评估方法，更深入探讨了人机协作的微观机制（如馆员指导与AI认知权威的交互）、AI模型公平性与偏见缓解策略，以及用户持续使用行为背后的双因素驱动模型。其二，学术生态的量化分析与规范研究持续受到关注，重点探讨了AI工具（如大语言模型）的采用如何影响学术成果的可见度与引用，以及“贡献均等”等评价政策对作者署名行为的潜在扭曲效应，揭示了技术采纳与学术规范间的复杂张力。",
-    "highlights": [
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证研究了学者使用大语言模型写作与其论文被引用率之间的关系，为理解AI如何重塑学术影响力提供了关键证据。",
-      "论文｜Is equal credit really equal? The impact of academic evaluation policies on authorship decisions｜通过实证分析揭示了‘贡献均等’署名政策在实践中的非预期后果，对完善科研诚信与作者署名规范有重要启示。",
-      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜探讨了在AI辅助的团队协作中，图书馆员专业指导与学生对AI的信任度如何共同作用于创造性成果，为人机协同信息服务的优化提供了洞见。",
-      "动态｜Evaluating the digital curation of library political special collections with the Honeycomb Model and Feminist HCI｜提出了一个融合可用性指标与女性主义关怀伦理的评估框架，为图书馆特藏数字策展实践提供了创新的评估工具。",
-      "动态｜Development and preliminary validation of a scale for evaluating the effectiveness of generative AI in museum cultural and creative product design｜开发了首个针对生成式AI在博物馆文创设计中应用效果的专用评估量表，推动了相关实践评估的标准化。",
-      "趋势判断｜AI应用研究从功能探索转向效能评估与人机协同机制｜当前研究重点正从‘AI能做什么’转向‘AI做得如何’以及‘人如何与AI更好地协作’，强调评估方法、公平性、用户体验与中介因素。"
-    ],
-    "stats": {
-      "papers": 128,
-      "news": 118,
-      "featured": 62
-    }
-  },
-  {
-    "date": "2026-09-04",
-    "summary": "今日图情领域的研究与实践持续围绕人工智能技术的深度应用与学术评价体系的优化展开。在AI应用方面，焦点从基础工具开发转向效果评估与流程融合，具体表现为：大语言模型在学术写作、引文错误检测、图书馆智能问答及多模态信息分析等场景中的效能得到实证研究；同时，AI与专业馆员指导的结合被证实能提升信息服务的创意产出。在学术评价与知识组织领域，研究重点在于通过更先进的统计模型（如贝叶斯分位数回归）处理引文数据的复杂性，并致力于构建透明、可复现的科学知识图谱分析框架。此外，利用博弈论优化同行评审公平性与效率的机制设计，以及欧洲图书馆界对版权与文本数据挖掘政策的持续关注，共同反映了本领域对学术生态治理与法律合规性的重视。",
-    "highlights": [
-      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的实证分析，揭示了AI辅助写作与引用影响力提升之间的潜在关联。",
-      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出了一种能更精确拟合引文分布复杂特征的贝叶斯模型，为文献计量分析提供了新方法。",
-      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜探讨了在AI信息中介过程中，馆员指导强度与用户认知如何协同影响团队创造力。",
-      "动态｜Copyright Reform｜欧洲研究图书馆协会发布版权改革动态，关乎图书馆数字资源服务与保存的法律基础。",
-      "动态｜Text & Data Mining｜欧洲研究图书馆联盟关注文本与数据挖掘政策，涉及图书馆支持 computational research 的关键能力。",
-      "趋势判断｜学术评价与知识服务正从单一指标或工具应用，转向构建融合AI技术、专业干预与可解释模型的综合治理框架。"
-    ],
-    "stats": {
-      "papers": 184,
-      "news": 131,
-      "featured": 62
     }
   }
 ]
