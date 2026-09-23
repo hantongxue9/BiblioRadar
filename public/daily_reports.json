@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-09-23",
+    "summary": "今日图情领域研究呈现出以人工智能应用为核心的多元化发展态势，尤其在学术评价与AI辅助研究、信息组织与检索、以及特定领域知识服务方面取得显著进展。在学术评价方面，多篇研究聚焦于大语言模型对学术写作与引用行为的影响，揭示了AI辅助写作与引用绩效之间的关联，为理解AI时代的知识生产与传播提供了实证依据。在信息组织与检索领域，研究从传统模型向智能体化和工作流范式演进，同时，针对复杂网络社区发现、多模态假新闻检测、法律实体抽取等具体任务提出了新的算法与框架。此外，面向医疗、金融、灾害管理等垂直领域的AI应用研究持续深化，关注模型效率、可扩展性、公平性及在实际协作环境中的效用，体现了图情学科在推动负责任、可解释且高效的人工智能技术落地方面的关键角色。",
+    "highlights": [
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证分析学者使用大语言模型写作对其论文被引用情况的影响，为AI时代学术影响力研究提供新视角。",
+      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的大规模数据分析，揭示AI辅助写作与更高引用次数之间的关联。",
+      "动态｜From scoring to workflow: A survey of agentic recommender systems｜系统综述推荐系统从传统评分模型向基于工作流的智能体化范式转变的研究进展。",
+      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜探讨在AI介入的协作学习中，馆员指导强度如何调节学生对AI的认知权威感知并影响创意产出。",
+      "动态｜Data-centric AI in disaster management: Scalable Named Entity Recognition via LLM-based stacking and pseudo-label generation｜提出利用大语言模型提升灾害管理领域命名实体识别可扩展性的数据中心方法。",
+      "趋势判断｜图情领域AI研究正从通用技术探索转向深度垂直整合与负责任评估｜研究重点日益聚焦于医疗、法律、金融等具体领域的高效、公平AI应用，并同步加强对技术采纳影响、模型公平性与协作效能的系统性评估。"
+    ],
+    "stats": {
+      "papers": 191,
+      "news": 135,
+      "featured": 67
+    }
+  },
+  {
     "date": "2026-09-22",
     "summary": "今日图情领域的研究呈现出两大核心趋势：一是对人工智能，特别是大型语言模型（LLM）在学术生产与评价中作用的深度量化分析；二是AI技术在信息处理、评估及决策支持等具体场景中的方法创新与应用探索。在计量与评价方面，多篇论文聚焦于LLM辅助写作与学术影响力（如引用）的关联性研究，揭示了技术采纳可能带来的潜在影响。在AI应用层面，研究重点从单纯的模型性能转向可靠性、可解释性及特定领域（如医学、金融、假新闻检测）的适应性，涌现出旨在提升模型评估质量、理解复杂社会价值以及处理动态扩展数据环境的新方法与测试基准。此外，数据管理与利用的价值实现路径、以及智能体在模拟与推荐系统中的角色演变，也是今日值得关注的研究方向。",
     "highlights": [
@@ -194,39 +211,6 @@
       "papers": 127,
       "news": 128,
       "featured": 68
-    }
-  },
-  {
-    "date": "2026-09-08",
-    "summary": "今日图情领域的研究呈现出以人工智能深度应用为核心、兼顾技术与人文社会影响的鲜明特征。在技术层面，研究重点从通用模型转向面向特定领域（如医学、金融、交通）的优化与评估，强调在低资源、高敏感（如隐私、公平性）场景下的可靠性与适应性。例如，有研究致力于提升医学问答的准确性，或构建评估模型公平性的测试平台。同时，知识增强技术（如知识图谱的模式挖掘、语义联邦学习）持续推动检索推荐与数据分析的智能化。在应用与影响层面，研究关注人机协同（如馆员在AI中介环境中的角色）、评价体系（如超高被引文献对排名的影响）以及信息传播的社会维度（如政治广告策略），体现了图情学科连接技术、信息与社会的桥梁作用。",
-    "highlights": [
-      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜揭示了在AI作为信息中介的协作环境中，专业馆员指导的强度与用户对AI的认知权威感知如何共同塑造团队的创意结果。",
-      "论文｜Exploring the impact of super-cited papers on counting methods, counting inflation and university rankings: Evidence from engineering｜以工程学为例，实证分析了超高被引论文如何扭曲文献计量结果和大学排名，对科研评价方法具有重要警示意义。",
-      "动态｜LanMe: Exploration and evaluation of multilingual LLMs for low-resource finance in Southeast Asia｜针对东南亚低资源金融场景评估多语言大模型，体现了AI应用研究对区域性与领域性差异的关注。",
-      "动态｜PAIRE: A testbed for measuring dataset diversity and model fairness under limited sensitive information｜构建了一个在敏感信息受限条件下系统评估数据集多样性与模型公平性的测试平台，回应了AI伦理治理的实践需求。",
-      "趋势判断｜领域化、可信化与评估精细化成为AI在图情领域应用的主要演进方向｜研究焦点从通用模型转向医学、金融等垂直领域的可靠应用，并同步加强对其公平性、隐私影响及社会效应的系统性评估。"
-    ],
-    "stats": {
-      "papers": 158,
-      "news": 127,
-      "featured": 62
-    }
-  },
-  {
-    "date": "2026-09-07",
-    "summary": "今日图情领域的研究呈现出对人工智能应用深度与广度并重、以及对学术评价体系反思的两大趋势。在AI应用方面，研究重点从基础能力转向应用后果与伦理考量，例如探讨大语言模型采纳对学术可见度与引文的影响、AI工具对用户协作与技能发展的差异化作用，以及如何在敏感信息有限条件下评估模型公平性。同时，针对IP定位、知识图谱推荐、联邦学习等具体技术场景的模型优化研究持续涌现。另一方面，学术评价与传播机制研究受到关注，包括超级高被引论文对排名系统的潜在扭曲效应，以及通过博弈论模型优化同行评审公平性与效率的新方案。用户行为研究则深入在线社区，关注意见领袖的动态识别机制。",
-    "highlights": [
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证揭示了在学术写作中使用大语言模型与论文后续引文表现之间的关联，对理解AI如何重塑学术影响力传播具有重要价值。",
-      "论文｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜运用博弈论构建了一种新的同行评审优先级分配机制，为提升审稿流程的公平性与效率提供了严谨的理论模型。",
-      "动态｜Exploring the impact of super-cited papers on counting methods, counting inflation and university rankings: Evidence from engineering｜以工程学为例，实证分析了超级高被引论文如何扭曲引文计数与大学排名，对改进科研评价指标具有警示意义。",
-      "动态｜Community's lifeline: Dynamically identifying the short-term emergence and long-term survival of opinion leaders in diabetes online communities｜提出了一种动态识别在线健康社区意见领袖的方法，有助于优化社区信息治理与知识服务策略。",
-      "动态｜PAIRE: A testbed for measuring dataset diversity and model fairness under limited sensitive information｜推出了一个评估AI模型公平性的新测试平台，重点解决了敏感信息不全场景下的评估难题，对负责任AI研究有工具贡献。",
-      "趋势判断｜AI应用研究从关注性能提升转向关注社会影响与伦理风险，同时学术评价体系面临对极端引文现象和评审流程公平性的深度反思。"
-    ],
-    "stats": {
-      "papers": 129,
-      "news": 125,
-      "featured": 66
     }
   }
 ]
