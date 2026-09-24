@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-09-24",
+    "summary": "今日图情领域的研究呈现出以人工智能应用为核心、方法学持续深化、并关注其社会影响的鲜明特点。在学术评价方面，研究揭示了AI工具（如AlphaFold）对非顶尖机构科研产出的促进作用，以及大语言模型辅助写作与引用表现之间的潜在关联，同时新的贝叶斯统计模型为处理引文数据的极端分布提供了更优解。在AI应用层面，焦点从单纯的技术实现转向可信、公平与有效集成。具体表现为：关注LLM在科学信息提取、电商搜索中的可靠性问题；探索如何通过馆员引导、联邦学习优化等方法，在协作、医疗等场景中更好地发挥AI作用；并构建新的评测基准与算法以应对模型公平性、网络社区发现等挑战。行业动态则显示，开放科学作为宏观政策环境，持续受到图情机构关注。",
+    "highlights": [
+      "论文｜AI boosts publication output more at non-elite institutions: Evidence from AlphaFold｜该研究为理解AI工具如何影响科研生态与资源分配不平等提供了重要的实证证据。",
+      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出的贝叶斯模型为处理引文计量中普遍存在的极端分布数据提供了更严谨的统计学方法。",
+      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜强调了在AI辅助的信息中介过程中，专业馆员的深度干预对于提升团队创造力的关键作用。",
+      "动态｜Advancing Open Science｜欧洲研究图书馆协会的动态为图书馆在开放科学实践中制定策略提供了最新的行业参考。",
+      "趋势判断｜AI应用研究从功能实现转向可信、公平与场景化集成｜今日多篇论文共同指向对AI可靠性、偏见缓解及与现有工作流程（如馆员指导、联邦学习）深度融合的关注，标志着该领域进入更注重实际效用与社会影响的阶段。"
+    ],
+    "stats": {
+      "papers": 165,
+      "news": 127,
+      "featured": 72
+    }
+  },
+  {
     "date": "2026-09-23",
     "summary": "今日图情领域研究呈现出以人工智能应用为核心的多元化发展态势，尤其在学术评价与AI辅助研究、信息组织与检索、以及特定领域知识服务方面取得显著进展。在学术评价方面，多篇研究聚焦于大语言模型对学术写作与引用行为的影响，揭示了AI辅助写作与引用绩效之间的关联，为理解AI时代的知识生产与传播提供了实证依据。在信息组织与检索领域，研究从传统模型向智能体化和工作流范式演进，同时，针对复杂网络社区发现、多模态假新闻检测、法律实体抽取等具体任务提出了新的算法与框架。此外，面向医疗、金融、灾害管理等垂直领域的AI应用研究持续深化，关注模型效率、可扩展性、公平性及在实际协作环境中的效用，体现了图情学科在推动负责任、可解释且高效的人工智能技术落地方面的关键角色。",
     "highlights": [
@@ -194,23 +210,6 @@
       "papers": 241,
       "news": 122,
       "featured": 62
-    }
-  },
-  {
-    "date": "2026-09-09",
-    "summary": "今日图情领域的研究呈现出以人工智能应用为主导、深度融合信息计量与知识组织方法的鲜明特点。在AI应用方面，研究重点从通用能力评估转向特定场景的效能优化与公平性考量，例如探讨大语言模型在学术写作中的采纳模式及其对引用的影响、图书馆员在AI辅助信息检索中的干预作用，以及针对低资源金融、医疗物联网等领域的模型适应性改进。知识组织与计量研究则更注重动态演化过程的揭示与量化，通过语义几何、主题轨迹等方法分析科学范式与知识结构的变迁，并开始系统评估高影响力成果（如超被引论文、科学奖项）对现有评价体系的潜在影响。用户行为研究则借助动态网络分析等工具，深入在线社区探究意见领袖的形成机制。整体而言，领域研究正朝着场景深化、过程动态化与评估精细化方向发展。",
-    "highlights": [
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证分析学者使用大语言模型写作对其论文被引情况的影响，为理解AI工具与学术影响力的关系提供了新证据。",
-      "论文｜A semantic geometry for uncovering paradigm dynamics via scientific publications｜提出一种语义几何模型，为从大规模科学文献中可视化与分析科学范式的演变提供了新方法。",
-      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜揭示了在AI辅助的协作信息检索中，图书馆员专业指导的强度与学生对其权威的认知如何共同影响团队的创意产出。",
-      "动态｜Exploring the impact of super-cited papers on counting methods, counting inflation and university rankings: Evidence from engineering｜以工程领域为例，实证揭示了超高被引论文如何影响文献计量指标与大学排名，引发对评价方法稳健性的思考。",
-      "动态｜Community's lifeline: Dynamically identifying the short-term emergence and long-term survival of opinion leaders in diabetes online communities｜应用动态网络分析方法，揭示了健康在线社区中意见领袖的动态生命周期，为社区管理与健康信息传播提供了依据。",
-      "趋势判断｜图情领域AI研究正从通用能力验证转向特定场景（如低资源金融、医疗物联网）的模型适应性、公平性与人机协同效能优化。"
-    ],
-    "stats": {
-      "papers": 127,
-      "news": 128,
-      "featured": 68
     }
   }
 ]
