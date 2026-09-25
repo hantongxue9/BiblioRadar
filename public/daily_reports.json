@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-09-25",
+    "summary": "今日图情领域的研究焦点集中于人工智能对科研与信息实践的多维度影响。在科学计量与评价方面，研究揭示了颠覆性AI工具（如AlphaFold）对非顶尖机构的赋能效应更为显著，同时指出超级高被引论文可能扭曲基于计数的大学排名，凸显了评价体系的方法论挑战。值得注意的是，有研究发现工程学领域使用大语言模型辅助写作的论文可能获得更高被引次数，引发了关于AI在科研生产中新角色的讨论。在AI应用层面，研究重点转向提升模型的可靠性与可解释性，包括通过本体引导的流程改进科学信息提取、检测多模态假新闻中的细粒度不一致性，以及构建评估AIGC质量的综合性指标体系。此外，参数高效微调技术在临床文本摘要等专业领域的应用评估，为资源受限下的模型部署提供了实证参考。",
+    "highlights": [
+      "论文｜AI boosts publication output more at non-elite institutions: Evidence from AlphaFold｜通过实证数据揭示了颠覆性AI工具对弥合科研机构产出差距的潜在作用。",
+      "论文｜Exploring the impact of super-cited papers on counting methods, counting inflation and university rankings｜揭示了超级高被引论文对基于计数的大学排名方法论的扭曲效应。",
+      "论文｜Toward trustworthy LLM-based scientific information extraction｜提出了一种结合本体与验证流程的新方法，旨在提升大语言模型提取科学信息的可靠性。",
+      "动态｜LLM-Assisted writing in engineering is associated with higher citations｜引发对AI辅助写作与学术影响力关系的新探讨。",
+      "动态｜Artificial intelligence-generated content (AIGC) quality evaluation｜构建了一个融合用户与文献视角的综合性AIGC质量评估指标体系。",
+      "趋势判断｜科学计量评价体系面临AI工具普及与异常引用模式的双重挑战，需发展更具鲁棒性的方法论。"
+    ],
+    "stats": {
+      "papers": 157,
+      "news": 128,
+      "featured": 65
+    }
+  },
+  {
     "date": "2026-09-24",
     "summary": "今日图情领域的研究呈现出以人工智能应用为核心、方法学持续深化、并关注其社会影响的鲜明特点。在学术评价方面，研究揭示了AI工具（如AlphaFold）对非顶尖机构科研产出的促进作用，以及大语言模型辅助写作与引用表现之间的潜在关联，同时新的贝叶斯统计模型为处理引文数据的极端分布提供了更优解。在AI应用层面，焦点从单纯的技术实现转向可信、公平与有效集成。具体表现为：关注LLM在科学信息提取、电商搜索中的可靠性问题；探索如何通过馆员引导、联邦学习优化等方法，在协作、医疗等场景中更好地发挥AI作用；并构建新的评测基准与算法以应对模型公平性、网络社区发现等挑战。行业动态则显示，开放科学作为宏观政策环境，持续受到图情机构关注。",
     "highlights": [
@@ -194,22 +211,6 @@
       "papers": 155,
       "news": 115,
       "featured": 69
-    }
-  },
-  {
-    "date": "2026-09-10",
-    "summary": "今日图情领域的研究焦点高度集中于人工智能，特别是大语言模型在学术生产与信息服务中的应用及其影响。核心发现包括：AI工具（如LLM辅助写作）与学术论文的引用表现存在关联性；在AI辅助的协作场景中，图书馆员的适度引导对创意产出至关重要；针对特定领域（如低资源金融）的多语言模型评估成为新的应用探索方向。同时，用户行为研究深入在线社区动态与AI交互的信任机制，数据管理领域则关注匿名化数据的重识别风险评估。整体趋势表明，AI与图情业务的融合正从工具应用深化至对学术生态、信息服务模式及用户认知的复杂影响评估。",
-    "highlights": [
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜揭示了AI工具在学术写作中的采用模式与论文引用表现之间的关联，对理解AI如何塑造学术可见性具有重要价值。",
-      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜明确了在AI中介的信息服务中，图书馆员指导强度与用户对AI权威认知共同影响团队创意，为设计人机协同服务提供了实证依据。",
-      "动态｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于百万级工程学论文的大规模分析，为AI辅助写作的学术影响力提供了有力的经验证据。",
-      "动态｜Developing a multimodal library intelligent Q&A chatbot using retrieval-augmented generation (RAG) technology｜展示了利用检索增强生成技术构建图书馆多模态智能问答系统的具体实践，代表了当前智慧图书馆服务的前沿探索。",
-      "趋势判断｜AI与图情业务的融合正从工具应用深化至对学术生态、信息服务模式及用户认知的复杂影响评估。"
-    ],
-    "stats": {
-      "papers": 241,
-      "news": 122,
-      "featured": 62
     }
   }
 ]
