@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-09-26",
+    "summary": "今日图情领域研究呈现出以人工智能技术深度融入为核心，同时关注数据治理与学术评价方法创新的趋势。在AI应用方面，研究重点聚焦于多模态信息处理与可解释性，例如通过分析图文间的细微矛盾来识别假新闻，以及构建可解释的网络欺凌检测模型。在学术传播与评价领域，研究运用先进的计量方法探索知识演化规律与合作网络动态，例如利用主题模型可视化战略管理领域的语义-时间轨迹，以及分析合作网络调整对学者绩效的影响。此外，大语言模型在特定任务（如相关性评估、临床摘要）中的适用性与局限性评估，以及面向低资源语言场景的应用探索，也成为当前的重要研究方向。",
+    "highlights": [
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证揭示了在学术写作中使用大语言模型会对论文的可见度与引文表现产生系统性影响，为理解AI对学术传播的影响提供了关键证据。",
+      "论文｜Revealing patterns of strategic knowledge evolution with BERTopic: Semantic–temporal trajectories via transparent adjacent-year linking in strategic management｜提出了一种结合BERTopic与透明跨年链接的方法，创新性地可视化了学科主题的语义-时间演化轨迹。",
+      "动态｜NormasTCU — A Brazilian Portuguese IR dataset and an evaluation of LLM-as-a-judge for relevance assessment｜不仅创建了稀缺的巴西葡萄牙语检索数据集，还系统评估了大语言模型用于相关性判断的可行性，对多语言信息检索研究具有重要价值。",
+      "动态｜PEFT: Evaluating parameter-efficient fine-tuning for clinical-note summarization across transformers and large language models｜系统评估了参数高效微调方法在临床文本摘要任务中的表现，为资源敏感场景下的模型适配提供了实用指南。",
+      "趋势判断｜从规则到推理：基于智能体与大语言模型的公共协作模拟研究兴起｜系统综述表明，结合智能体与大语言模型来模拟复杂社会协作行为正成为一个新兴的跨学科研究范式，拓展了计算社会科学的研究边界。"
+    ],
+    "stats": {
+      "papers": 172,
+      "news": 114,
+      "featured": 65
+    }
+  },
+  {
     "date": "2026-09-25",
     "summary": "今日图情领域的研究焦点集中于人工智能对科研与信息实践的多维度影响。在科学计量与评价方面，研究揭示了颠覆性AI工具（如AlphaFold）对非顶尖机构的赋能效应更为显著，同时指出超级高被引论文可能扭曲基于计数的大学排名，凸显了评价体系的方法论挑战。值得注意的是，有研究发现工程学领域使用大语言模型辅助写作的论文可能获得更高被引次数，引发了关于AI在科研生产中新角色的讨论。在AI应用层面，研究重点转向提升模型的可靠性与可解释性，包括通过本体引导的流程改进科学信息提取、检测多模态假新闻中的细粒度不一致性，以及构建评估AIGC质量的综合性指标体系。此外，参数高效微调技术在临床文本摘要等专业领域的应用评估，为资源受限下的模型部署提供了实证参考。",
     "highlights": [
@@ -146,71 +162,6 @@
       "papers": 177,
       "news": 124,
       "featured": 72
-    }
-  },
-  {
-    "date": "2026-09-14",
-    "summary": "今日图情领域的研究呈现出两个显著趋势：一是人工智能技术，特别是大语言模型（LLMs）和知识图谱的应用，正深度嵌入学术评价、信息检索、内容分析与服务等多个环节，并开始关注其应用的准确性、安全性和文化适应性等深层问题；二是科学计量与学术评价研究更加精细化，开始关注AI工具使用、早期研究轨迹等微观因素对学术成果可见性与学者生涯发展的影响。具体而言，在AI应用方面，研究重点从基础能力探索转向特定场景下的性能优化（如医疗问答、交通预测）和风险防范（如对抗攻击、错误信息识别），并强调多模态、知识增强与框架一致性。在计量评价方面，研究不仅关注宏观产出，更深入探讨作者贡献公平分配、AI采纳模式及性别差异等社会技术性因素。",
-    "highlights": [
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜首次实证探讨学者使用大语言模型对其论文被引情况的影响，揭示了AI工具可能重塑学术可见性格局。",
-      "论文｜AuthormetriX: automated calculation of authors’ scholarly output based on multiple non-inflationary author credit-allocation schemas｜开发了支持多种公平作者贡献分配方案的自动化计量系统，为精细化学术评价提供了新工具。",
-      "论文｜Fa-DPO: Faithfulness-Aware Direct Preference Optimization for medical question answering｜提出一种新优化方法，旨在提升大语言模型在医学问答等高风险领域生成答案的准确性与可靠性。",
-      "动态｜CulturalProbe: Probing Multilingual LLM Capabilities for Cultural Understanding｜构建了评估框架，系统检验多语言大模型在低资源语言文化理解上的能力边界，对全球化信息服务具有参考价值。",
-      "动态｜Combating mental health misinformation on social media: A knowledge-guided multimodal framework｜提出结合知识图谱与多模态信息的框架，为图书馆等信息机构参与治理特定领域网络错误信息提供了技术思路。",
-      "趋势判断｜AI应用从通用能力验证转向场景化、可信化与知识化融合｜今日研究显示，图情领域的AI应用正从基础探索，转向与领域知识（如医疗）、特定任务（如引文校验）及风险控制（如安全性）的深度融合。"
-    ],
-    "stats": {
-      "papers": 140,
-      "news": 127,
-      "featured": 73
-    }
-  },
-  {
-    "date": "2026-09-13",
-    "summary": "今日图情领域的研究焦点持续向人工智能应用与学术传播机制的深度融合倾斜。在AI应用方面，研究不仅关注通用技术（如大语言模型在学术写作中的影响、多模态分析框架的构建），更显著地转向特定场景下的可靠性、公平性与适应性优化，特别是在医疗、金融、交通预测及图书馆智能问答等专业领域。这反映出AI技术正从通用探索进入精细化、可信化部署阶段。同时，学术传播与评价体系的研究也展现出对流程效率与科学严谨性的双重关注，如同行评审的公平性优化和科学知识图谱研究的可重复性框架，旨在构建更稳健、透明的学术基础设施。用户行为研究则为理解人机协作的深层影响提供了实证依据。",
-    "highlights": [
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证研究学者使用大语言模型对其论文被引影响的早期模式，为学术评价提供新视角。",
-      "论文｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜运用博弈论模型设计兼顾公平与效率的审稿人分配机制，是对同行评审流程的重要理论优化。",
-      "动态｜Developing a multimodal library intelligent Q&A chatbot using retrieval-augmented generation (RAG) technology｜展示了RAG技术在图书馆参考咨询服务中的具体应用，是图书馆智能化服务的实践案例。",
-      "动态｜Generative AI use and sustainable pedagogical practices as predictors of 4Cs skill development｜揭示了数字素养在AI辅助教学与学生核心技能发展间的中介作用，对教育实践具有指导意义。",
-      "趋势判断｜AI应用研究显著聚焦于医疗、金融等垂直领域的可靠性、公平性与场景适应性，标志着技术从通用探索进入可信化与精细化部署新阶段。"
-    ],
-    "stats": {
-      "papers": 152,
-      "news": 129,
-      "featured": 58
-    }
-  },
-  {
-    "date": "2026-09-12",
-    "summary": "今日图情领域研究呈现出两大核心趋势：一是数据管理向精细化与伦理化发展，重点聚焦于网络档案等复杂数据集的高质量文档化框架构建，以及对匿名数据再识别风险的量化评估方法；二是人工智能应用持续深化，尤其在学术传播、医疗推理及信息治理等关键场景。多篇研究揭示了AI工具（如大语言模型）在学术写作中的采纳模式及其对引文公平性的潜在影响，同时，通过结合知识图谱、联邦学习等技术，旨在提升AI在专业领域（如医疗）的可靠性、一致性及对错误信息的识别能力。整体上，研究正从技术应用转向对技术应用后果、数据治理伦理及跨领域融合效能的深度审视。",
-    "highlights": [
-      "论文｜Critical questions for documenting collections as data: Provocations from developing datasheets for web archives datasets｜为网络档案数据集构建了一套系统化的数据表文档框架，是提升复杂研究数据可发现性与可重用性的重要实践。",
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证分析了学者使用大语言模型对其论文被引情况的影响，揭示了AI工具可能加剧学术传播不平等的关键议题。",
-      "动态｜KG-ACE: Knowledge Graph Alignment and Consistency Enhancement for medical reasoning with large language models｜提出结合知识图谱与大语言模型的方法，是提升AI在医疗等高可靠性领域推理准确性的重要技术路径。",
-      "动态｜A classification-based approach to the evaluation of personal identification risk for supposedly anonymous data｜提供了一种量化评估匿名数据再识别风险的方法，对数据发布与隐私保护实践具有指导意义。",
-      "趋势判断｜AI应用从效率提升转向可靠性、公平性与伦理治理的深度整合｜今日研究显示，图情领域的AI应用正更多地关注模型偏差、数据隐私、信息真实性及跨领域知识融合等深层挑战。"
-    ],
-    "stats": {
-      "papers": 171,
-      "news": 118,
-      "featured": 63
-    }
-  },
-  {
-    "date": "2026-09-11",
-    "summary": "今日图情领域的研究焦点高度集中于人工智能，特别是大语言模型在学术生产与评价中的影响与应用。核心议题包括：AI辅助写作对学术成果可见度与引用表现的系统性影响，以及如何构建更透明、可复现的知识计量与图谱分析流程。在应用层面，研究进一步探索了AI在提升同行评审公平性、增强图书馆智能服务、以及支持跨文化理解与教育创新等方面的潜力。整体呈现出计量研究深度融入AI分析、应用场景向专业化领域纵深发展的趋势。",
-    "highlights": [
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证研究揭示了在学术写作中采用大语言模型与论文引用表现之间的关联，为理解AI如何重塑学术影响力提供了关键证据。",
-      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出了一种先进的贝叶斯统计模型，能够更精确地处理引文数据中普遍存在的零值过多与长尾分布问题。",
-      "动态｜Developing a multimodal library intelligent Q&A chatbot using retrieval-augmented generation (RAG) technology｜展示了利用检索增强生成技术构建图书馆智能问答系统的具体路径，是AI赋能信息服务的实践案例。",
-      "动态｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜将博弈论模型引入同行评审流程优化，为解决审稿效率与公平性这一经典难题提供了新思路。",
-      "趋势判断｜AI应用从通用任务向专业领域（如生物医学事件抽取、博物馆文创设计）深度渗透，并与领域知识及工作流（如科学知识图谱分析）紧密结合。"
-    ],
-    "stats": {
-      "papers": 155,
-      "news": 115,
-      "featured": 69
     }
   }
 ]
