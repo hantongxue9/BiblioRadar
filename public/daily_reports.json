@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-09-27",
+    "summary": "今日图情领域的研究呈现出两大核心趋势：一是科研评价与知识生产模式的深度计量分析，二是人工智能在信息组织与检索中的前沿应用探索。在计量评价方面，研究重点转向处理引文数据中的复杂分布（如零膨胀与重尾）及其对排名的影响，并关注跨学科合作中地理与认知距离的交互作用，同时强调科学知识图谱分析的可重复性与作者贡献的公平分配。在AI应用领域，焦点从基础模型能力评估（如LLM作为相关性评判者、参数高效微调）转向更复杂的场景化问题，包括AI中介协作中的图书馆员角色、多模态假新闻检测、智能体推荐系统以及医疗、法律等垂直领域的可靠信息处理。这些进展共同指向图情学科在应对数据复杂性、保障算法可信度及支持跨学科知识创新方面的持续深化。",
+    "highlights": [
+      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出新贝叶斯模型，为处理引文数据中普遍存在的零值与极端高值问题提供了更稳健的统计方法。",
+      "论文｜Exploring the impact of super-cited papers on counting methods, counting inflation and university rankings: Evidence from engineering｜实证揭示了超级高被引论文如何扭曲文献计量结果及大学排名，对科研评价实践具有警示意义。",
+      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜实证研究表明，在AI辅助的团队协作中，图书馆员的适度指导能有效调节用户对AI的信任，提升创意产出质量。",
+      "动态｜From scoring to workflow: A survey of agentic recommender systems｜系统综述了推荐系统向基于智能体工作流范式演进的最新进展、架构与核心挑战。",
+      "趋势判断｜图情领域AI研究正从通用能力评估转向面向特定领域（如医疗、法律）和复杂任务（如多模态一致性分析、工作流构建）的可信与可靠应用探索。"
+    ],
+    "stats": {
+      "papers": 125,
+      "news": 121,
+      "featured": 73
+    }
+  },
+  {
     "date": "2026-09-26",
     "summary": "今日图情领域研究呈现出以人工智能技术深度融入为核心，同时关注数据治理与学术评价方法创新的趋势。在AI应用方面，研究重点聚焦于多模态信息处理与可解释性，例如通过分析图文间的细微矛盾来识别假新闻，以及构建可解释的网络欺凌检测模型。在学术传播与评价领域，研究运用先进的计量方法探索知识演化规律与合作网络动态，例如利用主题模型可视化战略管理领域的语义-时间轨迹，以及分析合作网络调整对学者绩效的影响。此外，大语言模型在特定任务（如相关性评估、临床摘要）中的适用性与局限性评估，以及面向低资源语言场景的应用探索，也成为当前的重要研究方向。",
     "highlights": [

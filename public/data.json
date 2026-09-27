@@ -184,6 +184,29 @@
     "id": 19556
   },
   {
+    "title": "Report: Oxford Lets OpenAI Train Its AI Models On Historical Texts From the Bodleian Library",
+    "abstract": "<p>From The Guardian: The University of Oxford has allowed the company behind ChatGPT to train its AI models on historical texts from its Bodleian Library, as tech companies scour academic institutions for fresh data. The Bodleian material digitised by OpenAI has been used to “populate the OpenAI training set”, according to internal documents. Oxford announced [&#8230;]</p>\n<p>The post <a href=\"https://www.infodocket.com/2026/09/26/report-oxford-lets-openai-train-its-ai-models-on-historical-texts-from-the-bodleian-library/\">Report: Oxford Lets OpenAI Train Its AI Models On Historical Texts From the Bodleian Library</a> appeared first on <a href=\"https://www.infodocket.com\">Library Journal infoDOCKET</a>.</p>",
+    "date": "2026-09-26",
+    "link": "https://www.infodocket.com/2026/09/26/report-oxford-lets-openai-train-its-ai-models-on-historical-texts-from-the-bodleian-library/",
+    "affiliations": "University of Oxford has allowed the company behind ChatGPT to train its AI models on historical texts from its Bodleian Library, as tech companies scour academic institutions for fresh data.",
+    "source": "Infodocket",
+    "tier": "C",
+    "field": "library_news",
+    "content_type": "news",
+    "category": "行业动态",
+    "thinking": "该资讯报道了牛津大学与OpenAI在历史文献数据使用上的合作，这是近期发生的具体事件，具有明确的新闻时效性。内容直接涉及图书馆馆藏资源的数字化利用和AI训练，与图情领域的数据管理、知识产权和馆藏服务创新高度相关。这一合作案例为图书馆界处理类似商业技术公司的数据请求提供了现实的参考和决策依据。",
+    "scores": {
+      "timeliness": 9,
+      "relevance": 9,
+      "information_value": 8
+    },
+    "one_sentence_summary": "牛津大学允许OpenAI使用其博德利图书馆的历史文献来训练人工智能模型。",
+    "credibility_score": 6.0,
+    "composite_score": 8.2,
+    "featured": true,
+    "id": 24763
+  },
+  {
     "title": "Residential Electricity Consumption Dataset for Sri Lanka (RECON-SL)",
     "abstract": "arXiv:2609.28783v1 Announce Type: new \nAbstract: This article describes the Residential Electricity Consumption Dataset for Sri Lanka (RECON-SL), a multi-source resource that integrates utility records, high-frequency smart meter data, and household surveys from the service area of Lanka Electricity Company (LECO) in Sri Lanka. The dataset captures electricity use for 4,063 households, collected over the period October 2022 to January 2025, with coverage at monthly, 6-hour, and 15-minute intervals. Monthly billing-cycle data provide complete coverage across all households, while smart meter data are available for a subsample of 1,438 households, offering both fine-grained 15-minute readings and coarser 6-hour records. Three survey waves complement these consumption measures, collecting information on demographics, housing, appliance ownership, and perceptions of energy security.\n  Across its components, the dataset includes more than 50 million meter readings and detailed survey responses from over 11,000 household interviews. As the first dataset of its kind in Sri Lanka, and among the few worldwide to link smart meter records with longitudinal survey data at this scale, it provides a unique resource for energy, machine learning and policy research, with known gaps in smart meter coverage documented for users. The dataset can support diverse applications, including electricity load forecasting, socio-economic and behavioral energy research, distribution planning, and policy analysis in energy affordability and equity. Access is provided through an open repository, with accompanying documentation and scripts to facilitate reuse.",
     "date": "2026-09-25",
@@ -11475,28 +11498,5 @@
     "composite_score": 6.5,
     "featured": false,
     "id": 22438
-  },
-  {
-    "title": "DPLA: Cleveland Public Library Takes the Helm of The National Digital Collection",
-    "abstract": "<p>From a DPLA Post: We’re excited to share that Cleveland Public Library (CPL) now maintains the digital collection of American cultural heritage. This vital program brings together over 50 million books, photos, maps, videos and more, contributed by more than 6,000 libraries, archives, and museums from across the country, making them discoverable in a single [&#8230;]</p>\n<p>The post <a href=\"https://www.infodocket.com/2026/09/15/dpla-cleveland-public-library-takes-the-helm-of-the-national-digital-collection/\">DPLA: Cleveland Public Library Takes the Helm of The National Digital Collection</a> appeared first on <a href=\"https://www.infodocket.com\">Library Journal infoDOCKET</a>.</p>",
-    "date": "2026-09-15",
-    "link": "https://www.infodocket.com/2026/09/15/dpla-cleveland-public-library-takes-the-helm-of-the-national-digital-collection/",
-    "affiliations": "",
-    "source": "Infodocket",
-    "tier": "C",
-    "field": "library_news",
-    "content_type": "news",
-    "category": "行业动态",
-    "thinking": "该资讯报道了美国数字公共图书馆（DPLA）国家数字馆藏管理权移交这一近期事件，具有明确的新闻时效性。事件本身是图书馆界在数字资源管理与协作方面的重要动态，对了解国家级数字项目运营模式具有参考价值。",
-    "scores": {
-      "timeliness": 9,
-      "relevance": 8,
-      "information_value": 7
-    },
-    "one_sentence_summary": "克利夫兰公共图书馆接替管理美国数字公共图书馆包含超5000万件资源的国家数字文化遗产馆藏。",
-    "credibility_score": 6.0,
-    "composite_score": 7.6,
-    "featured": true,
-    "id": 22444
   }
 ]
