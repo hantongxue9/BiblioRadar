@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-09-29",
+    "summary": "今日图情领域的研究呈现出以人工智能为核心驱动力的鲜明特征，尤其在学术评价与信息处理两个方向成果显著。在学术评价方面，研究焦点深入至AI技术采纳对科研产出的差异化影响、引文数据的复杂建模，以及高影响力文献对现有计量体系（如大学排名）的冲击，揭示出评价体系正面临由技术渗透带来的结构性调整。在信息处理方面，大语言模型的应用研究从通用任务转向专业化、可信化与多语言化场景，特别是在科学信息提取、文档级关系抽取及低资源领域应用上，更强调结合领域知识（如本体、结构化信息）来提升结果的准确性与可靠性，显示出AI应用正从技术探索迈向与学科需求深度融合的阶段。",
+    "highlights": [
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜首次实证揭示了在学术写作中采纳大语言模型的行为模式会系统性影响论文的引文表现与学术可见性。",
+      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出了一种创新的贝叶斯统计模型，为准确分析具有大量零值和极端高值的复杂引文数据提供了方法论支持。",
+      "动态｜<span class=\"small-caps\">NormasTCU</span> — A Brazilian Portuguese IR dataset and an evaluation of LLM-as-a-judge for relevance assessment｜创建了稀缺的巴西葡萄牙语IR数据集，并系统评估了使用大语言模型进行相关性判定的可行性，对多语言信息检索评估具有重要价值。",
+      "动态｜Fa-DPO: Faithfulness-Aware Direct Preference Optimization with risk-adaptive preference learning for medical question answering｜提出一种针对医学问答的优化方法，旨在提升大语言模型回答的准确性并减少事实性错误，对专业领域AI应用的可信化有指导意义。",
+      "趋势判断｜AI应用研究正从通用任务转向与特定领域知识深度融合的专业化、可信化场景，强调结构化信息、本体引导和验证流程，以应对复杂、高要求的科学信息处理任务。"
+    ],
+    "stats": {
+      "papers": 161,
+      "news": 120,
+      "featured": 67
+    }
+  },
+  {
     "date": "2026-09-28",
     "summary": "今日图情领域的研究焦点集中于大语言模型在学术与信息场景中的应用、评估及影响。一方面，多篇研究探讨了AI工具在学术写作、信息提取与检索评估中的效能与可信度，例如评估参数高效微调在临床笔记摘要中的表现，以及探索大语言模型作为信息检索相关性自动评估者的可行性。另一方面，研究也关注AI应用带来的潜在问题，包括学术写作中采用大语言模型对引文表现的影响，以及其在电商搜索中出现的查询分类错误。此外，同行评审的公平性机制、推荐系统的安全防御（如注入攻击识别）以及社交媒体错误信息的早期预警，也是今日的重要议题。整体呈现出技术深化应用与审慎评估其社会、学术影响并行的趋势。",
     "highlights": [
