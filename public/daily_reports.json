@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-09-30",
+    "summary": "今日图情领域的研究呈现出对人工智能应用效果与影响的深度关切，尤其是在学术交流与信息检索场景。核心议题之一是量化分析大语言模型在学术写作中的采纳模式及其对论文影响力的作用，相关实证研究揭示了其在特定学科可能带来的引用优势。同时，AI在专业领域的应用可靠性成为焦点，研究揭示了其在电商搜索、临床摘要生成等任务中存在的特定失败模式，并提出了相应的审计与微调策略以提升性能。另一方面，针对低资源语言与文化背景的信息处理研究持续深入，包括构建新的评测数据集、开发数据稀缺条件下的分析方法，以及评估模型的文化理解能力，旨在推动技术的包容性与公平性。",
+    "highlights": [
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证分析了学者使用LLM写作与其论文被引表现之间的关联，为理解AI对学术传播的影响提供了重要证据。",
+      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的大规模分析，发现LLM辅助写作与更高引用次数存在相关性。",
+      "动态｜Category mis-routing in LLM query planners: A reproducible failure mode and a label-free audit for e-commerce search｜揭示了LLM在电商查询规划中的系统性类别误判问题，并提出了一种无需人工标注的审计框架。",
+      "动态｜NormasTCU — A Brazilian Portuguese IR dataset and an evaluation of LLM-as-a-judge for relevance assessment｜发布了巴西葡萄牙语IR数据集，并系统评估了使用LLM自动进行相关性判定的效果与局限性。",
+      "趋势判断｜AI应用研究正从追求通用性能转向关注特定领域可靠性、低资源环境适应性与模型公平性评估。"
+    ],
+    "stats": {
+      "papers": 244,
+      "news": 127,
+      "featured": 65
+    }
+  },
+  {
     "date": "2026-09-29",
     "summary": "今日图情领域的研究呈现出以人工智能为核心驱动力的鲜明特征，尤其在学术评价与信息处理两个方向成果显著。在学术评价方面，研究焦点深入至AI技术采纳对科研产出的差异化影响、引文数据的复杂建模，以及高影响力文献对现有计量体系（如大学排名）的冲击，揭示出评价体系正面临由技术渗透带来的结构性调整。在信息处理方面，大语言模型的应用研究从通用任务转向专业化、可信化与多语言化场景，特别是在科学信息提取、文档级关系抽取及低资源领域应用上，更强调结合领域知识（如本体、结构化信息）来提升结果的准确性与可靠性，显示出AI应用正从技术探索迈向与学科需求深度融合的阶段。",
     "highlights": [
@@ -161,39 +177,6 @@
       "papers": 196,
       "news": 128,
       "featured": 69
-    }
-  },
-  {
-    "date": "2026-09-16",
-    "summary": "今日图情领域的研究呈现出大语言模型应用深化与评估并行的显著趋势。一方面，多篇研究聚焦于LLM在学术写作、内容生成与知识服务中的具体应用及其影响，包括对学术论文引用表现、图书馆智能问答系统开发以及科学文献语义化等方面的探索。另一方面，对AI模型自身能力与局限的评估，特别是在多模态信息处理、文化理解及模型公平性等复杂场景下的表现，成为重要的研究议题。此外，如何通过技术方法（如特征解耦、不确定性感知）提升AI模型在虚假信息检测、医学图像分割等任务中的鲁棒性与可解释性，也是当前关注的重点。",
-    "highlights": [
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证分析了学者使用LLM写作与其论文被引表现之间的关系，为理解AI对学术交流的影响提供了量化证据。",
-      "论文｜Detecting implicit inconsistency in multimodal fake news via fine-grained cross-modal adaptive reasoning｜提出一种新颖的多模态假新闻检测方法，通过细粒度跨模态推理识别文本与图像间的隐含矛盾。",
-      "动态｜Developing a multimodal library intelligent Q&A chatbot using retrieval-augmented generation (RAG) technology｜展示了RAG技术在图书馆智能问答场景中的具体应用，是图情机构利用前沿AI提升知识服务能力的实践案例。",
-      "动态｜PAIRE: A testbed for measuring dataset diversity and model fairness under limited sensitive information｜介绍了一个用于评估数据多样性与模型公平性的新测试平台，回应了AI伦理与治理中的关键挑战。",
-      "趋势判断｜AI应用研究从单一功能探索转向对能力边界、应用影响及模型可信度的系统性评估｜当前研究不仅关注AI能做什么，更深入探讨其在不同场景下的有效性、局限性和社会影响，标志着该领域进入更成熟的反思与实践阶段。"
-    ],
-    "stats": {
-      "papers": 214,
-      "news": 128,
-      "featured": 65
-    }
-  },
-  {
-    "date": "2026-09-15",
-    "summary": "今日图情领域的研究呈现出对人工智能应用影响进行深度评估与机制设计的强烈趋势。在学术传播与评价方面，研究重点从传统的计量指标转向对流程公平性、模型鲁棒性及结果可重复性的关注，如同行评审的博弈论优化、应对零引用与极端引用的贝叶斯模型，以及科学图谱分析的透明工作流构建。在AI应用层面，焦点集中于分析其引入后产生的复杂社会效应，包括学术写作中的不平等、法律与医疗领域的可信度提升、团队协作中的人机角色平衡，以及营销与信息传播中的风险。用户行为研究则深入在线社区动态与广告策略的宏观模式分析。整体而言，领域研究正从工具采纳转向对技术中介下信息生产、传播与评价生态的系统性审视与干预。",
-    "highlights": [
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证揭示了学者使用大语言模型写作可能加剧学术成果可见性的不平等，对学术传播生态具有警示意义。",
-      "论文｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜运用博弈论模型为优化同行评审流程提供了一种兼顾效率与公平的理论框架和解决方案。",
-      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出了一种先进的贝叶斯统计模型，能更准确地刻画和预测学术影响力分布中的极端情况。",
-      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions｜研究表明在AI辅助的协作学习中，馆员的适度引导对于提升团队创造力具有关键作用，为信息服务角色提供了新依据。",
-      "动态｜Evaluating LLM–NACE divergence in firm classification: A multi-metric analysis in the experience industry｜通过多指标系统评估了LLM在企业分类任务中与传统标准的差异，为AI在信息组织中的应用提供了严谨的验证视角。",
-      "趋势判断｜图情领域研究正从关注AI工具的技术效能，转向系统评估其对社会公平、学术诚信及信息生态的复杂影响，并致力于构建相应的治理与优化机制。"
-    ],
-    "stats": {
-      "papers": 177,
-      "news": 124,
-      "featured": 72
     }
   }
 ]
