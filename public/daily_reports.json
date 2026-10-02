@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-10-02",
+    "summary": "今日图情领域的研究呈现出对人工智能技术应用与影响的深度关切，以及计量评价方法的持续创新。在计量与评价方面，研究重点包括利用复杂网络分析专利丛林、探讨AI工具（如AlphaFold）对科研产出的差异化影响，以及分析开放同行评议、大语言模型使用与期刊自引模式对学术传播效果的影响。这些研究揭示了技术应用可能带来的结构性变化，如缩小机构间产出差距或改变引用模式。在AI应用层面，研究覆盖了从学术检索、情感分析到虚假信息治理的多个场景，强调模型的可解释性、与领域专家（如图书馆员）的协同，以及处理多语言、动态性问题的能力。数据管理与知识组织领域则关注可逆水印、基于知识实体的检索等底层技术。整体趋势显示，图情研究正深度介入并评估以AI为代表的新技术对知识生产、传播与利用全链条的塑造作用。",
+    "highlights": [
+      "论文｜AI boosts publication output more at non-elite institutions: Evidence from AlphaFold｜实证研究表明AI工具有助于弥合科研机构的产出鸿沟，对科研公平性研究具有启示意义。",
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜探讨学者使用大语言模型辅助写作对其论文可见度（被引）的影响，触及学术传播的核心关切。",
+      "动态｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜运用博弈论模型优化审稿人分配，为提升同行评议系统的效率与公平性提供了新思路。",
+      "动态｜A novel knowledge-entity-grounded scholarly retrieval framework in full-text academic documents｜提出基于知识实体的全文检索框架，是知识组织与信息检索结合的前沿探索。",
+      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions｜实证研究图书馆员在AI辅助协作中的角色，凸显了信息专业人员在新技术环境下的关键价值。",
+      "趋势判断｜图情研究正从评估技术应用效果，转向深度参与构建兼顾公平、效率与可解释性的智能化学术信息环境。"
+    ],
+    "stats": {
+      "papers": 206,
+      "news": 130,
+      "featured": 81
+    }
+  },
+  {
     "date": "2026-10-01",
     "summary": "今日图情领域的研究焦点高度集中于人工智能，特别是大语言模型在学术与信息实践中的应用及其影响评估。在学术传播与计量方面，多项实证研究揭示了LLM辅助写作与引用表现之间的复杂关联，并开始探索优化同行评审等核心环节的新机制。在AI应用层面，研究呈现出显著的领域深化与问题细化趋势，涵盖从多语言信息处理（如阿拉伯语评论分析）、特定领域可靠性（如医学问答）到公平性与偏见审计等多个维度。同时，面向图书馆、档案馆、博物馆等具体场景的AI效能评估与干预研究也在持续推进，显示出图情学科在技术浪潮中坚实的实践锚点与批判性思考。",
     "highlights": [
@@ -143,40 +160,6 @@
       "papers": 172,
       "news": 121,
       "featured": 72
-    }
-  },
-  {
-    "date": "2026-09-21",
-    "summary": "今日图情领域的研究焦点高度集中于人工智能（AI）应用的深化与评估，同时，对学术传播与科研评价中公平性与复杂性的关注持续升温。在AI应用方面，研究呈现出从通用能力探索向垂直领域（如医疗、金融、交通）和特定问题（如公平性、忠实性、持续学习）的精细化发展。多篇论文探讨了如何提升大语言模型在专业场景（如临床摘要、医学问答）中的可靠性、公平性与适应性，并关注其潜在风险（如意识形态偏移）及企业信息披露策略。在计量评价领域，研究揭示了AI工具（如AlphaFold）可能对非顶尖机构产生的差异化影响，以及国家间AI转型的差距，并提出了处理复杂引文数据的新模型。学术传播方面则出现了旨在优化审稿公平性的博弈论新机制。总体而言，AI正深刻重塑信息获取、知识组织与科研评价的各个环节，相关研究正从技术可行性验证转向对效果、影响及伦理的深度审视。",
-    "highlights": [
-      "论文｜AI boosts publication output more at non-elite institutions: Evidence from AlphaFold｜为理解前沿AI工具如何影响科研生态与机构差距提供了关键实证证据。",
-      "论文｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜运用博弈论为优化同行评审的公平性分配机制提供了创新理论模型。",
-      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜实证研究了在AI信息中介场景下，馆员角色与用户认知如何共同影响协作创新。",
-      "动态｜Political Ideology Shifts in Large Language Models｜警示了大语言模型可能存在的系统性偏见，对构建公平的信息服务系统至关重要。",
-      "动态｜PEFT: Evaluating parameter-efficient fine-tuning for clinical-note summarization across transformers and large language models｜为资源受限场景下高效部署大模型于专业文本处理任务提供了实用的评估基准。",
-      "趋势｜AI应用研究正从通用能力验证转向垂直领域深化与风险治理并重｜表明图情领域对AI的关注点已进入追求实效、可控和负责任应用的新阶段。"
-    ],
-    "stats": {
-      "papers": 148,
-      "news": 122,
-      "featured": 63
-    }
-  },
-  {
-    "date": "2026-09-18",
-    "summary": "今日图情领域的研究呈现出鲜明的跨学科与技术驱动特征，核心议题围绕人工智能与数据科学的应用深化及其伦理与社会影响展开。在学术传播与评价方面，开放同行评审机制的有效性得到实证支持，而新的分析框架与工具（如Biblioshiny与SAAS工作流）致力于提升科学计量研究的透明度与可复现性，反映了领域对方法学严谨性的持续追求。人工智能应用是多点突破的焦点，研究涵盖从图书馆服务（如智能问答机器人、AI辅助信息中介）到更广泛的科技治理问题（如联邦学习中的模型性能下降、AI企业隐私披露策略）。特别值得注意的是，研究不仅关注技术效能，更深入探讨人机协同（如馆员指导与AI信任的交互影响）以及技术应用的社会维度（如技能培养的中介机制、数据集公平性评估），显示出图情学科在技术浪潮中坚守的人文与社会科学关切。",
-    "highlights": [
-      "论文｜Score increases, author–reviewer communication, and subsequent citations in open peer review: Evidence from ICLR｜为开放同行评审能通过促进有效沟通提升论文质量与影响力提供了有力的实证证据。",
-      "论文｜Revealing country-level disparities in researchers’ transition to artificial intelligence: A two-stage analytical framework｜提出了一个创新的分析框架，系统揭示了全球科研人员在向AI转型过程中存在的国家间不平衡现象。",
-      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜深入探讨了在AI中介的信息服务场景下，专业馆员干预与用户技术信任如何共同塑造协作创新成果。",
-      "动态｜Developing a multimodal library intelligent Q&A chatbot using retrieval-augmented generation (RAG) technology｜展示了将当前前沿的检索增强生成技术具体应用于构建下一代图书馆智能问答系统的实践探索。",
-      "动态｜Transparency or obscurity: Privacy information disclosure strategies for generative artificial intelligence enterprise｜直接回应了生成式AI产业发展中的核心治理难题，即企业如何在透明度与商业利益间寻求平衡。",
-      "趋势判断｜图情研究正从对AI技术的单向应用，转向更复杂的人机协同机制、技术社会影响评估及跨领域治理策略的系统性探究。"
-    ],
-    "stats": {
-      "papers": 213,
-      "news": 117,
-      "featured": 63
     }
   }
 ]
