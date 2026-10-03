@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-10-03",
+    "summary": "今日图情领域的研究持续聚焦于大语言模型等人工智能技术的深度应用及其带来的影响评估。在AI应用方面，研究重点包括如何提升AI信息抽取的可信度、利用AI改进医疗推荐与灾害管理，以及AI工具对学术写作与影响力分配的潜在影响。数据管理领域关注网络档案等复杂数据集的规范化描述与安全保护。计量评价研究则利用先进主题模型探索知识演化模式，并实证分析AI工具使用与论文引用表现之间的关联。整体呈现出技术应用与反思评估并重、跨领域融合加深的趋势。",
+    "highlights": [
+      "论文｜Toward trustworthy LLM-based scientific information extraction: An ontology-guided, validation-aware workflow and a single-domain case study｜提出了一种结合本体引导与验证的工作流程，旨在提高大语言模型从科学文献中抽取信息的准确性与可信度。",
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证分析了使用大语言模型辅助写作对论文被引表现的影响，揭示了AI工具可能重塑学术影响力分配的新机制。",
+      "论文｜Revealing patterns of strategic knowledge evolution with BERTopic: Semantic–temporal trajectories via transparent adjacent-year linking in strategic management｜利用改进的BERTopic模型和透明的时间链接方法，清晰揭示了战略管理领域知识主题的语义演化轨迹。",
+      "动态｜Critical questions for documenting collections as data: Provocations from developing datasheets for web archives datasets｜为网络档案数据集的管理与复用，提出了一套创建标准化数据说明书的关键问题框架，对数据实践有指导意义。",
+      "动态｜PEFT: Evaluating parameter-efficient fine-tuning for clinical-note summarization across transformers and large language models｜系统评估了参数高效微调方法在临床文本摘要任务上的表现，为资源受限下的专业领域大模型应用提供了重要参考。",
+      "趋势判断｜AI应用研究从技术效能验证转向可信度、影响评估与工作流程整合，标志着该领域进入更注重实际效用与反思的新阶段。"
+    ],
+    "stats": {
+      "papers": 188,
+      "news": 121,
+      "featured": 71
+    }
+  },
+  {
     "date": "2026-10-02",
     "summary": "今日图情领域的研究呈现出对人工智能技术应用与影响的深度关切，以及计量评价方法的持续创新。在计量与评价方面，研究重点包括利用复杂网络分析专利丛林、探讨AI工具（如AlphaFold）对科研产出的差异化影响，以及分析开放同行评议、大语言模型使用与期刊自引模式对学术传播效果的影响。这些研究揭示了技术应用可能带来的结构性变化，如缩小机构间产出差距或改变引用模式。在AI应用层面，研究覆盖了从学术检索、情感分析到虚假信息治理的多个场景，强调模型的可解释性、与领域专家（如图书馆员）的协同，以及处理多语言、动态性问题的能力。数据管理与知识组织领域则关注可逆水印、基于知识实体的检索等底层技术。整体趋势显示，图情研究正深度介入并评估以AI为代表的新技术对知识生产、传播与利用全链条的塑造作用。",
     "highlights": [
