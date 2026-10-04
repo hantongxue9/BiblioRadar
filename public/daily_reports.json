@@ -1,19 +1,19 @@
 [
   {
-    "date": "2026-10-03",
-    "summary": "今日图情领域的研究持续聚焦于大语言模型等人工智能技术的深度应用及其带来的影响评估。在AI应用方面，研究重点包括如何提升AI信息抽取的可信度、利用AI改进医疗推荐与灾害管理，以及AI工具对学术写作与影响力分配的潜在影响。数据管理领域关注网络档案等复杂数据集的规范化描述与安全保护。计量评价研究则利用先进主题模型探索知识演化模式，并实证分析AI工具使用与论文引用表现之间的关联。整体呈现出技术应用与反思评估并重、跨领域融合加深的趋势。",
+    "date": "2026-10-04",
+    "summary": "今日图情领域的研究与实践呈现出以人工智能深度应用为核心、兼顾效率与公平、并面向具体场景深化发展的特征。在学术传播与评价方面，研究关注基于博弈论的公平审稿机制，以及大语言模型辅助写作对论文影响力的潜在关联。AI应用是绝对热点，多个研究聚焦于AI在图书馆服务（如智能问答、协作问题解决中的馆员角色）、信息提取的可信度提升（如结合本体与验证流程）、特定领域（如金融、法律）的实体识别与分类等具体场景。知识组织领域继续探索利用知识图谱为文献添加语义信息。行业层面，欧洲研究图书馆协会（LIBER）发布了新的战略规划及支持开放获取与数字学术的实用资源，反映了机构层面的战略布局与实践支持。",
     "highlights": [
-      "论文｜Toward trustworthy LLM-based scientific information extraction: An ontology-guided, validation-aware workflow and a single-domain case study｜提出了一种结合本体引导与验证的工作流程，旨在提高大语言模型从科学文献中抽取信息的准确性与可信度。",
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证分析了使用大语言模型辅助写作对论文被引表现的影响，揭示了AI工具可能重塑学术影响力分配的新机制。",
-      "论文｜Revealing patterns of strategic knowledge evolution with BERTopic: Semantic–temporal trajectories via transparent adjacent-year linking in strategic management｜利用改进的BERTopic模型和透明的时间链接方法，清晰揭示了战略管理领域知识主题的语义演化轨迹。",
-      "动态｜Critical questions for documenting collections as data: Provocations from developing datasheets for web archives datasets｜为网络档案数据集的管理与复用，提出了一套创建标准化数据说明书的关键问题框架，对数据实践有指导意义。",
-      "动态｜PEFT: Evaluating parameter-efficient fine-tuning for clinical-note summarization across transformers and large language models｜系统评估了参数高效微调方法在临床文本摘要任务上的表现，为资源受限下的专业领域大模型应用提供了重要参考。",
-      "趋势判断｜AI应用研究从技术效能验证转向可信度、影响评估与工作流程整合，标志着该领域进入更注重实际效用与反思的新阶段。"
+      "论文｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜通过博弈论模型设计兼顾公平与效率的审稿人分配新机制，为优化同行评审流程提供理论依据。",
+      "论文｜Toward trustworthy LLM-based scientific information extraction: An ontology-guided, validation-aware workflow and a single-domain case study｜提出融合本体约束与验证流程的方法，旨在提升大语言模型在科学信息抽取中的准确性与可信度。",
+      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜实证研究馆员指导强度与AI认知权威感知如何共同影响团队创意，为AI时代图书馆员角色定位提供参考。",
+      "动态｜Our 2023-2027 Strategy｜欧洲研究图书馆协会发布未来五年战略规划，明确其在开放科学、数字学术与技能发展等方面的核心方向。",
+      "动态｜Digital Scholarship & Data Science Topic Guides｜LIBER发布数字学术与数据科学主题指南，为图书馆员支持研究数据管理与数字人文提供实用工具。",
+      "趋势｜AI应用场景深化与可信度构建｜今日研究显示，AI在图情领域的应用正从通用探索转向金融、法律、文创等具体场景的深化，并同步关注通过工作流程设计（如本体、验证）来构建其可信度。"
     ],
     "stats": {
-      "papers": 188,
-      "news": 121,
-      "featured": 71
+      "papers": 140,
+      "news": 123,
+      "featured": 61
     }
   },
   {

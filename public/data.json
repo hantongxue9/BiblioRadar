@@ -3887,6 +3887,29 @@
     "id": 25593
   },
   {
+    "title": "Practitioner-researchers in social care and social work – hope for the future or promises unfulfilled?",
+    "abstract": "<p>As investment in research capacity building for those who work in social care and social work increases, Hannah Kendrick, Sharon Paul and Juliette Malley discuss areas of potential, whilst setting out challenges in navigating a complex landscape, differential access to training, and organisational conditions that may inhibit practitioner-researcher roles from flourishing. Social care and social &#8230; <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences/2026/09/30/practitioner-researchers-in-social-care-and-social-work-hope-for-the-future-or-promises-unfulfilled/\">Continued</a></p>\n<p>The post <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences/2026/09/30/practitioner-researchers-in-social-care-and-social-work-hope-for-the-future-or-promises-unfulfilled/\">Practitioner-researchers in social care and social work – hope for the future or promises unfulfilled?</a> first appeared on <a href=\"https://blogs.lse.ac.uk/impactofsocialsciences\">LSE Impact</a>.</p>",
+    "date": "2026-09-30",
+    "link": "https://blogs.lse.ac.uk/impactofsocialsciences/2026/09/30/practitioner-researchers-in-social-care-and-social-work-hope-for-the-future-or-promises-unfulfilled/",
+    "affiliations": "",
+    "source": "LSE Impact Blog",
+    "tier": "C",
+    "field": "academic_impact",
+    "content_type": "news",
+    "category": "观点评论",
+    "thinking": "该资讯讨论社会工作领域的实践者-研究者角色，虽然涉及研究能力建设，但其核心议题是特定专业领域的人力资源发展，与图书馆学、信息科学的核心业务（如信息组织、检索、服务、技术管理）的直接关联度较弱。资讯发布于2026年，具有未来时效性，但内容偏向观点评论，对图情从业者的具体实践决策参考价值有限。",
+    "scores": {
+      "timeliness": 9,
+      "relevance": 3,
+      "information_value": 4
+    },
+    "one_sentence_summary": "一篇博客文章探讨了社会工作中实践者兼任研究者的角色所面临的机遇与挑战。",
+    "credibility_score": 6.0,
+    "composite_score": 5.3,
+    "featured": false,
+    "id": 26369
+  },
+  {
     "title": "More of the same? Are scientific papers losing originality?",
     "abstract": "arXiv:2609.32963v1 Announce Type: new \nAbstract: Scientific output is growing rapidly, but it is unclear whether the expanding literature remains original or is increasingly repeating itself. Originality has many dimensions. One dimension can now be measured directly: how textually distinct a paper is from the work that came before it. Using semantic language models, we screened more than 26,000 full-text papers across eight fields in the CORE database (2015--2025) for passages resembling recent literature. We compared every paper against a fixed-size sample of earlier work, so increases in resemblance are not a by-product of literature growth. We find that the share of a paper's text resembling recent work was stable before 2021, then rose sharply, more than tripling by 2025. The increase came not from a few papers borrowing more heavily but from resemblance spreading across the literature: more papers now contain passages that echo recent work, and almost none of this growth is explained by cited work. We also found an analogous increase in passages expressing the same scientific idea. The pattern held across robustness checks and replicated in a second, independent database. Along this one measurable axis of originality, scientific writing has become less distinct from the work preceding it.",
     "date": "2026-09-29",
@@ -11475,28 +11498,5 @@
     "composite_score": 6.9,
     "featured": false,
     "id": 23680
-  },
-  {
-    "title": "What Makes a Good Semantic ID for Generative Recommendation? A Reproducibility Study",
-    "abstract": "arXiv:2609.24430v1 Announce Type: new \nAbstract: Generative recommendation has emerged as an active research direction, where items are commonly represented by semantic IDs (SIDs): discrete codes generated token by token. Despite strong empirical results, SID designs vary widely in construction strategy, codebook organization, and code length, making their true impact on recommendation performance unclear.\n  We conduct a large-scale reproducibility study to systematically investigate the impact of semantic ID design on generative recommendation under a unified experimental framework. We focus on a fundamental question: What makes a good semantic ID for generative recommendation? To answer this question, we examine four aspects: the relative effectiveness of different semantic ID designs, the connection between codebook utilization and recommendation quality, the effect of semantic code length, and the influence of semantic ID design on local item semantic preservation. Through a unified evaluation and additional cross-dataset controlled analyses, we find that the effects of SID design are largely non-monotonic: no single SID design is universally best, and commonly used RQ-VAE- and OPQ-based designs can behave inconsistently across datasets. The method with the most balanced first-level codebook is not consistently the best recommender, showing that utilization is diagnostic but insufficient. Scaling either the generative backbone or the SID length is also not always beneficial. Finally, semantic-neighborhood analysis reveals that no single SID design dominates all notions of local semantic preservation; instead, different designs exhibit complementary strengths that remain stable across datasets and neighborhood sizes. Our study provides a controlled and reproducible understanding of semantic ID design and offers practical insights for future generative recommender systems.",
-    "date": "2026-09-22",
-    "link": "https://arxiv.org/abs/2609.24430",
-    "affiliations": "",
-    "source": "arXiv - Information Retrieval",
-    "tier": "C",
-    "field": "information_retrieval",
-    "content_type": "paper",
-    "category": "检索与推荐",
-    "thinking": "论文通过大规模可重复性研究，系统评估了生成式推荐中语义ID设计的影响，方法严谨且具有实证基础。研究聚焦于设计要素对性能的非单调性影响，为实际系统构建提供了重要参考，但未引入全新的前沿技术，主要贡献在于验证与澄清现有方法。",
-    "scores": {
-      "frontier_tech": 7,
-      "practical_value": 9,
-      "methodological_rigor": 9
-    },
-    "one_sentence_summary": "研究发现，生成式推荐中的语义ID设计效果并非单调，其最佳选择取决于具体数据集，为实际系统构建提供了关键实证依据。",
-    "credibility_score": 6.0,
-    "composite_score": 6.8,
-    "featured": false,
-    "id": 23681
   }
 ]
