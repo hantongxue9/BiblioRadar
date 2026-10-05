@@ -1,19 +1,18 @@
 [
   {
-    "date": "2026-10-04",
-    "summary": "今日图情领域的研究与实践呈现出以人工智能深度应用为核心、兼顾效率与公平、并面向具体场景深化发展的特征。在学术传播与评价方面，研究关注基于博弈论的公平审稿机制，以及大语言模型辅助写作对论文影响力的潜在关联。AI应用是绝对热点，多个研究聚焦于AI在图书馆服务（如智能问答、协作问题解决中的馆员角色）、信息提取的可信度提升（如结合本体与验证流程）、特定领域（如金融、法律）的实体识别与分类等具体场景。知识组织领域继续探索利用知识图谱为文献添加语义信息。行业层面，欧洲研究图书馆协会（LIBER）发布了新的战略规划及支持开放获取与数字学术的实用资源，反映了机构层面的战略布局与实践支持。",
+    "date": "2026-10-05",
+    "summary": "今日图情领域的研究呈现出对人工智能工具应用影响的深度量化评估，以及对学术交流过程进行建模优化的持续关注。核心发现包括：前沿AI工具（如AlphaFold、LLM）的采纳存在结构性差异，可能重塑研究机构的产出格局；开放同行评审中的有效沟通与论文质量、影响力正相关；针对学术数据（如引用、署名）的复杂统计建模方法不断演进。同时，AI应用研究聚焦于提升信息治理（如谣言识别、虚假信息预警）的时效性与可信度，以及在特定领域（如临床文本、新闻分析）构建更可靠、可解释的工作流程。",
     "highlights": [
-      "论文｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜通过博弈论模型设计兼顾公平与效率的审稿人分配新机制，为优化同行评审流程提供理论依据。",
-      "论文｜Toward trustworthy LLM-based scientific information extraction: An ontology-guided, validation-aware workflow and a single-domain case study｜提出融合本体约束与验证流程的方法，旨在提升大语言模型在科学信息抽取中的准确性与可信度。",
-      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜实证研究馆员指导强度与AI认知权威感知如何共同影响团队创意，为AI时代图书馆员角色定位提供参考。",
-      "动态｜Our 2023-2027 Strategy｜欧洲研究图书馆协会发布未来五年战略规划，明确其在开放科学、数字学术与技能发展等方面的核心方向。",
-      "动态｜Digital Scholarship & Data Science Topic Guides｜LIBER发布数字学术与数据科学主题指南，为图书馆员支持研究数据管理与数字人文提供实用工具。",
-      "趋势｜AI应用场景深化与可信度构建｜今日研究显示，AI在图情领域的应用正从通用探索转向金融、法律、文创等具体场景的深化，并同步关注通过工作流程设计（如本体、验证）来构建其可信度。"
+      "论文｜AI boosts publication output more at non-elite institutions: Evidence from AlphaFold｜实证研究表明AlphaFold显著缩小了非顶尖机构与精英机构的论文产出差距，揭示了AI工具对科研格局的潜在重塑作用。",
+      "论文｜Score increases, author–reviewer communication, and subsequent citations in open peer review: Evidence from ICLR｜基于ICLR会议数据的实证分析，揭示了开放评审中作者与审稿人互动对论文评分及后续影响力的积极影响。",
+      "动态｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的大规模分析发现，使用大语言模型辅助写作与更高的被引次数存在关联。",
+      "动态｜Toward trustworthy LLM-based scientific information extraction: An ontology-guided, validation-aware workflow｜提出结合本体论与验证流程的新方法，旨在构建更可信的大语言模型科学信息提取系统。",
+      "趋势判断｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression｜针对学术引用数据中大量零值和极端值的复杂分布，提出了更精细的贝叶斯统计建模框架，代表了计量方法学的前沿方向。"
     ],
     "stats": {
-      "papers": 140,
-      "news": 123,
-      "featured": 61
+      "papers": 149,
+      "news": 97,
+      "featured": 46
     }
   },
   {
