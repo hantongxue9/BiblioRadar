@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-10-06",
+    "summary": "今日图情领域的研究呈现出对人工智能（特别是大语言模型）应用效果与影响的深度关注，以及计量与评价方法论的持续创新。在计量与评价方面，研究重点在于利用复杂网络、主题模型等新方法分析知识演化模式，并开始实证考察大语言模型采纳对学术成果影响力的具体关联。在人工智能应用层面，研究不仅探索了其在信息抽取、情感分析、谣言治理等具体任务中的技术优化，更深入至人机协作、模型可信度评估及社会现象模拟等复杂场景。整体趋势表明，该领域正从技术应用探索阶段，迈向对技术应用效果、社会影响及伦理风险的实证与系统性评估阶段。",
+    "highlights": [
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证揭示了学术写作中采纳大语言模型与论文引用表现之间的关联，为评估AI对学术交流的影响提供了量化证据。",
+      "论文｜Toward trustworthy LLM-based scientific information extraction: An ontology-guided, validation-aware workflow and a single-domain case study｜提出了结合本体引导与验证的大语言模型科学信息提取工作流程，旨在提升自动化信息处理结果的可信度与可靠性。",
+      "动态｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的大规模分析，为“AI辅助写作可能提升学术影响力”这一现象提供了强有力的数据支持。",
+      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜探讨了在AI辅助的协作学习中图书馆员指导的关键作用，为信息专业人员在智能环境下的角色定位提供了新见解。",
+      "趋势判断｜从规则到推理：基于智能体与赋能的模拟研究系统综述｜系统梳理了利用智能体和大语言模型模拟公共协作的研究，预示着计算社会科学方法在理解复杂信息行为与社会互动方面将扮演更重要的角色。"
+    ],
+    "stats": {
+      "papers": 182,
+      "news": 96,
+      "featured": 53
+    }
+  },
+  {
     "date": "2026-10-05",
     "summary": "今日图情领域的研究呈现出对人工智能工具应用影响的深度量化评估，以及对学术交流过程进行建模优化的持续关注。核心发现包括：前沿AI工具（如AlphaFold、LLM）的采纳存在结构性差异，可能重塑研究机构的产出格局；开放同行评审中的有效沟通与论文质量、影响力正相关；针对学术数据（如引用、署名）的复杂统计建模方法不断演进。同时，AI应用研究聚焦于提升信息治理（如谣言识别、虚假信息预警）的时效性与可信度，以及在特定领域（如临床文本、新闻分析）构建更可靠、可解释的工作流程。",
     "highlights": [
@@ -160,22 +176,6 @@
       "papers": 191,
       "news": 135,
       "featured": 67
-    }
-  },
-  {
-    "date": "2026-09-22",
-    "summary": "今日图情领域的研究呈现出两大核心趋势：一是对人工智能，特别是大型语言模型（LLM）在学术生产与评价中作用的深度量化分析；二是AI技术在信息处理、评估及决策支持等具体场景中的方法创新与应用探索。在计量与评价方面，多篇论文聚焦于LLM辅助写作与学术影响力（如引用）的关联性研究，揭示了技术采纳可能带来的潜在影响。在AI应用层面，研究重点从单纯的模型性能转向可靠性、可解释性及特定领域（如医学、金融、假新闻检测）的适应性，涌现出旨在提升模型评估质量、理解复杂社会价值以及处理动态扩展数据环境的新方法与测试基准。此外，数据管理与利用的价值实现路径、以及智能体在模拟与推荐系统中的角色演变，也是今日值得关注的研究方向。",
-    "highlights": [
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证研究揭示了学者使用大语言模型写作与其论文被引表现之间的关联，为理解AI对学术评价体系的潜在影响提供了关键证据。",
-      "论文｜Towards reliable LLM evaluators: Discovering and internalizing explicit scoring logic｜提出了一种通过内化明确评分规则来提升大语言模型作为评估工具可靠性与可解释性的新方法。",
-      "动态｜NormasTCU — A Brazilian葡萄牙语IR数据集及LLM评估研究｜创建了特定语言领域的法律检索数据集，并系统评估了使用大语言模型进行相关性判定的可行性与局限。",
-      "动态｜Fa-DPO: 面向医学问答的忠实性感知偏好优化｜针对医学领域对答案准确性的高要求，提出了一种新的模型优化方法以提升生成内容的可靠性。",
-      "趋势判断｜从静态评分到动态工作流：智能体推荐系统研究综述｜系统梳理了推荐系统从传统模型向基于智能体的、具备动态交互与工作流能力的新范式演进趋势。"
-    ],
-    "stats": {
-      "papers": 172,
-      "news": 121,
-      "featured": 72
     }
   }
 ]
