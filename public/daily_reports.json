@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-10-07",
+    "summary": "今日图情领域的研究呈现出数据管理精细化与人工智能应用深化两大趋势。在数据管理方面，标准化与可重用性成为焦点，研究为网络档案数据集开发了数据表框架，并为中国生物医学领域提出了提升数据FAIR原则的系统策略。人工智能的影响持续扩展至学术生产的全过程，多篇研究探讨了大语言模型在学术写作、引用表现以及信息检索中的实际效果与潜在问题，表明AI已深度介入知识创造与传播环节。同时，知识计量方法不断演进，通过语义分析、网络科学等新工具揭示专利丛林、领域知识演化等复杂现象，并关注学术诚信与问题论文的识别。",
+    "highlights": [
+      "论文｜Critical questions for documenting collections as data: Provocations from developing datasheets for web archives datasets｜为网络档案数据集构建了一套标准化的数据文档化框架，对提升数据集的长期保存与重用价值具有重要实践意义。",
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证探讨了学者使用大语言模型与其论文引用表现之间的关系，触及了AI时代学术评价的新维度。",
+      "动态｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的大规模分析，为理解AI辅助写作对学术影响力的实际作用提供了有力证据。",
+      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜揭示了在AI信息中介场景下，专业馆员指导与用户认知仍对创造性成果产生关键影响，强调了人机协同的价值。",
+      "趋势判断｜知识计量研究正从传统指标分析转向融合语义、网络与动态轨迹的复杂模式揭示，以理解知识演化、学术不端及技术转型等深层结构。"
+    ],
+    "stats": {
+      "papers": 243,
+      "news": 97,
+      "featured": 51
+    }
+  },
+  {
     "date": "2026-10-06",
     "summary": "今日图情领域的研究呈现出对人工智能（特别是大语言模型）应用效果与影响的深度关注，以及计量与评价方法论的持续创新。在计量与评价方面，研究重点在于利用复杂网络、主题模型等新方法分析知识演化模式，并开始实证考察大语言模型采纳对学术成果影响力的具体关联。在人工智能应用层面，研究不仅探索了其在信息抽取、情感分析、谣言治理等具体任务中的技术优化，更深入至人机协作、模型可信度评估及社会现象模拟等复杂场景。整体趋势表明，该领域正从技术应用探索阶段，迈向对技术应用效果、社会影响及伦理风险的实证与系统性评估阶段。",
     "highlights": [
@@ -143,39 +159,6 @@
       "papers": 157,
       "news": 128,
       "featured": 65
-    }
-  },
-  {
-    "date": "2026-09-24",
-    "summary": "今日图情领域的研究呈现出以人工智能应用为核心、方法学持续深化、并关注其社会影响的鲜明特点。在学术评价方面，研究揭示了AI工具（如AlphaFold）对非顶尖机构科研产出的促进作用，以及大语言模型辅助写作与引用表现之间的潜在关联，同时新的贝叶斯统计模型为处理引文数据的极端分布提供了更优解。在AI应用层面，焦点从单纯的技术实现转向可信、公平与有效集成。具体表现为：关注LLM在科学信息提取、电商搜索中的可靠性问题；探索如何通过馆员引导、联邦学习优化等方法，在协作、医疗等场景中更好地发挥AI作用；并构建新的评测基准与算法以应对模型公平性、网络社区发现等挑战。行业动态则显示，开放科学作为宏观政策环境，持续受到图情机构关注。",
-    "highlights": [
-      "论文｜AI boosts publication output more at non-elite institutions: Evidence from AlphaFold｜该研究为理解AI工具如何影响科研生态与资源分配不平等提供了重要的实证证据。",
-      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出的贝叶斯模型为处理引文计量中普遍存在的极端分布数据提供了更严谨的统计学方法。",
-      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜强调了在AI辅助的信息中介过程中，专业馆员的深度干预对于提升团队创造力的关键作用。",
-      "动态｜Advancing Open Science｜欧洲研究图书馆协会的动态为图书馆在开放科学实践中制定策略提供了最新的行业参考。",
-      "趋势判断｜AI应用研究从功能实现转向可信、公平与场景化集成｜今日多篇论文共同指向对AI可靠性、偏见缓解及与现有工作流程（如馆员指导、联邦学习）深度融合的关注，标志着该领域进入更注重实际效用与社会影响的阶段。"
-    ],
-    "stats": {
-      "papers": 165,
-      "news": 127,
-      "featured": 72
-    }
-  },
-  {
-    "date": "2026-09-23",
-    "summary": "今日图情领域研究呈现出以人工智能应用为核心的多元化发展态势，尤其在学术评价与AI辅助研究、信息组织与检索、以及特定领域知识服务方面取得显著进展。在学术评价方面，多篇研究聚焦于大语言模型对学术写作与引用行为的影响，揭示了AI辅助写作与引用绩效之间的关联，为理解AI时代的知识生产与传播提供了实证依据。在信息组织与检索领域，研究从传统模型向智能体化和工作流范式演进，同时，针对复杂网络社区发现、多模态假新闻检测、法律实体抽取等具体任务提出了新的算法与框架。此外，面向医疗、金融、灾害管理等垂直领域的AI应用研究持续深化，关注模型效率、可扩展性、公平性及在实际协作环境中的效用，体现了图情学科在推动负责任、可解释且高效的人工智能技术落地方面的关键角色。",
-    "highlights": [
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证分析学者使用大语言模型写作对其论文被引用情况的影响，为AI时代学术影响力研究提供新视角。",
-      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的大规模数据分析，揭示AI辅助写作与更高引用次数之间的关联。",
-      "动态｜From scoring to workflow: A survey of agentic recommender systems｜系统综述推荐系统从传统评分模型向基于工作流的智能体化范式转变的研究进展。",
-      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜探讨在AI介入的协作学习中，馆员指导强度如何调节学生对AI的认知权威感知并影响创意产出。",
-      "动态｜Data-centric AI in disaster management: Scalable Named Entity Recognition via LLM-based stacking and pseudo-label generation｜提出利用大语言模型提升灾害管理领域命名实体识别可扩展性的数据中心方法。",
-      "趋势判断｜图情领域AI研究正从通用技术探索转向深度垂直整合与负责任评估｜研究重点日益聚焦于医疗、法律、金融等具体领域的高效、公平AI应用，并同步加强对技术采纳影响、模型公平性与协作效能的系统性评估。"
-    ],
-    "stats": {
-      "papers": 191,
-      "news": 135,
-      "featured": 67
     }
   }
 ]
