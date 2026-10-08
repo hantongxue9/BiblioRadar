@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-10-08",
+    "summary": "今日图情领域的研究呈现出明显的计量分析与人工智能应用深度融合的趋势。在计量与评价方面，研究焦点集中于利用复杂网络、自然语言处理与贝叶斯统计等先进方法，深入剖析专利丛林结构、知识演化路径、引文数据特征及科研人员转型模式，并关注科学知识图谱研究的可复现性。同时，基于大语言模型的学术写作影响评估成为新兴议题。在AI应用方面，研究致力于提升大语言模型在文档级信息抽取、电商搜索规划、虚假信息预警等场景下的性能与可靠性，并探索其在医疗模式挖掘等专业领域的应用。数据管理领域则持续关注FAIR原则在具体学科（如生物医学）中的落地策略。",
+    "highlights": [
+      "论文｜Characterizing patent thickets by patent triples via the multiplex network of standard essential patents｜通过构建标准必要专利的多重网络，提供了一种量化分析复杂专利丛林结构特征的新方法。",
+      "论文｜Revealing patterns of strategic knowledge evolution with BERTopic: Semantic–temporal trajectories via transparent adjacent-year linking in strategic management｜利用BERTopic模型构建语义-时序轨迹，为揭示战略管理领域知识的动态演化提供了可解释的分析路径。",
+      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于大规模实证数据，首次量化评估了大语言模型辅助写作对工程领域论文引用表现的潜在影响。",
+      "动态｜Enhancing FAIR data practices in China: An integrated strategy for biomedical research｜提出了针对中国生物医学研究领域的具体、综合性策略，旨在系统性提升科研数据的FAIR化水平。",
+      "动态｜Category mis-routing in LLM query planners: A reproducible failure mode and a label-free audit for e-commerce search｜揭示了大语言模型在电商搜索查询规划中的一个具体且可复现的故障模式，并提出了无监督的审计方法。",
+      "趋势判断｜AI应用研究正从通用能力探索转向解决特定领域（如医疗、电商、信息治理）中的复杂、动态问题，并更加关注模型的可靠性、可解释性与场景适应性。"
+    ],
+    "stats": {
+      "papers": 206,
+      "news": 124,
+      "featured": 87
+    }
+  },
+  {
     "date": "2026-10-07",
     "summary": "今日图情领域的研究呈现出数据管理精细化与人工智能应用深化两大趋势。在数据管理方面，标准化与可重用性成为焦点，研究为网络档案数据集开发了数据表框架，并为中国生物医学领域提出了提升数据FAIR原则的系统策略。人工智能的影响持续扩展至学术生产的全过程，多篇研究探讨了大语言模型在学术写作、引用表现以及信息检索中的实际效果与潜在问题，表明AI已深度介入知识创造与传播环节。同时，知识计量方法不断演进，通过语义分析、网络科学等新工具揭示专利丛林、领域知识演化等复杂现象，并关注学术诚信与问题论文的识别。",
     "highlights": [
@@ -126,39 +143,6 @@
       "papers": 129,
       "news": 118,
       "featured": 67
-    }
-  },
-  {
-    "date": "2026-09-26",
-    "summary": "今日图情领域研究呈现出以人工智能技术深度融入为核心，同时关注数据治理与学术评价方法创新的趋势。在AI应用方面，研究重点聚焦于多模态信息处理与可解释性，例如通过分析图文间的细微矛盾来识别假新闻，以及构建可解释的网络欺凌检测模型。在学术传播与评价领域，研究运用先进的计量方法探索知识演化规律与合作网络动态，例如利用主题模型可视化战略管理领域的语义-时间轨迹，以及分析合作网络调整对学者绩效的影响。此外，大语言模型在特定任务（如相关性评估、临床摘要）中的适用性与局限性评估，以及面向低资源语言场景的应用探索，也成为当前的重要研究方向。",
-    "highlights": [
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证揭示了在学术写作中使用大语言模型会对论文的可见度与引文表现产生系统性影响，为理解AI对学术传播的影响提供了关键证据。",
-      "论文｜Revealing patterns of strategic knowledge evolution with BERTopic: Semantic–temporal trajectories via transparent adjacent-year linking in strategic management｜提出了一种结合BERTopic与透明跨年链接的方法，创新性地可视化了学科主题的语义-时间演化轨迹。",
-      "动态｜NormasTCU — A Brazilian Portuguese IR dataset and an evaluation of LLM-as-a-judge for relevance assessment｜不仅创建了稀缺的巴西葡萄牙语检索数据集，还系统评估了大语言模型用于相关性判断的可行性，对多语言信息检索研究具有重要价值。",
-      "动态｜PEFT: Evaluating parameter-efficient fine-tuning for clinical-note summarization across transformers and large language models｜系统评估了参数高效微调方法在临床文本摘要任务中的表现，为资源敏感场景下的模型适配提供了实用指南。",
-      "趋势判断｜从规则到推理：基于智能体与大语言模型的公共协作模拟研究兴起｜系统综述表明，结合智能体与大语言模型来模拟复杂社会协作行为正成为一个新兴的跨学科研究范式，拓展了计算社会科学的研究边界。"
-    ],
-    "stats": {
-      "papers": 172,
-      "news": 114,
-      "featured": 65
-    }
-  },
-  {
-    "date": "2026-09-25",
-    "summary": "今日图情领域的研究焦点集中于人工智能对科研与信息实践的多维度影响。在科学计量与评价方面，研究揭示了颠覆性AI工具（如AlphaFold）对非顶尖机构的赋能效应更为显著，同时指出超级高被引论文可能扭曲基于计数的大学排名，凸显了评价体系的方法论挑战。值得注意的是，有研究发现工程学领域使用大语言模型辅助写作的论文可能获得更高被引次数，引发了关于AI在科研生产中新角色的讨论。在AI应用层面，研究重点转向提升模型的可靠性与可解释性，包括通过本体引导的流程改进科学信息提取、检测多模态假新闻中的细粒度不一致性，以及构建评估AIGC质量的综合性指标体系。此外，参数高效微调技术在临床文本摘要等专业领域的应用评估，为资源受限下的模型部署提供了实证参考。",
-    "highlights": [
-      "论文｜AI boosts publication output more at non-elite institutions: Evidence from AlphaFold｜通过实证数据揭示了颠覆性AI工具对弥合科研机构产出差距的潜在作用。",
-      "论文｜Exploring the impact of super-cited papers on counting methods, counting inflation and university rankings｜揭示了超级高被引论文对基于计数的大学排名方法论的扭曲效应。",
-      "论文｜Toward trustworthy LLM-based scientific information extraction｜提出了一种结合本体与验证流程的新方法，旨在提升大语言模型提取科学信息的可靠性。",
-      "动态｜LLM-Assisted writing in engineering is associated with higher citations｜引发对AI辅助写作与学术影响力关系的新探讨。",
-      "动态｜Artificial intelligence-generated content (AIGC) quality evaluation｜构建了一个融合用户与文献视角的综合性AIGC质量评估指标体系。",
-      "趋势判断｜科学计量评价体系面临AI工具普及与异常引用模式的双重挑战，需发展更具鲁棒性的方法论。"
-    ],
-    "stats": {
-      "papers": 157,
-      "news": 128,
-      "featured": 65
     }
   }
 ]
