@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-10-09",
+    "summary": "今日图情领域的研究呈现出对人工智能工具应用及其影响的深度关切，特别是在学术写作、知识组织与信息检索场景。核心议题之一是量化分析大语言模型对学术产出的影响，多项计量研究发现AI辅助写作与论文被引表现存在关联，这为理解AI如何重塑学术传播与影响力评价提供了初步证据。同时，算法伦理问题持续受到关注，系统性综述为理解算法不平等提供了理论框架。在研究方法上，利用BERTopic等先进主题建模技术进行动态知识演化分析，以及构建提升科学知识图谱研究可重复性的集成框架，代表了计量与评价领域的方法论前沿。此外，针对AI生成内容（如搜索结果摘要）的可信度评估、跨模态假新闻检测以及特定语言信息检索数据集的构建，也体现了本领域应对新兴技术挑战的多元化实践。",
+    "highlights": [
+      "论文｜Conceptualizing algorithmic inequality and future agenda. An annual review of information science and technology (ARIST) paper｜该ARIST综述系统构建了算法不平等的研究框架，为信息科学领域的伦理研究提供了重要理论指引。",
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜该研究揭示了学者使用大语言模型写作与其论文被引表现之间的关联，是探讨AI如何影响学术可见性的开创性实证研究。",
+      "论文｜Revealing patterns of strategic knowledge evolution with BERTopic: Semantic–temporal trajectories via transparent adjacent-year linking in strategic management｜该研究将BERTopic与透明的时序链接方法结合，为动态知识演化分析提供了可解释性强的新方法论范例。",
+      "动态｜<span class=\"small-caps\">NormasTCU</span> — A Brazilian Portuguese IR dataset and an evaluation of LLM-as-a-judge for relevance assessment｜该工作发布了稀缺的巴西葡萄牙语IR数据集，并对使用大语言模型进行相关性判定的有效性进行了严谨评估，对多语言信息检索研究有重要价值。",
+      "动态｜Category mis-routing in LLM query planners: A reproducible failure mode and a label-free audit for e-commerce search｜该研究揭示了LLM在电商搜索查询规划中的系统性缺陷，并提出了无需标注的审计方法，对提升AI搜索系统的鲁棒性有直接参考意义。",
+      "趋势判断｜AI工具正从辅助写作向深度介入知识组织与评价环节渗透，其带来的学术影响力变化、算法偏见及系统可靠性问题，将成为图情领域未来研究的核心交叉议题。"
+    ],
+    "stats": {
+      "papers": 204,
+      "news": 138,
+      "featured": 81
+    }
+  },
+  {
     "date": "2026-10-08",
     "summary": "今日图情领域的研究呈现出明显的计量分析与人工智能应用深度融合的趋势。在计量与评价方面，研究焦点集中于利用复杂网络、自然语言处理与贝叶斯统计等先进方法，深入剖析专利丛林结构、知识演化路径、引文数据特征及科研人员转型模式，并关注科学知识图谱研究的可复现性。同时，基于大语言模型的学术写作影响评估成为新兴议题。在AI应用方面，研究致力于提升大语言模型在文档级信息抽取、电商搜索规划、虚假信息预警等场景下的性能与可靠性，并探索其在医疗模式挖掘等专业领域的应用。数据管理领域则持续关注FAIR原则在具体学科（如生物医学）中的落地策略。",
     "highlights": [
@@ -126,22 +143,6 @@
     "stats": {
       "papers": 161,
       "news": 120,
-      "featured": 67
-    }
-  },
-  {
-    "date": "2026-09-28",
-    "summary": "今日图情领域的研究焦点集中于大语言模型在学术与信息场景中的应用、评估及影响。一方面，多篇研究探讨了AI工具在学术写作、信息提取与检索评估中的效能与可信度，例如评估参数高效微调在临床笔记摘要中的表现，以及探索大语言模型作为信息检索相关性自动评估者的可行性。另一方面，研究也关注AI应用带来的潜在问题，包括学术写作中采用大语言模型对引文表现的影响，以及其在电商搜索中出现的查询分类错误。此外，同行评审的公平性机制、推荐系统的安全防御（如注入攻击识别）以及社交媒体错误信息的早期预警，也是今日的重要议题。整体呈现出技术深化应用与审慎评估其社会、学术影响并行的趋势。",
-    "highlights": [
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜首次实证揭示了学术写作中使用大语言模型与论文后续引文表现之间的关联。",
-      "论文｜Toward trustworthy LLM-based scientific information extraction: An ontology-guided, validation-aware workflow and a single-domain case study｜提出了一种结合领域本体与验证流程的系统性方法，旨在提升大语言模型科学信息提取的可信度。",
-      "动态｜NormasTCU — A Brazilian Portuguese IR dataset and an evaluation of LLM-as-a-judge for relevance assessment｜发布了稀缺的巴西葡萄牙语检索数据集，并系统评估了大语言模型自动评估检索相关性的潜力与挑战。",
-      "动态｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜运用博弈论模型设计了一种新的同行评审优先级分配机制，兼顾了评审效率与公平性。",
-      "趋势判断｜AI应用研究从追求性能转向关注可信度、公平性及社会影响｜今日多篇论文聚焦于评估AI工具的可靠性、揭示其使用中的偏差，并设计机制以应对其在学术、信息领域引发的公平与信任问题。"
-    ],
-    "stats": {
-      "papers": 129,
-      "news": 118,
       "featured": 67
     }
   }
