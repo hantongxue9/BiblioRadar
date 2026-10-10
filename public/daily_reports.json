@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-10-10",
+    "summary": "今日图情领域的研究焦点高度集中于人工智能，特别是大语言模型的应用、评估及其社会影响。核心议题包括：AI工具在学术写作中的采纳如何系统性影响引文表现；面向复杂引文数据的先进统计建模方法；以及AI中介信息检索过程中，馆员指导与用户认知的交互作用。此外，多篇研究深入探讨了AI在推荐系统（如学习路径、药物推荐）、信息可信度评估、多模态内容分析（如谣言检测）等具体场景中的应用与优化。整体趋势显示，研究正从单纯的技术性能评估，转向关注人机协同、模型可解释性及其在具体工作流中的整合效果。",
+    "highlights": [
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证研究揭示采纳大语言模型进行学术写作会对论文的引文表现产生系统性影响。",
+      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出新的贝叶斯统计模型，为分析复杂引文分布提供了更准确的方法。",
+      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜探讨了AI辅助检索中馆员指导与AI权威性认知对学生团队创意成果的共同影响。",
+      "动态｜NormasTCU — A Brazilian Portuguese IR dataset and an evaluation of LLM-as-a-judge for relevance assessment｜创建了新的葡萄牙语检索数据集，并评估了使用大语言模型自动判断相关性的可行性。",
+      "动态｜From scoring to workflow: A survey of agentic recommender systems｜综述了从静态评分预测转向动态工作流交互的智能体推荐系统这一前沿范式。",
+      "趋势判断｜AI应用研究正从技术性能评估转向关注人机协同、模型可解释性及其在工作流中的整合。"
+    ],
+    "stats": {
+      "papers": 195,
+      "news": 130,
+      "featured": 66
+    }
+  },
+  {
     "date": "2026-10-09",
     "summary": "今日图情领域的研究呈现出对人工智能工具应用及其影响的深度关切，特别是在学术写作、知识组织与信息检索场景。核心议题之一是量化分析大语言模型对学术产出的影响，多项计量研究发现AI辅助写作与论文被引表现存在关联，这为理解AI如何重塑学术传播与影响力评价提供了初步证据。同时，算法伦理问题持续受到关注，系统性综述为理解算法不平等提供了理论框架。在研究方法上，利用BERTopic等先进主题建模技术进行动态知识演化分析，以及构建提升科学知识图谱研究可重复性的集成框架，代表了计量与评价领域的方法论前沿。此外，针对AI生成内容（如搜索结果摘要）的可信度评估、跨模态假新闻检测以及特定语言信息检索数据集的构建，也体现了本领域应对新兴技术挑战的多元化实践。",
     "highlights": [
