@@ -115,6 +115,29 @@
     "id": 26518
   },
   {
+    "title": "From role to competency: mapping competencies for data visualization services among academic librarians",
+    "abstract": "",
+    "date": "2026-10-13",
+    "link": "https://doi.org/10.1108/el-05-2026-0185",
+    "affiliations": "Guan Wang; Yanti Idaya A.M.K.; Noorhidawati A.",
+    "source": "The Electronic Library",
+    "tier": "A",
+    "field": "library_technology",
+    "content_type": "paper",
+    "category": "用户行为",
+    "thinking": "该论文聚焦于学术图书馆员数据可视化服务的能力模型构建，采用了较为系统的能力映射方法，具有明确的实践指导价值。然而，研究主要基于文献分析和框架构建，未涉及前沿的AI或自动化技术，且实证验证环节相对薄弱，方法严谨性有待加强。",
+    "scores": {
+      "frontier_tech": 4,
+      "practical_value": 8,
+      "methodological_rigor": 6
+    },
+    "one_sentence_summary": "该研究为学术图书馆员开展数据可视化服务构建了一套系统化的能力框架，明确了其所需的核心技能与知识。",
+    "credibility_score": 6.7,
+    "composite_score": 6.1,
+    "featured": false,
+    "id": 28095
+  },
+  {
     "title": "Life after delisting: tracking the publication output and citation impact of Scopus-discontinued journals with OpenAlex",
     "abstract": "arXiv:2610.11684v1 Announce Type: new \nAbstract: Selective databases such as Scopus periodically re-evaluate the titles they index and remove those that no longer meet their quality criteria. Once a journal is removed, its subsequent output is no longer recorded, and the consequences of this process have therefore received little attention. This study analyzes the publication output and citation impact of 514 sources delisted from Scopus between 2018 and 2024, based on 678,162 documents retrieved from OpenAlex over a window of three years before and after delisting. Differences between periods are tested with the Wilcoxon signed-rank test for paired samples, globally and by geographic region, field of knowledge and SJR quartile. Output grows until the year of delisting and falls sharply afterwards. The median annual output per journal drops from 35 to 22 documents (-37.1%; p < 0.001; r = 0.30), 61.7% of journals publish less, and 84 (16.3%) have no documents recorded in OpenAlex after delisting. Citations per document, measured over a three-year window, barely change when each journal is compared with itself (-2.4%; p = 0.079), and journals are almost evenly split between those whose impact falls and those whose impact holds steady or rises. The results indicate that delisting makes these journals less attractive as publication venues but does not penalize the citation of the work they publish to the same extent, which raises concerns from a research integrity perspective.",
     "date": "2026-10-09",
@@ -1217,6 +1240,29 @@
     "composite_score": 6.4,
     "featured": false,
     "id": 27960
+  },
+  {
+    "title": "#DefendResearch and PEN America Present… Word Wipe!",
+    "abstract": "<p>Today's Fun Friday post introduces a new anti-censorship tool — Word Wipe allows you to see what a world redacted of words banned by the US government looks like.</p>\n<p>The post <a href=\"https://scholarlykitchen.sspnet.org/2026/10/09/defendresearch-and-pen-america-present-word-wipe/\">#DefendResearch and PEN America Present… Word Wipe!</a> appeared first on <a href=\"https://scholarlykitchen.sspnet.org\">The Scholarly Kitchen</a>.</p>",
+    "date": "2026-10-09",
+    "link": "https://scholarlykitchen.sspnet.org/2026/10/09/defendresearch-and-pen-america-present-word-wipe/",
+    "affiliations": "",
+    "source": "Scholarly Kitchen",
+    "tier": "C",
+    "field": "scholarly_publishing",
+    "content_type": "news",
+    "category": "观点评论",
+    "thinking": "该资讯发布于2026年，是未来内容，对当前而言时效性极高，具有新闻价值。内容涉及学术出版领域的言论自由与审查议题，与图情领域的信息获取、学术交流自由等核心价值高度相关，提供了关于新工具的具体信息。",
+    "scores": {
+      "timeliness": 10,
+      "relevance": 8,
+      "information_value": 7
+    },
+    "one_sentence_summary": "学术厨房博客介绍了一款名为“Word Wipe”的新工具，用于可视化展示被美国政府禁用的词汇。",
+    "credibility_score": 6.0,
+    "composite_score": 7.8,
+    "featured": true,
+    "id": 28207
   },
   {
     "title": "Persistence Paradox in Dynamic Science: Evidence from the Deep Learning Revolution",
@@ -3402,6 +3448,29 @@
     "composite_score": 7.5,
     "featured": true,
     "id": 27386
+  },
+  {
+    "title": "ChatGPT as an AI-based assessment method in library information science education: investigative study in the information studies department",
+    "abstract": "Recent advances in artificial intelligence (AI), particularly the emergence of generative tools such as ChatGPT, have intensified scholarly debate regarding their implications for teaching, learning, and assessment in higher education. While existing research has largely emphasized AI-driven automation of pedagogical processes and learning outcomes, limited attention has been paid to the systematic integration of generative AI as a formal assessment mechanism. This study examines the state and use of ChatGPT as an AI-based assessment tool within the Information Studies Department at Sultan Qaboos University. Despite the growing prevalence of AI technologies, many higher education institutions remain cautious in their adoption for assessment purposes, with some categorizing their use as academic misconduct or plagiarism. Such hesitancy reflects unresolved ethical concerns, academic integrity challenges, and the absence of coherent institutional frameworks to guide responsible implementation. In response, this study explores the potential legitimization of AI-assisted assessments while preserving academic rigor, transparency, and integrity. Adopting a qualitative research methodology, the study employed content analysis to examine existing teaching practices and activities within the department and to identify current levels of AI integration and institutional readiness. This analysis provided nuanced insights into the dominant state and presence of AI-based assessment methods in targeted departments’ offered courses within the university, which resulted in 67% of the checked courses lacking detection of AI-based assessment methods, 20% having moderate integration of AI usage in assessment methods and 13% having direct instruction to use AI while fulfilling the required assessments. Based on these insights, the study proposes a set of AI governance policies and strategic guidelines for higher education institutions, offering practical recommendations for integrating generative AI tools into academic assessment frameworks without compromising ethical, professional, or scholarly standards.",
+    "date": "2026-10-07",
+    "link": "https://www.semanticscholar.org/paper/4ea7223f8ba9098bde1f673c40474bcd19bbd2d6",
+    "affiliations": "Noura Al Hosni",
+    "source": "Semantic Scholar - LIS",
+    "tier": "C",
+    "field": "information_science",
+    "content_type": "paper",
+    "category": "AI应用",
+    "thinking": "该论文聚焦于生成式AI在图书馆情报学教育评估中的应用，选题具有前沿性，但研究方法以定性内容分析为主，样本局限于单一院系，严谨性一般；提出的治理框架对高校实践有参考价值，但具体落地路径仍需细化。",
+    "scores": {
+      "frontier_tech": 9,
+      "practical_value": 7,
+      "methodological_rigor": 6
+    },
+    "one_sentence_summary": "本研究调查了ChatGPT在图书馆情报学课程评估中的应用现状，并提出了将其合法化纳入评估体系的治理框架。",
+    "credibility_score": 6.0,
+    "composite_score": 7.2,
+    "featured": false,
+    "id": 28113
   },
   {
     "title": "The machine use of human beings",
@@ -11429,74 +11498,5 @@
     "composite_score": 6.4,
     "featured": false,
     "id": 25186
-  },
-  {
-    "title": "Just-In-Time Agent Memory with Runtime Agentic Research",
-    "abstract": "arXiv:2609.34385v1 Announce Type: cross \nAbstract: Memory is critical for AI agents. Many existing agent-memory systems follow an Ahead-of-Time (AOT) design, constructing memory before a specific request arrives. While this reduces online serving cost, such request-agnostic memory construction can discard fine-grained information that later becomes important. To address this limitation, we propose Just-In-Time Agent Memory (JAM), a trainable framework for query-conditioned context construction at runtime. A Memorizer preserves complete raw histories in a hierarchical page-store with compact navigational summaries, while a Researcher iteratively retrieves, inspects, and integrates evidence for each request. To train these memory-use behaviors, we introduce Memory-Gym, an evidence-grounded data synthesis pipeline covering nine task types across six domains, and optimize the Researcher through verified-trajectory supervised fine-tuning followed by Hint-guided Group Relative Policy Optimization. We demonstrate the effectiveness of JAM across a variety of benchmarks on agent memory and long-context processing, where it achieves stronger task performance than AOT-style memory systems while remaining substantially more efficient than prior trained agentic memory approaches. To support reproducibility and future research, we release our anonymized source code at https://github.com/VectorSpaceLab/general-agentic-memory.",
-    "date": "2026-09-29",
-    "link": "https://arxiv.org/abs/2609.34385",
-    "affiliations": "",
-    "source": "arXiv - Information Retrieval",
-    "tier": "C",
-    "field": "information_retrieval",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "该论文提出了JAM框架，通过运行时查询驱动的记忆构建机制，解决了传统预构建记忆系统可能丢失细粒度信息的问题，在方法上具有创新性。其构建的Memory-Gym训练数据集和优化的训练流程增强了方法的严谨性，但作为一项技术框架研究，其直接应用于图书馆等具体业务场景的路径尚不明确。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 6,
-      "methodological_rigor": 8
-    },
-    "one_sentence_summary": "该研究提出了一种在运行时根据查询即时构建AI智能体记忆的框架，比预构建记忆更高效且性能更好。",
-    "credibility_score": 6.0,
-    "composite_score": 6.4,
-    "featured": false,
-    "id": 25187
-  },
-  {
-    "title": "Calibrated Uncertainty for Informative Path Planning in Aquatic Environmental Monitoring",
-    "abstract": "arXiv:2609.34577v1 Announce Type: cross \nAbstract: Informative Path Planning for scalar field reconstruction uses predictive uncertainty to direct sensing vehicles toward maximally informative locations. Gaussian Processes provide this signal but their stationary isotropic kernels are misspecified for non-homogeneous phenomena such as oil spills, producing miscalibrated estimates that degrade planning. We investigate whether replacing the Gaussian Process with a well-calibrated Deep Ensemble improves path planning outcomes, and whether uncertainty quality interacts with the choice of planning algorithm. Five strategies ($\\epsilon$-Greedy, Value Greedy, Uncertainty Greedy, Monte Carlo Tree Search, and Receding Horizon Orienteering) share a common Deep Ensemble backbone trained on physics-based oil spill simulations. On held-out stochastic spill scenarios, the Deep Ensemble reduces normalised reconstruction error by $83\\%$ relative to the Gaussian Process baseline. Crucially, well-calibrated uncertainty amplifies the importance of the planning strategy: the performance gap between algorithms is negligible under miscalibrated models but becomes substantial under the ensemble, where multi-step lookahead planners outperform greedy selection by up to $32\\%$ in reconstruction error and achieve IoU above $0.85$. Monte Carlo Tree Search is the recommended planner, matching Orienteering in reconstruction quality at an order-of-magnitude lower computational cost.",
-    "date": "2026-09-29",
-    "link": "https://arxiv.org/abs/2609.34577",
-    "affiliations": "",
-    "source": "arXiv - Information Retrieval",
-    "tier": "C",
-    "field": "information_retrieval",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "论文采用深度集成方法替代传统高斯过程，显著提升了环境监测中路径规划的重建精度，技术前沿性较强。研究基于物理模拟的油污扩散场景，方法设计严谨，并通过多策略对比验证了不确定性校准对规划算法选择的重要性。然而，研究场景高度特定于水体环境监测，在图情领域的直接业务落地价值有限。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 4,
-      "methodological_rigor": 8
-    },
-    "one_sentence_summary": "研究表明，采用校准良好的深度集成模型能大幅提升环境监测机器人路径规划的效果，并使多步前瞻规划算法的优势得以显现。",
-    "credibility_score": 6.0,
-    "composite_score": 6.0,
-    "featured": false,
-    "id": 25188
-  },
-  {
-    "title": "AX is the New AEO",
-    "abstract": "arXiv:2609.34951v1 Announce Type: cross \nAbstract: In 2023, AI models answered from training data and hallucinated when it ran out, and businesses were told to seed that knowledge. Models' training knowledge has since given way to live web search, and the advice followed it there: answer-engine optimization, or AEO, now tells businesses to scatter breadcrumbs across forum threads, listicles, and off-site citations, so AI engines are likelier to surface and recommend them. But being surfaced is no longer enough: an agent opens the results and reads them before deciding, and one buyer question sends it through several rounds of search and fetch. What decides the outcome at this drill-down step is whether the agent can fetch and read the business's own site: agent experience (AX). We argue that AX is the new AEO. We run 37,927 agent journeys, each a buyer question about a business, across four independent harnesses over 1,056 real businesses, matched on fame, prior model knowledge, and two AEO proxies, then split based on their AX level. Only 7-10% of the finished answer comes from the model's training knowledge, whether or not the site is readable. Agent-ready businesses have answers built from their own pages 78% of the time against 56% and are clearly recommended 1.9x more often, while every grounded answer about a not-agent-ready business costs the agent 64% more. Holding business, harness, and question fixed, answers built from the site are 41% more accurate. The dominant failure is not fabrication but omission: web-built answers are 3.7x more likely to contain none of the facts the buyer asked for. Baselines differ sharply across the four harnesses, with clear-recommendation rates varying sevenfold from stack to stack, yet the effect holds in every one. In the agentic web era, being readable beats being talked about, and improving a site's AX is the strongest lever a business has.",
-    "date": "2026-09-29",
-    "link": "https://arxiv.org/abs/2609.34951",
-    "affiliations": "",
-    "source": "arXiv - Information Retrieval",
-    "tier": "C",
-    "field": "information_retrieval",
-    "content_type": "paper",
-    "category": "检索与推荐",
-    "thinking": "该论文通过大规模实验验证了在AI代理时代，网站的可读性（AX）比外部提及（AEO）对最终推荐结果的影响更大，方法严谨，样本量大且设计了控制变量。但其核心概念（AX）是对现有搜索引擎优化（SEO）和用户体验（UX）理念在AI代理场景下的延伸，技术新颖性有限。",
-    "scores": {
-      "frontier_tech": 6,
-      "practical_value": 9,
-      "methodological_rigor": 9
-    },
-    "one_sentence_summary": "研究发现，在AI代理主导的搜索时代，提升网站自身对AI的可读性比优化外部提及更能有效提高被推荐和回答的准确性。",
-    "credibility_score": 6.0,
-    "composite_score": 6.5,
-    "featured": false,
-    "id": 25189
   }
 ]

@@ -1,19 +1,19 @@
 [
   {
-    "date": "2026-10-10",
-    "summary": "今日图情领域的研究焦点高度集中于人工智能，特别是大语言模型的应用、评估及其社会影响。核心议题包括：AI工具在学术写作中的采纳如何系统性影响引文表现；面向复杂引文数据的先进统计建模方法；以及AI中介信息检索过程中，馆员指导与用户认知的交互作用。此外，多篇研究深入探讨了AI在推荐系统（如学习路径、药物推荐）、信息可信度评估、多模态内容分析（如谣言检测）等具体场景中的应用与优化。整体趋势显示，研究正从单纯的技术性能评估，转向关注人机协同、模型可解释性及其在具体工作流中的整合效果。",
+    "date": "2026-10-11",
+    "summary": "今日图情领域的研究焦点高度集中于人工智能技术的应用及其社会影响评估。在AI应用方面，研究不仅关注技术实现，如基于Transformer模型的自动分类、检索增强生成（RAG）的优化以及大语言模型（LLM）在科学信息提取中的可信度提升，更深入探讨了其带来的社会与伦理问题，例如算法不平等、公众议程盲点以及AI工具使用对学术产出的差异化影响。在计量与评价领域，研究方法日趋精细化和透明化，利用如BERTopic等先进模型追踪知识演变，并关注评价体系本身（如引用计数、同行评审机制）的公平性与鲁棒性。整体趋势显示，图情学界正从单纯的技术采纳转向对技术应用后果的批判性审视和系统性优化。",
     "highlights": [
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证研究揭示采纳大语言模型进行学术写作会对论文的引文表现产生系统性影响。",
-      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出新的贝叶斯统计模型，为分析复杂引文分布提供了更准确的方法。",
-      "论文｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜探讨了AI辅助检索中馆员指导与AI权威性认知对学生团队创意成果的共同影响。",
-      "动态｜NormasTCU — A Brazilian Portuguese IR dataset and an evaluation of LLM-as-a-judge for relevance assessment｜创建了新的葡萄牙语检索数据集，并评估了使用大语言模型自动判断相关性的可行性。",
-      "动态｜From scoring to workflow: A survey of agentic recommender systems｜综述了从静态评分预测转向动态工作流交互的智能体推荐系统这一前沿范式。",
-      "趋势判断｜AI应用研究正从技术性能评估转向关注人机协同、模型可解释性及其在工作流中的整合。"
+      "论文｜Conceptualizing algorithmic inequality and future agenda｜这篇ARIST综述系统性地梳理了信息科学中算法不平等的研究版图，为理解与应对算法偏见提供了重要的理论框架和未来方向。",
+      "论文｜AI boosts publication output more at non-elite institutions: Evidence from AlphaFold｜该研究提供了AI工具可能弥合科研机构间资源差距的实证证据，对科研管理与评价政策具有启示意义。",
+      "论文｜Revealing patterns of strategic knowledge evolution with BERTopic｜提出了一种透明、可复现的语义-时间轨迹分析方法，为动态追踪学科知识演进提供了新工具。",
+      "动态｜Who gets seen in the age of AI?｜探究学者使用大语言模型写作对其论文可见度（被引）的影响，触及了AI时代学术传播与评价的核心关切。",
+      "动态｜Efficient peer review via a fairness-aware priority mechanism｜通过博弈论模型设计审稿人分配机制，为提升同行评审的效率与公平性提供了创新的解决方案。",
+      "趋势判断｜从技术效能评估转向社会影响与可信度构建｜当前研究明显从评估AI工具的技术性能，转向深入分析其对社会公平、信息可信度及学术生态的系统性影响。"
     ],
     "stats": {
-      "papers": 195,
-      "news": 130,
-      "featured": 66
+      "papers": 167,
+      "news": 129,
+      "featured": 69
     }
   },
   {
