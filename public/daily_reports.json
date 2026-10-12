@@ -1,19 +1,18 @@
 [
   {
-    "date": "2026-10-11",
-    "summary": "今日图情领域的研究焦点高度集中于人工智能技术的应用及其社会影响评估。在AI应用方面，研究不仅关注技术实现，如基于Transformer模型的自动分类、检索增强生成（RAG）的优化以及大语言模型（LLM）在科学信息提取中的可信度提升，更深入探讨了其带来的社会与伦理问题，例如算法不平等、公众议程盲点以及AI工具使用对学术产出的差异化影响。在计量与评价领域，研究方法日趋精细化和透明化，利用如BERTopic等先进模型追踪知识演变，并关注评价体系本身（如引用计数、同行评审机制）的公平性与鲁棒性。整体趋势显示，图情学界正从单纯的技术采纳转向对技术应用后果的批判性审视和系统性优化。",
+    "date": "2026-10-12",
+    "summary": "今日图情领域的研究呈现两大核心趋势：一是人工智能技术在信息处理与分析中的深度应用与反思，二是学术交流与评价体系的量化研究持续深化。在AI应用方面，研究重点已从基础任务转向复杂场景下的可靠性、可解释性及人机协同优化，例如通过结构感知和对比学习提升大语言模型的信息抽取能力，探讨AI生成内容（如搜索结果摘要）的可信度评估机制，以及设计融合多模态信息的谣言检测模型。在学术传播与评价方面，研究关注引文行为的规范性分析（如期刊自引模式）以及学术交流流程的效率与公平性改进（如审稿人分配机制）。这些进展共同指向一个更智能、更透明、更可信的信息生态系统构建方向。",
     "highlights": [
-      "论文｜Conceptualizing algorithmic inequality and future agenda｜这篇ARIST综述系统性地梳理了信息科学中算法不平等的研究版图，为理解与应对算法偏见提供了重要的理论框架和未来方向。",
-      "论文｜AI boosts publication output more at non-elite institutions: Evidence from AlphaFold｜该研究提供了AI工具可能弥合科研机构间资源差距的实证证据，对科研管理与评价政策具有启示意义。",
-      "论文｜Revealing patterns of strategic knowledge evolution with BERTopic｜提出了一种透明、可复现的语义-时间轨迹分析方法，为动态追踪学科知识演进提供了新工具。",
-      "动态｜Who gets seen in the age of AI?｜探究学者使用大语言模型写作对其论文可见度（被引）的影响，触及了AI时代学术传播与评价的核心关切。",
-      "动态｜Efficient peer review via a fairness-aware priority mechanism｜通过博弈论模型设计审稿人分配机制，为提升同行评审的效率与公平性提供了创新的解决方案。",
-      "趋势判断｜从技术效能评估转向社会影响与可信度构建｜当前研究明显从评估AI工具的技术性能，转向深入分析其对社会公平、信息可信度及学术生态的系统性影响。"
+      "论文｜Contextual patterns of journal self-citation in JCR-suppressed and comparator journals: a multi-dimensional citation content analysis｜通过多维引文内容分析，揭示了被JCR压制期刊的异常自引模式，为科研诚信监测提供了关键实证。",
+      "论文｜Toward trustworthy LLM-based scientific information extraction: An ontology-guided, validation-aware workflow and a single-domain case study｜提出融合本体和验证的工作流程，是提升大语言模型在专业领域信息提取可信度的系统性探索。",
+      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜实证研究揭示了在AI辅助的协作学习中，馆员引导与用户对AI的认知如何共同影响创意产出。",
+      "动态｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜运用博弈论模型设计审稿人分配机制，为解决同行评审中的效率与公平平衡问题提供了新思路。",
+      "趋势判断｜人工智能应用正从追求性能转向关注可靠性、可解释性及与人类专业知识的有效协同，特别是在科学信息处理和学术交流等关键领域。"
     ],
     "stats": {
-      "papers": 167,
-      "news": 129,
-      "featured": 69
+      "papers": 172,
+      "news": 120,
+      "featured": 67
     }
   },
   {
