@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-10-13",
+    "summary": "今日图情领域研究呈现出以人工智能应用驱动为核心，并深度融合计量评价与学术传播的显著趋势。在计量与评价方面，研究焦点集中于引文分析方法的反思与优化，特别是大语言模型使用、超高频被引论文对学术评价体系的影响，以及基于多重网络和公平分配原则的新型学者产出评估框架。人工智能应用研究广泛深入，涵盖了从信息可信度评估（如假新闻检测、AI生成摘要的信任形成）、知识组织（如医疗主题建模）到辅助科研写作与评审流程优化等多个关键场景。同时，学术传播研究关注开放同行评审中的沟通效益与机制设计，用户行为研究则探索在线社区动态与信息中介的新模式。",
+    "highlights": [
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜基于文献计量分析，实证探讨AI工具使用与论文引用表现之间的关系，是理解AI如何重塑学术可见性的重要研究。",
+      "论文｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜运用博弈论模型设计兼顾公平与效率的审稿人分配机制，为优化同行评审这一核心学术流程提供了理论创新方案。",
+      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜揭示了在AI辅助的协作学习场景中，图书馆员专业指导的关键调节作用，为图书馆服务创新提供实证依据。",
+      "动态｜From search results to generative answers: A mixed-methods study of credibility assessment and trust formation in AI Overviews｜通过混合方法深入探究用户对AI生成摘要的可信度评估过程，对搜索引擎与信息素养教育具有直接参考价值。",
+      "趋势判断｜人工智能正从辅助工具演变为重塑学术生产、传播与评价全流程的核心要素，催生对新型计量方法、伦理规范与信息服务模式的迫切需求。"
+    ],
+    "stats": {
+      "papers": 211,
+      "news": 128,
+      "featured": 74
+    }
+  },
+  {
     "date": "2026-10-12",
     "summary": "今日图情领域的研究呈现两大核心趋势：一是人工智能技术在信息处理与分析中的深度应用与反思，二是学术交流与评价体系的量化研究持续深化。在AI应用方面，研究重点已从基础任务转向复杂场景下的可靠性、可解释性及人机协同优化，例如通过结构感知和对比学习提升大语言模型的信息抽取能力，探讨AI生成内容（如搜索结果摘要）的可信度评估机制，以及设计融合多模态信息的谣言检测模型。在学术传播与评价方面，研究关注引文行为的规范性分析（如期刊自引模式）以及学术交流流程的效率与公平性改进（如审稿人分配机制）。这些进展共同指向一个更智能、更透明、更可信的信息生态系统构建方向。",
     "highlights": [
