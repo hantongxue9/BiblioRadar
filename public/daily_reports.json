@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-10-14",
+    "summary": "今日图情领域研究呈现以人工智能应用与影响评估为核心的鲜明趋势。在计量与评价方面，多篇研究聚焦AI工具（如AlphaFold、大语言模型）对科研产出、引用模式及研究者转型的差异化影响，揭示了技术扩散带来的结构效应。在信息检索与AI应用前沿，研究重点转向跨模态语义匹配、个性化学习路径推荐以及AI生成内容（如搜索结果摘要）的可信度评估，同时关注人机交互中的对话修复与信任形成机制。此外，同行评审的公平性优化、科学知识图谱的可复现流程以及数据库可逆水印技术等传统图情议题也获得了方法论的创新。",
+    "highlights": [
+      "论文｜AI boosts publication output more at non-elite institutions: Evidence from AlphaFold｜通过实证证据揭示了AI工具可能对缩小科研机构间的产出差距具有积极意义。",
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜探讨了在学术写作中使用大语言模型与论文可见度（引文表现）之间的潜在关联。",
+      "动态｜From search results to generative answers: A mixed-methods study of credibility assessment and trust formation in AI Overviews｜以混合方法研究用户对AI生成摘要的信任形成，对优化搜索体验具有直接参考价值。",
+      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜实证检验了图书馆员在AI辅助信息中介中的干预强度与效果，为专业服务转型提供依据。",
+      "趋势判断｜Revealing country-level disparities in researchers’ transition to artificial intelligence: A two-stage analytical framework｜通过分析框架揭示全球AI研究人才转型的不均衡性，指向数字科研鸿沟这一关键议题。"
+    ],
+    "stats": {
+      "papers": 162,
+      "news": 125,
+      "featured": 76
+    }
+  },
+  {
     "date": "2026-10-13",
     "summary": "今日图情领域研究呈现出以人工智能应用驱动为核心，并深度融合计量评价与学术传播的显著趋势。在计量与评价方面，研究焦点集中于引文分析方法的反思与优化，特别是大语言模型使用、超高频被引论文对学术评价体系的影响，以及基于多重网络和公平分配原则的新型学者产出评估框架。人工智能应用研究广泛深入，涵盖了从信息可信度评估（如假新闻检测、AI生成摘要的信任形成）、知识组织（如医疗主题建模）到辅助科研写作与评审流程优化等多个关键场景。同时，学术传播研究关注开放同行评审中的沟通效益与机制设计，用户行为研究则探索在线社区动态与信息中介的新模式。",
     "highlights": [
