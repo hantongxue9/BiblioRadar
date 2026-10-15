@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-10-15",
+    "summary": "今日图情领域研究呈现出以人工智能应用深化与科学评价反思为主的双重趋势。在人工智能应用方面，研究重点从基础工具使用转向复杂场景下的交互优化与效果评估，例如在协作问题解决中探索人机协同机制、在在线教育中构建自适应推荐路径，以及在健康信息学中开发更精准的预测模型。在科学计量与评价领域，研究持续关注指标应用的复杂影响，包括大语言模型使用对引文表现的潜在塑造、极高被引论文对排名系统的扭曲效应，以及对“平等贡献”等署名政策实际公平性的实证检验。同时，提升研究透明度与可复现性的方法论框架，以及优化同行评审等学术交流流程的机制设计，也受到持续关注。",
+    "highlights": [
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证揭示了在学术写作中使用大语言模型与论文后续引文表现之间的关联，为理解AI如何影响学术传播与认可提供了新证据。",
+      "论文｜Exploring the impact of super-cited papers on counting methods, counting inflation and university rankings: Evidence from engineering｜以工程领域为例，量化分析了极高被引论文如何扭曲计量结果并影响大学排名，对依赖简单计数指标的科研评价体系提出重要警示。",
+      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜探讨了在AI辅助的协作学习中，图书馆员指导强度与学生对AI权威性感知如何共同影响团队创意产出，为人机协同的信息服务设计提供参考。",
+      "动态｜Community's lifeline: Dynamically identifying the short-term emergence and long-term survival of opinion leaders in diabetes online communities｜提出动态识别在线健康社区中意见领袖的方法，有助于理解社区信息传播动力学并支持精准健康信息干预。",
+      "趋势判断｜图情领域研究正从关注AI工具的技术可行性，转向深入探究其在具体学术与信息场景中的人机交互机制、社会影响及伦理挑战，研究范式更趋综合与批判。"
+    ],
+    "stats": {
+      "papers": 284,
+      "news": 127,
+      "featured": 80
+    }
+  },
+  {
     "date": "2026-10-14",
     "summary": "今日图情领域研究呈现以人工智能应用与影响评估为核心的鲜明趋势。在计量与评价方面，多篇研究聚焦AI工具（如AlphaFold、大语言模型）对科研产出、引用模式及研究者转型的差异化影响，揭示了技术扩散带来的结构效应。在信息检索与AI应用前沿，研究重点转向跨模态语义匹配、个性化学习路径推荐以及AI生成内容（如搜索结果摘要）的可信度评估，同时关注人机交互中的对话修复与信任形成机制。此外，同行评审的公平性优化、科学知识图谱的可复现流程以及数据库可逆水印技术等传统图情议题也获得了方法论的创新。",
     "highlights": [
@@ -144,54 +160,6 @@
       "papers": 206,
       "news": 130,
       "featured": 81
-    }
-  },
-  {
-    "date": "2026-10-01",
-    "summary": "今日图情领域的研究焦点高度集中于人工智能，特别是大语言模型在学术与信息实践中的应用及其影响评估。在学术传播与计量方面，多项实证研究揭示了LLM辅助写作与引用表现之间的复杂关联，并开始探索优化同行评审等核心环节的新机制。在AI应用层面，研究呈现出显著的领域深化与问题细化趋势，涵盖从多语言信息处理（如阿拉伯语评论分析）、特定领域可靠性（如医学问答）到公平性与偏见审计等多个维度。同时，面向图书馆、档案馆、博物馆等具体场景的AI效能评估与干预研究也在持续推进，显示出图情学科在技术浪潮中坚实的实践锚点与批判性思考。",
-    "highlights": [
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜通过分析学者采用LLM的行为模式，为理解AI如何影响学术可见性与影响力提供了实证依据。",
-      "论文｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜运用博弈论模型设计兼顾效率与公平的审稿人分配机制，为优化学术质量控制流程提供了新思路。",
-      "动态｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的大规模分析，揭示了LLM辅助写作与引用增长之间的相关性，引发对学术评价新范式的讨论。",
-      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜实证研究表明，在AI辅助的协作学习中，馆员的专业指导依然是提升创意产出的关键变量。",
-      "趋势判断｜AI应用研究从通用能力测试转向特定领域可靠性、公平性审计与低资源场景优化｜图情领域的AI研究正从技术验证阶段，深入至评估技术的社会影响、解决领域特异性问题及应对资源约束等更具挑战性的层面。"
-    ],
-    "stats": {
-      "papers": 179,
-      "news": 132,
-      "featured": 70
-    }
-  },
-  {
-    "date": "2026-09-30",
-    "summary": "今日图情领域的研究呈现出对人工智能应用效果与影响的深度关切，尤其是在学术交流与信息检索场景。核心议题之一是量化分析大语言模型在学术写作中的采纳模式及其对论文影响力的作用，相关实证研究揭示了其在特定学科可能带来的引用优势。同时，AI在专业领域的应用可靠性成为焦点，研究揭示了其在电商搜索、临床摘要生成等任务中存在的特定失败模式，并提出了相应的审计与微调策略以提升性能。另一方面，针对低资源语言与文化背景的信息处理研究持续深入，包括构建新的评测数据集、开发数据稀缺条件下的分析方法，以及评估模型的文化理解能力，旨在推动技术的包容性与公平性。",
-    "highlights": [
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证分析了学者使用LLM写作与其论文被引表现之间的关联，为理解AI对学术传播的影响提供了重要证据。",
-      "论文｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的大规模分析，发现LLM辅助写作与更高引用次数存在相关性。",
-      "动态｜Category mis-routing in LLM query planners: A reproducible failure mode and a label-free audit for e-commerce search｜揭示了LLM在电商查询规划中的系统性类别误判问题，并提出了一种无需人工标注的审计框架。",
-      "动态｜NormasTCU — A Brazilian Portuguese IR dataset and an evaluation of LLM-as-a-judge for relevance assessment｜发布了巴西葡萄牙语IR数据集，并系统评估了使用LLM自动进行相关性判定的效果与局限性。",
-      "趋势判断｜AI应用研究正从追求通用性能转向关注特定领域可靠性、低资源环境适应性与模型公平性评估。"
-    ],
-    "stats": {
-      "papers": 244,
-      "news": 127,
-      "featured": 65
-    }
-  },
-  {
-    "date": "2026-09-29",
-    "summary": "今日图情领域的研究呈现出以人工智能为核心驱动力的鲜明特征，尤其在学术评价与信息处理两个方向成果显著。在学术评价方面，研究焦点深入至AI技术采纳对科研产出的差异化影响、引文数据的复杂建模，以及高影响力文献对现有计量体系（如大学排名）的冲击，揭示出评价体系正面临由技术渗透带来的结构性调整。在信息处理方面，大语言模型的应用研究从通用任务转向专业化、可信化与多语言化场景，特别是在科学信息提取、文档级关系抽取及低资源领域应用上，更强调结合领域知识（如本体、结构化信息）来提升结果的准确性与可靠性，显示出AI应用正从技术探索迈向与学科需求深度融合的阶段。",
-    "highlights": [
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜首次实证揭示了在学术写作中采纳大语言模型的行为模式会系统性影响论文的引文表现与学术可见性。",
-      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出了一种创新的贝叶斯统计模型，为准确分析具有大量零值和极端高值的复杂引文数据提供了方法论支持。",
-      "动态｜<span class=\"small-caps\">NormasTCU</span> — A Brazilian Portuguese IR dataset and an evaluation of LLM-as-a-judge for relevance assessment｜创建了稀缺的巴西葡萄牙语IR数据集，并系统评估了使用大语言模型进行相关性判定的可行性，对多语言信息检索评估具有重要价值。",
-      "动态｜Fa-DPO: Faithfulness-Aware Direct Preference Optimization with risk-adaptive preference learning for medical question answering｜提出一种针对医学问答的优化方法，旨在提升大语言模型回答的准确性并减少事实性错误，对专业领域AI应用的可信化有指导意义。",
-      "趋势判断｜AI应用研究正从通用任务转向与特定领域知识深度融合的专业化、可信化场景，强调结构化信息、本体引导和验证流程，以应对复杂、高要求的科学信息处理任务。"
-    ],
-    "stats": {
-      "papers": 161,
-      "news": 120,
-      "featured": 67
     }
   }
 ]
