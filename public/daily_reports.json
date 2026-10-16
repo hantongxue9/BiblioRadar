@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-10-16",
+    "summary": "今日图情领域的研究焦点集中于人工智能应用与学术传播机制的交叉影响。在AI应用方面，研究深入探讨了AI在信息检索、内容生成与评估中的具体作用，如图书馆智能问答系统的构建、AI辅助创意设计的效果评估，以及跨领域谣言检测的算法优化。学术传播研究则揭示了开放同行评审中作者与审稿人沟通对论文质量与影响力的积极效应，以及学者合著网络动态变化对其学术表现的驱动作用。研究方法论上，强调科学知识图谱分析的可重复性与透明度框架构建。整体趋势显示出，图情研究正从技术工具的应用评估，转向对技术嵌入后的用户行为、知识生产模式及社会影响的系统性考察。",
+    "highlights": [
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证研究大语言模型在学术写作中的应用如何影响论文的可见度与引用表现，对理解AI如何重塑学术话语权具有重要价值。",
+      "论文｜Score increases, author–reviewer communication, and subsequent citations in open peer review: Evidence from ICLR｜基于ICLR会议数据，首次量化证实开放评审中有效沟通能提升论文评分与后续引用，为开放科学实践提供了有力证据。",
+      "论文｜Biblioshiny and the SAAS Workflow: An integrated framework for transparent and reproducible science mapping.｜提出并演示了一个集成框架，旨在提升科学知识图谱分析流程的透明度和可重复性，对规范文献计量研究具有重要意义。",
+      "动态｜Our 2023-2027 Strategy｜欧洲研究图书馆协会发布未来五年战略规划，为全球研究型图书馆在开放科学、数字转型等关键领域的战略制定提供重要参考。",
+      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity...｜研究揭示了在AI信息中介场景下，图书馆员专业指导的不可替代价值，为图书馆服务创新提供了实证依据。",
+      "趋势判断｜图情研究正从技术工具的应用评估，转向对技术嵌入后的用户行为、知识生产模式及社会影响的系统性考察。"
+    ],
+    "stats": {
+      "papers": 157,
+      "news": 129,
+      "featured": 66
+    }
+  },
+  {
     "date": "2026-10-15",
     "summary": "今日图情领域研究呈现出以人工智能应用深化与科学评价反思为主的双重趋势。在人工智能应用方面，研究重点从基础工具使用转向复杂场景下的交互优化与效果评估，例如在协作问题解决中探索人机协同机制、在在线教育中构建自适应推荐路径，以及在健康信息学中开发更精准的预测模型。在科学计量与评价领域，研究持续关注指标应用的复杂影响，包括大语言模型使用对引文表现的潜在塑造、极高被引论文对排名系统的扭曲效应，以及对“平等贡献”等署名政策实际公平性的实证检验。同时，提升研究透明度与可复现性的方法论框架，以及优化同行评审等学术交流流程的机制设计，也受到持续关注。",
     "highlights": [
@@ -143,23 +160,6 @@
       "papers": 149,
       "news": 97,
       "featured": 46
-    }
-  },
-  {
-    "date": "2026-10-02",
-    "summary": "今日图情领域的研究呈现出对人工智能技术应用与影响的深度关切，以及计量评价方法的持续创新。在计量与评价方面，研究重点包括利用复杂网络分析专利丛林、探讨AI工具（如AlphaFold）对科研产出的差异化影响，以及分析开放同行评议、大语言模型使用与期刊自引模式对学术传播效果的影响。这些研究揭示了技术应用可能带来的结构性变化，如缩小机构间产出差距或改变引用模式。在AI应用层面，研究覆盖了从学术检索、情感分析到虚假信息治理的多个场景，强调模型的可解释性、与领域专家（如图书馆员）的协同，以及处理多语言、动态性问题的能力。数据管理与知识组织领域则关注可逆水印、基于知识实体的检索等底层技术。整体趋势显示，图情研究正深度介入并评估以AI为代表的新技术对知识生产、传播与利用全链条的塑造作用。",
-    "highlights": [
-      "论文｜AI boosts publication output more at non-elite institutions: Evidence from AlphaFold｜实证研究表明AI工具有助于弥合科研机构的产出鸿沟，对科研公平性研究具有启示意义。",
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜探讨学者使用大语言模型辅助写作对其论文可见度（被引）的影响，触及学术传播的核心关切。",
-      "动态｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜运用博弈论模型优化审稿人分配，为提升同行评议系统的效率与公平性提供了新思路。",
-      "动态｜A novel knowledge-entity-grounded scholarly retrieval framework in full-text academic documents｜提出基于知识实体的全文检索框架，是知识组织与信息检索结合的前沿探索。",
-      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions｜实证研究图书馆员在AI辅助协作中的角色，凸显了信息专业人员在新技术环境下的关键价值。",
-      "趋势判断｜图情研究正从评估技术应用效果，转向深度参与构建兼顾公平、效率与可解释性的智能化学术信息环境。"
-    ],
-    "stats": {
-      "papers": 206,
-      "news": 130,
-      "featured": 81
     }
   }
 ]
