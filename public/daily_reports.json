@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-10-17",
+    "summary": "今日图情领域的研究呈现出以人工智能为核心、深化知识组织与评价方法的特点。在计量与评价方面，研究焦点从传统的引文计量转向知识贡献的深层识别和战略演化分析，特别是关注AI工具使用对学术传播公平性的影响，以及针对特定领域（如非编码RNA）的问题论文治理。在人工智能应用层面，检索增强生成（RAG）技术与多模态、跨模态检索的融合成为主流，研究致力于提升其在专业场景（如医疗推荐、图书馆服务、电商搜索）中的准确性、鲁棒性和可解释性。同时，针对网络信息生态的治理研究，如隐式仇恨言论与虚假信息传播的检测预警，也展现出结合因果推理与动态建模的技术趋势。",
+    "highlights": [
+      "论文｜From citation intent to knowledge contribution: Classifying what cited papers actually contribute｜提出超越引用计数的引文分类新框架，旨在从知识贡献层面进行更精细的引文分析。",
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证研究学者使用大语言模型写作对其论文被引的影响，揭示了AI可能加剧学术可见性的不平等。",
+      "动态｜Developing a multimodal library intelligent Q&A chatbot using retrieval-augmented generation (RAG) technology｜展示了RAG技术在多模态图书馆智能问答系统中的具体应用，为智慧图书馆服务提供实践案例。",
+      "动态｜Category mis-routing in LLM query planners: A reproducible failure mode and a label-free audit for e-commerce search｜揭示了大型语言模型在电商搜索查询规划中的系统性错误，并提出了一种无需标注的自动化审计方法。",
+      "趋势判断｜人工智能驱动的知识组织正从检索与生成，向融合因果推理、动态建模与效用优化的可信、可解释系统演进｜今日多项研究共同指向提升AI系统在复杂、动态信息环境中决策可靠性与公平性的技术路径。"
+    ],
+    "stats": {
+      "papers": 159,
+      "news": 122,
+      "featured": 58
+    }
+  },
+  {
     "date": "2026-10-16",
     "summary": "今日图情领域的研究焦点集中于人工智能应用与学术传播机制的交叉影响。在AI应用方面，研究深入探讨了AI在信息检索、内容生成与评估中的具体作用，如图书馆智能问答系统的构建、AI辅助创意设计的效果评估，以及跨领域谣言检测的算法优化。学术传播研究则揭示了开放同行评审中作者与审稿人沟通对论文质量与影响力的积极效应，以及学者合著网络动态变化对其学术表现的驱动作用。研究方法论上，强调科学知识图谱分析的可重复性与透明度框架构建。整体趋势显示出，图情研究正从技术工具的应用评估，转向对技术嵌入后的用户行为、知识生产模式及社会影响的系统性考察。",
     "highlights": [
@@ -144,22 +160,6 @@
       "papers": 182,
       "news": 96,
       "featured": 53
-    }
-  },
-  {
-    "date": "2026-10-05",
-    "summary": "今日图情领域的研究呈现出对人工智能工具应用影响的深度量化评估，以及对学术交流过程进行建模优化的持续关注。核心发现包括：前沿AI工具（如AlphaFold、LLM）的采纳存在结构性差异，可能重塑研究机构的产出格局；开放同行评审中的有效沟通与论文质量、影响力正相关；针对学术数据（如引用、署名）的复杂统计建模方法不断演进。同时，AI应用研究聚焦于提升信息治理（如谣言识别、虚假信息预警）的时效性与可信度，以及在特定领域（如临床文本、新闻分析）构建更可靠、可解释的工作流程。",
-    "highlights": [
-      "论文｜AI boosts publication output more at non-elite institutions: Evidence from AlphaFold｜实证研究表明AlphaFold显著缩小了非顶尖机构与精英机构的论文产出差距，揭示了AI工具对科研格局的潜在重塑作用。",
-      "论文｜Score increases, author–reviewer communication, and subsequent citations in open peer review: Evidence from ICLR｜基于ICLR会议数据的实证分析，揭示了开放评审中作者与审稿人互动对论文评分及后续影响力的积极影响。",
-      "动态｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的大规模分析发现，使用大语言模型辅助写作与更高的被引次数存在关联。",
-      "动态｜Toward trustworthy LLM-based scientific information extraction: An ontology-guided, validation-aware workflow｜提出结合本体论与验证流程的新方法，旨在构建更可信的大语言模型科学信息提取系统。",
-      "趋势判断｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression｜针对学术引用数据中大量零值和极端值的复杂分布，提出了更精细的贝叶斯统计建模框架，代表了计量方法学的前沿方向。"
-    ],
-    "stats": {
-      "papers": 149,
-      "news": 97,
-      "featured": 46
     }
   }
 ]
