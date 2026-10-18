@@ -92,6 +92,52 @@
     "id": 23217
   },
   {
+    "title": "Critical questions for documenting collections as data: Provocations from developing datasheets for web archives datasets",
+    "abstract": "",
+    "date": "2026-11-01",
+    "link": "https://doi.org/10.1002/asi.70113",
+    "affiliations": "Emily Maemura; Helena Byrne",
+    "source": "JASIST",
+    "tier": "A",
+    "field": "information_science",
+    "content_type": "paper",
+    "category": "数据管理",
+    "thinking": "该论文聚焦于网络档案数据集文档化的关键问题，提出了类似机器学习领域数据表的文档框架，方法具有前沿性，但框架本身仍处于概念提出与初步验证阶段，其在不同机构与场景下的普适性与实际采纳效果有待进一步观察。",
+    "scores": {
+      "frontier_tech": 9,
+      "practical_value": 7,
+      "methodological_rigor": 8
+    },
+    "one_sentence_summary": "该研究将机器学习领域的数据表概念引入网络档案管理，为提升数据集的可发现性、可理解性和可重用性提供了关键的问题框架与文档化思路。",
+    "credibility_score": 6.7,
+    "composite_score": 7.8,
+    "featured": true,
+    "id": 29602
+  },
+  {
+    "title": "mapping-bioimage-software: data and code for Mapping bioimage-analysis software adoption in microscopy",
+    "abstract": "Data and code for Mapping bioimage-analysis software adoption in microscopy. The registry contains 30 packages: 22 analysis packages, six microscope-control programs, and MATLAB and Jupyter notebooks as references outside all aggregates. The deep-learning series uses 13 core analysis packages. Jupyter notebooks retain their aliases, notebook category and core scope. Frozen validation designs and labels retain the original 14-package calibration sample. The archive holds processed counts, annotator-labelled validation sets, identifier-only sampling frames, configuration, code and provenance. Data sources: Europe PMC (search API and open-access full text; metadata derived from MEDLINE/PubMed carries the NLM notice that the data may not be current and that NLM does not endorse this work; full text was mined and never redistributed), OpenAlex (CC0), the GitHub REST API (public repository counts), pypistats.org (30-day PyPI download totals from the Python Software Foundation's PyPI BigQuery dataset, CC BY 4.0), the image.sc forum (topic counts only, no posts), Crossref and ORCID (bibliographic metadata, CC0), and MeSH headings from MEDLINE records (2026 MeSH vocabulary, retrieved 15 October 2026). The archive contains no article titles, abstracts or full text. Article text can be rebuilt from identifiers with release/refetch_identifiers.py through Europe PMC. The data are licensed under CC BY 4.0 (LICENSE-DATA) and the code under MIT (LICENSE); this record carries CC BY 4.0 for the data and states the MIT licence for the code. Funding named without a grant identifier: EMBO Installation Grant EMBO-2020-IG-4734; Chan Zuckerberg Initiative Imaging Scientist award (2020-225445); la Caixa Foundation CaixaResearch Health 2025 award (VirusAwareScopes, HR25-00453); Sigrid Juselius Foundation; Cancer Society of Finland; Solutions for Health strategic funding to Åbo Akademi University; Finnish Cancer Institute (K. Albin Johansson Professorship); the Kavli Foundation co-funds the EOSS Cycle 6 award. MEDLINE/PubMed and MeSH data: Courtesy of the U.S. National Library of Medicine; NLM data may not be current, and NLM does not endorse this work.",
+    "date": "2026-10-20",
+    "link": "https://doi.org/https://doi.org/10.5281/zenodo.23395934",
+    "affiliations": "Tayla Shakespeare; Bruno M. Saraiva; Inês Cunha",
+    "source": "OpenAlex - LIS",
+    "tier": "C",
+    "field": "information_science",
+    "content_type": "paper",
+    "category": "数据管理",
+    "thinking": "该论文通过多源数据（如Europe PMC、OpenAlex、GitHub等）构建了生物图像分析软件采用情况的映射数据集，并提供了可复现的代码，方法严谨且数据来源透明。然而，论文主要贡献在于数据与代码的发布，其技术方法本身（如数据采集与聚合）并非当前最前沿，且其直接业务落地价值有限，更多服务于特定领域的元研究或工具评估。",
+    "scores": {
+      "frontier_tech": 6,
+      "practical_value": 7,
+      "methodological_rigor": 9
+    },
+    "one_sentence_summary": "该研究发布了一个用于追踪生物图像分析软件在显微成像领域采用情况的开源数据集与代码包。",
+    "credibility_score": 6.2,
+    "composite_score": 6.9,
+    "featured": false,
+    "id": 29716
+  },
+  {
     "title": "Algorithmic Hegemony and the Coding of Gender: An Integrative Review of Artificial Intelligence Translucency in the Brazilian Scientific Ecosystem",
     "abstract": "ENGLISH RESEARCH INFORMATION Systematized research materials produced as part of a study on gender bias in Artificial Intelligence (AI) systems and its implications for the Brazilian scientific ecosystem. The study was conducted through an integrative literature review using the OpenAlex database and covering publications from 2023 to 2026. After applying the selection criteria, 23 publications were analyzed, focusing on manifestations of algorithmic bias, the technical and sociocultural factors associated with its emergence, and strategies proposed to mitigate bias and promote greater equity in AI systems. The research identified manifestations of gender bias across different AI application contexts, including healthcare, education, financial systems, and natural language processing. The factors discussed include historically biased datasets, limited diversity within development teams, reproduction of sociocultural structures, and limitations in the representation of different identities. Mitigation strategies identified in the literature include diversity, equity, and inclusion approaches; participatory design; curricular reforms; critical algorithmic literacy; and the development of technological and legal governance mechanisms. SCIENTIFIC OUTPUT Complete content of the scientific paper produced from the research, including its theoretical foundations, integrative review methodology, results, discussion of the evidence, and conclusions. The findings are organized around three research questions concerning manifestations of gender bias in AI applications, their technical and sociocultural origins, and strategies proposed for their mitigation within the Brazilian context. REPRODUCIBILITY AND PROVENANCE The research materials are made available to promote reproducibility, provenance, transparency, and scientific traceability throughout the research process. Their availability contributes to documenting the review procedures, the evidence analyzed, and the scientific outputs derived from the study. DECLARATION OF THE USE OF ARTIFICIAL INTELLIGENCE TOOLS Generative Artificial Intelligence tools were used exclusively for operational support: ChatGPT for the selection and evaluation of Boolean operators; Gemini for spelling and grammatical revision; and Claude for confirming, validating, and structuring references according to ABNT standards. All other stages, including analysis, interpretation, synthesis, and conclusions, were developed by the authors, who assume full responsibility for the scientific content. ACKNOWLEDGMENTS AND ADDITIONAL INFORMATION This study was financed in part by the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior – Brasil (CAPES) – Finance Code 001. This paper was approved through peer review for the 3rd National Congress of Education and Scientific Production (III CONAPEC), held from October 19 to 22, 2026, and organized by the Sociedade Brasileira de Eventos Científicos (SOBREC). Although approved through the scientific peer-review process, the paper was not subsequently incorporated into the official conference proceedings because the financial requirements associated with formal publication could not be met. Documentation confirming the peer-review approval is provided as an attachment. HOW TO CITE CLARO FREIRE, Evandro; COUTO, Weslley de Souza. Algorithmic Hegemony and the Coding of Gender: An Integrative Review of Artificial Intelligence Translucency in the Brazilian Scientific Ecosystem. In: 3rd National Congress of Education and Scientific Production (III CONAPEC), [online], 19–22 Oct. 2026. Sociedade Brasileira de Eventos Científicos (SOBREC), 2026 DOI: 10.5281/zenodo.23091322. ZENODO CLARO FREIRE, Evandro; COUTO, Weslley de Souza. Algorithmic Hegemony and the Coding of Gender: An Integrative Review of Artificial Intelligence Translucency in the Brazilian Scientific Ecosystem. Zenodo, 2026. DOI: 10.5281/zenodo.23091322. PORTUGUÊS INFORMAÇÕES DA PESQUISA Materiais sistematizados da pesquisa desenvolvida sobre vieses de gênero em sistemas de Inteligência Artificial (IA) e suas implicações no ecossistema científico brasileiro. O estudo foi conduzido por meio de revisão integrativa da literatura, com consulta à base OpenAlex e recorte temporal entre 2023 e 2026. Após aplicação dos critérios de seleção, foram analisadas 23 publicações, considerando manifestações de vieses algorítmicos, fatores técnicos e socioculturais associados à sua formação e estratégias propostas para mitigação e promoção de maior equidade nos sistemas de IA. A pesquisa identificou manifestações de viés em diferentes contextos de aplicação da IA, incluindo saúde, educação, sistemas financeiros e processamento de linguagem natural. Entre os fatores discutidos estão conjuntos de dados historicamente enviesados, baixa diversidade nas equipes de desenvolvimento, reprodução de estruturas socioculturais e limitações na representação de diferentes identidades. Como estratégias de mitigação, a literatura analisada apresenta abordagens relacionadas à diversidade, equidade e inclusão, design participativo, reformas curriculares, letramento crítico em algoritmos e desenvolvimento de mecanismos de governança tecnológica e jurídica. PRODUÇÃO CIENTÍFICA Conteúdo integral do artigo científico produzido a partir da pesquisa, incluindo fundamentação teórica, metodologia da revisão integrativa, resultados, discussão das evidências e conclusões. O trabalho organiza os resultados em torno de três questões de pesquisa relacionadas às manifestações dos vieses de gênero em aplicações de IA, às suas origens técnicas e socioculturais e às estratégias propostas para sua mitigação no contexto brasileiro. REPRODUTIBILIDADE E PROVENIÊNCIA Os materiais associados à pesquisa são disponibilizados com o objetivo de favorecer a reprodutibilidade, proveniência, transparência e rastreabilidade científica do processo de investigação. A disponibilização dos materiais permite documentar os procedimentos de revisão, as evidências analisadas e os produtos científicos derivados do estudo. DECLARAÇÃO DE USO DE FERRAMENTAS DE INTELIGÊNCIA ARTIFICIAL Foram utilizadas ferramentas de Inteligência Artificial Generativa exclusivamente como suporte operacional: ChatGPT na seleção e avaliação dos operadores booleanos; Gemini para revisão ortográfica e gramatical; e Claude para confirmação, validação e estruturação das referências segundo as normas ABNT. As demais etapas, incluindo análise, interpretação, síntese e conclusão, foram desenvolvidas pelos autores, que assumem integral responsabilidade pelo conteúdo científico produzido. AGRADECIMENTOS E INFORMAÇÕES ADICIONAIS O presente trabalho foi realizado com apoio da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior – Brasil (CAPES) – Código de Financiamento 001. O artigo foi aprovado por meio de processo de avaliação por pares (peer review) para o III Congresso Nacional de Educação e Produção Científica (III CONAPEC), realizado entre os dias 19 e 22 de outubro de 2026, sob realização da Sociedade Brasileira de Eventos Científicos (SOBREC). Embora aprovado no processo de avaliação científica, o trabalho não foi posteriormente incorporado aos anais oficiais do evento em decorrência da inviabilidade de atendimento aos encargos financeiros requeridos para a formalização de sua publicação. O documento comprobatório da aprovação por pares encontra-se disponibilizado em anexo. COMO CITAR — ABNT CLARO FREIRE, Evandro; COUTO, Weslley de Souza. Hegemonia algorítmica e a codificação do gênero: uma revisão integrativa sobre a translucidez da inteligência artificial no ecossistema científico brasileiro. In: III Congresso Nacional de Educação e Produção Científica (III CONAPEC), [online], 19–22 out. 2026. Sociedade Brasileira de Eventos Científicos (SOBREC), 2026. DOI: 10.5281/zenodo.23091322. Zenodo — ABNT CLARO FREIRE, Evandro; COUTO, Weslley de Souza. Hegemonia algorítmica e a codificação do gênero: uma revisão integrativa sobre a translucidez da inteligência artificial no ecossistema científico brasileiro. Zenodo, 2026. DOI: 10.5281/zenodo.23091322.",
     "date": "2026-10-19",
@@ -11452,51 +11498,5 @@
     "composite_score": 6.6,
     "featured": false,
     "id": 26994
-  },
-  {
-    "title": "Mind the Gaps: From Failure Attribution to Closed-Form Repair of Code Language Models",
-    "abstract": "arXiv:2610.05277v1 Announce Type: cross \nAbstract: Code language models must be maintained like the software around them: when a library evolves, a model keeps writing the interface that it saw during training. Repairing the model itself lets one correction reach all downstream uses. Existing repair methods attribute a failure to neurons, select the highest-ranked ones, and apply a generic update. This pipeline assumes that the attributed neurons are the ones to patch and that a generic update fits every failure, and neither assumption has been examined. We examine both on executable API evolution tasks in Python and Rust with three code models and identify two gaps. The targeting gap separates the neurons that failure attribution targets from the neurons that can carry a patch: their top sets have a Jaccard overlap of only 0.15 to 0.20. The tailoring gap separates a generic update from a patch built for the failure: the patches that different carrier neurons need are nearly orthogonal. To address both gaps, we propose ASTRA. It targets neurons by contrastive semantics, an attribution that scores a neuron by its contribution to the logit contrast between the target token and the produced token. It then tailors the patch by solving one small linear system in closed form, which corrects all failing tokens of a sample jointly and needs neither an optimizer nor a backward pass. Contrastive semantics selects significantly better carrier neurons than gradient-based attributions in 3 of 6 settings and comparable ones in the others. On average, ASTRA reaches 66.7 percent Pass@1, against 48.4 percent for the best of AlphaEdit, STAR and low-rank adaptation, and repairs a sample in 2.7 seconds. It is the best method in all 6 settings and for every type of API change, and this advantage persists under an unseen phrasing of the test prompt. Its side effects on unrelated code are small on the large models and larger on the small one.",
-    "date": "2026-10-06",
-    "link": "https://arxiv.org/abs/2610.05277",
-    "affiliations": "",
-    "source": "arXiv - Computation & Language",
-    "tier": "C",
-    "field": "nlp",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "该论文针对代码语言模型的修复问题，提出了基于对比语义归因和闭式解线性系统的ASTRA方法，在技术方法上具有创新性，属于前沿的AI模型编辑研究。其方法在Python和Rust的API演化任务上进行了严谨的实验验证，样本充足且对比了多种基线方法，方法严谨性高。然而，论文聚焦于模型底层技术修复，其直接业务落地价值对图书馆等图情机构而言较为有限，更多适用于AI开发或软件工程领域。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 4,
-      "methodological_rigor": 9
-    },
-    "one_sentence_summary": "该研究提出了一种名为ASTRA的新方法，能更精准、快速地修复代码语言模型在API更新后产生的错误。",
-    "credibility_score": 6.0,
-    "composite_score": 6.1,
-    "featured": false,
-    "id": 26995
-  },
-  {
-    "title": "TeleTune: Evolving Agent Skills From Offline Telemetry",
-    "abstract": "arXiv:2610.05437v1 Announce Type: cross \nAbstract: Computer-use agents need to capture procedural knowledge of how people use software. User telemetry offers a scalable source of this knowledge. However, learning reusable skills from these logs requires addressing three challenges: (1) Goal Underspecification, since logs do not record the goal behind each action; (2) Non-Replayability, since past activity cannot be replayed to evaluate skill updates; and (3) Interleaved Trajectories, since logs may mix several tasks without marking their boundaries. To address these, we introduce TeleTune, a framework for learning a textual skill library from offline logs without recorded goals, cannot be replayed during optimization, and may interleave tasks. TeleTune uses action-prediction errors on logged trajectories to propose library edits and keep only those that improve held-out action-prediction accuracy, which we call skill-guided progress. The learned workflows also enable retrieval of demonstrations that cover the subgoals of a new task. At test time, the agent is provided with the learned library and the workflow-based retrieved demonstrations. Experiments on WorkArena and Online-Mind2Web show that TeleTune outperforms random retrieval, Agent Workflow Memory (AWM), and their combination. We find that the best baseline varies by setting, whereas TeleTune achieves average success rates of 77.1% and 80.6%, respectively, improving over the strongest baseline on each benchmark by 6.7% and 7.7%. Under the heaviest perturbation of the WorkArena training data,TeleTune keeps the highest average success rate at 68.5%, 6.3% above the strongest baseline. Our analyses show (1) skill optimization and workflow-based retrieval are complementary, (2) optimizing on fixed logs costs 5 to 75 times fewer tokens than validating the same edits with live episodes, (3) skill-guided progress tracks the live success rate.",
-    "date": "2026-10-06",
-    "link": "https://arxiv.org/abs/2610.05437",
-    "affiliations": "",
-    "source": "arXiv - Computation & Language",
-    "tier": "C",
-    "field": "nlp",
-    "content_type": "paper",
-    "category": "AI应用",
-    "thinking": "该论文提出了一种从离线用户遥测数据中学习软件操作技能的框架，解决了目标不明确、不可重放和任务交织三大挑战，方法设计具有创新性。然而，研究场景偏向通用软件代理，与图书馆、信息机构等特定业务场景的直接关联较弱，实践应用价值需进一步转化。",
-    "scores": {
-      "frontier_tech": 9,
-      "practical_value": 5,
-      "methodological_rigor": 8
-    },
-    "one_sentence_summary": "该研究提出了一个从离线用户操作日志中自动学习和优化软件使用技能库的框架，并在基准测试中取得了优于基线方法的效果。",
-    "credibility_score": 6.0,
-    "composite_score": 6.2,
-    "featured": false,
-    "id": 26996
   }
 ]

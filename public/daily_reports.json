@@ -1,16 +1,17 @@
 [
   {
-    "date": "2026-10-17",
-    "summary": "今日图情领域的研究呈现出以人工智能为核心、深化知识组织与评价方法的特点。在计量与评价方面，研究焦点从传统的引文计量转向知识贡献的深层识别和战略演化分析，特别是关注AI工具使用对学术传播公平性的影响，以及针对特定领域（如非编码RNA）的问题论文治理。在人工智能应用层面，检索增强生成（RAG）技术与多模态、跨模态检索的融合成为主流，研究致力于提升其在专业场景（如医疗推荐、图书馆服务、电商搜索）中的准确性、鲁棒性和可解释性。同时，针对网络信息生态的治理研究，如隐式仇恨言论与虚假信息传播的检测预警，也展现出结合因果推理与动态建模的技术趋势。",
+    "date": "2026-10-18",
+    "summary": "今日图情领域的研究焦点高度集中于人工智能技术的深度应用与伦理反思，同时行业政策层面对开放科学实践的探索持续深化。在技术层面，以检索增强生成（RAG）为核心的智能问答系统开发，以及结合因果推理、可解释AI（XAI）和本体论来提升模型在科学信息提取、医疗预测、欺骗检测等场景下的鲁棒性与可信度，成为主流研究方向。算法不平等作为关键的社会技术议题，其系统性综述为领域设定了未来议程。在行业动态方面，欧洲研究图书馆协会（LIBER）密集发声，通过发布战略声明、立场文件及发起‘零时滞’运动，明确了研究图书馆在推动立即开放获取、钻石开放获取模式及构建可持续学术公地中的核心权利、价值观与实践路径，显示出机构层面对开放科学生态建设的系统性布局。",
     "highlights": [
-      "论文｜From citation intent to knowledge contribution: Classifying what cited papers actually contribute｜提出超越引用计数的引文分类新框架，旨在从知识贡献层面进行更精细的引文分析。",
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证研究学者使用大语言模型写作对其论文被引的影响，揭示了AI可能加剧学术可见性的不平等。",
-      "动态｜Developing a multimodal library intelligent Q&A chatbot using retrieval-augmented generation (RAG) technology｜展示了RAG技术在多模态图书馆智能问答系统中的具体应用，为智慧图书馆服务提供实践案例。",
-      "动态｜Category mis-routing in LLM query planners: A reproducible failure mode and a label-free audit for e-commerce search｜揭示了大型语言模型在电商搜索查询规划中的系统性错误，并提出了一种无需标注的自动化审计方法。",
-      "趋势判断｜人工智能驱动的知识组织正从检索与生成，向融合因果推理、动态建模与效用优化的可信、可解释系统演进｜今日多项研究共同指向提升AI系统在复杂、动态信息环境中决策可靠性与公平性的技术路径。"
+      "论文｜Conceptualizing algorithmic inequality and future agenda｜这篇ARIST年度综述系统梳理了算法不平等研究，为该领域设定了关键的未来研究议程。",
+      "论文｜Critical questions for documenting collections as data｜研究将‘数据表’概念引入网络档案，为数据集文档化提供了提升可发现性与可重用性的关键框架。",
+      "论文｜Toward trustworthy LLM-based scientific information extraction｜提出融合本体引导与验证流程的方法，旨在提升大语言模型在科学信息提取中的可信度。",
+      "动态｜#ZeroEmbargo Campaign｜LIBER发起推动学术论文立即开放获取的‘零时滞’运动，反映了行业对加速知识传播的迫切诉求。",
+      "动态｜Knowledge Rights 21 Project: The Role of Academic Libraries in Diamond Open Access｜资讯深入探讨了学术图书馆在钻石开放获取这一可持续模式中的核心角色与发展方向。",
+      "趋势判断｜AI可信与开放科学并行｜领域发展呈现技术追求可信、透明AI应用与行业推动开放、公平知识基础设施两大并行且相互关联的核心趋势。"
     ],
     "stats": {
-      "papers": 159,
+      "papers": 118,
       "news": 122,
       "featured": 58
     }
