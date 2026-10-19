@@ -1,19 +1,18 @@
 [
   {
-    "date": "2026-10-18",
-    "summary": "今日图情领域的研究焦点高度集中于人工智能技术的深度应用与伦理反思，同时行业政策层面对开放科学实践的探索持续深化。在技术层面，以检索增强生成（RAG）为核心的智能问答系统开发，以及结合因果推理、可解释AI（XAI）和本体论来提升模型在科学信息提取、医疗预测、欺骗检测等场景下的鲁棒性与可信度，成为主流研究方向。算法不平等作为关键的社会技术议题，其系统性综述为领域设定了未来议程。在行业动态方面，欧洲研究图书馆协会（LIBER）密集发声，通过发布战略声明、立场文件及发起‘零时滞’运动，明确了研究图书馆在推动立即开放获取、钻石开放获取模式及构建可持续学术公地中的核心权利、价值观与实践路径，显示出机构层面对开放科学生态建设的系统性布局。",
+    "date": "2026-10-19",
+    "summary": "今日图情领域的研究呈现出以人工智能应用为核心、深度融合计量评价与用户行为分析的鲜明趋势。在计量与评价方向，研究重点在于提升科学指标（如颠覆性指数）的稳健性与对复杂数据（如零膨胀引文数据）的建模能力，并关注AI工具对科研产出公平性的潜在影响。AI应用研究广泛渗透于信息检索、内容分析与服务创新，焦点包括增强图神经网络等模型的鲁棒性、评估用户对AI生成内容的信任机制，以及利用检索增强生成（RAG）等技术开发新型图书馆智能服务。同时，针对在线社区意见领袖的动态识别、电商搜索中大型语言模型的故障模式分析等研究，体现了对复杂信息环境中用户行为与系统交互的深入洞察。",
     "highlights": [
-      "论文｜Conceptualizing algorithmic inequality and future agenda｜这篇ARIST年度综述系统梳理了算法不平等研究，为该领域设定了关键的未来研究议程。",
-      "论文｜Critical questions for documenting collections as data｜研究将‘数据表’概念引入网络档案，为数据集文档化提供了提升可发现性与可重用性的关键框架。",
-      "论文｜Toward trustworthy LLM-based scientific information extraction｜提出融合本体引导与验证流程的方法，旨在提升大语言模型在科学信息提取中的可信度。",
-      "动态｜#ZeroEmbargo Campaign｜LIBER发起推动学术论文立即开放获取的‘零时滞’运动，反映了行业对加速知识传播的迫切诉求。",
-      "动态｜Knowledge Rights 21 Project: The Role of Academic Libraries in Diamond Open Access｜资讯深入探讨了学术图书馆在钻石开放获取这一可持续模式中的核心角色与发展方向。",
-      "趋势判断｜AI可信与开放科学并行｜领域发展呈现技术追求可信、透明AI应用与行业推动开放、公平知识基础设施两大并行且相互关联的核心趋势。"
+      "论文｜A revised disruption index considering detailed citation information: Enhancing noise resistance and differentiation｜提出一种更稳健的颠覆性指数修订方法，通过纳入详细引文信息提升其在科研评价中的抗干扰与区分能力。",
+      "论文｜AI boosts publication output more at non-elite institutions: Evidence from AlphaFold｜以AlphaFold为例，实证分析发现AI工具可能更显著地促进非顶尖机构的科研产出，对理解科研资源分配具有启示意义。",
+      "动态｜From search results to generative answers: A mixed-methods study of credibility assessment and trust formation in AI Overviews｜通过混合方法研究用户对搜索引擎AI生成摘要的可信度评估与信任形成机制，对设计可信AI信息服务至关重要。",
+      "动态｜Developing a multimodal library intelligent Q&A chatbot using retrieval-augmented generation (RAG) technology｜展示了利用检索增强生成技术构建图书馆多模态智能问答机器人的实践，是AI驱动图书馆服务创新的典型案例。",
+      "趋势判断｜图情领域研究正从传统的文献计量与系统构建，转向关注AI模型在真实复杂信息环境（如含噪声数据、动态社区、多模态资源）中的可靠性、可解释性及其社会影响评估。"
     ],
     "stats": {
-      "papers": 118,
-      "news": 122,
-      "featured": 58
+      "papers": 132,
+      "news": 132,
+      "featured": 67
     }
   },
   {
