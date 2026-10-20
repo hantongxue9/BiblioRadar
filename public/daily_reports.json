@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-10-20",
+    "summary": "今日图情领域的研究呈现出对人工智能技术应用与学术评价体系变革的双重聚焦。在学术评价方面，引文分析正从简单的计数转向对知识贡献类型的深层识别，同时，超多作者合作模式下的作者归属、大语言模型对学术写作与被引模式的影响，以及针对零膨胀和厚尾分布的引文数据建模，均成为计量学关注的前沿议题。在人工智能应用方面，研究重点在于提升模型在复杂任务中的性能与可解释性，例如通过结构感知与对比学习优化大语言模型的关系抽取能力，利用博弈论模型改进同行评审机制，以及开发更有效的跨模态虚假信息检测与预警方法。这些进展共同指向一个更精细、更透明、且更依赖智能技术的图情研究与应用生态。",
+    "highlights": [
+      "论文｜From citation intent to knowledge contribution: Classifying what cited papers actually contribute｜提出超越引文计数的知识贡献分类框架，推动引文分析从量化走向质化。",
+      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证研究揭示大语言模型在学术写作中的应用如何系统性影响论文的可见度与被引模式。",
+      "动态｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的大规模分析，为AI辅助写作与学术影响力关联提供了有力证据。",
+      "动态｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜运用博弈论模型设计兼顾公平与效率的同行评审优先级机制，旨在优化学术出版流程。",
+      "AI应用｜Enhancing Large Language Models for document-level relation triple extraction via structural awareness and contrastive learning｜结合结构感知与对比学习，显著提升大语言模型处理文档级复杂关系抽取任务的能力。",
+      "趋势判断｜学术评价体系正经历从依赖简单指标到融合内容语义、作者贡献模式及AI影响的多维度综合评估转型。"
+    ],
+    "stats": {
+      "papers": 154,
+      "news": 110,
+      "featured": 68
+    }
+  },
+  {
     "date": "2026-10-19",
     "summary": "今日图情领域的研究呈现出以人工智能应用为核心、深度融合计量评价与用户行为分析的鲜明趋势。在计量与评价方向，研究重点在于提升科学指标（如颠覆性指数）的稳健性与对复杂数据（如零膨胀引文数据）的建模能力，并关注AI工具对科研产出公平性的潜在影响。AI应用研究广泛渗透于信息检索、内容分析与服务创新，焦点包括增强图神经网络等模型的鲁棒性、评估用户对AI生成内容的信任机制，以及利用检索增强生成（RAG）等技术开发新型图书馆智能服务。同时，针对在线社区意见领袖的动态识别、电商搜索中大型语言模型的故障模式分析等研究，体现了对复杂信息环境中用户行为与系统交互的深入洞察。",
     "highlights": [
