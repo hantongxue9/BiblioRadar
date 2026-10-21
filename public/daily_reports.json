@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-10-21",
+    "summary": "今日图情领域的研究呈现出对人工智能应用影响的深度关切与多维评估。核心议题包括算法公平性与社会影响，多篇论文从不同角度探讨了算法不平等、AI工具对不同层级科研机构的差异化赋能效应，以及AI生成内容（如AI Overviews）的可信度评估机制。在学术传播与评价方面，同行评审过程的优化（如公平性机制、开放评审沟通）以及AI辅助写作对学术产出的影响成为焦点，同时文献计量方法被用于揭示特定学科领域（如非编码RNA）的论文质量问题。在信息检索与内容分析技术前沿，研究重点转向更精细的知识表示（如知识实体、图结构）和多模态信息融合，旨在提升学术检索、虚假信息检测及谣言治理等任务的性能与鲁棒性。",
+    "highlights": [
+      "论文｜Conceptualizing algorithmic inequality and future agenda｜一篇重要的ARIST综述，系统构建了算法不平等的研究框架并指明未来方向，具有理论奠基价值。",
+      "论文｜AI boosts publication output more at non-elite institutions: Evidence from AlphaFold｜基于实证证据揭示了AI工具可能缩小科研产出差距的积极社会效应。",
+      "论文｜Score increases, author–reviewer communication, and subsequent citations in open peer review｜揭示了开放评审中沟通对论文质量和影响力的具体作用机制，对改革评审制度有启发。",
+      "动态｜MIKA: Source reconstructibility for robust document processing with LLMs｜提出在企业级应用中确保LLM处理文档可追溯与验证的实用方法，关注落地可靠性。",
+      "动态｜From search results to generative answers: A mixed-methods study of credibility assessment｜通过混合方法深入探究用户对AI生成摘要的信任形成过程，对设计可信AI系统至关重要。",
+      "趋势判断｜信息处理技术正从传统检索向融合知识实体、图结构与多模态学习的深度理解与预测演进｜技术路径日益复杂化，旨在解决更贴近真实场景的复杂信息任务。"
+    ],
+    "stats": {
+      "papers": 220,
+      "news": 105,
+      "featured": 69
+    }
+  },
+  {
     "date": "2026-10-20",
     "summary": "今日图情领域的研究呈现出对人工智能技术应用与学术评价体系变革的双重聚焦。在学术评价方面，引文分析正从简单的计数转向对知识贡献类型的深层识别，同时，超多作者合作模式下的作者归属、大语言模型对学术写作与被引模式的影响，以及针对零膨胀和厚尾分布的引文数据建模，均成为计量学关注的前沿议题。在人工智能应用方面，研究重点在于提升模型在复杂任务中的性能与可解释性，例如通过结构感知与对比学习优化大语言模型的关系抽取能力，利用博弈论模型改进同行评审机制，以及开发更有效的跨模态虚假信息检测与预警方法。这些进展共同指向一个更精细、更透明、且更依赖智能技术的图情研究与应用生态。",
     "highlights": [
@@ -145,38 +162,6 @@
       "papers": 206,
       "news": 124,
       "featured": 87
-    }
-  },
-  {
-    "date": "2026-10-07",
-    "summary": "今日图情领域的研究呈现出数据管理精细化与人工智能应用深化两大趋势。在数据管理方面，标准化与可重用性成为焦点，研究为网络档案数据集开发了数据表框架，并为中国生物医学领域提出了提升数据FAIR原则的系统策略。人工智能的影响持续扩展至学术生产的全过程，多篇研究探讨了大语言模型在学术写作、引用表现以及信息检索中的实际效果与潜在问题，表明AI已深度介入知识创造与传播环节。同时，知识计量方法不断演进，通过语义分析、网络科学等新工具揭示专利丛林、领域知识演化等复杂现象，并关注学术诚信与问题论文的识别。",
-    "highlights": [
-      "论文｜Critical questions for documenting collections as data: Provocations from developing datasheets for web archives datasets｜为网络档案数据集构建了一套标准化的数据文档化框架，对提升数据集的长期保存与重用价值具有重要实践意义。",
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证探讨了学者使用大语言模型与其论文引用表现之间的关系，触及了AI时代学术评价的新维度。",
-      "动态｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的大规模分析，为理解AI辅助写作对学术影响力的实际作用提供了有力证据。",
-      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜揭示了在AI信息中介场景下，专业馆员指导与用户认知仍对创造性成果产生关键影响，强调了人机协同的价值。",
-      "趋势判断｜知识计量研究正从传统指标分析转向融合语义、网络与动态轨迹的复杂模式揭示，以理解知识演化、学术不端及技术转型等深层结构。"
-    ],
-    "stats": {
-      "papers": 243,
-      "news": 97,
-      "featured": 51
-    }
-  },
-  {
-    "date": "2026-10-06",
-    "summary": "今日图情领域的研究呈现出对人工智能（特别是大语言模型）应用效果与影响的深度关注，以及计量与评价方法论的持续创新。在计量与评价方面，研究重点在于利用复杂网络、主题模型等新方法分析知识演化模式，并开始实证考察大语言模型采纳对学术成果影响力的具体关联。在人工智能应用层面，研究不仅探索了其在信息抽取、情感分析、谣言治理等具体任务中的技术优化，更深入至人机协作、模型可信度评估及社会现象模拟等复杂场景。整体趋势表明，该领域正从技术应用探索阶段，迈向对技术应用效果、社会影响及伦理风险的实证与系统性评估阶段。",
-    "highlights": [
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜实证揭示了学术写作中采纳大语言模型与论文引用表现之间的关联，为评估AI对学术交流的影响提供了量化证据。",
-      "论文｜Toward trustworthy LLM-based scientific information extraction: An ontology-guided, validation-aware workflow and a single-domain case study｜提出了结合本体引导与验证的大语言模型科学信息提取工作流程，旨在提升自动化信息处理结果的可信度与可靠性。",
-      "动态｜LLM-Assisted writing in engineering is associated with higher citations as evidenced from 1.17 million papers｜基于超百万篇工程学论文的大规模分析，为“AI辅助写作可能提升学术影响力”这一现象提供了强有力的数据支持。",
-      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜探讨了在AI辅助的协作学习中图书馆员指导的关键作用，为信息专业人员在智能环境下的角色定位提供了新见解。",
-      "趋势判断｜从规则到推理：基于智能体与赋能的模拟研究系统综述｜系统梳理了利用智能体和大语言模型模拟公共协作的研究，预示着计算社会科学方法在理解复杂信息行为与社会互动方面将扮演更重要的角色。"
-    ],
-    "stats": {
-      "papers": 182,
-      "news": 96,
-      "featured": 53
     }
   }
 ]
