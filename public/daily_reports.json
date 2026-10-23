@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-10-23",
+    "summary": "今日图情领域研究呈现出显著的技术驱动特征，核心议题围绕人工智能应用深化与科学计量方法创新展开。在人工智能应用方面，大语言模型展现出超越传统文本处理的潜力，研究重点转向其在学术评价预测、企业文档可靠处理等场景的实证与框架构建。科学计量领域持续关注指标方法的稳健性，新模型致力于解决零膨胀、极端值等数据挑战，并对超高被引论文的指标扭曲效应进行批判性审视。同时，数据管理与知识服务研究聚焦于隐私保护、版权水印及FAIR原则的领域化落地策略，体现了对数据伦理与治理的持续关注。",
+    "highlights": [
+      "论文｜Are large language models able to predict highly cited papers? Evidence from statistical publications｜实证表明大语言模型可从早期文本中提取有效信号，为基于内容的学术影响力早期预测提供了新证据。",
+      "论文｜Modeling zero-inflated and heavy-tailed citation data using Bayesian hurdle quantile regression with flexible distributions｜提出新型贝叶斯模型，为解决引文数据中普遍存在的零值多与分布偏态问题提供了更稳健的分析工具。",
+      "动态｜Enhancing FAIR data practices in China: An integrated strategy for biomedical research｜针对中国生物医学领域，提出了系统性推动科研数据遵循FAIR原则的本土化实施策略。",
+      "动态｜MIKA: Source reconstructibility for robust document processing with LLMs: Verification and domain partitioning in enterprise settings｜提出结合可溯源验证与领域划分的框架，旨在提升大语言模型在企业级文档处理任务中的可靠性。",
+      "趋势判断｜算法不平等研究正从现象描述转向议程构建，其与科学计量、信息检索等子领域的交叉将催生新的伦理与技术融合议题。"
+    ],
+    "stats": {
+      "papers": 192,
+      "news": 97,
+      "featured": 63
+    }
+  },
+  {
     "date": "2026-10-22",
     "summary": "今日图情领域研究呈现出数据驱动与人工智能深度融合的鲜明特征。在科学计量与评价方面，研究焦点集中于新型数据源与方法的开发与应用：从构建大规模时序图数据集用于跨学科连接预测，到利用多层专利网络识别核心技术，再到探索中期产出对研发成果预测的中介作用，均体现了对科研过程更精细化、动态化测量与分析的趋势。人工智能应用方面，大语言模型与图神经网络等技术的结合成为主流范式，在技术问题-解决方案匹配、高被引论文预测、引文贡献分类等具体任务上展现出潜力。同时，AI工具（如LLM辅助写作）对学术传播与评价体系的潜在影响开始受到实证关注，同行评审的流程优化也通过计算模型得到新的解决方案。整体来看，数据密集型、模型驱动的分析正深刻重塑情报学的研究范式与实践能力。",
     "highlights": [
@@ -145,23 +161,6 @@
       "papers": 172,
       "news": 120,
       "featured": 67
-    }
-  },
-  {
-    "date": "2026-10-09",
-    "summary": "今日图情领域的研究呈现出对人工智能工具应用及其影响的深度关切，特别是在学术写作、知识组织与信息检索场景。核心议题之一是量化分析大语言模型对学术产出的影响，多项计量研究发现AI辅助写作与论文被引表现存在关联，这为理解AI如何重塑学术传播与影响力评价提供了初步证据。同时，算法伦理问题持续受到关注，系统性综述为理解算法不平等提供了理论框架。在研究方法上，利用BERTopic等先进主题建模技术进行动态知识演化分析，以及构建提升科学知识图谱研究可重复性的集成框架，代表了计量与评价领域的方法论前沿。此外，针对AI生成内容（如搜索结果摘要）的可信度评估、跨模态假新闻检测以及特定语言信息检索数据集的构建，也体现了本领域应对新兴技术挑战的多元化实践。",
-    "highlights": [
-      "论文｜Conceptualizing algorithmic inequality and future agenda. An annual review of information science and technology (ARIST) paper｜该ARIST综述系统构建了算法不平等的研究框架，为信息科学领域的伦理研究提供了重要理论指引。",
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜该研究揭示了学者使用大语言模型写作与其论文被引表现之间的关联，是探讨AI如何影响学术可见性的开创性实证研究。",
-      "论文｜Revealing patterns of strategic knowledge evolution with BERTopic: Semantic–temporal trajectories via transparent adjacent-year linking in strategic management｜该研究将BERTopic与透明的时序链接方法结合，为动态知识演化分析提供了可解释性强的新方法论范例。",
-      "动态｜<span class=\"small-caps\">NormasTCU</span> — A Brazilian Portuguese IR dataset and an evaluation of LLM-as-a-judge for relevance assessment｜该工作发布了稀缺的巴西葡萄牙语IR数据集，并对使用大语言模型进行相关性判定的有效性进行了严谨评估，对多语言信息检索研究有重要价值。",
-      "动态｜Category mis-routing in LLM query planners: A reproducible failure mode and a label-free audit for e-commerce search｜该研究揭示了LLM在电商搜索查询规划中的系统性缺陷，并提出了无需标注的审计方法，对提升AI搜索系统的鲁棒性有直接参考意义。",
-      "趋势判断｜AI工具正从辅助写作向深度介入知识组织与评价环节渗透，其带来的学术影响力变化、算法偏见及系统可靠性问题，将成为图情领域未来研究的核心交叉议题。"
-    ],
-    "stats": {
-      "papers": 204,
-      "news": 138,
-      "featured": 81
     }
   }
 ]
