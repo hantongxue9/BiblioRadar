@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-10-24",
+    "summary": "今日图情领域的研究焦点高度集中于人工智能技术对学术信息生态的深度影响与赋能，并持续深化科学计量方法。在AI应用层面，研究证实大语言模型不仅能预测论文影响力，还能辅助科研评估与文档处理，其应用正从信息检索向内容生成与可信度评估等复杂任务拓展。科学计量领域则展现出方法论的精细化趋势，通过专利网络分析、引文意图分类等新颖框架，更精准地识别核心技术、评估学术贡献并剖析复杂的专利布局。此外，同行评审的公平性优化、数据隐私保护协议等研究，反映了对学术交流与信息管理过程中伦理与效率问题的持续关注。",
+    "highlights": [
+      "论文｜From citation intent to knowledge contribution: Classifying what cited papers actually contribute｜提出精细化的引文意图分类方法，为超越简单计数、评估实质性学术贡献提供了新路径。",
+      "论文｜Are large language models able to predict highly cited papers? Evidence from statistical publications｜实证研究表明，大语言模型能够基于早期文本信息预测论文的未来高被引潜力。",
+      "论文｜Identification and analysis of key and core technologies based on multilayer coupled patent networks｜构建多层耦合专利网络框架，为系统识别与分析关键核心技术提供了可操作的方法论。",
+      "动态｜AI boosts publication output more at non-elite institutions: Evidence from AlphaFold｜研究发现AI工具能更显著提升非精英机构的科研产出，可能有助于平衡科研资源分布。",
+      "动态｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜运用博弈论模型提出新机制，旨在同时提升同行评审的效率和公平性。",
+      "趋势判断｜AI应用从内容处理向可信度评估与因果建模深化｜AI在信息科学中的应用正从基础处理向理解内容可信性、构建可解释模型等更深层次演进。"
+    ],
+    "stats": {
+      "papers": 195,
+      "news": 120,
+      "featured": 65
+    }
+  },
+  {
     "date": "2026-10-23",
     "summary": "今日图情领域研究呈现出显著的技术驱动特征，核心议题围绕人工智能应用深化与科学计量方法创新展开。在人工智能应用方面，大语言模型展现出超越传统文本处理的潜力，研究重点转向其在学术评价预测、企业文档可靠处理等场景的实证与框架构建。科学计量领域持续关注指标方法的稳健性，新模型致力于解决零膨胀、极端值等数据挑战，并对超高被引论文的指标扭曲效应进行批判性审视。同时，数据管理与知识服务研究聚焦于隐私保护、版权水印及FAIR原则的领域化落地策略，体现了对数据伦理与治理的持续关注。",
     "highlights": [
@@ -129,38 +146,6 @@
       "papers": 162,
       "news": 125,
       "featured": 76
-    }
-  },
-  {
-    "date": "2026-10-13",
-    "summary": "今日图情领域研究呈现出以人工智能应用驱动为核心，并深度融合计量评价与学术传播的显著趋势。在计量与评价方面，研究焦点集中于引文分析方法的反思与优化，特别是大语言模型使用、超高频被引论文对学术评价体系的影响，以及基于多重网络和公平分配原则的新型学者产出评估框架。人工智能应用研究广泛深入，涵盖了从信息可信度评估（如假新闻检测、AI生成摘要的信任形成）、知识组织（如医疗主题建模）到辅助科研写作与评审流程优化等多个关键场景。同时，学术传播研究关注开放同行评审中的沟通效益与机制设计，用户行为研究则探索在线社区动态与信息中介的新模式。",
-    "highlights": [
-      "论文｜Who gets seen in the age of AI? Adoption patterns of large language models in scholarly writing and citation outcomes｜基于文献计量分析，实证探讨AI工具使用与论文引用表现之间的关系，是理解AI如何重塑学术可见性的重要研究。",
-      "论文｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜运用博弈论模型设计兼顾公平与效率的审稿人分配机制，为优化同行评审这一核心学术流程提供了理论创新方案。",
-      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜揭示了在AI辅助的协作学习场景中，图书馆员专业指导的关键调节作用，为图书馆服务创新提供实证依据。",
-      "动态｜From search results to generative answers: A mixed-methods study of credibility assessment and trust formation in AI Overviews｜通过混合方法深入探究用户对AI生成摘要的可信度评估过程，对搜索引擎与信息素养教育具有直接参考价值。",
-      "趋势判断｜人工智能正从辅助工具演变为重塑学术生产、传播与评价全流程的核心要素，催生对新型计量方法、伦理规范与信息服务模式的迫切需求。"
-    ],
-    "stats": {
-      "papers": 211,
-      "news": 128,
-      "featured": 74
-    }
-  },
-  {
-    "date": "2026-10-12",
-    "summary": "今日图情领域的研究呈现两大核心趋势：一是人工智能技术在信息处理与分析中的深度应用与反思，二是学术交流与评价体系的量化研究持续深化。在AI应用方面，研究重点已从基础任务转向复杂场景下的可靠性、可解释性及人机协同优化，例如通过结构感知和对比学习提升大语言模型的信息抽取能力，探讨AI生成内容（如搜索结果摘要）的可信度评估机制，以及设计融合多模态信息的谣言检测模型。在学术传播与评价方面，研究关注引文行为的规范性分析（如期刊自引模式）以及学术交流流程的效率与公平性改进（如审稿人分配机制）。这些进展共同指向一个更智能、更透明、更可信的信息生态系统构建方向。",
-    "highlights": [
-      "论文｜Contextual patterns of journal self-citation in JCR-suppressed and comparator journals: a multi-dimensional citation content analysis｜通过多维引文内容分析，揭示了被JCR压制期刊的异常自引模式，为科研诚信监测提供了关键实证。",
-      "论文｜Toward trustworthy LLM-based scientific information extraction: An ontology-guided, validation-aware workflow and a single-domain case study｜提出融合本体和验证的工作流程，是提升大语言模型在专业领域信息提取可信度的系统性探索。",
-      "动态｜AI-mediated information intermediation in collaborative problem-solving: Effects of librarian guidance intensity and cognitive authority perceptions on student teams' creative outcomes｜实证研究揭示了在AI辅助的协作学习中，馆员引导与用户对AI的认知如何共同影响创意产出。",
-      "动态｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜运用博弈论模型设计审稿人分配机制，为解决同行评审中的效率与公平平衡问题提供了新思路。",
-      "趋势判断｜人工智能应用正从追求性能转向关注可靠性、可解释性及与人类专业知识的有效协同，特别是在科学信息处理和学术交流等关键领域。"
-    ],
-    "stats": {
-      "papers": 172,
-      "news": 120,
-      "featured": 67
     }
   }
 ]
