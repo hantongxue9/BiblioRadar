@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-10-25",
-    "summary": "今日图情领域研究呈现出对数据驱动方法严谨性与实际应用效果的深度反思。在计量与评价方面，多项研究揭示了现有指标的局限性，如基金致谢数据与官方记录的严重不匹配问题，以及动态学术对象元数据的不稳定性对评价体系构成的挑战。同时，研究重点转向优化方法本身，例如开发抗噪性更强的颠覆性指数、利用贝叶斯网络分析学者绩效提升的差异化路径，以及探讨前沿AI工具对缩小机构间科研产出差距的潜在影响。在技术应用层面，结合大语言模型与图神经网络解决专利匹配问题，以及设计更公平高效的同行评审机制，成为创新焦点。",
-    "highlights": [
-      "论文｜When Acknowledgements Don’t Match: Evidence from Horizon 2020｜揭示了基金致谢作为科研评价指标的严重可靠性问题，对依赖此类数据的评估实践提出警示。",
-      "论文｜Evolving scholarly objects and metadata instability: Evidence from F1000Research in Scopus and OpenAlex｜指出开放科学实践中动态版本更新导致元数据不稳定，对长期引文追踪和学术记录构成系统性挑战。",
-      "动态｜AI boosts publication output more at non-elite institutions: Evidence from AlphaFold｜基于AlphaFold的实证研究表明，前沿AI工具可能有助于缩小不同层级科研机构间的产出差距。",
-      "动态｜Efficient peer review via a fairness-aware priority mechanism: Game theoretic modelling and evaluation｜运用博弈论模型为优化同行评审的效率和公平性提供了新的理论框架和解决方案。",
-      "趋势判断｜计量评价研究从指标构建转向数据质量校验与方法抗干扰性提升，反映出领域对科学评价稳健性与可解释性的更高追求。"
-    ],
-    "stats": {
-      "papers": 136,
-      "news": 99,
-      "featured": 71
-    }
-  },
-  {
     "date": "2026-10-24",
     "summary": "今日图情领域的研究焦点高度集中于人工智能技术对学术信息生态的深度影响与赋能，并持续深化科学计量方法。在AI应用层面，研究证实大语言模型不仅能预测论文影响力，还能辅助科研评估与文档处理，其应用正从信息检索向内容生成与可信度评估等复杂任务拓展。科学计量领域则展现出方法论的精细化趋势，通过专利网络分析、引文意图分类等新颖框架，更精准地识别核心技术、评估学术贡献并剖析复杂的专利布局。此外，同行评审的公平性优化、数据隐私保护协议等研究，反映了对学术交流与信息管理过程中伦理与效率问题的持续关注。",
     "highlights": [
